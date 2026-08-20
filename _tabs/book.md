@@ -1,4 +1,5 @@
 ---
+title: 理解的工具箱
 icon: fas fa-book-open
 order: 0
 ---
@@ -14,7 +15,7 @@ order: 0
 全書十一章分成三部，十三張圖。
 
 <div style="margin: 2rem 0;">
-  <a href="{{ '/book/' | relative_url }}"
+  <a href="{{ '/book/read/' | relative_url }}"
      style="display:inline-block;padding:.7rem 1.6rem;border-radius:4px;
             background:#2F4858;color:#fff;text-decoration:none;font-weight:500;">
     開始閱讀 →
