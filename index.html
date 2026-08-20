@@ -112,8 +112,12 @@ h1.dynamic-title { display: none; }
     else if (/^zh/i.test(navigator.language || "")) L = "zh";
   } catch (e) {}
   var btns = [].slice.call(bi.querySelectorAll(".langsw button"));
+  var TITLES = { en: "No View Is the Whole", zh: "所見非全貌" };
+  var SITE = (document.title.split("|")[1] || "").trim();
   function apply(v) {
     bi.setAttribute("data-page-lang", v);
+    document.title = TITLES[v] + (SITE ? " | " + SITE : "");
+    document.documentElement.setAttribute("lang", v === "zh" ? "zh-TW" : "en");
     btns.forEach(function (b) {
       b.setAttribute("aria-pressed", b.getAttribute("data-set") === v ? "true" : "false");
     });
