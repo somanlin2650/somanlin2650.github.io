@@ -11,6 +11,8 @@ h1.dynamic-title { display: none; }
 .bi[data-page-lang="en"] [data-l="en"] { display: block; }
 .bi[data-page-lang="zh"] [data-l="zh"] { display: block; }
 .bi h1 { font-size: 2rem; line-height: 1.3; margin: 0 0 .6rem; }
+/* 英文主標全大寫呈現，字面不動 */
+.bi [data-l="en"] h1 { text-transform: uppercase; letter-spacing: .04em; }
 .bi .sub { font-size: 1.05rem; color: #2F4858; margin: 0 0 1.6rem; }
 .bi blockquote { margin: 0 0 1.6rem; }
 .langsw { display: flex; gap: .4rem; margin: 0 0 1.8rem; }
@@ -37,7 +39,7 @@ h1.dynamic-title { display: none; }
 
   <div data-l="en">
     <h1>No View Is the Whole</h1>
-    <p class="sub"><strong>Not Only What Things Are, but How We Know Them</strong></p>
+    <p class="sub"><strong>The World and the Ways We Make Sense of It</strong></p>
     <blockquote><p>We only ever hold a map. What matters is remembering that it is one.</p></blockquote>
     <p>The book starts from a few scenes you have probably been in: a meeting where everybody insists they are stating facts; a model that performed beautifully in its old environment and failed quietly somewhere new; an argument where you understood every sentence and still felt the two of you lived in different worlds.</p>
     <p>Eleven chapters in three parts, with thirteen diagrams. Chinese and English, switchable.</p>
@@ -70,7 +72,7 @@ h1.dynamic-title { display: none; }
 
   <div data-l="zh">
     <h1>所見非全貌</h1>
-    <p class="sub"><strong>不只問事物是什麼，也問我們如何得知</strong></p>
+    <p class="sub"><strong>世界，以及我們理解它的方式</strong></p>
     <blockquote><p>我們手上永遠只有一張地圖。要緊的是，記得它是地圖。</p></blockquote>
     <p>這本書從幾個每天都會遇到的場面開始：一場每個人都說自己在講事實的會議；一套在舊環境裡表現漂亮、換個地方就悄悄失效的模型；一場你聽懂了對方每一句話、卻仍然覺得你們住在不同世界的爭吵。</p>
     <p>全書十一章分成三部，十三張圖。中英雙語，可切換。</p>
