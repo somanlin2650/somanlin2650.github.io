@@ -1,10 +1,8 @@
 ---
-title: 理解的工具箱
+title: book
 icon: fas fa-book-open
 order: 0
 ---
-
-## 理解的工具箱
 
 **我們如何看世界、如何相信、如何爭論，以及如何改變自己的想法**
 
