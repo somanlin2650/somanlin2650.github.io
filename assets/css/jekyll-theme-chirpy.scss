@@ -1,0 +1,90 @@
+---
+---
+
+// Chirpy 預設的字型堆疊是 'Source Sans Pro', 'Microsoft Yahei'。
+// 微軟雅黑是簡體中文字型，字形標準與台灣不同，這裡整組換掉：
+//   介面與標題 → 思源黑體 TC
+//   內文       → 思源宋體 TC（西文交給 Source Serif 4）
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}',
+  $font-family-base: ('Noto Sans TC', 'Segoe UI', '微軟正黑體', sans-serif),
+  $font-family-heading: ('Noto Sans TC', 'Segoe UI', '微軟正黑體', sans-serif)
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* ── 中文排版 ───────────────────────────────────────────
+   Chirpy 的行高（1.75）是照拉丁字母調的，中文需要更鬆一點才不擠。
+   內文改成宋體、行高 1.9，並加一點字距讓筆畫不互相貼住。          */
+
+.content {
+  font-family: 'Source Serif 4', 'Noto Serif TC', Georgia, '新細明體', serif;
+  font-size: 1.06rem;
+  line-height: 1.9;
+  letter-spacing: 0.015em;
+
+  p {
+    margin-bottom: 1.15em;
+    text-wrap: pretty;
+  }
+
+  /* 段落之間留白，不用首行縮排 —— 螢幕閱讀比較好掃 */
+  h2,
+  h3,
+  h4 {
+    font-family: 'Noto Sans TC', 'Segoe UI', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.55;
+    text-wrap: balance;
+  }
+
+  h2 {
+    margin-top: 2.6rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  blockquote {
+    line-height: 1.85;
+    letter-spacing: 0.015em;
+  }
+
+  /* 中英混排時，行內程式碼不要把行高撐開 */
+  code {
+    letter-spacing: 0;
+  }
+
+  /* 表格在窄螢幕自己橫向捲，不要把整頁推寬 */
+  table {
+    letter-spacing: 0;
+  }
+}
+
+/* 文章標題與側欄：字距對中文而言預設偏鬆，收一點 */
+h1.dynamic-title,
+#site-title,
+.post-title {
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+}
+
+/* 側欄的簡介文字 */
+#sidebar {
+  .site-subtitle {
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* 目錄（右側浮動）中文條目容易撞在一起 */
+#toc-wrapper li {
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
