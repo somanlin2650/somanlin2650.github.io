@@ -3,50 +3,125 @@ layout: page
 title: 所見非全貌
 ---
 
-<p><strong>一套理解任意對象的二階方法</strong></p>
+<style>
+/* 這一頁自己管標題，隱藏主題產生的那個 h1 */
+h1.dynamic-title { display: none; }
 
-<blockquote>
-  <p>我們手上永遠只有一張地圖。要緊的是，記得它是地圖。</p>
-</blockquote>
+.bi [data-l] { display: none; }
+.bi[data-page-lang="en"] [data-l="en"] { display: block; }
+.bi[data-page-lang="zh"] [data-l="zh"] { display: block; }
+.bi h1 { font-size: 2rem; line-height: 1.3; margin: 0 0 .6rem; }
+.bi .sub { font-size: 1.05rem; color: #2F4858; margin: 0 0 1.6rem; }
+.bi blockquote { margin: 0 0 1.6rem; }
+.langsw { display: flex; gap: .4rem; margin: 0 0 1.8rem; }
+.langsw button {
+  font-size: .8rem; cursor: pointer; padding: .38rem 1rem; border-radius: 3px;
+  border: 1px solid #DBE1E5; background: transparent; color: #40505C;
+}
+.langsw button[aria-pressed="true"] {
+  background: #2F4858; border-color: #2F4858; color: #fff; font-weight: 500;
+}
+.readbtn {
+  display: inline-block; padding: .7rem 1.6rem; border-radius: 4px;
+  background: #2F4858; color: #fff; text-decoration: none; font-weight: 500;
+}
+.readbtn:hover { color: #fff; }
+</style>
 
-<p>這本書從幾個每天都會遇到的場面開始：一場每個人都說自己在講事實的會議；一套在舊環境裡表現漂亮、換個地方就悄悄失效的模型；一場你聽懂了對方每一句話、卻仍然覺得你們住在不同世界的爭吵。</p>
+<div class="bi" id="bi" data-page-lang="en">
 
-<p>全書十一章分成三部，十三張圖。</p>
+  <div class="langsw" role="group" aria-label="Language">
+    <button type="button" data-set="en">English</button>
+    <button type="button" data-set="zh">中文</button>
+  </div>
 
-<p style="margin: 2rem 0;">
-  <a href="{{ '/book/read/' | relative_url }}"
-     style="display:inline-block;padding:.7rem 1.6rem;border-radius:4px;
-            background:#2F4858;color:#fff;text-decoration:none;font-weight:500;">
-    開始閱讀 &rarr;
-  </a>
-</p>
+  <div data-l="en">
+    <h1>No View Is the Whole</h1>
+    <p class="sub"><strong>A Second-Order Method for Understanding Anything</strong></p>
+    <blockquote><p>We only ever hold a map. What matters is remembering that it is one.</p></blockquote>
+    <p>The book starts from a few scenes you have probably been in: a meeting where everybody insists they are stating facts; a model that performed beautifully in its old environment and failed quietly somewhere new; an argument where you understood every sentence and still felt the two of you lived in different worlds.</p>
+    <p>Eleven chapters in three parts, with thirteen diagrams. Chinese and English, switchable.</p>
+    <p style="margin:2rem 0;">
+      <a class="readbtn" href="{{ '/book/read/' | relative_url }}">Start reading &rarr;</a>
+    </p>
+    <h2>Contents</h2>
+    <p><strong>Part One — Seeing Your Own Lens</strong></p>
+    <ol>
+      <li>Everyone Is Talking About "the Facts"</li>
+      <li>One Cup, Four Answers</li>
+      <li>The Tube Map That Got It Wrong</li>
+    </ol>
+    <p><strong>Part Two — The Lifespan of a Model</strong></p>
+    <ol start="4">
+      <li>Abstraction Debt</li>
+      <li>Useful and True Are Two Different Rulers</li>
+      <li>After Someone Swapped the Camera</li>
+      <li>Where the Leak Is</li>
+    </ol>
+    <p><strong>Part Three — Living Between Worlds</strong></p>
+    <ol start="8">
+      <li>Two Worlds in One Meeting Room</li>
+      <li>Intuition Is Compressed History</li>
+      <li>When the Map Starts Reshaping the Territory</li>
+      <li>Moving While Uncertain</li>
+    </ol>
+    <p>An afterword and a sourced list of coordinates close the book, so every story and figure quoted in the text can be checked.</p>
+  </div>
 
-<h2 id="toc">目錄</h2>
+  <div data-l="zh">
+    <h1>所見非全貌</h1>
+    <p class="sub"><strong>一套理解任意對象的二階方法</strong></p>
+    <blockquote><p>我們手上永遠只有一張地圖。要緊的是，記得它是地圖。</p></blockquote>
+    <p>這本書從幾個每天都會遇到的場面開始：一場每個人都說自己在講事實的會議；一套在舊環境裡表現漂亮、換個地方就悄悄失效的模型；一場你聽懂了對方每一句話、卻仍然覺得你們住在不同世界的爭吵。</p>
+    <p>全書十一章分成三部，十三張圖。中英雙語，可切換。</p>
+    <p style="margin:2rem 0;">
+      <a class="readbtn" href="{{ '/book/read/' | relative_url }}">開始閱讀 &rarr;</a>
+    </p>
+    <h2>目錄</h2>
+    <p><strong>第一部　看見自己的鏡頭</strong></p>
+    <ol>
+      <li>每個人都在說「事實」</li>
+      <li>同一只杯子，四種答案</li>
+      <li>那張畫錯的地鐵圖</li>
+    </ol>
+    <p><strong>第二部　模型的壽命</strong></p>
+    <ol start="4">
+      <li>抽象債</li>
+      <li>有用與為真，是兩把尺</li>
+      <li>換了一顆鏡頭之後</li>
+      <li>哪裡漏水</li>
+    </ol>
+    <p><strong>第三部　在多個世界之間生活</strong></p>
+    <ol start="8">
+      <li>會議室裡的兩個世界</li>
+      <li>直覺是被壓縮的歷史</li>
+      <li>當地圖開始改造土地</li>
+      <li>在不確定裡前進</li>
+    </ol>
+    <p>書末附〈思想座標與資料來源〉，書裡引用的每個故事與數字都可以回查。</p>
+  </div>
+</div>
 
-<p><strong>第一部　看見自己的鏡頭</strong></p>
-
-<ol>
-  <li>每個人都在說「事實」</li>
-  <li>同一只杯子，四種答案</li>
-  <li>那張畫錯的地鐵圖</li>
-</ol>
-
-<p><strong>第二部　模型的壽命</strong></p>
-
-<ol start="4">
-  <li>抽象債</li>
-  <li>有用與為真，是兩把尺</li>
-  <li>換了一顆鏡頭之後</li>
-  <li>哪裡漏水</li>
-</ol>
-
-<p><strong>第三部　在多個世界之間生活</strong></p>
-
-<ol start="8">
-  <li>會議室裡的兩個世界</li>
-  <li>直覺是被壓縮的歷史</li>
-  <li>當地圖開始改造土地</li>
-  <li>在不確定裡前進</li>
-</ol>
-
-<p>書末附〈思想座標與資料來源〉，書裡引用的每個故事與數字都可以回查。</p>
+<script>
+(function () {
+  var bi = document.getElementById("bi");
+  var L = "en";
+  try {
+    var saved = localStorage.getItem("booklang");
+    if (saved === "zh" || saved === "en") L = saved;
+    else if (/^zh/i.test(navigator.language || "")) L = "zh";
+  } catch (e) {}
+  var btns = [].slice.call(bi.querySelectorAll(".langsw button"));
+  function apply(v) {
+    bi.setAttribute("data-page-lang", v);
+    btns.forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-set") === v ? "true" : "false");
+    });
+    try { localStorage.setItem("booklang", v); } catch (e) {}
+  }
+  btns.forEach(function (b) {
+    b.addEventListener("click", function () { apply(b.getAttribute("data-set")); });
+  });
+  apply(L);
+}());
+</script>
