@@ -162,6 +162,11 @@ thead th { color:var(--slate); font-weight:500; background:var(--slate-lo);
 tbody td { border-bottom:1px solid var(--hair-soft); }
 tbody tr:last-child td { border-bottom:1px solid var(--slate); }
 
+/* 手機抽屜的遮罩：點它就收起目錄。抽屜打開時會蓋住「目錄」按鈕本身，
+   沒有這層遮罩就只能靠點章節連結關閉，等於被迫跳頁。 */
+#scrim { display:none; position:fixed; inset:0; z-index:57;
+         background:rgba(10,14,18,.45); touch-action:none;
+         opacity:0; pointer-events:none; transition:opacity .22s ease; }
 #toggle { display:none; position:fixed; z-index:55; left:1rem; bottom:1rem;
   font-family:var(--sans); font-size:.82rem; padding:.6rem 1rem;
   border-radius:999px; cursor:pointer; background:var(--slate);
@@ -173,6 +178,8 @@ tbody tr:last-child td { border-bottom:1px solid var(--slate); }
           transform:translateX(-101%); transition:transform .26s ease;
           box-shadow:0 0 30px rgba(0,0,0,.2); }
   .rail.open { transform:none; }
+  #scrim { display:block; }
+  #scrim.show { opacity:1; pointer-events:auto; }
   #toggle { display:block; }
   main { padding:0 1.2rem 6rem; }
   .cover { padding-top:4rem; }
@@ -200,6 +207,7 @@ tbody tr:last-child td { border-bottom:1px solid var(--slate); }
 
 <div id="bar"></div>
 <button id="toggle" aria-expanded="false" aria-controls="rail">目錄 / Contents</button>
+<div id="scrim" aria-hidden="true"></div>
 
 <div class="shell">
   <aside class="rail" id="rail">
@@ -248,15 +256,24 @@ tbody tr:last-child td { border-bottom:1px solid var(--slate); }
   });
   apply(root.getAttribute("data-book-lang") || "en");
 
-  btn.addEventListener("click", function () {
-    var open = rail.classList.toggle("open");
+  var scrim = document.getElementById("scrim");
+  function setDrawer(open) {
+    rail.classList.toggle("open", open);
     btn.setAttribute("aria-expanded", open ? "true" : "false");
+    scrim.classList.toggle("show", open);
+  }
+  btn.addEventListener("click", function () {
+    setDrawer(!rail.classList.contains("open"));
   });
+  scrim.addEventListener("click", function () { setDrawer(false); });
   rail.addEventListener("click", function (e) {
-    if (e.target.tagName === "A" && window.innerWidth <= 900) {
-      rail.classList.remove("open");
-      btn.setAttribute("aria-expanded", "false");
-    }
+    if (e.target.tagName === "A" && window.innerWidth <= 900) setDrawer(false);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && rail.classList.contains("open")) setDrawer(false);
+  });
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 900 && rail.classList.contains("open")) setDrawer(false);
   });
 
   function progress() {
