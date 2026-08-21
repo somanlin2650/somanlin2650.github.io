@@ -43,6 +43,7 @@ body {
   margin:0; background:var(--paper); color:var(--ink);
   font-family:var(--serif); font-size:17px; line-height:1.95;
   letter-spacing:.015em; -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%; text-size-adjust:100%;
 }
 :root[data-book-lang="en"] body { letter-spacing:0; line-height:1.75; }
 
@@ -88,7 +89,7 @@ body {
 .rail a.here { color:var(--brick); font-weight:500; }
 .rail a.here::before { background:var(--brick); }
 
-main { padding:0 2rem 8rem; }
+main { padding:0 2rem 8rem; min-width:0; }
 .cover { max-width:var(--measure); margin:0 auto; padding:7rem 0 4.5rem; }
 .cover h1 {
   font-family:"Noto Serif TC",var(--serif);
@@ -173,7 +174,10 @@ tbody tr:last-child td { border-bottom:1px solid var(--slate); }
   color:var(--paper); border:none; box-shadow:0 3px 14px rgba(0,0,0,.22); }
 @media (max-width:900px) {
   body { font-size:16.5px; }
-  .shell { grid-template-columns:1fr; }
+  /* minmax(0,1fr) 而不是 1fr：1fr 隱含 min-width:auto，track 不會縮到比
+     內容的 min-content 更窄。英文表格的 min-content 有 423px，
+     會把整個內容欄撐寬，看起來就像整頁被放大。 */
+  .shell { grid-template-columns:minmax(0,1fr); }
   .rail { position:fixed; inset:0 auto 0 0; width:min(20rem,84vw); z-index:58;
           transform:translateX(-101%); transition:transform .26s ease;
           box-shadow:0 0 30px rgba(0,0,0,.2); }
