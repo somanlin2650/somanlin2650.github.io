@@ -29,6 +29,21 @@ h1.dynamic-title { display: none; }
   background: #2F4858; color: #fff; text-decoration: none; font-weight: 500;
 }
 .readbtn:hover { color: #fff; }
+.latest-essay {
+  margin: 2.2rem 0 2.5rem; padding: 1.1rem 1.25rem 1.2rem;
+  border: 1px solid #DBE1E5; border-left: 3px solid #A8503C;
+  border-radius: 4px; background: rgba(47, 72, 88, .045);
+}
+.latest-essay .label {
+  margin: 0 0 .4rem; color: #667a86; font-size: .76rem;
+  font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+}
+.latest-essay h2 { margin: 0 0 .5rem; font-size: 1.15rem; line-height: 1.55; }
+.latest-essay p:last-child { margin-bottom: 0; }
+html[data-mode="dark"] .latest-essay {
+  border-color: #3b4650; border-left-color: #D08B70;
+  background: rgba(156, 186, 203, .06);
+}
 </style>
 
 <div class="bi" id="bi" data-page-lang="en">
@@ -47,6 +62,11 @@ h1.dynamic-title { display: none; }
     <p style="margin:2rem 0;">
       <a class="readbtn" href="{{ '/book/read/' | relative_url }}">Start reading &rarr;</a>
     </p>
+    <section class="latest-essay" aria-labelledby="latest-essay-en">
+      <p class="label">Latest essay · 中文</p>
+      <h2 id="latest-essay-en"><a href="{{ '/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">When a system cannot see its own hypoxia</a></h2>
+      <p>Why an Agent should not replace automation—and why placing an Agent above automation is still not enough.</p>
+    </section>
     <h2>Contents</h2>
     <p><strong>Part One — Seeing Your Own Lens</strong></p>
     <ol>
@@ -86,6 +106,11 @@ h1.dynamic-title { display: none; }
     <p style="margin:2rem 0;">
       <a class="readbtn" href="{{ '/book/read/' | relative_url }}">開始閱讀 &rarr;</a>
     </p>
+    <section class="latest-essay" aria-labelledby="latest-essay-zh">
+      <p class="label">最新文章</p>
+      <h2 id="latest-essay-zh"><a href="{{ '/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">當系統看不見自己正在缺氧：從 AI Agent、自動化到制度設計</a></h2>
+      <p>Agent 不該取代自動化，但把 Agent 放在自動化上方也還不夠。真正成熟的系統，必須能發現自己的感測盲點。</p>
+    </section>
     <h2>目錄</h2>
     <p><strong>第一部　看見自己的鏡頭</strong></p>
     <ol>
