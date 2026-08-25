@@ -1,0 +1,23 @@
+<p>{% if include.lang == 'en' %}Independent essays beyond the book.{% else %}這裡收錄書籍之外的獨立文章。{% endif %}</p>
+
+<div class="article-list">
+{% for item in site.data.writing %}
+  {% assign copy = item[include.lang] %}
+  <article>
+    <h2><a href="{{ copy.url | relative_url }}">{{ copy.title }}</a></h2>
+    <p>{{ copy.description }}</p>
+    <p class="article-meta">{{ item.date | date: "%Y-%m-%d" }}</p>
+  </article>
+{% endfor %}
+</div>
+
+<style>
+.article-list article {
+  padding: 1.4rem 0 1.6rem;
+  border-bottom: 1px solid var(--main-border-color);
+}
+.article-list article:first-child { padding-top: .5rem; }
+.article-list h2 { margin: 0 0 .65rem; font-size: 1.35rem; line-height: 1.5; }
+.article-list p { margin-bottom: .5rem; }
+.article-list .article-meta { color: var(--text-muted-color); font-size: .85rem; }
+</style>

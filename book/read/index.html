@@ -194,13 +194,17 @@ tbody tr:last-child td { border-bottom:1px solid var(--slate); }
 </style>
 
 <script>
-/* 語言決定：儲存過的選擇 > 瀏覽器語言（zh* → 中文）> 預設英文。
+/* 語言決定：網址指定 > 閱讀器內的選擇 > 全站語言 > 瀏覽器語言 > 預設英文。
    放在內容之前執行，避免切換時閃一下。 */
 (function () {
   var L = "en";
   try {
+    var requested = new URLSearchParams(window.location.search).get("lang");
     var saved = localStorage.getItem("booklang");
-    if (saved === "zh" || saved === "en") L = saved;
+    var siteLang = localStorage.getItem("site_lang");
+    if (requested === "zh" || requested === "en") L = requested;
+    else if (saved === "zh" || saved === "en") L = saved;
+    else if (siteLang === "zh" || siteLang === "en") L = siteLang;
     else if (/^zh/i.test(navigator.language || "")) L = "zh";
   } catch (e) {}
   var r = document.documentElement;

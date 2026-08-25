@@ -1,6 +1,8 @@
 ---
 title: "當系統看不見自己正在缺氧：從 AI Agent、自動化到制度設計"
 date: 2026-08-25 15:20:00 +0800
+lang: zh-TW
+alternate_url: /en/posts/when-ai-cannot-see-its-own-hypoxia/
 categories: [AI, 系統設計]
 tags: [AI Agent, Automation, 控制系統, AI 治理]
 description: "Agent 不該取代自動化，但把 Agent 放在自動化上方也還不夠。真正成熟的系統，必須能發現自己的感測盲點，並把安全外化成獨立監督、權限分離與制度。"

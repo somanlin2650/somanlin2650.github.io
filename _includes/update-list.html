@@ -1,0 +1,11 @@
+{% if site.data.writing.size > 0 %}
+<section id="access-lastmod">
+  <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
+  <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+  {% for item in site.data.writing limit: 5 %}
+    {% assign copy = item[include.lang] %}
+    <li class="text-truncate lh-lg"><a href="{{ copy.url | relative_url }}">{{ copy.title }}</a></li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}

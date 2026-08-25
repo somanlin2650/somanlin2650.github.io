@@ -5,3 +5,107 @@
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
 >
+
+{% if page.alternate_url %}
+  {% if page.lang == 'en' %}
+    <link rel="alternate" hreflang="zh-Hant" href="{{ page.alternate_url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="zh-Hant" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.alternate_url | absolute_url }}">
+  {% endif %}
+{% endif %}
+
+<style>
+.site-lang-switch {
+  display: inline-flex; gap: .25rem; margin-top: .9rem; padding: .2rem;
+  border: 1px solid var(--sidebar-border-color); border-radius: .35rem;
+  font-family: var(--bs-font-sans-serif); font-size: .72rem; font-style: normal;
+}
+.site-lang-switch a {
+  min-width: 2.25rem; padding: .22rem .45rem; border-radius: .22rem;
+  color: var(--sidebar-muted-color); text-align: center; text-decoration: none;
+}
+.site-lang-switch a:hover { color: var(--sidebar-active-color); }
+.site-lang-switch a[aria-current="true"] {
+  background: var(--sidebar-btn-bg); color: var(--sidebar-active-color);
+  font-weight: 600; pointer-events: none;
+}
+#topbar .site-lang-compact {
+  display: none; margin-left: auto; padding: .25rem .5rem;
+  color: var(--text-muted-color); font-size: .8rem; font-weight: 600;
+  text-decoration: none;
+}
+@media (max-width: 1199px) {
+  #topbar .site-lang-compact { display: inline-flex; }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var isEn = /^en\b/i.test(document.documentElement.lang || "");
+  var current = window.location.pathname;
+  var fallback = isEn ? "/" : "/en/";
+  var alternate = {{ page.alternate_url | default: '' | jsonify }} || fallback;
+  var zhUrl = isEn ? alternate : current;
+  var enUrl = isEn ? current : alternate;
+
+  try { localStorage.setItem("site_lang", isEn ? "en" : "zh"); } catch (e) {}
+
+  function remember(event) {
+    var target = event.currentTarget.getAttribute("data-site-lang");
+    try { localStorage.setItem("site_lang", target); } catch (e) {}
+  }
+
+  function languageLink(label, lang, href, active) {
+    var a = document.createElement("a");
+    a.textContent = label;
+    a.href = href;
+    a.setAttribute("data-site-lang", lang);
+    a.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
+    if (active) a.setAttribute("aria-current", "true");
+    a.addEventListener("click", remember);
+    return a;
+  }
+
+  var profile = document.querySelector("#sidebar .profile-wrapper");
+  if (profile) {
+    var group = document.createElement("div");
+    group.className = "site-lang-switch";
+    group.setAttribute("role", "group");
+    group.setAttribute("aria-label", isEn ? "Site language" : "網站語言");
+    group.appendChild(languageLink("中文", "zh", zhUrl, !isEn));
+    group.appendChild(languageLink("EN", "en", enUrl, isEn));
+    profile.appendChild(group);
+  }
+
+  var searchTrigger = document.getElementById("search-trigger");
+  if (searchTrigger) {
+    var compact = languageLink(isEn ? "中" : "EN", isEn ? "zh" : "en", alternate, false);
+    compact.className = "site-lang-compact";
+    compact.setAttribute("aria-label", isEn ? "切換成中文" : "Switch to English");
+    searchTrigger.parentNode.insertBefore(compact, searchTrigger);
+  }
+
+  var homeUrl = isEn ? "/en/" : "/";
+  [document.getElementById("avatar"), document.querySelector("#sidebar .site-title")]
+    .forEach(function (link) { if (link) link.href = homeUrl; });
+
+  document.querySelectorAll("#sidebar nav li.nav-item").forEach(function (item, index) {
+    var link = item.querySelector("a");
+    if (!link) return;
+    if (index === 0) {
+      link.href = homeUrl;
+      return;
+    }
+    var path = new URL(link.href, window.location.origin).pathname;
+    item.hidden = isEn ? !path.startsWith("/en/") : path.startsWith("/en/");
+  });
+
+  if (isEn) {
+    document.querySelectorAll("#breadcrumb a[href='/']").forEach(function (link) {
+      link.href = "/en/";
+    });
+  }
+});
+</script>
