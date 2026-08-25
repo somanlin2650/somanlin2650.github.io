@@ -27,29 +27,57 @@
 <script>
   {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
   document.addEventListener('DOMContentLoaded', () => {
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('search-results'),
-      json: '{{ search_index | relative_url }}',
-      searchResultTemplate: '{{ result_elem | strip_newlines }}',
-      noResultsText: '{{ not_found }}',
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'categories') {
-          if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
-          }
-        }
+    const input = document.getElementById('search-input');
+    if (!input) return;
 
-        if (prop === 'tags') {
-          if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+    /* The index now carries the full text of the book, which puts it around
+       110 KB gzipped. It used to be fetched on every page load; that is a lot
+       of traffic for a feature most visitors never touch. Fetch it the first
+       time somebody actually reaches for the search box instead. */
+    let started = false;
+
+    const start = () => {
+      if (started) return;
+      started = true;
+
+      SimpleJekyllSearch({
+        searchInput: input,
+        resultsContainer: document.getElementById('search-results'),
+        json: '{{ search_index | relative_url }}',
+        searchResultTemplate: '{{ result_elem | strip_newlines }}',
+        noResultsText: '{{ not_found }}',
+        templateMiddleware: function(prop, value, template) {
+          if (prop === 'categories') {
+            if (value === '') {
+              return `${value}`;
+            } else {
+              return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+            }
+          }
+
+          if (prop === 'tags') {
+            if (value === '') {
+              return `${value}`;
+            } else {
+              return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+            }
           }
         }
-      }
-    });
+      });
+
+      /* The fetch inside SimpleJekyllSearch is asynchronous, so anything typed
+         before it lands would sit there with no results. Replay the event a
+         couple of times so an already-typed query still resolves. */
+      const replay = () => {
+        if (!input.value) return;
+        input.dispatchEvent(new Event('input', { bubbles: true }));
+        input.dispatchEvent(new Event('keyup', { bubbles: true }));
+      };
+      setTimeout(replay, 350);
+      setTimeout(replay, 1200);
+    };
+
+    input.addEventListener('focus', start, { once: true });
+    input.addEventListener('input', start, { once: true });
   });
 </script>

@@ -13,6 +13,10 @@ h1.dynamic-title { display: none; }
   background: #2F4858; color: #fff; text-decoration: none; font-weight: 500;
 }
 .readbtn:hover { color: #fff; }
+.alt-read { margin: .85rem 0 2rem; font-size: .92rem; }
+.alt-read a { color: #667a86; }
+html[data-mode="dark"] .alt-read a,
+html[data-bs-theme="dark"] .alt-read a { color: #9CBACB; }
 .latest-essay {
   margin: 2.2rem 0 2.5rem; padding: 1.1rem 1.25rem 1.2rem;
   border: 1px solid #DBE1E5; border-left: 3px solid #A8503C;
@@ -41,8 +45,11 @@ html[data-bs-theme="dark"] .latest-essay {
   <p class="author">Soman Lin</p>
   <p>The book opens on five scenes with nothing in common: physicians in 1854 who believed cholera travelled through the smell in the air; an army scoring ten thousand hamlets a month and drifting further from the war it was trying to understand; an autopilot handing control back while the panel went on producing numbers; a child written into the box marked “hyperactive”; a message that goes three hours without a reply.</p>
   <p>Fourteen chapters in four parts, with thirteen diagrams. Chinese and English, switchable inside the reader.</p>
-  <p style="margin:2rem 0;">
+  <p style="margin:2rem 0 0;">
     <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=en">Start reading &rarr;</a>
+  </p>
+  <p class="alt-read">
+    <a href="{{ '/en/posts/no-view-is-the-whole/' | relative_url }}">Or read the whole text on the site &mdash; sidebar contents, dark mode, comments &rarr;</a>
   </p>
   <section class="latest-essay" aria-labelledby="latest-essay-en">
     <p class="label">Latest essay</p>
@@ -85,8 +92,11 @@ html[data-bs-theme="dark"] .latest-essay {
   <p class="author">Soman Lin</p>
   <p>這本書從五個彼此無關的場面開始：一八五四年相信霍亂來自空氣裡臭味的醫師；每個月替上萬個村落打分、報表越完整卻離戰爭越遠的軍隊；把控制權交還給組員、儀表卻繼續流暢輸出數字的自動駕駛；一個被寫進「過動」那一格的孩子；一則三小時沒有回音的訊息。</p>
   <p>全書十四章分成四部，十三張圖。中英雙語，可在閱讀器內切換。</p>
-  <p style="margin:2rem 0;">
+  <p style="margin:2rem 0 0;">
     <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=zh">開始閱讀 &rarr;</a>
+  </p>
+  <p class="alt-read">
+    <a href="{{ '/posts/no-view-is-the-whole/' | relative_url }}">或讀站內全文版 &mdash; 側邊目錄、深色模式、可留言 &rarr;</a>
   </p>
   <section class="latest-essay" aria-labelledby="latest-essay-zh">
     <p class="label">最新文章</p>
