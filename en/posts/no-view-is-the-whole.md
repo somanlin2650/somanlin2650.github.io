@@ -117,6 +117,7 @@ Any one of those sentences might turn out to be right. The trouble is that each 
 _Table 1.1　What a single "I know" may have mixed together_
 
 #### The eye is already selecting
+{: data-toc-skip='' }
 
 People cannot record the world the way a camera does. A camera is not especially honest either. Focal length, exposure, sensor, sampling rate — every one of them is deciding what gets kept. With human senses and attention it is more obvious still.
 
@@ -133,6 +134,7 @@ There is a small exercise that makes this concrete. Think of something recent th
 The new version is not necessarily truer. What it does is take the story apart for a moment, so you can see the square where the story was added.
 
 #### Zhuangzi's empty boat
+{: data-toc-skip='' }
 
 There is a short passage in the outer chapters of the *Zhuangzi* about crossing a river.
 
@@ -151,6 +153,7 @@ The first half of the observation, though, needs no metaphysics at all. Next tim
 If the answer is no, you at least know which row your feeling is hanging on.
 
 #### Back to those three minutes
+{: data-toc-skip='' }
 
 If we walk back into the meeting at three minutes past ten, things get duller and more workable.
 
@@ -161,6 +164,7 @@ Taking those apart does not guarantee the argument ends. At least everybody know
 This is the first habit in the book: keep explanation visible.
 
 #### So can observation really be separated from explanation?
+{: data-toc-skip='' }
 
 A strong objection arrives here. You keep telling people to pull observation apart from explanation, and yet even seeing carries concepts. Without language, without prior knowledge, a person does not know what to attend to. So is pure observation not simply nonexistent?
 
@@ -173,6 +177,7 @@ The objection has a long lineage. In 1781, in the *Critique of Pure Reason*, Kan
 The problem he was handling is very nearly this book's problem: if the mediation cannot be removed, does knowledge still count as knowledge. His answer moved necessity over to the side of the forms — causality and geometry hold inside the world of appearances, because that is how we organise experience in the first place. That route later ran into trouble, and chapter seven comes back to it.
 
 #### No pure observation, and still layers to tell apart
+{: data-toc-skip='' }
 
 Still, "there is no pure observation" and "observation and explanation do not differ" are two different sentences.
 
@@ -209,6 +214,7 @@ The same gap turns up elsewhere. Somebody says "I'm not sure," which sounds mode
 This chapter deals with both gaps: how much is actually in hand, and whose model the simulator is running.
 
 #### The unknown can be broken down
+{: data-toc-skip='' }
 
 People have an odd fear of the unknown, as though admitting "I don't know" were the same as giving up judgement. So we state vague guesses in complete-sounding sentences, because completeness is reassuring.
 
@@ -223,6 +229,7 @@ A reliable judgement usually does not take the shape of "I'm sure" or "I'm not s
 That has less force than "this is just how it is," and it is much closer to a working state of knowledge, because it reports two things at once: how I think now, and how I will change.
 
 #### Tetlock's eighty thousand forecasts
+{: data-toc-skip='' }
 
 Once you have admitted the unknown, a harder question follows. How sure should I actually be?
 
@@ -233,6 +240,7 @@ The psychologist Philip Tetlock spent twenty years doing something plodding and 
 The results were not flattering. Taken as a whole, the group did only slightly better than chance, and on some question types they did worse than a simple statistical rule that extrapolated from the recent past. One finding deserves more attention than the headline: the more often somebody appeared on television, and the more confident their manner, the lower their accuracy tended to be. They were not more ignorant. They were taking one explanatory tool past the edge of its range and not stopping.
 
 #### Calibration has little to do with being clever
+{: data-toc-skip='' }
 
 What Tetlock was really measuring is called calibration, and it has little to do with how clever anybody is. If a person says "I'm ninety per cent sure" and, over the long run, is right about ninety per cent of the time, their confidence carries information. Somebody who says ninety per cent regardless of the situation is producing tone of voice, and gets a few right by luck.
 
@@ -247,6 +255,7 @@ That turns "I don't know" from a question about knowledge into a question about 
 > That formulation ties judgement, action, monitoring, and revision into one sentence. It also has a practical effect between people. When a conclusion has been stated as "this is the fact," changing it gets experienced as losing face. When a conclusion was a working assumption from the start, revising it on new data is just normal operation.
 
 #### Understanding an idea and believing it are two different moves
+{: data-toc-skip='' }
 
 Once chapter one has pulled observation and explanation apart, another confusion surfaces.
 
@@ -259,6 +268,7 @@ Understanding is closer to building a simulator that runs. If you genuinely unde
 Separate the two and the world of ideas suddenly gets bigger, because you no longer have to decide which side you are on before you are allowed to go in and look.
 
 #### The rules of the Yijing are in the open
+{: data-toc-skip='' }
 
 Saying "you can understand it first and decide about belief later" is easy. The specific difficulties only show up when you actually assemble one.
 
@@ -267,6 +277,7 @@ The generative rules of the *Yijing* are in the open. Sixty-four hexagrams, six 
 There is another layer worth knowing. The thing we now call the *Yijing* was not written at one sitting. The core hexagram and line texts are Western Zhou divinatory language; through the Warring States and Han periods a whole body of interpretive material was added, the *Yizhuan* or Ten Wings, which reread a divination manual as a body of thought about change, timing, and virtue. The same text, used as two different tools in succession.
 
 #### The Yijing that Leibniz read
+{: data-toc-skip='' }
 
 This simulator has a trap in it, though, and the most famous instance in history stepped right onto it.
 
@@ -302,6 +313,7 @@ The question sounds like a philosophy exam, and it causes trouble every day in c
 _Figure 3.1 Purpose works like a lens: one cup, and four sets of information kept because four questions differ_
 
 #### There is a question hidden inside the word "important"
+{: data-toc-skip='' }
 
 Any act of understanding has to throw something away. This has nothing to do with laziness. If nothing is discarded, understanding never takes shape.
 
@@ -323,6 +335,7 @@ For drinking, capacity and material matter. For logistics, weight and stackabili
 This is why a lot of large questions are asked wrongly from the start. "Which management method is best?" has almost no answerable content without organisation size, talent structure, time horizon, and the cost of failure. "Does AI have intelligence?" turns easily into a fight over nouns unless somebody first says which capability we want to predict, in what environment, and what kind of failure is tolerable.
 
 #### Expertise is a discipline of ignoring
+{: data-toc-skip='' }
 
 A doctor, an engineer, a lawyer, an accountant, and a designer looking at the same situation will notice different differences. This does not mean one of them is closer to the world. Each profession has trained a set of rules about what can be left unexamined for now.
 
@@ -337,6 +350,7 @@ Management works the same way. A company says it wants to improve efficiency. Fi
 Plenty of arguments never reach a conclusion because what they were arguing about was never the answer; it was the question.
 
 #### Purpose has three layers, and the middle one gets skipped
+{: data-toc-skip='' }
 
 "Ask about the purpose first" turns into a management slogan very easily, so it needs digging.
 
@@ -351,6 +365,7 @@ Suppose a customer service policy aims to shorten average call time. It may genu
 Purpose is less like a blank to be filled in and more like a tree. Above it are higher reasons. Beside it are constraints that cannot be ignored. Below it are the indicators and methods you have provisionally adopted.
 
 #### Switching lenses
+{: data-toc-skip='' }
 
 We talk about one thing being more abstract and another more concrete, as though abstraction had a fixed staircase. Go back to the cup and it does not work that way.
 
@@ -365,6 +380,7 @@ When a company compresses employees into performance scores, the comparable diff
 Abstraction is not the problem; forgetting what it did is where the trouble starts.
 
 #### A clumsier question that holds up better
+{: data-toc-skip='' }
 
 The next time you meet "which is better," "does this even count," or "what is the essential nature of this," you can decline to answer and rewrite it into something clumsier:
 
@@ -374,6 +390,7 @@ The next time you meet "which is better," "does this even count," or "what is th
 That sentence has none of the elegance of a philosophical slogan, and it smells faintly of engineering. Its use is to force a vague question to grow coordinates. Once coordinates appear, a lot of arguments that looked like arguments about the nature of the world show their real shape: we are choosing a way of looking.
 
 #### Who gets to decide what we are solving
+{: data-toc-skip='' }
 
 If purpose analysis only ever reaches "ask about the goal first," it turns into a tool for making existing power more efficient.
 
@@ -388,6 +405,7 @@ What that fight was about was not whose data was more accurate. Both sides could
 Organisations work the same way. A purpose is rarely just a variable in somebody's head. It is usually an outcome of power. So purpose is worth splitting into three layers. The task purpose answers what has to be done now. The system purpose answers why that is worth doing. The legitimacy condition asks which costs should not be decided by one party alone, even when the trade would buy efficiency. That third layer is the one that stops "ask about the purpose" from sliding into pure optimisation.
 
 #### Wald's bullet holes
+{: data-toc-skip='' }
 
 A purpose can be met beautifully and still be the wrong problem.
 
@@ -404,6 +422,7 @@ Abstraction does more than subtract; it can also discover. Some problems are har
 A team that keeps investigating which person is inefficient will improve only so far. Restate the problem as waiting time, dependency, and rework loops, and a question about personalities becomes a question about a system. Change the representation and the kind of causality you can see changes with it.
 
 #### Who pays for the simplification
+{: data-toc-skip='' }
 
 Every abstraction makes some differences disappear. That in itself carries no moral weight. The awkward part is that a disappeared difference sometimes turns into somebody else's cost.
 
@@ -432,6 +451,7 @@ A map drawn to exact scale, dense with terrain, would help you less with changin
 There is an important turn buried in that small piece of history. A model's usefulness often comes from its willingness to stop resembling the world.
 
 #### Compression is what makes a map usable
+{: data-toc-skip='' }
 
 We tend to treat simplification as a compromise forced on us, as though the ideal model would retain as much reality as possible. Something that genuinely retained every detail would no longer be a model. It would be a second copy of the world, equally hard to handle.
 
@@ -455,6 +475,7 @@ _Figure 4.1 The return line between a model and the world: outcomes constrain wh
 So when somebody says a model is not reality, the sentence has not yet done any work. Of course it is not. The question with more information in it: which relations did this model keep? Is its distortion purposeful or unnoticed? And which costs did it move somewhere out of sight?
 
 #### Complexity does not vanish, it relocates
+{: data-toc-skip='' }
 
 Modern life leans heavily on things that look simple. You press a phone and half an hour later food arrives at the door. You call an API and a few lines of code make use of an enormously complicated system behind it. You glance at a green light on a dashboard and know things are normal.
 
@@ -469,6 +490,7 @@ Engineering talks about technical debt. Plenty of concepts accumulate something 
 A model evaluation that looks only at average accuracy works well while the data is stable. Change the camera, the image pipeline, or the user population, and the distribution differences that were averaged away become the main problem. The team's instinct at that point is to tune the model again, and the debt they actually owe may not be in the parameters. It may be that the original representation left the environment out.
 
 #### Boundaries are drawn by people and their consequences are real
+{: data-toc-skip='' }
 
 The moment a model starts compressing, boundaries appear.
 
@@ -483,6 +505,7 @@ Forget the second and you mistake a cut made for the convenience of deciding for
 Keeping that distinction lets you avoid two extremes at once. On one side, all categories are fictions so none of them matter. On the other, the category exists, therefore nature is built this way.
 
 #### A model is more like an interface than a mirror
+{: data-toc-skip='' }
 
 The most useful metaphor for a model is an interface.
 
@@ -501,6 +524,7 @@ The better a model is, the more transparent it becomes. Once transparent, what w
 So the discipline that matters most with a model is remembering it is there, which is more useful than doubting it constantly.
 
 #### Completeness is also a cost
+{: data-toc-skip='' }
 
 Back to Beck's map: one sentence there was left unfinished.
 
@@ -511,6 +535,7 @@ So a model faces at least two costs pointing in opposite directions. Compress to
 The second cost is just as real. Not thinking it through, not finishing the calculation, not remembering it, not being able to explain it, not deciding in time — those are all failures.
 
 #### Who is holding this map
+{: data-toc-skip='' }
 
 So "which model is better" is missing a question: who is going to use it?
 
@@ -537,6 +562,7 @@ Care is needed here not to claim more causation than the evidence carries. The i
 What it does demonstrate clearly is something else: a representation that actually gets executed at three in the morning and a representation that most completely describes the causes of infection were never the same object. Those five were chosen for high impact and low friction. A list containing every known risk factor would describe the situation more fully, and nobody inserting a line would actually walk through it.
 
 #### Change the notation and hard things get easy
+{: data-toc-skip='' }
 
 There is more than one way to make a problem operable. The last two sections were about discarding information. There is another move in which no information is lost at all and only the notation changes.
 
@@ -561,6 +587,7 @@ This matters for the trade-off above. Compressing more or less really is a trade
 So a representation decides more than what we see. It also decides which operations are expensive and which are cheap. Whoever drew the tube map made finding an interchange cheap, at the price of making walking distance expensive to estimate.
 
 #### Complexity can be opened on demand
+{: data-toc-skip='' }
 
 If the best level of complexity changes with the user, you do not necessarily need many mutually exclusive models.
 
@@ -571,6 +598,7 @@ Give a very coarse version ordinarily, expand the second layer when needed, go d
 "Is this model any good" is therefore not a question that can be answered apart from the user. The more accurate version: between the information this task requires and the complexity the person — or the machine — using it can carry, is there a position that works?
 
 #### Korzybski's dog biscuits
+{: data-toc-skip='' }
 
 "The map is not the territory" comes from a Polish-American scholar, Alfred Korzybski. In *Science and Sanity*, published in 1933, he built an entire discussion of language and reality on that comparison. A map is useful if its structure is similar to the territory's, and a map is never the territory; the mistake people make most often is taking their own language for the world.
 
@@ -583,6 +611,7 @@ His comment, roughly, was that he had just demonstrated that people do not only 
 The story is crude in exactly the right way. It is not saying labels do nothing; labels do plenty, and those students' reactions are perfectly understandable. It points at something else: a large share of our response to the world is a response to our own label, and we normally cannot detect that layer.
 
 #### The map is not the territory, and the territory will embarrass the map
+{: data-toc-skip='' }
 
 That line turns very easily into a breezy relativism: everybody has their own map, so let everybody walk their own way.
 
@@ -597,6 +626,7 @@ Granting that we reach the world through representations does not mean the world
 Which brings us to a harder question. If a model was never the world, on what basis do we say one model is better?
 
 #### When two maps both work, how do you choose?
+{: data-toc-skip='' }
 
 Admitting multiple models creates a practical nuisance: the same phenomenon really can have two or more models that work.
 
@@ -609,6 +639,7 @@ A few things can be compared. Whether they answer the same question. Whether the
 Those criteria do not add themselves up into a single score. High-risk engineering weights reliability more heavily; exploratory research may care more about explanatory power and generating new hypotheses. A universal leaderboard does not exist. What needs to exist is a reason you can check: why this map.
 
 #### Multiple models need governance, not a collection
+{: data-toc-skip='' }
 
 Organisations often say they value multiple perspectives, and what actually happens is that each department files a report and the same single indicator decides at the end.
 
@@ -621,6 +652,7 @@ Once models genuinely enter decisions, these stop being philosophical decoration
 Maturity in a multiple-model world is not measured by whether everybody has their own opinion. It is measured by whether we know where different views each have standing, and where they have to check each other.
 
 #### The models that ran too hot
+{: data-toc-skip='' }
 
 Climate science may be the only field that has written multi-model governance into its institutions.
 
@@ -641,6 +673,7 @@ Over the following decade hundreds of papers and a great deal of journalism wrot
 A map marked "worst case", taken out and used for turn-by-turn navigation. There was nothing wrong with the model. What went wrong was that the citation stripped off its conditions.
 
 #### An incident where "only the interface changed"
+{: data-toc-skip='' }
 
 The story below combines several real cases into one, with details altered. The shape of it is common.
 
@@ -694,6 +727,7 @@ This state can be called abstraction debt.
 One distinction has to be kept clear: being lossy is not the same as being in debt. The tube map in the last chapter throws away real distance on purpose, and what its users are doing is changing trains — that loss is the design, not a defect. The debt only starts accruing when something else becomes true: what was discarded turns back into information this task needs, and there is no longer a cheap way to retrieve it.
 
 #### A debt that was not incurred out of laziness
+{: data-toc-skip='' }
 
 "Technical debt" has a clear origin. In 1992, at a conference on object-oriented programming, the programmer Ward Cunningham submitted a short experience report about a portfolio management system he had built. He used borrowing to describe a phenomenon: to hit the delivery speed in front of you, adopt a design that is not ideal but works, and pay a little interest on every future change; keep not repaying and the interest eventually consumes your development speed.
 
@@ -709,6 +743,7 @@ What is owed here is not knowledge of the substrate. Nobody needs to know every 
 _Figure 5.1 The abstraction debt cycle: simplification files the complexity away, and a change of environment starts charging interest_
 
 #### The debt grows fastest when things run smoothly
+{: data-toc-skip='' }
 
 An interface that fails every day does not earn much trust. The awkward case is the one that has not failed for three years. After three years the interface stops being experienced as an interface at all and starts feeling like the world.
 
@@ -717,6 +752,7 @@ This is the same thing as the warehouse system in the last chapter. When the exc
 Abstraction debt therefore has a counter-intuitive property: it tends to accumulate while the system is running at its best. Success lowers the motivation to look downward, and it leads organisations to delete, one step at a time, the redundant knowledge, the exception fields, the human judgement, and the context records that look unnecessary. Each deletion is reasonable in the moment. The risk only becomes visible when some future exception that does not yet have a name shows up.
 
 #### McNamara's data room
+{: data-toc-skip='' }
 
 In January 1961, Kennedy appointed a man who had been president of Ford Motor for a few weeks as Secretary of Defense. During the war Robert McNamara had worked in statistical control, analysing the efficiency of bomber missions for the American air forces; afterwards he joined Ford and used the same methods to pull a company close to losing control back onto its rails. What he brought into the Pentagon was a full apparatus of managing by numbers, along with a group of young analysts who became known as the Whiz Kids.
 
@@ -733,6 +769,7 @@ In 1995 McNamara published a memoir and acknowledged that many of the reports us
 This is also the bridge between abstraction debt and chapter thirteen. An abstraction starts out describing. Connect it to power and it starts producing the thing it only meant to measure.
 
 #### Users are not that easily fooled
+{: data-toc-skip='' }
 
 People are not merely deceived by abstraction layers. Much of the time we are rather good at pushing a tool further than its designer imagined, without knowing the principles underneath.
 
@@ -747,6 +784,7 @@ This capability can be called edge lubrication.
 Lubrication does not repair the substrate. It knows that turning this dial a little further, slowing that step down, handing a certain exception to a human, will get the system across a place where it does not run smoothly. A great deal of professional intuition, craft skill, and organisational tacit agreement has this ingredient in it.
 
 #### Lubrication promotes itself quietly
+{: data-toc-skip='' }
 
 We are inclined to revere real understanding of the substrate and to look down on workarounds. From the standpoint of bounded rationality that hierarchy is suspect. The world is too large for anybody to have time to build a complete causal model of every tool. A nurse who knows from years of experience that certain monitor readings look normal while the patient is not right, an operations engineer who knows that a particular combination of log lines means a failure is coming — those judgements can be extremely valuable even before anybody has theorised them.
 
@@ -764,6 +802,7 @@ _Table 5.1　At the edge of a model, you actually have three moves_
 _Figure 5.2 The three responses are not ranked; they cost different amounts_
 
 #### Russell's chicken
+{: data-toc-skip='' }
 
 Push this one layer further and you arrive at the problem of induction.
 
@@ -784,6 +823,7 @@ This state can be called structural blindness. It is a different thing from bein
 David Hume's version, from 1748, is stricter. His question was a different one: on what basis do we move from "it has always been so" to "it will go on being so"? If the answer is that reasoning this way has worked in the past, we are still using induction to defend induction. People do not stop predicting because of this; we still have to live, design, treat patients, do science. What Hume removed is one kind of over-confidence: past success cannot supply a logical guarantee.
 
 #### Unknowns with no box to put them in
+{: data-toc-skip='' }
 
 We usually picture the unknown as a question mark: the answer has not been filled in, and at least the box has been drawn. Structural blindness is more awkward. It says some unknowns have no box.
 
@@ -796,6 +836,7 @@ So mature risk management cannot only enumerate known risks. It has to keep a st
 So "the best abstraction" is not the cleanest and most unified one. A good abstraction sometimes has to leave a rough edge on purpose: let the user see the uncertainty, give exceptions somewhere to be recorded, let an expert drill down, keep new phenomena from being forced into old categories.
 
 #### Is science just a pile of patches?
+{: data-toc-skip='' }
 
 Follow the metaphor along and a seductive conclusion arrives: since people can never see the universe's source code, science is only patching at the edges of the real world; Newton was one interface, relativity and quantum mechanics are larger patches, and more patches are coming.
 
@@ -808,6 +849,7 @@ In the same way, calling dark matter or dark energy patches jammed in to rescue 
 There are two extremes to avoid here. The first is treating science as having already seen the world's source code. The second is deciding that because science revises itself, it is no different in kind from a folk workaround. Both throw away the interesting part in the middle.
 
 #### "Truth is unreachable" should not become an unrevisable truth
+{: data-toc-skip='' }
 
 The most tempting sentence at this point is that truth is finally unreachable. That is a poor candidate for the book's last answer.
 
@@ -818,6 +860,7 @@ The version worth committing to is weaker. Our knowledge always passes through r
 That version is less romantic and wears better. It lets a scientific realist say the best theories may really have caught deep structure, and lets an instrumentalist say a theory's primary value is organising and predicting experience. This book does not have to settle that argument, and it can still ask both sides the same practical question: where might your model be in debt, and what signal would make you willing to drill down or refactor?
 
 #### Managing abstraction debt does not mean refusing to borrow
+{: data-toc-skip='' }
 
 If abstraction necessarily loses information, then never owing abstraction debt is as impossible as never using abstraction. Civilisation itself is borrowing: language, institutions, professional specialisation, software, money, statistics, scientific models all trade a manageable representation for not having to rebuild everything from the raw world every day.
 
@@ -842,6 +885,7 @@ That pause is worth stopping on. Inside it he handled two things at once. This p
 The problem was never that usefulness does not matter. The problem is how easily we let usefulness do work that truth alone has standing to do.
 
 #### Four different rulers
+{: data-toc-skip='' }
 
 Suppose a theory lets you predict next month's sales accurately. That is one kind of success: predictive success.
 
@@ -870,6 +914,7 @@ There are four common swaps. Because it helped me, it is true. Because it is tru
 Each of those inferences might turn out to hold, but none of them holds automatically.
 
 #### Ptolemy's epicycles
+{: data-toc-skip='' }
 
 In the second century, the Alexandrian astronomer Ptolemy wrote the *Almagest*. He assumed the Earth stands still with the sun, moon, and stars going round it; to account for the planets moving fast and slow and occasionally appearing to reverse, he had each planet turn on a small circle whose centre travelled on a large circle around the Earth. With a few technical corrections, that system could compute where a planet would appear on a given future date.
 
@@ -888,6 +933,7 @@ So for those intervening decades, if you looked only at which one computed bette
 The example lands two blows at once. Predictive success does not guarantee a true mechanism. And the model whose mechanism is closer to reality may lose on accuracy in its first version.
 
 #### True is an axis, not a championship trophy
+{: data-toc-skip='' }
 
 Keeping true and useful apart matters, and not because truth is unimportant. It matters because truth is important enough that no other kind of success should get to stand in for it.
 
@@ -898,6 +944,7 @@ Splitting the axes lets you treat different things more fairly.
 Some things have weak evidence on truth and considerable strength in psychological function. Acknowledging the second does not require faking the first. Some scientific propositions are highly reliable under specific conditions and offer almost no direct guidance for a person's purposes in life; acknowledging that does no damage to their scientific standing.
 
 #### "Useful" is not a free pass either
+{: data-toc-skip='' }
 
 A functional orientation carries a large temptation: once an idea is useful, stop asking what it costs.
 
@@ -906,6 +953,7 @@ So useful needs three questions attached. Useful to whom? Useful over what perio
 A KPI can be very useful to a manager, because it compresses complicated work into one number, and it can generate a great deal of unreasonable behaviour among front-line staff. A simple classification rule can be efficient for a system while a handful of boundary cases absorb nearly all the errors. An explanation that makes somebody feel better for now has a function in the short term and may block them from facing what actually needs handling.
 
 #### Some things do not owe a function
+{: data-toc-skip='' }
 
 In 1995, Nick Hanley, Clive Spash, and Lorna Walker published a survey about biodiversity. Their method was standard environmental economics: ask people what they would be willing to pay to protect certain species, collect the answers, and turn them into a number that can enter a cost-benefit analysis.
 
@@ -928,6 +976,7 @@ So asking after the function is a useful step, and there are places it cannot re
 Look again at the ten minutes at the start of this chapter. In functional terms they got a man through that year, and that is true. But what he said every morning was which meetings were coming up, what the kid scored on a test, that yesterday's soup was too salty. That is what a continuing relationship looks like, not the contents of a stress-reduction programme. Functional analysis can see the effect of the first thing and has no reading for the second.
 
 #### True does not guarantee worth knowing
+{: data-toc-skip='' }
 
 Turned around: something may be very probably true and still not deserve the same expenditure from you right now.
 
@@ -938,6 +987,7 @@ This is not anti-knowledge; it is admitting that cognition has a cost.
 An engineer debugging does not chase every variable to the bottom; they look for the signal most likely to change a decision. A doctor facing an emergency does not first complete a final description of the whole patient; they handle the information that changes immediate treatment. Both are allocating effort on the same question: which part of the truth is most worth knowing right now.
 
 #### The pill with "placebo" written on it
+{: data-toc-skip='' }
 
 If different kinds of success genuinely cannot be run together, there ought to be a case where something scores near zero on one ruler and not on another, and where the person knows perfectly well about the first part.
 
@@ -956,6 +1006,7 @@ What was actually doing the work is mixed into the practice: the ritual, the exp
 So the experiment should not be read as "false things can work too." It says something else: the pharmacological activity of the carrier being zero does not make the function of the whole situation zero.
 
 #### When a false belief genuinely makes somebody's life better
+{: data-toc-skip='' }
 
 This is the most uncomfortable boundary.
 
@@ -970,6 +1021,7 @@ Back to that stick of incense. Those ten minutes every morning fall into the fou
 This is not a perfect answer. It at least avoids trading "respect somebody's functional needs" for "no proposition need face examination."
 
 #### Forer's personality report
+{: data-toc-skip='' }
 
 In 1948 the psychologist Bertram Forer gave a personality test to thirty-nine students in his class and handed back an individual analysis to each of them the following week. He asked them to rate how accurate the analysis was, on a scale to five.
 
@@ -986,6 +1038,7 @@ The same set of events can usually be rearranged into several stories, and when 
 So explanatory power needs two further questions. Did it separate the possible outcomes in advance? Did it propose a checkable relation that other models would not readily generate? None of this demands that every story about a life become experimental science. It says that when a story wants to be promoted from "this helps me understand" to "the world is like this," the burden of evidence has to rise with it.
 
 #### Why science, religion, and meaning always end up in the same argument
+{: data-toc-skip='' }
 
 Large systems of thought are the hardest to discuss, because they are usually doing several jobs at once.
 
@@ -1000,6 +1053,7 @@ The more reliable move is to split first. What is this sentence doing right now?
 What splitting the functions apart is for is stopping each of them from using its own strongest kind of success to occupy every other question; it is less polite than diplomatic language.
 
 #### The layer Kabat-Zinn removed
+{: data-toc-skip='' }
 
 That business of "separating the functions first" sounds like an exercise from a philosophy seminar. It has actually been done, and done to a very large tradition.
 
@@ -1016,6 +1070,7 @@ Among the things removed were the Eightfold Path's requirements about speech, ac
 So separating the functions is a diagnostic move, used to see what a claim is currently doing. It issues nobody a licence to take the most convenient layer out of a tradition and discard the rest.
 
 #### What if the truth hurts?
+{: data-toc-skip='' }
 
 We sometimes talk about truth-seeking too romantically, as though knowing were always liberating.
 
@@ -1028,6 +1083,7 @@ The more precise move separates "is this proposition true" from "when, in what m
 Truth and care will not always point at the same course of action. When both cannot be maximised at once, the least that is needed is knowing what is being traded for what.
 
 #### "True" must not quietly become "ought"
+{: data-toc-skip='' }
 
 Another common swap slides straight from fact to value. Even when we are highly confident that some practice raises output, that fact alone does not yield "therefore the company should do it." It may cost safety, dignity, long-term resilience, or fairness in distribution.
 
@@ -1054,6 +1110,7 @@ The answers have started being wrong.
 That scene matters not because machine learning is unusually fragile. It magnifies the most dangerous mode of failure in human cognition: after a model leaves the environment where it works, it usually does not tell you.
 
 #### We remember conclusions and forget conditions
+{: data-toc-skip='' }
 
 Most knowledge has conditions attached when it is first built. A study holds within a particular population, measurement method, and time range. An engineering formula depends on certain approximations. Management experience comes from a certain size of team. A piece of interpersonal intuition formed inside one specific history with one specific person.
 
@@ -1083,6 +1140,7 @@ The domain of validity can be seen as an instruction sheet that any model worth 
 _Table 7.1　A model passport: writing the conditions back into the knowledge_
 
 #### True within bounds
+{: data-toc-skip='' }
 
 People sometimes feel that only unconditional claims count as real knowledge. The most reliable knowledge in science and engineering is usually extremely clear about its conditions.
 
@@ -1097,6 +1155,7 @@ This state can be called true within bounds: inside clear assumptions, represent
 The phrase is not trying to found a new philosophical school. It offers a kind of cognitive hygiene. It reminds us that plenty of truths came with brackets, and casual speech deleted the brackets.
 
 #### Euclid's fifth
+{: data-toc-skip='' }
 
 Newtonian mechanics being fenced in is easy enough to accept; it is a physical theory, after all. What follows happened in the place everybody assumed was safest.
 
@@ -1119,6 +1178,7 @@ Then comes the most ironic part. In 1915 Einstein needed mathematics that could 
 Truth-within-bounds has a hard version here: even necessity may only be necessity inside some set of assumptions. Which is also why an alternative representation with no visible use is worth keeping — you do not know which year physics will need it.
 
 #### Familiarity impersonates the domain of validity
+{: data-toc-skip='' }
 
 The chicken from chapter five is worth mentioning again here. Its problem was not only that it had too little data. All of its data came from one invisible generating condition. When the upper-level mechanism changes, more old samples only make it more confident about the old domain. Structural blindness is at its most dangerous at the moment experience is richest.
 
@@ -1133,6 +1193,7 @@ This is why seniority is not a cross-context passport. Experience converts relia
 Some fields have fast feedback and stable rules, and expert intuition there is very strong. Some have highly random outcomes and delayed feedback, and experience may only make the stories smoother.
 
 #### Simon's scissors
+{: data-toc-skip='' }
 
 If every model had to carry a complete domain of validity and every judgement had to check all its conditions, we would be exhausted before lunch.
 
@@ -1149,6 +1210,7 @@ A theoretically more precise model may be less suited to a task than a simple bu
 So model evaluation has to include cognitive cost. How long does the data take to obtain? Which specialist is needed? Can an error be recovered? Is there a second layer of monitoring? Bounded rationality counts the limited resources as design conditions too; it is not saying that people cannot manage, so anything goes.
 
 #### A domain of validity is more like a set of conditions
+{: data-toc-skip='' }
 
 We like to draw a tidy circle: valid inside, unknown outside.
 
@@ -1164,6 +1226,7 @@ This also explains why transfer learning can be astonishingly successful and cat
 Similarity should not be judged by names, but by mechanism.
 
 #### A model needs a passport, not divinity
+{: data-toc-skip='' }
 
 A model that matters deserves a short passport.
 
@@ -1176,6 +1239,7 @@ You can do the same for human judgement.
 That sentence is far more professional than "I have been doing this for years, I know." Because being professional means knowing where your confidence has standing.
 
 #### The environment gets changed by the model
+{: data-toc-skip='' }
 
 There is a more troublesome class of system: the model does not only observe the world, it changes the world once deployed.
 
@@ -1186,6 +1250,7 @@ That reflexivity makes "it was validated in the past" insufficient. You also hav
 A hiring model that was accurate at first may change the composition of the workforce because the company relied on it for years. A system chasing click-through may train user preferences into a shape it finds easier to predict. In systems like these, monitoring counts as part of the model rather than as maintenance.
 
 #### Success should come with the words "where?"
+{: data-toc-skip='' }
 
 We love sharing what worked and rarely share its boundary.
 
@@ -1200,6 +1265,7 @@ None of this is meant to slow every decision down. Quite the opposite. Only by k
 What slows a person down is usually something else: walking to the edge of a cliff on an old map, and discovering there that the terrain changed a while ago.
 
 #### Extrapolation is most dangerous when it still looks normal
+{: data-toc-skip='' }
 
 If a model stopped working the moment it left its domain, things would be easier. The danger is that it goes on producing a handsome number, a complete classification, a fluent sentence. No red light appears on the interface, and a user has very little chance of detecting from the form that reliability has dropped.
 
@@ -1210,6 +1276,7 @@ Managing a domain of validity therefore cannot rely on the model's own confidenc
 In machine learning this is domain shift, out-of-distribution detection, and monitoring. In life it is one sentence: do not assume the world is the same because it feels equally familiar.
 
 #### A domain of validity also moves over time
+{: data-toc-skip='' }
 
 A model passport written once and filed away is still not enough. The reflexivity described earlier makes a validation result expire: once the conditions move, the old certificate no longer describes the system in front of you.
 
@@ -1218,6 +1285,7 @@ So a domain of validity is closer to a versioned document than a static certific
 Knowledge that has to live in a moving world has to preserve more than its conclusions; it has to preserve its own life history.
 
 #### Why that average score suddenly stops being trustworthy
+{: data-toc-skip='' }
 
 The sequence below has turned up repeatedly. The details differ each time and the shape barely changes.
 
@@ -1258,6 +1326,7 @@ Versions of this reasoning turn up in meeting rooms with any subject you like in
 And carries no information.
 
 #### An explanation that fits any outcome has separated no outcomes
+{: data-toc-skip='' }
 
 A good model does not have to predict every detail, and it does at least have to make some states of the world produce different consequences from others.
 
@@ -1270,6 +1339,7 @@ Asking somebody whether they are open-minded achieves nothing; almost everybody 
 As long as that sentence cannot be written, what is being called revisability is probably an attitude rather than a mechanism.
 
 #### Popper and the eclipse
+{: data-toc-skip='' }
 
 Vienna in 1919 had just climbed out of military defeat and the collapse of an empire, and every ism in existence was being argued on the street. That year the seventeen-year-old Karl Popper encountered several systems that explained everything at once: Marxism, Freudian psychoanalysis, Adler's individual psychology, and the general relativity Einstein had just proposed.
 
@@ -1286,6 +1356,7 @@ In 1934 Popper wrote the intuition up as *Logik der Forschung*. His claim was th
 The criterion was later flattened into a slogan, and many philosophers of science have found problems with it — theories are rarely killed by a single observation, which we come to below. That core move remains the best self-check available: stick your neck out, and say in advance what would make you concede.
 
 #### The question Popper later took back
+{: data-toc-skip='' }
 
 Taking falsifiability as your standard runs you into one very awkward object: natural selection.
 
@@ -1310,6 +1381,7 @@ That is a neck stuck out. If beak size had not shifted after the drought, or had
 The idling in "survival of the fittest" comes from stripping the mechanism out and leaving a label behind. Put the mechanism back, and it starts ruling out results immediately: which food disappeared, which trait carried an advantage, whether the advantage is heritable.
 
 #### One counterexample need not blow up the building
+{: data-toc-skip='' }
 
 The opposite extreme is equally naive: see one exception and declare the whole theory wrong.
 
@@ -1327,6 +1399,7 @@ Perhaps the core mechanism survives and the domain of validity is smaller than y
 Revisable means knowing which part to move.
 
 #### The summer Kuhn read Aristotle
+{: data-toc-skip='' }
 
 In the summer of 1947, Thomas Kuhn was a doctoral student in physics at Harvard. The president, James Conant, asked him to help teach a history of science course for students who were not scientists, which meant Kuhn had to read primary sources, Aristotle's *Physics* among them.
 
@@ -1347,6 +1420,7 @@ Revision therefore needs two layers. The first tunes parameters and fixes local 
 A system with only the first layer is very good at patching itself and never changes itself.
 
 #### The data we rewrite most is our own memory
+{: data-toc-skip='' }
 
 In 1974 the psychologists Elizabeth Loftus and John Palmer ran an experiment that now appears in every introductory textbook. Forty-five students watched the same film of a car accident and were then asked about the speed. One word in the question differed: some were asked how fast the cars were going when they *smashed into* each other, others when they *hit* each other.
 
@@ -1369,6 +1443,7 @@ A decision log like that looks plodding and does something important: it stops y
 Over time you start seeing something more useful than "I judge things fairly well." Do you always underestimate schedules? Are you over-optimistic about people you know well and over-cautious about unfamiliar technology? As long as the data survives, errors can become training data for your own model.
 
 #### When should you actually change frameworks?
+{: data-toc-skip='' }
 
 No single number answers this. Several signals are worth watching.
 
@@ -1391,6 +1466,7 @@ This history is not clean — Lorentz's work was not merely cosmetic, the transf
 An engineer who meets a stretch of code that is nothing but exception clauses starts suspecting the abstraction layer was chosen wrongly. Ideas are the same. When the maintenance cost of the exceptions exceeds the cost of redescribing the problem, what to consider may not be one more patch.
 
 #### The cost of revision is real
+{: data-toc-skip='' }
 
 People do not change their minds painlessly just because the evidence changed.
 
@@ -1413,6 +1489,7 @@ Understanding this is not a way of excusing the refusal of evidence. It lets us 
 Resilient thinking gets things wrong too. It just does not require the whole person to collapse when it does.
 
 #### Updating too fast is also a failure of reason
+{: data-toc-skip='' }
 
 If revisability gets misread as changing your position whenever new information arrives, we slide from rigidity into the opposite: drift without memory.
 
@@ -1421,6 +1498,7 @@ A single anomaly may be measurement error, random variation, or a one-off condit
 So mature handling of counterexamples is not a choice between overturning and not overturning. The layer diagram above has a second use here: it lets an idea be injured locally, instead of having to choose between defending to the death and self-destruction every time it takes a hit.
 
 #### Evidence does not land on a blank sheet
+{: data-toc-skip='' }
 
 There is a more basic reason behind all this, and it deserves its own hearing.
 
@@ -1443,6 +1521,7 @@ Asking it does not necessarily dissolve the disagreement. But it turns "who is i
 It also puts a limit on the thread above. Demanding that somebody change their mind the instant evidence appears is demanding that they pretend to have no past. The reasonable demand is narrower: be able to state your starting point, and let it actually move as evidence accumulates.
 
 #### Is it still willing to take a risk?
+{: data-toc-skip='' }
 
 There is a very simple question for testing whether an idea is still alive: is it still willing to take a risk?
 
@@ -1451,6 +1530,7 @@ Risk here need not mean predicting a precise number. It can be as little as bein
 A mental model worth using over the long run keeps an entrance through which the world might change it. That entrance is the proof that it has not yet been disconnected from reality.
 
 #### The debugging posture
+{: data-toc-skip='' }
 
 When software misbehaves, a good engineer does not begin by asking whether the whole system is right or wrong. He narrows the problem.
 
@@ -1471,6 +1551,7 @@ It has lost the sweep of the original and suddenly has a boundary it can work in
 That is how counterexamples actually accumulate knowledge. They leave more than "I was wrong before"; they make a single solid block of thinking grow seams, and the clearer the seams, the cheaper the next repair.
 
 #### "Staying open" is not a compliment about character
+{: data-toc-skip='' }
 
 "I am a very open-minded person" carries almost no information.
 
@@ -1508,6 +1589,7 @@ At ten past four the meeting turns into something else.
 From that moment the discussion will not improve, because each side has translated the other's decision model into a character defect.
 
 #### A stated position has almost no predictive power
+{: data-toc-skip='' }
 
 Somebody's thinking usually gets stored as one sentence. He is for shipping fast. She is against the policy. He believes markets self-correct.
 
@@ -1537,6 +1619,7 @@ Lay those variables out and the shape of the conflict changes.
 _Table 9.1　When an argument jams, find which layer the break is on_
 
 #### The test is whether you can predict them
+{: data-toc-skip='' }
 
 Plenty of people say they understand your meaning, when what they have done is repeat your sentence.
 
@@ -1547,6 +1630,7 @@ If the market window stretched out by six months, would product still be in a hu
 This kind of understanding can be called rebuilding the generator. What you need to store is the relation between input and output: which conditions make it produce which answers.
 
 #### Understanding comes at several depths
+{: data-toc-skip='' }
 
 Stretch that test out in both directions and understanding an idea can stop at any of several places.
 
@@ -1565,6 +1649,7 @@ What separates these five positions is not the amount of knowledge. Somebody can
 Chapter eleven comes back to this, because being able to carry a structure elsewhere is itself a move that has to be practised.
 
 #### Haidt's three months
+{: data-toc-skip='' }
 
 In 1993 the social psychologist Jonathan Haidt, then twenty-nine, flew to Bhubaneswar in eastern India for three months of fieldwork.
 
@@ -1581,6 +1666,7 @@ This passage needs reading carefully. Haidt did not conclude that the hierarchy 
 That simulator has a use he emphasises himself. In his later books he describes moral judgement with a rider on an elephant: intuition is the elephant and goes first; reasons are the rider on its back, usually finding a route for the elephant after the fact. If you only talk to the rider, the elephant is not listening.
 
 #### Translation is most dangerous when it succeeds too fast
+{: data-toc-skip='' }
 
 Trying to understand an unfamiliar body of thought, the natural move is translating it into a language you already have.
 
@@ -1593,6 +1679,7 @@ Good translation sometimes needs to leave the original word in place for a while
 Translation is therefore more than a dictionary. It has at least two further layers: functional translation, which asks what this concept is responsible for over there, and value translation, which asks why that thing is worth protecting to them.
 
 #### Not every difference should be smoothed away
+{: data-toc-skip='' }
 
 Understanding each other gets imagined as everybody eventually discovering they were the same all along.
 
@@ -1607,6 +1694,7 @@ Mature translation does not grind the differences flat. It shrinks the irreducib
 Being able to say "we largely agree on the facts, and the disagreement is about who should carry the risk" is a long way ahead of telling each other they are being unreasonable. The conflict is still there, and it has finally been placed on the right layer.
 
 #### Power also decides who has to translate themselves
+{: data-toc-skip='' }
 
 A cross-viewpoint method that discusses understanding without discussing power becomes naive.
 
@@ -1619,6 +1707,7 @@ So an important act of viewpoint translation has three more questions attached. 
 Understanding requires empathy, and also staying alert to who holds the right of representation.
 
 #### Sometimes the best output is a map of breakpoints
+{: data-toc-skip='' }
 
 Not every bridge has to reach the far bank.
 
@@ -1631,6 +1720,7 @@ A clearly stated incommensurability is sometimes more mature than a vague harmon
 Understanding does not rewrite somebody else's world into your version. It makes visible, for the first time, which parts of the ground between two worlds can be walked and which cannot.
 
 #### Understanding someone does not oblige you to keep doing it
+{: data-toc-skip='' }
 
 Talk of viewpoint translation produces a moral pressure of its own, as though any remaining conflict meant you had not understood enough.
 
@@ -1647,6 +1737,7 @@ That boundary matters. Otherwise "multiple perspectives" turns into a one-sided 
 Mature connection across viewpoints does not soften every conflict. It lets cooperation happen where cooperation belongs, negotiation where negotiation belongs, and a line drawn where a line belongs.
 
 #### The best rebuttal comes after the other person feels understood
+{: data-toc-skip='' }
 
 Assembling somebody's argument into its strongest version gets treated as a courtesy technique. It is closer to a test.
 
@@ -1659,6 +1750,7 @@ Once you can genuinely rebuild them, the rebuttal gets stronger. You can say: I 
 High-quality disagreement requires precision, not friendliness.
 
 #### What survives a change of viewpoint
+{: data-toc-skip='' }
 
 Faced with disagreement, people tend towards two extremes. One is wanting only to prove themselves right. The other is rushing to find common ground and grinding the real difference flat in the process.
 
@@ -1671,6 +1763,7 @@ These can be called candidate invariants. They are not final truths, only struct
 A good map of viewpoints should also permit the other output: breakpoints. Some rankings of value simply differ, some experience cannot be fully shared, some ontological premises have no shared arbiter for now. Admitting a breakpoint means we have finally stopped covering a real disagreement with a fake consensus.
 
 #### Identity changes the price of evidence
+{: data-toc-skip='' }
 
 The same evidence does not cost the same to different people.
 
@@ -1683,6 +1776,7 @@ Once you see that layer, you notice that some effective communication is about l
 A good institution for revision should keep that step available too. Otherwise we praise learning with our mouths and punish updating with humiliation.
 
 #### Back to the meeting that would not end
+{: data-toc-skip='' }
 
 Take that Thursday afternoon apart again and it may be a different situation.
 
@@ -1731,6 +1825,7 @@ As for multiplying by one, that is wreckage left over from the tax change. It us
 Not a line of the code changed. But it went from being an absurd piece of code to being a record.
 
 #### "What is it" and "why did it grow this way" are two questions
+{: data-toc-skip='' }
 
 Faced with something people made, the first question often yields very little.
 
@@ -1747,6 +1842,7 @@ For those three lines the answer is an external system that could not be changed
 Not one of those is stupid.
 
 #### You still cannot name a file CON
+{: data-toc-skip='' }
 
 Open any Windows machine and try to create a file called CON.
 
@@ -1773,6 +1869,7 @@ Two documents from the same company, each recording a decision from a different 
 A fossil does not vanish one day. What it usually does first is become a set of rules that several compatibility layers no longer quite agree on.
 
 #### The typewriter story is a fossil too
+{: data-toc-skip='' }
 
 There is a widely repeated answer to why the keyboard is QWERTY: to slow typists down, so the typebars of early machines would not clash and jam.
 
@@ -1789,6 +1886,7 @@ Here is what this section is actually for. Asking why something grew this shape 
 Rebuilding the context does not mean finding a better story. It means going back to look at who was there, what they were solving, and what they could not move.
 
 #### Two-digit years
+{: data-toc-skip='' }
 
 In the 1960s and 1970s, storage was expensive in a way that is now hard to imagine. Storing a year as two digits meant two fewer year characters per record. How much space that actually saved depended on the data format and the implementation, but in an era of high storage costs and millions of records, the saving was real money.
 
@@ -1801,6 +1899,7 @@ This belongs here because it joins two chapters together. Chapter five was about
 The record of the debt is written into the present shape of the thing.
 
 #### What you are looking for, reading backwards
+{: data-toc-skip='' }
 
 Rebuilding context does not need a procedure. In practice, attention tends to land in a few places.
 
@@ -1815,6 +1914,7 @@ Which step was meant to be temporary. A temporary fix has a signature: it solved
 And a less comfortable question: who does this shape currently benefit. Some things stay as they are not because nobody understands them, but because changing them would cost somebody something.
 
 #### Hardened judgements
+{: data-toc-skip='' }
 
 This way of reading goes considerably further than code.
 
@@ -1829,6 +1929,7 @@ That is itself the point of this chapter. A formation history rarely has a singl
 An institution can be read as a group folding up its past judgements and putting them away. chapter thirteen comes back to this, because what happens after the folding is a chapter's worth of problem on its own.
 
 #### Who drew the boundaries between disciplines
+{: data-toc-skip='' }
 
 University departments look like the natural joints of the world.
 
@@ -1839,6 +1940,7 @@ This does not mean the boundaries are arbitrary. They correspond roughly to genu
 But part of what makes interdisciplinary work hard is not a real seam in the world. It is that two sides evolved their languages, their review standards, and their promotion systems separately for a hundred years. Seeing that layer changes how you cross: what has to be handled is not only a difference in concepts, but two sets of hardened institutions.
 
 #### The stress on a bridge does not change with your viewpoint
+{: data-toc-skip='' }
 
 This chapter has one misreading that has to be blocked.
 
@@ -1851,6 +1953,7 @@ What can be read as judgement is a different layer: why this safety factor rathe
 The two layers stay apart. The line from chapter four holds here as well: the territory will embarrass the map. Reconstructing how a made thing came to be does not make the physical consequences it bears negotiable.
 
 #### Not chasing essences is not denying them
+{: data-toc-skip='' }
 
 The opposite misreading has to be blocked too.
 
@@ -1863,6 +1966,7 @@ The difference is in the object. Code, laws, procedures, interfaces, classificat
 This remains the book's standing attitude: rather than hurrying to declare what the world ultimately is, compare what different ways of understanding can each deliver.
 
 #### Back to those three lines
+{: data-toc-skip='' }
 
 The new engineer did not delete them in the end.
 
@@ -1899,6 +2003,7 @@ The next day there was a concrete decision to make: a project fourteen months in
 The bamboo message is no help there.
 
 #### Take the story away, what is left
+{: data-toc-skip='' }
 
 Take the bamboo away and one sentence remains: accumulating over the long term may matter.
 
@@ -1911,6 +2016,7 @@ This is easy to turn into criticism, and that would be the wrong reading. The st
 The four rulers from chapter six apply directly here. The bamboo message scores on the one marked *meaning*: it supplied direction and endurance. What it lacks is not on that table at all — it has not given anybody a question they were not asking before.
 
 #### Yin and yang as a move
+{: data-toc-skip='' }
 
 Set something else beside it.
 
@@ -1933,6 +2039,7 @@ The comparison is not saying that yin and yang are true and bamboo is false. Nei
 This is another use for the two rulers from chapter six. There the problem was that useful does not equal true; here it is the same separation from the other side — whether a thinking tool lets us see more can also be independent of whether it describes the ultimate nature of the world. There is no need to settle the metaphysical standing of yin and yang before being allowed to use that move.
 
 #### An analogy is for looking, not for proving
+{: data-toc-skip='' }
 
 Analogy is not a bad thing in this book. It can make an abstract relation memorable, let somebody see a possible structure for the first time, and supply a hypothesis worth checking.
 
@@ -1951,6 +2058,7 @@ Bamboo's growth curve is a fact of botany. Whether human capability accumulates 
 The line from chapter seven needs narrowing here. There the question was whether a model can be trusted in a new environment, so mechanism was the requirement. Here the question is whether a structure can be carried away, and the bar is lower: matching relations already have value, except that the value is one more way of looking, not one more conclusion.
 
 #### Two different questions, not one
+{: data-toc-skip='' }
 
 Two lines have been running here, and they are easy to knead together. Kneaded together, they lose precision.
 
@@ -1967,6 +2075,7 @@ The reverse holds too. A difference in mechanism is not a failure of transfer �
 So "is this analogy correct" and "what did this analogy add" are two separate checks. When they get run together, what usually happens is that the result of one is used to hand out a prize or a sentence on behalf of the other.
 
 #### Four different things an idea can give you
+{: data-toc-skip='' }
 
 Put all of this together and four different things may be left in your hands after meeting an idea.
 
@@ -1993,6 +2102,7 @@ The trouble is valuing all four as if they were the same. After reading somethin
 Asking what is left when the story is taken away is asking exactly this.
 
 #### Why some people learn one thing and can use it everywhere
+{: data-toc-skip='' }
 
 Those bullet holes from chapter three will do one more shift.
 
@@ -2011,6 +2121,7 @@ These are not four lessons. They are one structure wearing four sets of clothes:
 Without knowing what the filter removed, the distribution in front of you cannot simply be taken for the distribution of the world.
 
 #### Taking off the situational clothing
+{: data-toc-skip='' }
 
 That move has one step in it that is easy to skip.
 
@@ -2025,6 +2136,7 @@ The right depth is usually the layer where the relations still work and the situ
 In this case what still works is the set of relations: who stays in, who never appears in the data. The bombing is situation. Sometimes there is a statable mechanism underneath, as there is here with the selection process; sometimes only the relations line up while the mechanisms differ. Either can be carried away.
 
 #### What stays when the representation changes
+{: data-toc-skip='' }
 
 Chapter nine dealt with candidate invariants: the relations still standing after you change the language, the role, or the scale.
 
@@ -2039,6 +2151,7 @@ The bamboo story does not pass, and that wants stating precisely: not because we
 Note that this is a verdict on the second line, not the first. The encouragement still has its function. This test answers one thing only: whether the structure can be carried to the next problem and used again.
 
 #### From many to few, not from many to one
+{: data-toc-skip='' }
 
 There is an attractive direction here that has to be blocked.
 
@@ -2059,6 +2172,7 @@ Between some fields there is no transferable structure, and a resemblance forced
 The most honest output from crossing fields is sometimes a map of the breaks — the phrase from chapter nine. These two things are not alike, and here is where they are not alike. Giving up on unification is more use than forcing it.
 
 #### What accumulates
+{: data-toc-skip='' }
 
 The structures a person can call on accumulate slowly.
 
@@ -2098,6 +2212,7 @@ Beginners usually react in one of two ways. One is reverence, treating the exper
 Both are too simple.
 
 #### Klein's lieutenant
+{: data-toc-skip='' }
 
 The psychologist Gary Klein spent many years interviewing people who decide under pressure: firefighters, intensive care nurses, military commanders, nuclear plant operators. He wanted to know what those people actually did inside a few seconds.
 
@@ -2116,6 +2231,7 @@ Asked afterwards how he knew, the lieutenant said it was a sixth sense. Klein re
 Klein later called the pattern recognition-primed decision. An expert is not comparing all the options in a few seconds. He has recognised a shape he has seen before, and that shape comes attached to an action.
 
 #### Skill folds a long chain of reasoning up
+{: data-toc-skip='' }
 
 Learning to drive, you attend item by item to the mirrors, the wheel, the distance, the speed. Once fluent, many of those operations stop appearing in awareness as complete sentences. A chess player does not recompute every possibility at every move, and a doctor does not spell out every differential diagnosis each time.
 
@@ -2131,6 +2247,7 @@ You are left holding a feeling, and no longer clear about which environments it 
 So an intuition's reliability should be judged by its provenance, not by how strongly it presents itself.
 
 #### Gigerenzer's way of catching a ball
+{: data-toc-skip='' }
 
 If intuition is compression, what is left after the compression? The German psychologist Gerd Gigerenzer answers with catching a high ball.
 
@@ -2147,6 +2264,7 @@ Gigerenzer uses this to make a point: whether a simple rule is good depends on w
 A great deal of expert intuition is made of this sort of thing. These are not shrunken versions of a complete calculation; they are shortcuts tailored to a particular environment.
 
 #### Some environments grow good intuition and some do not
+{: data-toc-skip='' }
 
 Two names usually get placed on opposite sides of this discussion. From the 1970s, Daniel Kahneman and Amos Tversky accumulated a large body of evidence that fast human judgement departs from the norms systematically. Gary Klein spent an equally long time documenting cases where expert intuition saved lives.
 
@@ -2161,6 +2279,7 @@ Satisfy only half and experience may only make the stories smoother. Long-horizo
 "I have been doing this for twenty years" has value, but it is incomplete evidence. The better questions: across those twenty years, did errors have any chance of being revealed? Did you ever check a prediction against an outcome? Has the environment already changed a few times?
 
 #### Who has been sampling your last ten years for you
+{: data-toc-skip='' }
 
 Both of those conditions are about the environment. And the phrase "there is feedback" can be opened one layer further.
 
@@ -2187,6 +2306,7 @@ There is usually more than one filter. Your own choices, the class of problem yo
 Experience is a batch of samples you drew from the world, not the world itself. Samples have a provenance, and so, therefore, does intuition.
 
 #### Emotion is a hypothesis generator
+{: data-toc-skip='' }
 
 Intuition is hard to discuss without emotion.
 
@@ -2201,6 +2321,7 @@ A more useful move treats emotion as a hypothesis generator.
 Let the feeling exist first, then convert it into a hypothesis that can be checked, which beats both suppressing it and sanctifying it.
 
 #### Intuition needs a return ticket
+{: data-toc-skip='' }
 
 The ideal state can be called a revisable intuition.
 
@@ -2215,6 +2336,7 @@ Unfolding does not announce that the intuition was wrong. It takes the intuition
 A system does not normally need to display every internal state, and once an alarm fires it has to be able to enter a debugging mode.
 
 #### Reason also needs interrupting by intuition
+{: data-toc-skip='' }
 
 This does not run in one direction only.
 
@@ -2231,6 +2353,7 @@ This also explains why a genuine expert is sometimes both fast and slow. Most of
 Because they know that a feeling of familiarity is sometimes itself the danger signal.
 
 #### Working it out is not yet internalising it
+{: data-toc-skip='' }
 
 That line in the last section — the new analysis gets compressed again through practice and feedback — went too fast.
 
@@ -2255,6 +2378,7 @@ None of which should close as "once it is internalised, trust the intuition." Wh
 Nor does it exempt the path from expiring. Environments change, and a revised intuition needs a return ticket exactly as much as the old one did. As for what makes that willingness to claim it worth anything, chapter fourteen comes back to handle it.
 
 #### What an expert can teach may be the triggers
+{: data-toc-skip='' }
 
 The question beginners most want to ask an expert is how did you know.
 
@@ -2269,6 +2393,7 @@ To pass expert capability to a newcomer, you may not have to force the expert to
 The interviewing method Klein went on to develop does roughly this. He does not ask what your judgement model is. He asks whether your decision would have differed if one particular cue had been different.
 
 #### Every intuition should have a provenance
+{: data-toc-skip='' }
 
 The same sentence — I just feel this is wrong — can represent completely different qualities of cognition.
 
@@ -2277,6 +2402,7 @@ One version comes from thousands of high-quality feedback events over ten years:
 Both are subjectively called experience, and they can feel exactly as strong. The difference sits in the provenance, not in the feeling. The first has far better standing to have formed a reliable pattern; the second may only have formed familiarity.
 
 #### Write down "something is off" before explaining it
+{: data-toc-skip='' }
 
 Studying intuition runs into a large difficulty: reasons after the fact are very easy to rewrite. Once something has happened we supply a handsome story for the feeling we had, until we cannot ourselves distinguish which cues were genuinely noticed at the time. The lieutenant's first answer, after all, was a sixth sense.
 
@@ -2301,6 +2427,7 @@ The last kind can never be seen. You can write down what you expected option B t
 So whether to buy that information, and how much, depends on three things: what it costs to get, what one error costs, and how many more times the judgement will be used. A judgement you will use for ten years is worth buying for, because the tuition amortises; a judgement made once that you cannot afford to get wrong is also worth buying for, because there is no second time to amortise across. The one not worth buying for is the other kind: made once, and cheap to get wrong.
 
 #### Fast and slow is a question of standing
+{: data-toc-skip='' }
 
 We slip easily into thinking slow thought is the higher grade, as though longer analysis meant more rationality. That is equally wrong.
 
@@ -2335,6 +2462,7 @@ It also has a set of less satisfied customers.
 What happened here goes deeper than a badly designed KPI. A model that was only meant to describe reality started changing it.
 
 #### Goodhart's rewritten sentence
+{: data-toc-skip='' }
 
 In July 1975 the Reserve Bank of Australia held a conference on monetary economics in Sydney. Charles Goodhart, an economic adviser at the Bank of England, submitted a paper on British monetary management experience, and dropped in a sentence along the way that became better known than the paper: any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
 
@@ -2345,6 +2473,7 @@ At around the same time the American social psychologist Donald Campbell propose
 In 1997 the anthropologist Marilyn Strathern, writing about the British university assessment regime, compressed it into the line everybody remembers: when a measure becomes a target, it ceases to be a good measure. Three people, each standing at a different scale: monetary policy, social institutions, everyday organisations.
 
 #### The rat tails of Hanoi
+{: data-toc-skip='' }
 
 In Hanoi in 1902, the French colonial administration had just finished a modern sewer system, and the sewers turned into a motorway for rats, with plague risk rising behind them.
 
@@ -2357,6 +2486,7 @@ What followed the historian Michael Vann has traced in the archives. Live rats w
 The story is worth telling not because those catchers were wicked. Their behaviour was entirely rational. What actually happened is that a tail had been a reliable proxy for a dead rat, and the moment the proxy was connected to money, the link between it and the thing it stood for came apart.
 
 #### Four hours in an English emergency department
+{: data-toc-skip='' }
 
 The Hanoi story is easy to laugh at because it is far away. The next one is closer.
 
@@ -2371,6 +2501,7 @@ This is more complicated than the rats of Hanoi, because two things are true at 
 So the question worth asking is not whether to have indicators. Without them, management is left with authority, impressions, and anecdote. The question worth asking: what did we compress good emergency care into? And in the compression, who lost their representation?
 
 #### Once an indicator is wired to reward, it stops being a ruler
+{: data-toc-skip='' }
 
 Plenty of abstractions look neutral on paper: a score, a category, a ranking.
 
@@ -2388,6 +2519,7 @@ After a while it is hard to tell whether what we measured is the world we starte
 Institutional design therefore cannot only ask whether this indicator correlates with the goal now. It also has to ask whether that correlation will survive everybody optimising for it. The second question is usually harder and more important.
 
 #### A category creates its own objects
+{: data-toc-skip='' }
 
 This does not only happen to numbers.
 
@@ -2402,6 +2534,7 @@ AI systems push this further. A model turns the world into computable features a
 At that point how high the accuracy is becomes only the first question. The others: where are the errors distributed? Who carries the misclassifications? Can the output be appealed? Once somebody has been classified, do the downstream opportunities make the classification self-fulfilling? And which things, having no field to live in, gradually lose their institutional existence? Once an abstraction holds power, the standard of transparency it owes is higher than an ordinary model's.
 
 #### Errors are never distributed evenly
+{: data-toc-skip='' }
 
 Every classification produces false positives and false negatives, and in a real institution the cost of an error rarely lands evenly on everybody.
 
@@ -2412,6 +2545,7 @@ So a high-stakes classification cannot be judged on an aggregate score. It also 
 Whether an institution is mature often depends less on avoiding all errors, which is not achievable, and more on whether it has designed an exit for the fact that the model will certainly be wrong sometimes.
 
 #### An institution is a mental model written into the environment
+{: data-toc-skip='' }
 
 Rules, processes, interfaces, permissions, KPIs, and algorithms are all fixing certain judgements into the environment in advance.
 
@@ -2436,6 +2570,7 @@ The failure modes are therefore symmetrical. A reliable intuition becomes a prej
 All three are one thing: the folded object is still in use, and nobody remembers what it was folded for.
 
 #### Good institutions need version numbers too
+{: data-toc-skip='' }
 
 We rarely look at institutions as models, so once an institution exists it easily acquires a naturalness it has not earned.
 
@@ -2450,6 +2585,7 @@ An institution's revisability cannot rest on an annual review. It needs anomalie
 Otherwise the organisation acquires a very dangerous kind of stability: everybody has learned to accommodate the model, and the model therefore looks increasingly correct.
 
 #### The year Asperger's disappeared
+{: data-toc-skip='' }
 
 The thing that most resembles a version number on an institution may be a manual.
 
@@ -2472,6 +2608,7 @@ The fifth edition also changed how it numbers itself. Earlier editions used Roma
 That is the most honest thing about it. A classification system that shapes millions of lives puts its version number on the cover and admits in public that it is only one edition; that the next will differ; that some of the boxes in this one will later be merged, split, or deleted. Most institutions will not write that down.
 
 #### AI shows us how vague our own concepts are
+{: data-toc-skip='' }
 
 "Does AI actually have intelligence?" is an attractive question and jams very easily.
 
@@ -2484,6 +2621,7 @@ So rather than asking first whether AI is intelligent, it is more useful to spli
 Splitting it this way does not dodge the philosophical question. It separates questions that had been stuck together, so we can see which ones experiments can answer and which remain conceptual and metaphysical.
 
 #### Four different questions
+{: data-toc-skip='' }
 
 People are easily led by surface behaviour.
 
@@ -2502,6 +2640,7 @@ The four are related, and not one of them can close the case on the other three 
 AI works like a mirror here. It forces us to understand the machine, and it also forces us to admit that our concepts of understanding, creativity, personhood, and consciousness were never as clear as we assumed.
 
 #### Abstraction has become too easy to deploy
+{: data-toc-skip='' }
 
 Humans have always classified the world. What is different about AI is that classification can now be executed instantly, at volume, and cheaply.
 
@@ -2532,6 +2671,7 @@ What should those constraints finally become?
 If the answer is more terminology, this book has failed.
 
 #### What is needed is a system that can switch back and forth
+{: data-toc-skip='' }
 
 Compressed into one sentence of engineering language: a good system for understanding is one that can get back down to the substrate when the debt starts charging interest. No system is free of abstraction debt.
 
@@ -2576,6 +2716,7 @@ The sixth asks about revision. What would change me? If there is no answer, the 
 The six windows are not there to turn life into a form. Used repeatedly, they should compress into a new kind of intuition, and the windows close again until the next signal pushes them back open.
 
 #### Two loops
+{: data-toc-skip='' }
 
 The whole method can shrink further, into two loops.
 
@@ -2593,6 +2734,7 @@ There is a shift here that matters. We do not need to wait for certainty before 
 If a choice is reversible and cheap, try it quickly. If it is irreversible and expensive, add analysis, a second opinion, and a safety margin. Cognitive effort should match the cost of error rather than the state of your ego.
 
 #### A stopping rule
+{: data-toc-skip='' }
 
 Every meta-method carries one danger: it turns into unlimited analysis.
 
@@ -2609,6 +2751,7 @@ If the error is irreversible and extremely expensive, then more resources up fro
 That rule matters, because admitting the unknown is not the same as granting the unknown a veto. We live permanently inside incomplete information. A mature system has to be able to manage the unknown.
 
 #### Putting the method inside a real decision
+{: data-toc-skip='' }
 
 Suppose you are considering an important job offer.
 
@@ -2629,12 +2772,14 @@ The sixth window sets the updating condition. What information is still worth ge
 Do all that and you may still have no correct answer. You will have a decision more traceable than an impulse and more actionable than endless analysis.
 
 #### A lot of pain in relationships comes from treating an explanation as an event
+{: data-toc-skip='' }
 
 Between "they did not reply" and "they do not care about me" there may be a few seconds, and cognitively several layers have been crossed. The first is close to an event. The second already contains causality, intention, and a value judgement. The empty boat from chapter one is the cheapest tool here: is the pain coming from the event, or from there having been somebody aboard it?
 
 Separating them does not make the feeling go away, and it should not. What helps is letting the feeling stop doing the causal analysis at the same time. You can acknowledge that you were hurt while holding several explanations open. You can ask the other person to respond without first treating an unverified story as their nature. Once the model and the person are kept apart, the model can be updated, and the person may exceed the old representation you hold of them.
 
 #### Two positions worth keeping while reading anything
+{: data-toc-skip='' }
 
 One position goes inside the author's world, letting their concepts actually run. The other stays outside, remembering to ask what problem it serves, which assumptions it depends on, and where it might fail.
 
@@ -2647,6 +2792,7 @@ Good reading is not a quick ruling on whether a book is right. It temporarily ad
 This book should be read that way too.
 
 #### Apply the same method to your own framework
+{: data-toc-skip='' }
 
 If this book's viewpoint has any consistency, it has to turn around and audit itself at the end.
 
@@ -2663,6 +2809,7 @@ That is not self-demolition; it is self-consistency.
 What is worth keeping was never a few particular words. It was a handful of habits: keep the representation and the world apart; put the purpose in front of the answer; remember that a model has a boundary. And two harder ones: understanding is not agreement, and changing your mind is not failure.
 
 #### Seeing clearly is not the same as standing in the middle
+{: data-toc-skip='' }
 
 In November 2009 the United States Preventive Services Task Force revised its breast cancer screening recommendation. Biennial mammography for women aged fifty to seventy-four was graded B. The band from forty to forty-nine was changed to grade C, meaning the decision should be an individual one and should take the patient's own weighting of the benefits and harms into account.
 
@@ -2707,6 +2854,7 @@ One more layer has to be kept apart. When a commitment binds only you, the last 
 The screening recommendation demonstrates that last step itself. The Task Force ended up pushing the decision in the forty-to-forty-nine band back to the individual, and wrote "the patient's values regarding specific benefits and harms" into the recommendation in as many words. The approach is open to criticism: it hands the hardest judgement to the person with the least information. What it did not do was pretend that the weighting was a medical question.
 
 #### What is left is not six questions
+{: data-toc-skip='' }
 
 If the six windows become a checklist to be filled in every time, they will turn into a new rigid model of their own.
 
@@ -2717,6 +2865,7 @@ What should remain is a few deeper reflexes. Hearing a very complete story, wond
 A method should finally become a temperament. Not a sense of superiority — a temperament somewhat harder to carry away on your own certainty.
 
 #### The final test is whether you can change more easily
+{: data-toc-skip='' }
 
 Reading a book about mental models, the easiest irony is coming away with one more vocabulary for explaining other people.
 
@@ -2727,6 +2876,7 @@ Can you lower the weight on a model you have succeeded with, once it starts fail
 If you can, these tools have not turned into new armour. Holding a few more frameworks is not the hard part; being able to switch when the world declines to cooperate is.
 
 #### Back to that gap
+{: data-toc-skip='' }
 
 The preface said this book wanted to leave a gap between "the world is like this" and "this is how I currently understand the world."
 
@@ -2787,6 +2937,7 @@ That may not be ultimate wisdom, but it is a starting point that can keep being 
 This book is not a summary of the works below, and it does not ask you to accept any one author's position whole. What they provide is coordinates: some support the book's discussion of models, bounded rationality, counterexamples, conceptual boundaries, and intuition; others supply the problems this book had to distinguish itself from or correct. The stories and figures used in the text are sourced here as well, so you can go back and check them yourself.
 
 #### Perspective, attribution, and classical sources
+{: data-toc-skip='' }
 
 *Zhuangzi*, "Mountain Trees" (outer chapters).　The empty-boat passage: an empty hull strikes your boat and even a bad-tempered man is not angry; put a person aboard and by the third shout the voice turns ugly. "Before, no anger; now, anger. Before, empty; now, occupied." Chapter one quotes the last two clauses.
 
@@ -2795,6 +2946,7 @@ Akira Kurosawa, *Rashomon.* 1950.　Adapted from Akutagawa's "Rashōmon" and "In
 Immanuel Kant. *Kritik der reinen Vernunft.* 1781 (2nd ed. 1787).　Appearance and the thing in itself; space and time as forms of sensibility. The lineage of the objection in chapter one, and the showcase that collapses in chapter seven.
 
 #### Maps, representation, and abstraction
+{: data-toc-skip='' }
 
 Alfred Korzybski. *Science and Sanity.* 1933.　The general-semantics tradition behind "the map is not the territory." The dog-biscuit demonstration in chapter four is a widely retold anecdote and is not in the book's main text.
 
@@ -2815,6 +2967,7 @@ Slava Kalyuga, Paul Ayres, Paul Chandler & John Sweller. "The Expertise Reversal
 Jane Jacobs. *The Death and Life of Great American Cities.* 1961.　Redescribing the same street under a different purpose. On the conflict with Robert Moses, see Robert Caro, *The Power Broker*, 1974.
 
 #### Bounded rationality, intuition, and expert judgement
+{: data-toc-skip='' }
 
 Herbert A. Simon. *Models of Man.* 1957; *The Sciences of the Artificial.* 1969.　Bounded rationality, satisficing, and the scissors metaphor. Nobel Prize in Economics, 1978.
 
@@ -2845,6 +2998,7 @@ Donald A. Schön. *The Reflective Practitioner.* 1983.　Reflection and tacit kn
 Philip E. Tetlock. *Expert Political Judgment.* 2005.　Nearly three hundred experts, more than eighty thousand time-bounded forecasts, and the concept of calibration.
 
 #### Counterexamples, frameworks, and scientific change
+{: data-toc-skip='' }
 
 Karl Popper. *The Logic of Scientific Discovery.* 1934 (English 1959); *Conjectures and Refutations.* 1963.　Falsifiability. The Vienna recollections of 1919 and the exchange with Adler about his thousandfold experience are in the latter.
 
@@ -2861,6 +3015,7 @@ Sherwin B. Nuland. *The Doctors' Plague.* 2003.　Semmelweis at the Vienna Gener
 Bas C. van Fraassen. *The Scientific Image.* 1980.　Constructive empiricism: science may pursue empirical adequacy while staying epistemically restrained about unobservable entities.
 
 #### Abstraction debt, metrics, and institutions
+{: data-toc-skip='' }
 
 Ward Cunningham. "The WyCash Portfolio Management System." OOPSLA, 1992.　The earliest source of the technical-debt metaphor.
 
@@ -2885,6 +3040,7 @@ Ian Hacking. "The Looping Effects of Human Kinds." In *Causal Cognition*, 1995.�
 Ludwig Wittgenstein. *Philosophical Investigations.* 1953.　Family resemblance and conceptual boundaries.
 
 #### Useful, true, and meaning
+{: data-toc-skip='' }
 
 Ted J. Kaptchuk et al. "Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome." *PLoS ONE* 5(12), 2010.　The pill in chapter six with "placebo" written on the bottle.
 
@@ -2901,6 +3057,7 @@ University of Cambridge, Department of History and Philosophy of Science, "Starr
 On the Maragha school and post-Ptolemaic revision: Nasir al-Din al-Tusi's *Tadhkira* lists the points at which he judged the Ptolemaic system incoherent, and introduces the Tusi couple, decomposing linear motion into two circular motions; parts of Copernicus's lunar and Mercury models closely resemble devices from that tradition. See the work of George Saliba and F. Jamil Ragep.
 
 #### Facts, values, and commitment
+{: data-toc-skip='' }
 
 Nick Hanley, Clive L. Spash & Lorna Walker. "Problems in valuing the benefits of biodiversity protection." *Environmental and Resource Economics* 5(3), 1995, 249–272.　About a quarter of the general-public sample refused to give any willingness-to-pay figure, on the grounds that these species and ecosystems should be protected whatever the cost; the authors classify this as lexicographic preference and note the problem it poses for cost-benefit analysis. The source for that section of chapter six.
 
@@ -2921,6 +3078,7 @@ Jeanne Mandelblatt & Kathleen Cronin. "Response to Hendrick and Helvie by the Ca
 Stanford Institute for Human-Centered AI. *The 2026 AI Index Report*, technical performance chapter.　In 2025 Gemini Deep Think reached a gold-medal score of thirty-five points at the International Mathematical Olympiad (up from a twenty-eight-point silver the year before); on ClockBench, a test of reading analogue clocks, the same report records the best-performing model answering correctly 50.6 per cent of the time against 90.1 per cent for humans, a pattern it calls jagged intelligence. The source for both figures in the preface.
 
 #### Geometry, necessity, and a priori knowledge
+{: data-toc-skip='' }
 
 Euclid. *Elements.* c. 300 BC.　The five postulates; the fifth is the parallel postulate.
 
@@ -2935,6 +3093,7 @@ Bernhard Riemann. "Über die Hypothesen, welche der Geometrie zu Grunde liegen."
 Albert Einstein. "Die Feldgleichungen der Gravitation." 1915.　General relativity uses precisely Riemann's geometry.
 
 #### Climate, evolution, and diagnostic classification
+{: data-toc-skip='' }
 
 Intergovernmental Panel on Climate Change. *Climate Change 2021: The Physical Science Basis* (AR6 WG1). 2021.　Equilibrium climate sensitivity assessed at a best estimate of 3 degrees, likely range 2.5 to 4; projections constrained by multiple independent lines of evidence rather than by averaging models.
 
@@ -2951,6 +3110,7 @@ Peter R. Grant & B. Rosemary Grant. *40 Years of Evolution: Darwin’s Finches o
 American Psychiatric Association. *DSM-I* 1952; *DSM-III* 1980; *DSM-5* 2013; *DSM-5-TR* 2022.　Changes in category counts and in the form of the criteria; PTSD added in the third edition; Asperger's folded into autism spectrum disorder in the fifth. Homosexuality was voted out by the association in 1973.
 
 #### The Yijing, Buddhist thought, and reading across traditions
+{: data-toc-skip='' }
 
 *Zhouyi.*　The core hexagram and line texts are Western Zhou divinatory language; the *Yizhuan* (Ten Wings) is interpretive material added through the Warring States and Han periods, rereading a divination manual as a discourse on change and virtue.
 
@@ -2965,6 +3125,7 @@ Jon Kabat-Zinn. *Full Catastrophe Living.* 1990.　Origins of the 1979 stress re
 Ronald E. Purser & David Loy. “Beyond McMindfulness.” 2013; Ronald E. Purser. *McMindfulness.* 2019.　What follows from separating mindfulness from the ethical requirements of the Eightfold Path.
 
 #### How made things came to their shape
+{: data-toc-skip='' }
 
 Microsoft. "Naming Files, Paths, and Namespaces." Win32 documentation.　CON, PRN, AUX, NUL, COM1–9 and LPT1–9 listed as reserved, with an explicit instruction to avoid the forms carrying an extension. The restriction is imposed at the Win32 layer, not by NTFS.
 
@@ -2975,6 +3136,7 @@ Koichi Yasuoka & Motoko Yasuoka. "On the Prehistory of QWERTY." *ZINBUN* 42, Ins
 Andrew Abbott. *Chaos of Disciplines.* 2001.　Disciplinary boundaries co-evolved with journals, degrees, and funding.
 
 #### Analogy, structure mapping, and transfer
+{: data-toc-skip='' }
 
 Dedre Gentner. "Structure-Mapping: A Theoretical Framework for Analogy." *Cognitive Science* 7(2), 1983.　A good analogy maps relational structure rather than surface attributes. The move called taking off the situational clothing in chapter eleven has a stricter form in this tradition.
 
