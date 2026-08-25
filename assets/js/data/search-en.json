@@ -1,0 +1,8 @@
+---
+layout: compress
+swcache: true
+---
+
+{% assign post_pages = site.pages | where: 'layout', 'post' %}
+{% assign english_posts = post_pages | where: 'lang', 'en' %}
+{% include search-index.json posts=english_posts %}

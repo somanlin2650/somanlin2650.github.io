@@ -1,0 +1,7 @@
+---
+layout: compress
+swcache: true
+---
+
+{% assign chinese_posts = site.posts | where_exp: 'post', "post.lang != 'en'" %}
+{% include search-index.json posts=chinese_posts %}
