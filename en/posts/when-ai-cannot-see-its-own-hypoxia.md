@@ -5,8 +5,11 @@ date: 2026-08-25 15:20:00 +0800
 lang: en
 permalink: /en/posts/when-ai-cannot-see-its-own-hypoxia/
 alternate_url: /posts/when-ai-cannot-see-its-own-hypoxia/
+categories: [AI, System Design]
+tags: [AI Agent, Automation, Control Systems, AI Governance]
 description: "An Agent should not replace automation—but placing an Agent above automation is still not enough. A mature system must be able to discover its own blind spots and externalize safety into independent oversight, separation of authority, and institutions."
 toc: true
+comments: true
 ---
 
 Freediving presents a danger that systems designers should find especially interesting: a person can lose consciousness from hypoxia without first receiving a sufficiently urgent subjective warning.

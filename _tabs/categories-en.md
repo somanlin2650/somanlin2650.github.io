@@ -11,7 +11,7 @@ alternate_url: /categories/
 {% for item in site.data.writing %}
   {% assign copy = item.en %}
   {% for category in copy.categories %}
-  <div class="card categories mb-3">
+  <div id="{{ category | slugify }}" class="card categories mb-3">
     <div class="card-header">
       <i class="far fa-folder fa-fw"></i>
       <strong class="mx-2">{{ category }}</strong>
