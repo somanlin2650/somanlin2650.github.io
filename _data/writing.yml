@@ -16,13 +16,9 @@
 # 全書那一篇也必須在這裡，否則 locale-overrides.rb 會把文章裡的標籤連結改寫成
 # /en/tags/#slug，而錨點不存在，html-proofer 就讓建置失敗。
 #
-# book: true 的用途只有一個——〈Writing〉頁籤寫明是「書籍之外的獨立文章」，
-# 所以那份清單要把它跳過。索引該收，清單不該列。
-#
 # 順序有意義：home-content 與 trending-tags 取 first 當「最新文章」，
 # 全書排在文章後面，那兩處才不會被它蓋掉。
 - date: 2026-08-25
-  book: true
   zh-TW:
     title: "所見非全貌：世界，以及我們理解它的方式（全書）"
     url: /posts/no-view-is-the-whole/
