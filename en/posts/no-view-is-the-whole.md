@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "No View Is the Whole: The World and the Ways We Make Sense of It (Complete Text)"
-date: 2026-08-25 18:00:00 +0800
+date: 2026-08-25 16:00:00 +0800
 lang: en
 permalink: /en/posts/no-view-is-the-whole/
 alternate_url: /posts/no-view-is-the-whole/

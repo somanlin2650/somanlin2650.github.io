@@ -1,6 +1,6 @@
 ---
 title: "所見非全貌：世界，以及我們理解它的方式（全書）"
-date: 2026-08-25 18:00:00 +0800
+date: 2026-08-25 16:00:00 +0800
 lang: zh-TW
 alternate_url: /en/posts/no-view-is-the-whole/
 categories: [書籍]

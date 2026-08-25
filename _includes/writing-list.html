@@ -2,6 +2,9 @@
 
 <div class="article-list">
 {% for item in site.data.writing %}
+  {% comment %} 這一頁說的是「書籍之外的獨立文章」，所以跳過全書本身。
+                它仍然留在 writing.yml，因為標籤、分類與封存都靠那份索引。 {% endcomment %}
+  {% if item.book %}{% continue %}{% endif %}
   {% assign copy = item[include.lang] %}
   <article>
     <h2><a href="{{ copy.url | relative_url }}">{{ copy.title }}</a></h2>
