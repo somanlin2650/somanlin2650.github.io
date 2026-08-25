@@ -1,4 +1,4 @@
-# 這份檔案複製自 jekyll-theme-chirpy，只多加了 tabs.book 一條。
+# 這份檔案複製自 jekyll-theme-chirpy，只多加了自訂頁籤名稱。
 # Jekyll 對 _data 是整檔取代（不會深層合併），所以自訂頁籤名稱必須整份複製再改。
 # The layout text of site
 
@@ -17,6 +17,7 @@ tabs:
   tags: 標籤
   archives: 封存
   about: 關於
+  articles: 文章
   book: 所見非全貌
 
 # the text displayed in the search bar & search results

@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 文章
 icon: fas fa-pen-nib
 order: 0
 ---
