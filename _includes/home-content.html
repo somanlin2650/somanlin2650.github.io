@@ -33,6 +33,7 @@ html[data-bs-theme="dark"] .latest-essay {
   border-color: #3b4650; border-left-color: #D08B70;
   background: rgba(156, 186, 203, .06);
 }
+.book-home ol li { margin-bottom: .15rem; }
 </style>
 
 {% assign latest_item = site.data.writing | first %}
@@ -43,8 +44,9 @@ html[data-bs-theme="dark"] .latest-essay {
   <h1>No View Is the Whole</h1>
   <p class="sub"><strong>The World and the Ways We Make Sense of It</strong></p>
   <p class="author">Soman Lin</p>
-  <p>The book opens on five scenes with nothing in common: physicians in 1854 who believed cholera travelled through the smell in the air; an army scoring ten thousand hamlets a month and drifting further from the war it was trying to understand; an autopilot handing control back while the panel went on producing numbers; a child written into the box marked “hyperactive”; a message that goes three hours without a reply.</p>
-  <p>Fourteen chapters in four parts, with thirteen diagrams. Chinese and English, switchable inside the reader.</p>
+  <p>The book opens on a handful of scenes far apart from one another: a horse in Berlin that seemed to do arithmetic; a physician in London in 1854 asking door to door which pump the dead had drunk from; an autopilot over the Atlantic handing control back to two co-pilots; a computer alarm on the lunar lander that nobody had yet traced; a priest under the ruined Rashomon gate handing a child to a woodcutter whose story had already changed once.</p>
+  <p>They point at one question: how the way we make sense of the world is itself formed, who can check it, and how it is handed on to the next person. The author calls the turn of counting oneself in &ldquo;the second realisation&rdquo;, and closes with a claim about long-term reliance: when choosing a method, weigh how it will shape the evidence, learning and correction available later.</p>
+  <p>Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. Chinese and English, switchable inside the reader.</p>
   <p style="margin:2rem 0 0;">
     <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=en">Start reading &rarr;</a>
   </p>
@@ -57,41 +59,44 @@ html[data-bs-theme="dark"] .latest-essay {
     <p>{{ latest.description }}</p>
   </section>
   <h2>Contents</h2>
-  <p><strong>Part One — Seeing Your Own Lens</strong></p>
+  <p><strong>Preface — Counting Yourself In</strong></p>
+  <p><strong>Part One — What Belief Rests On</strong></p>
   <ol>
-    <li>Everyone Is Talking About "the Facts"</li>
-    <li>"I Don't Know" Can Be Said Precisely</li>
-    <li>One Cup, Four Answers</li>
-    <li>The Tube Map That Got It Wrong</li>
+    <li>How a Fact Becomes a Sentence</li>
+    <li>You Do Not Have to Know Everything Yourself</li>
+    <li>Who Decides What Is Worth Looking At</li>
   </ol>
-  <p><strong>Part Two — The Lifespan of a Model</strong></p>
-  <ol start="5">
-    <li>Abstraction Debt</li>
-    <li>Useful and True Are Two Different Rulers</li>
-    <li>After Someone Swapped the Camera</li>
-    <li>Where the Leak Is</li>
+  <p><strong>Part Two — Models, Their Uses, and Where They Apply</strong></p>
+  <ol start="4">
+    <li>A Different Representation Makes Thinking Possible</li>
+    <li>What Was Left Out Is Still at Work</li>
+    <li>Useful, True, and Worthwhile</li>
+    <li>Answers Come with Conditions</li>
+    <li>Giving Error a Chance to Show</li>
   </ol>
-  <p><strong>Part Three — Entering Somebody Else's Model</strong></p>
+  <p><strong>Part Three — The Finite Mind</strong></p>
   <ol start="9">
-    <li>Two Worlds in One Meeting Room</li>
-    <li>Why Did It Grow This Shape</li>
-    <li>Take the Story Away, What Is Left</li>
+    <li>What It Takes to Understand a Person</li>
+    <li>Borrowing Other People's Thinking</li>
+    <li>Thinking Has Deadlines Too</li>
+    <li>What We Know Before We Can Say It</li>
+    <li>One Body, Many Kinds of Regulation</li>
   </ol>
-  <p><strong>Part Four — Folded Up, and Opened Again</strong></p>
-  <ol start="12">
-    <li>Intuition Is Compressed History</li>
-    <li>When the Map Starts Reshaping the Territory</li>
-    <li>Moving While Uncertain</li>
+  <p><strong>Part Four — Understanding the World Together</strong></p>
+  <ol start="14">
+    <li>Letting Other People's Findings Change Decisions</li>
+    <li>What Makes an Understanding Worth Relying On</li>
   </ol>
-  <p>An afterword and a sourced list of coordinates close the book, so every story and figure quoted in the text can be checked.</p>
+  <p>An afterword and the &ldquo;Coordinates and Sources&rdquo; close the book: seventy-five notes, so every story, study and figure quoted in the text can be checked at its source.</p>
 </div>
 {% else %}
 <div class="book-home zh">
   <h1>所見非全貌</h1>
   <p class="sub"><strong>世界，以及我們理解它的方式</strong></p>
   <p class="author">Soman Lin</p>
-  <p>這本書從五個彼此無關的場面開始：一八五四年相信霍亂來自空氣裡臭味的醫師；每個月替上萬個村落打分、報表越完整卻離戰爭越遠的軍隊；把控制權交還給組員、儀表卻繼續流暢輸出數字的自動駕駛；一個被寫進「過動」那一格的孩子；一則三小時沒有回音的訊息。</p>
-  <p>全書十四章分成四部，十三張圖。中英雙語，可在閱讀器內切換。</p>
+  <p>這本書從幾個相隔很遠的場面開始：柏林一匹似乎會算術的馬；一八五四年的倫敦，一位醫師逐戶追問死者喝的是哪一口井的水；大西洋上空，自動駕駛把操縱權交還給兩名副駕駛；月球軌道上，登月小艇的電腦發出還沒有人查清原因的警報；破敗的羅生門下，僧人把一個孩子交給說法已經改過一次的樵夫。</p>
+  <p>它們指向同一個問題：我們用來理解世界的那套眼光，本身是怎樣形成的，能被誰檢查，又怎樣傳給下一個人。作者把「把自己也算進去」的轉變稱為「第二次頓悟」，並在全書最後提出一項評價長期依賴的主張：選用一種方法時，也要看它如何影響往後取得證據、學習與修正錯誤的能力。</p>
+  <p>全書十五章分成四部，十七組圖，七十五條可回查的來源註。中英雙語，可在閱讀器內切換。</p>
   <p style="margin:2rem 0 0;">
     <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=zh">開始閱讀 &rarr;</a>
   </p>
@@ -104,32 +109,34 @@ html[data-bs-theme="dark"] .latest-essay {
     <p>{{ latest.description }}</p>
   </section>
   <h2>目錄</h2>
-  <p><strong>第一部　看見自己的鏡頭</strong></p>
+  <p><strong>序　把自己也算進去</strong></p>
+  <p><strong>第一部　我們憑什麼相信</strong></p>
   <ol>
-    <li>每個人都在說「事實」</li>
-    <li>「不知道」可以講得很精確</li>
-    <li>同一個杯子，四種答案</li>
-    <li>那張畫錯的地鐵圖</li>
+    <li>事實如何成為一句話</li>
+    <li>你不必親自知道每一件事</li>
+    <li>誰決定什麼值得看</li>
   </ol>
-  <p><strong>第二部　模型的壽命</strong></p>
-  <ol start="5">
-    <li>抽象債</li>
-    <li>有用與為真，是兩把尺</li>
-    <li>換了一顆鏡頭之後</li>
-    <li>哪裡漏水</li>
+  <p><strong>第二部　模型、用途與適用範圍</strong></p>
+  <ol start="4">
+    <li>換一種表示，才有辦法思考</li>
+    <li>被省略的，仍在起作用</li>
+    <li>有用、真實與值得</li>
+    <li>答案帶著條件</li>
+    <li>讓錯誤有機會出現</li>
   </ol>
-  <p><strong>第三部　進入別人的模型</strong></p>
+  <p><strong>第三部　有限的心智</strong></p>
   <ol start="9">
-    <li>會議室裡的兩個世界</li>
-    <li>它為什麼會長成這個樣子</li>
-    <li>拿走故事，還剩下什麼</li>
+    <li>理解一個人需要什麼</li>
+    <li>借用別人的思考</li>
+    <li>思考也有期限</li>
+    <li>尚未說出口的知道</li>
+    <li>一個身體，許多種調節</li>
   </ol>
-  <p><strong>第四部　折起來，再打開</strong></p>
-  <ol start="12">
-    <li>直覺是被壓縮的歷史</li>
-    <li>當地圖開始改造土地</li>
-    <li>在不確定裡前進</li>
+  <p><strong>第四部　共同理解世界</strong></p>
+  <ol start="14">
+    <li>讓別人的發現改變決定</li>
+    <li>一種理解如何值得依靠</li>
   </ol>
-  <p>書末附〈思想座標與資料來源〉，書裡引用的每個故事與數字都可以回查。</p>
+  <p>書末附結語與〈思想座標與資料來源〉：七十五條註，書裡引用的每個故事、研究與數字都可以回到出處查。</p>
 </div>
 {% endif %}

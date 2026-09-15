@@ -2,3150 +2,1913 @@
 layout: post
 title: "No View Is the Whole: The World and the Ways We Make Sense of It (Complete Text)"
 date: 2026-08-25 16:00:00 +0800
+last_modified_at: 2026-09-15 20:00:00 +0800
 lang: en
 permalink: /en/posts/no-view-is-the-whole/
 alternate_url: /posts/no-view-is-the-whole/
 categories: [Book]
-tags: [No View Is the Whole, Cognition, Models, Abstraction Debt, Philosophy of Science]
-description: "Fourteen chapters in four parts, with thirteen diagrams. From cholera in 1854 to an autopilot handing back control, all of it circles one thing: the world that reaches us has mostly been understood by somebody else first."
+tags: [No View Is the Whole, Cognition, Models, Leaky Abstractions, Philosophy of Science]
+description: "Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. From a horse in Berlin that seemed to do arithmetic and the 1854 London cholera map to a programme alarm on the lunar lander, one question runs through it: how the way we make sense of the world is itself formed, checked, and handed on to the next person."
 toc: true
 comments: true
 ---
 
-This is the complete text of the book, the same words as the [single-page bilingual reader](/book/read/?lang=en). The reader switches between Chinese and English; this is the site-native version, with a sidebar table of contents, dark mode, and comments.
+This is the complete text of the book, the same words as the [single-page bilingual reader](/book/read/?lang=en). The reader switches between Chinese and English and opens every figure at full size; this is the site-native version, with a sidebar table of contents, dark mode, and comments. Revised edition of 15 September 2026: four parts, fifteen chapters.
 
-## Preface — Leaving a Gap
+## Preface — Counting Yourself In
 
-Why can some people move into an unfamiliar field and be inside it within months, while you read for a year and still hold nothing but scattered pieces?
+When someone disagrees with us, an explanation is never hard to find. He has not met certain kinds of people, he was once burned in some particular way, or he has spent his whole life inside that one circle. When it comes to ourselves, we may feel there is nothing to explain: things are simply as they are.
 
-Faced with a religion, should you treat it as superstition, as history and culture, or as a question science has no jurisdiction over?
+Pressed further, we can add a line: "I have thought about this carefully." The sentence carries great weight with ourselves; with others it may not. When the other person offers the same assurance, we still want to know what he has seen, whom he trusts, and which situations he has missed. Psychological research has found that when people assess bias in themselves and in others, they give different weight to inner intentions and to outward behaviour.[^introspection] We know how to trace another person's judgement back to its sources; when the trail reaches ourselves, it sometimes stops.
 
-That rule at work which everybody agrees is absurd: why is it still there?
+What I want to pursue is what happens if we take that step further. The self that is used to understand the world also lives in the world: it learnt its methods from certain people, trained its skills in a certain environment, kept paying attention because it cared about certain things, and only then arrived at the answer that now seems as plain as anything could be. That history of formation affects where the answer can be used.
 
-The technician of twenty years glances at it and says something is wrong here, and cannot explain why. What is it that he knows?
+I call the shift that comes with recognising this "the second realisation". We already know how to explain why other people think as they do; now the way of seeing that is doing the explaining must submit to the same questioning. Even our most successful experiences and the methods of reasoning we trust most are included.
 
-These questions normally get shelved separately: learning, religion, management, relationships. And the same thing is pressing underneath all of them.
+Success is especially good at hiding this question. When a skill has helped for a long time, we pay less and less attention to the conditions it depends on. Move somewhere new, and the same way of working suddenly fails; the first thought may still be that other people are not cooperating, or that we have not tried hard enough. Putting in more effort sometimes improves the result, and sometimes only applies a method that no longer fits more thoroughly than before.
 
-We almost never come at the world from nothing.
+A simple problem about finding a ball can make this easily overlooked difference visible. Someone puts a ball in a box and leaves the room; while he is away, the ball is moved into a drawer. A child who has watched the whole thing is asked where the man will look first when he comes back.
 
-What one person can verify for themselves in a lifetime is very little. You will not rediscover mechanics, you will not reclassify disease, and you will not work out for yourself how interest rates move prices. Most of the time what we take delivery of is a world other people have already understood: disease comes with medicine's classifications, markets with economics' models, a company with the arrangements its predecessors left behind, a codebase with the architecture the last generation of engineers left in it. Even what counts as a question has often been carved out for us by some discipline first.
+The child knows the ball is in the drawer. To expect the man to look in the box, the child has to count in one more fact: he did not see the ball being moved. Problems of this kind have been used to study children's understanding of other people's beliefs.[^beliefs] The same room holds the ball's actual position and also a person who does not yet know the ball has gone. The second is enough to explain why he walks towards a box we know full well is empty.
 
-So what humanity has accumulated can be seen as an entire intervening layer. The world is first observed, compared, named, and abstracted by some people, and then reaches us as theories, formulas, institutions, tools, stories, and habits. What we read, most days, is that layer.
+Adults usually have no trouble with this scene. But when we say "the data are clear enough" or "anyone with experience knows this", we have often stepped back onto our own familiar ground. What knowledge does it take to see that clarity? Under what circumstances was that experience acquired? If someone else had the same information and the same history, would we be willing to trust him too?
 
-Which has one very practical consequence. If you want to understand the world faster, there is a route worth taking: do not only learn the answers those people left, look at how they arrived at them.
+![On the left, other people's judgements are handed over to experience, information and circumstance for explanation, while one's own certainty becomes the measure directly; on the right, one's own judgements and other people's are placed within the same set of checkable questions.](/assets/img/book/en/fig-10-self-included.svg){: width="1200" height="810" }
+_Figure 0.1　Use compatible standards of checking for yourself and for others. The information available to each side may differ, and the difference needs to be explained; your own certainty is not thereby exempt from checking. Drawn for this book._
 
-An answer can usually only stay inside the problem it came from. What travels better is the judgement that produced it: what gets looked at first, what gets ignored, how the problem is cut, what counts as evidence, and under what conditions a mind is willing to change.
+Seeing ourselves this way also changes what we ask of thinking. At work we know time is limited, yet in reflection we may demand that every matter be thought through before we allow ourselves to stop. How much time a piece of reasoning had, what data it obtained, whether a method worked out by earlier people was available: all of these affect what it can accomplish. Asking only whether we have thought deeply enough is not yet a complete understanding of what thinking is.
 
-Nowhere is this clearer than in artificial intelligence. A large model today has not lived through the world first and then slowly grown its own physics, medicine, and way of writing programs. What reaches it is mostly material other people have already processed: text, formulas, images, code, papers, records, and every kind of judgement people left behind. The world passes through people first, and then arrives at the model in some form.
+Sometimes it is even that feeling we cannot put into words that first notices a detail the analysis never obtained. The experienced hand feels the sound is wrong; the novice hears only that the machine is still running. Putting both in front of the same written description has not necessarily given them the same information. To know when that feeling deserves trust, we need to trace how it was learnt and how it was checked.
 
-And on that inherited material alone, these systems now do very well at things that take a person years of training to do at all. In 2025 one of them scored a gold medal at the International Mathematical Olympiad.
+None of these questions can be handed to someone else for good. To consult an expert, we still have to know whom our question is suited to; to decide that liking something is enough, we have already judged that this matter allows a choice made on liking alone. Life keeps requiring us to choose how to judge, even though most of the time we do it naturally, without giving it a name.
 
-Human learning is of course not model training. But we equally have no time to discover the world from scratch. Reading, apprenticeship, entering a discipline: all of it is taking delivery of what predecessors left.
+Fortunately, this capacity need not be invented from scratch. Earlier people have already tried many ways of understanding evidence, responsibility, conflict and living together, and have left reasons that can be learnt and criticised. We can draw on them, then recognise where they need to be revised. The coherence that gradually builds up comes from having reasons to follow when choosing a method as well: the same demands cannot be used only to scrutinise others, and exceptions must arise from differences in circumstance, not from who happens to benefit.
 
-This is also what sits upstream of teaching yourself anything. Notes, spaced repetition, and active recall all work, and what they handle is how to keep hold of answers. In reading physics, the few formulas are only the start; after them comes gradually seeing why physicists cut the problem that way, which quantities are worth keeping, which can be left alone for now, and how far conditions have to shift before the model stops working. The same goes for reading a philosopher: knowing what he was for is a small thing, and getting his thinking to run for a while inside your head is another.
+This is the layer I hope the book will help readers see more of. Faced with a highly persuasive answer, one can understand what it says and also see how it came to be possible; faced with difficulty, one can doubt the answer and also recognise whether what is needed is a different way of asking, another kind of information, or other people's participation.
 
-The capacity to understand is therefore not some mysterious gift. Part of it is simply how many ways of thinking you hold that genuinely run.
+Some questions only appear at that point. The original answer still runs smoothly, yet we begin to notice that the understanding we have been using all along has left no room for certain things.
 
-And what people leave behind is not only knowledge. A religion becomes somebody's particular religion once it has passed into their understanding. An institution becomes "bureaucracy" once it has passed into an employee's. A feeling becomes something that "should be released" or "should be controlled" once it has passed into some psychological account. A stretch of old code nobody dares touch is the world as some engineer saw it, set hard. Even the boundaries between disciplines are what remains after some people judged which differences were worth keeping.
+## Part One — What Belief Rests On
 
-So with anything made by people there is a question that gets there faster than asking what it essentially is: what kind of person, in what kind of circumstances, would have made it come out like this?
+### 1 — How a Fact Becomes a Sentence
 
-However much is inherited, though, the understanding still happens inside somebody else's representation. The same models that take Olympiad gold read an analogue clock correctly 50.6 per cent of the time, against 90.1 per cent for people. The survey that reported this calls the pattern jagged intelligence: far beyond human in some places, less reliable than a young child in others.
+In the early years of the twentieth century, a horse in Berlin called Clever Hans drew people who came to watch him answer questions. His owner, Wilhelm von Osten, had been a schoolteacher and believed that animals could be educated. He would set an arithmetic problem, and Hans would tap with a forehoof, seeming to stop at the right count. The spectators counted the taps as they fell and saw him, with their own eyes, get the answer right time after time.
 
-Understanding people is no substitute for understanding the world either. A virus does not change because you have worked out how virologists think, and neither does the stress in a bridge. The layer our predecessors left is useful, and it is not the world; it can expire, it can have been wrong from the start, and the world pushes back whenever it likes.
+The explanation that comes to mind first is cheating: was the owner secretly giving a signal? Investigation ran into trouble here. When the owner was asked to step away and someone else put the questions, Hans could still answer correctly. Simply accusing the owner of fraud did not account for everything that was happening in front of people.
 
-The opening questions will not be answered one at a time. Something else is worth chasing: whether people, facing problems with nothing in common, keep reaching for a few of the same moves — choosing what is worth looking at, deciding what goes in which category, settling how to represent it, supplying a causal link at some particular point, treating an exception as noise, and then at some other point admitting the whole arrangement will not do.
+The psychologist Oskar Pfungst devised a special kind of addition problem. The owner would first lean close to Hans's ear and whisper a number that no one else could hear; Pfungst would then say another number, keeping it from the owner in the same way. Hans was then asked to add the two together.
 
-The problems keep changing. These moves for understanding a problem may not be nearly so inexhaustible.
+This time each of the two men knew only one number, and neither knew the sum. If Hans had understood both numbers and could do addition, he would have been the only one present who might know the answer. After each trial, the researchers repeated it with the answer known to them, to see whether the result changed.
 
-Finishing this does not require taking on a new worldview. Better if the book itself is only one more of the models you hold.
+Of the thirty-one trials Pfungst recorded in which no one knew the answer, Hans got only three right; of the thirty-one in which the questioner knew, he got twenty-nine. Other tests found that blocking his view of the questioner also affected his answers. These differences turned Pfungst's attention towards the people. What exactly was the horse seeing in them?
 
-What is worth keeping is something else: beginning to see that model at work. That attention landed here and not there. That the category did not come with the thing. That something felt obvious because an assumption had been set down in front of it much earlier. That the answer in view, written another way, might not be the same problem at all.
+A questioner would often lean slightly forward, watching the horse's foot and waiting for the taps to reach the answer. At the expected tap, the head would lift very slightly and the body would gradually return to a more upright posture. For the person, this may have been nothing more than an unconscious easing as the wait came to an end; for Hans, it was the signal to stop tapping. When Pfungst deliberately altered these movements, he could also affect when the horse stopped.[^hans]
 
-The world is still there. It is only that "the world is like this" and "this is how I currently understand the world" no longer sit exactly on top of each other.
+Hans really could stop at the right count. What needed re-examining was why people took this performance as a capacity for arithmetic. "He tapped five times" records a result; "he worked out that it was five" goes further and explains how he arrived at that result. The first sentence being true is not enough to prove the second.
 
-That small gap between them is where this book starts.
-
-## Part One — Seeing Your Own Lens
-
-> We assume we are looking at the world. Later we find out that attention, language, purpose, and models have been sitting in between the whole time. Part One tries to make those layers visible again. Once you can see your own lens, you can start telling the two apart: which part is the world pushing back, and which part is the processing we did in order to understand it.
-{: .prompt-info }
-
-### 1 — Everyone Is Talking About "the Facts"
-
-> *The layer hardest to see is usually the one we added ourselves.*
-
-The meeting was set for ten. At three minutes past, the last person pushed the door open, put down a laptop, and said nothing.
-
-It was a small thing. Three minutes.
-
-An hour later, when we broke up, those three minutes had grown into three separate worlds.
-
-In the corridor the project manager said the team had no discipline about schedules at all. Back at their desk, the engineer's first words were that the previous meeting had run late and they had posted about it in the group chat before ten. In the afternoon a colleague walked past with a coffee and described something else again: everyone had been strung tight lately, which was why small things were getting amplified.
-
-Put the three accounts side by side and something odd shows up. All three people believed they were reporting what happened. What they were reporting were three different kinds of thing.
-
-Ten oh three is a record. The previous meeting running late is another record, plus a causal thread. "No discipline" is a category. "Everyone is strung tight" is an explanation sitting at a higher level. All four can be partly true at once, and they can support or contradict each other. The one thing they cannot do is sit on the same layer.
-
-Kurosawa's *Rashomon*, from 1950, is about exactly this. A samurai is found dead in a grove. The bandit, the samurai's wife, and the dead man speaking through a medium each tell the story of that day before the magistrate. All three accounts are complete, all three carry feeling, all three hold together internally, and all three contradict each other.
-
-The film's real frame is not the courtyard. It is under the city gate, where three men sheltering from the rain — a woodcutter, a priest, and a passer-by — go over the testimony they have just heard. At the end the woodcutter admits that he did in fact see the whole thing, and had said nothing about it in court. He then gives a fourth version.
-
-The film never rules on which version is what actually happened. What it shows you is that even the bystander who appeared to be standing outside the event hands over an account that has passed through his own position, fear, and self-regard. As for why he said nothing earlier, the film leaves a hint: he was not clean either.
-
-The film gave Chinese a word. When we say a situation "has become a Rashomon," we are usually complaining that the truth is unavailable.
-
-The word tends to get used too gently, though, as if the problem were only that several people stood in different places. What the film handles is harder than that. Those accounts passed through more than a position: through fear, self-image, interest, and whatever memory did to them on the way. Sometimes it is a difference of vantage. Sometimes it is self-justification. Sometimes it is simply a lie.
-
-The event does not disappear because of any of this. It is only that the version we are handed can never be taken for the event itself.
-
-Our everyday understanding goes off the rails mostly because these layers happen in the head far too fast. The eye catches an expression, and "they are impatient" has already surfaced. A message goes unanswered for three hours, and within seconds the story becomes "they do not think I matter." A model gets something badly wrong on a new batch of data and we say the model is broken. Revenue falls and we say the market has gone bad.
-
-![From event to judgement: every step to the right adds another choice and another commitment](/assets/img/book/en/fig1_1_ladder.png)
-_Figure 1.1 From event to judgement: every step to the right adds another choice and another commitment_
-
-Any one of those sentences might turn out to be right. The trouble is that each of them has travelled several steps past the original observation, and none of those steps left a receipt.
-
-| Layer | The question it answers | Example |
-|---|---|---|
-| Event | What happened? | The meeting began at 10:03 |
-| Observation | What did I take in? | They raised their voice twice |
-| Description | How am I organising it? | The mood started to tighten |
-| Explanation | Why do I think it happened? | He is unhappy with the schedule |
-| Judgement | What does it mean, what should be done? | This needs handling now |
-
-_Table 1.1　What a single "I know" may have mixed together_
-
-#### The eye is already selecting
+#### What is in front of you has already been selected
 {: data-toc-skip='' }
 
-People cannot record the world the way a camera does. A camera is not especially honest either. Focal length, exposure, sensor, sampling rate — every one of them is deciding what gets kept. With human senses and attention it is more obvious still.
+What a video recording of a street keeps depends on where the camera points, how the light falls and how often a frame is captured. Human observation selects as well. On the same street, a driver may attend to the traffic, an architect to the fronts of the houses, while a child is drawn to a dog by the kerb. They face the same street, yet what they remember may differ.
 
-Stand four people on the same street. The architect is looking at the proportions of the façades, the taxi driver at the gaps in the traffic, the police officer at whose walk is slightly wrong. The five-year-old sees only the dog by the kerb. The street did not split into four streets. One street, filtered through four different sets of attention and purpose, yields four usable representations.
+Choosing what to notice and interpreting what has been seen can be separated further still. "He did not reply to my message today" can be checked against the message log; "he is distancing himself from me" needs more to be known. He may have been busy, may have missed it, or may in fact be pulling away. If the second sentence is taken straight away as something confirmed, the other causes are easily overlooked.
 
-So "observation" was never unprocessed. It is processed a few layers less than "explanation."
+"He is distancing himself from me" may also be true. The difficulty is that once we believe it, we pay more attention to the replies that do not come and remember less often the times he got in touch first. The idea that began as an interpretation of the record starts choosing the next batch of records for us.
 
-That distinction matters, because we are in the habit of hiding the processing inside the tone of voice. "They did not reply to me today" and "they are pulling away from me" differ by a few words, and the second one has an entire model of a relationship packed inside it. Once that model gets stated as a fact, it no longer has to compete with any other explanation.
-
-Mature understanding does not ban inference. Without inference we could not do anything at all. It asks for one thing only: inference can be fast, but it should not quietly pass itself off as observation.
-
-There is a small exercise that makes this concrete. Think of something recent that made you angry, and write down the sentence you feel most sure of. Suppose it is: "My manager has no respect at all for my expertise." Now you are not allowed to use the words *respect*, *expertise*, or *at all*. You may write only what a camera and a microphone could have recorded. You might end up with something like this: after I raised the risk, they asked no follow-up questions; five minutes later they decided to go with a different option.
-
-The new version is not necessarily truer. What it does is take the story apart for a moment, so you can see the square where the story was added.
-
-#### Zhuangzi's empty boat
+#### Can an observation be found that involves no interpretation at all?
 {: data-toc-skip='' }
 
-There is a short passage in the outer chapters of the *Zhuangzi* about crossing a river.
+And yet even "he did not reply to my message" requires the record to be read. We have to know what sending and replying mean, fix the period we are counting, and notice whether he responded by some other route. If observation too depends on concepts, is the distinction drawn above still of any use?
 
-You are rowing, and an empty boat drifts across and knocks into you. Even a bad-tempered man does not get angry. But if there is somebody aboard, you shout at them to steer clear. You shout once and they do not hear. You shout again and they still do not hear. By the third shout there is something ugly in your voice.
+Kant placed this difficulty of knowing at the centre of his thought. In the *Critique of Pure Reason*, published in 1781, he argued that our experience is organised by the forms of sensibility and the categories of the understanding; we cannot remove all of these conditions of knowing and then compare what remains with a world never presented through them. He also tried to show that it is precisely because experience has these shared conditions that certain knowledge can possess necessity. Space, time, causation and geometry each have a role in this account.[^kant]
 
-The original is blunt about it: before, no anger; now, anger. Before, the boat was empty; now it is occupied.
+This pushes the problem further. If knowing always passes through human faculties and methods, how are we to judge that one claim is more reliable than another? The geometry of Chapter 7 will bring a new problem to one piece of knowledge on which Kant relied heavily.
 
-The force of the two collisions is identical. The weight of the hull, the drag of the water, the oar in your hands, the sound of the boards knocking — all the same. One thing changed: whether there was a person aboard to whom the event could be attributed.
+For now, a more concrete comparison can be made. To check whether someone interrupted a speaker, a recording that can be replayed usually offers more detail than the sentence "his attitude was bad". We can count the interruptions, hear clearly the sentences before and after, and point to where our memories do not agree. The recording still has the limits of its framing and its sound pickup, but those limits can be established one by one.
 
-This is the cheapest possible demonstration of that ladder. Nothing moved in the event row. What moved was the row marked *explanation*. The anger we feel hangs mostly on the explanation, not on the event.
+The recording an event leaves behind can be edited, described in words, and then understood as an act of contempt. That understanding in turn changes what is recorded next time and how questions are asked. We can follow these changes back to the disputed step, but it is hard to arrange them as a fixed staircase that leads only forward.
 
-What Zhuangzi recommends next is to empty yourself and move through the world that way — to become an empty boat too. That step need not be followed. Emptying yourself is a goal for a practice, not necessarily a tool anybody can pick up this afternoon, and some injuries do need to be attributed to someone who is answerable for them.
-
-The first half of the observation, though, needs no metaphysics at all. Next time you notice you are angry, you can ask a rather stupid question first. If an empty boat had done that, would I still be this angry?
-
-If the answer is no, you at least know which row your feeling is hanging on.
-
-#### Back to those three minutes
+#### Making an accusation something that can be answered
 {: data-toc-skip='' }
 
-If we walk back into the meeting at three minutes past ten, things get duller and more workable.
+In a high-conflict setting, repeatedly reminding everyone "not to be subjective" is almost useless. What helps more is changing the shape of the sentence.
 
-"It started at 10:03" can be confirmed. "The previous meeting ran late" can be checked in the group chat. "No discipline" needs somebody to say which behaviours count as discipline, and whether this is a repeating pattern. "Everyone is strung tight" needs more signal, and might be one colleague's experience of the last few weeks.
+Turn "he simply does not respect me" into: "He interrupted me twice just now, and he did not respond to the risk I raised; I read those two actions as disrespect, though I do not yet know what he was thinking at the time."
 
-Taking those apart does not guarantee the argument ends. At least everybody knows what is being argued about.
+Turn "customers have no need for this feature at all" into: "None of the seven people interviewed so far brought it up unprompted, which makes me lower my estimate of how strong the need is; but the sample and the way the questions were put may both have affected this result."
 
-This is the first habit in the book: keep explanation visible.
+A dispute that matters is worth a few more sentences to set out the behaviour seen and one's own reading of it. Only then does the other person know which point they can answer: admit to having interrupted you, explain why they did not respond, or point to a stretch of conversation you failed to note. Everyday exchanges that are familiar and undisputed naturally need not be unfolded like this at every sentence.
 
-#### So can observation really be separated from explanation?
+#### Memory goes on writing too
 {: data-toc-skip='' }
 
-A strong objection arrives here. You keep telling people to pull observation apart from explanation, and yet even seeing carries concepts. Without language, without prior knowledge, a person does not know what to attend to. So is pure observation not simply nonexistent?
+In 1974, Elizabeth Loftus and John Palmer had participants watch films of car accidents and then estimate the speed of the vehicles. The questions used different verbs for the collision, and the stronger wording produced higher estimates of speed. The researchers then pressed a further question: were participants simply adjusting the number upward to fit the wording as they answered, or had the memory itself been affected afterwards?
 
-Half of that objection holds completely.
+A second experiment recruited a fresh set of participants. After watching the film, some received the speed question with one wording or another, and some were not asked it at all. A week later, the researchers asked them whether they had seen any broken glass. There was no broken glass in the film, yet the group that had earlier met the stronger collision word more often answered that they had.[^memory]
 
-There is no getting back to a view from nowhere, with no model in it. Instruments are designed around questions. Data is collected against variables. Attention selects by nature. We cannot even say "there is a cup on the table" without using concepts; *table* and *cup* were categories before we opened our mouths.
+The wording had already changed the later answers. The speaker need not have meant to mislead, and the person remembering need not have felt they were adding anything, yet broken glass appeared in an account that originally had none.
 
-The objection has a long lineage. In 1781, in the *Critique of Pure Reason*, Kant argued that what we know is always appearance — something already worked over by our own forms of sensibility and categories of understanding — while the thing in itself stays outside knowledge. Space and time, on his account, are the forms in which we receive the world, not properties we discover in it.
+The researchers could still replay the film and know which answers did not match the picture. Everyday conflicts rarely have so complete a point of comparison: we rely on memory to say what happened, and other people's accounts take part in how we remember afterwards. We begin to need records, and to need other people; and both come with selections of their own.
 
-The problem he was handling is very nearly this book's problem: if the mediation cannot be removed, does knowledge still count as knowledge. His answer moved necessity over to the side of the forms — causality and geometry hold inside the world of appearances, because that is how we organise experience in the first place. That route later ran into trouble, and chapter seven comes back to it.
+### 2 — You Do Not Have to Know Everything Yourself
 
-#### No pure observation, and still layers to tell apart
+In 1854, cholera broke out in Soho, London. The disease can cause severe diarrhoea and dehydration, and in the neighbourhood people died one after another. The influential view of the day linked disease with foul air: stinking surroundings often went together with sickness, and for people at the time the explanation was not without appeal.
+
+The physician John Snow suspected instead that an important route of transmission was contaminated drinking water. He had already put forward claims to that effect before this outbreak; now he needed to find out whether what was happening in this district could lend them support. He looked into where the dead had lived, where their water came from and how they had lived, and he also drew the data onto a map.
+
+Look at the map first. Around Broad Street, short black bars are stacked thickly along the edges of the houses. Each mark points to one death, and the positions labelled PUMP, the water pumps, are scattered among the streets.
+
+[![Snow's map of cholera deaths. Dense short black bars can be seen around Broad Street, and the map also marks the positions of the various water pumps.](/assets/img/book/shared/fig-01-snow-map.jpg){: width="1600" height="1501" }](/assets/img/book/shared/fig-01-snow-map.full.jpg)
+_Figure 2.1　Snow's map of the deaths, from his book, recording the Broad Street cholera outbreak of 1854. Short black bars mark deaths; the clusters on the map provided leads for the investigation. Original: John Snow, public domain; see the source for the digital file.[^snowmap]_
+
+On the map the deaths cluster around the Broad Street pump. But does living close by mean having drunk its water? Some people drank water at home, some at their place of work, and some may have had it brought from a distance by someone else. To connect an address with a source of drinking water, each person's circumstances still had to be looked into.
+
+Snow's record preserves a few places that especially invite further questions. In the surrounding streets people died one after another, yet the workhouse had relatively few deaths; the brewery, not far from the pump, had no deaths registered among its workers either. Why were the people in these places different?
+
+The workhouse had 535 inmates already living there, and five of them died of cholera; it had its own well and its own supply, and sent nobody to Broad Street for water. For the brewery, Snow went and asked the proprietor, Mr Huggins. He said the workers had an allowance of malt liquor to drink. He believed they did not drink water at all, but he was clear about one thing he could be certain of: they did not take water from the pump in the street. The brewery also had a deep well and other supplies of its own.
+
+The opposite kind of clue came from far away. A woman living in Hampstead died of cholera, though she had not been near Broad Street for several months. Only after Snow asked her son did he learn that she liked the water there, and that a cart regularly brought a large bottle of it to her house. A niece who came to visit drank it too, and after returning to her own home she fell ill and died. The two fell ill and died in places far apart, yet the water they had drunk came from one source.
+
+On the evening of 7 September, Snow took his drinking-water inquiry to the local governing body; the next day the pump handle was removed. Before it was removed, the outbreak had already been declining and many residents had already left. The later fall in deaths therefore cannot tell us on its own how much the removal of the handle achieved. To assess the explanation of transmission by drinking water, we still have to look at the places that were close by yet suffered few deaths, the people who lived far away yet drank the same water, and the comparison between different sources of supply.[^snow]
+
+#### How many people a map depends on
 {: data-toc-skip='' }
 
-Still, "there is no pure observation" and "observation and explanation do not differ" are two different sentences.
+During the same epidemic, Snow was also comparing the customers of two water companies in south London. The two companies' pipes ran through the same streets, and sometimes next-door neighbours took water from different companies; the Lambeth company had moved its intake upstream to cleaner water, while the intake of the Southwark and Vauxhall company was still affected by the city's sewage. People who lived very close together, in similar conditions, might therefore be drinking water from different sources.
 
-We can compare how many layers of processing there are, and how far back we can trace them. Camera footage is not the world, and it usually preserves more that two people can check together than "their attitude was bad" does. Raw sensor data is not unmediated reality either, and it is closer to a source that can be reanalysed than the classification derived from it. No map is the territory, and that does not stop us distinguishing satellite imagery from a transit diagram from a tourist illustration.
+To make the comparison, he first had to find out which company supplied each household. Tenants did not necessarily know, since the water rate was paid by the landlord, so after asking the tenant the search had to go on; some people had been moved elsewhere after falling ill, and the record had to be traced back to their original address. Snow set the deaths in the first seven weeks of the epidemic against the number of houses each company supplied. The death rate per house for the Southwark and Vauxhall company came to roughly eight to nine times that of the Lambeth company.[^snow]
 
-So the goal is not a return to pure fact. It is for the chain of conversions to stay visible. Where did this data come from? Who chose the variables? At which step did classification enter? At which step did causality? And at which step did value slip in?
+This inquiry had to check what residents and landlords said against the original addresses of the dead and the records of supply before it could compare deaths among households under different conditions of supply. Snow could not learn everything simply by walking into a street himself; the memories of residents, the papers landlords kept and the official records each answered part of the question. Anyone who later wanted to check his conclusion also had to know how he confirmed addresses, told the sources of supply apart and counted the deaths in each group.
 
-As long as the chain stays visible, we have one more place to make a correction.
+Because Snow wrote down how the inquiry was carried out, we can examine his reasoning many years later without interviewing those residents again. Research teams often divide their work in the same way: some people measure, some organise the data, some analyse; and the instruments and mathematical methods each of them uses carry the results of earlier researchers inside them. If everyone had to invent their own instruments and rebuild all knowledge personally before beginning their own research, far less would get done.
 
-> **A slow sentence pattern, useful at the moments that count**
->
-> In a high-conflict situation, reminding everybody not to be subjective achieves almost nothing. Changing the sentence pattern works better.
->
-> Instead of "they simply do not respect me," try: they cut me off twice and did not respond to the risk I raised; I am reading those two behaviours as disrespect, though I do not yet know what they were thinking at the time.
->
-> Instead of "customers have no need for this feature," try: none of the seven interviewees brought it up unprompted, which lowers my estimate of how strongly it is wanted, though the sample and the way I asked could both be shaping that.
->
-> Sentences like these are too slow for ordinary conversation. Their job is to take the steps that were folded together in your head and lay them out once, at a moment that matters.
+Knowledge left behind in this way already exceeds any one person's memory. The residents knew only about their own households, the water companies remembered their pipes, and Snow placed the two in a single inquiry. Their knowledge did not have to become the same first; together they could still answer a question that nobody had been able to answer before.
 
-### 2 — "I Don't Know" Can Be Said Precisely
+We can still read today about the cases that do not fit the first impression easily: the works close by with few deaths, the woman far away who drank water from the same source. Snow kept them, so that those who accepted his conclusion could go on asking questions. If all we remembered was one brave physician who stood against the majority, the most useful part of this knowledge would be the part that never got handed down.
 
-> *Admitting ignorance is easy. Stating it precisely is the hard step.*
+An engineer who has handled bridge structures well many times gives us reason to value his judgement on such matters. That record also rests on measurements, colleagues and the original conditions on site; when he is brought to a new site, that support does not necessarily come with him. As for his opinions on education policy, the old record offers even less reason. What needs checking there is a different kind of knowledge, and how he obtains and compares evidence in that field.
 
-At a reading group somebody asked: what do the people opposing this policy actually think?
+How much a reader can check also depends on how the material is presented. If a report sets out its methods, the limits of its data and its later corrections, others can redo the calculations or question the conclusion. A screenshot with author, date and context cut away may leave us unable even to confirm what the original words were answering. Even when both speak with equal certainty, we have reason to trust them to different degrees.
 
-The person who answered spoke for three minutes, and spoke fluently. They produced the other side's most common slogans and explained why each of them fails. When they finished, the questioner asked one more thing: and if the conditions were changed like this, what would they say?
+Sometimes the cheapest effective next step is precisely to recover the source that was left out. To check a quotation, find the original first; to assess a method, first see what kind of problem it handles and where it fails. Guessing on your own that 'this ought to make sense' may take more time and still never touch the material that is actually missing.
 
-Silence.
-
-Fluency and understanding are two different things. Those three minutes established that they had memorised a list they could rebut. They did not establish that there was a working machine in their head.
-
-The same gap turns up elsewhere. Somebody says "I'm not sure," which sounds modest; ask which part is unsure, and what would have to appear before the view changed, and often no answer comes. A modest tone and an accurate self-assessment are a long way apart.
-
-This chapter deals with both gaps: how much is actually in hand, and whose model the simulator is running.
-
-#### The unknown can be broken down
+#### Which part, exactly, is unknown
 {: data-toc-skip='' }
 
-People have an odd fear of the unknown, as though admitting "I don't know" were the same as giving up judgement. So we state vague guesses in complete-sounding sentences, because completeness is reassuring.
+'I don't know' does not always admit the same kind of lack. Return to Snow's inquiry: the death records could be quite definite, while which water a particular household actually drank still needed a visit. Once the source of supply was established, whether the two were causally related required in turn a comparison with other households and with the possible explanations. What is already known does not all become void because questions remain.
 
-But not knowing is not a solid block of black. It comes apart into parts.
+Stating your doubt specifically makes it easier to decide the next step. If you do not know whether something happened, you can look for records or witnesses; if the cause is unclear, you can compare what several explanations would predict; if the facts are largely clear but a certain cost is unacceptable to you, then the trade-off has to be discussed, rather than the same batch of data checked over and over.
 
-You might know that something happened without knowing why. You might know that two things always show up together without knowing whether one causes the other. You might know the cause and still not know what to do next. You might not yet have settled what you want. Each of those calls for a different move. Short of data, go and observe. Short of a model, compare explanations. If values are in conflict, admit the trade-off. If the goal is unclear, stop optimising for a while.
+Suppose you are considering a job in another town. The salary can be confirmed with the company, the actual commute can be tried out, but whether you are willing to spend less time with your family cannot be settled by another salary report. Keeping the three questions apart avoids gathering data without end, and it also stops you from calling everything a matter of personal values when some of it can still be checked.
 
-Thinking of the unknown as blank regions on a map is more useful than thinking of it as fog. Fog makes it feel as though nothing is visible. A blank region tells you something more useful: this part has not been surveyed, and the rest of the map has not disappeared because of it.
+You can even go to the interview and try the commute first, without yet agreeing to move. Action brings back the information that was missing. By the time the decision really has to be made, the salary and the post may still be attractive, while the commute you have actually measured has changed how you see the job.
 
-A reliable judgement usually does not take the shape of "I'm sure" or "I'm not sure." It looks more like this. I currently lean towards A, for three reasons; the second reason is the weakest of them; if X shows up tomorrow, I will drop my confidence in A sharply.
-
-That has less force than "this is just how it is," and it is much closer to a working state of knowledge, because it reports two things at once: how I think now, and how I will change.
-
-#### Tetlock's eighty thousand forecasts
+#### Experts who wait for time to check them
 {: data-toc-skip='' }
 
-Once you have admitted the unknown, a harder question follows. How sure should I actually be?
+Listening to an expert's analysis, what you feel most immediately is how fluently he speaks. A prediction, though, requires waiting. Whether a certain regime changes, whether an economic indicator crosses a threshold, will not hand in its answer when the programme ends.
 
-Attaching "possibly, perhaps, not necessarily" to every sentence looks humble and can be a way of dodging commitment. Sounding certain does not mean you understand more, either. The difficult part is getting confidence to match evidence.
+From the mid-1980s, Philip Tetlock tracked the predictions of experts in politics and economics over a long period. He asked participants to make checkable judgements about specific events and to state their degree of confidence, then set these against the later outcomes and against comparison baselines.[^tetlock]
 
-The psychologist Philip Tetlock spent twenty years doing something plodding and rather remarkable. From the mid-1980s he recruited nearly three hundred people who made their living from judgement — political scientists, regional specialists, intelligence analysts, economic advisers — and asked them to make forecasts on concrete questions that could be scored. Would a particular regime fall within five years. Would a country join a particular organisation. Would an indicator cross a threshold. He required each person to attach a probability, then waited for time to pass and marked the answers one by one. The total ran past eighty thousand.
+Performance in the study varied by person, by question and by method of assessment, and some did worse than simple comparison methods. Expertise that could previously be felt only in conversation now had a record that accumulated over time. Judging a person no longer had to start afresh from the impression left each time he spoke.
 
-The results were not flattering. Taken as a whole, the group did only slightly better than chance, and on some question types they did worse than a simple statistical rule that extrapolated from the recent past. One finding deserves more attention than the headline: the more often somebody appeared on television, and the more confident their manner, the lower their accuracy tended to be. They were not more ignorant. They were taking one explanatory tool past the edge of its range and not stopping.
+The record has to keep the prediction's deadline, its outcome and the confidence held at the time, or there is nothing to compare later. A prophecy with no time limit and no explicit conditions may be described as not yet wrong for a very long time; those waiting on it have no way of knowing at what point it actually deserves their trust.
 
-#### Calibration has little to do with being clever
+#### Putting trust where it fits
 {: data-toc-skip='' }
 
-What Tetlock was really measuring is called calibration, and it has little to do with how clever anybody is. If a person says "I'm ninety per cent sure" and, over the long run, is right about ninety per cent of the time, their confidence carries information. Somebody who says ninety per cent regardless of the situation is producing tone of voice, and gets a few right by luck.
+A record of predictions can reveal another difference that is easily confused: a person whose stated probabilities match the actual frequencies still may not help us tell which situations are more likely to happen. A set of hypothetical weather forecasts shows the difference.
 
-Engineering and risk management have thought this way for a long time. Safety factors, confidence intervals, and fault tolerance all treat "how far my knowledge reaches" as decision data in its own right. Everyday judgement is no different. For something that costs ten minutes if you are wrong, thirty per cent confidence may be enough to try. For an irreversible harm, ninety per cent may not be enough. Confidence cannot be discussed apart from cost.
+Suppose it rains on fifty days out of a hundred. The first forecaster gives a fifty per cent chance every day. The second gives twenty per cent on fifty of the days and eighty per cent on the other fifty; it turns out to rain on ten days in the first group and forty in the second.
 
-That turns "I don't know" from a question about knowledge into a question about responsibility. Being responsible cannot be explained as guaranteeing that you are always right. It is closer to something else: making a defensible choice when information is limited, and giving errors a chance to be spotted early.
+Both forecasters' confidence matches the frequency of rain, but the second supplies one more piece of information useful to anyone going out: which days are more likely to be wet. This simplified data separates calibration from discrimination. Calibration deals with whether the stated confidence has a matching frequency; users usually also care how far the different days can actually be told apart.
 
-> **Provisional commitment**
->
-> *Provisional commitment* is a useful phrase. It is nothing like "I'm not sure, so let's not act." It runs roughly this way. Given what I know now, I am going with A. If A holds, this is the cheaper path. I will be watching X and Y. If X crosses a threshold, I switch to B.
->
-> That formulation ties judgement, action, monitoring, and revision into one sentence. It also has a practical effect between people. When a conclusion has been stated as "this is the fact," changing it gets experienced as losing face. When a conclusion was a working assumption from the start, revising it on new data is just normal operation.
+To check whether 'eighty per cent sure' is reliable, we at least have to say clearly what is being predicted, what counts as its happening, and which outcomes it will be checked against. In everyday exchanges where estimating probabilities does not suit, we can still state our grounds: 'This part I have done myself, that part rests on a report, and for the new situation there is no data yet.' The listener then knows which claims come from experience and which still need separate confirmation.
 
-#### Understanding an idea and believing it are two different moves
+There is also a limit that no amount of extra effort removes. After checking the expert, you can go on to check the people who assess experts, and then the institutions those people belong to. Every check draws on other knowledge. This road never suddenly delivers you to a position where you need trust nobody at all.
+
+When you find that several reports were all copied from the same source, what looked like the agreement of many people loses some of its weight. Discovering that a prediction never left a checkable deadline has a similar effect. We can check only some of these things, but such specific findings are already enough to change our trust, without waiting until the whole body of knowledge has been examined.
+
+Nor can the responsibility for checking be pushed entirely onto the user. If only the service provider can obtain the original records, yet the user is required to prove for themselves which step of the system went wrong, many problems can never be raised. The provider should give an intelligible account, suitable data for checking and a channel for handling disputes; otherwise 'check it yourself' merely asks people to complete a task without the information it requires.
+
+#### Knowledge left for the next person
 {: data-toc-skip='' }
 
-Once chapter one has pulled observation and explanation apart, another confusion surfaces.
+When a judgement passes into someone else's hands, it can arrive as a bare conclusion, or it can be left together with its data, its methods and the questions still unresolved. The second kind of handing on takes more trouble, but it makes it possible for the next person to discover that the answer no longer suits a new situation.
 
-Plenty of people will not properly understand a position they oppose, because they are afraid that understanding amounts to conceding. Religion, politics, and close relationships make this especially visible. We hear a premise we dislike and go straight into rebuttal, and what we end up rebutting is the version in our own head that happened to be easiest to hit.
+This also changes how we picture relying on others. In accepting a piece of research we do more than borrow the little that the researcher knows beyond us; we also connect ourselves to the records, instruments, methods and subsequent corrections. Individuals forget, leave, and even refuse to admit mistakes, yet the material they leave behind may still let others carry the work on.
 
-You can perfectly well understand how a religious teaching handles death and suffering without committing to its metaphysics. You can understand the assumptions under which an economic model holds without believing that people always behave the way the model says. You can understand how somebody's anger was built and still refuse to accept their using it to hurt people.
+A book carries this responsibility too. Readers cannot redo every study on the author's behalf, so the author must give the important claims their sources and make the key steps of the reasoning findable. Trust does not release the author from giving that account. It is worth placing, often, precisely because others can still ask questions after it has been placed.
 
-Understanding is closer to building a simulator that runs. If you genuinely understand a position, you should be able to predict how it answers a situation it has not met, rather than reciting its current slogans. Believing is a separate act: how much truth, value, and commitment to action you are willing to stake on that simulator.
+### 3 — Who Decides What Is Worth Looking At
 
-Separate the two and the world of ideas suddenly gets bigger, because you no longer have to decide which side you are on before you are allowed to go in and look.
+In Lewis Carroll's Alice's Adventures in Wonderland, Alice and a crowd of animals climb out of a pool of tears, soaked through. Everyone needs to get dry, and the Dodo proposes a race.
 
-#### The rules of the Yijing are in the open
+The course is roughly a circle, though the shape does not matter. There is no starting signal for the field; whoever wants to run runs, and whoever wants to stop stops. After a while the Dodo declares the race over, and everyone crowds round to ask who has won.
+
+It thinks for a long time and decides that everybody has won, and that everybody must have a prize. Who is to provide the prizes? The Dodo points at Alice. She hands round the sweets from her pocket, and there is exactly one each. But she is to have a prize too, so she brings out a thimble that was already hers. The Dodo solemnly presents it back to her, and everyone cheers. Alice finds the whole thing absurd, and takes the prize all the same.[^alice]
+
+By the end of the run, everyone is dry. If all the Dodo has to show is that running like this helps to dry a body, it has a result to report. Should Alice press it on why the prizes all had to come from her, pointing once more at the dried feathers would be an answer to a different question.
+
+How much "it achieved its purpose" can say in defence of an arrangement depends on what we are evaluating. An examination mark can help a teacher see whether a student is ready for the next course; using it to decide who deserves respect calls for reasons to be given separately. A mark that has been calculated without error cannot, on its own, show that the second use is justified.
+
+We can set the question down in a park. First decide what is to be surveyed: shade in summer, maintenance costs, or whether a wheelchair can get through. The purpose settles which tools the surveyor picks up, where they linger and when they come back for a second look. One of the things expertise does is help people recognise the differences that work of this kind needs to see.
+
+Then the facts begin to constrain the answers. A gradient has its own way of being measured, shade has its hours, and the upkeep of a material cannot be filled in to suit a position. Caring about different things makes for different surveys; once two people are answering the same question, it is still possible to compare which measurement is the more reliable.
+
+A difficulty of another kind surfaces only when the manager has to divide limited space and a limited budget. Keeping more trees, widening the paths and holding down maintenance may not all reach their best at once. However precise the gradient data, it will not decide on everyone's behalf who should bear a little more of the inconvenience.
+
+If an overall score multiplies shade, access and cost each by a weight, then whoever sets the weights is shaping which needs are met first. The formula may compute very exactly; the choice of weights still has to be explained to the people it affects. On the other side, if the gradient really was measured wrongly, the figure should be corrected. Whether a measurement is accurate, and how a limited budget should be shared out, are two different disputes.
+
+Stating the use first also lets us judge, in concrete terms, whether an omission is a problem. A running route map that leaves out rest stops may still be enough for planning distances; if the same map is used to guide wheelchair users, the stairs along the way must be marked. The strongest ground for criticising such a map is to point to the omission that gets in the way of what it claims to help with.
+
+#### Which differences are worth keeping
 {: data-toc-skip='' }
 
-Saying "you can understand it first and decide about belief later" is easy. The specific difficulties only show up when you actually assemble one.
+When we organise information for a given use, we usually leave some details out. A financial statement does not record every conversation in the office, and a route map does not mark the position of every window. Whether a detail is kept depends on whether it would affect the judgements the user has to make.
 
-The generative rules of the *Yijing* are in the open. Sixty-four hexagrams, six lines each, every line in one of two states; each hexagram has its judgement, each line has its text; which lines are changing alters how you read it. The rules can be learned. Once you have them you can do something very like a test: take a situation the system has never seen and work out what it would say. Without believing that the result has any predictive power, you can still judge whether an answer is the kind of answer this system ought to produce.
+A model can be used to record the features we care about and the relations between them. Recording a cup as a capacity, a material and a degree of heat resistance, for instance, helps someone judge whether it is fit for hot water; if the task is to arrange shipping, weight, dimensions and fragility matter more. Four uses can be compared here:
 
-There is another layer worth knowing. The thing we now call the *Yijing* was not written at one sitting. The core hexagram and line texts are Western Zhou divinatory language; through the Warring States and Han periods a whole body of interpretive material was added, the *Yizhuan* or Ten Wings, which reread a divination manual as a body of thought about change, timing, and virtue. The same text, used as two different tools in succession.
-
-#### The Yijing that Leibniz read
-{: data-toc-skip='' }
-
-This simulator has a trap in it, though, and the most famous instance in history stepped right onto it.
-
-Leibniz had worked out binary arithmetic by around 1679. He later corresponded with Joachim Bouvet, a French Jesuit in Beijing. In November 1701 Bouvet sent him a diagram of the sixty-four hexagrams; it reached him in April 1703. Leibniz recognised it at once: count yin as 0 and yang as 1, and those sixty-four figures are the binary numbers from 0 to 63, in the right order.
-
-He was thrilled. He took it as proof that Fuxi had known binary thousands of years earlier, and that he himself was merely recovering lost wisdom. His binary paper that year mentions the Chinese figures.
-
-The correspondence is real. The trouble lies elsewhere: the diagram Bouvet sent uses the "prior to heaven" arrangement systematised by Shao Yong in eleventh-century Song China, separated from the legendary Fuxi by more than three thousand years. And nowhere does the *Yijing* treat yin and yang as place values for doing arithmetic.
-
-Leibniz thought he was reading somebody else's system. What he read was his own model reflected back.
-
-This is where the simulator test earns its keep. Once you have it running, ask: is this an answer it would give, or an answer I would give?
-
-Following that test, there is one more thing to concede. Reading a system as a set of rules and living inside that system are two different things. How the *Yijing* is worked out can be learned; somebody who has used it for forty years, who genuinely sits down and casts before a major decision, knows something else entirely. That the simulator runs is not the same as knowing what it is like to live in there.
-
-This is the method's own boundary. It gets you inside far enough to see, and much more clearly than attacking a straw man ever does, but it will not make you an insider.
-
-### 3 — One Cup, Four Answers
-
-> *The word "important" cannot exist apart from a purpose.*
-
-There is a cup on the table.
-
-Asked what it is, the answer is too easy. A cup.
-
-Bring a few other people in and the answers start to diverge. The mover who walks in sees a fragile item before seeing a cup, and what they care about is size, weight, and whether it stacks. The product designer looks at the angle of the handle, the thickness of the rim, whether the tooling came out cleanly. The cleaner notices whether the groove around the base will trap residue. The forensics examiner may not care at all whether it holds water; they want to know whether there are prints on it, what the traces are, and roughly when they were left.
-
-Which of these is the cup's real nature?
-
-The question sounds like a philosophy exam, and it causes trouble every day in companies, families, and technical systems. We are in the habit of hiding the question we are answering, and then arguing fiercely about the answer.
-
-![Purpose works like a lens: one cup, and four sets of information kept because four questions differ](/assets/img/book/en/fig3_1_cup.png)
-_Figure 3.1 Purpose works like a lens: one cup, and four sets of information kept because four questions differ_
-
-#### There is a question hidden inside the word "important"
-{: data-toc-skip='' }
-
-Any act of understanding has to throw something away. This has nothing to do with laziness. If nothing is discarded, understanding never takes shape.
-
-A map that drew every speck of dust in a city would be harder to use than the city. A financial statement does not record every conversation in the office. A health check does not measure every molecule in a body. Our judgement of a friend cannot possibly retain their entire history from birth. A model is a form of selective forgetting.
-
-So what should be forgotten? The answer is not "whatever is least important," because importance itself depends on what you are trying to do.
-
-| Purpose | Keeps | Sets aside for now | How it typically fails |
+| Purpose | Kept | Set aside for now | Possible error |
 |---|---|---|---|
-| Drinking | Capacity, heat tolerance, safety | Exact shape | Ignores heat tolerance |
-| Logistics | Size, weight, fragility | Feel in the hand | Ignores breakage rates |
-| Design | Proportion, texture, manufacturability | Some logistics detail | Aesthetics replaces use |
-| Forensics | Residue, prints, timing | Whether it drinks well | Destroys the evidence |
+| Drinking | Capacity, heat resistance, safety | Exact shape | Overlooking heat resistance |
+| Logistics | Dimensions, weight, fragility | Feel in the hand | Overlooking breakage |
+| Design | Proportion, texture, manufacturing process | Some logistics details | Looks displacing use |
+| Forensics | Residue, fingerprints, timing | Whether it is pleasant to drink from | Destroying evidence |
 
-_Table 3.1　Purpose decides which differences survive_
+Each of these sets of data is useful, and they cannot be swapped about at will. Knowing that a cup withstands heat does not tell the shipper how large a box is needed; the person lifting fingerprints may have to finish recording them before someone else washes the cup. By the time the inquiry begins, the purpose has already shaped what is kept.
 
-For drinking, capacity and material matter. For logistics, weight and stackability matter. For archaeology, the period and the marks of manufacture matter. Purpose is not a condition bolted on after the model is finished. From the first second, it is deciding what gets into the model at all.
-
-This is why a lot of large questions are asked wrongly from the start. "Which management method is best?" has almost no answerable content without organisation size, talent structure, time horizon, and the cost of failure. "Does AI have intelligence?" turns easily into a fight over nouns unless somebody first says which capability we want to predict, in what environment, and what kind of failure is tolerable.
-
-#### Expertise is a discipline of ignoring
+#### What the work is meant to get us
 {: data-toc-skip='' }
 
-A doctor, an engineer, a lawyer, an accountant, and a designer looking at the same situation will notice different differences. This does not mean one of them is closer to the world. Each profession has trained a set of rules about what can be left unexamined for now.
+The task in front of us usually has a further reason standing behind it. A customer service department that wants shorter calls may want them so that people waiting to be answered wait a little less. If staff transfer complicated problems away quickly, the call figures improve while customers queue again and again and retell their story; the service has not improved because of it.
 
-Those rules are powerful. They let an expert handle in minutes what looks like chaos to a beginner.
+When the call ends, the customer may join another queue for another line. The original record stops at the moment the phone is put down, but his problem carries on. To know whether the service has improved, the record has to follow him a stretch further.
 
-Professional blind spots grow out of the same place: the problem changes and the rules about what to ignore do not.
+Time also sets different purposes against one another. A project may skip necessary maintenance in order to launch on schedule; a department may push pending problems into next quarter in order to hit this quarter's target. The progress in hand still has value, but the assessment has to count in the cost that has been deferred.
 
-An image recognition model chasing average accuracy in the lab is a reasonable thing. Deploy it on a low-power device and latency, memory footprint, and the cost of a false positive suddenly become the binding constraints. If the team is still using the same leaderboard to decide which model is best, the model has not got worse. The problem changed a while ago and the evaluation is still living in the old one.
-
-Management works the same way. A company says it wants to improve efficiency. Finance hears cost reduction, engineering hears less rework, product hears a shorter cycle from request to user. Everybody agrees efficiency matters, and they are working in four different worlds.
-
-Plenty of arguments never reach a conclusion because what they were arguing about was never the answer; it was the question.
-
-#### Purpose has three layers, and the middle one gets skipped
+#### Abstraction has more than one direction
 {: data-toc-skip='' }
 
-"Ask about the purpose first" turns into a management slogan very easily, so it needs digging.
+To class a cup as a "container" is to attend to the fact that it holds things; to class it as a "fragile item" is to attend to the risk of a knock. The two classifications keep different features, and there is no need to rank one above the other first.
 
-The first layer is the task in front of you: what has to be finished today. The second is what finishing it buys: why it is worth doing. The third is a longer time horizon: whether today's success damages what actually matters in six months.
+The distinction also helps in assessing records that have been reduced to numbers. If an employee's performance score counts only the cases he has closed himself, it cannot show how much time he spent training colleagues; sorting test results into normal and abnormal may no longer show how near a value came to the threshold; drawing a rectangular box round a pedestrian in an image keeps mainly position and size. When the next step is to judge long-term contribution, track how a value changes or understand where the pedestrian intends to go, other records may be needed.
 
-A project can hit its launch date by accumulating code nobody dares touch. A department can make this quarter's numbers look good by pushing the problem into next quarter. A person can avoid tonight's conflict in a way that costs a relationship its trust three years later. Local purposes are not wrong in themselves. What goes wrong is a local purpose quietly passing itself off as the whole.
+Whether an omission causes a problem still depends on the later use. Some representations mainly rearrange information so that calculation or lookup becomes easier, and do not necessarily delete any of the original content. Chapter 4 compares this case using road networks and numerals. Judging whether a representation is good means actually looking at what it preserves, what it makes convenient, and what the present question needs.
 
-So purpose needs auditing too. Who set it? Who benefits? Who carries the cost of what it ignored? Which constraints are not available for trade?
-
-Suppose a customer service policy aims to shorten average call time. It may genuinely make the numbers prettier. If complex problems get transferred away quickly, users have to explain themselves twice, and staff start avoiding the hard cases, then the metric was met and the service got worse. Once a purpose is compressed into an indicator, the proxy starts to displace the thing it was meant to protect.
-
-Purpose is less like a blank to be filled in and more like a tree. Above it are higher reasons. Beside it are constraints that cannot be ignored. Below it are the indicators and methods you have provisionally adopted.
-
-#### Switching lenses
+#### Purposes are changed by understanding too
 {: data-toc-skip='' }
 
-We talk about one thing being more abstract and another more concrete, as though abstraction had a fixed staircase. Go back to the cup and it does not work that way.
+If a purpose could be fixed once and for all, the difficulties that followed would mostly be a matter of finding the means. But people often find that, having learnt a few things, what they want to accomplish has changed as well.
 
-Seeing the cup as a container is not a higher rung than seeing it as a fragile item. They follow different purposes and keep different differences.
+Someone who first understood caring as doing everything for the other person, and who then heard that person's own account, begins to value leaving him his choices. At that point the new understanding has changed what "doing it well" means. Pursuing the old goal more efficiently might, if anything, intrude on him more deeply.
 
-Abstraction is more like switching lenses. A wide angle shows you the relations across a whole scene, a long lens shows you local detail, infrared brings out temperature differences that were not visible at all. No lens equals the world. A lens is worth something for a specific reason: for the problem in front of you now, which kind of difference does it make visible?
+In learning a craft, this kind of change is especially hard to explain in advance. A beginner may want only to get the job done fast, and only later comes to pick out details he could not hear or see before. Those details make him willing to slow down, even to stop being satisfied with work he was once proud of. Had he been asked at the outset whether he wanted to put in all those hours, he would not necessarily have known what he would be putting them in for.
 
-This view has an important consequence. Every act of abstraction creates a blind region at the same time.
+We learn because we value something, and what we learn alters the reasons we valued it. Purpose takes part in inquiry, and inquiry takes part in forming purpose. Draw the two as sharply sequenced steps and this whole stretch of experience has nowhere to go.
 
-When a company compresses employees into performance scores, the comparable differences get clearer, and collaboration, developing other people, and long-term effects may be flattened along with them. When a medical system sorts people into normal and abnormal at a threshold, decisions get faster and individual variation near the boundary gets discretised away. When a vision model represents a person on the street as a rectangle, it gains a very useful visual object and loses that person's story, intentions, and identity.
+A change of wishes is itself worth looking back on. Learning may lead a person to a new interest; advertising, rewards and group pressure may also set him chasing things he never cared about before. One way to evaluate such a change is to ask whether he had the chance to encounter other options, to understand the cost, and to refuse when he no longer wished to go on.
 
-Abstraction is not the problem; forgetting what it did is where the trouble starts.
+Public decisions carry one further practical requirement. A wheelchair user points out that the ramp cannot be used, and the information has certainly entered the room; if the designer can still pass over it because it is not among the established metrics, the intervention has had no effect on the judgement. The value of more viewpoints has to be judged by whether they can change the scope of the problem and what is done about it afterwards.
 
-#### A clumsier question that holds up better
+Institutions run into difficulty at this same point. An institution needs a goal before it can begin to survey and to allocate resources, yet the survey may bring back lived experience capable of changing the goal. What began as a count of how many people could walk through the park turns up the fact that some people cannot get in at all; if the original scoring is still used to show that everything is in order, the added understanding becomes a marginal note that cannot touch the decision.
+
+We cannot guarantee that every wish becomes better for being understood. But an arrangement that permits only the improvement of means, and never permits the question "what does doing it well actually mean" to be asked afresh, has already set an end point to what people may learn.
+
+## Part Two — Models, Their Uses, and Where They Apply
+
+### 4 — A Different Representation Makes Thinking Possible
+
+Look first at the centre of each of these two maps, then follow one line out to the suburbs.
+
+| 1908: still resting on the geographic base map | 1933: Beck's diagram |
+|---|---|
+| [![The London Underground map of 1908, its lines laid over a base map of streets and geography, with station names crowded at the centre.](/assets/img/book/shared/fig-02-london-1908.jpg){: width="1600" height="1267" }](/assets/img/book/shared/fig-02-london-1908.full.jpg) | [![Harry Beck's 1933 London Underground map, which presents the network in regular line segments with interchange circles and respaces the stations.](/assets/img/book/shared/fig-03-london-1933.jpg){: width="1536" height="1105" }](/assets/img/book/shared/fig-03-london-1933.full.jpg) |
+
+_Figure 4.1　Two historical maps from different decades. On the left, the Underground map of 1908, marked in the archive as public domain; on the right, the second edition of Beck's 1933 map, image source and credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, CC BY-NC-SA 3.0. The two maps also carry the differences of a network that changed over the years.[^map1908][^map1933]_
+
+In the left-hand map the railway still clings to a city in which streets, riverbanks and parks can be recognised. Suburban distances stretch the lines out, while the centre is crammed with station names and bends. The right-hand map keeps the connections between stations, straightens the lines into regular directions and makes room for the names. The London you see has been stretched, compressed and rearranged.
+
+When Harry Beck put the design forward in 1931, the publicity department turned it down. Could passengers really read a map that strayed so far from geography? By 1933 the design was at last printed as a pocket folder, and demand brought further printings.[^beck]
+
+A passenger holding the map mainly wants to know which line to take, which stations it passes in order, and where to change. Beck opened out the crowded centre and shortened the suburban gaps so that station names and interchanges were easier to pick out. Distances on the map therefore no longer follow geographic scale, while the connections between stations and their sequence still have to be accurate.
+
+When you ask instead how long it takes to walk between two stations, the spacing on the right-hand map is no longer enough to answer. The purpose has changed, and so has the information that needs to be put back. An omission has concrete gains and losses, and these can be compared.
+
+A visitor arriving in London for the first time may not yet be familiar even with the line colours and the interchange symbol. He needs a key to tell him how to read the map, and then station names to confirm his direction. A map that someone who knows the network can take in at a glance is not necessarily as simple for him. As for the engineers who maintain the track, they also need actual positions and equipment data, and the pocket travel map does not supply these.
+
+How long an explanation should be therefore also depends on what the reader has already learnt. Cut the key that a newcomer needs and the page is cleaner, but he has to go about asking people what the symbols mean. A concise explanation should spare people irrelevant work while keeping the explanation needed to finish the task in hand.
+
+A digital map can show the travel route first and let people tap open exit and walking information; a printed one can separate the main map, the key and supplementary pages. Users ordinarily read only the part they need, and when a new question arises they can still find further explanation.
+
+#### Compare on the same network first
 {: data-toc-skip='' }
 
-The next time you meet "which is better," "does this even count," or "what is the essential nature of this," you can decline to answer and rewrite it into something clumsier:
+The two historical maps are twenty-five years apart, and the lines themselves were added to and removed. To see on its own what the redrawing brings, it is best to hold the connections fixed. The figure below therefore constructs a separate one-way network of eight places: in both drawings, A to H, the arrow directions and the links are exactly the same, and only the placement of the coordinates changes.
 
-> For what purpose, under which conditions and over what time horizon, do I need to keep which differences, in order to support which action?
-{: .prompt-tip }
+![The same one-way network from A to H. On the left the places are spread according to hypothetical positions; on the right they are arranged in five layers by the number of steps from A. Arrows and reachability are identical.](/assets/img/book/en/fig-04-same-network.svg){: width="1200" height="800" }
+_Figure 4.2　Two drawings of the same set of links. This is a hypothetical example drawn for this book, not the London network. The right-hand drawing is arranged by fewest steps: A; B, C; D, E; F, G; H._
 
-That sentence has none of the elegance of a philosophical slogan, and it smells faintly of engineering. Its use is to force a vague question to grow coordinates. Once coordinates appear, a lot of arguments that looked like arguments about the nature of the world show their real shape: we are choosing a way of looking.
+What is the smallest number of steps from A to H? Each arrow counts as one step, and you may travel only in the direction of the arrow. If you pick any route on the left-hand drawing and follow it to the end, what you get may be only one route among several, and you still have to compare the others before you can confirm it is the shortest. The right-hand drawing searches in a different order: first list every place reachable in one step, then every place reachable in two, and work outwards layer by layer. When a place turns up a second time, you already know that the earlier route reached it in no more steps than this one, so there is no need to start again from here.
 
-#### Who gets to decide what we are solving
+Starting from A, one step reaches B and C, two steps reach D and E, three steps reach F and G, and only the fourth step finds H. The search has already listed every place reachable in fewer than four steps, and H is not among them, so four steps is at once one route that has been found and the smallest number of steps required.
+
+This method is called breadth-first search. It supplies an order of searching, and it also supplies the reason for being sure the answer is the shortest. As the network grows, following the same method and recording the places already reached and the steps taken avoids trying complete routes over and over. What learning an algorithm that others have worked out saves is exactly this kind of repeated fumbling.
+
+Now suppose some links take one minute and others ten, and we want the quickest route. Taking one step fewer no longer necessarily takes less time; three links of ten minutes each may be slower than five links of one minute each. Breadth-first search can still find the route with the fewest steps, but to find the route that takes the least time, the time of every link has to enter the calculation, and a method suited to differing costs has to be used.
+
+#### Write it differently and the calculation changes
 {: data-toc-skip='' }
 
-If purpose analysis only ever reaches "ask about the goal first," it turns into a tool for making existing power more efficient.
+One hundred and five is written 105. The zero in the middle seems to stand for nothing, yet it keeps the units apart from the hundreds. Write 15 and the two digits that carry value are still there, but the quantity has changed. Place-value notation lets the same symbol stand for different magnitudes in different positions, and it lets addition, subtraction, multiplication and division proceed step by step along those positions.
 
-A company says the goal is lower cost, so the algorithm lowers cost. A government says the goal is better traffic throughput, so the system improves throughput. Technically this can be entirely correct, and three questions have been skipped. Why does this goal get to override the others? Who took part in defining it? Who carries the part of the cost that never entered the model?
+Write twenty-three times fourteen as 23 × 14 and you can split fourteen into ten and four, work out two hundred and thirty first, then ninety-two, and put them together to make three hundred and twenty-two. Long multiplication sets these relations out on paper, so that all the intermediate results need not be held in the head.
 
-New York in the 1960s. Robert Moses, at that point the most powerful planner in America, controlled enormous public works budgets, and his question was precise: how do you make cars move through a city more freely. That goal was not sinister. Post-war America almost universally agreed that cars meant progress. Working from it, Moses built expressways across New York and demolished the neighbourhoods along their routes. In the early sixties he proposed a road that would cut straight across Lower Manhattan, through what is now SoHo and Little Italy.
+The Roman numerals XXIII and XIV also stand for twenty-three and fourteen. The quantities have not changed, but the decimal long multiplication above cannot conveniently be applied to them directly. The person calculating can switch to a tool such as an abacus, or first rewrite the numbers in a notation suited to the operation. Recording a quantity and being able to work out a product easily are two different requirements.
 
-Among the people who opposed it was a writer living in Greenwich Village named Jane Jacobs. Her 1961 book, *The Death and Life of Great American Cities*, did something that amounts to redescribing the same street under a different purpose. Moses's question was traffic flow. Jacobs's question was how a street stays safe and alive. Under her lens, the shopkeeper glancing up from the counter all day is a security system, and short blocks with mixed uses are an economic system. Neither of those has a field in a traffic model. The expressway was finally killed in 1969.
+When the Underground map was redrawn, some geographic detail was omitted. The numerical example shows another possibility: the quantity is kept unchanged, and certain operations still become easier because of the representation. When Larkin and Simon discussed diagrams and reasoning in 1987, they distinguished two things: that the content of two representations can be derived from each other does not mean that finding a given answer takes the same amount of work.[^representation]
 
-What that fight was about was not whose data was more accurate. Both sides could probably do their sums. They were fighting over who got to decide which problem the city was solving.
+A diagram can present relations such as adjacency, crossing and sequence directly on the page, easing the reader's burden of cross-checking in memory while reading. But two objects drawn close together do not necessarily have a causal relation, and an arrow may indicate nothing more than order. When using a diagram, it is still necessary to say what the points and lines stand for, lest the drawing hint in addition at conclusions that have not yet been established.
 
-Organisations work the same way. A purpose is rarely just a variable in somebody's head. It is usually an outcome of power. So purpose is worth splitting into three layers. The task purpose answers what has to be done now. The system purpose answers why that is worth doing. The legitimacy condition asks which costs should not be decided by one party alone, even when the trade would buy efficiency. That third layer is the one that stops "ask about the purpose" from sliding into pure optimisation.
+An arrangement on paper has a further effect that is easily overlooked: someone else can carry on from it. Long multiplication leaves its intermediate results, and another person can see which column carried wrongly; a network with its links drawn lets someone who took no part in the original discussion still look for another route. A representation preserves relations that people can operate on, and thinking can therefore be interrupted, handed over and resumed.
 
-#### Wald's bullet holes
+We often think of tools as things picked up only after the thinking is done. Here the order is not so tidy. Only after learning how to lay quantities out on paper can people reliably complete calculations that were hard to complete in the head; only after drawing out the dependencies among tasks does it become possible to notice a wait that had never been spoken of. A new representation also takes part in forming the ability.
+
+#### What can be carried elsewhere
 {: data-toc-skip='' }
 
-A purpose can be met beautifully and still be the wrong problem.
+Roads, the passing of messages and dependencies between tasks can all be represented with points and lines. Before carrying the same method of calculation across, the meaning of the points and lines has to be confirmed: is a point a place, a recipient or a task? Does a line mean that one can pass, that something can be sent, or that something must be finished first? If costs are being calculated, it also has to be made clear which costs increase as a line is traversed, and whether they may be counted more than once.
 
-During the Second World War the American military faced a practical difficulty: bomber losses were too high, and armour had to go somewhere. Armour is heavy, and a plane carrying too much of it cannot fly, so the placement had to be chosen. They did the apparently sensible thing and counted the bullet holes in the aircraft that came back, looking for the areas with the densest damage so they could reinforce them.
+For example, when water flows through pipes, the amount entering and leaving a point can be calculated; when a message is forwarded, it may be copied to many people at once. That both sides use the word "flow" is not enough to justify carrying over the same conservation relation. Only when the differences are set out explicitly can one see which step of the original calculation needs changing.
 
-At Columbia there was a unit called the Statistical Research Group, and in it a mathematician named Abraham Wald. He pointed out a structural problem with the data. Every aircraft in the sample was an aircraft that had returned. Holes clustering in certain areas might simply mean that a hit there still let you fly home, while the genuinely fatal locations brought planes down where nobody counted them. Armour, on that reading, belonged where the returning aircraft showed the fewest holes.
+Borrowing a story needs the same comparison. Someone who went for years without results and then succeeded can let readers feel how hard the waiting was. To use this to urge another project to hold on for one more year, one has to establish: what has the past investment accumulated? Which thing might one more year of waiting change? What signs show that results are drawing near? A failed project may also have a long history of investment, and length of time by itself cannot tell the two apart.
 
-Wald's actual work was far more careful than the popular version — he developed a method for estimating vulnerability from surviving samples — and the core of the story is not exaggerated. The military had asked where the holes were. Wald changed the question to which hits stop you coming back. Same data, one substitution, and the answer inverts.
-
-This is why redefining a problem is a higher-order skill than finding a better answer. Many significant breakthroughs did not come from finally finishing off the original problem. Somebody noticed that we had been treating something variable as fixed, treating an unimportant difference as important, treating a proxy as the goal.
-
-Abstraction does more than subtract; it can also discover. Some problems are hard because we have been using the wrong representation the whole time, and not because the data is thin. Turn a discrete classification into a continuous quantity, turn an individual problem into a process problem, turn "whose fault is this" into "which feedback loop got slower," and the structure of the situation can suddenly become workable.
-
-A team that keeps investigating which person is inefficient will improve only so far. Restate the problem as waiting time, dependency, and rework loops, and a question about personalities becomes a question about a system. Change the representation and the kind of causality you can see changes with it.
-
-#### Who pays for the simplification
+#### What a simple action needs behind it
 {: data-toc-skip='' }
 
-Every abstraction makes some differences disappear. That in itself carries no moral weight. The awkward part is that a disappeared difference sometimes turns into somebody else's cost.
+A few taps on a phone and a food order is sent. The user does not have to contact the kitchen, arrange the order of deliveries or sort out delivery addresses; these are shared among the platform, the restaurant and the courier. The simple action lets him place the order without understanding all the details.
 
-A credit score compresses a complicated life into a risk number, which is extremely convenient for a financial system, and the person sitting near the boundary may lose an opportunity because of it. A company compresses performance into quantifiable indicators, management gets easier, and the employees who do the collaborating, the mentoring, the firefighting, and the long-term groundwork can become invisible.
+But if the delivery address cannot be made out, or the order status does not match what the restaurant received, the process that was hidden behind the screen becomes important. Finding where the error lies may require comparing the order record, the address and the delivery status. If these data were never kept, the user can press the same button a few more times and still get no answer.
 
-So an abstraction audit needs a third question alongside "what was kept" and "what was discarded": who pays for this simplification?
+The folder icon on a computer presents the operations of storing and organising files on the screen. The user can copy, move and open files without having to know each time where the data are actually held. A representation of this kind, made for people to operate, is called an interface.
 
-That question matters especially because the beneficiaries of an abstraction and the people carrying its costs are often not the same group. The person who designs the form gets consistency; the person filling it in absorbs the loss of context. The system gets efficiency; the boundary cases absorb the misclassifications. When an abstraction is one person's private notebook, the cost is limited. When it becomes an institutional interface, the ethical weight goes up.
+Some concepts work in a similar way. To say that a company's profit has risen lets us discuss revenue, costs and investment first, without immediately reading through every transaction. If, however, profit on the books rises while cash keeps falling, it becomes necessary to look into receivables, the timing of payments or other relevant details. The summary that was useful before cannot, on its own, answer the new question.
 
-### 4 — The Tube Map That Got It Wrong
+"He is very conservative" is also a summary. If this person suddenly supports a proposal that would greatly change the present state of affairs, rather than concluding straight away that he has contradicted himself, one can ask what exactly he is protecting: an existing process, a certain value, or the interests of a group of people? A word that is convenient for everyday description needs to be spelt out afresh when it meets a counter-example.
 
-> *Every model leaves things out. Some omissions leave a way back in; some go so far that there is none.*
-
-In 1931 a draughtsman at the London Underground named Harry Beck was out of work, his post cut in a round of downsizing. At home he took a sheet of paper and did something that looked absurd at the time: he threw away the geographic scale of the Underground network.
-
-The maps before his were drawn to real geography. Central London's stations crowded into an unreadable knot while the suburban lines stretched out long and empty. Beck's day job was drawing circuit diagrams, and it occurred to him that a passenger underground has no use for geography. A passenger needs three things: which stations a line passes, where you can change, and which direction to board.
-
-So he pulled every line into horizontals, verticals, and forty-five degree diagonals, enlarged the centre, compressed the outskirts, coded the lines by colour, and let the Thames be the only geographic object left on the sheet. Almost every station on that map sits in the wrong place.
-
-The publicity department turned it down the first time as too radical. Two years later they printed a small trial folder, and Beck is said to have been paid five guineas for it. Passengers responded so well that the company had to reprint immediately. Ninety years on, transit systems worldwide are speaking the same visual language.
-
-If you land in Tokyo for the first time and are handed a subway map, you are unlikely to complain that it is not to scale. Some stations look close and are a twenty-minute walk apart; rivers, gradients, and street detail barely exist. It is plainly distorted and it works beautifully.
-
-A map drawn to exact scale, dense with terrain, would help you less with changing trains.
-
-There is an important turn buried in that small piece of history. A model's usefulness often comes from its willingness to stop resembling the world.
-
-#### Compression is what makes a map usable
+#### The boundary can be redrawn, yet the consequences remain real
 {: data-toc-skip='' }
 
-We tend to treat simplification as a compromise forced on us, as though the ideal model would retain as much reality as possible. Something that genuinely retained every detail would no longer be a model. It would be a second copy of the world, equally hard to handle.
+Some decisions need a clear threshold. The law fixes the day on which a person comes of age, a monitoring system sets the value that triggers an alarm, a screening procedure lays down when further tests are arranged. People have to act at some moment, and so they divide a continuously changing situation into a few categories.
 
-Models have to compress. The only question is how.
+Take a hypothetical risk score: seventy or above is classed as high risk, and sixty-nine falls short. That one point can decide whether additional review is triggered, yet the actual risk does not necessarily jump between sixty-nine and seventy.
 
-A weather forecast turns the state of the atmosphere into a handful of variables and probabilities. A neural network compresses regularities in a mass of data into parameters. A person's understanding of a colleague compresses a few hundred interactions into "they go conservative under pressure." None of these is reality, and each of them makes prediction and action possible.
+Choosing the threshold requires reference to the relation between risk and score, and consideration of the respective consequences of missing someone at high risk and of misjudging someone at low risk, as well as how much review capacity can be committed. The data limit which choices are well founded; the decision-maker still has to explain why the line is drawn here.
 
-In late August 1854, cholera broke out in Soho and killed more than five hundred people in ten days. The prevailing view was that cholera travelled through bad air.
+Once the threshold is adopted, what was only one point in a calculation changes how a particular person is treated. Discussion of whether the line is drawn reasonably therefore cannot stay inside the formula.
 
-A physician practising nearby, John Snow, was unconvinced. He did something very simple: he took a street map, marked each death as a small stroke, and marked the locations of the public water pumps.
+Classification changes how people are treated, yet the power of renaming has places it cannot reach.
 
-That drawing has no miasma on it, no wind direction, no smell, and nothing about the occupations or the moral character of the victims — all of which were considered highly relevant at the time. Two kinds of information survived: where people died, and where the water was. The marks clustered densely around the pump on Broad Street.
+When a traveller finds the way by the map, the actual streets test whether the route exists. Draw a short cut on the map and the wall will not let anyone through on that account; write a higher permitted load for a bridge and the bridge does not become any stronger because of the number.
 
-Snow took the map to the local board of governors. On 8 September the handle was removed.
+We can choose how to describe, but whether a description is useful is still limited by the thing described. This book calls this situation "the constraint of reality": some outcomes cannot be changed by changing the words alone; the understanding of the causes, or the actual practice, has to be adjusted.
 
-Snow could not prove the cause at that point — the bacterium was not confirmed for another thirty years — and later research indicates the outbreak was already declining before the handle came off. What makes that drawing remarkable is that he chose the right two variables to keep, not what it proved. Represent an epidemic as death-points plus water-points and a disaster with no visible structure becomes something you can act on.
+This gives different models a place where they can be compared. When two maps give opposite directions for the same road, the discussion cannot be closed with "a difference of viewpoint"; when two maps guide travel by train and on foot respectively, each may be accurate. Only after confirming whether they answer the same question does one know which kind of difference to check.
 
-![The return line between a model and the world: outcomes constrain what the model may go on saying](/assets/img/book/en/fig4_1_loop.png)
-_Figure 4.1 The return line between a model and the world: outcomes constrain what the model may go on saying_
-
-So when somebody says a model is not reality, the sentence has not yet done any work. Of course it is not. The question with more information in it: which relations did this model keep? Is its distortion purposeful or unnoticed? And which costs did it move somewhere out of sight?
-
-#### Complexity does not vanish, it relocates
+#### When both maps can be used
 {: data-toc-skip='' }
 
-Modern life leans heavily on things that look simple. You press a phone and half an hour later food arrives at the door. You call an API and a few lines of code make use of an enormously complicated system behind it. You glance at a green light on a dashboard and know things are normal.
+A city can have a transit map, a relief map, a population map and a house-price map all at once. A company, too, can be understood through its balance sheet, its operating procedures and its division of labour. Each of these representations helps answer a different question, and which to choose depends on what needs to be known this time.
 
-Those simplifications are real. For the user, the world genuinely did get simpler.
+Faced with the same question, several maps sometimes correct one another, and sometimes each still carries its own cost. Someone in a hurry may accept a rough estimate of time, while someone studying the causes of congestion has to keep several more variables. Comparing how the maps predict new data, what they assume and what it costs to check them can help with the choice; no single requirement can always come first for every use.
 
-The complexity did not disappear. It usually moves: to the platform backend, the operations team, the exception handling, the data cleaning, the support desk, the regulators, the supply chain, or onto some group of people the system boundary excluded.
+Organisations also meet another situation: two analyses are both quite reliable, yet they cannot combine themselves into a decision. The safety assessment points to a danger, the revenue forecast looks favourable, and the arithmetic in neither is wrong. If the two are converted into a single overall score, someone has to decide how much revenue offsets how much danger; if it is ruled that a certain kind of danger is enough to halt the project, reasons have to be given for that too.
 
-This is why many systems look elegant in ordinary times and then, when something breaks, suddenly nobody knows how to repair them. Encapsulation hid the complexity so well that even its location was forgotten.
+Drawing more maps means this discussion need not proceed in a vacuum. The lines and numbers on the maps, though, will not take on the choice for the people at the table.
 
-Engineering talks about technical debt. Plenty of concepts accumulate something similar, an abstraction debt: what was omitted for the sake of simplicity becomes important again after the environment shifts, and the organisation has forgotten it was ever omitted.
+### 5 — What Was Left Out Is Still at Work
 
-A model evaluation that looks only at average accuracy works well while the data is stable. Change the camera, the image pipeline, or the user population, and the distribution differences that were averaged away become the main problem. The team's instinct at that point is to tune the model again, and the debt they actually owe may not be in the parameters. It may be that the original representation left the environment out.
+On the evening of 31 May 2009, Air France flight AF447 left Rio de Janeiro for Paris with two hundred and twenty-eight people on board. By the early hours of 1 June the aircraft was cruising over the Atlantic. The captain had handed over and left the cockpit to rest, leaving the two co-pilots in their seats, one flying, the other monitoring and assisting.
 
-#### Boundaries are drawn by people and their consequences are real
+The airspeed readings suddenly became inconsistent for a short time, and the autopilot disconnected. The investigation concluded that the probes used to obtain airspeed information had most likely been obstructed for a while by ice crystals. The co-pilot flying took control and pulled back on the sidestick, raising the nose; the aircraft began to climb and, as it did so, to lose speed.
+
+The other co-pilot noticed that the aircraft was climbing and asked several times for it to descend. The pilot flying did make nose-down inputs, and the climb eased for a moment, but then the nose came up again and stayed up. As the climb went on, the stall warning sounded continuously; the altitude reached about thirty-eight thousand feet at one point, some three thousand feet above the original cruising level. The monitoring co-pilot called repeatedly for the captain to come back.
+
+A stall, here, is a matter of the wings. The angle at which the wing meets the airflow becomes too steep, the flow begins to separate from the wing surface, and lift falls away. With its nose pointing upwards the aircraft can still be dropping fast. Holding the nose up does not end that state merely because it looks like flying upwards.
+
+Although some of the airspeed readings had come back, the crew still failed to recognise the stall and recover from it. After the captain returned to the cockpit the airspeed readings became invalid again and the stall warning stopped; when the nose was briefly lowered and the readings became valid once more, the warning sounded again. Whether the warning was on or off did not correspond directly to whether the aircraft was now any safer. It had to be read together with whether the airspeed data was valid, what attitude the aircraft was in, and how it was descending. The three men did not arrive at a correct judgement in time. The aircraft went into the sea, and no one on board survived.[^af447]
+
+The French accident investigators traced the event through the control records, the logic of the warnings, the training, and the way the crew worked together. In ordinary flight the systems handle a great deal on the pilots' behalf; once something goes wrong, details that normally need no individual attention suddenly become part of a judgement that has to be made at once.
+
+A person can have the controls back without having, at the same moment, the ability to understand the situation. "When the system meets something it cannot handle, it hands over to a human" sounds like a thorough arrangement: the machine does the routine work and the human keeps the final decision. When the handover actually comes, what is left to the human may be exactly the situation that is least familiar and leaves least time to think.
+
+#### A simple action still rests on many things
 {: data-toc-skip='' }
 
-The moment a model starts compressing, boundaries appear.
+Putting a file into a folder on your own computer and putting a file into a folder on a remote server can be the same drag on screen. The first may finish almost at once; the second has to wait for the transfer. If the connection drops part-way, no amount of resemblance to a local folder will keep that communication alive.
 
-Adult and minor. Normal and abnormal. High risk and low risk. Person and non-person. Intelligent and not intelligent. A great many institutions and decisions end up needing a boundary: what is underneath may be continuous, and handing over an answer somebody can act on often means turning it into a handful of options or a threshold first. Law has to pick a day on which somebody becomes an adult. A system has to pick a number above which an alarm fires. Medicine has to pick a point at which further tests are recommended.
+The user only drags an icon; the program takes care of storing and transmitting, which is why the folder view can be so simple. Whether the file arrives still depends on whether the disk can be written to, whether the connection holds, and whether the remote device responds. These details do not normally need to be shown one by one, yet when they fail they bear on the very same action.
 
-The phenomenon itself does not necessarily break there.
+In 2002 the programmer Joel Spolsky gave this kind of situation a name, the "leaky abstraction", and offered a generalisation about engineering that has travelled widely since: any abstraction with real substance will, to some degree, expose the details it set out to hide.[^leaky]
 
-That does not make boundaries fictional. It means a boundary usually contains two things at once: an observation about how the world behaves, and a choice made for the sake of acting.
+Take TCP, the set of rules for network transmission that lets applications work with a reliable, ordered stream of data, and that can cope with some packets going missing or arriving out of order. A connection may still fail, and there is no fixed guarantee of how long transmission will take.[^tcp] Someone working with remote files who loses the connection may need to check whether the transfer completed, wait for it to recover, or reconnect.
 
-Forget the second and you mistake a cut made for the convenience of deciding for a seam that nature put there. A risk score above seventy is classified as high risk, and the person at sixty-nine and the person at seventy do not become two kinds of being over one point. What exists is a continuous risk and an institutional threshold. The threshold may be entirely reasonable, even necessary. Reasonable is not the same as natural.
+Delay and disconnection may have been set out in the protocol's specification all along; the trouble sometimes lies in an interface that gives the user no reminder, and in a user who mistakes everyday convenience for a guarantee of success at any moment. Once we are clear about what the specification actually promises, we can tell whether the tool has failed to deliver or whether we expected a capability it never agreed to provide.
 
-Keeping that distinction lets you avoid two extremes at once. On one side, all categories are fictions so none of them matter. On the other, the category exists, therefore nature is built this way.
+This book keeps the term "leaky abstraction" to name that relationship: **some of the differences that a representation or interface left out or hid can still affect the outcomes the user cares about; once they come to matter, working only within the original representation may no longer be enough to understand or deal with what is in front of us.**
 
-#### A model is more like an interface than a mirror
+![The left side shows an interface sparing the user from attending to the underlying work on every use; the right side shows that a change in the underlying conditions still affects the outcome of the same action. On both sides the underlying conditions persist.](/assets/img/book/en/fig-11-leakage.svg){: width="1200" height="800" }
+_Figure 5.1　Hiding the details does not cut the dependence on them. The arrows in the figure show relations of support and influence, not that every use will fail. Drawn for this book._
+
+This kind of limit can show up on the very first use. A newly set-up remote folder, for example, can no longer supply files the way a local folder does once the connection drops. The loss of skill over years of use, documentation going out of date, the difficulty of replacing the tool: these are a separate set of risks. Even if none of them ever arises, a connection remains a condition for any remote operation.
+
+#### Why some gaps cannot be filled from within the original representation
 {: data-toc-skip='' }
 
-The most useful metaphor for a model is an interface.
+Suppose two sets of data survive only as their averages. One set was forty and sixty; the other was zero and one hundred. Both average fifty, and there is nothing wrong with that calculation.
 
-The folder icon on a desktop does not mean there is a yellow paper folder inside the drive. It is an interface: it turns a complicated underlying state into a form a person can operate. An interface does not have to resemble what is underneath. It only has to hold certain operational relations reliably.
+Now someone asks whether either set contains a value below twenty. The first does not; the second does. If the average really is all that is left, there is no way to tell from it which set was which. However precisely the fifty is computed, however long it is analysed, the difference that has been lost will not grow back out of it.
 
-Concepts work much the same way. Company, market, personality, disease, intelligence are high-level objects that let us operate on top of enormous complexity. Using them day to day is fine, and without them we could not think at all.
+![Two hypothetical data sets, forty and sixty, and zero and one hundred, are both recorded as an average of fifty; but the answer to whether anyone falls below twenty differs. With only the average kept, the new question cannot be settled.](/assets/img/book/en/fig-12-lost-distinction.svg){: width="1200" height="815" }
+_Figure 5.2　The same summary can stand for situations that call for different answers. The numbers are hypothetical, chosen for the argument, not measured data. Drawn for this book._
 
-What matters is keeping one capability: when the interface fails, knowing you can look further down.
+The reason can be stated quite plainly. If a representation records two actual situations as the same content, and some question demands different answers for the two, then any fixed way of judging that relies on this representation alone cannot answer correctly in both cases. At the least, one piece of information that separates them has to be added, or it has to be admitted that for now they cannot be told apart.
 
-A senior engineer does not stare at the display because the display is wrong; they know there are logs, state, memory, network, and hardware underneath.
+When the task is only to compute the average of the two numbers, either summary is entirely sufficient. An abstraction can stay accurate on a well-defined question; leaving something out does not automatically amount to being wrong. The difficulty is that we so often take a representation built for one kind of question and go on to answer other questions with it.
 
-A good user of ideas is the same. In ordinary times you can say they are conservative, this market has matured, this model is good. The moment results diverge from expectations, remember those high-level words are an entrance rather than a destination.
+So long as the omitted difference stays irrelevant to the question, we can safely spare ourselves the effort of handling it. Once the question changes, more computation may be no help at all. The difficulty at that point may not even be one the person using the representation can resolve: the original data may be kept somewhere else, or it may never have been kept.
 
-The better a model is, the more transparent it becomes. Once transparent, what we see is no longer the model. It is "the world is just like this."
-
-So the discipline that matters most with a model is remembering it is there, which is more useful than doubting it constantly.
-
-#### Completeness is also a cost
+#### Having a limit, and leaving the limit nowhere to be found
 {: data-toc-skip='' }
 
-Back to Beck's map: one sentence there was left unfinished.
+Consider two hypothetical systems for reporting faults. In both, the user presses "report fault" once. One of them also saves the relevant raw data from that moment and allows situations outside the existing categories to be written in; the other keeps only the result once it has been sorted into the existing categories. The screens are equally simple; what can be looked up afterwards is not.
 
-He threw away geographic position, and not only because position was "unimportant." The more practical reason is that if all of it were kept, the three things a passenger actually needs — which stations a line passes, where to change, which direction to board — would be crowded into a picture nobody can read while standing on a platform, in a hurry, possibly without the local language.
-
-So a model faces at least two costs pointing in opposite directions. Compress too much and what was left out comes back to bite. Compress too little and nobody has the time, memory, or attention to run it to the end. The second of those gets discussed less. Leaving nothing out at all was said earlier to stop being a model; what is at issue here is much milder, a model that is merely somewhat more complete than the task requires and unusable for the same reason.
-
-The second cost is just as real. Not thinking it through, not finishing the calculation, not remembering it, not being able to explain it, not deciding in time — those are all failures.
-
-#### Who is holding this map
-{: data-toc-skip='' }
-
-So "which model is better" is missing a question: who is going to use it?
-
-A manager with four people can keep something quite detailed in mind for each of them — what they have been busy with these six months, who they do not get along with, how they changed after that incident, what pressure there is at home. That representation is more accurate than any summary.
-
-Give the same person forty reports and the representation stops running. Nobody can hold forty of those, and it has nothing to do with how much they care. So it compresses into a sentence like "he goes conservative under pressure" — the example from the last section. The sentence is of course lossy, and without it the person could not get through a day of meetings.
-
-There is something easy to misread here. They are facing a different problem and therefore need a different representation. The question worth asking is another one: when somebody's behaviour stops matching that summary, do they have a way to take the sentence apart again?
-
-The same holds between a beginner and an expert. A judgement an expert states in one sentence is often not operable for a beginner, because the sentence is a compression of things the beginner does not yet have. The same set of instructions is clear to one person and unreadable to another.
-
-It has nothing to do with who is cleverer. The expert already holds a structure that lets a dozen interacting things be handled as one; the beginner does not have that structure yet, so the same instructions really are a dozen things. Complexity is therefore a relation between the instructions and whoever is reading them, not a property of the instructions alone.
-
-Research on teaching has the reverse case: a detailed explanation that helps a beginner becomes a redundant load for an expert and gets in the way. This is called the expertise reversal effect. So "explain it in more detail" is not uniformly better either. Who it is better for depends on what that person already holds.
-
-In 2006 Peter Pronovost's team introduced a central-line checklist across more than a hundred intensive care units in Michigan. The list had five items: wash your hands, use full barrier precautions during insertion, clean the skin with chlorhexidine, avoid the femoral site where possible, and remove catheters that are no longer needed.
-
-Measured by completeness, that list is very crude. Far more than five things cause these infections.
-
-And the median rate of catheter-related bloodstream infection fell within three months from 2.7 per thousand catheter-days to zero.
-
-Care is needed here not to claim more causation than the evidence carries. The intervention was not "hand out a list of five things" and stop: it also included training, gathering the necessary equipment onto a single line cart, giving nurses the authority to halt an insertion that broke the rules, discussing daily which catheters could come out, and feeding infection rates back to each unit. So the study does not isolate "it worked because it had only five items."
-
-What it does demonstrate clearly is something else: a representation that actually gets executed at three in the morning and a representation that most completely describes the causes of infection were never the same object. Those five were chosen for high impact and low friction. A list containing every known risk factor would describe the situation more fully, and nobody inserting a line would actually walk through it.
-
-#### Change the notation and hard things get easy
-{: data-toc-skip='' }
-
-There is more than one way to make a problem operable. The last two sections were about discarding information. There is another move in which no information is lost at all and only the notation changes.
-
-Roman numerals keep accounts perfectly well. But they have no place value and no zero, which makes today's kind of written arithmetic — align the digits, multiply place by place, then add — very unnatural on them.
-
-Medieval European merchants could of course calculate. They used counting boards and the abacus, laying quantities out as objects you could move. That method had its own strengths: every step was visible, and a mistake could be traced there and then by pointing at the counters. What it did not do was leave those steps on paper afterwards. Writing material was expensive at the time, which is part of why it lasted far longer than people assume.
-
-Nor did Hindu-Arabic numerals arrive in Europe with one person in one year. Gerbert of Aurillac met the symbols in Spain in the tenth century; twelfth-century translators around Toledo put al-Khwārizmī's arithmetic into Latin, and place value and zero came with it. In 1202 Leonardo of Pisa wrote the *Liber Abaci*, setting the whole method out systematically and pushing it hard into commercial calculation.
-
-Once the notation changed, one set of symbols could do the calculating and record the result at the same time. This way of doing pen-and-paper arithmetic with Hindu-Arabic numerals was called algorism in medieval Europe, and the modern word algorithm evolved from it — its root is the Latinised name of al-Khwārizmī.
-
-For centuries afterwards the counting-board users and the pen-and-paper users went on arguing. In 1299 Florence went so far as to forbid its bankers from using Arabic numerals and require Roman ones instead. And what the two sides were arguing over was not only speed: an abacus lays every step out in front of you, while a written algorithm produces the right answer even when the user cannot say why each step is correct. That is not yet a debt in itself; it has only filed the reasons behind the procedure. The kind of debt chapter five describes begins when those reasons turn back into something the task needs and the user no longer has any way to unfold them.
-
-Not one quantity in the world changed. What changed is which operations are workable, who can be taught them, and whether anybody else can check the working afterwards.
-
-Mathematics and engineering are full of this: substituting variables, changing coordinates, rewriting a pile of simultaneous equations as a matrix, none of which loses anything. Splitting a large problem into sub-problems and cutting a long process into steps are close relatives, except that decomposition often loses the couplings between the parts, so that move is changing the notation and discarding at the same time. So is ordinary life. Turn "our department is inefficient" into "which stage waits longest" and the problem has not changed, and the second phrasing has a next move. Wald in chapter three was doing the same thing.
-
-In 1987 Jill Larkin and Herbert Simon gave this a clean pair of terms. If the content of two representations can each be inferred from the other, they are informationally equivalent; and informational equivalence does not guarantee computational equivalence, because the same inference can be almost immediate in one of them and a long detour in the other. Their examples were diagrams against prose: draw the same pulley problem and the relation you need is more or less sitting there, write it as sentences and you have to reason your way through.
-
-This matters for the trade-off above. Compressing more or less really is a trade-off, and changing the notation does not necessarily move along that line. Sometimes keeping exactly the same information in a different shape is already cheaper to compute.
-
-So a representation decides more than what we see. It also decides which operations are expensive and which are cheap. Whoever drew the tube map made finding an interchange cheap, at the price of making walking distance expensive to estimate.
-
-#### Complexity can be opened on demand
-{: data-toc-skip='' }
-
-If the best level of complexity changes with the user, you do not necessarily need many mutually exclusive models.
-
-There is another option: let the same thing open one layer at a time.
-
-Give a very coarse version ordinarily, expand the second layer when needed, go down to the substrate when something actually breaks. This book has been doing that throughout. An interface holds the substrate back ordinarily and can be drilled into when there is a problem. Intuition works directly until a signal unfolds it into explicit analysis. An institution runs on its rules until enough exceptions accumulate to send somebody back to ask what problem it was solving.
-
-"Is this model any good" is therefore not a question that can be answered apart from the user. The more accurate version: between the information this task requires and the complexity the person — or the machine — using it can carry, is there a position that works?
-
-#### Korzybski's dog biscuits
-{: data-toc-skip='' }
-
-"The map is not the territory" comes from a Polish-American scholar, Alfred Korzybski. In *Science and Sanity*, published in 1933, he built an entire discussion of language and reality on that comparison. A map is useful if its structure is similar to the territory's, and a map is never the territory; the mistake people make most often is taking their own language for the world.
-
-There is a demonstration of his that gets retold frequently. He was making the point that people eat words as well as food, and he took a packet of biscuits out of his bag and offered them to the front row. Students ate them, said they were good, and a couple took a second. When most of the packet was gone he tore off the white paper wrapper to reveal the packaging underneath: dog biscuits.
-
-Several students ran out to be sick.
-
-His comment, roughly, was that he had just demonstrated that people do not only eat food, they eat words — and that the nausea words cause can be stronger than the food itself.
-
-The story is crude in exactly the right way. It is not saying labels do nothing; labels do plenty, and those students' reactions are perfectly understandable. It points at something else: a large share of our response to the world is a response to our own label, and we normally cannot detect that layer.
-
-#### The map is not the territory, and the territory will embarrass the map
-{: data-toc-skip='' }
-
-That line turns very easily into a breezy relativism: everybody has their own map, so let everybody walk their own way.
-
-That step does not hold.
-
-There can be many maps, and the territory constrains them in return. You can draw a road that does not exist and the car will not get through. You can write a higher load rating on the bridge and the bridge will not get stronger. A company can switch to a better-looking KPI and the cash will still run out. A person can hold firmly to the belief that a relationship is fine and the other person may still leave.
-
-Feedback that cannot be removed by changing how you talk is what can be called a reality constraint. It does not necessarily tell us what the world finally is, and it keeps telling us something: at minimum, you cannot say that.
-
-Granting that we reach the world through representations does not mean the world is settled by representation. Models can be plural; outcomes are not equivalent.
-
-Which brings us to a harder question. If a model was never the world, on what basis do we say one model is better?
-
-#### When two maps both work, how do you choose?
-{: data-toc-skip='' }
-
-Admitting multiple models creates a practical nuisance: the same phenomenon really can have two or more models that work.
-
-A city can have a transit map, a topographic map, a population map, and a price map. A body can be described anatomically, molecularly, through systems physiology, psychologically, and through social relations. A company can be seen as a balance sheet, a process network, a power structure, a talent market, or a cultural community.
-
-Different models do not imply that one of them must be false. So how do we stop "it depends" from becoming an evasion?
-
-A few things can be compared. Whether they answer the same question. Whether their predictions hold up on new data. Whether the explanation supports intervention. How many assumptions each one uses. Whether its failures are easy to see. How much it costs to use. Whether the cost of its errors is bearable.
-
-Those criteria do not add themselves up into a single score. High-risk engineering weights reliability more heavily; exploratory research may care more about explanatory power and generating new hypotheses. A universal leaderboard does not exist. What needs to exist is a reason you can check: why this map.
-
-#### Multiple models need governance, not a collection
-{: data-toc-skip='' }
-
-Organisations often say they value multiple perspectives, and what actually happens is that each department files a report and the same single indicator decides at the end.
-
-Having several maps on the table is not the point. The point is knowing which map holds decision rights on which question, and what happens when models conflict.
-
-When the safety model and the revenue model disagree, do certain risks carry a veto? When a short-horizon forecasting model and a long-horizon mechanism model disagree, which one runs live operations and which one sets strategy? When an expert's judgement on a case conflicts with a statistical model, under what conditions is a manual override allowed?
-
-Once models genuinely enter decisions, these stop being philosophical decoration and become governance.
-
-Maturity in a multiple-model world is not measured by whether everybody has their own opinion. It is measured by whether we know where different views each have standing, and where they have to check each other.
-
-#### The models that ran too hot
-{: data-toc-skip='' }
-
-Climate science may be the only field that has written multi-model governance into its institutions.
-
-There are several dozen independent climate models in the world, built by teams in different countries, handling clouds and oceans and ice in different ways. Since the 1990s they have been organised into a comparison project called CMIP: same scenarios in, each model runs, results laid side by side. The IPCC reports do not pick a winner. They report the spread.
-
-That sounds democratic. The 2021 report did something undemocratic.
-
-In the CMIP6 round, a group of models came out with a distinctly high climate sensitivity, the warming that follows a doubling of carbon dioxide, which some models put above five degrees. The awkward part was that several independent lines of evidence did not support anything that high: the historical warming in the instrumental record, the size of past swings in the paleoclimate, the physical understanding of cloud feedback. None of the three is perfect on its own, and the range they point at is much narrower than the model spread.
-
-So AR6 did not average all the models together. It used those independent lines to narrow sensitivity to roughly 2.5 to 4 degrees first, then used that range to constrain the projections. In 2022 a group of climate scientists named the situation outright in *Nature*: the "hot model problem", with a warning to colleagues to stop assuming that all models deserve equal weight.
-
-Methodologically this step matters. The value of many models lies not in how many there are but in whether we can judge which one has standing where. Once disagreements between models can be adjudicated by outside evidence, plurality turns from a pile of parallel opinions into a structure that can converge.
-
-The same literature carries a lesson running the other way. Among the scenarios the IPCC uses is one called RCP8.5, designed as a high-end assumption: if almost nothing is done and coal is burned very hard, radiative forcing reaches 8.5 watts per square metre. It was built to mark an upper bound.
-
-Over the following decade hundreds of papers and a great deal of journalism wrote it up as "business as usual". A scenario labelled as a ceiling was read as the likely future. In January 2020 Hausfather and Peters published a comment in *Nature* pointing this out, on simple grounds: the coal consumption that pathway assumes no longer matches actual energy trends.
-
-A map marked "worst case", taken out and used for turn-by-turn navigation. There was nothing wrong with the model. What went wrong was that the citation stripped off its conditions.
-
-#### An incident where "only the interface changed"
-{: data-toc-skip='' }
-
-The story below combines several real cases into one, with details altered. The shape of it is common.
-
-A logistics company had a warehouse system that had been running for seven years. Floor staff scanned barcodes, confirmed locations, and the system decided the next task. For a picker, the screen had three main buttons: accept, complete, exception. The interface was minimal and a new hire was productive in half a day.
-
-That autumn a release simplified the exception path by one more step. Previously, pressing exception meant choosing a reason: out of stock, wrong location, damaged barcode, equipment fault. The new version kept a single button and let rules classify the type afterwards. The reasoning was solid. One fewer interaction shortens handling time and removes the chance of picking the wrong reason.
-
-At first the numbers really did improve. Average task time fell about nine per cent and operator errors fell as well.
-
-Three weeks later something odd showed up: the stock ledger for a few zones would not reconcile. The system showed no mass failures, and the exception rate was in fact lower than before. The operations team spent a fortnight on it, revised the rules twice, and the ledger still would not balance.
-
-The cause, when they found it, was neither the pickers nor the algorithm. Those irritating exception categories had been doing a second job all along: they were the channel through which the floor sent context back into the system. Somebody would choose "wrong location" and write in the note field that the labels on this row looked reprinted. Somebody would choose "damaged barcode" three days running, and purchasing would learn that a supplier's label stock had a problem. After the interface was simplified, that information did not disappear; it lost its entrance.
-
-The automatic rules could only guess within the existing categories, so a new kind of location-labelling problem got absorbed into whichever old category sat closest. Each individual absorption looked reasonable, and the accumulation left the maintenance team unable to see a new pattern growing.
-
-The lesson worth keeping is not "do not simplify." The old interface had real problems, and human classification makes mistakes too. It sits in another sentence: a field, a button, a category is frequently serving several purposes at once. What you think you deleted was friction, and you may have deleted a sensor along with it.
-
-Good abstractions therefore need to know their own second function. The surface function is making the normal path faster. The hidden function may be letting exceptions become visible, letting floor knowledge travel upward, letting somebody in the future trace things back. Optimise only the first and the system usually does not break immediately. It gradually loses its senses.
-
-This is why the return ticket matters. Encapsulation can spare people from understanding everything underneath, and it should keep one path open, so that an exception can pierce the encapsulation and be described again. Otherwise a successful interface slowly turns itself into a black box, and a black box is at its most dangerous the first time it meets a world it has not seen.
-
-## Part Two — The Lifespan of a Model
-
-> A model succeeding does not mean it succeeds on every question, and every successful simplification may be filing away context that will be needed later. Part Two starts with abstraction debt: how a model can become so useful that we lose the ability to look underneath it. Then it takes on the difference between useful and true, the domain of validity, and how counterexamples ought to enter a process of revision.
-{: .prompt-info }
-
-### 5 — Abstraction Debt
-
-> *We like a tool precisely because it spares us from knowing much. The bill usually does not arrive that day.*
-
-On the evening of 31 May 2009, Air France flight 447 left Rio de Janeiro for Paris with two hundred and twenty-eight people on board.
-
-Around two in the morning the aircraft was at thirty-five thousand feet over the Atlantic, crossing a band of thunderstorms near the equator. The captain was resting in the back; two co-pilots were in the cockpit. At that point ice crystals at altitude blocked the pitot tubes and the aircraft lost any trustworthy airspeed reading.
-
-The autopilot disconnected as designed and handed the aircraft back to human hands. The flight control system dropped out of its normal mode at the same time, which is to say the layer that ordinarily prevents a stall stopped functioning.
-
-What happened over the next three and a half minutes was later reconstructed second by second by the French investigators. The co-pilot flying pulled back on the stick. The aircraft climbed, then stalled. The stall warning sounded and the aircraft descended at more than ten thousand feet a minute with the nose held up. By the time the captain reached the cockpit it was very hard to read from the instruments what state the aircraft was in.
-
-It struck the ocean at fourteen minutes past two.
-
-The final report, published in July 2012, does not push the blame onto any single link. It names several things at once: the crew had little training in manual handling at altitude; the stall warning stops at very low airspeeds because the instruments are no longer valid in that range; the alerting design made the situation hard to read; and something more fundamental — the automation on this type works extremely well almost all of the time, so "the autopilot has just handed the aircraft back to you" is a situation a pilot may meet once or twice in a career.
-
-The unsettling part is not that automation is unreliable. The automation on that aircraft was highly reliable. The problem is that moment of handing back: the system returned control at the instant context mattered most, and the context it had been holding on our behalf for years did not come back with it.
-
-Press a button and the background is removed from a photo. Call a function and thousands of lines underneath start working. A dashboard turns green and a manager knows things are normal. These things count as civilisation because they carry complexity for us. If sending a message required first understanding radio, silicon, operating systems, and encoding, modern life would not turn over.
-
-So the question was never whether abstraction is good. Without abstraction nobody gets through a single day. The danger sits elsewhere: an abstraction that succeeds for a long time makes us gradually forget what it hid, and when those hidden differences start deciding outcomes again, we discover we lack more than the answer. We lack the entrance back into the problem.
-
-This state can be called abstraction debt.
-
-One distinction has to be kept clear: being lossy is not the same as being in debt. The tube map in the last chapter throws away real distance on purpose, and what its users are doing is changing trains — that loss is the design, not a defect. The debt only starts accruing when something else becomes true: what was discarded turns back into information this task needs, and there is no longer a cheap way to retrieve it.
-
-#### A debt that was not incurred out of laziness
-{: data-toc-skip='' }
-
-"Technical debt" has a clear origin. In 1992, at a conference on object-oriented programming, the programmer Ward Cunningham submitted a short experience report about a portfolio management system he had built. He used borrowing to describe a phenomenon: to hit the delivery speed in front of you, adopt a design that is not ideal but works, and pay a little interest on every future change; keep not repaying and the interest eventually consumes your development speed.
-
-His emphasis was on remembering to repay, rather than on not borrowing.
-
-Abstraction debt resembles it without being the same thing.
-
-In some software and machine learning engineering discussions, "abstraction debt" already refers to badly designed abstraction layers, rigid abstraction boundaries, or tools that invent their own unfamiliar concepts and thereby raise the cost of using and evolving them. The term has no single cross-field definition at present. This book borrows it for a broader problem about knowledge: to make something operable we file part of the context into an abstraction layer; when the environment changes, the filed material starts deciding outcomes again, and we have lost the ability to retrieve it.
-
-What is owed here is not knowledge of the substrate. Nobody needs to know every substrate. You can write good code without understanding compilers, use a phone without understanding electromagnetism, deploy a model without understanding every parameter. The debt sits somewhere else: you do not know what you do not know, and the system kept no path for you to follow downward when you need to.
-
-![The abstraction debt cycle: simplification files the complexity away, and a change of environment starts charging interest](/assets/img/book/en/fig5_1_debt_cycle.png)
-_Figure 5.1 The abstraction debt cycle: simplification files the complexity away, and a change of environment starts charging interest_
-
-#### The debt grows fastest when things run smoothly
-{: data-toc-skip='' }
-
-An interface that fails every day does not earn much trust. The awkward case is the one that has not failed for three years. After three years the interface stops being experienced as an interface at all and starts feeling like the world.
-
-This is the same thing as the warehouse system in the last chapter. When the exception path was compressed into one button, the team gained speed and lost the channel that carried context back from the floor. The numbers improving for a few weeks did not mean complexity had decreased. It meant complexity had been moved somewhere that did not charge yet. When a new kind of problem appeared, the bill came back.
-
-Abstraction debt therefore has a counter-intuitive property: it tends to accumulate while the system is running at its best. Success lowers the motivation to look downward, and it leads organisations to delete, one step at a time, the redundant knowledge, the exception fields, the human judgement, and the context records that look unnecessary. Each deletion is reasonable in the moment. The risk only becomes visible when some future exception that does not yet have a name shows up.
-
-#### McNamara's data room
-{: data-toc-skip='' }
-
-In January 1961, Kennedy appointed a man who had been president of Ford Motor for a few weeks as Secretary of Defense. During the war Robert McNamara had worked in statistical control, analysing the efficiency of bomber missions for the American air forces; afterwards he joined Ford and used the same methods to pull a company close to losing control back onto its rails. What he brought into the Pentagon was a full apparatus of managing by numbers, along with a group of young analysts who became known as the Whiz Kids.
-
-In many places this worked. The defence budget acquired, for the first time, a basis on which the services could be compared, and procurement decisions started to carry cost-benefit analysis. Then came Vietnam.
-
-The popular version of the story says the American military looked only at body count and therefore lost.
-
-That version is too tidy. The statistics collected at the time were staggering in volume: enemy losses, weapons captured, road trafficability, proportion of territory controlled. In 1967 a hamlet evaluation system was introduced that scored more than ten thousand hamlets in South Vietnam every month on security, political, and economic conditions, generating data by the million. The historian Gregory Daddis has argued that part of the problem came from having too many indicators — so many that nobody could judge which one actually meant anything.
-
-That correction makes the example more important, not less. Real abstraction debt does not need a stupid indicator to happen. You can have a hundred dashboards, a thousand fields, and clean trend lines, and still measure the wrong thing with great precision. Once political legitimacy, popular support, local networks, and the other side's capacity to mobilise get pushed to the margins of the reporting, a decision system can grow further from the war it wants to understand while its data grows more complete.
-
-In 1995 McNamara published a memoir and acknowledged that many of the reports used to measure progress had been misleading. What is worth keeping here is not "data management lost the war," which is both too simple and unfair. It is a more general regularity: once a representational system becomes the main interface for allocating resources and tracking accountability, people start reshaping the world into a form that interface can read.
-
-This is also the bridge between abstraction debt and chapter thirteen. An abstraction starts out describing. Connect it to power and it starts producing the thing it only meant to measure.
-
-#### Users are not that easily fooled
-{: data-toc-skip='' }
-
-People are not merely deceived by abstraction layers. Much of the time we are rather good at pushing a tool further than its designer imagined, without knowing the principles underneath.
-
-You have certainly met this kind of expert.
-
-A designer who does not know how the imaging algorithm works, and knows that for a certain sort of photograph you raise the contrast before making the selection and the edges come out much cleaner. An administrator who has never heard of database normalisation, and who kept a workflow that broke slightly every day running for six years with a long chain of formulas, a few scratch columns, and paste-as-values. An engineer twenty years on a production line who cannot explain a machine's full theory, and who knows that when a particular sound appears you should stop trusting the gauges.
-
-From the standpoint of pure architectural taste, some of these are ugly. From a cognitive standpoint they reveal something important about people: between the abstraction layer and the substrate we can grow a second-hand, experiential operating model. It is not source code and not a final theory, and it can raise control precision exactly where the model starts failing at its edges.
-
-This capability can be called edge lubrication.
-
-Lubrication does not repair the substrate. It knows that turning this dial a little further, slowing that step down, handing a certain exception to a human, will get the system across a place where it does not run smoothly. A great deal of professional intuition, craft skill, and organisational tacit agreement has this ingredient in it.
-
-#### Lubrication promotes itself quietly
-{: data-toc-skip='' }
-
-We are inclined to revere real understanding of the substrate and to look down on workarounds. From the standpoint of bounded rationality that hierarchy is suspect. The world is too large for anybody to have time to build a complete causal model of every tool. A nurse who knows from years of experience that certain monitor readings look normal while the patient is not right, an operations engineer who knows that a particular combination of log lines means a failure is coming — those judgements can be extremely valuable even before anybody has theorised them.
-
-Edge lubrication is dangerous because it promotes itself quietly. A technique that worked on one machine, one batch of data, one team succeeds so many times that people remember it as how things are. Once a local compensating model forgets its own provenance, it stops being a technique and becomes doctrine.
-
-| Response | When it fits | What you are really doing | Main risk |
-|---|---|---|---|
-| Edge lubrication | Low cost, reversible, few and familiar exceptions | Using rules of thumb to stretch the tool's range for now | The detour gets remembered as a general rule |
-| Drill down | Anomalies repeat, costs rise, the input or environment changed | Recovering the context the abstraction layer filed away | Expensive, and it invites over-analysis |
-| Refactor the abstraction | Patches multiply fast, old categories stop discriminating | Changing the representation, the boundary, or the question | Costly to switch, and the new abstraction brings new blind spots |
-
-_Table 5.1　At the edge of a model, you actually have three moves_
-
-![The three responses are not ranked; they cost different amounts](/assets/img/book/en/fig5_2_three_moves.png)
-_Figure 5.2 The three responses are not ranked; they cost different amounts_
-
-#### Russell's chicken
-{: data-toc-skip='' }
-
-Push this one layer further and you arrive at the problem of induction.
-
-In 1912 Bertrand Russell wrote a short passage in *The Problems of Philosophy*. A chicken is fed by a man every day, and all the evidence it gathers in its life points the same way: this man arriving means food. The regularity strengthens daily.
-
-Then one day the same man walks over and wrings its neck.
-
-Russell's point was that more refined views about the uniformity of nature would have served the chicken better.
-
-Later textbooks in the philosophy of science rewrote it as a more dramatic turkey: fed at nine every morning, the observations accumulating, confidence in "nine o'clock means food" rising steadily, and then the regularity stops the day before Thanksgiving.
-
-What is cruel in this story is not that induction can be wrong. Any usable knowledge can be wrong.
-
-The cruelty is that for that bird, "the man is raising me in order to kill me at the end" is not in the space of variables it can observe. It can gather weather, time, footsteps, and feed type more precisely than ever, and no field it has points at the upper-level purpose that actually determines the outcome.
-
-This state can be called structural blindness. It is a different thing from being temporarily short of a data point: we may not even have the ability to represent, in advance, which kind of data would overturn the whole model.
-
-David Hume's version, from 1748, is stricter. His question was a different one: on what basis do we move from "it has always been so" to "it will go on being so"? If the answer is that reasoning this way has worked in the past, we are still using induction to defend induction. People do not stop predicting because of this; we still have to live, design, treat patients, do science. What Hume removed is one kind of over-confidence: past success cannot supply a logical guarantee.
-
-#### Unknowns with no box to put them in
-{: data-toc-skip='' }
-
-We usually picture the unknown as a question mark: the answer has not been filled in, and at least the box has been drawn. Structural blindness is more awkward. It says some unknowns have no box.
-
-A vision model fails after a camera change and afterwards we call it domain shift. A supply chain collapses after a geopolitical shock and afterwards we call it concentration risk. An institution gets arbitraged by enough players and afterwards we call it a Goodhart effect.
-
-Naming things afterwards is easy. The hard part is that before the first occurrence, you may not know which dimension to monitor.
-
-So mature risk management cannot only enumerate known risks. It has to keep a structure for the unknown: redundancy, reversibility, small trials, heterogeneous viewpoints, exception channels, manual override, preservation of raw data. Those designs look inefficient, because what they serve is not the normal case. They are holding an entrance open for an exception that does not have a name yet.
-
-So "the best abstraction" is not the cleanest and most unified one. A good abstraction sometimes has to leave a rough edge on purpose: let the user see the uncertainty, give exceptions somewhere to be recorded, let an expert drill down, keep new phenomena from being forced into old categories.
-
-#### Is science just a pile of patches?
-{: data-toc-skip='' }
-
-Follow the metaphor along and a seductive conclusion arrives: since people can never see the universe's source code, science is only patching at the edges of the real world; Newton was one interface, relativity and quantum mechanics are larger patches, and more patches are coming.
-
-Half of that is very good. It reminds us that scientific theories have domains of validity, that success is not final closure, and that anomalies can force a representation to change. Kuhn's account of normal science, anomaly, crisis, and revolution does show us that science has not developed by stacking truth up smoothly, block by block.
-
-The other half needs the brake. Science differs structurally from ordinary workarounds. A good scientific theory does more than stuff existing anomalies back in; it has to accept public measurement, replication across researchers, independent evidence, prediction in new situations, and pressure to integrate with other theories. A patch added on the spot to save an old framework, with no other testable consequences, is exactly the sort of thing a scientific community gradually stops trusting.
-
-In the same way, calling dark matter or dark energy patches jammed in to rescue a gravitational model sells the history too cheaply. Their status can be argued about philosophically and may be rewritten by a deeper theory later; what they currently connect is several mutually constraining sets of observations, rather than covering for one formula. What is worth keeping is not the conclusion that science is all patches, but the question itself: is this newly added concept only local lubrication, or has it begun producing new and independent checkable structure?
-
-There are two extremes to avoid here. The first is treating science as having already seen the world's source code. The second is deciding that because science revises itself, it is no different in kind from a folk workaround. Both throw away the interesting part in the middle.
-
-#### "Truth is unreachable" should not become an unrevisable truth
-{: data-toc-skip='' }
-
-The most tempting sentence at this point is that truth is finally unreachable. That is a poor candidate for the book's last answer.
-
-The reason is simple. If we genuinely have no view from above, then we equally have no standing to prove, from a limited view, that ultimate truth must be unreachable. Agnosticism suits this book better as methodological restraint than as a verdict about the universe.
-
-The version worth committing to is weaker. Our knowledge always passes through representation, instruments, scale, and purpose; we have no way to guarantee in advance that some model will never meet an exception from outside its structure. Any model that matters should therefore stay open to being reopened by counterexamples, by a change of environment, and by a new representation.
-
-That version is less romantic and wears better. It lets a scientific realist say the best theories may really have caught deep structure, and lets an instrumentalist say a theory's primary value is organising and predicting experience. This book does not have to settle that argument, and it can still ask both sides the same practical question: where might your model be in debt, and what signal would make you willing to drill down or refactor?
-
-#### Managing abstraction debt does not mean refusing to borrow
-{: data-toc-skip='' }
-
-If abstraction necessarily loses information, then never owing abstraction debt is as impossible as never using abstraction. Civilisation itself is borrowing: language, institutions, professional specialisation, software, money, statistics, scientific models all trade a manageable representation for not having to rebuild everything from the raw world every day.
-
-The mature move is knowing what you borrowed.
-
-You do not need to learn the implementation under every API, and critical systems need observability. You do not need every manager to read all the raw data, and important indicators need to trace back to how they were generated. You do not need to run continuous psychological analysis inside your daily relationships, and when somebody's behaviour departs from your expectations for a long time, you need to be willing to take "they are just like that" apart again.
-
-Interest on abstraction debt is paid with traceability rather than with knowing more: keeping the raw signal, keeping the exceptions, keeping the versions, keeping the dissent, keeping a path back down to understand the substrate again.
-
-By this point the next chapter's question gets sharper. If a model may always carry debt, on what basis do we say one model is better? Is being useful enough? Or do we still have to ask how close it is to the truth?
-
-### 6 — Useful and True Are Two Different Rulers
-
-> *An idea can save your life. That is not yet enough to show it describes the universe.*
-
-A man lost his mother suddenly. For the first three months he could barely work. Then he started lighting a stick of incense every morning and talking to her for ten minutes — what meetings he had that day, what his kid scored on a test, how the soup he made last night came out too salty. He has an engineering background and is entirely clear that nothing physical happens in those ten minutes. They got him through that year.
-
-Ask him whether he believes she can hear him and he pauses, then says: I don't know. But I need the ten minutes.
-
-That pause is worth stopping on. Inside it he handled two things at once. This practice works for him, and its metaphysical claim has no evidence. He did not use either one to vouch for the other.
-
-The problem was never that usefulness does not matter. The problem is how easily we let usefulness do work that truth alone has standing to do.
-
-#### Four different rulers
-{: data-toc-skip='' }
-
-Suppose a theory lets you predict next month's sales accurately. That is one kind of success: predictive success.
-
-Another theory cannot predict precisely and can explain why a market collapses under certain conditions. That is explanatory success.
-
-A third approach is theoretically crude and lets a team make a safe decision inside thirty seconds under pressure. That is success in action.
-
-Finally, a story may have no testable predictive power and still let somebody bear a loss, build an identity, and find a direction. That is success at meaning.
-
-| Axis | Core question | Usual evidence |
+| Point of comparison | Version A | Version B |
 |---|---|---|
-| Prediction | Can it separate different futures in advance? | External data, forecast error |
-| Explanation | Does it reveal a mechanism you can intervene on? | Intervention experiments, causal evidence |
-| Action | Can it finish the task inside the time and budget? | Cost, speed, price of error |
-| Meaning | Does it supply direction and endurance? | Long experience, consequences in practice |
+| Everyday operation | One press to report a fault | One press to report a fault |
+| Background record | Keeps the relevant raw data; allows uncategorised situations to be added | Keeps only the result after sorting into existing categories |
+| When something must be traced | Raw records and supplementary notes are available | Discarded differences cannot be recovered from the result |
 
-_Table 6.1　Four kinds of success that should not be compressed into one "good"_
+If it later turns out that faults filed under one category in fact had different causes, Version A can go back to the saved data and see which differences the original classification failed to record; Version B, having discarded the relevant details, cannot reconstruct them from the categorised results alone. Ease of operation, and the keeping of data for catching errors later, can be handled separately by different parts of the design.
 
-![Four rulers measure four things; winning on one does not transfer to the others](/assets/img/book/en/fig6_1_four_rulers.png)
-_Figure 6.1 Four rulers measure four things; winning on one does not transfer to the others_
+Choosing between them also means reckoning the cost of storing data and weighing privacy and use. There is no need to keep everything against every remote possibility. But once we have reason to expect a particular failure that matters, whether to leave an adequate path for tracing it becomes a practical choice.
 
-Those four kinds of success keep getting kneaded into one word: good. A theory is good, a belief is powerful, a method is effective. And then, without noticing, we start topping it up with additional standing.
+In the same way, a checkout rule that supports a single currency can refuse other currencies outright, or it can quietly treat figures in different currencies as if they were in the same unit. The first tells the user that another method is needed; the second may cover the problem with an answer that looks normal. Every abstraction has limits, and the ways of handling those limits can differ enormously.
 
-There are four common swaps. Because it helped me, it is true. Because it is true, I must act on it. Because it predicts, it has explained the mechanism. Because it has a scientific form, it also endorses a value choice.
+Once the data has been kept, someone still has to be able to read it and act on it. That ability, too, has to be maintained.
 
-Each of those inferences might turn out to hold, but none of them holds automatically.
+When a system has run smoothly for a long time, people usually check it less often and spend their time on other things. That saves effort, but it can also let certain abilities go rusty. Someone who rarely handles faults by hand, for example, may need more time to recognise the situation when suddenly asked to take over.
 
-#### Ptolemy's epicycles
+Writing about automation in 1983, Lisanne Bainbridge pointed to a contradiction in practice. Once automation has taken over routine operation, what remains for the human may be the rare and difficult abnormality; yet the operator, lacking daily practice, finds it hard to grasp the situation quickly when suddenly required to. Keeping a person at the last gate does not by itself guarantee that the person is still able to complete the handover.[^bainbridge]
+
+Keeping people able to take over is therefore work that has to go on continuously in ordinary times. The practice required, the status information that must be available, and the time needed to act all have costs. The more smoothly the automation runs, the more easily these investments come to look superfluous: if they are so seldom used, why keep paying for them? Only when the abnormality arrives does the cost that was saved reappear in another form.
+
+A remote file can lose its connection on the very first use; proficiency in a rare operation can decline after long disuse. These are difficulties from different sources, and design has to face both. Knowing that an abstraction cannot take care of everything does not, on its own, tell us how much capacity to hold in reserve, day to day, for an exception that has not yet arrived.
+
+#### More and more reports, and the war no clearer
 {: data-toc-skip='' }
 
-In the second century, the Alexandrian astronomer Ptolemy wrote the *Almagest*. He assumed the Earth stands still with the sun, moon, and stars going round it; to account for the planets moving fast and slow and occasionally appearing to reverse, he had each planet turn on a small circle whose centre travelled on a large circle around the Earth. With a few technical corrections, that system could compute where a planet would appear on a given future date.
+In 1961 Robert McNamara arrived at the United States Department of Defense. He came from wartime statistical work and corporate management, and he valued decisions supported by quantities, costs, and comparisons. These methods could reveal differences that had previously been hard to set side by side, and they gave analysts an important place in the running of defence.
 
-It computed rather well. Well enough that for the next thousand years and more, most planetary position calculation in Europe and the Islamic world was done inside that architecture and its successive revisions. The Alfonsine Tables, compiled in thirteenth-century Spain, were built on that tradition.
+The Vietnam War is often described afterwards as a war lost because the only thing anyone looked at was the enemy body count. The historian Gregory Daddis's research complicates that story. What was collected at the time went well beyond kill counts: weapons captured, local security, the state of control over territory, a great mass of data. Part of the problem lay precisely in there being too much of it, and too little of a consistent way of telling which numbers actually meant progress.[^vietnam]
 
-But "medieval astronomy was just tuning Ptolemy's parameters" is a claim to be careful with. Astronomers in the Islamic world raised a great many objections to Ptolemy — al-Tusi in the thirteenth century listed more than a dozen things he thought did not add up — and built alternative mathematical devices. Some components in Copernicus's models closely resemble devices from that tradition.
+Political legitimacy, local networks, popular attitudes, and the opponent's mobilisation could all shape the course of the war. To use figures for casualties, captured weapons, or local control, one had to understand under what conditions each of them reflected strategic progress. Adding another batch of numbers, if their relation to the strategic aims still could not be spelt out, did not necessarily add to anyone's understanding of how the war was going.
 
-We now know the mechanism was wrong. The Earth is not at the centre and planets do not spin on small circles. That wrong mechanism performed very well on the ruler marked prediction.
+When those reports were also used to allocate resources and assign responsibility, looking into what lay outside the numbers mattered all the more. Could observations from people on the ground supplement the existing reports? When someone found that an indicator did not match the actual state of control, could that prompt decision-makers to reassess? Gaps in measurement can persist because the decision process accepts only certain numbers.
 
-The next part deserves more attention. When Copernicus put the sun at the centre in 1543, his model did not immediately win on accuracy — he was still using circular orbits, so the error did not visibly improve.
-
-What actually opened the gap was a longer process: Kepler replacing circles with ellipses, combined with the observations Tycho left behind. Only with the Rudolphine Tables, published in 1627, did the new architecture show a clear predictive advantage — the older tables could be off by several degrees on a planet's position, while the new one worked at the scale of arcseconds.
-
-So for those intervening decades, if you looked only at which one computed better, you would have chosen wrongly.
-
-The example lands two blows at once. Predictive success does not guarantee a true mechanism. And the model whose mechanism is closer to reality may lose on accuracy in its first version.
-
-#### True is an axis, not a championship trophy
+#### Those who find a way round also know something
 {: data-toc-skip='' }
 
-Keeping true and useful apart matters, and not because truth is unimportant. It matters because truth is important enough that no other kind of success should get to stand in for it.
+Sometimes a user can deal with a tool's limits without first working out the full principle behind them.
 
-A model being accurate on training data is performance; whether it caught a mechanism that holds across environments is a separate matter. A religious practice reducing anxiety can be studied; whether its metaphysical claims hold needs another body of evidence. A management scheme raising short-term output does not entail that it serves the organisation's long-term health.
+Suppose an image tool consistently fails to pick out the edges of objects in a certain kind of photograph. After a few comparisons the user finds that adjusting the contrast first gives a selection closer to what is wanted. He may have no idea how the selection algorithm computes its result, yet he has learnt a useful technique: on this kind of photograph, changing the input first improves what follows.
 
-Splitting the axes lets you treat different things more fairly.
+This can be called a local workaround. It solves the immediate difficulty first, and lets repeated use and comparison confirm its scope of use afterwards. If it stops working on another kind of photograph, the rule has to be narrowed or the cause looked into afresh.
 
-Some things have weak evidence on truth and considerable strength in psychological function. Acknowledging the second does not require faking the first. Some scientific propositions are highly reliable under specific conditions and offer almost no direct guidance for a person's purposes in life; acknowledging that does no damage to their scientific standing.
+Success after success, though, can make people forget the scope. What was first written down was "on this kind of photograph, adjust the contrast first; the result is better". After a few handovers only "always raise the contrast before selecting" remains. Those who come later follow the rule without knowing that some photographs never needed the treatment, and may even be made worse by it. The technique has become a general rule, and what has vanished is the set of comparisons that originally supported it.
 
-#### "Useful" is not a free pass either
+We rely on this kind of limited grasp with a great many tools. A writer does not have to understand how a typeface is rendered on screen before writing; a maintenance engineer may, from years of comparison, hear an abnormal sound first and only then ask someone to test for the cause. Whether such a competence is reliable should be judged by what the person recognises, under what conditions it works, and whether he can improve after a miss.
+
+If the technique keeps failing, the user may have to ask someone to examine the inputs and the environment, or switch to another measurement to cross-check. That takes time; overhauling the whole classification takes far more, and after the change there will be new limits to meet. Sometimes the only option is to narrow the use, or even suspend it, and bear the loss of not being able to do that thing for a while.
+
+Each of these responses has its own price, and no single action can be called "dealing with the leak" once and for all. Still, whoever takes over can at least be spared some wasted effort: if the original user leaves behind the kinds of photograph the technique applies to, the cases where it failed, and the original files, the successor need not start guessing again from the single line "always raise the contrast".
+
+Leaving a record of how something was used can also, at times, let those who come later ask questions that no one had asked before.
+
+Some unknowns can already be put as definite questions. Was a particular error caused by a change of camera? One can compare old and new images, rerun the recognition, and eliminate possibilities one by one.
+
+Harder are the cases where the system has not yet recorded the difference that caused the error. Suppose an engineer keeps only the recognition results, with no original images and no record of when the camera was changed. When he sees accuracy falling, he is short of several clues he might have used to propose and test a cause. The original report had no fields for them, and an error does not sprout its own explanation.
+
+We cannot list every surprise in advance, but we can give new findings somewhere to be written down: allowing faults outside the existing categories to be entered, letting operators add what they saw on the spot, or keeping the raw data connected to important results. Once a new pattern is found, one can then decide whether to add a category, change the measurement, or test again.
+
+Which data to keep, and who may add to it, still have to be weighed against cost and privacy. The aim of the design is to give problems no one has yet foreseen a chance to be noticed and investigated, rather than to require every system to hoard everything in advance.
+
+#### How science differs from a temporary fix
 {: data-toc-skip='' }
 
-A functional orientation carries a large temptation: once an idea is useful, stop asking what it costs.
+A tool can stay in use on the strength of local techniques, and scientific theories, too, are frequently revised in the face of new phenomena. The difference between the two can be seen in what checks the revision must then submit to.
 
-So useful needs three questions attached. Useful to whom? Useful over what period? And who carries the cost?
+The photograph technique above claims only that it improves selection on one kind of input, and repeated comparison on that kind of photograph gives it partial support. To go further and explain how features of the image affect the algorithm, one would have to put forward expectations that can be checked on new photographs; and when others repeat the work with different data, they should be able to see corresponding results. As the claim grows, so does the evidence it requires.
 
-A KPI can be very useful to a manager, because it compresses complicated work into one number, and it can generate a great deal of unreasonable behaviour among front-line staff. A simple classification rule can be efficient for a system while a handful of boundary cases absorb nearly all the errors. An explanation that makes somebody feel better for now has a function in the short term and may block them from facing what actually needs handling.
+New concepts in science need the same kind of checking. The discussion of dark matter concerns the problem of mass in phenomena such as the motion of galaxies and gravitational lensing; dark energy concerns the explanation of the universe's accelerating expansion. Each is constrained by several sets of observations, and each still has open questions and ongoing research.[^cosmology] To assess them, one compares how the whole explanation fits the different lines of evidence, and what further observable results it leads us to expect.
 
-#### Some things do not owe a function
+If every discordant result were met only with an added explanation that cannot be checked separately, any theory could be kept safe. What gives us reason to trust a theory more is its ability to anticipate new situations from its principles and to submit to checking against independent data.
+
+Does the fact that knowledge is still limited mean that "ultimate truth must be unattainable"? That step cannot be taken from present shortcomings alone. We can establish that a given representation cannot answer a given question without thereby establishing the limits of every future method.
+
+Scientific realists care whether a theory describes structure the world actually has; instrumentalists lay more stress on a theory's use in organising experience and making predictions. They understand theories differently, yet they can still jointly check what assumptions a claim uses, what evidence it fits, and what kind of finding would demand its revision.
+
+#### Some limits call for a different road
 {: data-toc-skip='' }
 
-In 1995, Nick Hanley, Clive Spash, and Lorna Walker published a survey about biodiversity. Their method was standard environmental economics: ask people what they would be willing to pay to protect certain species, collect the answers, and turn them into a number that can enter a cost-benefit analysis.
+When a leak appears, the existing system does not necessarily have to be repaired until it can handle everything. Giving up a category, stopping a scoring scheme, or retiring a process may be better.
 
-One set of answers would not go into the table. About a quarter of the general-public sample refused to give any figure at all. The reason they gave was that these species and ecosystems should be protected whatever the cost.
+If a form keeps squeezing out important experience, the answer need not be to add fields without end; perhaps decisions of this kind need interviews and case-by-case judgement to take part as well. If a method shifts its maintenance costs onto its users, keeping it running is not necessarily a goal worth putting first.
 
-Inside that theory the response has a name: lexicographic preference, where one good always ranks ahead of another and there is no exchange rate between them. The authors pointed out that this is a problem for the valuation method as a whole, because cost-benefit analysis needs everybody to be willing to state an exchange rate.
+Choosing how to handle a limit also involves how the costs are distributed. A form that saves managers time in review may make it hard for the people filling it in to describe their real difficulties; keeping an old tool in service may leave frontline workers patching things by hand again and again. In weighing whether to keep it, the burden on these people and the alternatives should be compared together.
 
-In practice such answers are usually classified as protest responses and dropped from the sample. Dropping them is technically reasonable; the instrument needs numbers to run. But the quarter that was dropped had not answered the question wrongly. They were saying that the question presupposed a language, and that their valuation of this thing did not live in that language.
+A form kept originally to save trouble may leave another group of people forever making up for what it failed to record. Whether it is worth keeping can no longer be judged by how efficiently the form organises things.
 
-Underneath the word "useful" there are two very different things.
+### 6 — Useful, True, and Worthwhile
 
-One leads somewhere else: this practice lets somebody finish that task, and that task leads on to the next. Its value can be traced downstream until it reaches some purpose. The other kind is the destination. A friendship, a funeral, a piece of music somebody has been returning to for twenty years — none of these has to prove that it causes something before it qualifies to exist.
+It was getting dark, and the little girl was still in the street selling matches. Andersen sets the story on the last day of the year. Snow was falling, and from every house came light and the smell of roast goose, while she walked outside barefoot. The oversized slippers she had set out in were lost when she dodged out of the way of a carriage, and all day nobody had bought a match from her or given her a single coin.
 
-The table in this chapter is functional language too. The fourth ruler reads "does it supply direction and endurance", which still asks what it produces. Four rulers measure four kinds of success, and some things never entered the competition at all.
+She dared not go home. Her father would beat her for bringing back no money, and home was hardly warmer, for the wind still came in through the cracks in the roof. At last she crept into a corner between two houses, her hands stiff with cold. One match, struck, might warm her fingers a little.
 
-Translating everything into function produces a loss that is hard to notice. If a funeral is only "assistance with grief processing", it becomes the kind of thing a more efficient method could replace; if somebody designed a faster grief-processing protocol, that logic says the funeral should go. Most people would disagree, and the reason for disagreeing is hard to state as a function.
+The flame caught. She held her hands towards the light, and it was as if she were sitting before a great iron stove. Her body grew warm, and she was stretching out her feet to warm them too when the match went out. The stove was gone, and all that remained in her hand was the burnt stub.
 
-So asking after the function is a useful step, and there are places it cannot reach.
+She struck another. Where the light fell, the wall turned as thin as gauze, and behind it stood a table laid with a cloth, a roast goose still steaming on it. The goose jumped down from its dish and waddled towards her, knife and fork and all; then the flame died, and there was nothing in front of her again but the thick, cold, damp wall.
 
-Look again at the ten minutes at the start of this chapter. In functional terms they got a man through that year, and that is true. But what he said every morning was which meetings were coming up, what the kid scored on a test, that yesterday's soup was too salty. That is what a continuing relationship looks like, not the contents of a stress-reduction programme. Functional analysis can see the effect of the first thing and has no reading for the second.
+With the third match she found herself sitting beneath a splendid Christmas tree. Many small lights burned on its branches, and she reached up to touch them, and the match went out. The lights of the tree rose higher and higher until they became the stars in the sky, and one of them fell, drawing a long streak of light behind it. She remembered what her grandmother had told her: when a star falls, a soul is going up to God. Her grandmother was the one person who had loved her, and she was dead.
 
-#### True does not guarantee worth knowing
+When the next match flared, her grandmother stood there in the light. The little girl begged to be taken with her. She knew by now what happened when the flame went out: the stove had vanished, the goose had vanished, the Christmas tree had vanished, and this time she would not lose her grandmother too. In haste she struck the whole bundle of matches at once, to keep her grandmother there.
+
+Her grandmother lifted her up in her arms, and together they rose to a place where there was no cold, no hunger and no sorrow, and came to God.
+
+The next morning, people in the street found the girl leaning against the wall, frozen to death, a bundle of burnt-out matches beside her. They supposed she had only been trying to warm herself. They did not know what she had seen in the light.[^andersen]
+
+When an experience really does bring comfort, are we weighing that comfort, or the reality the person was actually standing in?
+
+#### A report that seems to be about you alone
 {: data-toc-skip='' }
 
-Turned around: something may be very probably true and still not deserve the same expenditure from you right now.
+Suppose a personality profile reads: "You care a great deal about how others see you, yet at times you wish you did not have to be swayed by them." Reading a sentence like that, you may feel it has caught a contradiction in you exactly. But can that feeling of recognition show that the test has really told you apart from other people?
 
-People with a habit of reverence for knowledge do not take to this easily. Our instinct says more knowing is always better. Human time, attention, and computation are finite. A precise figure about a distant planet may be true and have nothing to do with anything you decide today; a crude piece of information tied directly to a risk may be worth getting first.
+Bertram Forer asked the students in his class to complete a test. Afterwards he handed each of them a personality description that appeared to have been written from their results, and asked them to rate how well it fitted. The students generally rated it highly.
 
-This is not anti-knowledge; it is admitting that cognition has a cost.
+Only then came the disclosure: they had all been given the same text. Forer's paper of 1949 called the exercise a classroom demonstration. What he was challenging was the practice of validating a diagnostic tool by the assent of the people it was applied to. If one description can make many people each feel "this is exactly me", then the feeling of being seen cannot on its own prove that the description has picked out anything individual.[^forer]
 
-An engineer debugging does not chase every variable to the bottom; they look for the signal most likely to change a decision. A doctor facing an emergency does not first complete a final description of the whole patient; they handle the information that changes immediate treatment. Both are allocating effort on the same question: which part of the truth is most worth knowing right now.
+A sentence in a personality report may apply to one person; the same sentence may apply to most of the class. To learn whether a test distinguishes between individuals, you have to set different people's results side by side. It is not enough to let each person read their own and then ask, "Does this sound like you?"
 
-#### The pill with "placebo" written on it
+Forer's question was whether a test could recognise individual differences, and the subjects' sense that the description fitted was not enough to answer it. Yet when the thing under study is itself a feeling, such as pain or discomfort, how the person describes their own change becomes data that cannot be done without.
+
+The word placebo usually brings to mind a patient who does not know that what they have been given contains no active drug. In 2010, Ted Kaptchuk and his colleagues studied a different situation: if participants are told plainly, does the effect still appear?
+
+The condition they studied was irritable bowel syndrome, an illness whose troubles include abdominal pain and changes in bowel habit. Participants were divided into groups. One group knew that what they were taking was a placebo and were given a positive account of the treatment; the other received a similar degree of contact with the clinicians but not the treatment itself. Over three weeks, the placebo group improved more on some of the self-reported symptom measures.[^placebo]
+
+What the study compared was an intervention made up of an explanation and a schedule of pills, and the improvement showed up mainly in the symptoms participants reported themselves. They knew which group they were in, and their expectations and the way they answered may also have shaped the measurements. The result is therefore something to go on studying: why did this arrangement help with some symptoms, and which of its ingredients made the difference?
+
+#### Why planets go backwards in the sky
 {: data-toc-skip='' }
 
-If different kinds of success genuinely cannot be run together, there ought to be a case where something scores near zero on one ruler and not on another, and where the person knows perfectly well about the first part.
+Some successes push the question the other way. When a method predicts things not previously known, and its results agree again and again with new observations, we have reason to believe it. But how much of it should we believe? Astronomers long used a system that could compute the positions of the planets, and the account of how the heavenly bodies actually move was later very substantially rewritten.
 
-In 2010 a team led by Ted Kaptchuk at Harvard ran a rather bold trial. They recruited eighty patients with irritable bowel syndrome and split them into two groups. One received no medication and ordinary follow-up. The other received a bottle labelled, in plain language, "placebo," and the researchers explained face to face: these capsules contain an inert substance with no active ingredient, like a sugar pill; placebos in clinical trials frequently produce self-healing effects through mind-body processes. They asked the patients to take them twice a day.
+Record a planet's position against the background stars over many nights in a row and you will find that it does not always move in the same direction. At times it seems to stop, then to go backwards, then to resume its former course. Ancient astronomy had to explain this retrograde motion, and it also had to calculate when it would occur.
 
-Three weeks later, the group knowingly taking placebos showed significantly greater symptom improvement than the control group. Comparable replications have since appeared for lower back pain and cancer-related fatigue.
+In the second century, Ptolemy of Alexandria set out a geocentric system of astronomy in the Almagest. One of its devices is called the epicycle: the planet moves round a small circle, while the centre of that small circle moves round a larger one. Seen from the earth, the two motions combine to trace a path that sometimes advances and sometimes retreats. The full model had further geometrical arrangements as well, fitted to the observations of the different bodies.
 
-This needs reading carefully. It concerns the subjective experience of symptoms and functioning, not tumours shrinking or infections clearing, and it does not say medicine is unimportant. A 2025 meta-analysis covering sixty randomised trials and more than four and a half thousand people draws that line more sharply: the overall effect is modest, and while self-reported outcomes come in around 0.39, objective measures fall to roughly 0.09.
+This tradition, with the corrections made to it afterwards, was used for a very long time to compute planetary positions, and it preserved a great body of observations and methods of calculation. Later astronomers were able to compare the old explanation with new ones precisely because these records were there to use.
 
-So what it demonstrates is narrow. The narrow thing is interesting all the same.
+If the earth also travels round the sun, retrograde motion can be understood in a different way. The earth and an outer planet each move forward, and their relative positions keep changing; when the earth, on the inside track, overtakes the outer planet, the direction in which we look towards it shifts backwards against the background of stars. The retreat seen in the sky can then be explained by the relative motion of observer and planet.
 
-The value of this experiment is that it puts different rulers on the same table. That capsule scores zero on the axis marked pharmacological activity. The whole practice does not score zero on the axis marked symptom improvement. And not one sentence anywhere lied — what the bottle said was true.
+The work Copernicus published in 1543 proposed a heliocentric arrangement, but it still used circular motion, and its computational accuracy left room for improvement. Later, Kepler, working from Tycho Brahe's observations, developed the elliptical orbit and the relations that go with it, and these were then tested against new tables and new observations. The explanation of celestial motion and the improvement of positional prediction passed through distinct stages of research.[^astronomy]
 
-What was actually doing the work is mixed into the practice: the ritual, the expectation, the way symptoms get attended to, the relationship with the researchers, and the plain fact of taking something twice a day.
+The computational achievements of the old method did not vanish with what came later. It left behind a stock of usable predictions, and also an account of motion waiting to be rewritten. Researchers had to carry on from this mixed inheritance: which calculations to keep, which assumptions to re-examine, and which phenomena remained unexplained.
 
-So the experiment should not be read as "false things can work too." It says something else: the pharmacological activity of the carrier being zero does not make the function of the whole situation zero.
-
-#### When a false belief genuinely makes somebody's life better
+#### Some things are worth doing in themselves
 {: data-toc-skip='' }
 
-This is the most uncomfortable boundary.
+Knowing that a piece of information can be checked still leaves the decision of whether it is worth checking now. Time is limited, and two pieces of information, equally reliable, may bear very differently on the decision in front of you.
 
-Suppose somebody firmly believes something for which there is no adequate evidence, and that belief genuinely makes them steadier, more hopeful, and kinder to other people. How should we see it?
+An engineer dealing with a fault can begin by confirming which settings were recently changed, when the error appears, and which operations reproduce it. Every one of these details might repay study, but if only half an hour remains, the first thing to get hold of is the information most likely to change what is done next.
 
-With only a true-or-false axis in hand, a cold answer arrives quickly. With only a useful-or-not axis, it is easy to give up on truth altogether.
+An astronomical question with no bearing on today's decisions may still be worth a lifetime of study. Its value does not have to be adjudicated by the half hour spent on the fault.
 
-My approach splits the responsibility. First, the function gets acknowledged; there is no need to pretend it does not exist. Second, truth is still assessed by its own standards of evidence. Third, if the belief spills over into high-stakes decisions — medical, financial, or safety judgements made for other people — the evidential bar has to rise accordingly. Fourth, if it is mainly a personal practice of symbol and meaning, the commitment to external truth can be expressed far more cautiously.
+There are many reasons to pursue the truth, and the same is true of other activities. If the only question asked is whether something makes a person more comfortable, we miss the things people do knowing full well that they will be uncomfortable.
 
-Back to that stick of incense. Those ten minutes every morning fall into the fourth case: the function is clear, the cost lands only on him, and he has not used it to vouch for any factual claim. If one day he began refusing medical care for his child on the strength of instructions received in those ten minutes, it would move into the third case, and the requirements would be completely different.
+Attending a funeral may include comfort, but a person may also go in order to acknowledge a relationship, to remember the dead together with others, or to complete a farewell they have chosen to take on. Even if the day brings no comfort at all, these reasons do not necessarily disappear.
 
-This is not a perfect answer. It at least avoids trading "respect somebody's functional needs" for "no proposition need face examination."
+Consider another hypothetical question. A survey asks you to write down how much you would pay to protect an endangered species. Someone refuses to enter a figure, perhaps because they believe that whether a species deserves to survive should not be settled by how much people are willing to pay.
 
-#### Forer's personality report
+If every such refusal is recorded as zero, an objection to pricing may be written down as complete indifference. The survey needs to allow people to say why they left the box empty. Conservation in practice still faces the difficulty of limited resources and still has to argue about how to allocate them; but before allocating, one has first to understand correctly what it is that people value.
+
+Reading a novel, a person may enjoy the rhythm of the language, worry over the fate of a character, or feel again some stretch of life that resists being put into words. A passage can fail to persuade us as an argument and still console, or make us notice a problem we had been unwilling to face. Nor does a novel have to teach a transferable method before it deserves the time spent reading it.
+
+The same activity may also make promises about matters of fact. If a novel is taken as an accurate record of a period of history, its history needs checking; if a ritual charges a fee on the promise of certain cure, the evidence for that effect has to be examined. Respecting what reading or ritual means to people does not require exempting these additional promises from checking.
+
+If we intend to use an example we have read to support a decision, we take on an added duty of explanation. Chapter 4 discussed how someone else's plan succeeding after many years cannot by itself show that our own plan should continue. This does not erase the strength the story once gave; it is only that, when the time comes to commit the next year, reasons that bear on our own situation still have to be found.
+
+#### When comfort is bound up with a way of life
 {: data-toc-skip='' }
 
-In 1948 the psychologist Bertram Forer gave a personality test to thirty-nine students in his class and handed back an individual analysis to each of them the following week. He asked them to rate how accurate the analysis was, on a scale to five.
+Some beliefs lack sufficient evidence yet make people more hopeful and more willing to look after one another. Acknowledging the good a belief does can be kept separate from accepting its account of the world.
 
-The average was 4.26. More than nine in ten judged it accurate or highly accurate.
+Take the funeral discussed earlier in this chapter. A family uses the ceremony to remember the dead and to express how much the relationship meant, and these actions have reasons anyone can understand. If someone also believes that the dead have found peace in another world, others can respect what has been entrusted to that belief without claiming to have confirmed that such a world exists.
 
-All thirty-nine analyses were identical. Forer had assembled thirteen sentences from an astrology book: you have a need for other people to like you, you have a good deal of unused capacity, at times you are outgoing and sociable and at other times introverted and wary, some of your aspirations tend to be rather unrealistic.
+If the same belief is then used to make major decisions on behalf of other people, the question changes. To claim that a certain message is enough to settle someone else's treatment, finances or safety involves effects that can be checked and risks that others will bear. Personal conviction and the experience of being comforted cannot on their own supply the evidence such decisions need.
 
-Forer's purpose was to warn his colleagues against validating a personality instrument on the grounds that the subject finds it accurate. The lesson has since become broader: people are easily convinced by a complete story, and an explanation that strings a lot of scattered fragments together produces a strong sense of recognition.
+A religion usually contains, all at once, an account of the origin of the universe, rituals, the norms of a community, ethical practice and a sense of identity. In discussing a particular religion, unless one first says which claim is in question, it is easy for each side to say a great deal without ever answering the same point.
 
-That cognitive pleasure is entirely real. It is not itself evidence.
+To criticise an origin story for lacking evidence, for example, is not necessarily to deny the value of believers caring for one another; and to affirm the support a community provides is not enough to show that the story really happened. Different claims can receive different assessments, without first passing a single verdict on the whole tradition.
 
-The same set of events can usually be rearranged into several stories, and when a theory lacks definite predictions and permits additions after the fact, there is almost no ceiling on how much it can explain.
+Science, too, comprises many activities: measurement, model-building, collective review and technical application. Its achievements help to show how these methods arrive at reliable knowledge. As for what ought to be pursued and which costs are acceptable, scientific research can supply the relevant facts, and a discussion of values and responsibility is still needed.
 
-So explanatory power needs two further questions. Did it separate the possible outcomes in advance? Did it propose a checkable relation that other models would not readily generate? None of this demands that every story about a life become experimental science. It says that when a story wants to be promoted from "this helps me understand" to "the world is like this," the burden of evidence has to rise with it.
+Real life, however, does not always lay these things out separately. A community's beliefs about the cosmos may be the very reason its members are willing to care for one another; a line of scientific research is often thought worth pursuing because people already value the lives it might change. Analysis can tell the different reasons apart, but the person living inside them may lose, all at the same time, a certainty, a circle of friends and the direction their life had.
 
-#### Why science, religion, and meaning always end up in the same argument
+When a practice leaves the community it came from, these relations change again. It may be taken up to answer questions that were never posed in the same way before.
+
+The Four Noble Truths of the Buddhist tradition speak of suffering, the origin of suffering, the cessation of suffering, and the path that leads to that cessation. The arrangement lets the practitioner recognise the predicament, understand how it arose, and then commit to practice. When some of these exercises are carried into a modern hospital, the original religious discipline and the clinical research need to be accounted for separately.
+
+In 1979, Jon Kabat-Zinn began work at a stress reduction clinic at the University of Massachusetts Medical Center, organising exercises in breathing, bodily awareness and attention to present experience into a clinical course. The approach later became widely known as mindfulness-based stress reduction. Once inside the hospital, the practice had to face concrete questions: which complaints it helps with, compared with what, how long the effect lasts, and who it may not suit.[^mindfulness]
+
+Clinical research can begin by comparing the effect of the practice on particular complaints, and participants need not accept the whole religious cosmology. How the exercises were selected from the original tradition and adapted, and whether its ethical requirements were retained, belong to another part of understanding this transfer. Kabat-Zinn's own account of the course also includes the attitude of practice and its background.
+
+Take a hypothetical company that uses attention exercises to help its staff cope with stress. Employees may learn useful methods, and the company still needs to check whether the workload is reasonable, which processes create a continuing burden, and who is able to change them. If every discomfort is put down to insufficient personal practice, working conditions that could have been improved may go unaddressed indefinitely.
+
+This is why "useful" has to say for whom, and over what span of time. An explanation may set an employee's mind at rest for the day while allowing an unreasonable workload to continue; a simple classification saves the caseworker a few minutes while the person wrongly classified may spend days on an appeal. Chapter 14 will go on to trace how institutions make some of these results far easier to see than others.
+
+#### How the truth reaches a person
 {: data-toc-skip='' }
 
-Large systems of thought are the hardest to discuss, because they are usually doing several jobs at once.
+An important truth can cause pain. Learning that a relationship is over, or that a project of many years has failed, brings no immediate relief. But the choices the person makes next may depend on knowing these things.
 
-A religion may contain factual claims about the origin of the universe, along with ritual, community norms, ethical practice, identity, and existential meaning. Science is not merely a pile of propositions either; it contains measurement institutions, models, collective review, technical practice, and a preference for publicly checkable evidence.
+There are also different ways of telling. A person may be given time to understand, to ask questions, and to get help with the consequences; or they may be forced to respond at once in front of everyone. The truth of the news is the same; the treatment they receive is very different.
 
-Pressing one true-or-false button on a whole religion mixes the layers together. Exempting all of its factual claims from examination because it has psychological and social functions is also a confusion.
+Harder still, we sometimes genuinely do not know how much they can bear at this moment. Fearing their pain may come from care, and it may also lead us to keep deciding on their behalf what they are allowed to know. They need support, and they have their own choices to make; and their response may change what we had understood "support" to mean.
 
-In the same way, science has enormous methodological advantages on phenomena that are observable, repeatable, and modellable. That does not entail that a question science cannot currently handle is therefore meaningless. The success of a method does not have to be promoted into full jurisdiction over every question of value, purpose, and metaphysics.
+When the little girl struck the whole bundle of matches, the story let her keep her grandmother. The reader who knows the ending can no longer see that blaze as nothing more than a comfort.
 
-The more reliable move is to split first. What is this sentence doing right now? If it claims to predict the external world, accept the corresponding evidential requirements. If it mainly supplies symbol and meaning, do not dress it up as a physical mechanism. If it advances an ethical claim, bring values and consequences into the room.
+### 7 — Answers Come with Conditions
 
-What splitting the functions apart is for is stopping each of them from using its own strongest kind of success to occupy every other question; it is less polite than diplomatic language.
+What do the interior angles of a triangle add up to?
 
-#### The layer Kabat-Zinn removed
+![A right-angled triangle on the plane with angles of ninety, forty-five and forty-five degrees; on the sphere, a triangle formed by the North Pole and two points on the equator ninety degrees of longitude apart, with three right angles.](/assets/img/book/en/fig-05-triangles.svg){: width="1200" height="700" }
+_Figure 7.1　On the left, a triangle on the Euclidean plane with straight lines for sides; on the right, a triangle on an ideal sphere with short arcs of great circles for sides. The two answers are 180° and 270°. A mathematical construction. Drawn for this book._
+
+You can walk the right-hand figure as a route. Start at the North Pole and follow a meridian down to the equator, turn ninety degrees, walk a quarter of the way round the equator, then turn ninety degrees again and head back to the North Pole. The two meridians meet at the pole, and the angle between them there is ninety degrees as well. Three angles, two hundred and seventy degrees in all.
+
+A triangle on the plane has interior angles adding up to one hundred and eighty degrees, yet the spherical triangle on the right has three right angles. The difference lies in the space the figure sits in, and in which paths we take as its sides. The example on the sphere uses short arcs of great circles; it does not violate the theorem about straight-sided triangles on the plane.
+
+A mathematical theorem states which axioms and definitions it adopts, and then proves its conclusion. To use it to describe an actual object, one must also confirm that those assumptions match the purpose well enough. When surveying the shape of a small plot of ground, for example, a flat approximation may already be sufficient; a route across a large stretch of the Earth's surface calls for attention to curvature and to the precision required.
+
+#### The one they spent two thousand years trying to prove
 {: data-toc-skip='' }
 
-That business of "separating the functions first" sounds like an exercise from a philosophy seminar. It has actually been done, and done to a very large tradition.
+Euclid's *Elements* organises geometrical reasoning by first setting out a number of starting points that may be adopted. The famous fifth postulate says that if a straight line crosses two other lines, and the interior angles on the same side add up to less than two right angles, then those two lines, extended on that side, will meet.
 
-The four noble truths of Buddhism have a structure almost too clean for a religious text: suffering, its arising, its cessation, the path. The first describes a phenomenon, the second gives a mechanism, the third claims the mechanism can be interrupted, the fourth supplies the intervention. You can read it as a clinical note: symptom, cause, reversibility, course of treatment. Dependent origination takes the second item further down, tracing link by link how suffering gets produced.
+This statement is more roundabout than some of the other starting points. For a long time mathematicians hoped to prove it from the remaining assumptions, so that it would no longer have to be accepted on its own. In 1733 Saccheri tried to reach a contradiction by denying the relevant assumption and following where that led. He obtained a good many results that would later look close to non-Euclidean geometry, and in the end he still tried to rule that road out.
 
-That layer can be assessed on its own. Whether particular practices reduce reactivity, alter the subjective experience of pain, or cut down on repetitive rumination are measurable questions. Whether to accept claims about rebirth and karma falls on a different axis, which is what this whole chapter has been about.
+In the nineteenth century Lobachevsky and Bolyai openly developed systems that differed from Euclidean geometry. Riemann, in a lecture of 1854, went further and studied more general spaces and geometries. It gradually became possible to compare geometries built on different assumptions: what each could prove, and whether contradictions arose.[^geometry]
 
-In 1979 Jon Kabat-Zinn opened a stress reduction clinic at the University of Massachusetts Medical Center. What he did there was that separation. He took the techniques out — watching the breath, attending to the body, noticing thoughts without evaluating them — put them into clinical language, built them into an eight-week course, and got it inside a hospital. The result spread under the name mindfulness-based stress reduction. He was clear about why the religious framework had to come off: with it on, the thing could not enter the medical system.
+The spherical example at the start of this chapter gives the difference between geometries a visible shape before anything else. A geodesic on a sphere is the path that runs locally straightest along the surface; the angles at which geodesics meet on the sphere obey a different relation from the angles between straight lines on the plane.
 
-Measured by function, the step worked. It also shows why "separate the functions" cannot be read as "any layer may be removed at will."
+Kant once used geometry to illustrate necessary knowledge that is not obtained from individual experiences alone. The development of several geometries made a distinction more pressing: does a proof within one system also suffice to decide which geometry physical space adopts?[^kant] Answering the second question also requires comparing theory with actual observation.
 
-Among the things removed were the Eightfold Path's requirements about speech, action, and livelihood. In the original system, training in awareness and constraint on conduct were tied together. Without the second, mindfulness becomes a purely individual technique, available for making people more focused and more able to bear pressure, and equally available for making them endure conditions they should not have to endure. From 2013 onward Purser and Loy used the word "McMindfulness" for precisely this. The kind of bill chapter five described shows up here in another form.
+When general relativity later described gravity through the geometry of curved spacetime, it had to submit to the check of physical observation. Mathematical study of the different possibilities gave physics more representations to draw on; whether they are fit to describe the world is judged by other evidence.
 
-So separating the functions is a diagnostic move, used to see what a claim is currently doing. It issues nobody a licence to take the most convenient layer out of a tradition and discard the rest.
-
-#### What if the truth hurts?
+#### The small print the rule leaves off
 {: data-toc-skip='' }
 
-We sometimes talk about truth-seeking too romantically, as though knowing were always liberating.
+Everyday rules seldom come with their conditions printed alongside. "First come, first served" settles a great many disputes when the matter is buying a drink; used to allocate help that is urgent and important, it raises the questions of who has the chance to arrive first, who can afford to wait, and whose need cannot be put off. The wording of the rule has not changed at all, yet the reasons for choosing it may fall short.
 
-Truth can hurt a great deal. A diagnosis, a betrayal, a failure, a ceiling on your own ability, the end of a relationship — any of them may be something you would rather not know.
+How long a practice is used also bears on whether it is suitable. Postponing a quarrel for a while may let both sides cool down; postponing it every time may leave an important matter unanswered for a long while. An approximate calculation carries only a small error over a short span, and once the errors accumulate through repetition they may exceed what is tolerable. When judging the effect, the length of use has to be reported along with it.
 
-Does that mean function should take priority over truth? It still cannot be put that way.
+If "it depends" stops there, it is still of limited help. More useful is to point out which difference would change the judgement: whether the urgency is the same, whether the costs of waiting are wildly unequal, whether different stretches of the road take the same time. Once the conditions are concrete, what to check next is also clearer.
 
-The more precise move separates "is this proposition true" from "when, in what manner, and under whose responsibility is it disclosed." Medical ethics does not treat false information as true because the truth might cause anxiety; nor does it therefore conclude that the manner, the timing, and the support around the conversation do not matter.
-
-Truth and care will not always point at the same course of action. When both cannot be maximised at once, the least that is needed is knowing what is being traded for what.
-
-#### "True" must not quietly become "ought"
+#### Newtonian mechanics has not vanished from the world
 {: data-toc-skip='' }
 
-Another common swap slides straight from fact to value. Even when we are highly confident that some practice raises output, that fact alone does not yield "therefore the company should do it." It may cost safety, dignity, long-term resilience, or fairness in distribution.
+Newtonian mechanics supports a great deal of reliable work. In describing motion at everyday scales, and in designing many machines and engineering structures, a suitable approximation reaches the precision required. When relativity arrived, this work was not all made obsolete.
 
-Data can tell us what consequences a choice will bring. It cannot decide on its own which consequences are worth trading away.
+Satellite positioning, by contrast, needs extremely precise comparisons of time. Orbital motion and gravitational conditions affect the rate of a satellite's clock relative to a clock on the ground; if these differences are not properly handled, the positioning result suffers. For this reason the system has to incorporate the corresponding relativistic corrections.[^relativity]
 
-This gets hidden especially easily in AI and in management, because once a value has been written into an objective function it looks like a technical parameter. The moment the model starts optimising, everybody forgets that choosing what to optimise already made an ethical choice.
+So when using an approximate method, one can first state the precision required and the known error, and then decide whether it is enough. Everyday engineering need not adopt the most elaborate model every time; when higher precision is needed, or a different scale is encountered, the comparison should be made afresh.
 
-Separating truth from value refuses to let ethics walk in wearing the clothes of a number, and is not an attempt to expel ethics from reason.
-
-### 7 — After Someone Swapped the Camera
-
-> *The worst kind of failure is a model that goes on producing answers fluently.*
-
-Suppose you have built an image recognition model.
-
-On the original camera, the original image pipeline, the original scenes, it performs well. The test numbers are handsome, the demos are stable, and the team slowly grows a sense of familiarity: this model is reliable.
-
-Then the customer changes the camera.
-
-The picture looks slightly different in tone, noise, and sharpness. The model does not crash and the interface reports no error. It still produces an answer for every frame, confidently.
-
-The answers have started being wrong.
-
-That scene matters not because machine learning is unusually fragile. It magnifies the most dangerous mode of failure in human cognition: after a model leaves the environment where it works, it usually does not tell you.
-
-#### We remember conclusions and forget conditions
+#### The person who fed it every day
 {: data-toc-skip='' }
 
-Most knowledge has conditions attached when it is first built. A study holds within a particular population, measurement method, and time range. An engineering formula depends on certain approximations. Management experience comes from a certain size of team. A piece of interpersonal intuition formed inside one specific history with one specific person.
+In *The Problems of Philosophy* Russell leaves us a chicken. The person who brings it food every day arrives one day and, instead of feeding it, kills it.[^russell]
 
-Once knowledge starts travelling, the conditions fall off along the way and the conclusion arrives alone.
+The ending is so short that it hardly gives anyone time to prepare. Every past feeding was real; had the chicken kept a complete record, it could even have kept one without a single error. But those records did not hand over the keeper's plans for the future along with them.
 
-"X works."
+Those who know the ending find it easy to laugh at the bird. Yet the question Russell leaves behind pursues the reader just as closely: why should what has kept happening in the past go on happening? To answer with regularities that have succeeded before still leaves one having to explain why those regularities will remain in force. Digging further back into the past for a few more successes does not supply this demand with a wholly independent guarantee.
 
-"This is the best way to manage."
+Everyday predictions still differ in how reliable they are. To predict whether the water supply will be interrupted, for example, one can note that there has been water every day in the past, and one can also check the state of the equipment, the maintenance schedule and the source. This information cannot guarantee that nothing will ever go wrong, yet it can identify risks that go unnoticed when only the past record is consulted.
 
-"He is just that kind of person."
+In the same way, a satisfaction survey that interviews only existing customers can tell you about the experience of those who replied. To draw conclusions about everyone who ever came into contact with the service, one also needs to know about those who left, those who did not reply, and those who never managed to get into the service at all. Enlarging the sample of customers of the same kind can make certain estimates steadier; it cannot, on its own, fill in the opinions of those who were never surveyed.
 
-"This model has high accuracy."
+#### When the mechanism still has to be traced
+{: data-toc-skip='' }
 
-The shorter the sentence, the easier to remember, and the easier it is for the sentence to walk out past what it originally promised.
+Snow did not first acquire complete microscopic knowledge of how cholera spreads before comparing different sources of drinking water. A suitably designed study can provide causal evidence that an intervention affects a particular outcome while the full mechanism is still unclear.
 
-The domain of validity can be seen as an instruction sheet that any model worth caring about should carry: it writes the conditions that fell off in transit back into the knowledge. The conditions are part of the knowledge.
+Studying how the effect comes about, in turn, helps in judging what will happen once the setting changes. Knowing which factors the effect depends on lets researchers give priority to testing the differences that might alter it. Comparing actual effects and establishing the mechanism of action can therefore help each other.
 
-| Field | The question to keep |
+An intervention may also produce several effects at once. One of them may be beneficial while another cancels it out, so that the overall result does not necessarily match what was expected. Having explained one pathway of action, then, one still needs to compare the important outcomes directly. The clinical trial in the next chapter will make this difference concrete.
+
+Knowing part of the mechanism may still miss a new situation. Anomalies reported by users, the raw data, and a second kind of measurement sometimes let researchers discover a difference they had not thought of. Chapter 5 discussed how to preserve these ways of catching errors; now the known scope of use can also be recorded more concretely.
+
+#### Writing down the scope of use
+{: data-toc-skip='' }
+
+"This is a retail model" or "this is manufacturing experience" is still too broad. Image models that all serve to inspect the appearance of objects may perform very differently depending on the lens, the lighting, the material of the object, or the angle of the shot. A shared name does not guarantee that the factors affecting recognition are shared too.
+
+Take a hypothetical model used to flag damaged packaging in product photographs, which are then passed to staff for review. It has been tested only under fixed lighting, with a specified lens, and on a few kinds of packaging; backlighting and other reflective materials the team has not yet confirmed. Writing down these circumstances says more about where the result came from than the bare line "ninety-five per cent accuracy".
+
+Later the camera is replaced, while the program stays at the same version. Most of the photographs the team spot-checks are well lit, and the average score looks good, yet misses on the few backlit photographs have increased. If only the total score is kept, it is easy to conclude that the new lens made no difference. Keeping the disputed images, and comparing misses and false alarms separately, is what allows the conditions under which performance worsened to be found, little by little.
+
+At this point "scope of use" has acquired new content. The team had thought of the lens simply as a tool for obtaining photographs of the same kind; now they have to include how it combines with lighting and material in their account. The scope of use is not always something known before the study begins, waiting to be printed as a line of small print beside the product; it also takes shape slowly, through failure and investigation.
+
+If a later version improves performance under backlighting, the old limitation should be updated as well. The record needs to show which version was tested in which environment, and what changed afterwards. Otherwise new users may vouch for a new use with an old score, or may go on avoiding a difficulty that has already been solved.
+
+The conditions in a geometrical theorem must be stated before the proof can begin. The conditions of use for an empirical method, by contrast, often become clear while the work is under way. Demanding that every condition be written down at the outset looks careful, and may in practice demand that people know in advance what the research is about to discover.
+
+#### When a group of models do not cast the same vote
+{: data-toc-skip='' }
+
+Studying the future climate means handling processes that act on one another: the atmosphere, the oceans, clouds and ice. Models built by different research teams make different arrangements in certain details. CMIP, the Coupled Model Intercomparison Project, has teams run their simulations under a common experimental design, so that the results are better placed to be compared.
+
+Setting the results side by side helps show which changes are more consistent and where the differences are larger. But the models are not fully independent of one another; they may share data, methods or code. Having many models does not mean that each additional one brings an equally independent ballot of evidence.
+
+Some of the models in CMIP6 give a higher equilibrium climate sensitivity. This quantity asks, roughly: if the concentration of carbon dioxide doubles and the climate reaches a new equilibrium, by how much does the global mean surface temperature change? To assess it, one can also draw on historical warming, palaeoclimate, and research into the relevant physical processes, rather than counting votes among model outputs alone.
+
+The IPCC assessment of 2021 brought together several lines of evidence and described the range of sensitivity with different degrees of uncertainty. The ranges corresponding to "likely" and "very likely" differ; to understand them, the numerical intervals and their accompanying statements of uncertainty have to be read together.[^climate]
+
+Climate scenarios, for their part, are projections under specified conditions of development. The familiar RCP8.5 is a high radiative forcing pathway, and the number in its name relates to the level of radiative forcing in 2100 relative to pre-industrial times. It helps researchers ask how the climate might change if development follows this set of conditions; how likely the conditions themselves are to come about has to be assessed separately.
+
+Our grip on the future may therefore come from models and from evidence outside the models constraining one another. When the results do not yet agree, the disagreement can also leave a direction for research: is some physical process poorly understood, or were different development scenarios adopted? Getting to the bottom of these questions often takes far longer than computing an average across all the models.
+
+### 8 — Giving Error a Chance to Show
+
+The aircraft came back with bullet holes in them. Ground crews could walk up to the fuselage and inspect where the damage lay; the aircraft that did not come back could not be inspected in the same way.
+
+During the Second World War this was a practical difficulty in adding protection to aircraft. Armour is heavy, and no part of the airframe can be thickened without limit; someone had to decide where a limited weight was best placed.
+
+The damaged airframes that did return looked like the most direct material for deciding where the armour should go. They had also already passed through one round of selection: having taken this damage, they were still able to fly home.
+
+Abraham Wald, working in the Statistical Research Group at Columbia, wrote a set of studies in 1943 that used the number of sorties, the losses, and the damage data from surviving aircraft to estimate the vulnerability of the aircraft.[^wald]
+
+Many holes in one part of the returning aircraft might mean that part was hit more often, or it might mean that an aircraft hit there could still return fairly easily. Conversely, few holes might mean fewer hits, or it might mean that an aircraft hit there rarely came back. To estimate where the vulnerable places were, assumptions about being hit and about surviving had to be combined before anything about the lost aircraft could be inferred from the data on those that returned.
+
+The records taken on the apron could be entirely free of error and still fail to represent every aircraft that flew. The problem arose before the data came into being: some aircraft did not return, and so left no damage record of the same kind. However carefully the returning aircraft were inspected, that inspection could not fill the gap on its own.
+
+Hiring records can run into a similar limit. A company can see how the people it hired went on to perform, but it does not know how the people it turned away would have done in the same posts with the same training. Judging a selection method by the results of the first group alone leaves out an important comparison.
+
+Supplying the comparison with those who were not hired also involves real vacancies, real training, and real pay. Seeing from the statistics which piece of data is missing does not make the cost of obtaining it disappear.
+
+A small number of appeals may mean the service is good, or it may mean that appealing is difficult, that appeals go nowhere, or that the most dissatisfied people have already left. If the system records only the appeals that were successfully submitted, counting the same channel again will still miss those who tried and failed. One can instead conduct interviews, observe people using the process, or check how many gave up part-way through submitting.
+
+The number of sources needs checking in the same way. Three reports that all copy from the same set of data do not provide three independent pieces of evidence; three questionnaires with the same too-narrow options may all miss the same kind of experience together. Before adding data, first confirm which of the missing parts this round of collection can supply.
+
+Sometimes the person raising an objection changes the research question as well. Where the question had been the completion rate among participants, they point out that a certain group was never eligible to take part; where it had been user satisfaction, they point out that some people were compelled to accept the service and could not leave it. Questions like these bring people outside the original sample into the evaluation, and only then does it become easier to judge whom an institution has served and whom it has missed.
+
+#### After pushing a number down
+{: data-toc-skip='' }
+
+Medical research has met a heavier version of the problem: if a number that looks bad is pushed down, will patients live longer?
+
+A myocardial infarction damages the heart muscle, and some patients afterwards develop premature ventricular contractions, an early beat slipped into the rhythm of the heart. The condition is associated with a higher risk of death. Certain drugs can suppress this kind of arrhythmia, and so a conjecture worth testing arose: if it is suppressed, will fewer people die?
+
+The clinical trial known as CAST assigned eligible patients to a drug group or a placebo group and went on comparing what happened to them. The preliminary report published in 1989 showed that the groups taking the two drugs under test, encainide and flecainide, had more deaths from arrhythmia or non-fatal cardiac arrests, and more deaths overall. The trial of these two drugs was therefore stopped early. The rhythm indicator that the treatment had been meant to improve did not bring the expected benefit in survival.[^cast]
+
+The trial illustrates the difference between a correlation and the effect of an intervention. That a certain rhythm is associated with a higher risk of death, and that a drug can reduce that rhythm, is still not enough to prove that taking the drug lowers mortality. The drug may have other effects at the same time, and the important outcomes for patients must be compared directly.
+
+Checking has its own costs. Some methods can alter one condition and compare; others can only make use of differences that arise naturally; arrangements that touch other people's interests carry a responsibility for risk and for fairness. Errors that are serious, persistent, and hard to undo are usually worth a fuller check, while small errors that are easy to spot and repair can be handled more lightly.
+
+To test an explanation, look first at where it expects a different result from the other explanations. Clever Hans in the first chapter is an example: that the horse could still count correctly when the questioner did not know the answer, and that it needed to pick up a person's signal to stop, are two expectations that can be compared.
+
+If any result at all can be described as supporting the same theory, it is hard to know what evidence an observation has added. Someone attacks another person, and this is explained as a certain desire; he restrains himself from attacking, and this is explained as the same desire being repressed. Without some separate way of recognising the desire and the repression, these two accounts on their own can absorb opposite behaviours alike.
+
+When the same behaviour, whether it appears or not, can be gathered into the same explanation, the researcher still has to point to some observable difference. Otherwise all we know is that he is able to keep talking.
+
+#### What they hoped to see on the day of the eclipse
+{: data-toc-skip='' }
+
+In ordinary daylight the stars near the sun are drowned in its glare. A total eclipse offers a brief opportunity: with the moon covering the sun, observers can photograph the surrounding star field and set it against comparison plates taken at other times.
+
+On 29 May 1919, expeditions organised from Britain went separately to the island of Príncipe off the coast of West Africa and to Sobral in Brazil. Arthur Eddington took part in the former. What the study set out to compare was how far the apparent positions of the stars shifted as their light passed near the sun; general relativity gave a quantitative expectation for this deflection.
+
+The expeditions had to deal with weather, the quality of the plates, the instruments, and measurement error before they could compare whether the shift in the stars' positions matched the expectation. The results published afterwards supported general relativity, and the evidence came from the analysis of the photographs and of the errors.[^eclipse]
+
+When Karl Popper later looked back on the development of his thinking, he set great store by theories that take a risk in advance like this. Compared with the kind of explanation just described, which can add an account for opposite behaviours alike, the expected amount of deflection gave observation a chance to come into conflict with the theory. This was an important reason for his demand that empirical theories possess falsifiability.[^popper]
+
+Checks of this kind are aimed at predictions about the empirical world. Mathematical proof, ethical reasons, and literary understanding each have their own ways of being assessed; of a theory that claims to predict what will be observed, we can ask that it first state its expectation clearly and then give observation the chance to disagree with it.
+
+Yet the person who makes this demand also meets moments when his own judgement needs looking at again.
+
+If 'survival of the fittest' is put only as 'whatever survives was well adapted', it does look like going round in a circle. Defining fitness by survival and then explaining survival by fitness has yet to deliver any content that would separate one result from another.
+
+Popper at one time rated Darwinism a valuable metaphysical research programme and had reservations about its testability. In 1978 he revised that assessment in an article, acknowledging that the theory of natural selection has testable content.[^popper]
+
+Evolutionary research in practice can measure traits and environment before the outcome appears. Peter and Rosemary Grant and their research team followed the ground finches of Daphne Major in the Galápagos over many years, recording the characteristics of individual birds and whether they survived. A drought in 1977 changed the food supply, and different beak shapes were related to the ability to use the seeds that remained. The researchers could therefore compare which individuals survived and how the characteristics of the population changed afterwards.[^finches]
+
+Recording beak shape and food first and comparing survival afterwards makes it possible to check a concrete relationship, rather than simply calling the survivors 'the fittest' after the fact. If the result does not match expectation, researchers can go on to examine their assessment of the food, their measurement of the traits, and other factors bearing on survival.
+
+#### One anomaly, several possibilities
+{: data-toc-skip='' }
+
+When an observation fails to match expectation, the difference may come from the data, from the procedure, from an auxiliary assumption, or from the theory itself. An anomalous figure may come from a faulty instrument, for instance, and conditions assumed to be fixed may have changed during the test.
+
+The tests on Clever Hans in the first chapter could close in on the cause because they were arranged so that one thing, whether a person knew the answer, varied in a way that could be compared. Had the questions, the place, and the manner of asking all changed at once, a wrong answer would have been hard to attribute to any one of them. Which conditions need to be held constant, and which further situations need comparing, depends on the cause one is trying to rule out this time.
+
+The same difficulty appears in everyday claims. 'Giving people more authority improves team performance': authority for whom, exactly, to decide the schedule, the spending, or the technical approach? A project that runs out of control may show that the claim was too broad, or it may show that the staff could decide but could not get the information, or learnt of one another's decisions too late. Only when these differences have been traced can a hypothesis be framed that the next case can compare: in a team with the relevant skills, information, and timely feedback, does adding a particular decision right shorten the wait for approval?
+
+When a confounding factor is proposed, it too should be open to checking. If the instrument is suspected, look for a way to calibrate or compare it; if the conditions are suspected of changing, consult the records from the time. Adding one uncheckable reason after every failure robs the theory of its chance to meet a counterexample.
+
+#### When to change the frame
+{: data-toc-skip='' }
+
+A local repair sometimes solves the problem and sometimes makes the explanation harder and harder to use. If the same kind of failure keeps recurring, if each time another exception has to be added, and if the new account can only explain the past and offers no checkable expectation, then it is worth reconsidering how the problem was described in the first place.
+
+Another strong reason is that an alternative explanation already exists which handles the new anomaly and also accounts for the results the old method got right. The comparison should weigh more than the novelty of the new account: how many extra assumptions it needs, which difficulties it resolves, and whether it would throw away reliable results already in hand.
+
+The physics of light went through a change of this kind.
+
+Nineteenth-century physicists knew that light behaves as a wave. Water waves have water, and sound travels through air or some other medium; when light crosses space, what is it that waves? The ether was once an important hypothesis put forward to answer that question.
+
+In 1887 Albert Michelson and Edward Morley used an interferometer to send light out and back along different directions and then compared the interference fringes where the beams rejoined. They were looking for the shift in the fringes that the earth's motion relative to the ether ought to produce, and the effect they measured was far smaller than was then expected. This put the existing arrangement, which used the ether to account for the earth's motion and the propagation of light, in difficulty.[^ether]
+
+Researchers went on revising their assumptions and improving the experiments. The work of Lorentz and others developed important mathematical relations that later physics was able to use. The process involved trial and correction, and the alternative account did not appear complete after a single experiment.
+
+Special relativity later restated the relations between time, space, and the speed of light, allowing the phenomena to be handled from different basic assumptions. Change sometimes concerns how the question is asked, and goes beyond correcting a single value; the new theory must still fit the reliable observations already made, and must submit to new checks.
+
+The researchers of the time had no finished history of physics to consult. They had to judge whether the difficulty in front of them could still be handled by the old theory; the new mathematical relations might be used to amend the old explanation, or might be taken up by a theory yet to come. The results we now sort into an 'old frame' and a 'new frame' were tangled together in the same inquiry while they were taking shape.
+
+#### What admitting an error may cost
+{: data-toc-skip='' }
+
+In the middle of the nineteenth century, the two maternity clinics of the Vienna General Hospital had different rates of death among mothers. The gap between the clinic where physicians and medical students worked and the one staffed by midwives kept Ignaz Semmelweis on the trail.
+
+In 1847 a colleague died after being wounded during dissection work. Semmelweis connected the lesions found in his body with the disease of the mothers and suspected that medical staff were carrying some contamination from the dissecting room and passing it on when they attended the women. He introduced washing with a chlorine solution, and the death rate afterwards fell. The explanation he used, 'cadaverous particles', was not the complete knowledge of microbes and infection we have today.[^semmelweis]
+
+The success of the washing made a possibility that was hard to accept impossible to ignore: the staff had believed they were caring for the mothers, and their daily routine might have been spreading a fatal contamination. Responding to this evidence meant re-examining how the work was done, and perhaps facing the harm that past actions had caused.
+
+The cost of admitting an error of this kind goes beyond changing a rule. Professional identity, relations with colleagues, and one's estimate of oneself may all be affected. These costs help us understand why correction is difficult; whether to accept an explanation should still be decided by the evidence.
+
+Institutions can make admitting error more feasible. They can, for example, allow workers to file records of anomalies and to suspend a practice that is in doubt, and set out clearly who is to check and who is to answer to those harmed. This keeps responsibility in place, and it means people need not abandon a report because the cause has not yet been fully proved, or because they fear being humiliated for making it.
+
+#### Updating quickly is not necessarily better
+{: data-toc-skip='' }
+
+The size of a correction should match the evidence. A single anomaly may come from measurement error or a chance event; when several independent studies repeatedly reach the same result, and that result directly contradicts a core prediction, a larger adjustment is needed. Even when the matter cannot yet be settled, the doubt can be noted and the search continued for data that would tell the causes apart.
+
+Before people receive the same new report, they often already carry different experience and different judgements. One person once found a sampling problem in a report of this kind; another has repeatedly made accurate predictions by relying on it. That history may lead them to give the new report different degrees of trust.
+
+Whether either reaction is reasonable depends on how relevant the past experience is to this report. Does it come from the same research team? Does it use the same method? Has the problem found before been fixed? 'I have been misled before' or 'I have always trusted it' does not, on its own, account for how much trust this particular report deserves.
+
+So when people disagree, they can begin by asking what each side believed before and why, and then compare which of those reasons the new report has changed. Someone may have been deeply sceptical, may have raised their trust after reading it, and still fall short of the other person's certainty. Looking only at whether they agree in the end misses an update that actually happened.
+
+Setting out one's earlier judgement lets others see where the disagreement comes from; allowing new and reliable evidence to keep changing it stops past experience from becoming a permanent reason to refuse correction.
+
+That admitting error deserves praise is easy to say. The hard part is that the person concerned still has to judge whether they were in fact wrong. Change too little and people may go on being harmed; change too quickly and a practice that was reliable may be thrown away. The later results have not yet appeared, yet both costs have already begun to fall on someone.
+
+Comparing the evidence, recording the judgement, and bringing others into the inquiry can give a decision grounds. This work still does not guarantee that we will choose the right moment for correction every time. A reliable method must also leave room for this possibility: that a person listens seriously to criticism, checks the data as well as they can, and in the end still makes a judgement that will need changing again.
+
+## Part Three — The Finite Mind
+
+### 9 — What It Takes to Understand a Person
+
+In heavy rain, the woodcutter and the priest shelter beneath the ruined Rashomon gate, still talking over the testimony they have just heard in a murder case. A commoner comes in out of the rain as well and presses them to say what happened. Akira Kurosawa's film *Rashomon* then lets him, and the audience with him, hear several versions that cannot be squared with one another.
+
+A samurai travelling through the forest with his wife met the bandit Tajomaru. The samurai died and the wife was raped. The bandit admits the killing, yet casts himself as the winner of a fair duel. In his version it was the wife who demanded that the two men fight, and only then did he cross swords with the samurai.
+
+There is no duel in the wife's account. She says that after the bandit left, her husband looked at her with contempt. She went towards him holding the dagger, then lost consciousness, and when she came round the blade was in her husband's chest. The dead man, speaking through a medium, offers a third account: his wife had asked the bandit to kill him, and in the end he took his own life with the dagger. Did the bandit kill the samurai, or did the samurai kill himself? The two causes of death cannot both be right.
+
+With each telling the film acts the events out again for the audience. The people are the same few people, but what they do in the forest changes. The woodcutter later changes his story too: he did more than find the body, he saw the fight. In his version both men shrink back, and the exchange they finally stumble into is a sorry affair, nothing like the heroic duel of the bandit's telling.
+
+A baby's cry comes from under the gate, and the three men find an abandoned child. The commoner takes the child's clothing; the woodcutter rebukes him, only to be challenged in turn: where did the wife's valuable dagger go? The commoner suspects that the woodcutter stole it, and that this is why he concealed what he saw. The accusation gives reason to question the woodcutter's testimony as well.
+
+The woodcutter nonetheless decides to take the child home and raise it. The priest at first refuses to hand the baby over, and lets go only when he hears what the woodcutter intends.[^rashomon]
+
+When the priest gave him the child, what exactly did he believe?
+
+#### Leave the unfamiliar word where it stands, for now
+{: data-toc-skip='' }
+
+In 1947 Thomas Kuhn, then doing research in physics at Harvard, began reading early scientific texts for a course he had been asked to teach. Aristotle's discussion of motion left him deeply puzzled. Looked at from the physics that came after Newton, many of the claims seemed impossible to sustain; yet this was a thinker so acute in other fields. Why should he appear so utterly different here?
+
+Kuhn recalled later that the turn came when he came to understand Aristotle's vocabulary afresh. The motion and change Aristotle discussed took in the movement of bodies, but also growth, alteration of qualities and similar questions. If one reads only with the later physicists' usage in mind, in which motion means a change of position, part of the original meaning is shut out. Once he had recognised this difference, Kuhn was better able to see why each stretch of argument was arranged as it was.[^kuhn]
+
+At first Kuhn was, in effect, marking a piece of physics homework full of wrong answers; later the question itself changed. What had been called motion turned out to include growth and change of quality, which he had not put into the question at all. The progress in reading came when the concepts used to judge the text also began to change.
+
+#### The reasons Haidt heard in India
+{: data-toc-skip='' }
+
+In 1993 the social psychologist Jonathan Haidt went to Bhubaneswar, in eastern India, to do fieldwork. He was used to understanding moral questions in terms of harm, rights and fairness, and when he met certain local demands concerning purity, hierarchy and duty, he found it hard at first to see what they meant in the life around him.
+
+Looking back, Haidt wrote that the daily life of the people there gradually brought him to understand how some of these rules connected with ideas of obligation, care and the sacred. He stopped seeing only restrictions on individual choice, and began to see what those who kept the rules believed they were upholding.[^haidt]
+
+The hospitality a visitor receives may make him look at community afresh, but it cannot speak for the lives of everyone the rules bind. Those who bear the restrictions have their own experience of them. The more one understands how a rule sustains relationships, the better placed one sometimes is to point out which people within it have always been asked to give more.
+
+Now back to the child under the gate. The priest still does not know everything that happened in the forest, but the woodcutter's readiness to raise the child gives him a reason to hand over its care. The question of the dagger has not gone away, and in front of him is a life that cannot wait indefinitely. Living with other people very often goes on inside this kind of understanding, one that never adds up to a single overall verdict.
+
+Understanding another person also changes our relationship with him. Decide at the outset that someone is making excuses, and every clarification he offers afterwards may turn into further excuses; he senses the distrust and says less. The attitude the one who understands has taken up is already part of the behaviour he is trying to explain.
+
+Only by giving the other person the chance to correct us can we learn from the answer something we did not know before. His account can still be checked against records of what he did and against other people's experience. Mutual understanding takes shape in these exchanges; neither side can complete it alone by guessing more thoroughly.
+
+#### After you know his answer
+{: data-toc-skip='' }
+
+Knowing what a person supports is where understanding starts. Suppose, for example, that a team is discussing whether to trial a new shift rota, and someone is willing to back it because it can be tried for a while and reversed if it proves unsuitable. You know his position, and you also know one condition he leans on: whether the consequences can be undone.
+
+You can then ask: if publishing the new rota would cost some people the care arrangements they now rely on, arrangements not easily restored, would he still support it in the same way? The question tests how much weight "it can be reversed" carries in his judgement, and it helps him notice a cost he may have overlooked.
+
+Once this consideration is understood, it can be watched for in other decisions: where consequences are easy to repair, is there a case for trying first; where they are hard to undo, is more preparation needed? But another person may oppose the rota for quite different reasons, and refuse it even though it can be reversed. To understand him, one has to ask again what his reasons really are.
+
+#### Is anyone aboard the boat that strikes you
+{: data-toc-skip='' }
+
+Zhuangzi, in "The Mountain Tree", shrinks the scene to a single collision. An empty boat drifts into a man's boat and he does not lose his temper; if he sees someone aboard, he shouts at him to steer clear. He shouts and gets no answer, shouts more urgently, and in the end abuse follows.[^zhuangzi]
+
+The boat still strikes, but the anger now has an object: a person who ought to have answered and did not. The event has been placed within intention and responsibility, and the feeling changes with it.
+
+The parable goes on to speak of the discipline of emptying oneself to wander the world. A reader can first notice something in the collision itself: whether we grow angry often depends on how we read the other person's intention. Did that man see the boat was about to hit? Was he able to steer clear? Until such things have been established, deliberate refusal to give way is only one possible explanation.
+
+Establishing the cause can change the judgement of responsibility. Some people truly cannot control the boat; others know the risk and fail to take an action that was within their power. The damage from the collision still has to be dealt with, but who should answer for it depends on what could be known at the time, what could be done, and what was actually done.
+
+The causes of an action, the reasons the person gives for it, and the reasons that would justify it to those affected should also be kept apart. Stress can help explain why someone lost control, but it has not yet answered how much those in the way should have to put up with. An institution that makes staff afraid to report errors accounts for part of their silence; how responsibility is shared still has to take in authority, risk and the choices that were available.
+
+Public discussion in particular needs to beware of another short cut: treating the calm, fluent account as the more reliable one. A clear account is easier to check, but some people lack the vocabulary, some are frightened at that moment, and some have suffered precisely the kind of harm that makes the composure demanded of them impossible.
+
+If someone says angrily "it happens every time", one can check how many times it has happened while dealing with the one occasion already confirmed. Even if "every time" is inaccurate, the harm that did occur does not go away. Helping him set out what happened improves the quality of the record, and it stops the argument from stalling on an exaggerated word.
+
+Knowing what a person fears can be used to comfort him, and it can be used to threaten him. An accurate understanding of his weakness does not come with a reason to exploit it.
+
+Someone who does not want to go on talking now may simply be exhausted, or afraid of being punished for voicing an objection. Stopping the harm already confirmed, keeping the record, and letting the person rest and speak in safety are often more urgent than further questioning. He does not have to explain himself to our satisfaction before he qualifies for care.
+
+#### The same word may be making different demands
+{: data-toc-skip='' }
+
+Kuhn's example concerns the meaning of a word. Everyday discussion runs into a further difficulty: even when everyone uses the word "fairness", they may prize different arrangements. Some think whoever arrived first should be served first; others think whoever is in most urgent need should come first. Translating the word into another language has not yet made clear whom they are asking to do what.
+
+Take the redesign of a park. "We see it differently" may contain any of the following questions:
+
+| Where the disagreement lies | What needs clarifying |
 |---|---|
-| Purpose | Which judgement or action is it meant to support? |
-| Key inputs | What is required of data quality and provenance? |
-| Domain of validity | On which people, times, environments, and scales was it validated? |
-| Failure modes | How does it usually go wrong, and which error is most dangerous? |
-| Monitoring | Which signals mean it must be down-weighted or taken out of service? |
-| Revision | What conditions trigger revalidation, retraining, or replacement? |
+| Data | Are both sides using usage records for the same period and the same area? |
+| Definition | Does ease of passage mean walking, wheelchairs, or the speed of vehicles? |
+| Causation | Which design would cause crowding, and what evidence supports that? |
+| Scale | Have short-term disruption from construction and long-term consequences of use been kept separate? |
+| Purpose | Is it transport, recreation, or some other need that is being improved? |
+| Values and risk | Which costs are hard for which people to accept, and why? |
+| Authority | Who is entitled to set the shared goal, and how do those affected take part? |
 
-_Table 7.1　A model passport: writing the conditions back into the knowledge_
+A single quarrel may be stuck at several of these points at once. More investigation can settle some disagreements over data, but it will not decide for the park's users which kind of life is more worth having; and saying that values differ does not exempt a mistaken usage record from correction.
 
-#### True within bounds
+Put the table back against a concrete proposal. Take a hypothetical case: the park's managers want to add night-time lighting to make it safer to pass through. One user doubts that the lamps, where they are placed, would reach the stretch of path where people most often fall. Another believes the lighting would work, but worries about the effect on the creatures that roost there at night. A third demands that nearby residents be involved in the decision first. All three may say "I object", but the reasons that need answering are different.
+
+The first doubt can be checked against where accidents happen and how well the lighting works. The second calls for more ecological and usage data, and it also involves how the various costs are to be treated. The third asks about entitlement and procedure in the decision; however well the first two studies are done, they have not yet answered who may decide on whose behalf.
+
+![The same park lighting proposal may meet different objections at three points: whether the lighting works, how costs are compared, and who has the authority to decide; each calls for a different kind of checking or discussion.](/assets/img/book/en/fig-13-disagreement.svg){: width="1200" height="860" }
+_Figure 9.1　One objection may fall on different relationships. This is the hypothetical proposal carried over from the table above, not an actual park survey. Drawn for this book._
+
+#### State first whatever part can be agreed
 {: data-toc-skip='' }
 
-People sometimes feel that only unconditional claims count as real knowledge. The most reliable knowledge in science and engineering is usually extremely clear about its conditions.
+Discussion does not necessarily reach full consensus. In the park lighting example, the parties may agree on the existing accident data, and agree that more lighting would improve one particular path, while still judging differently whether the ecological cost is acceptable. Separating what has been confirmed from what remains disputed saves the next discussion from starting over with the same batch of data.
 
-Newtonian mechanics is the best example. It did not become rubbish when relativity arrived. Build a bridge, compute a trajectory, design a machine, put a probe on Mars, and you are still using Newton.
+Some shared criteria can also reach across professions. A product team wants an early launch and a safety team worries about accidents, yet both may agree that a small error which can be corrected quickly and an error which might cause irreversible harm call for different kinds of review. That agreement can become the reason for arranging a procedure, after which the two sides go on to discuss which risks belong in which class.
 
-Its boundary is marked clearly too. Nineteenth-century astronomers found that Mercury's perihelion advances forty-three arcseconds per century more than Newtonian mechanics accounts for; general relativity produced that number in 1915. GPS is more direct still: a satellite clock runs faster than one on the ground because gravity is weaker up there, and slower because the satellite is moving quickly, and the two effects net out at about thirty-eight microseconds a day. That sounds negligible, and converted into position error it is ten kilometres a day. On Newton alone, a navigation system would be useless before lunch.
+Shared criteria must themselves be open to checking. The two sides may still differ over what counts as "reversible", or discover that the losses borne by one group have not been counted. The differences should then be set out explicitly, rather than everyone continuing to use the same word and pretending agreement has been reached.
 
-Saying Newtonian mechanics holds within clearly stated conditions does not weaken it. It describes its power precisely.
+If rankings of value or basic beliefs cannot for now be reconciled, the disagreement itself can at least be stated clearly. One person holds that a certain loss cannot be traded away; another is willing to compensate for it with other goods. This is a different problem from misreading the data. Only by admitting that no shared criterion yet exists can the parties look for negotiation, procedure, or some other acceptable way of living alongside one another.
 
-This state can be called true within bounds: inside clear assumptions, representations, and a stated domain, we have ample reason to treat a proposition as highly reliable, without automatically extending that commitment to every situation.
-
-The phrase is not trying to found a new philosophical school. It offers a kind of cognitive hygiene. It reminds us that plenty of truths came with brackets, and casual speech deleted the brackets.
-
-#### Euclid's fifth
+#### The cost of changing one's mind
 {: data-toc-skip='' }
 
-Newtonian mechanics being fenced in is easy enough to accept; it is a physical theory, after all. What follows happened in the place everybody assumed was safest.
+An idea one read about only yesterday may be easy to change; a judgement bound up with professional reputation, group belonging or years of investment may be hard to let go. When persuasion meets resistance, besides checking whether the evidence is sufficient, one can also try to understand what the change would mean for the person concerned.
 
-Around 300 BC, Euclid opened the *Elements* with five postulates. Four of them are innocuous: a straight line can be drawn between any two points; a segment can be extended; a circle can be drawn with any centre and radius; all right angles are equal. The fifth looks different, and much longer — roughly, that if a line crosses two others and the interior angles on one side add to less than two right angles, then those two lines, extended far enough on that side, will meet.
+He may be worried about losing the support of his peers, or afraid that admitting one mistake will wipe out everything he has worked for. Sometimes, clearly separating "this judgement needs correcting" from "this person has no competence at all" is enough to let the discussion go on. Which actions caused damage and must be answered for should still be dealt with specifically.
 
-It is intuitively right as well. The trouble is that it reads like a theorem rather than a postulate. For the next two thousand years mathematicians tried to derive it from the other four.
+A distinction is also needed between a reasonable decision made on the information available at the time and a lapse in which evidence that was available then was ignored. Both may need to change when new data appears, but what has to be acknowledged and improved is different in each case.
 
-The most beautiful failure was Saccheri's. In 1733 this Italian Jesuit published a book called *Euclid Freed of Every Flaw*. He worked by reductio: assume the fifth does not hold, and push until something contradicts. He pushed very far, produced a whole body of internally consistent results, and never reached a contradiction. In the end he threw the results out, on the grounds that they were "repugnant to the nature of the straight line."
+After changing his judgement, the person still has to go back to his own community and face those who trusted him, or were hurt, because of what he used to maintain. Correcting a statement may be only the beginning of that work.
 
-He was holding a non-Euclidean geometry. His framework would not let him see it.
+### 10 — Borrowing Other People's Thinking
 
-Gauss later arrived at the same place and knew where he was. He did not publish. In a letter to Bessel in January 1829 he said he feared "the clamour of the Boeotians" — the Boeotians being the proverbial dullards of ancient Greece. He sat on it for decades.
+LeetCode is a platform for practising programming. A problem may ask for the shortest route, or for a way to find one item quickly in a large body of data. Anyone who starts practising soon meets "data structures" and "algorithms". The first studies how data should be arranged so that it is convenient to use; the second sets out the steps for getting a job done, and the reasons behind them.
 
-The people who actually printed it were two who had no reputation at the time: Lobachevsky in 1829, Bolyai in 1832. In 1854 Riemann gave his inaugural lecture at Göttingen and generalised the whole business to curved spaces of any dimension. Gauss was in the audience.
+The statement of a problem is short; finding a good method may have cost researchers many years. The layer-by-layer search for a path in Chapter 4 lets us lean on an existing proof to know when the search can stop, and why no shorter route has been missed. Someone who has learnt the method spends their time recognising the conditions of the problem. Someone who has never met it may be worn out simply from trying a few routes.
 
-There is a larger casualty here. In the *Critique of Pure Reason*, Kant had used Euclidean geometry as his showcase for the synthetic a priori: knowable without experience, and necessarily true of the world. He chose that example precisely because it looked the least assailable. Once non-Euclidean geometry existed, the showcase collapsed. Euclidean geometry remained an elegant and reliable system; its necessity was simply demoted from "about space itself" to "within one particular set of postulates."
+Trying for yourself has value. Where you get stuck, you can see what makes the problem hard, and you learn to recognise what exactly a method saves. But if never looking at existing results is taken as proof of independent thought, learning becomes a test of reinventing things. What humanity has accumulated is given no chance to work, while the individual's stamina is asked to stretch without limit.
 
-Then comes the most ironic part. In 1915 Einstein needed mathematics that could describe space curved by mass, and what he used was Riemann's. The thing Saccheri had condemned as repugnant to the nature of the straight line, and Gauss had hidden for fear of ridicule, turned out to be the tool for describing the universe we actually live in.
+Faced with the hard questions of life, though, we easily forget this way of learning. Should a person keep every promise? What kind of exchange is fair? If a choice benefits me, is that sufficient reason to make it? These puzzles may have landed on us only today, yet philosophers have been arguing about them for a very long time. The distinctions, counterexamples and arguments they have offered will not live our lives for us, but they can help us see where exactly we are stuck.
 
-Truth-within-bounds has a hard version here: even necessity may only be necessity inside some set of assumptions. Which is also why an alternative representation with no visible use is worth keeping — you do not know which year physics will need it.
+A programming problem usually comes with its inputs, its constraints and its test for acceptance already given. In a discussion of fairness, even the test for acceptance may be in dispute. That makes borrowing ideas a matter for more judgement. Reading an argument, you may come away with a method; you may also discover only then that the answer you had been pursuing had ruled out certain people's situations in advance.
 
-#### Familiarity impersonates the domain of validity
+#### Darwin reads a book about population
 {: data-toc-skip='' }
 
-The chicken from chapter five is worth mentioning again here. Its problem was not only that it had too little data. All of its data came from one invisible generating condition. When the upper-level mechanism changes, more old samples only make it more confident about the old domain. Structural blindness is at its most dangerous at the moment experience is richest.
+In his autobiography Charles Darwin recalled that selection in the state of nature had once puzzled him. He had already seen the power of artificial breeding, but he still needed to understand how, with no breeder doing the choosing, differences among living things could be kept.
 
-Human intuition has a domain of validity too, and usually no label on it.
+In 1838 he read Malthus's book on population. Population can grow faster than the means of living, and that problem made him think again about the struggle for existence among animals and plants. In an environment of limited resources, would certain differences make an organism more likely to survive and reproduce, so that those differences were passed to descendants more often? The differences he had gathered over long years of observation now had an explanation that could be worked on further. He still spent many years after that arranging evidence and revising his ideas before he published *On the Origin of Species*.[^darwin]
 
-Ten years at one company may leave you understanding its power structure very well. Move to a different culture and industry and you carry the familiar feeling that you read people accurately. A defensive strategy learned inside one relationship may go on being used in the next, even when the other person is nothing like the same kind.
+Darwin read with a puzzle left over from long observation, and only because of that did the relation between population and resources turn, before his eyes, into a question in biology. Another person reading the same book need not have arrived there. Making the idea stand up afterwards meant going back to the evidence on species, variation and reproduction. The borrowing happened in this movement back and forth. As for how people should treat the weak, or how a struggle for existence should be conducted, none of this decided that for us.
 
-The awkward part: when intuition steps outside its domain, the subjective feeling does not necessarily weaken.
+When we read works of philosophy, we too can choose with a question in hand. You may accept a distinction an author draws about "freedom" while disagreeing with the policy he builds on it. To explain which step you have adopted, and why, you do not first have to become a disciple of some school.
 
-This is why seniority is not a cross-context passport. Experience converts reliably into transferable ability only when feedback quality is sufficient, the environment's structure is similar, and errors have a chance of being revealed.
+But how does a book hand this ability to its readers? Darwin could say that his reading gave him inspiration. For those who come after, what is more useful is to see how he applied the relation between population and resources to variation among living things, and then to keep checking along that same step.
 
-Some fields have fast feedback and stable rules, and expert intuition there is very strong. Some have highly random outcomes and delayed feedback, and experience may only make the stories smoother.
-
-#### Simon's scissors
+#### Leaving the reasons for the next person
 {: data-toc-skip='' }
 
-If every model had to carry a complete domain of validity and every judgement had to check all its conditions, we would be exhausted before lunch.
+Start with a very small example. Why is the sum of two even numbers still even?
 
-Herbert Simon spent a career on this. He is hard to file: a doctorate in political science, work in public administration, economics, psychology, and artificial intelligence, and the 1978 Nobel in economics, awarded for his research into decision-making processes inside organisations.
+You can try four plus six, eight plus twelve, and a few more pairs. To hand the discovery to someone else, though, there is another way of writing it. An even number can be split into two equal whole-number parts. Halve each of two even numbers and put one half from each together; the sum can still be divided into two equal whole-number parts. In symbols, write the two even numbers as 2a and 2b; adding them gives 2(a + b), where a and b are both integers.
 
-His central claim was bounded rationality. The agent in classical economics who computes every option, holds all the information, and pursues the optimum is not a shrunken human being; it is a different kind of thing altogether. Real decision-makers have limited information, limited time, and limited computation. So people do not pursue the optimum, they pursue good enough and stop — he coined *satisficing*, gluing satisfy and suffice together.
+The proof about even numbers does not record every detour the discoverer took. It leaves out the mood of the moment and the order of the trial sums, and keeps the relation that is enough for a stranger to redo it. This omission has a power of its own. A reader can point out that "any integer" cannot be substituted for "even number", without first having to judge whether the author, as a whole person, deserves trust.
 
-Simon later summed it up with an image: human rational behaviour is like a pair of scissors, one blade being the structure of the task environment and the other the computational capacity of the actor. Look at one blade only and you cannot explain the shape of the cut.
+This is one point on which I set particular store by stated reasons. They make it possible for different people to meet at the same place and to disagree over the same definition, the same step of inference; corrections can therefore pass into the hands of people the original author never knew. When one person works something out once, the benefit need not stop with that person.
 
-That image changes the definition of a good model.
+To achieve this, the discoverer has to spend more effort, not less. Writing down what you grasp at a glance is often more trouble than simply going on using it. The ease the reader receives contains the work an earlier person did for the sake of passing it on.
 
-A theoretically more precise model may be less suited to a task than a simple but robust rule, if it needs expensive data, cannot run in time, or cannot be read by the people using it. In the other direction, a simple heuristic in a high-risk setting cannot be dressed up as virtuous merely for being fast if it lacks an adequate safety margin.
+Some abilities are handed down mainly through demonstration and practice. In learning to knead dough, knowing that it should be "kneaded to the right degree" is not enough; the learner needs to touch different doughs, try the movements, and then ask someone skilled to point out the differences. Learning to recognise an abnormal noise in a machine likewise takes repeated listening to normal and abnormal examples, checking one's judgement each time. Words can remind us to attend to the spring of the dough or to a particular stretch of sound; the actual feel, the discrimination by ear and the movements still have to be practised.
 
-So model evaluation has to include cognitive cost. How long does the data take to obtain? Which specialist is needed? Can an error be recovered? Is there a second layer of monitoring? Bounded rationality counts the limited resources as design conditions too; it is not saying that people cannot manage, so anything goes.
+Sometimes the words stop right there, at "springs back to about this degree". After that, teacher and student have to touch the same piece of dough together. The inference that can be written, the difference that can be pointed to and the movement practised by hand may only together make up the ability the newcomer actually learns.
 
-#### A domain of validity is more like a set of conditions
+![Thinking can be passed on along two complementary routes, stated reasons and shared practice; those who come later revise the material through checking and practice and hand it to the next group; handing down does not guarantee that the content improves.](/assets/img/book/en/fig-14-inheritance.svg){: width="1200" height="900" }
+_Figure 10.1　How other people learnt, and then handed it on. Stated reasons and shared practice can interleave; checking and practice can uncover errors, but what is handed down may also go uncorrected indefinitely. Drawn for this book._
+
+Mathematicians have carried this work of passing on further still, to the point where a machine can take part in the checking.
+
+There is a kind of work in mathematics that sets out its reasons with unusual care. Lean is a tool for expressing definitions, propositions and proofs. People write what is to be proved in a precise form and then supply a proof; the system checks, by its logical rules, whether that proof supports the proposition as written.[^lean]
+
+Where a proof on paper would say "from which it follows", a reader can perhaps fill the gap alone. Handed to a tool of this kind, the omitted steps must be capable of being filled in as a checkable proof. The system can help complete some of the details, but whether the definitions are well chosen, and how existing results are joined up, may still take a great deal of work.
+
+The even-number example above is short, and formalising it seems more trouble than simply seeing it. Once proofs grow long and the theorems they cite multiply, this checking becomes more helpful. A later worker can confirm which proposition they are citing and which premises it needs, then use it in a new proof. Nobody has to guess afresh, at every citation, which step the original author left out.
+
+What Lean checks is whether, under the logic and axioms adopted, the proof given derives the proposition written down. That result still depends on the checking tool working correctly; whether the proposition is fit to answer a real question needs a separate check. If a model for studying a bridge left out an important loading condition, a proof inside the model, even one that passes the check, says nothing about how the real bridge would behave under that condition. The question from Chapter 5 sits right here: what was left out when the model was built, and does a later use happen to need exactly that?
+
+#### Working a problem through once, properly
 {: data-toc-skip='' }
 
-We like to draw a tidy circle: valid inside, unknown outside.
+To ask whether a job is meaningful may be to ask about income, contribution, autonomy, the growth of a craft or a sense of identity; looking up satisfaction ratings for various job titles may not reach the thing you care about. The hard questions of life rarely run, as the even numbers do, from a clear definition straight through to the end of a proof. Borrowing the thinking of those before us can still begin by redoing a stretch of reasoning. Here is a hypothetical problem. You have promised to help a friend finish a piece of work, and circumstances have since changed. You hold that "having promised, you absolutely must not withdraw", but carrying on would impose a clear burden. How should this principle be understood?
 
-Reality is rarely that tidy. A model's reliability may depend simultaneously on lighting, camera, age, culture, hardware load, data quality, time, and incentive structures. One dimension can drift a long way with no effect while another collapses the whole thing after a small change.
+"Having promised, you must not withdraw" may express several different demands: no withdrawal under any circumstances; promises should normally be kept, but a major upheaval allows an exception; or the arrangement may be changed, provided you deal with the preparations the other person made on the strength of your promise. The original sentence does not separate these meanings, so the first question is which one you actually agree with.
 
-![A domain of validity has to be written as a set of conditions; write it as a noun and it will fail you](/assets/img/book/en/fig7_1_domain.png)
-_Figure 7.1 A domain of validity has to be written as a set of conditions; write it as a noun and it will fail you_
+Put the strongest version in a hard place first. If what was promised would itself harm someone, is there still a duty to perform it? If a major change arises that could not reasonably have been foreseen at the time, can the responsibility not shift at all? These counterexamples force the principle to narrow, while the weight of everyday promises still has to be explained separately.
 
-"This is a retail model," "this is manufacturing experience," "this is the Taiwan market" are all far too coarse. The questions worth asking: which generating mechanisms are the same, and which key variables differ?
+Why a promise carries weight can be seen in the other person's arrangements. Because you agreed, he may have turned down other help, set time aside or entrusted important work to you. Withdrawing now would cost him the options he once had, perhaps leaving no time to find a substitute. These consequences supply reasons to perform, to give early notice or to help repair the damage.
 
-This also explains why transfer learning can be astonishingly successful and catastrophically bad. Two problems with different surface names may share a substrate; two scenes with the same surface label may differ entirely in sensing, incentives, or population.
+In this way, permission to withdraw and continuing responsibility can both hold at once. A major change may be enough to alter the original arrangement, but early notice, an honest account and whatever remedy lies within your power may still be required. After the principle and the case have been checked against each other, what emerges is a finer judgement: the promise keeps supplying reasons, and the weight of those reasons depends on what was promised, on what has changed and on the reliance that has already formed.
 
-Similarity should not be judged by names, but by mechanism.
+Only when conceptual analysis has come this far does the practical enquiry have a direction. What exactly was promised at the time? What arrangements has the other person already made? How heavy is the new burden? Could a different form of help be offered? These facts have to be obtained from the real relationship; thinking the principle through a little further cannot answer them in its place.
 
-#### A model needs a passport, not divinity
+Where there were once only two options, grinding on or breaking faith, there are now arrangements that can be discussed with the friend: narrowing the scope of the help, moving the deadline, finding a replacement, or bearing a reasonable remedy after withdrawing. The friend may accept, or may point out that none of these makes good the loss. The analysis gives the conversation a clearer starting point; it has not agreed anything on the friend's behalf.
+
+The analysis above drew on conceptual clarification, counterexamples, the pressing of reasons, and the checking of a general principle against a particular case and back again. All of these are philosophical work that can be read about further, practised and criticised.
+
+From there you can go deeper, choosing works according to the difficulty you have met. Peirce, in "The Fixation of Belief", discusses how people settle their beliefs, and asks which ways of enquiring allow experience to revise what we originally thought. Dewey's *How We Think* starts from concrete perplexities and discusses how people propose possible explanations and then check them.[^peirce][^dewey] The analysis of the promise above can go on borrowing tools from studies of conceptual clarification, of counterexamples, and of checking general principles and particular cases against each other.
+
+What reading yields can be quite concrete. Two meanings that were once run together can now be kept apart; where there was once a single explanation, you now know there are rival explanations that can be checked. Each work makes broader claims of its own, and learning one of its methods is only a beginning. Redoing one of the author's inferences with an example of your own, then changing the conditions to see whether it still holds, will help more than remembering the name of a school.
+
+The practice should not end the moment a satisfying answer arrives. Change the situation and see what the method just used can do. Conceptual clarification can let people state their disagreement; it may not make them value the same thing. Weighing consequences can supply important information; it does not automatically turn rights and promises into figures that cancel one another out.
+
+"Every voluntary exchange is fair" can be tried the same way. If one party's alternatives have been deliberately destroyed by the other, is the consent that remains still enough to make the exchange fair? Pressing this one step shows which situations "voluntary" had been leaving out all along. Whether you are willing to revise the principle in those situations is what gives the counterexample its force.
+
+Still, learning to redo this stretch of analysis is not yet the same as being able to read every argument that has come down to us. The promise just now was a hypothetical we had taken care to spell out; with an old piece of writing, what the author was answering at the time may not be written on that page at all.
+
+#### Understanding a sentence means finding its question again
 {: data-toc-skip='' }
 
-A model that matters deserves a short passport.
+An instruction says only "handle this as soon as possible". Every word is familiar, yet the task has not necessarily been made clear. Does it mean a reply before the end of the day, or dropping whatever is in hand at once? Does handling it mean acknowledging receipt, proposing a plan, or finishing the whole job? Are there checks that must not be skipped for the sake of speed?
 
-Do not write "ninety-five per cent accuracy." Write these: where has it been validated? Which input frightens it most? Which assumption, once broken, makes the number untrustworthy? What signal means take it out of service, down-weight it, retrain it, or bring in a second model to compare?
+The person who wrote it may have assumed that, since the two of them had just come out of a meeting, none of that background needed saying. Whoever takes over later has only those few words, and has to recover the question and the constraints that go with them. Understanding a text sometimes needs exactly this work: setting your own everyday usage aside for a moment and asking what the other person was responding to at the time.
 
-You can do the same for human judgement.
+The reader here needs a capacity for understanding other people: to find out what the other person knew at the time, what choices were open to them and which question they were answering, and then to try to reconstruct how they reached their conclusion. This is one layer of what "empathy" can include. Understanding an argument does not necessarily require sharing the author's emotions, but it does require not treating outcomes you know about afterwards as things the author already knew.
 
-"My intuition about schedules on this kind of project is fairly reliable when the stack is familiar, the team is small, and the requirements are settled. If the team is cross-departmental, the requirements are unsettled, and the hardware platform is unfamiliar, I should lower the weight on that intuition."
+In their study of communication, Clark and Brennan stress that common ground has to be built and updated within the interaction. Partners in a conversation gather evidence of how far they understand each other through responses, acknowledgements and repairs.[^grounding] Written material can also supply examples, definitions and context in advance; when the author is absent, the gaps may have to be filled by the reader's other reading, hands-on work and discussion.
 
-That sentence is far more professional than "I have been doing this for years, I know." Because being professional means knowing where your confidence has standing.
+How much background needs filling in depends on how the material was written. A carefully laid-out textbook may be easier to understand than a hurried spoken explanation; the advantage of talking face to face is that you can ask at once. Whether communication has been adequate is judged by whether the receiver can find the necessary information and confirm that they have understood correctly.
 
-#### The environment gets changed by the model
+![Text and images present only part of the author's work at the time; the reader forms a provisional understanding from the text, background material and their own experience, then revises it by asking, comparing and trying things out.](/assets/img/book/en/fig-15-context-reconstruction.svg){: width="1200" height="890" }
+_Figure 10.2　How a reader finds out what the author meant. A reading is first proposed from the text and background material, then checked by asking, comparing or trying things out; new material found later may force a reading that once seemed smooth to be rewritten. Drawn for this book._
+
+Reconstruction also has a trap that is easily overlooked. The smoother the explanation, the more likely we are to forget that it is still a guess.
+
+In a series of studies, Eyal, Steffel and Epley compared imagining another person's perspective with actually obtaining information from that person. In the judgement tasks the studies set up, asking participants to put themselves in the other's shoes did not consistently improve the accuracy of their judgements about what others thought and felt; the condition in which perspectives were obtained through conversation did improve understanding.[^perspective] Imagining a few more details and knowing more about the other person's actual situation do not have the same effect.
+
+Back to "handle this as soon as possible". We can propose several readings first, then look at the minutes of the meeting or simply confirm the deadline. With an old book, what can be checked is the surrounding text, the same author's usage elsewhere, the materials of the period and other scholarship. Different objects call for different checks; only by giving your reconstruction a chance to be corrected do you avoid merely writing another handsome story on the other person's behalf.
+
+Stretch the distance to several hundred or several thousand years, and restoring the background takes far more work. Being able to read the symbols is a very small part of it.
+
+The *Yijing*, the Book of Changes, is a body of texts that has passed through long handing down and interpretation. Each of the sixty-four hexagrams is made of six lines, and each line can take one of two forms, yin or yang; the hexagram statement is a written account of the hexagram as a whole, while line statements are attached beneath each line. Later interpretation gave further meanings to the hexagram images, the positions of the lines and the words. Knowing how six lines combine is only the starting point for reading the figures; the reader also needs to know how a particular interpreter used them to judge a situation.
+
+The core hexagram and line statements, and the writings later called the *Yizhuan*, the Commentaries on the Changes, or the Ten Wings, took shape in different periods and passed through long use in divination and long interpretation. The dating of the texts and the manner of their formation are still under scholarly discussion.[^yijing] In reading, therefore, one needs to be clear which layer of text one is reading, and from which period, and which interpreter, a claim comes.
+
+On a first reading, you can learn one interpretation that has textual grounding, then compare it with other readings. On what kinds of question is the same hexagram cited? Which hexagram or line statement do the reasons come from? What assumptions has the interpreter added? Doing this lets you check whether you have understood. Whether divination has any predictive power is a separate matter; it needs evidence that can tell successful predictions from failed ones, and familiarity with the text cannot stand in as proof.
+
+Sometimes a reader who already has a mature method of their own meets an old set of figures and finds a new correspondence. Leibniz was a reader of that kind.
+
+After developing binary arithmetic, Leibniz corresponded with Joachim Bouvet, a Jesuit in Beijing. The hexagram diagrams Bouvet sent him showed him a very attractive correspondence: match the two kinds of line to 0 and 1, and under a suitable arrangement and way of reading, the six-line combinations can correspond to six-digit binary numbers. Leibniz's paper on binary of 1703 discussed these Chinese figures.[^leibniz]
+
+This mathematical correspondence can be checked directly: two choices at each position, six positions, sixty-four combinations in all. Leibniz had found a way of understanding the hexagram diagrams through his own mathematics. The arrangement he saw, however, belonged to the tradition of Shao Yong in the Song dynasty; how ancient users understood those figures still has to be explained from the texts of their own time and other historical sources.
+
+Two different results appear here. A new correspondence may help mathematical thinking; to claim that the arithmetical knowledge of the ancients has been recovered, historical evidence must be produced. Success in the first does not automatically accomplish the second. Even once the rules of the symbols are clear, there remains a great deal to learn about how their users understood them in ritual, in community and in daily life.
+
+Someone reading the *Yijing* today may also want to borrow it for a problem in front of them. That requires setting out one's own usage, so that others know what we are actually proposing.
+
+In borrowing yin and yang, this book adopts a contemporary usage of very small scope: when faced with a one-sided judgement, first look for the complementary conditions, costs, counterweights and changes it has overlooked. This is an exercise in asking questions, and no generalisation about every ancient use of yin and yang.
+
+Suppose a project has gone a long time without results, and "we should continue" and "we should give up" seem to leave room for only one answer. One can first find out what abilities and data have actually accumulated over that time, then reckon which options the investment has crowded out and which resources are near their limit. With that information, it becomes possible to compare whether to try once more, to change approach, or to end the project.
+
+If, after swapping in a new set of words, we still know only that we want to continue, and have found no new reason and no checkable difference, the borrowing has not helped. Whether a method is useful depends on what more it made us see and check; the ancient name cannot vouch for it by itself.
+
+#### The past a file name carries
 {: data-toc-skip='' }
 
-There is a more troublesome class of system: the model does not only observe the world, it changes the world once deployed.
+"CON" is only three letters, yet under the file-naming rules commonly used in Windows it is no ordinary name. Along with PRN, NUL and others, it is reserved for devices; simply adding an extension does not necessarily turn it back into an ordinary file.
 
-Publish a performance metric and employees adjust their behaviour. A recommender changes the content ecology. A risk score affects who gets resources, and differences in resources feed back into the next round of data. Here the domain of validity stops being a static map, because once the map is used, the territory starts moving too.
+Raymond Chen, an engineer at Microsoft, has traced what such names were used for in the DOS era. Tools could handle devices in much the way they handled files, and the special status of the names had to survive conventions such as programs adding an extension automatically. By the time the system acquired fuller support for paths and directories, the expectations early programs had about names still had to be respected.[^con]
 
-That reflexivity makes "it was validated in the past" insufficient. You also have to ask whether the model's existence is changing the generating mechanism it depends on.
+To know which operation is restricted today, one still has to look up the rules for the interface, namespace and version in use. The history of how it took shape explains which dependencies to check; only the current documentation and actual testing tell us how the operation in front of us will run.
 
-A hiring model that was accurate at first may change the composition of the workforce because the company relied on it for years. A system chasing click-through may train user preferences into a shape it finds easier to predict. In systems like these, monitoring counts as part of the model rather than as maintenance.
+The use behind the name is on record and can be checked. Other origin stories that sound reasonable do not necessarily have the same footing. The keyboard we use every day is one example.
 
-#### Success should come with the words "where?"
+Why does the first row of the keyboard begin QWERTY? The common answer is that early typewriters, to stop the type bars jamming, deliberately made people type a little slower. The story is easy to remember, and it makes it easy to believe that today's familiar layout came from a constraint that has since disappeared.
+
+Koichi Yasuoka and Motoko Yasuoka, who have studied the early sources, have cast doubt on this popular version. Tracing the changes in the keyboard layout and the demands made by its early users, they argue that the problems telegraph operators met in transcribing Morse code provide an important clue to understanding how the layout changed.[^qwerty] This is an explanation argued from historical sources, and it has not settled every detail of how the layout formed.
+
+The keyboard story can therefore also be used to check how we accept explanations. "To avoid jamming, so they slowed typing deliberately" joins purpose, method and result very smoothly; to confirm that this really was the design reason at the time, one still has to find evidence of decisions and modifications. Having found another, more attractive version, one owes it the same check.
+
+Once the sources are in hand, one still has to trace how that choice was carried forward afterwards. An arrangement that saved effort at the time may run into new difficulties only after a great many people have come to depend on it.
+
+In some early computer systems, only the last two digits of the year were stored, so 1999 was written 99. Two characters fewer per record had real value where storage was expensive and data piled up in volume. The cost was left to later users: when 2000 arrived, should 00 be read as 1900 or as 2000?
+
+If a system used the year to order events, or to calculate ages, interest or terms, the difference of a century amounted to far more than two missing characters on a screen. How the data were encoded, how the programs computed, and what assumptions the systems exchanging data with one another had made all needed to be checked.
+
+In the late 1990s, governments and businesses invested heavily in inventories, patches, testing and contingency preparations. After the turn of the year, the large-scale disasters that had been anticipated did not generally occur.[^y2k] Assessing whether the preparations were worth it requires finding out which faults were actually discovered, which fixes removed risk, and whether the spending was proportionate. Looking only at the fact that the new year passed largely without incident tells us neither what would have happened without the fixes nor which measures had what effect.
+
+What the two-digit year left behind was a choice that was once understandable, and a dependency that lived longer than expected. Tracing the history of how it took shape lets us know which places to check; it does not require us to keep things as they were for ever because there was once a reason.
+
+A rule that is hard to understand may once have solved a problem that no longer exists. That is a hypothesis worth checking; it is not yet the rule's history.
+
+If we ask only "what reason would lead a reasonable person to do this", it is easy to invent a plausible origin for whatever exists. The actual cause may equally have been an oversight, an imbalance of power, an accident carried forward, or several mutually incompatible modifications. To tell these possibilities apart, historical research needs the material that has survived; it cannot rely on how smoothly an explanation sounds.
+
+An old comment in the code may preserve the original reason, or it may be out of date. How the program works today still has to be confirmed from current documentation and tests. Even when the original reason has gone, later programs may have formed new dependencies, and the consequences of removing a restriction have to be traced separately.
+
+A rule may persist because its function is still there, or because of the cost of replacing it, vested interests, or the fact that nobody ever had the authority to change it. Tracing the past can separate these possibilities more clearly; deciding whether to keep the rule today still means weighing the evidence and costs in front of us.
+
+A bridge lets us separate two kinds of question. Why the designers chose a particular safety factor, and why the code demands a particular test, are questions for the design goals, the known risks and the technical conditions of the time. How the bridge will deform or fail under a specific load is a question for mechanical analysis and the relevant testing. Understanding the design reasons helps to reveal which situations the model may have left out; the forces the structure actually bears do not change on that account.
+
+Investigating the history of how something took shape and studying the properties of the thing itself can therefore help each other, yet they answer different questions. The first is particularly suited to recognising why programs, procedures, interfaces and classifications have the form they now have; to calculate a load-bearing capacity or find the limits of an algorithm, one still has to study the relevant properties and inferences. Sometimes the sources fall short, and the origin cannot be established within the deadline; then the unknown has to be written down clearly, and the decision supported instead by present-day tests.
+
+Where to begin can be judged from the difficulty at hand. Asking "what is the essence of a file name" will not necessarily explain the special rule for CON; finding out what it was once used for can point to concrete compatibility problems. Turn to the load calculations for a bridge, and the history of the design cannot substitute for the data the calculation needs.
+
+#### Learning from the aircraft story to check a different set of data
 {: data-toc-skip='' }
 
-We love sharing what worked and rarely share its boundary.
+What would it mean to have learnt the aircraft case from Chapter 8? Remembering only "pay attention to what cannot be seen" may still leave you not knowing what to check when a new problem comes. More exact questions can be kept instead. What conditions decide whether a case enters the data? Would the cases that did not enter happen to change the answer we want?
 
-"This method works" should habitually be followed by: where?
+Now apply the questions to feedback on a course. If everything collected is the evaluations of those who completed it, first find out who dropped out after enrolling, and why. Falling behind, running out of time and losing interest each mean something different for evaluating the course. Reading only the responses of those who finished, one cannot know the course's effect on everyone who enrolled.
 
-"I am confident" should be followed by: because this resembles which situations I have seen?
+The two cases can borrow the same method of checking: recognise how the data were filtered, then ask whether the filtering bears on the question under study. Their specific causes differ, so a conclusion such as "reinforce the places with fewer bullet holes" cannot simply be carried across. How to obtain information from learners after they drop out still requires a survey designed afresh for the course.
 
-"It has always been this way" should be followed by: which key variable has already changed?
+This is the detail to keep when borrowing a method. Remembering only the aircraft, the bullet holes and the war, one easily assumes it is useful only for military matters; left with only "do not ignore the unknown", one cannot guide a single enquiry. Explaining how the filtering process affects the data is what lets those who come later know which groups to compare.
 
-None of this is meant to slow every decision down. Quite the opposite. Only by knowing the domain do you earn the right to be fast inside it.
+If, when the question, the evidence and the conditions all change, you can still always use the same method to prove the answer you liked in the first place, it is worth going back to check: is there any result that would really make you change your view? If there is none, using the method may be nothing more than supplying reasons for a preference after the fact.
 
-What slows a person down is usually something else: walking to the edge of a cliff on an old map, and discovering there that the terrain changed a while ago.
+Understanding that can be carried over does not always come from agreement. Finding where an analogy fails may teach us a difference we had not noticed. Conversely, an example that holds completely, if it says only what we already knew, does not necessarily add to our capacity for judgement.
 
-#### Extrapolation is most dangerous when it still looks normal
+Ways of thinking accumulated like this can cross out of their original disciplines without our having to declare every field the same thing. Mathematical proof, historical tracing, shared practice and counterexamples each help us obtain something different. In choosing among them, we also gradually learn to explain why the case in front of us needs this one.
+
+Those who come later will meet problems those before them never met. Learning a method is for having the ability to get that far; once there, sometimes the method itself has to change too.
+
+### 11 — Thinking Has Deadlines Too
+
+On 20 July 1969, Neil Armstrong and Buzz Aldrin were descending from lunar orbit towards the surface of the Moon in the lunar module, the Eagle. Mission control on the ground was receiving a continuous stream of flight data and talking with them by radio.
+
+The guidance computer suddenly threw up a programme alarm. Armstrong reported the code, 1202, and shortly afterwards asked the ground again for a reading on it. Knowing which code it was did not yet let the astronauts decide whether to carry on descending. The module did not hang in the air while it waited for an answer.
+
+What the ground had to answer at that moment was whether this alarm was interfering with any function the landing needed. A 1202 meant that the work the computer had scheduled exceeded the resources available, but the software had been given an order of priorities in advance, and after an overload it could still recover the guidance tasks that mattered. Whether the system could go on doing those tasks became the crux of the judgement. Why the extra load had appeared had not, at that point, been traced.
+
+Jack Garman, who knew the software well, advised continuing. Steve Bales, responsible for the guidance system, assessed the alarm and the state of the vehicle and read it as safe to keep descending. Charlie Duke passed the answer up to the Eagle.
+
+The alarm came back. Aldrin reported the same code, and said what data had been on the display when it appeared. The ground replied that they would be watching the difference between the two estimates of altitude. The descent went on, and so did the checking of status over the radio. A question that had just been answered had to be judged again as each new report came in.[^apollo]
+
+Only after the module had landed safely did the engineering teams have time to hunt down the extra load. Fred Martin, who took part, recalled that they examined the software, used the simulators, and checked the telemetry against the operating procedures, and traced the additional load to something connected with the rendezvous radar. Those findings bore on later flights; the fact that this landing had succeeded was no reason to stop asking.
+
+The judgement that allowed the descent to continue was far narrower than "we understand the whole fault". It rested on the kind of alarm, on how the software handled an overload, and on the essential guidance that was still running. The question the later investigation set out to answer mattered at the time as well, but nobody could demand that it be settled first before the module was allowed to fly on.
+
+The same division of labour across time appears in ordinary life. A conversation needs continuous responses and cannot wait for every motive to be dissected; afterwards, even with a whole evening to hand, you cannot finish the foundational research on every concept before you permit yourself to form the next step.
+
+Analysis paralysis is sometimes caused by something other than a shortfall in reasoning: every question worth pursuing has been promoted to a necessary precondition of the decision at hand.
+
+Starting from first principles, taking assumptions apart and following them down to more basic conditions, comes into its own when an old framework no longer applies. But it cannot guarantee that you have reached a place with no presuppositions. You are still using concepts, rules of inference, observations, and some knowledge you have accepted for the time being.
+
+The more immediate limit is cost. To decide how to practise a foreign language next week, you do not first have to settle the nature of language, the complete neural mechanism of learning, and the ultimate purpose of education. These questions deserve study; whether they belong to the necessary groundwork for this particular decision is a separate judgement.
+
+If a method that has already been checked is to hand, and your situation broadly meets its conditions, using it first is usually more feasible than rebuilding every reason on your own. When the results turn out oddly, when the conditions are plainly different, or when the method's premises run straight into your central doubt, that is the place to put more analysis.
+
+Tracing things back to more basic conditions ought to help us identify which assumption has gone wrong. If each layer we peel away adds another requirement of the form "this must be fully thought through before we can begin", the task of planning next week's practice will never be finished. At that point we need to ask again: which of these doubts has an answer that would really change this plan?
+
+Acting in the moment, checking afterwards, and learning over the long run make different demands on thinking.
+
+![Thinking work across three timescales: responding in the moment with the abilities already to hand; checking the results afterwards and deciding on adjustments; learning over the long run, which changes the abilities available next time.](/assets/img/book/en/fig-06-thinking-times.svg){: width="1200" height="820" }
+_Figure 11.1　Action in the moment, analysis afterwards, and long-term learning follow on from one another. The segments are not drawn to scale in time, nor do they imply that everyone should follow the same schedule. Drawn for this book._
+
+High stakes alone do not settle that one should slow down either. Some high-stakes situations, precisely because time is so short, have to rely on trained, rapid responses. The questions that matter are what reliable abilities and materials were available at the time, what delay would cost, and whether the conditions can be improved in ordinary times.
+
+#### Half the problem is in the environment
 {: data-toc-skip='' }
 
-If a model stopped working the moment it left its domain, things would be easier. The danger is that it goes on producing a handsome number, a complete classification, a fluent sentence. No red light appears on the interface, and a user has very little chance of detecting from the form that reliability has dropped.
+Herbert Simon studied how organisations make decisions and proposed the direction that came to be called "bounded rationality". Real people cannot obtain all the information at once, list every option, and then compute the best answer at no cost. Decisions happen within limited time, knowledge and ability, and those conditions need to enter the explanation directly.[^simon]
 
-Human mental models behave the same way. Enter a new post, a new culture, a new relationship, and old intuitions arrive with the same subjective certainty. There is no watermark reading "this rule was only validated at your previous employer."
+One strategy he discussed goes by the name satisficing: you first set a requirement that would be acceptable, and once the search turns up an option that meets it you can stop, without exhausting every possibility. For instance, you might first establish that an arrangement has to be affordable and fit the time available, and then decide among the options that qualify. Set the requirement too low and you miss improvements that were worth fighting for; too high and you may never find a workable plan. The requirement can also be adjusted in the course of the search as new information arrives.
 
-Managing a domain of validity therefore cannot rely on the model's own confidence. It needs external signals: has the input distribution changed? Has the task definition drifted? Have key environmental variables left the validated range? Are error types starting to cluster?
+He likened rational behaviour to a pair of scissors: one blade is the structure of the task environment, the other the abilities of the agent. Looking at one blade alone, it is hard to explain the work that gets done. If the environment gives off stable signals, a simple rule may be enough; when the signals change, or when mistakes are costly, the same rule may no longer suit.
 
-In machine learning this is domain shift, out-of-distribution detection, and monitoring. In life it is one sentence: do not assume the world is the same because it feels equally familiar.
+The same person, with clear records to hand, a usable method already learnt, and someone who knows the situation within reach, has many more ways forward than when facing vague data alone. The decision-maker is still the same person; the judgements they are able to make have already changed.
 
-#### A domain of validity also moves over time
+#### How a bounded analysis gets finished
 {: data-toc-skip='' }
 
-A model passport written once and filed away is still not enough. The reflexivity described earlier makes a validation result expire: once the conditions move, the old certificate no longer describes the system in front of you.
+Take a hypothetical case. You have to decide whether to change your current study arrangements next week. You read a great deal every evening, yet feel that very little of it is genuinely usable. Tonight you have only forty minutes to deal with the question.
 
-So a domain of validity is closer to a versioned document than a static certificate. Mature model governance leaves a record: which version was validated where, what new failures appeared afterwards, which conditions were redefined, and when it should be retired.
+What tonight needs is an arrangement you can try next week. As for why you have kept studying this way, that may involve habits many years old, and it will not all become clear in forty minutes.
 
-Knowledge that has to live in a moving world has to preserve more than its conclusions; it has to preserve its own life history.
+The material may be too hard; you may be reading a lot and using little; and there is a further possibility, that you have in fact learnt something and simply never checked. These explanations lead to different arrangements, and it is worth trying to tell them apart first.
 
-#### Why that average score suddenly stops being trustworthy
+So you pick one concept you read recently, close the material, and try to explain it and to work a fresh example. If you cannot even state the basic meaning, the material or your prior knowledge deserves another look; if you can state it but cannot use it, the practice that follows has a clearer direction. It may also turn out, once you try, that you can use it better than you had supposed.
+
+Carry the case further. Suppose the check shows that you can explain the concept but do not know how to use it when a problem alters the conditions. Next week you could provisionally keep half of your reading time and give the other half to working through examples with variations. This adjustment targets the gap just exposed. If the check had instead shown that the basic concept was unclear, the priority would have to shift to shoring up the foundations, and the same timetable could not simply be applied.
+
+A week later, check again with a new task of similar difficulty. If you still cannot apply the concept, the difficulty of the examples, the feedback, and your prior knowledge all need looking at again; if there has been progress, then decide whether to keep this allocation. Which step to take first, and how to judge the next, are already written into the arrangement. Whether it works is left for the actual learning to answer.
+
+The remaining doubts can still be written down: whether the long-term goal is clear, whether the choice of material is too scattered, whether your present job is breaking your study time into fragments. They do not lose their standing because they went unresolved this time, but neither do they all have to stand in the way of tonight's decision.
+
+If the next check is likely to change an important decision, or to avert an obvious loss, there is usually reason to go on checking. If the feasible choices in front of you are the same however a minor detail turns out, spending a great deal more time chasing it may not pay.
+
+But "would it change the decision" is not the whole of it. Some information helps you carry out the same decision, showing you how to do it better; some inquiry, though it does not alter today's choice, builds capacity for a question that will keep coming back. These kinds of value have to be counted too.
+
+On the other side lie the time, money and attention the checking itself consumes, and the cost of delay. In pursuing a better decision, you cannot assume that the process of arriving at it is free.
+
+Bringing the time and resources that thinking requires into the evaluation connects with research on bounded rationality and resource rationality. The resource-rational analysis proposed by Falk Lieder and Thomas Griffiths studies exactly this: the effectiveness and the cost of different cognitive strategies under limited computation.[^resource] For our question it offers a useful line of inquiry. Beyond comparing which answer is better, it also compares whether the way of getting to an answer is worth it.
+
+Once we begin to calculate "is this still worth thinking about", we may go on to ask "is it worth calculating whether this is still worth thinking about". If every level is required to have a complete guarantee from the level above it, analysis paralysis has merely moved house.
+
+In practice this needs some starting points that are open to revision: adopt a time budget proportionate to the task, check first the information that will swing the main differences, and keep a limited number of chances to look back. When you already have reason to believe the allocation of time has gone wrong, adjust it then; there is no need to re-prove the whole philosophy of allocation before every piece of work.
+
+If the analysis keeps circling the same set of reasons, that is the moment to stop and look something up, try it out, or ask someone; if a cheap and reliable way of checking the key doubt is still available, it may be worth spending a little more time. Whether to continue should be decided by what can be learnt next.
+
+Please also keep some time for inquiry with no immediate output. Philosophy need not always be in the service of tomorrow's to-do list. Only be clear at the outset which you are doing: solving a problem with a deadline, or allowing a question to change you slowly. Both activities can have value. It is confusing them that makes it easy to lose the freedom to act and the freedom to think at the same time.
+
+#### A choice you cannot go back and redo
 {: data-toc-skip='' }
 
-The sequence below has turned up repeatedly. The details differ each time and the shape barely changes.
+A study arrangement can be adjusted again next week; some choices cannot be fully withdrawn. After accepting a job, you can check whether the duties match what was described, but you will not also live through the life in which you did not accept it. The other road leaves behind no result waiting for you to go back and read.
 
-A person-detection model has been deployed on the existing cameras for a long while. The team has plenty of training data, the offline tests are accurate, and the field has accumulated stable experience. Everybody slowly forms an intuition: as long as the model version has not changed, performance will not differ dramatically.
+If things go well afterwards, that does not prove the other choice would necessarily have been worse; if difficulties come, the outcome alone cannot show that the decision was rash. What can still be traced is which expectations fell through, which information was off, and whether a check worth doing was missed at the time. Asking about actual working hours before the deadline, talking it over with the person you share caring duties with, and finding out what the day-to-day responsibilities are come closer to those questions than turning a few job titles over and over in your mind.
 
-Then the product switches to a new camera. The resolution is comparable, the field of view is similar, and to the eye the picture merely looks a little different in colour. To hit the schedule, the team keeps the original model and validates it on a small set of images from the new camera. The average looks acceptable, so it ships.
+These efforts give a choice something to rest on; they do not spare anyone the choosing. While the module went on descending, the ground was still receiving new data. Some answers only begin to become obtainable after events have already moved on.
 
-The problem surfaces weeks later. Missed detections rise noticeably in certain backlit scenes, on dark clothing, and at the edges of the frame. The model reports no error and its confidence scores remain handsome. From the system interface, nothing tells the user that the world now being fed in is no longer quite the world it learned.
+### 12 — What We Know Before We Can Say It
 
-The argument that follows most easily is about whose fault it is. The model team says the image pipeline changed. The imaging team says the picture looks normal. Product says the spec did not change. Test says the average metric is still above threshold. Every party is holding a locally correct map.
+A fire crew entered a house to deal with a fire that appeared to have started around the kitchen. The crew put water on it in the familiar way, but the fire did not respond as the commander expected.
 
-Think in terms of the domain of validity and the problem changes shape. What the model depends on is a long list of generating conditions much finer than the noun "camera" on a spec sheet: colour response, noise distribution, sharpening strength, exposure strategy, dynamic range, scene composition. The human eye finding it "about the same" is not evidence that the model has standing to extrapolate. An average score can also dilute a small number of critical failure scenarios.
+When the decision researcher Gary Klein interviewed this commander, he heard an account that he kept returning to with further questions. The commander had suddenly felt that something was wrong and ordered everyone out. After the crew had left, the floor where they had been standing collapsed. The real fire was in the basement. They had been standing above it the whole time.[^klein]
 
-What the team actually needs to do is redraw the domain of validity: which variables changed? Which scenes are most sensitive? On which statistics have old and new data drifted? Is the failure in pre-processing, features, thresholds, or insufficient data? Which situations cost the most when they go wrong once?
+At first the commander called the judgement a sixth sense. If the matter stopped at that name, nobody else would know whether it could be learned, or when to trust it next time. Only as the interview kept working backwards did several cues gradually surface: the heat in the room was out of proportion to the fire he could see, the sound was unusually quiet, and the water was doing less than expected.
 
-There is something quite counter-intuitive here. The more successful the model has been, the more readily the team underestimates this change. Success makes conditions invisible. When a method has worked for a long time, what we remember is that it works, and what we forget is that it works under these conditions.
+In that moment, he had not first arranged these into a complete argument about the basement. A few discrepancies had already combined into the feeling that they needed to get out.
 
-So a mature system does not wait for a failure and then add a note saying new cameras require retesting. It treats a change of environment as a confidence-reset event from the beginning. A model can inherit past knowledge. It cannot automatically inherit the past degree of certainty.
+These cues were recovered step by step in the interview afterwards. A researcher can follow them up, but cannot take the full explanation given in the interview and put it back, unchanged, into the commander's mind before the retreat.
 
-Human experience works the same way. Changing industry, role, relationship, or life stage is like changing a camera. You are the same person and your rules have not vanished, and the input distribution has changed. Being professional here means knowing when to lower the weight on old experience first.
+The scene did not simply present one extra, conspicuous danger signal. Some responses that would normally have occurred failed to occur: the fire did not die down as expected once water was on it, and the sound and the heat did not match. The commander noticed these differences first, and explained them step by step only in the interview. Had he been required to name the differences, quantify them and complete the argument before they were allowed to affect his decision, the time to get out might have been lost.
 
-### 8 — Where the Leak Is
+We often put "fast, intuitive, emotional" on one side and "slow, rational" on the other. These words describe different things. "Fast" refers to how much time was taken. "Intuitive" usually means that the answer arrived first, without the person being aware of any step-by-step reasoning. Emotion includes feeling, an appraisal of the situation, and a disposition to act. "Rational" sometimes means explicit inference, and sometimes means that a judgement responds appropriately to reasons. To compare two judgements, we first need to know whether we are comparing their speed, the way they were formed, or the adequacy of their reasons.
 
-> *If a theory cannot say how it would be wrong, how would you know when it stops deserving belief?*
+A quick answer may come out of years of practice; an analysis that lasts for hours may spend the whole time finding excuses for an existing prejudice. Emotion can prompt a person to notice a harm that has been overlooked, while reasoning can examine the cause of the harm, who is responsible, and how to respond. To evaluate them, it is not enough to ask which arrived first or which looks calmer.
 
-There is a kind of theory that never fails.
+Intuitions also differ in how they are formed. Some skills are learned from explicit rules and, once practised, no longer need to be recited step by step; other powers of recognition are formed mainly through repeated exposure, imitation and feedback, and the learner never wrote out a complete set of rules in the first place. With the former, one can trace the steps that were once learned; with the latter, one has more need to compare experience against outcomes. The fact that both arrive quickly does not mean that beneath each there must lie an argument waiting to be recovered.
 
-It says: give people enough autonomy and the team will improve.
-
-Performance rises after delegation, and the theory is confirmed.
-
-Performance falls after delegation, and that is because you did not delegate thoroughly enough.
-
-Somebody makes a serious mistake because of delegation, and that shows the culture does not truly support delegation yet.
-
-Versions of this reasoning turn up in meeting rooms with any subject you like in the slot: agile, flat structures, remote work, data-driven, customer-first. As long as every counterexample can be repackaged back inside the theory, the theory becomes invincible.
-
-And carries no information.
-
-#### An explanation that fits any outcome has separated no outcomes
+#### Information we cannot yet put into words
 {: data-toc-skip='' }
 
-A good model does not have to predict every detail, and it does at least have to make some states of the world produce different consequences from others.
+In 2007 a group of researchers ran an experiment in which odours that participants could not consciously detect were paired with ratings of how likeable neutral faces were, and observed that under particular conditions the odours affected the ratings. This supports a limited claim: some sensory influences can take part in a judgement while the person is unable to report clearly where they came from.[^smell]
 
-If A, B, and C can all be met with "this proves my point," the theory has not cut the world anywhere. It has supplied one story for every result.
+It does not show that such influence is more accurate. The odour in the experiment was no evidence of whether the person in the photograph deserved to be liked; in this setting, an undetected influence may even pull the judgement away from the very thing it was meant to assess.
 
-This is why one question matters especially: what would change my mind?
+A feeling whose source cannot yet be explained can serve as a starting point for checking. Someone who hears that a machine sounds wrong, for instance, can first record the sound, compare it with the normal state, and then check whether it goes with a fault. That the person cannot say which frequency has changed does not make the difference unreal; that the feeling is strong does not remove the need to compare.
 
-Asking somebody whether they are open-minded achieves nothing; almost everybody will say yes. The concrete version: if such-and-such observation appeared, and these alternative explanations were ruled out, you would lower your confidence from what to what?
+Explicit reasoning needs access to the relevant information before it has any chance of judging well. If the only input is "the machine is still running", no amount of careful inference from that sentence will produce a stretch of abnormal sound on its own. Sensory observation, instrument readings and hands-on operation can supply details that never entered the analysis.
 
-As long as that sentence cannot be written, what is being called revisability is probably an attitude rather than a mechanism.
+The reverse also holds: explicit comparison can find what feeling has missed. Only when Chapter 5 set out two groups of numbers with the same average did we see that one group contained values below twenty; the impression that "average performance is about the same" could not have answered that question. Feeling and inference can each miss things, and each can make new differences visible.
 
-#### Popper and the eclipse
+An operator hears the fault first, measurement then confirms what kind it is, and a few sessions of listening together lead a newcomer to start noticing parts of the sound she had not heard before. By this point, feeling and explicit comparison have altered each other, and the ability that results is hard to credit wholly to either side.
+
+![Feeling and practised response, and explicit inference, both draw their material from experience; each can prompt the other, and outcomes, comparison or independent measurement bring corrections back; feedback may also be incomplete.](/assets/img/book/en/fig-16-learning-feedback.svg){: width="1200" height="900" }
+_Figure 12.1　How feeling, inference and checking help one another. Actual outcomes, comparison of examples and independent measurement can all change the original judgement; where feedback is delayed or incomplete, one may never learn where the error lay. The figure shows learning relationships, not the layout of brain regions. Drawn for this book._
+
+After checking of this kind, the operator may know more quickly which part to inspect the next time a similar sound appears. Where the measurement did not support the original judgement, that record needs keeping too, so that we do not remember only the times the guess was right. Learning over the long run can improve the response in the moment, without the whole of that learning having to be redone before each action.
+
+#### The ball is still in the air and the feet are already running
 {: data-toc-skip='' }
 
-Vienna in 1919 had just climbed out of military defeat and the collapse of an empire, and every ism in existence was being argued on the street. That year the seventeen-year-old Karl Popper encountered several systems that explained everything at once: Marxism, Freudian psychoanalysis, Adler's individual psychology, and the general relativity Einstein had just proposed.
+A baseball is hit towards the outfield. The fielder looks up to track it and starts moving at the same time. If we say his job is first to obtain the ball's initial speed, its spin and the wind, and then to work out where it will land, we slip easily into thinking that the body is just quietly completing a ballistic calculation there was no time to say aloud.
 
-The first three were highly persuasive. Popper later recalled that once your eyes had been opened, you saw the evidence everywhere — every item in the newspaper could be explained, every gesture from a friend fitted the theory. He was helping at Adler's clinic at the time, and once reported a case that struck him as a poor fit for the theory of inferiority. Adler produced an explanation without needing to see the child. Popper asked how he could be so certain. Adler answered that it came from his thousandfold experience. Popper thought: then with this new case, your experience has presumably become thousand-and-one-fold.
+Research on catching has offered another kind of explanation. The player uses the continuously changing relationship of the ball within his field of view, adjusting as he runs, with no need to compute a fixed landing point first and then run to it with his eyes shut. The models researchers have proposed include keeping the ball's visual trajectory linear in some respect and regulating a particular optical acceleration; different models come with different conditions and testable predictions.[^catch]
 
-Einstein's theory was different, and that was precisely what made Popper uncomfortable. General relativity predicted that light passing near the sun would bend, and it gave a specific figure: about 1.75 arcseconds, exactly twice the Newtonian prediction. That number left no room to manoeuvre.
+The player's movement also changes the trajectory he will see next. Researchers therefore need to observe how visual information and movement pass back and forth before they can compare the models. The process of catching does not sit waiting behind some complete calculation performed before the action.
 
-On 29 May 1919 there was a total solar eclipse. The English astronomer Arthur Eddington sent two expeditions, one to Príncipe off West Africa and one to Sobral in Brazil, to photograph the star field beside the sun during the few minutes it was covered, then compare the plates against night-time charts to see whether the stars had shifted. On 6 November the results were announced in London, and they came down on Einstein's side.
+Walking with a nearly full glass of water makes the same adjusting-as-you-go easy to notice: you see the surface tilt, and hand and step correct accordingly. Studying activities like these means observing what information people pick up while acting and how they respond; looking only for a comprehensive plan finished before the action began may miss the important part of the process.
 
-What Popper took from it was that Einstein had stuck his neck out in advance, not that Einstein had won. If those plates had shown no bending, or bending at the Newtonian figure, the theory was finished — and Einstein had said as much himself. That posture and "I have a thousandfold experience" are two completely different things.
-
-In 1934 Popper wrote the intuition up as *Logik der Forschung*. His claim was that a theory's scientific standing depends on whether it states clearly which observation would make it fail. No amount of accumulated support counts.
-
-The criterion was later flattened into a slogan, and many philosophers of science have found problems with it — theories are rarely killed by a single observation, which we come to below. That core move remains the best self-check available: stick your neck out, and say in advance what would make you concede.
-
-#### The question Popper later took back
+#### Even Cook Ding slows down
 {: data-toc-skip='' }
 
-Taking falsifiability as your standard runs you into one very awkward object: natural selection.
+In "The Secret of Caring for Life", in the *Zhuangzi*, Lord Wenhui watches Cook Ding cut up an ox and is astonished at his movements. Hand, shoulder, foot and knee work with the knife like a performance with its own rhythm.
 
-"Survival of the fittest" sounds like a sentence with nothing in it. Whoever survived, we call well adapted; ask why they were well adapted, and the answer is that they survived. The circle closes tightly enough that you cannot see what it rules out.
+Cook Ding says that when he began, what he saw was the whole ox; after a few years, what stood before him was no longer a single, complete object. He runs the knife along the gaps between sinew and bone, rather than forcing his way through. The story pushes this skill to a point that is almost beyond belief: the knife has been in use for nineteen years and has cut up several thousand oxen, yet its edge is still as if freshly ground.
 
-In 1974 Popper thought so too. In a retrospective essay he set down a verdict: Darwinism is a metaphysical research programme, not a testable scientific theory. He was not disparaging it, and considered it an enormously valuable programme; but by his own measure it did not pass.
+Where sinew and bone knot together and the knife is hard to place, he still becomes wary. His attention gathers, his movements slow, and he moves the blade by the smallest degrees. Only when it is done does he withdraw the knife.[^zhuangzi]
 
-Anti-evolutionists quoted that line for decades.
+Cook Ding's skill lies in doing the ordinary work quickly, and equally in slowing down when he meets a difficult place. The nineteen-year blade carries the exaggeration of a parable, but the pause raises a question that can be studied: what kind of experience lets a person carry a familiar movement through smoothly and also notice early that this time calls for special care?
 
-In 1978 Popper published a paper in *Dialectica* saying he had changed his mind. He put it bluntly: he wished to make a recantation. Natural selection is testable, and his earlier verdict had been too severe.
+In 2009 Kahneman and Klein discussed expert intuition together and set out two important conditions: the environment must contain stable cues that can be learned, and the person judging must have had enough opportunity to learn them through experience and feedback. They also cautioned that a subjective sense of certainty is, in itself, no guarantee that a judgement is correct.[^intuition]
 
-This is worth taking slowly. Popper's whole reputation rested on one measuring stick. He applied it to evolutionary theory, reached a conclusion, put it in print, and four years later took it back. He did not bolt an exception clause onto the original verdict, and he did not claim he had meant this all along. He incremented the version number.
+If errors are never pointed out, twenty years may do no more than make a certain kind of guessing more fluent. When feedback comes too late, or when outcomes are obscured by luck or by standing, a person may not even be able to tell which judgement went wrong. Equal years of service can hide very different histories of learning.
 
-So how does natural selection lose?
+Recognition exercises in which the answer is withheld, records of predictions set against outcomes, or a measurement of another kind can make this difference visible. Someone good at telling sounds apart will not necessarily be good at estimating quantities, and a cue that was reliable may fail in a new environment; "having intuition" has never been a qualification that covers all of a job.
 
-The Galapagos in 1977 supplied an answer. Peter and Rosemary Grant had been measuring birds on Daphne Major since 1973, tagging and tracking nearly every finch on the island. In 1977 it barely rained all year. Plants set no seed, the small soft seeds ran out first, and what remained was large and hard. The medium ground finch population fell by more than eighty per cent that year.
-
-The birds that survived had deeper beaks on average than the ones that died. The generation bred the following year showed a measurable rise in mean beak depth as well.
-
-That is a neck stuck out. If beak size had not shifted after the drought, or had shifted in the direction opposite to seed hardness, natural selection would have failed on this case. It could have failed. It did not.
-
-The idling in "survival of the fittest" comes from stripping the mechanism out and leaving a label behind. Put the mechanism back, and it starts ruling out results immediately: which food disappeared, which trait carried an advantage, whether the advantage is heritable.
-
-#### One counterexample need not blow up the building
+#### After understanding, there is still some way to go
 {: data-toc-skip='' }
 
-The opposite extreme is equally naive: see one exception and declare the whole theory wrong.
+Understanding a claim when you hear it and being able to use it when needed are different outcomes of learning. You may agree that "one failure does not condemn the whole person" and yet want to defend yourself the instant you are criticised; you may know that past investment cannot be recovered and still find it hard, facing a project you have worked on for three years, to decide only on the costs and opportunities ahead.
 
-Real knowledge is rarely that clean. Measurements can be off, samples can be biased, auxiliary assumptions can be wrong, an experimental procedure can fail, the environment may already have left the domain of validity. The history of science keeps reminding us that a pile of mediating conditions usually sits between a theory and an observation.
+This gap can point to what needs practising next. Being able to explain a reason in a quiet moment tells us only that we have understood it; to recall it in the relevant situation and act on it, we also need to recognise the moment, remember what to do, and sometimes learn to bear an uncomfortable feeling.
 
-So a counterexample is valuable for raising resolution rather than for its striking power.
+In his 1982 work on skill acquisition, John Anderson proposed a theory in which explicit knowledge gradually gives rise to procedural ability. When first learning certain cognitive skills, people need to recall the rules one after another; with practice, execution may become faster and no longer require every step to be rehearsed silently.[^skill] The theory helps us study how certain skills become fluent; changes in emotion and belief still require an examination of the learning processes proper to them.
 
-When a system misbehaves, an engineer does not only ask whether the system is broken; they localise downward. Input? Pre-processing? Model? Memory? Interface? Environment? An idea meeting a counterexample should likewise start by asking which layer the conflict is on.
+Reflection therefore has a long-term use: choosing which practices are worth keeping, arranging for their repeated use and checking, and making them easier to carry out next time. Someone who, in an argument, always hears a single objection as total rejection can reread the exchange afterwards and practise separating the specific criticism from a verdict on the whole person; next time, they can first confirm which point the other person objects to, and then answer. If the practice helps, what changes may be the difference noticed first, rather than merely one more reminder committed to memory.
 
-![Which layer the counterexample hit decides what you repair, and what it costs](/assets/img/book/en/fig8_1_layers.png)
-_Figure 8.1 Which layer the counterexample hit decides what you repair, and what it costs_
+Moral judgement faces a similar demand. Some harms that call for a timely response cannot wait to be seen until a full debate has run its course each time; we hope that a concern which has passed through reflection will gradually shape ordinary attention and reaction as well. But habit in itself carries no guarantee of right or wrong: a group's ways of discriminating, or of shifting responsibility, can be learned to the same high degree of fluency.
 
-Perhaps the core mechanism survives and the domain of validity is smaller than you thought. Perhaps the predictions fail and the explanation retains value. Perhaps the concept was cut wrongly and the representation should change. Or perhaps it really has accumulated to the point of replacing the core framework.
-
-Revisable means knowing which part to move.
-
-#### The summer Kuhn read Aristotle
+#### Ask the expert when they would stop
 {: data-toc-skip='' }
 
-In the summer of 1947, Thomas Kuhn was a doctoral student in physics at Harvard. The president, James Conant, asked him to help teach a history of science course for students who were not scientists, which meant Kuhn had to read primary sources, Aristotle's *Physics* among them.
+When a learner asks a master "how did you know?", the answer is sometimes just "you can tell at a glance". The question can be put differently: which detail made you change what you were doing? If that detail had been different, would you have carried on? Under what circumstances would you ask someone else to help check?
 
-He found it painful. Judged by post-Newtonian physics, Aristotle's discussion of motion is wildly wrong, and not in a charming way — the basic notions look mistaken. Kuhn was puzzled: how could a man of obvious genius in biology and logic turn into this the moment he touched motion?
+Questioning of this kind is one of the main ways Klein studied expert decisions. Rather than asking the interviewee to produce a complete theory on the spot, it follows a single actual decision and picks out which cues would have affected the choice. In the firefighting case, the heat, the sound and the fire's response to water were exactly what the interview went on to pursue.
 
-One day that summer he was sitting at his desk looking out of the window when it came together. Aristotle was not discussing Newton's motion, position changing over time. He was asking a larger question: how one thing becomes another. An acorn becoming an oak, a sick person recovering, a stone falling — in his framework these are instances of the same class of phenomenon. Substitute that sense of motion and the absurd passages become coherent, and internally consistent.
+Having learned these cues, the newcomer still has to compare and practise in the relevant situations. An interview can tell him where attention is worth directing; a spoken account alone cannot give him the same experience. If the account can be set beside records made at the time and the outcomes that followed, it also becomes easier to separate what the interviewee noticed then from the explanations that formed only afterwards.
 
-Kuhn later said that afternoon showed him two things at once: Aristotle was not stupid, and his own "how could this man be so stupid" had been shaped by a framework that arrived later.
-
-*The Structure of Scientific Revolutions*, in 1962, grew out of that. When Kuhn discusses paradigms, the powerful part is not the overused line about science being subjective. What he actually points out is that the shape of a problem, what counts as an anomaly, which instruments are trusted, and which auxiliary assumptions are held for now can all be decided by an existing framework.
-
-Putting Popper and Kuhn together is far more useful than letting each become a slogan.
-
-The first danger is a theory so closed that any result can be absorbed. The second is believing you are only looking at data when even what counts as worth looking at has been settled by the framework.
-
-Revision therefore needs two layers. The first tunes parameters and fixes local assumptions inside the framework. The second, once anomalies accumulate, allows you to ask whether we asked the wrong question, chose the wrong representation, or spent too long excluding something as noise.
-
-A system with only the first layer is very good at patching itself and never changes itself.
-
-#### The data we rewrite most is our own memory
+#### Leave a record before the outcome arrives
 {: data-toc-skip='' }
 
-In 1974 the psychologists Elizabeth Loftus and John Palmer ran an experiment that now appears in every introductory textbook. Forty-five students watched the same film of a car accident and were then asked about the speed. One word in the question differed: some were asked how fast the cars were going when they *smashed into* each other, others when they *hit* each other.
+Looking back, we easily mix the outcome we later learned into the feeling we had at the time. A study published in 1975 by Fischhoff and Beyth examined this using judgements made before and after Nixon's visits to China and the Soviet Union. Before the visits, participants estimated the probabilities of a series of possible outcomes; afterwards, they recalled how they had estimated them. In recollection, what had happened tended to become more foreseeable than it had originally seemed, and what had not happened seemed to have been more doubtful all along.[^hindsight]
 
-The smashed group averaged 40.8 miles per hour, the hit group 34.0. Same film, one verb, a gap.
+If a record from before the outcome can be kept, there is a chance of catching this rewriting. For important judgements where time allows, you can write down first what you noticed earliest, what you expect to happen, and how confident you are; where the reasons are still unclear, record that as it is. Then, when you check afterwards, reasons that occurred to you later will not all be counted as things you knew from the start.
 
-The second experiment is harsher, and used a separate group of a hundred and fifty students. A week later they were brought back and asked whether they had seen any broken glass. There was no broken glass in the film. Twice as many in the smashed group reported seeing it.
+A record preserves the original judgement, but it does not automatically supply every outcome. Take a hypothetical manager who notes "this applicant may not be suitable" and therefore does not hire the person; however complete the log, it has not produced that person's performance after joining. To compare prediction with outcome, one still has to identify which kind of data is missing.
 
-That verb did not merely change one answer. It changed what they remembered a week later.
+Some outcomes are not determined by our own choice and could always have been tracked. A share that was considered but not bought, for example, will still have a market price afterwards. If a specific price expectation and time horizon were recorded beforehand, they can be checked later, rather than remembering only what was actually bought.
 
-The implication for everyday judgement is direct. After something succeeds, a guess held with sixty per cent confidence becomes "I knew all along." After something fails, a judgement held firmly becomes "I only raised it as a possibility." This is not a moral defect in a few people; it is how memory and self-narration ordinarily behave.
+Other comparisons require actually putting different arrangements in place. A/B testing of a product exposes different groups to different versions, so the effect of a particular change can be compared. This design has its costs; where people's opportunities or treatment are involved, fairness, consent and tolerable risk limit how one may experiment. Wanting to improve one's own predictive ability is not sufficient to justify handing the costs to other people at will.
 
-So if a judgement genuinely matters, do not calibrate it from recollection alone.
+For still other questions, what is missing is the outcome of the same person taking the other road through the same stretch of history. The job that was not accepted cannot afterwards become another life one has already lived. Other people's experience under similar conditions, broader statistics and relevant research can narrow the uncertainty, but they will not restore the individual outcome that never occurred.
 
-Before the decision, leave one line: what I currently think, how confident I am, what it mainly rests on, what I expect to see, and what result would force me to update.
+Before checking, then, first establish which question this data can answer and what it leaves unknown. How much is worth investing must be weighed together with the cost of obtaining the information, the consequences of a wrong judgement, and how many future occasions there will be to use what is learned. Each of these can add to the reasons for checking, but "it matters a great deal" or "it will come up again" is not by itself enough to conclude that any expensive investigation is worth it.
 
-Come back and look afterwards.
-
-A decision log like that looks plodding and does something important: it stops your past self from being rewritten at will by your present self.
-
-Over time you start seeing something more useful than "I judge things fairly well." Do you always underestimate schedules? Are you over-optimistic about people you know well and over-cautious about unfamiliar technology? As long as the data survives, errors can become training data for your own model.
-
-#### When should you actually change frameworks?
+#### Emotion shapes what we take to be a problem
 {: data-toc-skip='' }
 
-No single number answers this. Several signals are worth watching.
+Why something becomes a problem for us often has to do with emotion. The indignation of seeing someone humiliated can make behaviour that had passed as a joke worth questioning; concern for a person can keep us attentive to difficulties he has not spoken of. Emotion affects answers, and sometimes it has already affected what we are willing to ask.
 
-First, failures of the same type start repeating rather than arriving in isolation.
+This practical role also needs to be identified case by case. Anger may notice an injustice, or it may mistake frustration for another person's malice; shame may prompt reflection, or it may stem from a group's demands that do not deserve acceptance. Emotion needs to be understood and checked, but the checking should not assume that the only acceptable result is for the emotion to disappear.
 
-Second, holding the theory together requires more and more exception clauses. Every failure adds another patch, until nobody can say what remains of the original core.
+You can discover that your anger was attributed to the wrong cause and still keep your original sensitivity to a certain kind of harm; you can also, through someone else's account, learn to respond to experiences you never used to care about. Changes like these do more than speed up the response in the moment. They alter what you will notice in future, what you will remember, and what you will be willing to check.
 
-Third, the theory still explains the past well and separates futures less and less. It has become a machine for producing stories afterwards.
+Care keeps a person observing a difficulty over time; liking sustains long practice; disappointment drives a person to re-examine what they had expected. Feelings such as these can take part in understanding and learning over long stretches, and their role goes beyond quickly offering a guess before the analysis begins. The judgements they guide still have to be checked, but they cannot be evaluated by calmness alone.
 
-Fourth, another framework appears that explains the new anomalies and can also re-explain where the old framework succeeded.
+Within these long-term changes, reflection alters what is felt next time, and feeling can make the old reasons come to seem insufficient. After you have understood what someone else went through, a kind of joke that once seemed harmless may no longer raise a laugh. That change does not have to be maintained by silently rehearsing the whole argument every time.
 
-The last point matters most. The reason for changing frameworks is usually that the new one carries more phenomena with less distortion. The old one need not have been wrong.
+The conditions of learning play their part too. Comparing similar examples, receiving timely feedback and adjusting practice beforehand make differences easier to recognise in the moment. Whether the work allows time for rest, whether the people around you are willing to point out mistakes, and which cues the tools display, in turn set limits on whether these changes can happen at all.
 
-The ether at the end of the nineteenth century is a history of this kind. Physics then held that space was filled with a medium through which light propagated, and in 1887 Michelson and Morley built an extraordinarily precise experiment to measure the difference in light speed caused by the Earth moving through it. They measured no difference at all.
+If the present moment is abnormal and time is short, the practised response may still be the most usable capacity to hand; when there is time, one can stop to compare and check. Both may be the products of this joint learning.
 
-A series of rescues followed. Lorentz and FitzGerald proposed that objects contract along the direction of motion by exactly the amount needed to cancel the difference that should have been observed. That proposal saved the ether.
+What we change is sometimes a sentence we believe, and sometimes what we notice at first glance. Once the second kind of change has taken place, a person may no longer remember that it once took so much time to learn.
 
-This history is not clean — Lorentz's work was not merely cosmetic, the transformations he later derived are mathematically correct and became part of relativity. The overall picture is clear enough: to preserve a medium nobody could see or measure, the theory had to keep adding conditions made to order for it. In 1905 Einstein changed the question. He stopped asking how the ether evades our instruments and asked instead what time and space must look like if light has the same speed in every inertial frame. The ether was not falsified. It became unnecessary.
+### 13 — One Body, Many Kinds of Regulation
 
-An engineer who meets a stretch of code that is nothing but exception clauses starts suspecting the abstraction layer was chosen wrongly. Ideas are the same. When the maintenance cost of the exceptions exceeds the cost of redescribing the problem, what to consider may not be one more patch.
+Close your eyes and you will most likely still know where your right hand is: whether the arm is bent, stretched out, or resting on the back of the chair. This sense of position and movement is seldom noticed on its own. It is what lets the limbs keep working while the eyes are busy looking somewhere else.
 
-#### The cost of revision is real
+In 1992 the researchers Jonathan Cole and E. M. Sedgwick reported on an unusual participant. He could still move voluntarily, and he retained some sensation of pain and of heat and cold, but below the neck he had lost most of the sensory input concerned with light touch and the position of his limbs. Being able to move a muscle and being able to feel how one is moving turned out, in his case, to be clearly different things.
+
+Asked to compare weights while watching his forearm move, he could still tell apart quite fine differences; with his eyes closed, the ability fell away markedly. Certain postures and simple repeated movements could be kept up to a limited extent, but new movements needed visual feedback.[^deafferentation]
+
+Movements that ordinarily need no particular attention required him to keep watching, adjusting and relearning. Vision made up part of the missing information about position, and in doing so it took up attention that could otherwise have been turned elsewhere.
+
+Other kinds of work need even less in the way of step-by-step commands from the nerves. When the edge of a sheet of paper cuts the skin, tiny blood vessels are damaged and blood seeps out, and the local process of stopping the bleeding is already under way. You can notice the wound, deal with it or ask for help, but you do not first approve each protein reaction in your mind.
+
+When a vessel is injured, local signals, platelets and clotting proteins take part in forming a clot. This is a set of physiological mechanisms. It does not have to pass through conscious judgement first, and it is not a neural reflex in which a message travels to the spinal cord before an order to stop the bleeding is sent back.[^clotting]
+
+Platelets are small cell fragments in the blood that take part in stopping bleeding; the reactions of the clotting proteins help to form a fibrous mesh. The local reaction is triggered and amplified, and it is also shaped by mechanisms that limit it and clear it away. To explain when a clot forms, and why it does not go on spreading without limit, one has to study how these chemical reactions act on one another.
+
+Spinal reflexes, by contrast, do involve neural circuits. Some responses can be organised without waiting for a conscious decision, while still remaining open to modulation by other neural activity. That a response goes ahead without permission from present awareness does not mean it is forever cut off from the influence of the brain.[^spinal]
+
+The brainstem connects the cerebrum with the spinal cord and takes part in vital functions such as breathing, as well as in a great deal of signal processing; the cerebellum takes part in the coordination and adjustment of movement, among other functions; and different regions of the cerebrum share in sensation, memory, language and planning. These parts are extensively connected, and many activities have to be carried out across regions together.[^brain] To explain a piece of behaviour, one usually also needs to know which information is passed on and how, and which activities modulate which others. A list of organ names is not enough.
+
+Figure 13.1 sets the two kinds of process side by side. The left shows the local stopping of bleeding; the right shows the interplay between sensory information, neural circuits and responses. Both sides can operate without a conscious decision in the moment, yet the particular ways in which they are triggered, regulated and limited differ.
+
+![On the left, the local process in which vessel injury, platelets and clotting proteins take part in stopping bleeding; on the right, the mutual regulation between sensory input, circuits of the spinal cord and brainstem, wider brain networks, and responses.](/assets/img/book/en/fig-07-body-regulation.svg){: width="1200" height="900" }
+_Figure 13.1　The functional relations between different mechanisms. The figure compares division of labour and mutual regulation; it is not a complete anatomical diagram, and the arrows do not correspond one by one to neural pathways. Clotting, reflexes and conscious activity keep their separate mechanisms. Drawn for this book from the literature cited in this chapter._
+
+#### Coughing shows mutual regulation
 {: data-toc-skip='' }
 
-People do not change their minds painlessly just because the evidence changed.
+In a quiet room, when the urge to cough rises in your throat, you can sometimes hold it back for a while and sometimes cannot; you can also cough deliberately to catch someone's attention. From the outside all of these are coughs, yet the processes that set them off and shape them are not quite the same. Research therefore has to separate the stimulus, the urge to cough, the number of coughs actually produced, and the activity that goes on during deliberate suppression.
 
-In 1846 a twenty-eight-year-old Hungarian physician, Ignaz Semmelweis, took an assistant's post in the First Obstetrical Clinic of the Vienna General Hospital. He noticed something quickly: in the First Clinic, staffed by doctors and medical students, roughly one mother in ten died of puerperal fever, while in the Second Clinic next door, staffed by midwives, the rate was around four per cent. Explanations at the time ranged from bad air to the mothers being too anxious.
+Functional brain imaging studies by Stuart Mazzone and colleagues compared coughing with the suppression of coughing, among other conditions, and observed different patterns of brain activity, which supports the view that the control of coughing in humans involves networks above the brainstem. Differences in activity seen in the images help in studying the processes concerned, but they do not amount to establishing, from the images alone, the complete causal function of each region.[^cough]
 
-In March 1847 a close friend of his, Kolletschka, was cut by a scalpel during an autopsy and died a few days later. Reading the post-mortem report, Semmelweis saw that the pathology looked almost identical to those mothers'. He inferred something for which nobody could then supply a mechanism: doctors and students performed autopsies in the morning and delivered babies in the afternoon, carrying some kind of cadaverous particle on their hands.
+The attempt to hold a cough back does affect it, and there are also times when it cannot be held. Being able to take an active part in regulation has not turned the body into a procedure that waits for one's approval every time.
 
-He required everybody to wash in chlorinated lime before entering the ward. Mortality dropped that month, and in some months fell to one or two per cent.
-
-Then his colleagues rejected him for nearly twenty years. The objections all sound reasonable. He could not state a mechanism — germ theory was two decades away. His statistical methods were not standard for the period. His manner grew increasingly heated, and his later open letters to obstetricians across Europe accused them outright of being murderers. His contract was not renewed in 1849 and he left Vienna for Budapest. In 1865, at forty-seven, he was committed to an asylum and died there two weeks later.
-
-This should not be told as stubborn authority crushing a genius. There is far more in it: a claim without a mechanism, a statistical culture that was not yet mature, and a man whose way of communicating became harder and harder to accept.
-
-The main line is clear enough. To accept Semmelweis, a generation of physicians had to admit that their own hands had killed patients. The cost of that admission is vastly higher than admitting a number was miscalculated.
-
-So "why can't they see the evidence" is sometimes not about intelligence. The cost of updating is too high.
-
-Understanding this is not a way of excusing the refusal of evidence. It lets us design paths for revision that people can actually walk: treat a model as a working assumption rather than an identity; let institutions permit version upgrades; make admitting an error something short of losing all standing; treat "I changed my mind" as normal system operation.
-
-Resilient thinking gets things wrong too. It just does not require the whole person to collapse when it does.
-
-#### Updating too fast is also a failure of reason
+#### People can also change themselves through external things
 {: data-toc-skip='' }
 
-If revisability gets misread as changing your position whenever new information arrives, we slide from rigidity into the opposite: drift without memory.
+Deliberate adjustment does not happen only inside consciousness. You can change how you practise, arrange the environment you sleep in, lean on tools, and you can also alter certain physiological processes through medical intervention. These measures work in different ways and call for different bodies of knowledge; they cannot all be treated as another name for the will.
 
-A single anomaly may be measurement error, random variation, or a one-off condition. Good revision needs an appropriate learning rate. When the evidence is high quality, replicable, and in direct conflict with the model's core predictions, the update should be large. When the evidence is ambiguous, single-sourced, and mechanistically unclear, the update can be small, and it must not be pretended away.
+A small randomised trial by Alyn Morice and colleagues in 2007 shows what needs to be kept apart when an external intervention is assessed. The study treated chronic cough with morphine and observed improvement on some symptom scores; a citric acid cough challenge in the same study, however, did not show a significant change.[^opiate] The two methods of measurement produced different results: one recorded symptoms, the other observed the coughs elicited by an experimental stimulus.
 
-So mature handling of counterexamples is not a choice between overturning and not overturning. The layer diagram above has a second use here: it lets an idea be injured locally, instead of having to choose between defending to the death and self-destruction every time it takes a hit.
+A threshold is the level a condition has to reach before a given response begins to appear. To say that a drug has raised some cough threshold, one has to state what the stimulus was, how the response was measured, and how before and after the intervention were compared. Coughing less in daily life, or feeling more comfortable, is not by itself enough to prove that a stronger experimental stimulus is now needed to bring on a cough. Only by keeping these results apart can one know which kind of improvement the study actually supports.
 
-#### Evidence does not land on a blank sheet
+A person can decide to accept an intervention without having to direct in person every physiological response that follows it. Researchers identify what a substance does and design trials, medical workers assess whether it suits a given case, and institutions affect whether a person can obtain help at all; the change that finally takes place in one person's body has depended on a great deal of work that was never inside that body.
+
+This gives "changing yourself by your own efforts" a second meaning. A learner can choose the setting in which to practise, ask others to correct them, and use tools that issue reminders; these arrangements in turn gradually change their habits and their judgement. It is the present self that makes the arrangements, yet what the self can later do, and what it readily notices, will be shaped by them. A person's agency can extend through external conditions, and there is no need first to assume an inner commander in charge of the whole body.
+
+#### Which changes count as regulation
 {: data-toc-skip='' }
 
-There is a more basic reason behind all this, and it deserves its own hearing.
+At this point it is tempting to call every natural change "information processing". But if a falling stone, clotting blood, catching a ball and debating a regulation are left with only one name between them, the very differences that were worth understanding disappear.
 
-A new piece of evidence never lands in an empty head.
+Start by comparing a stone with a thermostat. Both obey the laws of physics, but the thermostat has a sensor, a temperature setting and a switch: when the measured temperature departs from the setting, the device changes the heating. By adjusting the setting or disabling the sensor, one can check how each part affects the outcome. A stone falls, and has acquired no such set of measurement and response in doing so.
 
-Before seeing it, a person already holds experience, expectations, degrees of trust in different sources, a model they were already using, and some initial weight on each of several competing explanations. New evidence arrives and gets computed together with all of that.
+Nor is clotting simply another thermostat. It includes the triggering, amplification and limitation of a local reaction, while the control of movement draws on many kinds of continuously changing sensation. Learning may further change how one responds in future. To compare these processes, one should point out which differences they detect, how those differences alter activity, and how the outcome feeds into later responses.
 
-So the same data may not bring two entirely reasonable people to the same conclusion straight away.
+Feedback can also arrive too late, or amplify the original deviation. A thermostat that keeps heating on the basis of an out-of-date temperature may fail to stop at the right moment; two modules that take turns undoing each other's changes may leave a piece of work being altered back and forth. The name feedback carries no guarantee that it helps. One has to check what it takes in and when it changes activity.
 
-This is not dishonesty on either side. If somebody has been misled three times in five years by the same kind of report in this field, discounting the fourth one is reasonable. If somebody else has no such history, their discount is smaller. Both are looking at one table, from different starting points.
+Letting fixed procedures carry out familiar tasks, letting the parts that can adjust their strategy deal with new situations, and then having people handle certain exceptions, is a division of labour that can be studied. Which part should take over depends on the information it receives, the time available to it, and the capacities it has already demonstrated. If a person cannot see the original situation and has only a few seconds to respond, writing "a human is responsible" does not supply the missing capacity.
 
-This is useful in an argument, because it replaces one question with another.
+What a whole can do may be something no single part can do on its own. Studying such a capacity means looking at local activity and at how the parts affect one another at the same time; calling one part the brain or the command centre still leaves one having to return to these concrete relations.
 
-When things are stuck, the common question is: have you actually looked at the evidence? That question has almost no way out, because both sides have looked.
+Once we cross over into society, the participants can also object to the goal. Workers protest, and their disagreement carries reasons that need to be heard; it cannot be treated across the board as a deviation awaiting correction. The body's division of labour can prompt questions, but it cannot provide legitimacy for anyone's right to demand anyone else's obedience.
 
-The question with a way out is: before this evidence arrived, where was each of us standing? How much weight am I currently giving this explanation, and where did that weight come from?
+## Part Four — Understanding the World Together
 
-Asking it does not necessarily dissolve the disagreement. But it turns "who is ignoring the facts" into "how far apart are our starting points, and is that gap justified." The second one can be discussed.
+### 14 — Letting Other People's Findings Change Decisions
 
-It also puts a limit on the thread above. Demanding that somebody change their mind the instant evidence appears is demanding that they pretend to have no past. The reasonable demand is narrower: be able to state your starting point, and let it actually move as evidence accumulates.
+Some people go to a bank in order to pay their salary into an account. They ask for no further services and agree to no other products, yet new accounts appear in their names.
 
-#### Is it still willing to take a risk?
+Why would a bank open accounts for customers who know nothing about them? Besides serving existing needs, staff were also required to sell more products to the same customer. The number of accounts is easy to count; it can be recorded as performance, set as a target, and tied to rewards. If every added service came from the customer's own choice, the count might well show that business had grown.
+
+In 2016 the U.S. Consumer Financial Protection Bureau took enforcement action against Wells Fargo. The regulatory documents record that employees, in order to meet sales targets and earn incentives, opened accounts without customers' consent; some of these operations also moved funds from customers' existing accounts into the new ones, leaving some customers to bear fees. The problems the regulator pointed to included sales incentives and inadequate oversight.[^wellsfargo]
+
+The accounts really were created and the transactions really were recorded, but the thing those numbers were originally meant to stand for did not happen: a customer choosing a new service because they needed it. For the bank's evaluation there may have been one more sale on the books; for the unwitting customer there may have been fees, and paperwork that had to be sorted out.
+
+A customer's consent is itself a necessary condition for the service to exist at all. Besides counting the accounts opened, the institution needs to let customers find out what has happened, stop services they never agreed to, and deal with the losses already caused. Raising the efficiency of account opening cannot take the place of these requirements.
+
+#### What a tail actually proves
 {: data-toc-skip='' }
 
-There is a very simple question for testing whether an idea is still alive: is it still willing to take a risk?
+In 1902 Hanoi, under French colonial rule, faced a rat infestation and the risk of disease. The newly built sewers brought modern sanitation to parts of the city, and also gave the rats a space in which to move and breed with ease. The colonial authorities organised a rat-killing campaign and paid by the piece.
 
-Risk here need not mean predicting a precise number. It can be as little as being willing to say that if certain results keep appearing, I will have to lower my confidence. An idea that permanently books its successes to itself and its failures to the environment has stopped carrying any informational risk.
+Counting needs evidence. Large numbers of rat carcasses are hard to transport and tally; a tail is far smaller, and seemed enough to show that one rat had been disposed of. So the tail became the proof that earned the bounty. The historian Michael Vann traced the campaign through the colonial archives, and what he found in its aftermath included live rats without tails, and activity that supplied rats for the sake of the reward. A tail cut off could be exchanged for money; the rat that remained had not necessarily died.[^hanoi]
 
-A mental model worth using over the long run keeps an entrance through which the world might change it. That entrance is the proof that it has not yet been disconnected from reality.
+The tail was originally meant to prove that a rat had been eliminated; once a tail could be exchanged for money on its own, the supply of tails could come apart from any reduction in the number of living rats. Vann's research also sets these practices back within the residential divisions, labour and power of a colonial city. Who designed the payment scheme, who could earn an income from it, and who bore the infestation all shaped the campaign, and the question cannot be reduced to whether individual rat-catchers were greedy.
 
-#### The debugging posture
+The bank's accounts and Hanoi's tails both show us a gap in time: before a metric becomes a target, it may be connected to the thing we care about; once the target is announced and people begin acting on it, the original relationship needs to be checked again.
+
+Several researchers have studied changes of this kind from different fields. Charles Goodhart, discussing monetary management in the 1970s, noticed that a statistical relationship may change once it becomes a point of leverage for policy; Donald Campbell studied the distorting pressures on indicators used in social evaluation; and Marilyn Strathern, in a discussion of university assessment, set out the problem that arises when a measure becomes a target.[^metrics] The relationship observed when a metric was set will not necessarily persist unchanged once rewards and penalties have altered behaviour.
+
+![An institution selects a metric from its original purpose, ties the metric to rewards and resources, participants change their practices, and the new figures flow back into the evaluation; real effects and uncounted costs need other routes of checking.](/assets/img/book/en/fig-17-metric-feedback.svg){: width="1200" height="880" }
+_Figure 14.1　How evaluation changes the behaviour it evaluates. Once the target is met, there is still the question of whether the actual service improved and whether costs rose; if only the target figures flow back into the evaluation, both of these outcomes may be missed. Drawn for this book._
+
+#### Four hours can change a hospital
 {: data-toc-skip='' }
 
-When software misbehaves, a good engineer does not begin by asking whether the whole system is right or wrong. He narrows the problem.
+England once faced the problem of emergency patients being held for long periods. A patient who had arrived at hospital might still wait and wait for assessment, a bed or the next arrangement. The government turned time into an explicit requirement: most emergency patients should be admitted, transferred or discharged within four hours. In 2005 the target demanded that 98 per cent be dealt with in that time.
 
-Is the input correct? Can the error be reproduced? From which version? Does it only happen on one platform? If a module is swapped out, does the symptom persist? Is that log line a cause or a consequence?
+It is not enough for the emergency department alone to move faster. If a patient who needs admission has no bed, however hard the frontline clinicians work, the next step cannot be completed. The hospital has to manage the coordination of tests, beds and the various departments; waits that had easily been seen as internal to emergency medicine began to become the responsibility of the whole hospital.
 
-What those questions share is that none of them rushes to pass an ontological verdict on the whole system. They look for the smallest location of failure.
+Researchers interviewed emergency department leaders at nine hospitals in 2008 and published their results in 2011. They recorded the changes in coordination, resources and process that interviewees reported, and also the pressure the time target brought and the doubts about quality.[^nhs] These interviews help us understand how hospitals responded to the target; whether patients received better care as a result still has to be checked against the corresponding clinical outcomes.
 
-The same posture is worth keeping towards ideas.
+If decisions cluster just before the four-hour deadline, the patients' circumstances need further examination. Some may be tests, beds or transfers that had previously been delayed and were at last arranged in time; others may have been hurried out while they still needed observation. The distribution of times can point to where investigation is worthwhile; only the clinical picture, the subsequent outcomes and the actual process can help tell the causes apart.
 
-Back to the claim that sufficient delegation improves team performance. One time, after delegating, a project ran out of control. Treat the idea as an identity and you go straight into defence: the theory is not wrong, the team is immature; delegation did not fail, it was not thorough enough. Somebody else sees one failure and announces that delegation is useless. Both jumped too fast.
+Setting a target sometimes brings people who had each been busy on their own to work together on a single difficulty. But how the difficulty is named also decides who can join that work.
 
-The debugging questions are slower. Which part of the delegation changed? Was information synchronised? Was capability sufficient? Were the boundaries of responsibility clear? Did the feedback cycle get longer? Was the cost of an incident high enough that decisions should not have been fully distributed?
+Consider a hypothetical job-help form. It asks: "What is the main difficulty you face in looking for work?" It offers only three options: no work experience, not knowing how to write a CV, and not knowing how to find vacancies. There is no box for anything further.
 
-Those questions may shrink the original claim into this: in an environment with transparent information, sufficient capability, fast feedback, and reversible errors, increasing local decision rights usually shortens response time.
+Someone may lack none of the three; the real constraint is a clash between the time needed to care for a family member and the fixed shifts the vacancies demand. What needs comparing here is two ways of keeping the record:
 
-It has lost the sweep of the original and suddenly has a boundary it can work inside. And the next time you meet a different team, you do not have to convert to delegation or away from it. You can check the conditions first.
-
-That is how counterexamples actually accumulate knowledge. They leave more than "I was wrong before"; they make a single solid block of thinking grow seams, and the clearer the seams, the cheaper the next repair.
-
-#### "Staying open" is not a compliment about character
-{: data-toc-skip='' }
-
-"I am a very open-minded person" carries almost no information.
-
-What is worth asking is different. Does your information flow give you any chance of being changed? Do you only read sources that agree with you? Do failures leave a record? In your organisation, is there a cost to being the person who brings bad news? When a model's performance degrades, who has standing to demand revalidation?
-
-Revisability is an institutional question as much as a personal habit.
-
-If all information passes first through a filter that protects the core beliefs, no amount of open self-image helps. In the other direction, a person does not need to doubt themselves daily; if they have built a reliable channel for anomalies, the world genuinely gets a chance to send a message in.
-
-We do not need to become people without positions. We need our positions to have a door.
-
-## Part Three — Entering Somebody Else's Model
-
-> Other people's answers come out of another set of conditions for producing answers. This part begins with rebuilding those conditions — for people, and equally for laws, code, procedures, and classification systems, all of which are shapes that somebody's judgements hardened into. Then a harder question: when you walk back out of somebody else's thinking, what exactly are you carrying?
-{: .prompt-info }
-
-### 9 — Two Worlds in One Meeting Room
-
-> *When two answers argue, what collides is two systems for generating answers.*
-
-Three o'clock on a Thursday afternoon, in a meeting room with too many people in it.
-
-The product lead speaks first. This feature should ship now and we improve it on real feedback. A competitor released theirs last month.
-
-The security lead answers. It cannot ship. The abuse risk is not under control.
-
-For the next hour both sides work hard. Product lays out the market window, the competitor timeline, the interview notes. Security lays out three years of incident cases, an attack surface inventory, worst-case walkthroughs. There is more and more data on the projector.
-
-At ten past four the meeting turns into something else.
-
-"You people blow up the worst case every single time."
-
-"You people only care about hitting numbers and not about what happens afterwards."
-
-From that moment the discussion will not improve, because each side has translated the other's decision model into a character defect.
-
-#### A stated position has almost no predictive power
-{: data-toc-skip='' }
-
-Somebody's thinking usually gets stored as one sentence. He is for shipping fast. She is against the policy. He believes markets self-correct.
-
-That summary is cheap to store and nearly useless, because it predicts nothing about a new situation.
-
-What is worth understanding is the structure that produced the sentence. A few components can be pulled out: what are they optimising? Which assumptions do they depend on? Which data can they see? How are the key words defined? Which causal chain do they believe? What risk are they willing to carry? Which values are not available for trade?
-
-![A viewpoint is a generator; the stated position is only its output under particular conditions](/assets/img/book/en/fig9_1_generator.png)
-_Figure 9.1 A viewpoint is a generator; the stated position is only its output under particular conditions_
-
-Back to that meeting. Product saying ship now may have nothing to do with a taste for risk. Their assumptions are that errors can be rolled back quickly, that the largest risk is missing the market, and that user feedback carries more information than internal reasoning.
-
-Security saying do not ship is not necessarily conservatism. Their assumptions are that certain harms are irreversible, that an incident spills over to a large number of users, and that a rollback afterwards does not recover what has already escaped.
-
-Lay those variables out and the shape of the conflict changes.
-
-| Break point | The question to ask |
+| Replies the form allows | Whether the record can retain this difficulty |
 |---|---|
-| Data | Are we looking at the same set of facts? |
-| Definition | Does the same word refer to the same thing? |
-| Causality | Do our estimates of the mechanism differ? |
-| Scale | Have the short term and the long term been mixed together? |
-| Purpose | Are we optimising the same outcome? |
-| Values and risk | Which costs are unacceptable, and to whom? |
-| Power | Who has standing to define the shared language and goals? |
-
-_Table 9.1　When an argument jams, find which layer the break is on_
-
-#### The test is whether you can predict them
-{: data-toc-skip='' }
-
-Plenty of people say they understand your meaning, when what they have done is repeat your sentence.
-
-The stricter test: change a condition, and can you predict how their position moves?
-
-If the market window stretched out by six months, would product still be in a hurry? If the security risk could be isolated by a small-scale rollout, would security accept it? If somebody holds the same conclusion under every condition, then what is fixing them in place probably sits deeper than the surface data — in values, identity, or a non-negotiable premise.
-
-This kind of understanding can be called rebuilding the generator. What you need to store is the relation between input and output: which conditions make it produce which answers.
-
-#### Understanding comes at several depths
-{: data-toc-skip='' }
-
-Stretch that test out in both directions and understanding an idea can stop at any of several places.
-
-The shallowest is knowing the answer. He is in favour of this.
-
-Further in is knowing the conditions under which the answer holds. They are in favour because they assume errors can be rolled back.
-
-Further in is knowing how the answer moves when the conditions move. If the errors were irreversible, they would probably change position.
-
-Further in again, the structure can be carried elsewhere and used. The same relation between reversibility and how fast you should move shows up on a completely different problem, and you recognise it.
-
-The deepest layer is knowing when the structure stops applying. Some people's positions do not move under any conditions, which means reversibility is not one of their variables at all, and predicting them with this structure will simply keep being wrong.
-
-What separates these five positions is not the amount of knowledge. Somebody can remember a great many positions and still be standing on the first. Somebody else may have genuinely understood only three or four people's ways of thinking, and be able to use that in a new situation.
-
-Chapter eleven comes back to this, because being able to carry a structure elsewhere is itself a move that has to be practised.
-
-#### Haidt's three months
-{: data-toc-skip='' }
-
-In 1993 the social psychologist Jonathan Haidt, then twenty-nine, flew to Bhubaneswar in eastern India for three months of fieldwork.
-
-His position going in was clear. He was an American liberal academic studying moral judgement, and in the framework he held at the time the core of morality was harm and fairness — if nobody is hurt and nobody is deprived, there is no moral question.
-
-What he met daily in India did not fit that framework. Seating at meals was ordered by seniority, women's movement was restricted, servants could not touch certain vessels, and rules of religious purity soaked into every crease of daily life. Measured with his own ruler, all of it was unnecessary hierarchy and oppression.
-
-What changed him, he wrote later, was not that somebody argued him out of it. Over three months he gradually moved into the language. His hosts looked after him with great generosity, and he saw that the hierarchy was also distributing responsibility and protection. He saw that the purity rules connected to an entire set of ideas about the body, the community, and the sacred. He saw that for the people keeping those rules, they were not instruments of oppression; they were an order holding a life up.
-
-Haidt said those three months let him think in the local moral language for the first time, rather than only translating it. Back in America, he found he could finally understand what his own country's conservative arguments were saying, which he had previously found unbearable.
-
-This passage needs reading carefully. Haidt did not conclude that the hierarchy was right, and he did not abandon his own position. What he gained was something else: a working simulator of other people.
-
-That simulator has a use he emphasises himself. In his later books he describes moral judgement with a rider on an elephant: intuition is the elephant and goes first; reasons are the rider on its back, usually finding a route for the elephant after the fact. If you only talk to the rider, the elephant is not listening.
-
-#### Translation is most dangerous when it succeeds too fast
-{: data-toc-skip='' }
-
-Trying to understand an unfamiliar body of thought, the natural move is translating it into a language you already have.
-
-Psychologists translate religious experience into psychological mechanisms. Engineers translate business problems into specifications. Managers translate engineering problems into schedules. One culture translates another culture's concepts into its own existing moral categories.
-
-Translation is of course necessary. The trouble is that if it happens too fast we mistake a synonym for a match, when what we did was assimilate the unfamiliar thing.
-
-Good translation sometimes needs to leave the original word in place for a while. Look at what it connects to inside the other system, what difficulty it solves, what boundary it hits, and only then decide whether your own language has a comparable interface.
-
-Translation is therefore more than a dictionary. It has at least two further layers: functional translation, which asks what this concept is responsible for over there, and value translation, which asks why that thing is worth protecting to them.
-
-#### Not every difference should be smoothed away
-{: data-toc-skip='' }
-
-Understanding each other gets imagined as everybody eventually discovering they were the same all along.
-
-That is not so.
-
-A conflict may come down to definitions, it may come down to data, or the two sides may simply judge causality differently. Those usually have a good chance of shrinking through alignment.
-
-Some differences are about ranking of values, who carries the risk, identity, and power. Those do not vanish because the language got more precise.
-
-Mature translation does not grind the differences flat. It shrinks the irreducible part until it is clearly located.
-
-Being able to say "we largely agree on the facts, and the disagreement is about who should carry the risk" is a long way ahead of telling each other they are being unreasonable. The conflict is still there, and it has finally been placed on the right layer.
-
-#### Power also decides who has to translate themselves
-{: data-toc-skip='' }
-
-A cross-viewpoint method that discusses understanding without discussing power becomes naive.
-
-In an organisation, some people get to decide the official vocabulary, the KPIs, the processes, and the categories. Once their language becomes the institutional language, everybody else has to translate their own experience into that format before it is admitted.
-
-A medical system decides which symptoms a form can hold. A performance system decides which contributions count as results. An algorithm decides which behaviours can be seen as signal. Whoever defines the shared language partly decides what can be seen at all.
-
-So an important act of viewpoint translation has three more questions attached. Who has standing to define the problem? Whose experience has to be converted before it can be heard? And who carries the cost of a mistranslation?
-
-Understanding requires empathy, and also staying alert to who holds the right of representation.
-
-#### Sometimes the best output is a map of breakpoints
-{: data-toc-skip='' }
-
-Not every bridge has to reach the far bank.
-
-Some viewpoints translate partially. Some share structure at a few points only. Some currently have no shared arbiter at all.
-
-The most valuable output may be a map of breakpoints: here we share data, there our definitions differ; this stretch of causality can be verified together, that stretch enters the ranking of values; you carry this risk, so your weighting was never going to match mine.
-
-A clearly stated incommensurability is sometimes more mature than a vague harmony.
-
-Understanding does not rewrite somebody else's world into your version. It makes visible, for the first time, which parts of the ground between two worlds can be walked and which cannot.
-
-#### Understanding someone does not oblige you to keep doing it
-{: data-toc-skip='' }
-
-Talk of viewpoint translation produces a moral pressure of its own, as though any remaining conflict meant you had not understood enough.
-
-That is wrong.
-
-Some people are not there to solve anything together. They are there to negotiate, to manipulate, to delay, or to take power. Understanding their model is still useful — it lets you judge their strategy more accurately — and it does not mean you owe them unlimited conversation.
-
-Understanding is not trust, and it is not acceptance or concession either.
-
-You can understand with great precision why a position appeals to a group of people, hold that it is factually wrong and ethically unacceptable, and decide to stop it.
-
-That boundary matters. Otherwise "multiple perspectives" turns into a one-sided demand that the weaker party translate itself for the stronger one forever.
-
-Mature connection across viewpoints does not soften every conflict. It lets cooperation happen where cooperation belongs, negotiation where negotiation belongs, and a line drawn where a line belongs.
-
-#### The best rebuttal comes after the other person feels understood
-{: data-toc-skip='' }
-
-Assembling somebody's argument into its strongest version gets treated as a courtesy technique. It is closer to a test.
-
-If you cannot state their problem, data, and causal reasoning in terms they would accept, you have not yet earned the right to claim you rebutted them.
-
-The standard is strict, and it is fair.
-
-Once you can genuinely rebuild them, the rebuttal gets stronger. You can say: I accept your purpose and I accept this data, and the step from A to B is still missing a condition. Or: our factual differences are small, and what differs is the weight we put on irreversible risk.
-
-High-quality disagreement requires precision, not friendliness.
-
-#### What survives a change of viewpoint
-{: data-toc-skip='' }
-
-Faced with disagreement, people tend towards two extremes. One is wanting only to prove themselves right. The other is rushing to find common ground and grinding the real difference flat in the process.
-
-The third thing deserves more attention: after changing the language, the role, and the scale, which relations are still standing?
-
-The security team and the product team may hold completely different attitudes to speed, and both may grant that an irreversible incident and a reversible small error should not be handled by the same rule. A manager and an engineer may use different languages for schedule, and both can see that a slower feedback loop lets small problems pile up. Those relations that survive a change of representation can serve as interfaces for conversation.
-
-These can be called candidate invariants. They are not final truths, only structural clues more trustworthy than any single slogan.
-
-A good map of viewpoints should also permit the other output: breakpoints. Some rankings of value simply differ, some experience cannot be fully shared, some ontological premises have no shared arbiter for now. Admitting a breakpoint means we have finally stopped covering a real disagreement with a fake consensus.
-
-#### Identity changes the price of evidence
-{: data-toc-skip='' }
-
-The same evidence does not cost the same to different people.
-
-If a viewpoint is something you read yesterday, revising it is easy. If it is tied to your professional identity, your group belonging, a ten-year career, or your self-respect, the cost of admitting an error is entirely different. Adding more evidence at that point may not reduce the resistance, because what the resistance protects is the identity, not the proposition.
-
-That does not mean saying "they are just being emotional" closes the matter. The more precise question: what would changing this viewpoint mean losing for them? Standing? Peers? The justification for what they have already invested? Some understanding of themselves?
-
-Once you see that layer, you notice that some effective communication is about lowering the identity cost of updating rather than adding arguments. Give somebody a way to say "I am revising my judgement on new conditions" without having to say "the person I was before was entirely wrong."
-
-A good institution for revision should keep that step available too. Otherwise we praise learning with our mouths and punish updating with humiliation.
-
-#### Back to the meeting that would not end
-{: data-toc-skip='' }
-
-Take that Thursday afternoon apart again and it may be a different situation.
-
-The product team's purpose is the market window; their assumption is that small errors roll back; what they mainly see is competitor speed and user demand; what they least accept is missing the moment. The security team's purpose is avoiding irreversible incidents; their assumption is that certain abuse is hard to recall once it happens; what they mainly see is the attack surface and past incidents; what they least accept is a low-probability, high-cost event.
-
-The two sides may even share a higher purpose: this product has to be trusted over the long run, and it has to survive into the market.
-
-The breakpoint is not conservative versus aggressive. It is three things that can be handled separately: their estimate of incident probability differs, their estimate of reversibility differs, their estimate of the value of the time window differs.
-
-Once the breakpoint is stated, the meeting can grow options it did not have. Open to two per cent of users first. Put hard limits on the high-risk paths. Set a monitored indicator that can halt the rollout automatically. Spend these two weeks acquiring the one piece of data most likely to change the risk estimate, rather than completing every test.
-
-This does not guarantee agreement. There may be a genuine difference of values at the end. And the question of how much irreversible risk we are willing to carry is at least closer to an argument somebody can be accountable for than telling each other they are too cautious.
-
-Plenty of conflicts between people work the same way. A couple argues about whether to save, and underneath one of them is protecting a sense of security while the other is protecting the quality of the present. A manager and an employee argue about how detailed a report should be, and underneath one is carrying accountability risk while the other is carrying the cost of attention.
-
-The surface issue is only an outlet. What decides the position usually sits below it.
-
-### 10 — Why Did It Grow This Shape
-
-> *Nothing made by people arrives at its present shape out of nowhere. Many details that look absurd today were once a reasonable choice under some local condition, or the shape left behind by several reasonable choices stacked on each other.*
-
-Anybody who has maintained an old system has seen something like this. The details below have been altered; the shape is common.
-
-The file is a hundred and forty lines long and nobody has touched it since 2019.
-
-Above line 87 there is a comment, in capitals: DO NOT REMOVE, ASK VINCENT.
-
-The three lines below it do something small. If the region is Taiwan and the channel code is 3, multiply the amount by one, subtract nought point five, then round.
-
-Multiply by one.
-
-The new engineer spent an afternoon on this. Multiplying by one does nothing. Subtracting nought point five and then rounding has the combined effect of chopping off whatever is after the decimal point. But if the point is to chop it off, you can simply write that. Why the detour?
-
-Vincent left four years ago.
-
-He went through the version history. The three lines were added in March 2017, with a five-word commit message: reconciliation off by one cent. Further back, before March 2017, that passage multiplied by 1.05. Further back still, a commit in 2015 changed the tax rate from a variable to a hard-coded 1.05.
-
-The trail stops there.
-
-It was somebody in finance, who had been there a long time, who eventually remembered. That year one distributor's system accepted only whole numbers, and their reconciliation program chopped off decimals. If this side rounded, every transaction came out one cent different, the month would not balance, and the distributor sent a letter about it every time.
-
-So somebody wrote those three lines so this side chopped too.
-
-As for multiplying by one, that is wreckage left over from the tax change. It used to be 1.05. The tax rules changed, somebody changed the number to one, and did not take the whole line out, because taking it out meant touching the rounding below it, and touching that meant retesting the entire reconciliation flow.
-
-Not a line of the code changed. But it went from being an absurd piece of code to being a record.
-
-#### "What is it" and "why did it grow this way" are two questions
-{: data-toc-skip='' }
-
-Faced with something people made, the first question often yields very little.
-
-What those three lines *are* is perfectly clear: a roundabout way of chopping decimals. Knowing that did not make anybody braver about touching them.
-
-The second question is what makes it speak.
-
-The last chapter was about rebuilding somebody else's generator: instead of memorising their conclusion, understand the conditions that produce it. Things people made can be read with the same move.
-
-The difference is that a person is still there and you can ask them. Code will not answer. All you can do is work backwards from the shape it left behind: what constraints would make a reasonable person choose this?
-
-For those three lines the answer is an external system that could not be changed, a one-cent gap, somebody who sent a letter every month, a change in tax rules, and an afternoon on which nobody wanted to retest the reconciliation flow.
-
-Not one of those is stupid.
-
-#### You still cannot name a file CON
-{: data-toc-skip='' }
-
-Open any Windows machine and try to create a file called CON.
-
-It fails. PRN, AUX, and NUL do the same. So do COM1 through COM9 and LPT1 through LPT9.
-
-In the 1970s those words were device names. The CP/M operating system used them for the console, the printer, the auxiliary device, and the null device, so you could "copy" a file to the printer and that amounted to printing it.
-
-How they came down to us is a little more particular than "somebody copied it later." In April 1980 Tim Paterson, at Seattle Computer Products, began writing an operating system for the 8086. He first called it QDOS and then renamed it 86-DOS. CP/M was the standard in the eight-bit world at the time, and its sixteen-bit version kept not arriving. Working from the 1976 *CP/M Interface Guide*, Paterson deliberately kept his system consistent with CP/M at the layer applications could see: function codes, the entry point address, part of the file control block layout. The internal implementation and the file storage format were written separately.
-
-The aim was plain: make existing software easy to move across.
-
-That December Microsoft licensed 86-DOS, which later became MS-DOS. Early Windows was built on top of the DOS environment; the architecture was later replaced, and these naming rules, kept for compatibility, stayed.
-
-So those reserved words survive today precisely because they belonged to the layer that was deliberately preserved. What got carried forward was not a whole system. It was the interface applications could see — and then nobody went back to touch it.
-
-One detail is worth noticing: the file system itself does not care. NTFS can store a file called CON. What stops you is the Win32 layer above it, and the reason it stops you is so that a program written forty-odd years ago will not suddenly break if it is still running.
-
-This need not be read as anybody's negligence. Each generation had strong reasons to go on choosing backward compatibility. Four decades later that decision is an invisible rule showing up on a laptop in 2026.
-
-The restriction is loosening now, and loosening unevenly. Microsoft's Win32 naming documentation still tells applications to avoid these names, and explicitly to avoid the forms carrying an extension; meanwhile, from Windows 11 onward, .NET's Path.GetFullPath no longer treats a path beginning with a legacy device name, such as CON.TXT, as a device path.
-
-Two documents from the same company, each recording a decision from a different period.
-
-A fossil does not vanish one day. What it usually does first is become a set of rules that several compatibility layers no longer quite agree on.
-
-#### The typewriter story is a fossil too
-{: data-toc-skip='' }
-
-There is a widely repeated answer to why the keyboard is QWERTY: to slow typists down, so the typebars of early machines would not clash and jam.
-
-The answer is memorable, it carries an irony, and it sounds like a piece of industrial-age black comedy.
-
-It does not hold. The popular version has no reliable documentary support.
-
-As for why it did take this shape, there is no settled answer. One account ties it to mechanical jamming. Koichi Yasuoka and Motoko Yasuoka at Kyoto University went back to the early record and proposed another line: that the decisive feedback came from telegraph operators, who were transcribing Morse in real time, and for whom an alphabetical arrangement made certain frequently paired sequences awkward.
-
-That line has material behind it. The full formation history of QWERTY is still argued over.
-
-Here is what this section is actually for. Asking why something grew this shape is a penetrating move, and the first answer you receive may itself be a manufactured object: a story that is easy to remember, easy to picture, and has been passed along for a century.
-
-Rebuilding the context does not mean finding a better story. It means going back to look at who was there, what they were solving, and what they could not move.
-
-#### Two-digit years
-{: data-toc-skip='' }
-
-In the 1960s and 1970s, storage was expensive in a way that is now hard to imagine. Storing a year as two digits meant two fewer year characters per record. How much space that actually saved depended on the data format and the implementation, but in an era of high storage costs and millions of records, the saving was real money.
-
-The trouble came from somewhere else: those systems outlived the rationale.
-
-By the late 1990s the worldwide cost of checking and repairing those two characters was estimated in the hundreds of billions of dollars.
-
-This belongs here because it joins two chapters together. Chapter five was about abstraction debt: a simplification made so that things can work now, with the bill arriving later. This chapter is the same thing from the other side. When you are holding the bill, you can read backwards from it, and recover the conditions under which that simplification was made.
-
-The record of the debt is written into the present shape of the thing.
-
-#### What you are looking for, reading backwards
-{: data-toc-skip='' }
-
-Rebuilding context does not need a procedure. In practice, attention tends to land in a few places.
-
-What could not be moved at the time. An external system, a regulation, a particular customer, a promise already sold. The strangest shapes in a made thing usually grow up against one of those hard edges.
-
-What was expensive at the time. Storage, bandwidth, staff, political capital. Something cheap today may have been the dominant cost then.
-
-Who was complaining. Those three lines of code began with a person who sent a letter every month. The shape of an institution or a product is often left behind by somebody who kept applying pressure.
-
-Which step was meant to be temporary. A temporary fix has a signature: it solved a present pain and nobody arranged for it to leave. Once other things come to depend on it, it stops being temporary.
-
-And a less comfortable question: who does this shape currently benefit. Some things stay as they are not because nobody understands them, but because changing them would cost somebody something.
-
-#### Hardened judgements
-{: data-toc-skip='' }
-
-This way of reading goes considerably further than code.
-
-A law is a compromise that some group of people, at a particular moment, reached about a problem they could see at the time, and then wrote down. The text usually keeps the marks of that compromise: one clause unusually long, one item carrying an odd exception, one definition drafted far more tightly than the rest. Those are generally the places where somebody held out.
-
-A product interface is a designer's trade-offs, hardened. Which function sits on the first screen, which one is buried in settings, which one asks for a second confirmation — each is somebody's judgement about how most people will use it, and about which kind of error is less acceptable.
-
-A company process has that company's history bedded in it, and the history usually has more than one ingredient. The extra approval step may correspond to an incident that genuinely happened. It may equally come from a regulation, from copying a competitor, from control some manager wanted to hold, or from nobody daring to delete it.
-
-That is itself the point of this chapter. A formation history rarely has a single cause, and a reconstruction that admits only one cause is itself a story that tells too well.
-
-An institution can be read as a group folding up its past judgements and putting them away. chapter thirteen comes back to this, because what happens after the folding is a chapter's worth of problem on its own.
-
-#### Who drew the boundaries between disciplines
-{: data-toc-skip='' }
-
-University departments look like the natural joints of the world.
-
-They are not. Today's division of disciplines took shape roughly between the late nineteenth and early twentieth centuries in European and American universities, and it grew alongside professionalisation, the journal system, the degree system, and the allocation of funding. Psychology separated out from philosophy, biochemistry was pushed out from between chemistry and physiology, computer science grew out of electrical engineering or mathematics. Every one of those came with arguments over who could teach a course, who could be promoted, and who could get money.
-
-This does not mean the boundaries are arbitrary. They correspond roughly to genuine differences in method and in training.
-
-But part of what makes interdisciplinary work hard is not a real seam in the world. It is that two sides evolved their languages, their review standards, and their promotion systems separately for a hundred years. Seeing that layer changes how you cross: what has to be handled is not only a difference in concepts, but two sets of hardened institutions.
-
-#### The stress on a bridge does not change with your viewpoint
-{: data-toc-skip='' }
-
-This chapter has one misreading that has to be blocked.
-
-Saying that many made things can be read as judgements does not mean that facts are only judgements.
-
-How much stress a bridge carries under a given load can be calculated, and if the calculation is wrong the bridge comes down. The fatigue limit of a steel does not move because somebody holds a different position. The compressive strength of concrete does not change because we have reconstructed the designer's context.
-
-What can be read as judgement is a different layer: why this safety factor rather than another, which risks were ranked first, why the code requires this particular test, why this classification was adopted. Those carry human purposes, history, and trade-offs.
-
-The two layers stay apart. The line from chapter four holds here as well: the territory will embarrass the map. Reconstructing how a made thing came to be does not make the physical consequences it bears negotiable.
-
-#### Not chasing essences is not denying them
-{: data-toc-skip='' }
-
-The opposite misreading has to be blocked too.
-
-What this chapter claims is that for things people made, "why did it grow this way" usually reaches a thorough understanding faster than "what is its essence." That is a claim about efficiency, not a claim about the world.
-
-Some questions do need to be asked at the level of essence, and they yield. The properties of the electron, the distribution of the primes, the mechanism of natural selection do not change because we know who studied them in which decade.
-
-The difference is in the object. Code, laws, procedures, interfaces, classification systems — the shape of these is partly determined by human circumstances in the first place. Asking such things for their essence tends to return an over-abstract answer; asking for their context puts your hand on whatever is actually holding them up.
-
-This remains the book's standing attitude: rather than hurrying to declare what the world ultimately is, compare what different ways of understanding can each deliver.
-
-#### Back to those three lines
-{: data-toc-skip='' }
-
-The new engineer did not delete them in the end.
-
-He did something else. He wrote the whole context into the comment: the year, which distributor, why the chopping, what the multiply-by-one is wreckage of, and one condition — if that distributor replaces its system, or this channel is shut down, these three lines can come out.
-
-The behaviour of the code did not change at all.
-
-What changed is that it went from being untouchable to being something with a history of formation and a condition for retirement.
-
-What that comment does is what this book has been doing all along: leave the folded thing a way to be opened again.
-
-### 11 — Take the Story Away, What Is Left
-
-> *Some lines make us believe more firmly what we already believed. Some frameworks make us start asking questions we would not have asked. The difference is not rank. It is whether the thing can be carried into the next question.*
-
-A message went round the group chat for about a year.
-
-It was about bamboo. For the first four years the shoot grows roots underground and almost nothing shows above the surface. From the fifth year it can put on tens of centimetres in a day, and within weeks there is a grove. So do not give up because you cannot see results yet. You are still growing roots.
-
-Eight people liked it.
-
-The story has a real botanical original. A bamboo's rhizomes do spread underground for several years first, and the new culms of an established grove genuinely can reach full height in a very short span — roughly thirty to sixty days, concentrated in a six-to-twelve-week window in spring.
-
-As for "four years of nothing and then an explosion in the fifth," that compresses different species, different conditions, and different years into a version that tells better.
-
-A story used to talk about stories is itself a compressed model.
-
-And having read it, that particular afternoon was genuinely easier to get through.
-
-The trouble came the next day.
-
-The next day there was a concrete decision to make: a project fourteen months in, with no sign yet of whether it would work, and a question of whether to carry on.
-
-The bamboo message is no help there.
-
-#### Take the story away, what is left
-{: data-toc-skip='' }
-
-Take the bamboo away and one sentence remains: accumulating over the long term may matter.
-
-The eight people who liked it already agreed with that sentence. Almost nobody disagrees with it.
-
-So what they had at the end of the story was not an instrument for judgement. It was a little strength.
-
-This is easy to turn into criticism, and that would be the wrong reading. The strength is a real function: getting through a hard afternoon, staying one more day when you wanted to quit, turning an abstract principle into something you can remember and repeat to somebody else. At certain moments it is far more use than an analytical framework.
-
-The four rulers from chapter six apply directly here. The bamboo message scores on the one marked *meaning*: it supplied direction and endurance. What it lacks is not on that table at all — it has not given anybody a question they were not asking before.
-
-#### Yin and yang as a move
-{: data-toc-skip='' }
-
-Set something else beside it.
-
-chapter two looked at the generative rules of the *Yijing*. Now take its cosmology away entirely: assume nothing about the universe being "essentially" made of yin and yang, and assume nothing about hexagrams predicting anything.
-
-What is left?
-
-A move is left. When you meet a one-sided judgement, go looking for its opposite, its complement, its cost, whatever holds it in check, and what it might turn into.
-
-That move can be run on the project.
-
-"This project has no results yet" is one-sided. What is its opposite — what did in fact accumulate over fourteen months? What is its cost — which options did those fourteen months crowd out? What holds it in check — if it continues, what runs out first: money, people, or the team's patience? What might it turn into — what signal would change "still growing roots" into "this soil does not grow bamboo"?
-
-Those questions guarantee no correct answer. What they guarantee is something else: once they are asked, you are holding a few things you were not holding before.
-
-And none of it requires believing that yin and yang describe the universe.
-
-The comparison is not saying that yin and yang are true and bamboo is false. Neither is a description of the universe, and the bamboo one is arguably closer to fact. The difference lies elsewhere: one gave strength, the other gave questions.
-
-This is another use for the two rulers from chapter six. There the problem was that useful does not equal true; here it is the same separation from the other side — whether a thinking tool lets us see more can also be independent of whether it describes the ultimate nature of the world. There is no need to settle the metaphysical standing of yin and yang before being allowed to use that move.
-
-#### An analogy is for looking, not for proving
-{: data-toc-skip='' }
-
-Analogy is not a bad thing in this book. It can make an abstract relation memorable, let somebody see a possible structure for the first time, and supply a hypothesis worth checking.
-
-The danger sits in one place only: quietly promoting "A is a lot like B" into "so the regularity in B proves A behaves this way too."
-
-And "alike" itself comes at several very different grades.
-
-The shallowest is alike on the surface: two things share a name, a shape, or an atmosphere. That layer is usually enough to carry a story and no more.
-
-Deeper is alike in relations: the elements in each hold the same set of relations to one another — what constrains what, what amplifies what, which one moves first. Flow in a pipe and current in a circuit are nothing like each other underneath, yet the relations among pressure difference, flow rate, and resistance line up with those among voltage, current, and resistance. What can be carried away usually lives at this layer.
-
-Last is using it as evidence. That requires something else entirely: support found in the target domain itself. If the claim is causal, it also requires verifying that a statable mechanism is actually there.
-
-Bamboo's growth curve is a fact of botany. Whether human capability accumulates in the same shape is a separate question requiring separate evidence. The resemblance can raise that question. It cannot answer it.
-
-The line from chapter seven needs narrowing here. There the question was whether a model can be trusted in a new environment, so mechanism was the requirement. Here the question is whether a structure can be carried away, and the bar is lower: matching relations already have value, except that the value is one more way of looking, not one more conclusion.
-
-#### Two different questions, not one
-{: data-toc-skip='' }
-
-Two lines have been running here, and they are easy to knead together. Kneaded together, they lose precision.
-
-The first asks what this thing gave me. Strength, an answer, a question, or a set of relations that can keep producing answers.
-
-The second asks whether the transfer holds. Between A and B, are those relations genuinely still there? And if it is to be promoted into a causal conclusion, is there corresponding evidence and mechanism in the target domain?
-
-The two lines are independent.
-
-Suppose somebody eventually establishes that the set of relations — delayed accumulation, crossing a threshold, rapid output — really does hold in skill acquisition. On the second line the bamboo has passed. On the first line nothing has changed at all: the message still only takes somebody who already believed in long accumulation and has them believe it once more.
-
-The reverse holds too. A difference in mechanism is not a failure of transfer — a pipe and a circuit have nothing in common underneath, and the relations still line up. An analogy fails on account of differing mechanism only when it is being used to prove that the two share a mechanism. And even where it fails there, it may in the course of being overturned get somebody to ask a very good question.
-
-So "is this analogy correct" and "what did this analogy add" are two separate checks. When they get run together, what usually happens is that the result of one is used to hand out a prize or a sentence on behalf of the other.
-
-#### Four different things an idea can give you
-{: data-toc-skip='' }
-
-Put all of this together and four different things may be left in your hands after meeting an idea.
-
-One is strength. I already believed this, and now I am more willing to act on it.
-
-One is an answer. I know how a certain kind of situation can be explained.
-
-One is a question. From now on, when something happens, I ask one thing I would not have asked before: what is the other side, which condition got dropped, what problem was this institution originally solving, does the answer still hold if the scale changes.
-
-One is a structure that can produce answers by itself. Facing a case it has never seen, it can still yield a respectable judgement.
-
-These four are not a staircase. Strength has its own uses, and at certain moments it matters more than any analytical framework — somebody about to give up does not need a framework.
-
-Their real difference lies elsewhere: which of them can be carried into the next question that has no answer yet.
-
-Strength can travel too — the same story may hold somebody up again through a different hard thing. What travels with it is the willingness to act, not a new way of judging. An answer can be used on the same kind of situation. A question can follow you somewhere unfamiliar. And a structure can produce something for you while you still do not know the answer.
-
-What this book does most of the time is the third kind: hand over a few more questions. Is this layer observation or explanation? If the purpose changed, would what matters change with it? What did this map throw away? What problem was this institution originally solving?
-
-The fourth kind is hard to hand anybody directly. The more honest account is that once these questions start connecting to each other — purpose to domain of validity, domain of validity to counterexamples, counterexamples to revision — they gradually stop being a list of reminders and become something that can work on its own.
-
-The trouble is valuing all four as if they were the same. After reading something with real force, it is easy to think you have acquired the last kind, when what you actually acquired is the first.
-
-Asking what is left when the story is taken away is asking exactly this.
-
-#### Why some people learn one thing and can use it everywhere
-{: data-toc-skip='' }
-
-Those bullet holes from chapter three will do one more shift.
-
-Wald was looking at the planes that came back. The holes clustered on the fuselage and the wings, while the engines and the cockpit were clean. The intuitive conclusion is to armour where the holes are. The correct conclusion is the reverse: those areas could still carry a plane home, and the planes hit in the engine never appeared in the table at all.
-
-Now take the planes away.
-
-A list of ten habits shared by successful founders is looking at the companies that came back. The ones that used the same habits and went under are not on the list.
-
-A hospital's surgical survival rate may look unusually good because it transferred the high-risk patients out. Those patients are not in its denominator.
-
-The documents that survive in the historical record are the ones that were copied, kept, and judged worth keeping. The ones that were not do not come forward to complain.
-
-These are not four lessons. They are one structure wearing four sets of clothes: when you can only see the samples that passed through some filter, what you calculate describes the filtered world, not the population it came from.
-
-Without knowing what the filter removed, the distribution in front of you cannot simply be taken for the distribution of the world.
-
-#### Taking off the situational clothing
-{: data-toc-skip='' }
-
-That move has one step in it that is easy to skip.
-
-To make a structure portable, it first has to be pulled out of the situation it came in. Planes, bullet holes, the Second World War, a statistics division — those are the clothing. What remains is one sentence: the sample passed through a non-random filter, and whatever the filter removed does not appear in the data.
-
-Undress it too little and it is still a story about aeroplanes, usable only on aeroplanes.
-
-Undress it too much and it becomes a sentence everybody agrees with and nobody can use — pay attention to what you cannot see.
-
-The right depth is usually the layer where the relations still work and the situation has come off.
-
-In this case what still works is the set of relations: who stays in, who never appears in the data. The bombing is situation. Sometimes there is a statable mechanism underneath, as there is here with the selection process; sometimes only the relations line up while the mechanisms differ. Either can be carried away.
-
-#### What stays when the representation changes
-{: data-toc-skip='' }
-
-Chapter nine dealt with candidate invariants: the relations still standing after you change the language, the role, or the scale.
-
-That chapter was about relations between people. The same move can judge whether a structure is worth carrying away.
-
-Something that only holds inside its original field loses its meaning the moment the language changes. A structure that genuinely transfers can still be stated after the language changes.
-
-The filter passes that test. In bombers, founder lists, hospital statistics, and ancient documents it speaks in completely different vocabularies and points at the same set of relations.
-
-The bamboo story does not pass, and that wants stating precisely: not because we already know that human accumulation must work differently, but because the story supplied a resemblance in shape without bringing along the relations that would justify the transfer.
-
-Note that this is a verdict on the second line, not the first. The encouragement still has its function. This test answers one thing only: whether the structure can be carried to the next problem and used again.
-
-#### From many to few, not from many to one
-{: data-toc-skip='' }
-
-There is an attractive direction here that has to be blocked.
-
-Having seen one structure recur in four fields, it is easy to take one step further and say that underneath, these things are all the same thing.
-
-That step does not hold, and it throws the benefit away.
-
-The filter holds in those four places because all four genuinely contain a non-random selection. Not because everything shares one essence. Move to a problem with no filter in it and the structure predicts nothing at all.
-
-The convergence worth having sits at a different level. Not turning everything into the same lesson, but letting a large amount of different content be converted into a smaller number of reusable ways of understanding.
-
-The first is a claim about the world, and usually a false one. The second is an observation about the economics of thinking, and it can be tested: can you recognise it in a new field, and say what it predicts there?
-
-There is a more important restraint still: not everything should be brought together.
-
-Between some fields there is no transferable structure, and a resemblance forced into existence only manufactures a statement that sounds deep and distinguishes nothing. The line from chapter eight applies: an explanation that can explain any result has not separated any results.
-
-The most honest output from crossing fields is sometimes a map of the breaks — the phrase from chapter nine. These two things are not alike, and here is where they are not alike. Giving up on unification is more use than forcing it.
-
-#### What accumulates
-{: data-toc-skip='' }
-
-The structures a person can call on accumulate slowly.
-
-What accumulates is not nouns. Knowing the phrase "selection effect" is worth about as much as knowing that bamboo grows roots. What is worth something is being able to stop for half a second in front of a perfectly normal-looking table of statistics and recognise the filter.
-
-At first this is slow. You have to ask deliberately, take the clothing off, check one by one whether the relations are still there.
-
-And once enough has accumulated, a new problem appears, considerably harder than how many structures you are holding.
-
-The same event can often be explained by several structures at once. The employee who resigned can be read as a pay problem, a management problem, an industry cycle, or simply somebody reaching an age where people change jobs. All four work. None is complete.
-
-What has to be decided then is not which one is right. It is which one deserves more weight for now: whose prediction is easier to check, whose error would cost more, and which one merely comes to hand because it happens to be what you have been reading about lately.
-
-The line from chapter eight returns here: how much weight am I currently giving this explanation, and where did that weight come from.
-
-Holding many models is one capability. Knowing where to put the weight right now is another, and it is the one that arrives later.
-
-After enough use these moves get fast. Fast enough that they stop resembling a procedure and start resembling a way of looking at things.
-
-What happens after it gets fast is what the next part is about.
+| Only one of the original three options | The clash between shift patterns and caring responsibilities cannot be recorded faithfully as a different kind of cause |
+| Answers not on the list are allowed, and a procedure reviews the categories | There is a chance of recognising situations the original options left out; it still has to be checked whether the additional information actually enters the handling of the case |
 
-## Part Four — Folded Up, and Opened Again
+In the first format, the omission in the classification cannot remove itself by collecting more copies of the same form. The person filling it in may give up, pick an option reluctantly, or look for another channel to explain; which of these happens needs actual investigation. What can be settled first is that the original options provided no place where this difference could be faithfully written down.
 
-> Reasoning used often enough gets folded into intuition; problems handled often enough get folded into institutions. Folding is what lets a person and an organisation move fast, and the price is that the history of its formation gets stored somewhere nobody can see. This part deals with the world after the folding: when the folded thing can be trusted as it is, when it has to be spread out again, and how long it takes to fold back up once it has been spread out and altered.
-{: .prompt-info }
+Then ask a further question: what if the help on offer is also allocated according to those three options alone? At that point the form is no longer merely describing difficulties. It may affect which kinds of help can be obtained, and it gives people reason to adjust what they say to fit what the institution will accept.
 
-### 12 — Intuition Is Compressed History
+If the answers received match the three options more and more closely, that cannot be taken directly as evidence that the classification is correct. People may have learned how to answer in order to stand a chance of getting help.
 
-> *A mature intuition folds the reasoning up and puts it away. What tells it apart from carelessness: when you need it, it still opens.*
+Revising the form is a start. Suppose the additional box at last lets the person explain their caring responsibilities, and the caseworker, having read it, confirms it with them; the caseworker then knows that another CV course will not solve this difficulty. What has to be looked for next may be a working arrangement that fits, or other support for caring. Whether such help can be provided already runs up against the limits of how resources were originally allocated.
 
-An operations engineer fifteen years into the job glances at a monitoring screen and says: something is wrong here.
+A new answer may call for a new practice, and it may call for deciding afresh whom this service is meant to help and how far it should go. Folding the exception back into the nearest old option keeps the reports tidy; hearing the exception out may let managers discover that the original question was asked too narrowly.
 
-Ask them what is wrong and they cannot say it completely. Every value is within range, there is no obvious error message, and some combination of them strikes them as odd.
-
-Beginners usually react in one of two ways. One is reverence, treating the expert as having a mysterious sixth sense. The other is disbelief, holding that a reason you cannot state does not count as rational.
-
-Both are too simple.
-
-#### Klein's lieutenant
-{: data-toc-skip='' }
-
-The psychologist Gary Klein spent many years interviewing people who decide under pressure: firefighters, intensive care nurses, military commanders, nuclear plant operators. He wanted to know what those people actually did inside a few seconds.
-
-One passage from his interview records runs like this.
-
-A fire crew is called to a house with a fire behind the kitchen. The lieutenant takes his people in and puts water on it. The fire's response is not right — water goes on and it does not retreat the way it should.
-
-He notices two other things. The room is much hotter than a small kitchen fire ought to make it. And it is too quiet; kitchen fires are usually noisy.
-
-He does not stop to analyse. He orders everybody out. Seconds after they reach the door, the living room floor collapses.
-
-The fire was in the basement. They had been standing above it.
-
-Asked afterwards how he knew, the lieutenant said it was a sixth sense. Klein refused to accept that answer, and spent a long time asking item by item what he had seen, heard, and felt in those seconds, until the cues came out one at a time: temperature, sound, the water's response. Those cues had genuinely been present in his awareness. They had simply not arrived in the form of sentences.
-
-Klein later called the pattern recognition-primed decision. An expert is not comparing all the options in a few seconds. He has recognised a shape he has seen before, and that shape comes attached to an action.
-
-#### Skill folds a long chain of reasoning up
-{: data-toc-skip='' }
-
-Learning to drive, you attend item by item to the mirrors, the wheel, the distance, the speed. Once fluent, many of those operations stop appearing in awareness as complete sentences. A chess player does not recompute every possibility at every move, and a doctor does not spell out every differential diagnosis each time.
-
-![Compression makes you fast; being able to unfold it is why you dare keep using it](/assets/img/book/en/fig12_1_intuition.png)
-_Figure 12.1 Compression makes you fast; being able to unfold it is why you dare keep using it_
-
-This compression is not the opposite of reason. It is frequently what reason, experience, and feedback leave behind after stacking up for years.
-
-The price is that compression hides the process that formed it.
-
-You are left holding a feeling, and no longer clear about which environments it was learned in, how many cases it saw, which mistakes it made, or what feedback it received.
-
-So an intuition's reliability should be judged by its provenance, not by how strongly it presents itself.
-
-#### Gigerenzer's way of catching a ball
-{: data-toc-skip='' }
-
-If intuition is compression, what is left after the compression? The German psychologist Gerd Gigerenzer answers with catching a high ball.
-
-A ball goes up towards the outfield. How does the fielder know where to run?
-
-Doing it with physics, you would need the initial velocity, the launch angle, the spin, the wind, the air resistance, then solve a ballistic equation, get the landing point, and move there. A human brain cannot do that in three seconds.
-
-What players actually use is more than one strategy. The simplest and most studied of them is called the gaze heuristic: look up, fix your gaze on the ball, start running, and adjust your speed so that the ball's angle of elevation in your field of view stays constant. Hold that angle steady and you arrive at the same point as the ball at the same moment. The rule has its conditions — it handles the stretch after the ball is already high, not the instant it comes off the bat.
-
-That rule needs one variable. It does not compute a landing point, does not need the wind speed, and understands nothing about gravity.
-
-Gigerenzer uses this to make a point: whether a simple rule is good depends on whether it matches the structure of the environment. In a world with gravity, a ball, and a pair of eyes that can track, the rule is highly reliable. Move the same rule into a world where balls change direction abruptly and it fails immediately.
-
-A great deal of expert intuition is made of this sort of thing. These are not shrunken versions of a complete calculation; they are shortcuts tailored to a particular environment.
-
-#### Some environments grow good intuition and some do not
-{: data-toc-skip='' }
-
-Two names usually get placed on opposite sides of this discussion. From the 1970s, Daniel Kahneman and Amos Tversky accumulated a large body of evidence that fast human judgement departs from the norms systematically. Gary Klein spent an equally long time documenting cases where expert intuition saved lives.
-
-The interesting part is that in 2009 they wrote a paper together, subtitled a failure to disagree. They had set out to locate their differences, and by the end they found they agreed on the central question.
-
-Their joint conclusion compresses into two conditions. For an environment to grow reliable intuition, the regularities have to be stable enough that there is a learnable relation between cue and outcome, and there has to be enough practice with timely feedback.
-
-Satisfy both and expert intuition is very strong: chess, firefighting, anaesthesia, reading X-rays, maintaining equipment you know well.
-
-Satisfy only half and experience may only make the stories smoother. Long-horizon investment, senior personnel judgement, and complex organisational decisions all carry that risk. One decision's outcome may arrive years later with countless factors mixed in, and people readily book good outcomes to themselves and bad ones to the environment. So the years accumulate and the calibration does not improve.
-
-"I have been doing this for twenty years" has value, but it is incomplete evidence. The better questions: across those twenty years, did errors have any chance of being revealed? Did you ever check a prediction against an outcome? Has the environment already changed a few times?
-
-#### Who has been sampling your last ten years for you
-{: data-toc-skip='' }
-
-Both of those conditions are about the environment. And the phrase "there is feedback" can be opened one layer further.
-
-Cardiology in the 1980s had an inference whose mechanism looked almost beyond doubt. Patients after a myocardial infarction often show premature ventricular contractions; that irregular beating is associated with sudden death; and drugs existed that suppressed it. Doctors prescribed, read the ECG, and the extra beats duly disappeared. This is an environment with fast, clear feedback.
-
-In April 1989 a randomised trial called CAST stopped two of its drug arms early. Not because the drugs did not work; they did suppress the extra beats. Because of the death rate: fifty-six of the seven hundred and thirty patients on the drugs died, against twenty-two of the seven hundred and twenty-five on placebo, a relative risk of two and a half.
-
-The immediate feedback those doctors received landed on the premature contractions rather than on the mortality risk they actually cared about. Deaths are of course visible. What is hard, without a control group, is that a difference in death rates could come from the drug or could just as well come from the two groups of patients having been different to begin with, and there is no clean way to assign it to one side.
-
-So when an environment is said to provide feedback, the question is which outcome is doing the feeding back. Fast feedback is not necessarily feedback on the thing you are trying to learn.
-
-One layer down the problem gets worse: some outcomes have no chance of appearing in the data at all, and the range is marked out by your own past decisions.
-
-The filter from chapter eleven returns here, and this time what it filters is your own experience.
-
-A judge decides between detention and release. Whether a released defendant later reoffends is in the record; what would have happened to a detained one had they been released is never in the record. In 2017 Himabindu Lakkaraju, Jon Kleinberg, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan named this structure the selective labels problem: the outcomes you can observe were picked out by the earlier decisions themselves, so they are not a random sample of the population.
-
-The same structure is everywhere in a working life. A manager spends ten years not hiring anybody who "does not look steady enough." Ten years on they say they read people well, and what they hold is the subsequent performance of the people they hired and nothing at all on the people they turned down. Those ten years of successful experience never had a chance to contradict the original criterion.
-
-So asking whether errors had any chance of being revealed is not enough. One more question is needed: who has been sampling your last ten years for you?
-
-There is usually more than one filter. Your own choices, the class of problem you never touch, the people who have already left, the failures that left no record, the industry itself, the companies still standing, the clients who happened to come to you.
-
-Experience is a batch of samples you drew from the world, not the world itself. Samples have a provenance, and so, therefore, does intuition.
-
-#### Emotion is a hypothesis generator
-{: data-toc-skip='' }
-
-Intuition is hard to discuss without emotion.
-
-Anxiety, disgust, trust, and excitement often arrive before language. Treating them all as noise loses a great deal of information. Treating them directly as truth lets an internal state impersonate the external world.
-
-A more useful move treats emotion as a hypothesis generator.
-
-"I am uneasy right now." What might this unease be detecting? A similar past experience? A threat to identity? A conflict of values? Insufficient information? Or am I simply tired?
-
-"I do not trust them" can be translated downward too: which details did I notice? Was it that promises and behaviour do not line up, that the account keeps shifting, or that they remind me of somebody from before?
-
-Let the feeling exist first, then convert it into a hypothesis that can be checked, which beats both suppressing it and sanctifying it.
-
-#### Intuition needs a return ticket
-{: data-toc-skip='' }
-
-The ideal state can be called a revisable intuition.
-
-Not every judgement gets analysed from scratch; that makes life impossible. An efficient system should have a fast path: in familiar, low-risk, well-fed-back situations, let the compressed pattern work quickly.
-
-The fast path has to have triggers.
-
-The environment changes visibly. Results start drifting. The cost jumps. You feel an unusually strong emotion whose source you cannot name. Or somebody supplies a signal that conflicts with the existing model and cannot be easily dismissed. Each of those should trigger an unfolding.
-
-Unfolding does not announce that the intuition was wrong. It takes the intuition out of the black box and back into a checkable state.
-
-A system does not normally need to display every internal state, and once an alarm fires it has to be able to enter a debugging mode.
-
-#### Reason also needs interrupting by intuition
-{: data-toc-skip='' }
-
-This does not run in one direction only.
-
-Analysis can also run away. A person can build a beautiful argument and travel a long way from actual experience; a model complete enough can lead you to ignore the anomalous signals the body and the site were already sending.
-
-Had that lieutenant insisted on analysing the structure of the fire before deciding, neither he nor his crew would have had the chance to analyse anything.
-
-There is something more awkward still: reason does not naturally stand outside intuition. The elephant from chapter nine has to come back here. Haidt was writing about moral judgement, and it cannot be generalised into "all thinking is supplying reasons for a feeling"; the failure mode is common enough elsewhere, though. Once an answer you want is already in place, finding reasons for it becomes very easy, and "unfolding" turns into writing a manual for the judgement you already had.
-
-So a revisable mind is not reason managing intuition from above. Intuition compresses a mass of experience into a fast signal; reason unfolds, compares, and checks the signal when necessary; the new analysis is compressed again through practice and feedback. The two take turns, and both of them need something outside to calibrate against. Which is why the act of writing it down first, below, matters more than it looks.
-
-This also explains why a genuine expert is sometimes both fast and slow. Most of the time they are very fast, and in front of a critical anomaly they are more willing than a beginner to stop.
-
-Because they know that a feeling of familiarity is sometimes itself the danger signal.
-
-#### Working it out is not yet internalising it
-{: data-toc-skip='' }
-
-That line in the last section — the new analysis gets compressed again through practice and feedback — went too fast.
-
-You can agree completely that one failure is not a verdict on the whole person, and go straight into defence the next time you are criticised. You can know perfectly well that money already spent should not shape the next decision, and still be unable to kill a project three years in. You can understand that the other side's position comes out of a different set of generating conditions, and still think they are being stupid once the argument actually starts.
-
-The first half of each of those is understanding. The second half is closer to internalising, and time sits between them.
-
-The reason is what intuition is made of. An intuition is not a proposition; it is a fast path formed by a mass of situations, actions, and outcomes pressed together. One piece of analysis can change the explicit layer and rarely rewrites that path at the same time.
-
-In the case of cognitive skill, the gap has been measured. In 1982 John Anderson divided the formation of a skill into two stages. The first is declarative: you hold a set of statements about the thing, performance is slow and error-prone, and you have to rehearse the statements to yourself while doing it. Through repeated practice those statements get compiled into procedures, the speed comes up, and the rehearsing drops away.
-
-On the side of belief and emotion a similar distance is visible, which does not mean the same mechanism sits underneath — the rule from chapter eleven applies to this book as well. Cognitive therapy distinguishes intellectual insight from an actual change of belief: a person can acknowledge that a thought of theirs is irrational and say in the same breath that they still do not believe it. Judith Beck puts it plainly: insight is an important part of cognitive therapy, and on its own it does not get most patients better; what has to move is thinking together with behaviour, and that has to happen repeatedly in real situations.
-
-So "knowing" can be split here into at least three layers, and the distances between them are routinely underestimated. Knowing a way of thinking is one. Being able to execute it when you deliberately remind yourself is the second. Having it arrive in a real situation without any rehearsing is the third. The preface said that part of the capacity to understand is how many ways of thinking you hold that genuinely run; "genuinely run" means the third layer.
-
-This changes where reason sits. Reason has a longer-run use that is not quite the same as overriding an intuition in the moment: gradually altering whichever reaction arrives by itself next time.
-
-Moral judgement shows the difference most clearly. If right and wrong can only ever be settled by looking things up afterwards, remember rule three in a situation like this, it will be slow, and it will fail first under the heaviest pressure. The more mature state is different: the principles have been examined repeatedly and used repeatedly, so that at the moment they are most needed they do not have to be recalled first.
-
-None of which should close as "once it is internalised, trust the intuition." What internalising does is bring that fast path gradually closer to the version you have thought about and are willing to claim. It carries no guarantee that the version is right: discipline, a manipulator's patter, an entire bad company culture — all of these internalise, and internalise very successfully. Internalising is automation, not correction.
-
-Nor does it exempt the path from expiring. Environments change, and a revised intuition needs a return ticket exactly as much as the old one did. As for what makes that willingness to claim it worth anything, chapter fourteen comes back to handle it.
-
-#### What an expert can teach may be the triggers
-{: data-toc-skip='' }
-
-The question beginners most want to ask an expert is how did you know.
-
-Experts often cannot narrate the whole formation. They can usually answer a more valuable question: what makes you stop?
-
-Which combinations of log lines stop them trusting the normal indicators? Which signs make a doctor order one more test? Which signals in a negotiation make an experienced person change strategy suddenly?
-
-Those triggers are the interface between compressed experience and explicit method.
-
-To pass expert capability to a newcomer, you may not have to force the expert to translate the whole intuition into rules. Get "how to be fast when things are normal" and "which signals mean you must slow down" stated clearly, and a great deal of genuinely useful knowledge has already moved.
-
-The interviewing method Klein went on to develop does roughly this. He does not ask what your judgement model is. He asks whether your decision would have differed if one particular cue had been different.
-
-#### Every intuition should have a provenance
-{: data-toc-skip='' }
-
-The same sentence — I just feel this is wrong — can represent completely different qualities of cognition.
-
-One version comes from thousands of high-quality feedback events over ten years: you made a judgement, learned the outcome quickly, errors got revealed, and the environment's regularities held reasonably steady. Another comes from a few memorable stories: the successes were remembered, the failures left no record, and the outcomes were shaped by many invisible factors.
-
-Both are subjectively called experience, and they can feel exactly as strong. The difference sits in the provenance, not in the feeling. The first has far better standing to have formed a reliable pattern; the second may only have formed familiarity.
-
-#### Write down "something is off" before explaining it
-{: data-toc-skip='' }
-
-Studying intuition runs into a large difficulty: reasons after the fact are very easy to rewrite. Once something has happened we supply a handsome story for the feeling we had, until we cannot ourselves distinguish which cues were genuinely noticed at the time. The lieutenant's first answer, after all, was a sixth sense.
-
-A very simple piece of training: when an important sense of something being off shows up, record it in one sentence and do not rush to explain it. Write down what you noticed earliest, how confident you are, and what you expect to see next. When the outcome arrives, come back.
-
-Over time you acquire calibration data for your own intuitions. Which kinds of feeling carry predictive power? Which are mostly stress, bias, or familiarity? Which signals do you always catch early without being able to state the mechanism?
-
-The point of the record is not to translate every intuition into a formula. It is to let tacit knowledge build a feedback loop with outcomes too.
-
-The decision log from chapter eight turns up again here, except that what gets fixed in place this time is a feeling you cannot yet give reasons for, rather than a judgement you can state. Both are doing the same thing: pinning down the state of your cognition before the outcome arrives. In 1975 Baruch Fischhoff and Ruth Beyth did something very direct. Before Nixon's visits to China and the Soviet Union, they asked a group of people to put probabilities on a list of possible diplomatic outcomes; after the trips they asked the same people to recall what they had written. For the things that did happen, the recalled probability was higher than the one originally given; for the things that did not, people remembered themselves as more sceptical than they had been. Memory of your own forecast bends quietly towards the answer you now hold.
-
-This device only handles one of the two contaminations, though. It stops reasons from being rewritten afterwards and stops confidence from being quietly raised. It does nothing about the sampling problem: the road not taken has no outcome in the log either. That manager can write down every "this person does not look steady enough, I give it thirty per cent" with perfect clarity, and ten years later the record still cannot say whether the thirty per cent was right.
-
-That side needs more than one move, because missing data goes missing in three different ways.
-
-Some outcomes happen out in the world anyway and you simply never recorded them. What the share you did not buy went on to do, the market will tell you regardless; what is missing is only a list of what you nearly bought and did not, with what you expected at the time. This kind is the cheapest: tracking is enough.
-
-Others only appear if the other choice is actually made. The performance of the person you did not hire does not exist anywhere, and to obtain it you have to change a decision rule for real. An A/B test on a product is that move institutionalised: deliberately send some users down the other path in exchange for a comparison that did not previously exist. This kind has a price, and when the subject is a person the price does not land only on you. So it has to pass two tests first, fairness and bearability — the line from chapter fourteen applies here early: a practice has to face whom it has placed the cost on. "I need to calibrate my model" is not a reason to treat people as a sampling instrument.
-
-The last kind can never be seen. You can write down what you expected option B to do, and three months later you still will not know what B would actually have done, because the world only travelled one road. Here what you can do is reduce the uncertainty rather than recover the data: find external comparison cases, look at what happened to others who chose differently from a similar position, calibrate against a base rate. Admitting that this layer stays invisible is more honest than pretending it has been filled in.
-
-So whether to buy that information, and how much, depends on three things: what it costs to get, what one error costs, and how many more times the judgement will be used. A judgement you will use for ten years is worth buying for, because the tuition amortises; a judgement made once that you cannot afford to get wrong is also worth buying for, because there is no second time to amortise across. The one not worth buying for is the other kind: made once, and cheap to get wrong.
-
-#### Fast and slow is a question of standing
-{: data-toc-skip='' }
-
-We slip easily into thinking slow thought is the higher grade, as though longer analysis meant more rationality. That is equally wrong.
-
-In a familiar, low-cost, well-fed-back environment, reanalysing everything only wastes cognitive resources. In an unfamiliar, irreversible environment whose distribution has already shifted, relying entirely on intuition is over-extrapolation.
-
-What has to be managed is a pattern's standing to be used.
-
-The triggers listed earlier are the boundary of that standing. When any one of them appears, the compressed judgement loses the last word and has to be unfolded again.
-
-An expert is not permanently faster and not permanently slower. An expert is more likely to know whether the feeling they have right now has any standing to make the final call.
-
-### 13 — When the Map Starts Reshaping the Territory
-
-> *Some abstractions are only maps. Some, once an institution adopts them, pick up a shovel.*
-
-A company decides that good customer service means short average call time.
-
-The decision carries no malice and is not even careless. No manager can listen to several thousand calls, so an indicator that aggregates is needed; and shorter calls mean the same headcount serves more people, so waiting times ought to fall.
-
-In the first month the indicator genuinely improves.
-
-In the second month a manager notices that a few staff have unusually long handling times. In the interest of fairness, a ranking is added to the performance system. Nobody is asked to deceive anyone; the staff simply start learning, quite naturally, which behaviours make the number look better. Transfer the complex problems early. Avoid the difficult cases where you can. If a standard answer will end the call, do not ask one more question.
-
-In the third month average handling time looks better still, and repeat-call rates begin to rise. Some customers were closed out quickly the first time without the problem being solved, so they call again. Total call volume goes up.
-
-Management then adds a second indicator: first-contact resolution. The staff now face two goals pulling against each other, one for speed and one for completeness. Six months later satisfaction is added, and the scheme starts to resemble a multi-objective optimisation problem.
-
-A year on, the company really does have a set of customer service staff with short average call times.
-
-It also has a set of less satisfied customers.
-
-What happened here goes deeper than a badly designed KPI. A model that was only meant to describe reality started changing it.
-
-#### Goodhart's rewritten sentence
-{: data-toc-skip='' }
-
-In July 1975 the Reserve Bank of Australia held a conference on monetary economics in Sydney. Charles Goodhart, an economic adviser at the Bank of England, submitted a paper on British monetary management experience, and dropped in a sentence along the way that became better known than the paper: any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
-
-He was talking about something specific. The British central bank in the 1970s wanted to control inflation and targeted a particular monetary aggregate. Before it was targeted, that aggregate had a stable relationship with economic activity; once it became a policy target, banks and firms began rearranging where they put money, and the stable relationship disappeared. The indicator itself had not broken. Its relationship to the world was changed by the policy's existence.
-
-At around the same time the American social psychologist Donald Campbell proposed a more general version: the more any quantitative social indicator is used for social decision-making, the more it will be subject to distorting pressures, and the more likely it is to corrupt the very social process it was meant to monitor.
-
-In 1997 the anthropologist Marilyn Strathern, writing about the British university assessment regime, compressed it into the line everybody remembers: when a measure becomes a target, it ceases to be a good measure. Three people, each standing at a different scale: monetary policy, social institutions, everyday organisations.
-
-#### The rat tails of Hanoi
-{: data-toc-skip='' }
-
-In Hanoi in 1902, the French colonial administration had just finished a modern sewer system, and the sewers turned into a motorway for rats, with plague risk rising behind them.
-
-The government came up with something that looked clever: a bounty on rats, one cent per rat.
-
-The difficulty was that rat carcasses are a nuisance, unhygienic and bulky to store in an office. So the administration made an entirely reasonable simplification: do not bring the whole animal, bring the tail. A tail proves the rat is dead, takes up little space, and is easy to count.
-
-What followed the historian Michael Vann has traced in the archives. Live rats with no tails began appearing in the streets. Catchers cut the tail off, released the rat to go on breeding, and harvested the next generation. Small rat-farming operations appeared on the outskirts of Hanoi.
-
-The story is worth telling not because those catchers were wicked. Their behaviour was entirely rational. What actually happened is that a tail had been a reliable proxy for a dead rat, and the moment the proxy was connected to money, the link between it and the thing it stood for came apart.
-
-#### Four hours in an English emergency department
-{: data-toc-skip='' }
-
-The Hanoi story is easy to laugh at because it is far away. The next one is closer.
-
-Around 2000 the National Health Service in England faced a real and serious problem: waits in emergency departments were too long, and patients spent whole days on trolleys in corridors. The government set an explicit target. Ninety-eight per cent of patients — later relaxed to ninety-five — had to be admitted, transferred, or discharged within four hours.
-
-The target worked. Over the following years emergency waiting times fell substantially, and fell in a way patients could feel. Anybody discussing this should concede that first.
-
-Adjustments appeared alongside it. Some hospitals held patients in ambulances, because the clock started at the door. Some renamed an area so that it did not administratively count as emergency. Researchers analysing the distribution of discharge times later found a pronounced spike somewhere past three hours and fifty minutes — decisions were not spread evenly across four hours, they bunched in front of the threshold. Clinicians also reported that patients who needed longer observation sometimes had decisions made about them early.
-
-This is more complicated than the rats of Hanoi, because two things are true at once: the target improved real care, and the target distorted real care.
-
-So the question worth asking is not whether to have indicators. Without them, management is left with authority, impressions, and anecdote. The question worth asking: what did we compress good emergency care into? And in the compression, who lost their representation?
-
-#### Once an indicator is wired to reward, it stops being a ruler
-{: data-toc-skip='' }
-
-Plenty of abstractions look neutral on paper: a score, a category, a ranking.
-
-Connect one to resources, power, bonuses, opportunity, or punishment, and people start responding to it.
-
-Students prepare for the exam, hospitals reshape processes for the inspection, teams reorder their work for the KPI, creators change their work for the algorithm. None of these responses requires an intention to exploit a loophole; any goal-directed actor facing an institution does this.
-
-![The reflexive loop of a metric: nobody cheats, and the loop still closes](/assets/img/book/en/fig13_1_reflexive.png)
-_Figure 13.1 The reflexive loop of a metric: nobody cheats, and the loop still closes_
-
-So the world of management contains a particularly dangerous circuit. We compress reality with a model, then allocate resources according to the model; the allocation changes behaviour, and the new behaviour is taken as reality by the next round of the model.
-
-After a while it is hard to tell whether what we measured is the world we started with, or the world our measurement regime has trained.
-
-Institutional design therefore cannot only ask whether this indicator correlates with the goal now. It also has to ask whether that correlation will survive everybody optimising for it. The second question is usually harder and more important.
-
-#### A category creates its own objects
-{: data-toc-skip='' }
-
-This does not only happen to numbers.
-
-When an institution sorts people into high risk, low potential, core talent, and problem employee, the category is doing more than describing. It changes the opportunities a person receives, the way they are regarded, and eventually their understanding of themselves.
-
-The philosopher of science Ian Hacking gave this a good name: the looping effect of human kinds. His contrast is clean. However you classify a stone, the stone does not respond — he calls those indifferent kinds. However you classify a person, the person knows, responds, resists, identifies, and may grow into the shape of the category. Those are interactive kinds.
-
-A child labelled hyperactive experiences a change in the resources available, the teacher's expectations, the classmates' attitude, and their own account of themselves. The category is not fictional, and it is genuinely useful. The point is that once it enters reality, reality answers back, and the next round of data already contains that answer.
-
-AI systems push this further. A model turns the world into computable features and then automatically filters, ranks, recommends, and judges. An abstraction that used to sit on paper becomes a great volume of immediate action.
-
-At that point how high the accuracy is becomes only the first question. The others: where are the errors distributed? Who carries the misclassifications? Can the output be appealed? Once somebody has been classified, do the downstream opportunities make the classification self-fulfilling? And which things, having no field to live in, gradually lose their institutional existence? Once an abstraction holds power, the standard of transparency it owes is higher than an ordinary model's.
-
-#### Errors are never distributed evenly
-{: data-toc-skip='' }
-
-Every classification produces false positives and false negatives, and in a real institution the cost of an error rarely lands evenly on everybody.
-
-A risk model with high average accuracy can still concentrate misclassification on a small set of situations. A hiring filter that raises overall efficiency can still make it harder for people from certain backgrounds to reach human review. A policing classification with a genuine statistical signal can still form a feedback loop out of historical data and resource allocation — where more patrolling happened produces more records, and the model recommends more patrolling there.
-
-So a high-stakes classification cannot be judged on an aggregate score. It also has to be judged on the distribution of errors, who can appeal, whether an error is reversible, and whether the person classified has any way to supply the context the model cannot see.
-
-Whether an institution is mature often depends less on avoiding all errors, which is not achievable, and more on whether it has designed an exit for the fact that the model will certainly be wrong sometimes.
-
-#### An institution is a mental model written into the environment
-{: data-toc-skip='' }
-
-Rules, processes, interfaces, permissions, KPIs, and algorithms are all fixing certain judgements into the environment in advance.
-
-"This class of event escalates first." "Above this threshold it is blocked automatically." "This role can approve and that role cannot." Every rule encapsulates some past understanding into a future path for action.
-
-This is the strength of an institution. It spares the organisation from thinking from zero every time.
-
-It is also the danger. The more successful the encapsulation, the more readily people forget the original reasons and conditions.
-
-So a good institution and a good intuition look very much alike: both need a fast path and both need a return ticket. Automatic under normal conditions; able to reopen the original assumptions when the environment drifts, exceptions pile up, and costs rise.
-
-The resemblance is not a coincidence, and it is worth saying more directly.
-
-When one person handles the same kind of problem repeatedly, the reasoning gets folded into intuition. When a group handles the same kind of problem repeatedly, the judgements get folded into rules, procedures, and institutions. Both are performing the same move; only the thing doing the folding differs. One folds inside a head, the other folds into the environment.
-
-The benefit is the same in both cases. Nobody has to start from zero each time.
-
-So is the price. Once folded, the history of formation goes somewhere nobody can see. Those three lines of code from the previous part, and the rule nobody dares delete, are both shapes left behind by folding.
-
-The failure modes are therefore symmetrical. A reliable intuition becomes a prejudice once the environment changes. An effective institution becomes bureaucracy once the problem changes. A workaround that saved the day becomes an immovable burden once other things start depending on it.
-
-All three are one thing: the folded object is still in use, and nobody remembers what it was folded for.
-
-#### Good institutions need version numbers too
+#### After a manual is revised
 {: data-toc-skip='' }
 
-We rarely look at institutions as models, so once an institution exists it easily acquires a naturalness it has not earned.
+The Diagnostic and Statistical Manual of Mental Disorders, published by the American Psychiatric Association, is usually shortened to DSM. It organises diagnostic names and criteria so that research and clinical work can communicate in a reasonably consistent language. Medical, insurance and educational arrangements in different places also refer to diagnoses, so the classifications in the manual may, through these various institutions, affect the resources a person can obtain.
 
-"That is the process." "That is the rule." "That is how performance is calculated." Over time, what problem it was built for and in what environment disappear entirely, and only the operation remains.
+In 1980 the third edition formally included post-traumatic stress disorder. People living with the long-term effects of trauma had existed before that, and had been described and treated under other names. The new diagnosis provided a shared name and shared criteria, allowing researchers to compare cases in a more consistent way, and giving clinicians and the people concerned one more way to explain a difficulty and seek help.[^dsm] Whether resources actually increased still depended on how subsequent services and institutions adopted the classification.
 
-Look at an institution as a mental model written into the environment and the idea of versions appears by itself.
+In 1973 the Association decided to stop listing homosexuality itself as a mental disorder. That change involved research evidence, professional dispute, action by the people concerned, and a reassessment of which conditions should count as illness. The related diagnostic names continued to be adjusted afterwards, and stigma did not vanish with a single revision; but changing the diagnostic status put the reasons that had used a medical classification to support certain kinds of treatment under direct challenge.
 
-Which year was this rule made, and against which risk? Has the environment changed since? Which exceptions have been accumulating for a long time? Which workaround behaviours are telling us the institutional model and reality have come apart?
+The fifth edition, in 2013, brought several previously separate diagnoses, Asperger's syndrome among them, into autism spectrum disorder. The Association explained that some of the old categories had not been applied consistently across different clinical settings, and that there were research and diagnostic reasons for moving to a more integrated description. For people who had come to understand themselves under an old name, this also touched community, identity and the way they explained their own experience to others. How the criteria are revised, and whether a person still wishes to use a particular name for who they are, are not entirely the same decision.
 
-An institution's revisability cannot rest on an annual review. It needs anomalies to be able to travel upward, exceptions not to be treated uniformly as violations, and the front line to have a way of pointing at what the model cannot see.
+The philosopher Ian Hacking called the back-and-forth influence between classifications and people "looping effects": a classification changes how people are treated and may change how they understand themselves; and as people accept, reject or adapt these names, researchers in turn rethink the classification.[^hacking] To study such effects, one has to trace which services, expectations and actions a diagnosis actually changed, and not infer every person's life from the name alone.
 
-Otherwise the organisation acquires a very dangerous kind of stability: everybody has learned to accommodate the model, and the model therefore looks increasingly correct.
+A child who receives a diagnosis may gain support that had been missing, and may also have their abilities underestimated. These two consequences need to be checked separately. Reducing stigma can proceed alongside taking the child's difficulties seriously; keeping a useful diagnosis still leaves room to change expectations that are set too low or services that do not fit.
 
-#### The year Asperger's disappeared
+#### The people an average score cannot see
 {: data-toc-skip='' }
 
-The thing that most resembles a version number on an institution may be a manual.
+Suppose a tool gets ninety-five of a hundred cases right. Knowing that figure alone, we do not yet know where the five errors fall: scattered across all kinds of situations, or almost all in the same predicament? Nor do we know whether the consequence is a notice that can be corrected, or the loss of an opportunity that is hard to recover.
 
-The American Psychiatric Association's *Diagnostic and Statistical Manual of Mental Disorders* appeared in 1952 with 106 categories, written in the psychoanalytic language of the day. The third edition, in 1980, was a break: it threw out assumptions about aetiology and switched to operational criteria, so many of these and it counts. The category count rose past two hundred.
+Judging someone who does not meet the conditions to be eligible, and keeping out someone who does, sometimes need different channels before they can be discovered. The former enters the process, and their later performance may leave a record; the latter never gets the opportunity at all, and the system may never see them again. Follow-up data on those already admitted cannot by itself prove that everyone excluded ought to have been excluded.
 
-The third edition did something else. It added post-traumatic stress disorder.
+Appeals and additional information can bring back errors that were not seen the first time. If someone wrongly excluded has a way to submit further evidence, for instance, the institution has a chance to look at their eligibility again. It also has to be checked whether the appeal takes so long that it cannot be used, whether the information needed was obtained, and whether the person receiving the appeal has the authority to correct the decision. A procedure listed on paper is not enough to show that errors can be dealt with.
 
-Before that, the experience obviously existed. Men coming back from Vietnam, survivors of sexual assault, people who had been at disaster sites, were all living with it. What it did not have was an institutional slot. Without a diagnostic code there is no research funding, no reimbursement category, and no name that two clinicians can use precisely with each other. After 1980 the slot existed, research and treatment followed, and on Hacking's loop, people also began using the name to understand their own experience.
+A frontline worker may notice a kind of exception very early, yet have no field in which to record it; the person who has a field may only be able to add a note, without being able to change the decision; and the person with the authority to change the rules may see only the aggregated figures.
 
-This is one version of a classification creating its object, and most people would agree that this particular creation was right.
+The form's additional explanation may run into an obstacle here too. The caseworker sees the clash between shifts and caring; those above receive only the statistics for the three established difficulties. Only if the original explanation is sent along to the people who can adjust the service does the new problem stand a chance of changing how resources are allocated.
 
-It has run the other way as well. Homosexuality was voted out of the manual in 1973. The reason for the deletion did not sit on the side of new data: the judgement that had put it in there in the first place was itself overturned.
+Once it arrives, someone still has to respond. A decision that a service cannot be added for now also has to state which resources or which authority constrain it; only then can the records accumulate into a fresh discussion when the same kind of need appears again. The person concerned should not have to prove from scratch, every time they are passed to a different caseworker, that the same difficulty in their life really exists.
 
-In the fifth edition, in 2013, Asperger's syndrome was folded into autism spectrum disorder. This time there were protests, and the content of the protests is worth hearing. A group of people had organised an identity around that diagnosis: community, self-narrative, a way of explaining themselves to their families. The manual was revised and the name was gone.
+![A comparison of two identical arrangements of roles. On the left, material outside the classification stops at the frontline; on the right, an added path carries original records and additional explanations into the decision, and specifies who acts and who replies.](/assets/img/book/en/fig-08-knowledge-authority.svg){: width="1200" height="780" }
+_Figure 14.2　How the people who know about a problem get it dealt with. The right-hand diagram sends the original records and additional explanations to the people with the authority to act, and returns the decision to the frontline; the dotted lines are the added routes. This is a hypothetical comparison of institutional design, not an organisation chart of Wells Fargo. Drawn for this book._
 
-From the classification system's side the merge had its reasons, because the boundary between Asperger's and high-functioning autism is hard to draw stably in the clinic. From the side of the people being classified, an institution had repossessed a room they were already living in.
+A worker who sees a failure still may not be able to decide alone what a new rule will mean for everyone. The person who holds the authority to decide may not understand the ground any better than the worker does. Bringing raw experience into the discussion does not require handing all authority to one side first; it requires that each side's reasons can actually change the proposal, and that the person responsible for the decision then explains which arrangement has been adopted.
 
-The fifth edition also changed how it numbers itself. Earlier editions used Roman numerals, DSM-IV; the fifth switched to the Arabic DSM-5, partly so that intermediate versions like 5.1 and 5.2 would be possible. A text revision duly arrived in 2022. They were thinking the way software thinks.
+Some results only show later. After the service is adjusted, whether the person concerned really has a better chance of finding work, and who has been given a heavier load by the new arrangement, both need new reports. That is how an institution can learn what its original classification never taught it.
 
-That is the most honest thing about it. A classification system that shapes millions of lives puts its version number on the cover and admits in public that it is only one edition; that the next will differ; that some of the boxes in this one will later be merged, split, or deleted. Most institutions will not write that down.
+But this depends on the people who raise the problem not being pushed out for making things more troublesome. An institution that lets only its designers name failure will find it hard to learn from experiences its designers never had. This limits knowledge, and it limits participants' influence on their shared life.
 
-#### AI shows us how vague our own concepts are
+#### Placing ability outside the individual
 {: data-toc-skip='' }
-
-"Does AI actually have intelligence?" is an attractive question and jams very easily.
 
-Intelligence was never a clean variable. We have packed language, reasoning, planning, common sense, creativity, learning, social understanding, consciousness, and self-modelling into one word.
+Work distributed across different positions can also make up an ability that no individual had to begin with. As an aircraft prepares to land, the speeds that need attention at different stages depend on conditions such as weight and flap setting. The pilot has to know more than a single number; in the midst of a busy operation, they also have to recognise how the current speed relates to the speed needed next.
 
-The reason it used to feel like one complete thing is largely that those capabilities tend to arrive together in humans. Once machines began exceeding people on some of them and looking absurd on others, we were forced to notice that the word had never been defined.
+Studying the cockpit, Edwin Hutchins observed that reference cards, spoken confirmations, instruments and speed bugs all take part in this work. The required speeds can be looked up in advance and placed on the instrument as markers; afterwards, looking at where the needle stands in relation to the markers completes part of what might otherwise have required remembering the numbers and then comparing values.[^hutchins]
 
-So rather than asking first whether AI is intelligent, it is more useful to split: on which task? Which capability? How stable? What happens out of distribution? Can it tell when it does not know? Can it hold a long-range goal? Is its handling of social cues a functional prediction, or are we trying to discuss something stronger about agency?
+The markers move some of the work to beforehand, and they also turn a comparison of values into a comparison of positions in front of the eyes. If they are set wrongly, they preserve the error just as faithfully; the confirmation between the pilot and their colleagues is part of this ability. Testing one person alone on how much they can remember without tools would miss what the actual operation relies on.
 
-Splitting it this way does not dodge the philosophical question. It separates questions that had been stuck together, so we can see which ones experiments can answer and which remain conceptual and metaphysical.
+Andy Clark and David Chalmers's "The Extended Mind" makes a stronger philosophical claim: under suitable conditions of coupling, external resources can become part of a cognitive process, and even of certain beliefs. The claim concerns how the boundary of the mind is to be drawn, and it remains a matter of philosophical dispute.[^extended]
 
-#### Four different questions
-{: data-toc-skip='' }
-
-People are easily led by surface behaviour.
-
-A system talks like a person and we start inferring that it understands. Another group, wanting to avoid anthropomorphism, insists it is only statistics. Both may be making the same mistake: jumping straight from one descriptive layer to a different ontological one.
-
-"Can complete the task" is a question about function.
+The authors use a thought experiment to make the question concrete. Two people want to go to a museum; one recalls the address from memory, while the other, because of difficulties with memory, has long kept important information in a notebook carried everywhere, and turns to it as a matter of course when needed. If the notebook is reliably available, its contents consistently trusted, and it takes a continuing part in the person's life, should we exclude it from the relevant cognition simply because it lies outside the skin?
 
-"Behaves like a person" is a question about behavioural similarity.
+Even without ruling for now on whether the notebook belongs to the mind, we can still study how it takes part in a person's actual abilities. The same holds for the cockpit: the reference cards, the markers and the colleagues' confirmations are all factors that have to be examined when explaining performance and error.
 
-"Has formed transferable internal representations" is a question about mechanism.
+As the scope of cooperation widens further, new problems appear. Departments in a company can exchange data yet pursue different interests; schools can share student records yet hold different ideas of what good education is. Doing cognitive work together does not mean that everyone has the same purpose or a single shared consciousness. In analysing an organisation, the disagreements between participants, and what each of them is able to decide, still have to be kept in view.
 
-"Has subjective experience" is a deeper philosophical question.
+Cooperation between disciplines also meets institutional differences of this kind. Different disciplines may genuinely need different concepts, instruments and training; within a university, they also organise their own courses, award their own degrees, and use their own systems of publication and review. Researchers who want to work together therefore face more than conceptual problems.
 
-The four are related, and not one of them can close the case on the other three by itself. A system resembling a person on some tasks has not yet answered whether it has the same internal states a person has. Comparing capability and judging ontology are two different jobs.
+For instance, a study that needs the methods of two fields at once may first have to settle: which side can assess the other side's evidence? To which kind of reviewer should the results be submitted? Is the time participants put in recognised within each side's system of evaluation? These institutional arrangements affect whether the cooperation can continue. If the whole difficulty is put down to "the two sides think differently", there is no training or evaluation system left that could be changed.
 
-AI works like a mirror here. It forces us to understand the machine, and it also forces us to admit that our concepts of understanding, creativity, personhood, and consciousness were never as clear as we assumed.
+Researchers can first spend time learning to understand the other side's evidence, and they may also find that what is hardest to change is the evaluation system. Two people already know how to work together; the units they belong to may not give them the conditions to keep going.
 
-#### Abstraction has become too easy to deploy
+#### What questions a talking system brings back
 {: data-toc-skip='' }
-
-Humans have always classified the world. What is different about AI is that classification can now be executed instantly, at volume, and cheaply.
-
-A crude concept confined to a meeting room does limited harm. Write it into a model, wire it to a million automated decisions a day, and the cost of the abstraction is amplified.
-
-This is why evaluating AI cannot stop at benchmark scores. The closer you get to real deployment, the more you have to look at distribution drift, failure modes, human-machine interaction, appeal mechanisms, and second-order behaviour.
-
-Getting a model to report its own confidence is the easy half. A model may remain highly confident on its least familiar input. The system needs an independent way of knowing whether it has arrived somewhere the model has no standing to be confident.
 
-When you use a model for a private judgement, it may affect only you. When a model is institutionalised, it starts being other people's environment.
+AI can learn from the text, images and other data that people have accumulated over a long time, and can also acquire abilities through different kinds of training and tools. Some work that once required a person to learn for many years is work in which machines can now provide useful results; how ability is distributed, though, cannot be guessed by following the order in which humans grow up. Doing a hard task well does not automatically make every apparently simpler task reliable.
 
-From that moment, the model's quality is measured by more than descriptive accuracy. It is measured by what behaviour the deployment induces, who becomes visible, who is excluded, and who has standing to correct it.
+Before discussing "whether it is intelligent", one can first sort out which question one wants to ask. The same answer may concern function, degree of resemblance to humans, internal mechanism or subjective experience:
 
-It has stopped being only a map. It has started moving earth.
+| What you actually want to ask | Where to start checking | What this does not answer on its own |
+|---|---|---|
+| Whether it can complete a given piece of work | The task, its conditions, stability and failures | Whether it completes the work in the same way a person does |
+| Whether its behaviour resembles a person's | Language, actions and modes of interaction | Whether it has the same feelings |
+| What usable representations have formed inside it | How information affects its operation and transfer | Whether this is enough to produce subjective experience |
+| Whether it has subjective experience | First clarify what experience means and what evidence would be acceptable | A single human-like answer cannot close the case |
 
-### 14 — Moving While Uncertain
+Being able to produce sentences about grief is an observable performance; whether it feels grief still needs other arguments. That it uses statistical methods internally is likewise not enough on its own to decide whether it can understand. Only once the questions are sorted out do we know which kind of claim a given observation supports.
 
-> *A good system for understanding does not keep you analysing forever. It tells you when you may stop.*
+Deployment also makes a model part of other people's environment. A classification that exists only on paper and one that takes part in a great many screenings every day have different consequences. Users adjust their inputs, the people being classified respond to the rules, and later data may be affected by earlier decisions. So the original test scores still matter, yet they are not enough to answer how the new behaviour, power and costs are distributed.
 
-Writing this far, we have not arrived at an answer about what the world finally is.
+In a hypothetical workflow, fixed programs can check clearly defined formats and constraints, AI or other search methods propose candidate solutions, and suitable trials then compare the results. AI might also first judge whether the conditions for a known method are met and then call a fixed procedure; if the results turn out anomalous, another approach is tried. Whether this division of labour is useful needs to be confirmed by testing on the task.
 
-What we have is closer to a set of constraints.
+Some low-impact operations can be carried out first and logged, to be checked afterwards; some risks need to be constrained in advance. When a person takes over, they also have to be given the original situation and enough time. Which party seems more human, and which is called the intelligent core, cannot substitute for these arrangements. As for whether to change the shared goal, that still requires the participation of those who bear the responsibility and those who are affected.
 
-Observation and explanation should not be glued together. Purpose decides which differences are worth keeping. A model necessarily distorts, and it still gets pushed back on by reality. Useful and true are two different rulers. Every model has a domain of validity. A counterexample should enter a process of revision rather than be absorbed. Somebody else's viewpoint is a generator, and their stated position is only its output. Intuition is compression, institutions are compression, and once a compression forgets what it did, it starts producing blind spots.
+Each stage may also receive the errors of the stage before. A model's explanations need to be checked against the original data, the tool results and the operation logs; if the generator and the checker would miss the same kind of problem, running it once more does not necessarily add much capacity to catch errors. When designing a check, state which kinds of error it can find.
 
-What should those constraints finally become?
+A person with only a few seconds left, and no view of the crucial information, can hardly carry all the checking that the process on paper hands to them. Who is actually able to spot a problem, and who has the authority to halt or change things, should be designed together with the allocation of responsibility.
 
-If the answer is more terminology, this book has failed.
-
-#### What is needed is a system that can switch back and forth
+#### Self-correction may serve only the original goal
 {: data-toc-skip='' }
-
-Compressed into one sentence of engineering language: a good system for understanding is one that can get back down to the substrate when the debt starts charging interest. No system is free of abstraction debt.
-
-Use high-level models day to day. Lubricate the edges with experience first. Drill down when anomalies repeat. Refactor when the patches start tangling.
-
-The dangerous thing is one-way abstraction: only ever encapsulating upward, never able to get back.
-
-Daily life leaves no room to run a full philosophical analysis each time. You have messages to answer, decisions to make, code to write, a team to lead, family to look after, risks to judge. Most of the time we can only work fast with the concepts and intuitions we already have.
-
-So maturity is not being permanently slow. Maturity is knowing when the fast path has standing to work, and when you need to switch back to the slow one.
-
-The whole book compresses into six windows. They are windows you can open while debugging, and nothing has to be filled in completely.
-
-Most of the time those windows are shut. Chapter twelve already listed what opens them: the environment has changed, results have started to drift, the price of a single error has gone up, a strong feeling has arrived with no traceable source, a counterexample will not go away. When none of those signals is present, letting the compressed judgement work directly is how the system is supposed to run.
 
-| Window | In one line |
-|---|---|
-| Layer | Am I stating observation, explanation, value, or action? |
-| Purpose | What am I actually solving? Who carries the cost? |
-| Abstraction | What does this model keep, and what does it hide? |
-| Domain of validity | Under which conditions has it earned belief? |
-| Viewpoint | Change the role, the scale, or the framing — what moves? |
-| Revision | What outcome would change my mind? |
+A system can be very good at correcting errors while allowing only one kind of error to be named. If a service system asks only whether processing time has been shortened, it can keep learning to close cases faster without ever learning to recognise whether the person's problem has actually been dealt with. Even if feedback from appeals is added, so long as appeals are still defined as a burden to be cleared, the feedback may help the system exclude dissatisfaction more efficiently.
 
-_Table 14.1　The six windows, shortest version_
+Where the system once counted only the time taken to close a case, it now has to trace where that person's difficulty went after the case was closed. Receiving a new piece of experience sometimes makes us rethink even what "done" means.
 
-![Six windows you can re-open](/assets/img/book/en/fig14_1_six_windows.png)
-_Figure 14.1 Six windows you can re-open_
+Those who propose a new goal also need to state their reasons and the likely costs; others may still disagree. But if the institution accepts only suggestions about "how to close cases faster", and never lets anyone discuss whether a case has been resolved, the part that most needs changing stays permanently outside the discussion.
 
-The first window asks about the layer. Am I stating observation, description, causal explanation, a value judgement, or a recommendation for action? Once the layers are muddled, the cleverest reasoning downstream can still be colliding on the wrong window.
+### 15 — What Makes an Understanding Worth Relying On
 
-The second asks about purpose. What is the purpose, over what time horizon, at what cost of failure? Who set it? Who carries the cost it left out of the model? Plenty of apparently insoluble problems stop being the same problem once the purpose is stated.
+When we make a judgement, we are also changing how the next judgement can be made. Relying on a tool may save effort today while letting a skill that goes long unused slowly grow rusty; keeping a record of one failure adds work now, yet those who come later may be spared a stretch of wasted road because of it. The ways we understand the world are themselves changing the capacities and conditions within it.
 
-The third asks about abstraction. What does this model make clear and what does it hide? Do not ask whether it omitted something — it certainly did. Ask whether what was omitted will turn around and decide the outcome on this particular task.
+Begin by comparing two hypothetical public service systems. At present they handle the same cases, and on the results that have been checked they are equally accurate. System A keeps suitable records of its failures, lets those affected add circumstances the original classification had no room for, and has someone responsible for dealing with errors once they are confirmed. System B gradually deletes its failure data, restricts outside comparison, and makes it harder for the people who raise exceptions to go on taking part.
 
-The fourth asks about the domain of validity. Data, environment, population, scale, assumptions, feedback conditions. Any familiar experience that has crossed an environment gets its weight lowered a notch first.
+Judged by the current rate of correct answers alone, there is no difference between them. But B is reducing the means by which we could learn about its later performance. Without records, it is hard to compare whether an error keeps recurring; without access to other sources, it is hard to know whether the original results were complete; once the people who raised exceptions have left, the omissions in the classification also become harder to see.
 
-The fifth asks about viewpoint. Change a role, a scale, a language, and what moves, what stays? Rebuild the other person's purpose, assumptions, data, and values. Where you find shared structure, connect; where you do not, mark the breakpoint and do not force both into one language.
+B may still get the next case right. What is disappearing is the basis on which anyone could later judge whether it did, and the means of making a correction once a problem has been confirmed. A choice made today has already altered the conditions for knowing in the future.
 
-The sixth asks about revision. What would change me? If there is no answer, the model has probably been tied to an identity. At minimum, keep an updating condition for the judgements that matter.
+Personal candour cannot maintain these capacities on its own. Someone willing to admit mistakes may still not know where they went wrong if the only cases they can read about are the successes; an institution that speaks with confidence, if it submits to independent checks that have real effect, may be easier to examine than one that is modest in speech yet refuses to hand over its data. Attitude has to be matched by data, skill and authority before it can actually change a judgement.
 
-The six windows are not there to turn life into a form. Used repeatedly, they should compress into a new kind of intuition, and the windows close again until the next signal pushes them back open.
+Why should effort be spent on preserving the capacity to catch errors? A value judgement needs to be stated openly here: when an error could cause serious loss, and the chance of avoiding it can be kept open at a proportionate cost, we have reason to make that upkeep part of our choice. This is no command derived from the bare fact that people make mistakes. It gives weight to avoidable loss, and at the same time it requires costs, rights and other needs to be weighed against one another.
 
-#### Two loops
-{: data-toc-skip='' }
-
-The whole method can shrink further, into two loops.
-
-The first is the loop of understanding: observe, model, expect, feedback, revise.
-
-The second is the loop of action: purpose, choose, act, outcome, reassess the purpose and the model.
+From this, the book puts forward a claim for evaluating long-term reliance: **while serious uncertainty remains, the choice of a method should also take into account how it affects the capacity, later on, to obtain evidence, to learn, and to correct serious errors.**
 
-![The two loops have to feed each other](/assets/img/book/en/fig14_2_two_loops.png)
-_Figure 14.2 The two loops have to feed each other_
+What is being evaluated here is the reason for continued use. The correct answers a book already contains do not become wrong because its author refuses criticism; but on content not yet verified, on new situations of use, or on future editions, a refusal to have errors checked affects what we have to go on in continuing to believe it. Whether an answer is true, what evidence there already is, and how evidence will be obtained and corrected later are three things that need to be set out separately.
 
-Understand without acting and the model never gets enough of reality back. Act without revising and experience only accumulates into habit rather than judgement.
+The distinction also changes how each case is handled. A method that performs well yet lacks any channel for checking may be helped simply by adding external verification first, without the method itself having to be rewritten straight away. A method whose procedures are open yet which keeps giving wrong answers may need to be revised, or even relieved for a time of some important task; a willingness to be checked is not the same as already being able to do the job. Between A and B, the actual costs still have to be compared, and it cannot be concluded that A should be adopted whatever the price simply because it keeps more procedures in place.
 
-There is a shift here that matters. We do not need to wait for certainty before acting. What we need is to make the acting itself a way of getting information.
+![The horizontal axis shows the conditions for recognising and dealing with serious errors, the vertical axis present performance. Two points at the same height show that the answers need not yet have worsened while the conditions for catching errors have moved from sounder to weaker.](/assets/img/book/en/fig-09-reliance-over-time.svg){: width="1200" height="800" }
+_Figure 15.1　Present performance is the same; the later capacity to catch errors may already differ. Movement to the left marks weakening conditions for catching and correcting errors, and is no prediction that the next case will certainly go wrong; the figure has no measured scale. Drawn for this book._
 
-If a choice is reversible and cheap, try it quickly. If it is irreversible and expensive, add analysis, a second opinion, and a safety margin. Cognitive effort should match the cost of error rather than the state of your ego.
+Conversely, adding an appeal channel that can actually overturn a determination, even before it has raised the average score, may allow people who previously had nowhere to appeal to point out omissions in the classification. Its effect still has to be checked and its cost assessed; but it cannot be concluded that the change has no value simply because the short-term score has not risen. What long-term reliance requires us to compare also includes which evidence can be obtained in future, and who is in a position to make that evidence change a decision.
 
-#### A stopping rule
+#### Catching errors has costs too
 {: data-toc-skip='' }
 
-Every meta-method carries one danger: it turns into unlimited analysis.
+Between services A and B, keeping more records is not always better either. More checking may lower efficiency, and it may intrude on privacy. Publishing certain data in full may expose vulnerable people to fresh harm. Allowing every objection to halt the work may leave an important service unable to run at all.
 
-You can always ask about one more layer of purpose, find one more viewpoint, check one more assumption. That looks careful and mostly postpones acting.
+Preserving the capacity to catch errors has to be weighed together with cost, time limits and rights. Some information can be seen by independent examiners bound by obligations, without being opened to everyone; some exceptions are better reviewed at regular intervals than allowed to interrupt the work each time. The concrete arrangements have to be designed separately.
 
-So a stopping rule is needed. The rule is one question: would one more unit of thinking still have any chance of changing the action?
+If an error-checking arrangement costs a great deal, adds almost nothing to what can actually be detected, or causes a graver loss that cannot reasonably be accepted, there may be no sufficient reason to keep it. Being given the name of oversight does not exempt it from a check on its costs.
 
-If not, act.
+There are also situations in which going on checking the same thing is simply not worth it. If we truly had a sufficient guarantee that a system must be correct under every relevant condition, and that it would never stray beyond those conditions, then checking the same thing over and over might do nothing except add cost. This is why the claim above was limited to cases where serious uncertainty remains and reliance will continue; for a result that is already guaranteed, the mere fact that it could be checked again is no ground for demanding more resources.
 
-If the action itself is reversible and will produce high-quality information, act sooner. A small, reversible, observable trial hands a problem that had been extending indefinitely inside your head back to the world.
+To apply such a guarantee to the system in front of us, its scope has to be established. Which premises does the formal proof use? Which inputs do the tests cover? Will actual use go beyond those conditions? So long as some part that could affect the outcome remains unconfirmed, the reason for catching errors has not entirely gone.
 
-If the error is irreversible and extremely expensive, then more resources up front are worth it.
+An opaque interior does not mean that every kind of reliable evidence is lacking. Performance records, external measurement and suitable comparison can sometimes supply sufficient reason for use. Whether the internal steps need to be understood depends on whether doing so would settle an important question still unconfirmed; transparency in itself cannot be treated as a necessary condition for all knowledge.
 
-That rule matters, because admitting the unknown is not the same as granting the unknown a veto. We live permanently inside incomplete information. A mature system has to be able to manage the unknown.
-
-#### Putting the method inside a real decision
+#### Letting those who come after do more
 {: data-toc-skip='' }
-
-Suppose you are considering an important job offer.
-
-On the surface the question is whether to take it.
-
-The first window makes you separate the layers. Which parts are facts — salary, title, commute, team size, who the direct manager is. Which are explanations — this company has better prospects, this manager will make use of me. Which are values — what you want right now is growth, or stability, or time, or influence.
 
-The second window forces the purpose question, and not at one layer. Right now you may want more income; on a three-year horizon you may care more about capability and optionality; family or health may form constraints that are not available for trade.
+Keeping data is useful because someone can take it and compare afresh; writing out reasons is useful because someone can learn them and point to a step that does not hold. If the data exist but no one has permission to read them, if the method is written down but practice and questioning are never allowed, what gets handed down may be nothing more than the name of an authority.
 
-The third window checks the abstractions. Big company, startup, management track, AI industry are all heavily compressed labels. What will actually shape your days is the kind of work, how much decision authority, what culture, how dense the learning, how much risk.
+What we need to build together therefore includes data that can be obtained, practices that can be learnt, and openings through which new findings can enter decisions. These support one another. A new measurement may expose the inadequacy of an old classification; the account of someone directly affected may point to what ought to be measured; reasons made public allow people far away to redo the comparison. No single person has to know everything first, and other people's results can still become one's own new capacity.
 
-The fourth window asks about the domain of validity. Which kind of team did you succeed in before? What conditions did that success depend on? Which capabilities genuinely transfer? Which confidence comes only from a familiar environment?
+More people able to take part does not make error disappear. A newly added examiner may also be swayed by interests, or may simply carry over the judgements of the original group. What is worth comparing is how much more the data and practices they bring can actually uncover.
 
-The fifth window changes viewpoints. Yourself in three years, your partner, the hiring manager, your current boss — what does each of them see? The exercise is for surfacing the variables you had left out, not for putting their views to a vote.
+The value of an added check can be relative and limited. Two checks that fail in different ways may expose problems better than one check repeated; making the source of the data traceable may be easier to verify than an authoritative signature alone; separating the authority to decide from certain interests may reduce particular distortions.
 
-The sixth window sets the updating condition. What information is still worth getting before deciding? If some signal appears three months in, would you admit the original judgement needs adjusting, rather than continuing to justify it because you have already committed?
+These comparisons do not have to wait for a final examiner who never errs. What they need are concrete reasons showing how the added arrangement changes risks already identified, and whether it is worth its cost. If a layer of oversight merely reproduces the blind spots already present, this book has no reason to count the added layer as progress.
 
-Do all that and you may still have no correct answer. You will have a decision more traceable than an impulse and more actionable than endless analysis.
+Snow in Chapter 2 completed his comparison by relying on residents, landlords and water-supply records; the reader in Chapter 10 followed the reasons and learnt a method they had not known before; the service in Chapter 14 reconsidered what it offered, starting from difficulties the original form could not record. Together these pieces of work enlarged what later people could ask, check and do. Their value goes beyond making the old answers wrong a few times less often.
 
-#### A lot of pain in relationships comes from treating an explanation as an event
-{: data-toc-skip='' }
-
-Between "they did not reply" and "they do not care about me" there may be a few seconds, and cognitively several layers have been crossed. The first is close to an event. The second already contains causality, intention, and a value judgement. The empty boat from chapter one is the cheapest tool here: is the pain coming from the event, or from there having been somebody aboard it?
+A coherent way of thinking can form through learning of this kind. Faced with different problems, it lets proof, interviewing, sensory practice or negotiation each do their own work; choosing among them in turn requires reasons that can be stated and that bear on the problem. One's own experience submits to the same demand. Even "this is how I usually check" can turn out to be a practice in need of revision.
 
-Separating them does not make the feeling go away, and it should not. What helps is letting the feeling stop doing the causal analysis at the same time. You can acknowledge that you were hurt while holding several explanations open. You can ask the other person to respond without first treating an unverified story as their nature. Once the model and the person are kept apart, the model can be updated, and the person may exceed the old representation you hold of them.
+This direction carries forward the thinking introduced earlier. Peirce and Dewey placed inquiry within difficulty, action and experience; bounded rationality brought time and ability into the explanation of judgement; Hutchins's research, together with Clark and Chalmers's argument for the extended mind, made arrangements beyond the individual harder to ignore. Putting these threads together, we can press the question: will the capacities we borrow today give the people of tomorrow a better chance to understand and change their own situation, or make it ever harder to see where something has gone wrong?
 
-#### Two positions worth keeping while reading anything
+#### After seeing clearly, a commitment still has to be made
 {: data-toc-skip='' }
 
-One position goes inside the author's world, letting their concepts actually run. The other stays outside, remembering to ask what problem it serves, which assumptions it depends on, and where it might fail.
+Yet those who come after becoming ever more able to achieve some purpose may also be the more worrying prospect. An oppressive institution can learn to recognise its own failures and maintain the oppression more effectively. Understanding how to get a thing done has not yet answered whether it is worth doing. Effectiveness in knowing cannot by itself manufacture ethical legitimacy. Whether those affected can make demands, and whether they have a right to be free of certain treatment, involves a normative position that has to be defended directly.
 
-Stand only outside and you criticise too early, and end up reading nothing but your own framework. Stand only inside and you may mistake understanding for acceptance.
+The position this book takes is that people should have a real opportunity to offer reasons, raise questions and seek suitable redress concerning arrangements that deeply affect their lives. How neural reflexes and control systems work has not chosen this position for us; a commitment to the standing of persons and to living together has to be defended with ethical and political reasons.
 
-The two can alternate. Suspend the verdict first, until you can use the author's model to predict how they would answer a new question. Then step back and check it against counterexamples, alternative models, and reality constraints.
+If the service system of Chapter 14 wants only to close cases faster, appeals may come to be treated as a number to be kept down. Giving those affected the right to question whether "closed" means the problem has been solved changes what the system ought to learn. Even so, once every party is able to give reasons, a choice everyone agrees on will not necessarily emerge.
 
-Good reading is not a quick ruling on whether a book is right. It temporarily adds one more representation you can call on, and only then decides how much weight to give it.
+In 2009, the breast cancer screening recommendation published by the U.S. Preventive Services Task Force provoked controversy. The recommendation of the time left the question of whether to begin regular mammography between the ages of forty and forty-nine as a decision that had to take account of individual circumstances and the weight given to benefits and harms; for ages fifty to seventy-four, it recommended screening every two years. What is discussed here is a historical document from that year, and it cannot serve as personal screening advice today.[^screening]
 
-This book should be read that way too.
-
-#### Apply the same method to your own framework
-{: data-toc-skip='' }
+Screening looks, among people without relevant symptoms, for signs that may call for further examination. Finding certain cancers early can bring benefit, yet an abnormal result may in the end prove not to be cancer; and some cancers that are found and treated might never have caused symptoms or death within that person's lifetime. These different situations mean that "a few more cases found" cannot by itself answer the question of overall benefit and harm.
 
-If this book's viewpoint has any consistency, it has to turn around and audit itself at the end.
+When comparing effects, the denominator also has to be known. Take first a set of hypothetical figures unrelated to any breast cancer screening data: some programme reduces a risk from four people in every hundred to two. To say "the risk is halved" is correct, and to say "two fewer people in every hundred" is also correct; the second lets the reader know at the same time how large the original risk was. When only the proportional reduction is reported, people readily form different pictures of the actual difference.
 
-Is "purpose is relative" also an abstraction? Yes.
+The controversy of that year concerned whether the evidence was sufficient, how the models estimated the effects, and how benefits and harms should be expressed. Even where some effects are estimated more clearly, it remains to be weighed how much expected benefit is worth how much additional examination, anxiety and cost of treatment. Where an individual has to decide, they also have to be given explanation and support they can understand; simply handing them the choice does nothing to lessen the difficulty.
 
-Is "a model is not reality" itself a model? Yes.
+Richard Rudner proposed in 1953 that how strong the evidence must be before a hypothesis is accepted may depend on the consequences of judging wrongly. Heather Douglas later went further, studying how such inductive risk bears on research methods, the reading of data and inference.[^values] A claim of this sort brings "how great a risk of misjudgement to bear" into the discussion; the evidence itself must still be handled truthfully.
 
-Will the six windows be over-engineered on some problems? Certainly.
+For example, the grave consequences of failing to detect a harmful substance can lead us to demand different conditions of testing; they cannot lead us to rewrite a measured value because we hope the substance is harmless. That values take part in how uncertainty is borne does not mean the facts can be shaped at will.
 
-If a simpler method appears in future that preserves these distinctions and produces better judgements, we should replace the current language.
+Admitting that one may have seen wrongly does not require standing forever in the middle of every dispute. You can be willing to revise your judgement of an institution's effects while making clear that you will not support shifting heavy costs onto people who have no choice. The first concerns evidence; the second puts forward a position that has to be defended.
 
-That is not self-demolition; it is self-consistency.
+That position has a history of its own. Family, education and experience take part in what we care about, but finding the causes that formed a position is not the same as proving it wrong. What still has to be asked is this: knowing all that, are we now willing to go on owning it, can we explain our reasons to those it affects, and are we willing to face the consequences it brings about?
 
-What is worth keeping was never a few particular words. It was a handful of habits: keep the representation and the world apart; put the purpose in front of the answer; remember that a model has a boundary. And two harder ones: understanding is not agreement, and changing your mind is not failure.
+Reason, feeling and experience can all lead us to reassess a value. Coming to understand another person's situation may change the costs we were previously willing to accept; establishing the facts may take the ground from under an earlier anger. If we go further and want to turn our own commitment into a shared rule binding on others, we must also explain who can take part in the decision, and why those affected should accept such an arrangement.
 
-#### Seeing clearly is not the same as standing in the middle
+#### From understanding back to action, and back again
 {: data-toc-skip='' }
-
-In November 2009 the United States Preventive Services Task Force revised its breast cancer screening recommendation. Biennial mammography for women aged fifty to seventy-four was graded B. The band from forty to forty-nine was changed to grade C, meaning the decision should be an individual one and should take the patient's own weighting of the benefits and harms into account.
-
-The argument broke out immediately, and where it broke out is worth looking at.
-
-One thing has to be said first. This was not a case of everybody agreeing on the science and differing only in values. The technical disagreement started at the bottom.
-
-The modelling analysis the Task Force relied on used six independently built models. They ranked the strategies consistently, and on the question of how much of annual screening's benefit biennial screening retains they returned answers from sixty-seven per cent to ninety-nine, averaging eighty-one. That is how wide the spread was between the models alone.
 
-How to compute the headline figure was argued over too, and the argument produced a threefold gap. In 2011 R. Edward Hendrick and Mark Helvie recalculated from the same models' outputs and claimed that annual screening of women forty to eighty-four saves seventy-one per cent more lives than the biennial fifty-to-seventy-four the Task Force recommended. The CISNET working group that had built those models replied in the same journal that year: biennial screening cuts the risk of death from three per cent to 2.3, annual screening from forty to eighty-four cuts it to 1.82, and the additional reduction is twenty-two per cent, not seventy-one.
+The choosing, checking and practising discussed so far move in two kinds of loop. To get something clear, we form an interpretation from observation, state an expectation, and then revise it with new material. To get something done, we choose an action with a purpose in mind, and when the results arrive we check the method and may also change the original purpose.
 
-Both numbers can be derived. They answer different questions. The first asks what proportion the extra lives are of the lives already being saved; the second asks how much further the risk can be pushed down. Same model outputs, a different way of stating them, and the gap looks three times as large. The CISNET reply added one more thing: that seventy-one per cent listed the benefit without listing the extra examinations and harms that come with it.
+The two loops can interleave. A trial run under suitable conditions can help identify a need that could not be articulated before; a research finding may strip an otherwise attractive goal of its justification. But action is not an all-purpose licence to experiment. When someone will be hurt, when rights and interests will change, when an opportunity may not be recoverable, a thing cannot be carried through simply because it would aid learning.
 
-So this dispute can be taken down through several layers: which evidence to use, which models, which measure of benefit to treat as primary. This book's method helps on all of them.
+A single check may also change what was originally to be done. Recovering the record made on the spot may mean correcting only one number; hearing out the experience of someone never asked before may reveal that the scope of the problem needs to widen. There is no need at that point to run through every earlier chapter again; following the difficulty that has actually appeared is enough.
 
-And at the bottom a question is still left over. The estimate the Task Force cited was that in the forty to forty-nine band roughly 1,904 women have to be invited to screening to prevent one breast cancer death (for fifty to fifty-nine the figure is 1,339; for sixty to sixty-nine, 377). Facing that one death averted are the other 1,903 people who got invited in, some of whom will collect a false positive, a biopsy, or treatment for something overdiagnosis found. How much should each side of that weigh? No further medical number settles that layer.
+The stopping question of Chapter 11 still holds: what might the next step of analysis change, and how much time is it worth? Even so, that a question will not change the action in front of us for now does not mean it is never worth studying. You can complete the present decision first and set aside other time for the needs of learning and understanding for their own sake. The two pieces of work do not have to be settled on the same evening.
 
-So a distinction is needed here, or the whole book will be read as a permanent abstention.
+With time, some distinctions become second nature. You do not have to recite the definitions of observation and interpretation before noticing that an accusation carries an unproven guess inside it; nor do you have to draw the whole institutional map before knowing that the person in front of you lacks the authority to deal with a problem they have already seen. Once a method has been learnt, it can take up less of one's awareness, leaving attention for the differences that belong to this occasion alone.
 
-Keeping a factual judgement revisable and declining to commit on a value are two different things. "I may have the actual effect of this policy wrong" is the first. "If the evidence really shows that this arrangement pushes most of the cost onto the people with the fewest options, I think it is not worth it" is the second. Both can hold at once. "I might be wrong" does not license "so I take no side."
-
-One layer further down, the method itself carries a position.
-
-That list in chapter nine for breaking a dispute apart — data, definitions, causation, scale, purpose, values and risk, power — is not a classification handed down from some neutral height. It is a chosen allocation of attention. It put power on the list and did not give efficiency a line of its own; it insists on asking who carries the cost, not only whether the total went up. These are decisions, not observations.
-
-There is a line in philosophy of science that puts this more precisely. In 1953 Richard Rudner argued that a scientist accepting a hypothesis must first decide how strong the evidence has to be to count as enough, and that the threshold for "enough" depends on how serious the consequences of being wrong would be, so the decision carries a value. In 2000 Heather Douglas built this into a full argument, and showed that the same trade-off runs through the internal stages of the work: the choice of method, the classification of data, the interpretation of results.
-
-Earlier still, in November 1917, Max Weber gave the lecture in Munich that came to be known as "Science as a Vocation". His conclusion contains a sentence that is not easy to accept: the ultimately possible attitudes toward life are irreconcilable, and so a person has to decide. Scholarship can work out the cost of each road; it cannot pick one for you.
-
-Chapter twelve was about how intuition and reason hand work to each other. A third thing appears here. Reason can say how the world might work and intuition can point out where something is off, and neither of them can answer what you are willing to bear a cost for. Nor does value escape inspection on that account: it still has to face the consequences it actually produces, and whom it has placed the cost on.
-
-One last thing to add: values have a provenance too.
-
-Knowing the provenance does not automatically overturn it. "I care about this because of the environment I grew up in" does not entail "so this value is false": that convicts the content on the strength of its origin. What a provenance asks is something else: knowing all of that, am I still willing to claim it today?
-
-Being open to re-examination is not the same as having no commitments. Just as revisable knowledge is not the same as no knowledge.
-
-So what this method is finally for is making a commitment clearer-eyed, not letting somebody route around commitment. Breaking a value conflict down cleanly does not guarantee the conflict has a compromise, which is exactly why the breakpoint map in chapter nine exists.
-
-One more layer has to be kept apart. When a commitment binds only you, the last step can be a personal one. When it is to become a shared rule binding other people, a further question appears that this book cannot spare you: who has standing to decide, and on what grounds that decision counts as legitimate. This is where the question about power in chapter nine finally arrives.
-
-The screening recommendation demonstrates that last step itself. The Task Force ended up pushing the decision in the forty-to-forty-nine band back to the individual, and wrote "the patient's values regarding specific benefits and harms" into the recommendation in as many words. The approach is open to criticism: it hands the hardest judgement to the person with the least information. What it did not do was pretend that the weighting was a medical question.
-
-#### What is left is not six questions
+#### One way of thinking, with room for different practices
 {: data-toc-skip='' }
 
-If the six windows become a checklist to be filled in every time, they will turn into a new rigid model of their own.
+The sentence from the preface, "I have thought about it carefully", now has a continuation. What information was to hand while thinking, whose methods were borrowed, what still remains undealt with? Only in answering these questions do we learn what that care accomplished.
 
-Their value is only in the transition period, like memorising the actions while learning to drive, after which the actions disappear from awareness.
+Reflection itself has to submit to this kind of checking. Going back over one's reasons may turn up a contradiction, or it may amount to turning the same thoughts over and over, eating up time for observation, rest and action. If, because we advocate reflection, we no longer allow its effects and costs to be compared, we have made an exception for precisely the method we trust most.
 
-What should remain is a few deeper reflexes. Hearing a very complete story, wondering by itself which part is observation and which is explanation. Seeing a handsome indicator, wondering whose complexity it saved. Crossing into a new environment, instinctively lowering the weight on old experience. Arguing with somebody, looking first for the layer of the disagreement. And when your own theory is at its most successful, being more willing to ask what would make it fail.
+Coherence has practical content here. If I hold that the origins of a view may shape other people's judgements, I cannot declare that a statement has no formation history worth studying merely because it came from me. If I say direct experience deserves weight, I must also allow other people's experience to raise difficulties for my classifications. The same reason can carry different weight on different occasions, but the difference has to be supported by the circumstances and cannot be settled by "this time it is me".
 
-A method should finally become a temperament. Not a sense of superiority — a temperament somewhat harder to carry away on your own certainty.
+A familiar operation can rely on practice that has already received feedback; an unfamiliar choice may call for looking up more data; in an emergency, one must use whatever capacity is most reliable at that moment. These differences need not break the coherence; what has to be accounted for is why time, evidence and consequences led us to switch to another practice.
 
-#### The final test is whether you can change more easily
-{: data-toc-skip='' }
-
-Reading a book about mental models, the easiest irony is coming away with one more vocabulary for explaining other people.
+Consistency is still not enough to guarantee correctness. A whole set of ideas may rest on wrong data, or may never have counted in the needs of some group of people. So besides checking whether one's own statements are compatible with one another, they have to be compared against actual results, other people's experience and objections.
 
-The real test is not whether you can point out somebody else's abstraction error, domain error, smuggled value, or viewpoint breakpoint. It is whether you can see the same thing when it happens to you.
+![The inner loop runs from problem and method to action and results; the outer loop sends unexpected material back to the original purpose and criteria of evaluation, and where necessary revises the reasons for choosing the method as well.](/assets/img/book/en/fig-18-method-review.svg){: width="1200" height="840" }
+_Figure 15.2　Sometimes the answer has to change; sometimes the way of judging has to be reconsidered. The outer loop shows that the existing arrangement can be re-examined, without requiring the whole way of thinking to be rebuilt for every action. Drawn for this book._
 
-Can you lower the weight on a model you have succeeded with, once it starts failing? Can you keep an entrance open for a counterexample while your identity is under threat? Can you admit that an idea which once saved you no longer fits today?
+To demand, every time, that the criteria be proved infallible before one is permitted to begin is to fall back into the difficulty of Chapter 11. Judgement moves forward on the knowledge it already has, and leaves places where one can come back later and correct it.
 
-If you can, these tools have not turned into new armour. Holding a few more frameworks is not the hard part; being able to switch when the world declines to cooperate is.
+Those who come after will do more than correct us. Given the reasons and the chances to practise that we leave behind, they may ask questions we have not yet thought of. Making that possible is one more reason an understanding deserves to be handed down.
 
-#### Back to that gap
+#### This book is in it too
 {: data-toc-skip='' }
-
-The preface said this book wanted to leave a gap between "the world is like this" and "this is how I currently understand the world."
-
-By the end, that is still the part that matters most.
-
-The gap is not doubting everything. It gives you half a second to see what is speaking right now: an observation, a story, a model, an emotion, an identity, or some intuition that used to work very well.
-
-Sometimes, having looked, you make exactly the same decision.
-
-And that decision is no longer only "this is how I feel." It knows where it came from, and it knows when to come back and look again.
-
-Nobody can hold a worldview that is permanently correct.
-
-What matters more is a different capability: when the world embarrasses your worldview, can you go on talking to the world.
-
-If you can, that is enough.
-
-## Afterword — Putting the Tools Down
-
-A toolbox contains a paradox: once you have genuinely learned to use the tools, you stop looking at them.
-
-Abstraction debt has the same paradox in it. We cannot stop borrowing. Every concept, every professional vocabulary, every fast intuition trades "not seeing all of it" for "being able to act now." Maturity does not refuse that trade. Maturity only refrains from mistaking "no bill has arrived yet" for "no payment will ever be due."
-
-You walk into an argument and do not silently recite purpose, assumptions, data, values. You simply notice a little sooner that the two sides are not talking on the same layer.
-
-You face a familiar model and do not fill in a domain-of-validity form each time. The environment changes and your confidence drops a notch by itself.
-
-You hear a moving story and do not need to take it apart on the spot. You simply stop topping it up with truth because it moved you.
-
-There is a distance between those three, and that distance is roughly the road this book has travelled.
-
-Early on, it takes a deliberate reminder: what I am seeing is not the world, it is the world as it appears inside my model. The sentence has to be said out loud to work.
-
-After a while it becomes possible to see how a model formed — what it kept and for which purpose, under which conditions it holds, where the bill will arrive from.
-
-After a while longer you can go and stay inside somebody else's model for a spell. Not only a person's: a law, a stretch of code, a procedure, all the things that judgements have hardened into.
-
-After a while longer, what you carry out of somebody else's thinking is no longer just an answer. It is a relation that still works once the clothing is changed.
 
-And then these moves start to get fast. Fast enough that they stop resembling moves.
+This book has chosen certain stories, materials and ways of putting things, and so it readily draws the reader's attention to some matters while passing over others. It spends many pages on method, but what a person sometimes truly lacks is time to rest, or someone willing to hear them tell the whole story through. To write all of that up as a failure of thinking would misread their situation just as badly.
 
-When a method has genuinely matured, it recedes from the foreground into the background.
+If a reader finds that a distinction does not help, that an example does not match the data, or that following the analysis caused them to miss what ought to have been done, this book too needs to change. It cannot earn the standing of something worth relying on in advance, merely by advocating correction.
 
-So what gets put down at the end is not knowledge. It is the rules that no longer have to be recited, because they have become part of the understanding itself.
+## Afterword — After Understanding, Living Together
 
-This book had better disappear that way in the end.
+When the priest handed the child to the woodcutter, the killing in the wood still had no answer. Nor did we find one for him in the chapters that followed. Whether the woodcutter stole the dagger, and how he will care for the child from now on, remain things that still have to be understood.
 
-It does not need to become your new identity, and it does not need to become a vocabulary for correcting other people. If anything, if one day you have nearly forgotten these names and find it easier to say "I do not know right now," easier to understand precisely a viewpoint you oppose, and more willing to re-examine an old intuition in a new environment, then it has done its work.
+Yet the two men had already responded from within that incomplete understanding. The story did not wait for everything to be established before letting someone carry the child away in his arms. This has kept me attentive to one thing. We want to get matters clear, and often we want it because other people live inside those matters with us, waiting for an answer, or bearing the consequences of there being none yet.
 
-The world will not get simpler because we became humbler.
+Knowing this does not suddenly make judgement easy. Some harms have to be stopped at once, while some causes take a long time to trace; some people can state their reasons clearly, while others have not yet found the right words. We need knowledge, and we also need the time, the tools and the help from one another that let knowledge arrive.
 
-We can mistake our own simplifications for the world a little less often.
+To write down a reason is to hand one's own understanding to someone else. They may carry on using it, or they may point to what we failed to see. Someone is willing to leave a record of a failure; someone is willing to demonstrate a movement that cannot be put into words; someone brings into the discussion an experience that previously had nowhere to be voiced. Later understanding begins from concrete work of this kind.
 
-That may not be ultimate wisdom, but it is a starting point that can keep being revised.
+We cannot decide for the next person what they ought to see. What we can do is make sure that today's understanding, useful as it already is, does not become the reason they can no longer ask tomorrow.
 
 ## Coordinates and Sources
 
-This book is not a summary of the works below, and it does not ask you to accept any one author's position whole. What they provide is coordinates: some support the book's discussion of models, bounded rationality, counterexamples, conceptual boundaries, and intuition; others supply the problems this book had to distinguish itself from or correct. The stories and figures used in the text are sourced here as well, so you can go back and check them yourself.
+The historical facts, studies, interviews and retellings of literary works in the main text rest on the sources listed below. Images are credited separately in their captions and image-source notes; historical image files are kept apart from the diagrams drawn for this book. Literary works are kept for their narrative and intellectual value; interviews are kept as the experience of those interviewed and as reconstruction after the event. Cases explicitly marked as hypothetical are used to test reasoning and do not pose as actual events. The evaluative claims and institutional proposals in Chapter 15 are positions this book puts forward and defends; they should not be read as conclusions that the works below jointly endorse.
 
-#### Perspective, attribution, and classical sources
-{: data-toc-skip='' }
+[^snowmap]: John Snow, the map recording the 1854 outbreak in *On the Mode of Communication of Cholera*. [Image file and rights information](https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg). The original is in the public domain; this book uses the 3,840-pixel version provided with the file, with the content of the map unaltered. The clustering of deaths on the map cannot on its own replace the investigation of the water source.
 
-*Zhuangzi*, "Mountain Trees" (outer chapters).　The empty-boat passage: an empty hull strikes your boat and even a bad-tempered man is not angry; put a person aboard and by the third shout the voice turns ugly. "Before, no anger; now, anger. Before, empty; now, occupied." Chapter one quotes the last two clauses.
+[^map1908]: *Underground Railways of London* (1908). [Image file and rights information](https://commons.wikimedia.org/wiki/File:Tube_map_1908.jpg). The file page lists the author as unknown and the work as public domain; the 1,932 × 1,530 pixel image supplied is used. It serves as a historical map from before Beck's design and is not treated as a controlled comparison of the same network.
 
-Akira Kurosawa, *Rashomon.* 1950.　Adapted from Akutagawa's "Rashōmon" and "In a Grove," with the plot taken from the latter. Using the word to mean "everyone tells a different story" is a usage that postdates the film.
+[^map1933]: Henry Charles Beck, *London Underground Transport* (1933), the second edition of that year; collection number 8727.003. [David Rumsey collection record and licence details](https://archive.org/details/dr_london-underground-transport-8727003). Image credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries. The image is used under the CC BY-NC-SA 3.0 licence listed by the collection; it has not been cropped, recoloured or redrawn. This licence for the digital file applies separately to the right-hand image of Figure 4.1.
 
-Immanuel Kant. *Kritik der reinen Vernunft.* 1781 (2nd ed. 1787).　Appearance and the thing in itself; space and time as forms of sensibility. The lineage of the objection in chapter one, and the showcase that collapses in chapter seven.
+[^hans]: Oskar Pfungst (1911). *Clever Hans (The Horse of Mr. von Osten): A Contribution to Experimental Animal and Human Psychology*. Translated by Carl L. Rahn. Henry Holt and Company; the German original was published in 1907. [Full text of the original study](https://www.gutenberg.org/files/33936/33936-h/33936-h.htm). The whispered addition in Chapter 1 follows the book's experiments in which "the questioner does not know the answer": 3 correct out of 31 tests with unknown sums, 29 correct out of 31 tests with known sums. For the postural and head signals see the book's analysis of movements; these figures are limited to that set of tests.
 
-#### Maps, representation, and abstraction
-{: data-toc-skip='' }
+[^snow]: John Snow (1855). *On the Mode of Communication of Cholera*, 2nd ed. John Churchill. [Original text of the Broad Street investigation](https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_a.html), [original text of the water-company comparison](https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html), hosted by the UCLA John Snow site. Chapter 2 retells the workhouse, the brewery, the Hampstead case and the water-supply investigation from the book. The figure of 535 refers to the workhouse's resident population; the eight- to ninefold figure compares deaths per 10,000 supplied houses in the first seven weeks of the outbreak, not the risk per 10,000 people. The book also records supplies not yet identified and cases that were estimated.
 
-Alfred Korzybski. *Science and Sanity.* 1933.　The general-semantics tradition behind "the map is not the territory." The dog-biscuit demonstration in chapter four is a widely retold anecdote and is not in the book's main text.
+[^alice]: Lewis Carroll (1865). *Alice's Adventures in Wonderland*, Chapter III, “A Caucus-Race and a Long Tale”. [Original text](https://www.gutenberg.org/files/11/11-h/11-h.htm). Chapter 3 retells the episode in this book's own words; the reading of purpose, evaluation and the allocation of costs is this book's argument.
 
-Ken Garland. *Mr Beck's Underground Map.* 1994.　The full account of Harry Beck's 1931 design, including the publicity department's initial refusal.
+[^beck]: Transport for London Corporate Archives. *Research Guide No. 24: Harry Beck*. [Archive research guide](https://tfl.gov.uk/cdn/static/cms/documents/research-guide-24-harry-beck.pdf); London Transport Museum, [the 1933 pocket Underground map in the collection](https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1983-415). Chapter 4 keeps the history of the design and its adoption, and does not merge the payments for different commissions into a single anecdote.
 
-Steven Johnson. *The Ghost Map.* 2006.　The 1854 Soho cholera outbreak and John Snow's dot map. It also discusses how the pump-handle story became exaggerated in popular retellings.
+[^af447]: Bureau d'Enquêtes et d'Analyses (2012). *Final Report on the Accident on 1st June 2009 to the Airbus A330-203 Registered F-GZCP Operated by Air France, Flight AF 447 Rio de Janeiro–Paris*. [Investigation report, preserved by the FAA](https://www.faa.gov/sites/faa.gov/files/AirFrance447_BEA.pdf). For the sequence of control inputs and warnings see pages 21–24 of the report; for the analysis and conclusions see sections 2 and 3. Chapter 5 uses it to distinguish the control inputs, the validity of the airspeed readings, the state of the aircraft and the crew's understanding; the problem of hand-over at the interface is the angle of analysis this book draws from it.
 
-Peter Pronovost et al. "An Intervention to Decrease Catheter-Related Bloodstream Infections in the ICU." *New England Journal of Medicine* 355(26), 2006, 2725–2732.　One hundred and eight intensive care units in Michigan (103, across 67 hospitals, reporting data). Five steps: hand washing, full barrier precautions, chlorhexidine skin cleaning, avoiding the femoral site, removing unnecessary catheters. Median infection rate fell from 2.7 per thousand catheter-days to zero. The five-item list in chapter four.
+[^andersen]: Hans Christian Andersen, “The Little Match Girl”, in *Andersen's Fairy Tales*. [Gutenberg English translation](https://www.gutenberg.org/files/1597/1597-h/1597-h.htm). Chapter 6 retells the story in this book's own words, keeping the sequence of the stove, the roast goose, the Christmas tree, the star and the grandmother, and the ending in which she is taken to God while what the street sees is a death.
 
-Leonardo of Pisa (Fibonacci). *Liber Abaci.* 1202.　Set out the arithmetic of Hindu-Arabic numerals systematically and pushed it into commercial calculation. It did not "introduce" the numerals to Europe: Gerbert of Aurillac had met the symbols in Spain in the tenth century, and place value and zero had entered Latin Europe once twelfth-century translators around Toledo put al-Khwārizmī's arithmetic into Latin.
+[^wald]: Abraham Wald (1943; reprinted 1980). *A Method of Estimating Plane Vulnerability Based on Damage of Survivors*. Center for Naval Analyses; originally a set of memoranda for the Statistical Research Group at Columbia. [Reprint in the archive](https://archive.org/details/DTIC_ADA091073), [transcription of the text](https://archive.org/download/DTIC_ADA091073/DTIC_ADA091073_djvu.txt). Chapter 8 follows its research question, estimating loss probabilities from survivor data, and does not add dramatised dialogue between officers and mathematicians. The popular version, "add armour only where the bullet holes are fewest", does not state the assumptions Wald's estimate relied on. The chapter keeps the distinction between the probability of being hit and the probability of surviving a hit, and does not treat the count of holes as a complete rule for armour design in itself.
 
-Medieval Latin *algorismus* meant arithmetic carried out with Hindu-Arabic numerals, not today's sense of a finite procedure for an arbitrary problem; the modern word algorithm evolved from it, its root being the Latinised name of al-Khwārizmī. The dispute between abacists and algorists ran for centuries; in 1299 Florence forbade its bankers to use Arabic numerals. See Barbara Reynolds, "The Algorists vs. the Abacists." *College Mathematics Journal* 24(3), 1993.
+[^rashomon]: Akira Kurosawa (director), Shinobu Hashimoto and Akira Kurosawa (screenplay), *Rashomon* (1950), adapted from the work of Ryūnosuke Akutagawa. [Criterion film record](https://www.criterion.com/films/307-rashomon), Stephen Prince's [review and structural analysis](https://www.criterion.com/current/posts/195-the-rashomon-effect), [plot summary of the film](https://en.wikipedia.org/wiki/Rashomon). What Chapter 9 retells is the film: the shelter from the rain under the gate, the differing causes of death in the testimonies, the woodcutter's changed account, the accusation over the dagger and the adoption of the child; the film's framing plot does not belong to the content of Akutagawa's original “In a Grove”.
 
-Jill H. Larkin & Herbert A. Simon. "Why a Diagram is (Sometimes) Worth Ten Thousand Words." *Cognitive Science* 11(1), 1987, 65–99.　The distinction between informational equivalence (the content of two representations is mutually inferable) and computational equivalence (the same inference is equally easy in both). Their examples are diagrams against prose for pulley and geometry problems, not Roman numerals; the notation example in chapter four is this book's own extension.
+[^zhuangzi]: *Zhuangzi*, [“The Mountain Tree”](https://zh.wikisource.org/zh-hant/%E8%8E%8A%E5%AD%90/%E5%B1%B1%E6%9C%A8) and [“The Secret of Caring for Life”](https://zh.wikisource.org/zh-hant/%E8%8E%8A%E5%AD%90/%E9%A4%8A%E7%94%9F%E4%B8%BB). Chapter 9 retells the empty boat and Chapter 12 retells Cook Ding; the intellectual and literary context is kept, and this book's contemporary extension is kept apart from the physiological research.
 
-Slava Kalyuga, Paul Ayres, Paul Chandler & John Sweller. "The Expertise Reversal Effect." *Educational Psychologist* 38(1), 2003, 23–31.　A detailed explanation that helps a novice can become a redundant load for somebody who already holds the relevant structure. The basis for the section "Who is holding this map" in chapter four; the underlying claim of cognitive load theory is that learning lets structures in long-term memory relieve working memory.
+[^darwin]: Charles Darwin (1887). *Autobiography*, edited by Francis Darwin in *The Life and Letters of Charles Darwin*. [Text of the autobiography](https://www.gutenberg.org/files/2010/2010-h/2010-h.htm). Chapter 10 follows his retrospective account of how reading Malthus in 1838 combined with his earlier observations. For the background on population and the means of subsistence see Thomas Malthus, [Chapter 1 of *An Essay on the Principle of Population* (1798)](https://www.gutenberg.org/files/4239/4239-h/4239-h.htm). After forming his preliminary explanation, Darwin went on gathering evidence and developing the theory.
 
-Jane Jacobs. *The Death and Life of Great American Cities.* 1961.　Redescribing the same street under a different purpose. On the conflict with Robert Moses, see Robert Caro, *The Power Broker*, 1974.
+[^con]: Raymond Chen (2003). “What's the Deal with Those Reserved Filenames Like NUL and CON?” [An engineer's historical explanation](https://devblogs.microsoft.com/oldnewthing/20031022-00/?p=42073); Microsoft, [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file). Chapter 10 distinguishes the historical explanation from the current rules of each interface; the documentation was checked on 8 September 2026.
 
-#### Bounded rationality, intuition, and expert judgement
-{: data-toc-skip='' }
+[^apollo]: NASA, *Apollo 11 Lunar Surface Journal*, [transcript of the descent and landing communications](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html), in particular the report from mission time 102:38:26, the reply at 102:38:53 to continue the descent, and the repeated alarms that followed; Fred H. Martin (1994), [a participant's retrospective on the program alarms](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-fm.html). The exchanges between the astronauts and Duke in Chapter 11 are retold from the transcript; the division of engineering work on the ground and the search for the cause after landing also draw on the editors' notes and Martin's later recollection.
 
-Herbert A. Simon. *Models of Man.* 1957; *The Sciences of the Artificial.* 1969.　Bounded rationality, satisficing, and the scissors metaphor. Nobel Prize in Economics, 1978.
+[^deafferentation]: J. D. Cole & E. M. Sedgwick (1992). “The Perceptions of Force and of Movement in a Man without Large Myelinated Sensory Afferents below the Neck.” *The Journal of Physiology, 449*, 503–515. [Abstract of the study](https://europepmc.org/article/MED/1522522). Chapter 13 is limited to this case's loss of sensation, visual feedback and motor performance, and does not extend the case's results into a condition shared by all sensory disorders.
 
-Daniel Kahneman. *Thinking, Fast and Slow.* 2011.　Fast intuition and slow reasoning. His collaboration with Tversky began in Jerusalem in 1969.
+[^wellsfargo]: Consumer Financial Protection Bureau (2016), [enforcement record for Wells Fargo Bank, N.A.](https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-2016/). Chapter 14 draws on the regulatory record to discuss unauthorised accounts, sales incentives and the cost to customers, and does not invent month-by-month changes, the inner lives of individual employees or the effects of every reform since.
 
-Gary Klein. *Sources of Power: How People Make Decisions.* 1998.　Recognition-primed decision; the fire lieutenant in chapter twelve comes from this book.
+[^forer]: Bertram R. Forer (1949). “The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility.” *The Journal of Abnormal and Social Psychology, 44*(1), 118–123. [DOI of the original paper](https://doi.org/10.1037/h0059240). Chapter 6 keeps the classroom demonstration, distinguishing the rating of the diagnostic instrument from the rating of the descriptive content, and does not let satisfaction stand in for the ability to discriminate.
 
-Daniel Kahneman & Gary Klein. "Conditions for Intuitive Expertise: A Failure to Disagree." *American Psychologist* 64(6), 2009.　The two conditions they arrived at jointly: sufficiently stable regularities, plus enough practice with feedback.
+[^russell]: Bertrand Russell (1912). *The Problems of Philosophy*, Chapter VI, “On Induction”. [Original text](https://www.gutenberg.org/files/5827/5827-h/5827-h.htm). Chapter 7 keeps the chicken of the original and does not mix in the timing or the holiday of the later turkey version; this book's practical discussion of extrapolation does not claim to have solved the whole problem of induction.
 
-Gerd Gigerenzer. *Gut Feelings.* 2007; *Risk Savvy.* 2014.　The ecological rationality of heuristics; the outfielder's gaze heuristic.
+[^klein]: Gary Klein (1998). *Sources of Power: How People Make Decisions*. MIT Press, the interview narratives on intuition and fireground commanders. [Publisher's record](https://mitpress.mit.edu/9780262611466/sources-of-power/). Chapter 12 keeps the incidents the researcher recorded and his questioning after the event, kept apart from accident investigation and real-time measurement of the mind; for the conditions of professional reliability see also Kahneman and Klein (2009).
 
-The Cardiac Arrhythmia Suppression Trial (CAST) Investigators. "Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression after Myocardial Infarction." *NEJM* 321(6), 1989; full report *NEJM* 324(12), 1991.　Two drug arms halted in April 1989; total deaths fifty-six of seven hundred and thirty against twenty-two of seven hundred and twenty-five, relative risk two and a half. The standard case of suppressing a surrogate endpoint without improving the outcome.
+[^bainbridge]: Lisanne Bainbridge (1983). “Ironies of Automation.” *Automatica, 19*(6), 775–779. [PDF of the original paper](https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/@@download/file/Bainbridge1983_Automatica_Ironies%20of%20automation.pdf). Chapter 5 adopts its analysis of the manual tasks, the skills and the difficulty of taking over that remain after automation.
 
-Himabindu Lakkaraju, Jon Kleinberg, Jure Leskovec, Jens Ludwig & Sendhil Mullainathan. "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables." *KDD* 2017.　Observable outcomes are picked out by the prior decisions themselves and are therefore not a random sample of the population; detention and release is the standard example. The filter in chapter twelve that turns back on your own experience.
+[^placebo]: Ted J. Kaptchuk et al. (2010). “Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome.” *PLOS ONE, 5*(12), e15591. [Full text of the study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0015591). Chapter 6 is limited to the study's short-term, self-reported symptom outcomes and its research conditions.
 
-Baruch Fischhoff & Ruth Beyth. "I knew it would happen: Remembered probabilities of once-future things." *Organizational Behavior and Human Performance* 13(1), 1975, 1–16.　Forecasts collected before Nixon's visits to China and the Soviet Union, with the same people afterwards asked to recall what they had given; for events that occurred, the recalled probability exceeded the one originally written down. This is what the decision log in chapter eight and the intuition record in chapter twelve are aimed at.
+[^cast]: Cardiac Arrhythmia Suppression Trial Investigators (1989). “Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression after Myocardial Infarction.” *New England Journal of Medicine, 321*, 406–412. [Record of the original paper](https://pubmed.ncbi.nlm.nih.gov/2473403/), [NHLBI study database description](https://biolincc.nhlbi.nih.gov/studies/cast/). Chapter 8 draws on the results of the specific treatment arms to discuss the difference between surrogate indicators and survival outcomes.
 
-Baruch Fischhoff. "Hindsight ≠ Foresight: The Effect of Outcome Knowledge on Judgment under Uncertainty." *Journal of Experimental Psychology: Human Perception and Performance* 1(3), 1975.　A different design from the same year: subjects are told the outcome and then asked to judge, as though they did not know it, how likely each outcome had been. It shows that a known outcome looks more foreseeable, not that a person's memory of their own forecast gets rewritten. The two are frequently conflated; the entry above is the source for the latter.
+[^peirce]: Charles S. Peirce (1877). “The Fixation of Belief.” *Popular Science Monthly, 12*, 1–15. [Original text](https://www.peirce.org/writings/p107.html). Chapters 10 and 15 use it to locate the intellectual source of the discussion of belief and inquiry, and do not use it to reduce pragmatism to "whatever is useful is true".
 
-John R. Anderson. "Acquisition of Cognitive Skill." *Psychological Review* 89(4), 1982, 369–406.　The two stages of skill formation: a declarative stage that is slow, error-prone, and requires rehearsing the statements to oneself; then, through knowledge compilation, conversion into procedures, with speed rising and the rehearsal dropping out. The basis for the section "Working it out is not yet internalising it" in chapter twelve.
+[^dewey]: John Dewey (1910). *How We Think*. D. C. Heath. [Full text of the 1910 edition](https://www.gutenberg.org/cache/epub/37423/pg37423-images.html). Chapters 10 and 15 carry forward its discussion of reflection, concrete difficulties and checking; the promise case and the bounded analysis steps in the main text are this book's own construction.
 
-Leonard G. Rorer. "Dealing with the Intellectual-Insight Problem in Cognitive and Rational Emotive Behavior Therapy." *Journal of Rational-Emotive and Cognitive-Behavior Therapy* 17(4), 1999, 217–236.　The clinical name for the phenomenon in which a client acknowledges that a belief is irrational while saying they still do not believe or cannot accept that.
+[^resource]: Falk Lieder & Thomas L. Griffiths (2020). “Resource-rational Analysis: Understanding Human Cognition as the Optimal Use of Limited Computational Resources.” *Behavioral and Brain Sciences, 43*, e1. [PDF of the paper and commentaries](https://cocosci.princeton.edu/papers/liederresource.pdf). Chapters 11 and 15 use it to describe a line of research that brings cognitive cost into the analysis. The forty-minute study arrangement in the main text is a hypothetical example for illustration, not an intervention this research has tested; nor does the resource-rational framework guarantee that people in fact always allocate their thinking optimally.
 
-Judith S. Beck. "Does Cognitive Behavior Therapy Include Insight?" Beck Institute, 8 June 2021.　Insight is an important part of cognitive therapy, and on its own it is not sufficient for most patients to improve; actual change in thinking and behaviour is also required. This is the position cited in that section of chapter twelve.
+[^smell]: Wen Li, Isabel Moallem, Ken A. Paller & Jay A. Gottfried (2007). “Subliminal Smells Can Guide Social Preferences.” *Psychological Science, 18*(12), 1044–1049. [PDF of the paper provided by the authors](https://faculty.wcas.northwestern.edu/paller/PsychSci07.pdf). Chapter 12 is limited to the effect of odours not consciously detected on specific evaluations, and does not use it to prove that intuition is generally accurate.
 
-Donald A. Schön. *The Reflective Practitioner.* 1983.　Reflection and tacit knowledge inside professional practice.
+[^intuition]: Daniel Kahneman & Gary Klein (2009). “Conditions for Intuitive Expertise: A Failure to Disagree.” *American Psychologist, 64*(6), 515–526. [DOI of the paper](https://doi.org/10.1037/a0016755). Chapter 12 adopts the conditions of environmental regularity and learning feedback, and distinguishes subjective confidence from the reliability of judgement.
 
-Philip E. Tetlock. *Expert Political Judgment.* 2005.　Nearly three hundred experts, more than eighty thousand time-bounded forecasts, and the concept of calibration.
+[^clotting]: National Heart, Lung, and Blood Institute. “How Blood Clots.” [Official explanation](https://www.nhlbi.nih.gov/health/clotting-disorders/how-blood-clots). Chapter 13 uses it for the basic distinction between platelets, clotting proteins and the formation of a clot.
 
-#### Counterexamples, frameworks, and scientific change
-{: data-toc-skip='' }
+[^spinal]: University of Hawaiʻi. “General Senses and Spinal Cord.” *Anatomy and Physiology*. [Open textbook](https://pressbooks-dev.oer.hawaii.edu/anatomyandphysiology2021/chapter/13-general-senses-spinal-cord/). The concepts of the reflex arc, the spinal cord and descending motor regulation that Chapter 13 needs can be found in the Motor Pathways and Reflexes sections of that chapter.
 
-Karl Popper. *The Logic of Scientific Discovery.* 1934 (English 1959); *Conjectures and Refutations.* 1963.　Falsifiability. The Vienna recollections of 1919 and the exchange with Adler about his thousandfold experience are in the latter.
+[^brain]: National Institute of Neurological Disorders and Stroke (2012). *Brain Basics: Know Your Brain*. [PDF of the original NINDS booklet, preserved by UTHealth](https://www.uth.edu/stroke-institute/assets/img/resources/know-your-brain-basics.pdf). Chapter 13 takes only the basic anatomical account of different brain regions taking part and working together, and does not treat the booklet's simplified introduction to their division of labour as a one-to-one system architecture.
 
-Thomas S. Kuhn. *The Structure of Scientific Revolutions.* 1962; *The Essential Tension.* 1977.　Paradigms, anomaly, and framework change. The account of reading Aristotle in the summer of 1947 is in the preface to the latter.
+[^cough]: Stuart B. Mazzone et al. (2011). “Investigation of the Neural Control of Cough and Cough Suppression in Humans Using Functional Brain Imaging.” *Journal of Neuroscience, 31*(8), 2948–2958. [Study record and abstract](https://pubmed.ncbi.nlm.nih.gov/21414916/). Chapter 13 cites the difference in activity between coughing and its suppression, and keeps the distinction between imaging correlations and a complete causal explanation.
 
-David Hume. *An Enquiry Concerning Human Understanding.* 1748.　The problem of induction.
+[^opiate]: Alyn H. Morice et al. (2007). “Opiate Therapy in Chronic Cough.” *American Journal of Respiratory and Critical Care Medicine, 175*(4), 312–315. [Study record and abstract](https://pubmed.ncbi.nlm.nih.gov/17122382/). Chapter 13 uses the finding that the symptom ratings and the citric acid challenge test did not show the same change, to make the point that different measurements cannot be merged into a single threshold narrative.
 
-Bertrand Russell. *The Problems of Philosophy.* 1912.　The original fable uses a chicken fed by a man and finally killed; later textbooks commonly rewrote it as an inductivist turkey.
+[^hutchins]: Edwin Hutchins (1995). “How a Cockpit Remembers Its Speeds.” *Cognitive Science, 19*(3), 265–288. [PDF of the original paper](https://pages.ucsd.edu/~ehutchins/documents/CockpitSpeeds.pdf). Chapters 14 and 15 adopt its analysis of speed markers and the distribution of cognitive work; it is not used to claim that a group necessarily has a single consciousness.
 
-Elizabeth F. Loftus & John C. Palmer. "Reconstruction of Automobile Destruction." *Journal of Verbal Learning and Verbal Behavior* 13, 1974.　How a verb changed speed estimates, and the broken glass that was not there a week later.
+[^extended]: Andy Clark & David J. Chalmers (1998). “The Extended Mind.” *Analysis, 58*(1), 7–19. [Original text provided by the authors](https://consc.net/papers/extended.html). Chapters 14 and 15 list it as a philosophical claim about the boundary of the mind, kept apart from the more limited analysis of external dependence.
 
-Sherwin B. Nuland. *The Doctors' Plague.* 2003.　Semmelweis at the Vienna General Hospital, and why his colleagues rejected him for nearly twenty years.
+[^memory]: Elizabeth F. Loftus & John C. Palmer (1974). “Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory.” *Journal of Verbal Learning and Verbal Behavior, 13*, 585–589. [Original paper](https://www.stanford.edu/class/psych205/papers/Loftus-Palmer-1974.pdf). Chapter 1 keeps the two experiments separate, and does not write the speed estimates and the broken-glass question a week later as one test on the same group of people. The chapter's claim is limited to the difference between the question asked and the later answer that the study showed; it does not infer that memory can be rewritten at will, or that everyone is affected in the same way in every situation.
 
-Bas C. van Fraassen. *The Scientific Image.* 1980.　Constructive empiricism: science may pursue empirical adequacy while staying epistemically restrained about unobservable entities.
+[^kant]: Immanuel Kant, *Critique of Pure Reason* (1781/1787). [Gutenberg English translation](https://www.gutenberg.org/ebooks/4280). Chapters 1 and 7 use it as the intellectual background on sensibility, concepts and the status of geometry; the bearing of non-Euclidean geometry on Kant's thought is still disputed among interpreters, and a brief case is not used to declare his whole epistemology void. The chapter discusses the problem that non-Euclidean geometry poses for Kant's argument about geometry, and does not use a spherical diagram or a single mathematical development to declare his whole epistemology overturned.
 
-#### Abstraction debt, metrics, and institutions
-{: data-toc-skip='' }
+[^tetlock]: Philip E. Tetlock (2005). *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton University Press. [Digital copy of the book](https://archive.org/download/expert-political-judgment/Expert%20Political%20Judgment%20How%20Good%20Is%20It%20How%20Can%20We%20Know.pdf). Chapter 2 adopts the research design of long-term tracking and comparison of forecasts; the weather figures for calibration and discrimination are this book's own example. The chapter does not use one general comparison to pass judgement on all experts, nor does it treat calibration as wholly unrelated to intelligence or professional knowledge; the research should be understood by its questions, its baselines and its scoring.
 
-Ward Cunningham. "The WyCash Portfolio Management System." OOPSLA, 1992.　The earliest source of the technical-debt metaphor.
+[^representation]: Jill H. Larkin & Herbert A. Simon (1987). “Why a Diagram Is (Sometimes) Worth Ten Thousand Words.” *Cognitive Science, 11*(1), 65–100. [DOI of the original paper](https://doi.org/10.1111/j.1551-6708.1987.tb00863.x). Chapter 4 carries forward the distinction between informational and computational equivalence; the multiplication of numbers and the route diagram are this book's teaching constructions.
 
-Carlos Paradis & Rick Kazman. "Building the MSR Tool Kaiaulu: Design Principles and Experiences." In *Software Architecture: ECSA 2021 Tracks and Workshops*, LNCS 13365, Springer, 2022 (preprint arXiv:2304.14570).　Treats abstraction debt as one of the design problems of tool architecture; the term has no unified cross-field definition at present.
+[^vietnam]: Gregory A. Daddis (2011). *No Sure Victory: Measuring U.S. Army Effectiveness and Progress in the Vietnam War*. Oxford University Press. [Publisher's record](https://global.oup.com/academic/product/no-sure-victory-9780199746873). Chapter 5 uses the many performance metrics and the difficulty of reading them to discuss strategic judgement; this analysis does not amount to a single cause of the war's outcome.
 
-Bureau d'Enquêtes et d'Analyses. *Final Report on the accident to Airbus A330-203 registered F-GZCP, flight AF 447.* 2012.　The second-by-second reconstruction of the three and a half minutes that open chapter five, and the report's analysis of training, alerting design, and reliance on automation.
+[^cosmology]: NASA Science, [Building Blocks](https://science.nasa.gov/universe/overview/building-blocks/). Chapter 5 uses it only to distinguish dark matter, dark energy and their observational background, and does not claim that the ultimate physical nature of either is known.
 
-Gregory A. Daddis. "The Problem of Metrics: Assessing Progress and Effectiveness in the Vietnam War." *War in History* 19(1), 2012.　A historical analysis of quantitative management in Vietnam, arguing the problem came partly from having too many indicators rather than only from body count.
+[^astronomy]: Thomas S. Kuhn (1957). *The Copernican Revolution*. Harvard University Press; NASA Science, [Orbits and Kepler’s Laws](https://science.nasa.gov/solar-system/orbits-and-keplers-laws/). Chapter 6 keeps the comparison of calculation and theory in the history of astronomy apart from the basic account of modern orbits; it does not repeat the contrast of "degrees for the old tables, arcseconds for the new", which comes without the object, the period and the precision conditions attached.
 
-Robert S. McNamara. *In Retrospect: The Tragedy and Lessons of Vietnam.* 1995.　His own retrospective account of measurement and misleading reports.
+[^mindfulness]: Jon Kabat-Zinn (2003). “Mindfulness-Based Interventions in Context: Past, Present, and Future.” *Clinical Psychology: Science and Practice, 10*(2), 144–156. [DOI of the original paper](https://doi.org/10.1093/clipsy.bpg016). Chapter 6 uses it for the formation of mindfulness-based stress reduction and its traditional background; it does not say that every ethical context has been removed by the course, nor does it claim in general that every use is effective.
 
-Charles Goodhart. "Problems of Monetary Management: The U.K. Experience"; "Monetary Relationships: A View from Threadneedle Street". In *Papers in Monetary Economics*, Reserve Bank of Australia, 1975.　Both come from the Reserve Bank of Australia's conference on monetary economics, Sydney, July 1975; sources differ on which of the two carried the sentence first.
+[^geometry]: Euclid, *Elements*, [the Greek text of the geometry with mathematical commentary](https://mathcs.clarku.edu/~djoyce/elements/); Girolamo Saccheri, *Euclides ab omni naevo vindicatus* (1733); Bernhard Riemann, “Über die Hypothesen, welche der Geometrie zu Grunde liegen” (lecture 1854, published 1868). The spherical diagram in Chapter 7 is a mathematical illustration, not a complete proof of the independence of the postulate.
 
-Donald T. Campbell. "Assessing the Impact of Planned Social Change." Occasional paper, Public Affairs Center, Dartmouth College, 1976; later in *Evaluation and Program Planning* 2(1), 1979.　Quantitative social indicators and corruption pressures.
+[^relativity]: Neil Ashby (2003). “Relativity in the Global Positioning System.” *Living Reviews in Relativity, 6*, 1. [Full text of the study](https://doi.org/10.12942/lrr-2003-1). Chapter 7 adopts the explanation that comparing times requires relativistic correction; it does not treat one idealised conversion as a fixed daily positioning error for every receiver. The actual positioning error depends on the system's configuration and corrections, and cannot be obtained by simply multiplying a time difference by the speed of light and treating the result as a fixed daily position offset borne by every user.
 
-Marilyn Strathern. "'Improving ratings': audit in the British University system." *European Review* 5(3), 1997.　The source of the popular formulation that a measure ceases to be a good measure once it becomes a target.
+[^climate]: IPCC (2021). *Climate Change 2021: The Physical Science Basis*, [Chapter 1](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-1/), [Chapter 7](https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/). Chapter 7 distinguishes model ensembles, sensitivity ranges and emission scenarios. The assessed ranges carry their own confidence levels; the use of RCP8.5 does not automatically make it the most likely future, or a strict upper bound on all futures.
 
-Michael G. Vann. "Of Rats, Rice, and Race: The Great Hanoi Rat Massacre." *French Colonial History* 4, 2003.　The 1902 Hanoi bounty, the severed tails, and the rat-farming that followed.
+[^eclipse]: F. W. Dyson, A. S. Eddington & C. Davidson (1920). “A Determination of the Deflection of Light by the Sun’s Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919.” *Philosophical Transactions of the Royal Society A, 220*, 291–333. [Original paper](https://royalsocietypublishing.org/rsta/article/220/571-581/291/40498/IX-A-determination-of-the-deflection-of-light-by). Chapter 8 keeps the expeditions, the measurements and the test of the theory apart, and does not add inner monologue for the observers. The chapter does not treat every plate as equally clear and fully consistent with the others, nor does it equate one measurement with the sole verdict on an entire theory.
 
-Ian Hacking. "The Looping Effects of Human Kinds." In *Causal Cognition*, 1995.　Interactive kinds and indifferent kinds.
+[^popper]: Karl R. Popper (1963). *Conjectures and Refutations*, Chapter 1; Popper (1978). “Natural Selection and the Emergence of Mind.” *Dialectica, 32*(3–4), 339–355. [DOI of the 1978 article](https://doi.org/10.1111/j.1746-8361.1978.tb01321.x). Chapter 8 distinguishes the claim about testability, Popper's own account of himself and his revision regarding natural selection.
 
-Ludwig Wittgenstein. *Philosophical Investigations.* 1953.　Family resemblance and conceptual boundaries.
+[^finches]: Peter T. Boag & Peter R. Grant (1981). “Intense Natural Selection in a Population of Darwin’s Finches (Geospizinae) in the Galápagos.” *Science, 214*(4516), 82–85. [DOI of the original paper](https://doi.org/10.1126/science.214.4516.82). Chapter 8 uses the comparison of specific traits, food and survival to illustrate testable content, and does not treat one observation as the sole verdict on the whole theory of evolution.
 
-#### Useful, true, and meaning
-{: data-toc-skip='' }
+[^ether]: Albert A. Michelson & Edward W. Morley (1887). “On the Relative Motion of the Earth and the Luminiferous Æther.” [Transcription of the original paper](https://www.gutenberg.org/cache/epub/70888/pg70888-images.html). Chapter 8 describes a fringe shift far smaller than expected; it does not write that the instrument produced no interference fringes, nor does it compress the whole later development of theory into a single overturning on the day.
 
-Ted J. Kaptchuk et al. "Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome." *PLoS ONE* 5(12), 2010.　The pill in chapter six with "placebo" written on the bottle.
+[^semmelweis]: Ignaz Semmelweis (1861). *Die Aetiologie, der Begriff und die Prophylaxis des Kindbettfiebers*. [Record of the book, with images and partial translation](https://www.jameslindlibrary.org/semmelweis-i-1861/). Chapter 8 follows his record for the comparison of the clinics, the contamination hypothesis and the washing measures; the professional and emotional cost that admitting error may involve is raised in the main text as a general analysis, and is not used to pronounce on the motives of each historical figure.
 
-Fendel et al. "Effects of open-label placebos across populations and outcomes: an updated systematic review and meta-analysis of randomized controlled trials." *Scientific Reports*, 2025.　Sixty randomised trials, 4,554 participants; overall SMD 0.35, self-reported outcomes 0.39, objective measures 0.09. The quantitative basis for the caveat in chapter six.
+[^kuhn]: Thomas S. Kuhn (1977). *The Essential Tension: Selected Studies in Scientific Tradition and Change*. University of Chicago Press, the preface's retrospective on reading Aristotle. [Digital copy of the book](https://social-ecology.org/wp/wp-content/uploads/2022/08/The_Essential_Tension_Thomas_S_Kuhn.pdf). Chapter 9 treats it as the author's retrospective, distinguishing understanding the meaning of the words, accepting a historical theory and the formation of the later work. The recollection is used to show how the use of concepts is reconstructed in reading; it does not mean that all of Aristotle's claims in physics thereby hold, nor does it ascribe the formation of *The Structure of Scientific Revolutions* to a single moment of insight.
 
-Bertram R. Forer. "The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility." *Journal of Abnormal and Social Psychology* 44, 1949.　Thirty-nine identical personality analyses, rated 4.26 for accuracy on average.
+[^haidt]: Jonathan Haidt (2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion*. Pantheon, his own account of fieldwork in India in 1993. [The author's website for the book](https://righteousmind.com/). Chapter 9 does not generalise a particular visitor's experience into the position of a whole culture, and it keeps the different consequences that people of different standing may bear.
 
-Jonathan Haidt. *The Righteous Mind.* 2012.　The three months in Bhubaneswar in 1993, and the rider on the elephant.
+[^yijing]: The *Yijing* (*Zhouyi*): the hexagram statements, the line statements and the Ten Wings; [text of the *Zhouyi*](https://ctext.org/book-of-changes/zh). Chapter 10 keeps apart the combinations of symbols, the textual layers and the interpretive traditions. This book's "using yin and yang as a way of asking questions" is a contemporary appropriation, not evidence of the predictive validity of divination.
 
-Claudius Ptolemy. *Almagest.* c. 150 CE.　The geocentric system and its epicycles. On its predictive accuracy relative to Copernicus and Kepler, see Owen Gingerich, *The Book Nobody Read*, 2004.
+[^leibniz]: Gottfried Wilhelm Leibniz (1703). “Explication de l’arithmétique binaire, qui se sert des seuls caractères 0 et 1, avec des remarques sur son utilité, et sur ce qu’elle donne le sens des anciennes figures chinoises de Fohy.” [English translation of the original](https://leibniz-translations.com/binary). Chapter 10 distinguishes the binary arithmetic already developed, the hexagram diagram obtained later and the attribution of historical intent.
 
-University of Cambridge, Department of History and Philosophy of Science, "Starry Messenger: Kepler and Astronomical Tables".　The Rudolphine Tables held error to within about ten arcseconds, where the older Alfonsine and Prutenic tables could be off by as much as five degrees on a planet's position; the direct source for the magnitudes in chapter six.
+[^qwerty]: Koichi Yasuoka & Motoko Yasuoka (2011). “On the Prehistory of QWERTY.” [Original study in the Kyoto University repository](https://repository.kulib.kyoto-u.ac.jp/handle/2433/139379). Chapter 10 uses it to examine the popular story that the layout was "designed to slow typists down", and does not declare one interpretation of the sources in it to be the undisputed and complete origin.
 
-On the Maragha school and post-Ptolemaic revision: Nasir al-Din al-Tusi's *Tadhkira* lists the points at which he judged the Ptolemaic system incoherent, and introduces the Tusi couple, decomposing linear motion into two circular motions; parts of Copernicus's lunar and Mercury models closely resemble devices from that tradition. See the work of George Saliba and F. Jamil Ragep.
+[^y2k]: U.S. General Accounting Office (2000). *Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges*. GAO/AIMD-00-290. [Official report](https://www.govinfo.gov/content/pkg/GAOREPORTS-AIMD-00-290/pdf/GAOREPORTS-AIMD-00-290.pdf). Chapter 10 keeps the inventory, the remediation, the testing and the contingency planning, and does not adopt global total-cost figures that have not been separately verified.
 
-#### Facts, values, and commitment
-{: data-toc-skip='' }
+[^simon]: Herbert A. Simon (1978). “Rational Decision-Making in Business Organizations.” [Nobel lecture and text](https://www.nobelprize.org/prizes/economic-sciences/1978/simon/lecture/); Simon (1990). “Invariants of Human Behavior.” *Annual Review of Psychology, 41*, 1–19. [DOI of the original paper](https://doi.org/10.1146/annurev.ps.41.020190.000245). The bounded rationality, satisficing and scissors metaphor of Chapter 11 follow, respectively, his decision research and his later synthesis, and do not pass off every sentence of the scissors metaphor as the words of the prize lecture.
 
-Nick Hanley, Clive L. Spash & Lorna Walker. "Problems in valuing the benefits of biodiversity protection." *Environmental and Resource Economics* 5(3), 1995, 249–272.　About a quarter of the general-public sample refused to give any willingness-to-pay figure, on the grounds that these species and ecosystems should be protected whatever the cost; the authors classify this as lexicographic preference and note the problem it poses for cost-benefit analysis. The source for that section of chapter six.
+[^skill]: John R. Anderson (1982). “Acquisition of Cognitive Skill.” *Psychological Review, 89*(4), 369–406. [DOI of the original paper](https://doi.org/10.1037/0033-295X.89.4.369). Chapter 12 uses it for explicit knowledge, practice and procedural ability; it does not assign every emotional change, tacit learning or intuition to the same compilation mechanism.
 
-Richard Rudner. "The Scientist Qua Scientist Makes Value Judgments." *Philosophy of Science* 20(1), 1953, 1–6.　The evidential threshold for accepting a hypothesis depends on the consequences of being wrong, so the decision itself carries a value judgement.
+[^hindsight]: Baruch Fischhoff & Ruth Beyth (1975). “I Knew It Would Happen: Remembered Probabilities of Once-Future Things.” *Organizational Behavior and Human Performance, 13*, 1–16. [PDF of the original paper](https://web.mit.edu/curhan/www/docs/Articles/biases/13_Org_Behavior_and_Human_Perf_13_1975_Fischhoff.pdf). Chapter 12 distinguishes the drift of memory that a record of predictions can prevent from the gaps in choice, sampling and counterfactuals that a record cannot fill.
 
-Heather Douglas. "Inductive Risk and Values in Science." *Philosophy of Science* 67(4), 2000, 559–579; *Science, Policy, and the Value-Free Ideal.* 2009.　Extends the inductive-risk argument into the choice of method, the characterisation of data, and the interpretation of results.
+[^catch]: Michael K. McBeath, Dennis M. Shaffer & Mary K. Kaiser (1995). “How Baseball Outfielders Determine Where to Run to Catch Fly Balls.” *Science, 268*, 569–573. [DOI of the original paper](https://doi.org/10.1126/science.7725104), [the authors' public copy](https://redfish.com/papers/McBeath-BaseballCatch.pdf). Chapter 12 discusses continuous visual feedback; the study's model has its conditions and cannot be turned into "keep the angle of elevation constant and the catch is guaranteed". Carrying a bowl of water is an everyday example used to illustrate continuous adjustment, and it is not concluded from this that the two activities share the same neural mechanism.
 
-Max Weber. "Wissenschaft als Beruf".　Lecture given in Munich on 7 November 1917, published 1919. The ultimately possible attitudes toward life are irreconcilable, so a decision has to be made; scholarship can work out the cost of each road and cannot choose for anyone.
+[^hanoi]: Michael G. Vann (2003). “Of Rats, Rice, and Race: The Great Hanoi Rat Massacre, an Episode in French Colonial History.” *French Colonial History, 4*, 191–203. [DOI of the study](https://doi.org/10.1353/fch.2003.0027). Chapter 14 retells the episode from this study of the historical archives, and does not add the names, dialogue or personal motives of the rat-catchers, or invented scenes of administrative decision-making.
 
-U.S. Preventive Services Task Force. "Screening for Breast Cancer". 2009.　Grade B for biennial mammography at ages fifty to seventy-four; grade C for forty to forty-nine, where the decision should be individual and should include the patient's own weighting of benefits and harms. Number needed to invite to prevent one breast cancer death: 1,904 at ages thirty-nine to forty-nine (95% CI 929–6,378), 1,339 at fifty to fifty-nine, 377 at sixty to sixty-nine. Listed harms include false positives, unnecessary biopsies, overdiagnosis, psychological burden, and radiation exposure.
+[^metrics]: Charles A. E. Goodhart (1975). “Problems of Monetary Management: The U.K. Experience”; Donald T. Campbell (1976). *Assessing the Impact of Planned Social Change*, [original report](https://www.humanlearning.systems/uploads/08%20Assessing%20the%20Impact%20of%20Planned%20Social%20Change.pdf); Marilyn Strathern (1997). “‘Improving Ratings’: Audit in the British University System.” *European Review, 5*(3), 305–321, [publisher's page for the paper](https://www.cambridge.org/core/journals/european-review/article/improving-ratings-audit-in-the-british-university-system/FC2EE640C0C44E3DB87C29FB666E9AAB). Chapter 14 keeps the three authors and the background to their problems apart; the main text paraphrases rather than quotes. The wording now common, "when a measure becomes a target", is closely related to Strathern's text of 1997; the contexts and phrasing of Goodhart, Campbell and Strathern each differ, and they should not be treated as different signatures on the same sentence.
 
-Jeanne S. Mandelblatt et al. (CISNET Breast Working Group). "Effects of Mammography Screening Under Different Screening Schedules: Model Estimates of Potential Benefits and Harms." *Annals of Internal Medicine* 151, 2009, 738–747.　The modelling analysis the Task Force worked from: six independent models, twenty strategies. Biennial screening retained an average of eighty-one per cent of the benefit of annual screening, with a range across models and strategies of sixty-seven to ninety-nine per cent.
+[^nhs]: Ellen J. Weber, Suzanne Mason, Adrian Carter & Rachel L. Hew (2011). “Emptying the Corridors of Shame: Organizational Lessons from England’s 4-Hour Emergency Throughput Target.” *Annals of Emergency Medicine, 57*(2), 79–88.e1. [Study record](https://europepmc.org/article/MED/21251521), [DOI of the original paper](https://doi.org/10.1016/j.annemergmed.2010.08.013). The study interviewed emergency-department leaders at nine hospitals between June and August 2008 and was published in 2011. It is an interview study of organisational experience; the changes reported by the interviewees must be distinguished from research that measures clinical outcomes directly.
 
-R. Edward Hendrick & Mark A. Helvie. "United States Preventive Services Task Force screening mammography recommendations: science ignored." *AJR* 196(2), 2011, W112–W116.　The radiological rebuttal; it recalculated from the same models' outputs to claim that annual screening from forty to eighty-four saves seventy-one per cent more lives, and objected to "number needed to invite" being made the primary criterion.
+[^dsm]: American Psychiatric Association, [DSM-5 explanation of autism spectrum disorder](https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM-5-Autism-Spectrum-Disorder.pdf), [care of LGBTQ patients and the historical background](https://www.psychiatry.org/getmedia/1dd0b752-8791-49d0-b8a1-c73d853bd610/Best-Practices-LGBTQ-Patients.pdf); U.S. Department of Veterans Affairs, [PTSD History and Overview](https://www.ptsd.va.gov/professional/treat/essentials/history_ptsd.asp). Chapter 14 discusses the history of revisions and the social work that classifications do; it does not offer individual diagnosis, nor does it equate a classification with the benefits paid in each place.
 
-Jeanne Mandelblatt & Kathleen Cronin. "Response to Hendrick and Helvie by the Cancer Intervention Surveillance Modeling Network (CISNET) Breast Working Group." *AJR* 197(4), 2011, W792.　The modellers' reply: biennial screening cuts the risk of death from three per cent to 2.3, annual screening from forty to eighty-four cuts it to 1.82, an additional reduction of twenty-two per cent; and the seventy-one per cent figure presented the benefit without the extra examinations and harms that come with it.
+[^hacking]: Ian Hacking (2007). “Kinds of People: Moving Targets.” *Proceedings of the British Academy, 151*, 285–318. [The author's lecture paper](https://www.thebritishacademy.ac.uk/documents/2043/pba151p285.pdf). Chapter 14 adopts the interaction between a classification and those classified, and does not infer from looping effects that illness or suffering is fictitious.
 
-Stanford Institute for Human-Centered AI. *The 2026 AI Index Report*, technical performance chapter.　In 2025 Gemini Deep Think reached a gold-medal score of thirty-five points at the International Mathematical Olympiad (up from a twenty-eight-point silver the year before); on ClockBench, a test of reading analogue clocks, the same report records the best-performing model answering correctly 50.6 per cent of the time against 90.1 per cent for humans, a pattern it calls jagged intelligence. The source for both figures in the preface.
+[^screening]: U.S. Preventive Services Task Force (2009). “Screening for Breast Cancer: Recommendation Statement.” *Annals of Internal Medicine, 151*, 716–726. [Official text of the recommendation from that year](https://www.uspreventiveservicestaskforce.org/Home/GetFile/1/406/brcanrs/pdf). Chapter 15 treats this as a historical case, not as the current screening recommendation. The main text also states explicitly that it uses hypothetical numbers to explain the denominator, and does not treat them as medical risk estimates.
 
-#### Geometry, necessity, and a priori knowledge
-{: data-toc-skip='' }
+[^values]: Richard Rudner (1953). “The Scientist Qua Scientist Makes Value Judgments.” *Philosophy of Science, 20*(1), 1–6, [publisher's page for the paper](https://www.cambridge.org/core/journals/philosophy-of-science/article/scientist-qua-scientist-makes-value-judgments/BA23A8340EB3039A50C4177AEE2C2A5C); Heather Douglas (2000). “Inductive Risk and Values in Science.” *Philosophy of Science, 67*(4), 559–579, [DOI of the original paper](https://doi.org/10.1086/392855). Chapter 15 distinguishes the role of values in bearing the risk of error from rewriting facts at will according to values; this is an argued position, not an uncontested definition.
 
-Euclid. *Elements.* c. 300 BC.　The five postulates; the fifth is the parallel postulate.
+[^beliefs]: Heinz Wimmer and Josef Perner (1983). “Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children’s understanding of deception.” *Cognition* 13(1): 103–128. [Original paper](https://doi.org/10.1016/0010-0277(83)90004-5). The ball, the box and the drawer in the Preface are an illustration adapted from the false-belief task based on a change in an object's location, not a verbatim retelling of the original experimental scene. The book uses it to show how what different people know can be understood within one scene; passing one task is not equated with full self-awareness, and it is not claimed that everyone has the same moment of insight. What this book calls "the second realisation" is a metaphor the author uses to describe counting oneself in, not a further universal developmental stage confirmed by this research. Nor does the children's task on its own establish the normative demands this book makes of adult judgement.
 
-Girolamo Saccheri. *Euclides ab omni naevo vindicatus.* 1733.　Derives the obtuse- and acute-angle hypotheses by reductio, reaches a consistent body of results, and then rejects the acute case as "repugnant to the nature of the straight line."
+[^introspection]: Emily Pronin and Matthew B. Kugler (2007). “Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot.” *Journal of Experimental Social Psychology* 43: 565–578. [Original paper](https://doi.org/10.1016/j.jesp.2006.05.011). The study compares the different weight given to introspection, behaviour and other material when assessing one's own biases and those of others; it does not mean that every person in every judgement is necessarily like this, and whether a reason holds cannot be decided directly from how it came about.
 
-Nikolai Lobachevsky. *Kazan Messenger*, 1829; János Bolyai. "Appendix" to his father's *Tentamen*, 1832.　The first two published non-Euclidean geometries.
+[^leaky]: Joel Spolsky (2002-11-11). “The Law of Leaky Abstractions.” [The author's original text](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/). Chapter 5 keeps the name "leaky abstraction", separating the empirical generalisation from engineering from the cross-domain argument this book makes on its own account; the example of two sets of data with the same summary where a new question demands different answers offers a necessity argument with explicit premises, and does not claim that one engineering article proves every abstraction must be wrong for every use.
 
-Carl Friedrich Gauss. Letter to Bessel, 27 January 1829.　"The clamour of the Boeotians" (Geschrei der Böotier); his own work on the foundations of geometry went unpublished in his lifetime.
+[^tcp]: IETF (2022). *RFC 9293: Transmission Control Protocol (TCP)*, in particular the description of the service in section 2.2 and the handling of connection failure in section 3.8.3. [Formal specification](https://www.rfc-editor.org/rfc/rfc9293.html). A reliable, ordered byte-stream service does not amount to delivery within a fixed time or a connection that never drops; the main text does not write failures the specification allows as violations of the specification by the protocol.
 
-Bernhard Riemann. "Über die Hypothesen, welche der Geometrie zu Grunde liegen." Inaugural lecture, Göttingen, 10 June 1854 (published 1868).　Generalises geometry to curved manifolds of any dimension; Gauss was present.
+[^lean]: *Theorem Proving in Lean 4*, [Introduction](https://lean-lang.org/theorem_proving_in_lean4/Introduction/) and [Axioms and Computation](https://lean-lang.org/theorem_proving_in_lean4/Axioms-and-Computation/), official Lean documentation, checked on 2026-09-11. Formalisation requires that propositions be stated precisely, and proofs are checked against definitions, axioms and the rules of logic. Passing the check does not by itself guarantee that the formal model covers every relevant condition in reality. This book draws from it a discussion of the value of thinking that can be carried on by others; that extension is not a full philosophical claim made by the official documentation.
 
-Albert Einstein. "Die Feldgleichungen der Gravitation." 1915.　General relativity uses precisely Riemann's geometry.
+[^grounding]: Herbert H. Clark and Susan E. Brennan (1991). “Grounding in Communication.” [The authors' public copy of the original chapter](https://web.stanford.edu/~clark/1990s/Clark,%20H.H.%20_%20Brennan,%20S.E.%20_Grounding%20in%20communication_%201991.pdf). Common ground and the mutual confirmation of understanding are updated as communication proceeds, and different media provide different conditions for this. The main text connects it to reading and the reconstruction of background, and does not equate the whole of empathic ability with this one model of communication.
 
-#### Climate, evolution, and diagnostic classification
-{: data-toc-skip='' }
-
-Intergovernmental Panel on Climate Change. *Climate Change 2021: The Physical Science Basis* (AR6 WG1). 2021.　Equilibrium climate sensitivity assessed at a best estimate of 3 degrees, likely range 2.5 to 4; projections constrained by multiple independent lines of evidence rather than by averaging models.
-
-Zeke Hausfather, Kate Marvel, Gavin A. Schmidt, John W. Nielsen-Gammon & Mark Zelinka. “Climate simulations: recognize the ‘hot model’ problem.” *Nature* 605, 2022.　Source of the phrase, and of the advice against assuming equal model weight.
-
-Zeke Hausfather & Glen P. Peters. “Emissions – the ‘business as usual’ story is misleading.” *Nature* 577, 2020.　On the widespread misuse of RCP8.5 as business as usual, and the mismatch between its assumed coal use and actual energy trends.
-
-Karl Popper. “Darwinism as a Metaphysical Research Programme.” In P. A. Schilpp, ed., *The Philosophy of Karl Popper*, 1974; see also *Unended Quest*, 1976.　The passage in which he judges Darwinism a metaphysical research programme.
-
-Karl Popper. “Natural Selection and the Emergence of Mind.” *Dialectica* 32(3–4), 1978.　The paper he himself calls a recantation, holding that natural selection is testable after all.
-
-Peter R. Grant & B. Rosemary Grant. *40 Years of Evolution: Darwin’s Finches on Daphne Major Island.* 2014.　The 1977 drought, the collapse of the medium ground finch population, and the shift in beak depth among survivors and their offspring. Popular account: Jonathan Weiner, *The Beak of the Finch*, 1994.
-
-American Psychiatric Association. *DSM-I* 1952; *DSM-III* 1980; *DSM-5* 2013; *DSM-5-TR* 2022.　Changes in category counts and in the form of the criteria; PTSD added in the third edition; Asperger's folded into autism spectrum disorder in the fifth. Homosexuality was voted out by the association in 1973.
-
-#### The Yijing, Buddhist thought, and reading across traditions
-{: data-toc-skip='' }
-
-*Zhouyi.*　The core hexagram and line texts are Western Zhou divinatory language; the *Yizhuan* (Ten Wings) is interpretive material added through the Warring States and Han periods, rereading a divination manual as a discourse on change and virtue.
-
-Shao Yong (1011–1077).　Systematiser of the "prior to heaven" ordering of the sixty-four hexagrams; this, rather than any ancient recension, is the arrangement Bouvet sent to Leibniz.
-
-Gottfried Wilhelm Leibniz. “Explication de l’arithmétique binaire.” *Mémoires de l’Académie Royale des Sciences*, 1703.　The correspondence between binary arithmetic (worked out by around 1679) and the Chinese hexagram figures; Bouvet's letter of November 1701 reached him in April 1703.
-
-The four noble truths and dependent origination.　See the *Samyukta Agama* and the corresponding Pali *Samyutta Nikaya*, the Sacca and Nidana collections.
-
-Jon Kabat-Zinn. *Full Catastrophe Living.* 1990.　Origins of the 1979 stress reduction clinic at the University of Massachusetts Medical Center and its eight-week course, and the reasons for deliberately non-religious language.
-
-Ronald E. Purser & David Loy. “Beyond McMindfulness.” 2013; Ronald E. Purser. *McMindfulness.* 2019.　What follows from separating mindfulness from the ethical requirements of the Eightfold Path.
-
-#### How made things came to their shape
-{: data-toc-skip='' }
-
-Microsoft. "Naming Files, Paths, and Namespaces." Win32 documentation.　CON, PRN, AUX, NUL, COM1–9 and LPT1–9 listed as reserved, with an explicit instruction to avoid the forms carrying an extension. The restriction is imposed at the Win32 layer, not by NTFS.
-
-Microsoft. .NET file path formats and DOS device path normalisation documentation.　From Windows 11, path resolution no longer special-cases a device name carrying an extension, with the exception of NUL. Read alongside the entry above, the pair shows one set of rules diverging across compatibility layers.
-
-Koichi Yasuoka & Motoko Yasuoka. "On the Prehistory of QWERTY." *ZINBUN* 42, Institute for Research in Humanities, Kyoto University, 2011.　The relation between the QWERTY arrangement and telegraph operators transcribing Morse; "designed to slow typists down" is a later popular account.
-
-Andrew Abbott. *Chaos of Disciplines.* 2001.　Disciplinary boundaries co-evolved with journals, degrees, and funding.
-
-#### Analogy, structure mapping, and transfer
-{: data-toc-skip='' }
-
-Dedre Gentner. "Structure-Mapping: A Theoretical Framework for Analogy." *Cognitive Science* 7(2), 1983.　A good analogy maps relational structure rather than surface attributes. The move called taking off the situational clothing in chapter eleven has a stricter form in this tradition.
-
-Mary L. Gick & Keith J. Holyoak. "Analogical Problem Solving." *Cognitive Psychology* 12, 1980; Keith J. Holyoak & Paul Thagard. *Mental Leaps: Analogy in Creative Thought.* 1995.　Why transfer so often fails.
-
-Keith J. Holyoak & Kyunghee Koh. "Surface and Structural Similarity in Analogical Transfer." *Memory & Cognition* 15(4), 1987.　What surface and structural similarity each contribute to transfer. The grades of "alike" in chapter eleven correspond to this distinction.
-
-Michelene T. H. Chi, Paul J. Feltovich & Robert Glaser. "Categorization and Representation of Physics Problems by Experts and Novices." *Cognitive Science* 5, 1981.　Physics experts organise problems by deep principles; novices classify by literal features.
-
-U.S. General Accounting Office. *Year 2000 Computing Crisis: An Assessment Guide.* GAO/AIMD-10.1.14, September 1997.　The official account: older systems stored years in two digits to conserve electronic storage space and reduce operating costs. How much was actually saved depended on data format and implementation.
-
-Computer History Museum, "Microsoft MS-DOS early source code"; the formation of 86-DOS.　Tim Paterson began QDOS at Seattle Computer Products in April 1980, later renamed 86-DOS; working from the 1976 *CP/M Interface Guide* he deliberately preserved the application-visible interfaces (function codes, entry point address, part of the file control block layout) while writing the internal implementation and file storage format separately. Microsoft licensed it that December.
+[^perspective]: Tal Eyal, Mary Steffel, and Nicholas Epley (2018). “Perspective Mistaking: Accurately Understanding the Mind of Another Requires Getting Perspective, Not Taking Perspective.” *Journal of Personality and Social Psychology* 114(4): 547–571. [Original paper](https://doi.org/10.1037/pspa0000115). The paper reports twenty-five experiments; imagining another person's perspective did not consistently improve the accuracy of judgement, while arrangements in which information was obtained through conversation did. Chapter 10 uses it to distinguish reconstructing thoughts from obtaining information; the conclusion is limited to the tasks tested and is not extended into a claim that empathy, imagination or historical understanding is generally ineffective.
