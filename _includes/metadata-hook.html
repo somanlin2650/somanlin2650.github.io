@@ -93,6 +93,33 @@ document.addEventListener("DOMContentLoaded", function () {
     return a;
   }
 
+  /* 帶錨點進來時直接定位。主題把 scroll-behavior 設成 smooth，換語言的落點常在
+     兩萬像素以外，平滑捲動要滑很久；全書又有十八張圖，圖載入完成前瀏覽器
+     算出的位置也可能不準，所以自己在載入後再定位一次。使用者已經自己捲過
+     就不要再把他拉回去。 */
+  var landing = location.hash.slice(1);
+  if (landing && STABLE_ID.test(landing)) {
+    var moved = false;
+    ["wheel", "touchstart", "keydown"].forEach(function (type) {
+      window.addEventListener(type, function () { moved = true; }, { passive: true, once: true });
+    });
+
+    var land = function () {
+      var el = document.getElementById(landing);
+      if (!el) return;
+      var root = document.documentElement;
+      var previous = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
+      el.scrollIntoView();
+      root.style.scrollBehavior = previous;
+    };
+
+    land();
+    window.addEventListener("load", function () {
+      if (!moved) requestAnimationFrame(land);
+    });
+  }
+
   var profile = document.querySelector("#sidebar .profile-wrapper");
   if (profile) {
     var group = document.createElement("div");
