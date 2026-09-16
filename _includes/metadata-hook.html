@@ -39,6 +39,8 @@
 @media (max-width: 1199px) {
   #topbar .site-lang-compact { display: inline-flex; }
 }
+/* 從另一個語言帶著錨點過來時，標題不要被頂端列蓋住 */
+.content h2[id], .content h3[id], .content h4[id] { scroll-margin-top: 4.5rem; }
 </style>
 
 <script>
@@ -52,15 +54,38 @@ document.addEventListener("DOMContentLoaded", function () {
 
   try { localStorage.setItem("site_lang", isEn ? "en" : "zh"); } catch (e) {}
 
+  /* 全書那兩篇的標題帶著固定編號（part1 / s4 / s4-1），中英兩篇一致，
+     所以換語言時可以把目前讀到的位置一起帶過去。其他頁面的標題 id 由
+     kramdown 依標題文字產生，兩種語言對不起來，就不加錨點。 */
+  var STABLE_ID = /^(part\d+|s\d+(-\d+)?)$/;
+
+  function currentAnchor() {
+    var headings = document.querySelectorAll(".content h2[id], .content h3[id], .content h4[id]");
+    var found = "";
+    for (var i = 0; i < headings.length; i++) {
+      if (!STABLE_ID.test(headings[i].id)) continue;
+      if (headings[i].getBoundingClientRect().top > 120) break;
+      found = headings[i].id;
+    }
+    return found;
+  }
+
   function remember(event) {
-    var target = event.currentTarget.getAttribute("data-site-lang");
+    var link = event.currentTarget;
+    var target = link.getAttribute("data-site-lang");
     try { localStorage.setItem("site_lang", target); } catch (e) {}
+    var base = link.getAttribute("data-href-base");
+    if (base) {
+      var anchor = currentAnchor();
+      link.href = anchor ? base + "#" + anchor : base;
+    }
   }
 
   function languageLink(label, lang, href, active) {
     var a = document.createElement("a");
     a.textContent = label;
     a.href = href;
+    a.setAttribute("data-href-base", href);
     a.setAttribute("data-site-lang", lang);
     a.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
     if (active) a.setAttribute("aria-current", "true");

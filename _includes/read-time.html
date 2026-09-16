@@ -1,0 +1,64 @@
+<!--
+  覆寫 jekyll-theme-chirpy 的 read-time.html。
+
+  原版一律以分鐘顯示。全書那兩篇分別是 360 分鐘與 240 分鐘上下，寫成「361 分鐘」
+  讀者得自己換算，所以滿六十分鐘就改寫成小時；不足一小時維持原樣。
+  其餘（每分鐘字數、字數提示、外層標籤）與原版相同，兩處呼叫端都能沿用。
+
+  小時的單位詞不放進 _data/locales：英文語系檔來自 theme 的 gem，
+  Jekyll 對 _data 是整檔取代，為了一個詞複製整份語系檔並不划算。
+-->
+
+{% assign words = include.content | strip_html | number_of_words: 'auto' %}
+
+<!-- words per minute -->
+{% assign wpm = 180 %}
+{% assign min_time = 1 %}
+
+{% assign read_time = words | divided_by: wpm %}
+
+{% unless read_time > 0 %}
+  {% assign read_time = min_time %}
+{% endunless %}
+
+{% assign unit_minute = site.data.locales[include.lang].post.read_time.unit %}
+
+{% assign cjk = false %}
+{% if include.lang contains 'zh' or include.lang contains 'ja' or include.lang contains 'ko' %}
+  {% assign cjk = true %}
+{% endif %}
+{% if cjk %}
+  {% assign unit_hour = '小時' %}
+{% else %}
+  {% assign unit_hour = 'hr' %}
+{% endif %}
+
+{% if read_time >= 60 %}
+  {% assign hours = read_time | divided_by: 60 %}
+  {% assign minutes = read_time | modulo: 60 %}
+  {% capture read_amount %}
+    {{- hours }} {{ unit_hour -}}
+    {%- if minutes > 0 %} {{ minutes }} {{ unit_minute }}{% endif -%}
+  {% endcapture %}
+{% else %}
+  {% capture read_amount %}{{ read_time }} {{ unit_minute }}{% endcapture %}
+{% endif %}
+
+{% capture read_prompt %}
+  {{- site.data.locales[include.lang].post.read_time.prompt -}}
+{% endcapture %}
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="{{ words }} {{ site.data.locales[include.lang].post.words }}"
+>
+  <em>{{ read_amount | strip }}</em>
+  {%- if include.prompt -%}
+    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
+    {%- unless _prompt_words > 1 -%}{{ ' ' }}{%- endunless -%}
+    {{ read_prompt }}
+  {%- endif -%}
+</span>

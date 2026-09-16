@@ -20,13 +20,13 @@
 # 全書排在文章後面，那兩處才不會被它蓋掉。
 - date: 2026-08-25
   zh-TW:
-    title: "所見非全貌：世界，以及我們理解它的方式（全書）"
+    title: "所見非全貌：世界，以及我們理解它的方式"
     url: /posts/no-view-is-the-whole/
     description: "全書十五章分成四部，十七組圖、七十五條可回查的來源註。從柏林會算術的馬、一八五四年倫敦的霍亂地圖，到登月小艇上的程式警報，追問的是同一件事：我們用來理解世界的那套眼光，本身是怎樣形成、怎樣被檢查、又怎樣傳給下一個人。"
     categories: [書籍]
     tags: [所見非全貌, 認知, 模型, 抽象洩漏, 科學哲學]
   en:
-    title: "No View Is the Whole: The World and the Ways We Make Sense of It (Complete Text)"
+    title: "No View Is the Whole: The World and the Ways We Make Sense of It"
     url: /en/posts/no-view-is-the-whole/
     description: "Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. From a horse in Berlin that seemed to do arithmetic and the 1854 London cholera map to a programme alarm on the lunar lander, one question runs through it: how the way we make sense of the world is itself formed, checked, and handed on to the next person."
     categories: [Book]
