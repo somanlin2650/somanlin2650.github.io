@@ -47,7 +47,8 @@
 sup.fnref { display:inline; }
 
 * { box-sizing:border-box; }
-html { scroll-padding-top:1.5rem; }
+/* 點目錄時捲過去，跟站內版一致；標題停在距頂 1.5rem 的位置。 */
+html { scroll-behavior:smooth; scroll-padding-top:1.5rem; }
 body {
   margin:0; background:var(--paper); color:var(--ink);
   font-family:var(--serif); font-size:17px; line-height:1.95;
@@ -118,7 +119,8 @@ body {
 .nav-tog:hover { color:var(--ink); background:var(--hair-soft); }
 .nav-secs { padding:.1rem 0 .5rem 1.15rem; border-left:1px solid var(--hair); margin:0 0 .3rem .1rem; }
 .nav-secs a { display:block; font-size:.74rem; line-height:1.5; padding:.22rem 0 .22rem .6rem; color:var(--mute); }
-.nav-secs a:hover, .nav-secs a.here { color:var(--brick); }
+.nav-secs a:hover { color:var(--ink); }
+.nav-secs a.here { color:var(--brick); font-weight:500; box-shadow:-1px 0 0 0 var(--brick); }
 
 main { padding:0 2rem 8rem; min-width:0; }
 .cover { max-width:var(--measure); margin:0 auto; padding:7rem 0 4.5rem; }
@@ -231,7 +233,10 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
   .fig { margin-left:0; margin-right:0; }
   .fig-pair .pair { grid-template-columns:1fr; }
 }
-@media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+@media (prefers-reduced-motion: reduce) {
+  * { transition:none !important; }
+  html { scroll-behavior:auto; }
+}
 @media print { .rail, #toggle, #scrim, #bar, dialog { display:none !important; } .shell { display:block; } }
 </style>
 
@@ -306,7 +311,13 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
           if (t < best) { best = t; anchor = s; }
         });
       apply(b.getAttribute("data-set"));
-      if (anchor) anchor.scrollIntoView();
+      if (anchor) {
+        var previous = root.style.scrollBehavior;
+        root.style.scrollBehavior = "auto";   // 回到原處要立刻到位，不要再捲一次
+        anchor.scrollIntoView();
+        root.style.scrollBehavior = previous;
+      }
+      markSection();
     });
   });
   apply(root.getAttribute("data-book-lang") || "en");
@@ -330,7 +341,13 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
       if (open) { delete t.dataset.manual; } else { t.dataset.manual = "1"; }
       return;
     }
-    if (t && t.tagName === "A" && window.innerWidth <= 900) setDrawer(false);
+    if (t && t.tagName === "A") {
+      /* 平滑捲動可能要走上兩秒，捲到停下來以前都不要自動開合；
+         scrollend 沒有支援時，靠三秒的上限收尾。 */
+      settleUntil = Date.now() + 3000;
+      window.addEventListener("scrollend", releaseSettle, { once: true });
+      if (window.innerWidth <= 900) setDrawer(false);
+    }
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && rail.classList.contains("open")) setDrawer(false);
@@ -358,21 +375,22 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
     var id = a.getAttribute("href").slice(1);
     (secLinks[id] = secLinks[id] || []).push(a);
   });
+  /* 點完目錄的那段平滑捲動裡，沿途的章不要跟著一路開開關關 */
+  var settleUntil = 0;
+  var releaseSettle = function () { settleUntil = 0; };
+
   function setOpen(row, open) {
     var t = row.querySelector(".nav-tog");
     if (!t) return;
+    if (Date.now() < settleUntil) return;
     if (!open && t.dataset.manual) return;
     t.setAttribute("aria-expanded", open ? "true" : "false");
     var secs = document.getElementById(t.getAttribute("aria-controls"));
     if (secs) secs.hidden = !open;
   }
   var seen = [];
-  var io = new IntersectionObserver(function (entries) {
-    entries.forEach(function (en) {
-      var id = en.target.id, k = seen.indexOf(id);
-      if (en.isIntersecting) { if (k < 0) seen.push(id); }
-      else if (k >= 0) seen.splice(k, 1);
-    });
+
+  function markChapters() {
     if (!seen.length) return;
     var top = seen.slice().sort(function (a, b) {
       return document.getElementById(a).offsetTop - document.getElementById(b).offsetTop;
@@ -382,16 +400,54 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
       row.classList.toggle("here", here);
       setOpen(row, here);
     });
+  }
+
+  releaseSettle = function () {
+    settleUntil = 0;
+    markChapters();
+  };
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      var id = en.target.id, k = seen.indexOf(id);
+      if (en.isIntersecting) { if (k < 0) seen.push(id); }
+      else if (k >= 0) seen.splice(k, 1);
+    });
+    markChapters();
   }, { rootMargin: "-25% 0px -65% 0px" });
   [].forEach.call(document.querySelectorAll("section[id],.part-wrap[id]"), function (s) { io.observe(s); });
 
-  var io2 = new IntersectionObserver(function (entries) {
-    entries.forEach(function (en) {
-      if (!en.isIntersecting) return;
-      for (var k in secLinks) secLinks[k].forEach(function (a) { a.classList.toggle("here", k === en.target.id); });
-    });
-  }, { rootMargin: "-10% 0px -70% 0px" });
-  [].forEach.call(document.querySelectorAll("main h3[id]"), function (h) { io2.observe(h); });
+  /* 目前讀到哪一節，直接由捲動位置算出來。原本用 IntersectionObserver 的進出
+     事件：平滑捲動或長距離跳轉時，標題可能在兩個影格之間就掠過觀察帶，事件不會
+     發生，小節索引因此一直停在舊的位置，甚至從頭到尾沒有高亮過。
+     隱藏那一種語言的標題量到的尺寸全是零，所以先比對語言再算。 */
+  var secHeads = [].slice.call(document.querySelectorAll("main h3[id]"));
+  var secQueued = false;
+
+  function markSection() {
+    secQueued = false;
+    var lang = root.getAttribute("data-book-lang");
+    var current = null;
+    for (var i = 0; i < secHeads.length; i++) {
+      var h = secHeads[i];
+      if (h.getAttribute("data-lang") !== lang) continue;
+      if (h.getBoundingClientRect().top > 140) break;
+      current = h.id;
+    }
+    for (var k in secLinks) {
+      secLinks[k].forEach(function (a) { a.classList.toggle("here", k === current); });
+    }
+  }
+
+  function queueSection() {
+    if (secQueued) return;
+    secQueued = true;
+    requestAnimationFrame(markSection);
+  }
+
+  document.addEventListener("scroll", queueSection, { passive: true });
+  window.addEventListener("resize", queueSection);
+  markSection();
 
   /* 圖片放大檢視 */
   var dlg = document.getElementById("viewer");

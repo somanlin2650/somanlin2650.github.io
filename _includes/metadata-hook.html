@@ -39,8 +39,13 @@
 @media (max-width: 1199px) {
   #topbar .site-lang-compact { display: inline-flex; }
 }
-/* 從另一個語言帶著錨點過來時，標題不要被頂端列蓋住 */
-.content h2[id], .content h3[id], .content h4[id] { scroll-margin-top: 4.5rem; }
+/* 錨點落下來的位置要跟 tocbot 判定「已經讀到這一節」的門檻一致，否則點了目錄
+   之後，文章摘要會把上一節當成目前位置：桌機那一份的 headingsOffset 是 32，
+   手機彈出目錄是 48，兩者都再加 10 的寬限。手機另有一條 48px 的黏著目錄列要讓開。 */
+.content h2[id], .content h3[id], .content h4[id] { scroll-margin-top: 2rem; }
+@media (max-width: 1199px) {
+  .content h2[id], .content h3[id], .content h4[id] { scroll-margin-top: 3.5rem; }
+}
 </style>
 
 <script>
