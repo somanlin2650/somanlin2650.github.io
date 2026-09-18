@@ -1,4 +1,4 @@
-// Regression checks for the reader URL migration. Run: node tools/check-book-routes.mjs
+// Regression checks for the book reader pages. Run: node tools/check-book-routes.mjs
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -8,19 +8,7 @@ import vm from 'node:vm';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = name => readFileSync(path.join(root, name), 'utf8');
 const target = '/books/no-view-is-the-whole/';
-const legacy = read('book/read/index.html');
 const reader = read(target.slice(1) + 'index.html');
-const redirect = legacy.match(/<script>([\s\S]*?)<\/script>/)[1];
-
-for (const search of ['', '?lang=zh', '?lang=en', '?lang=zh&source=bookmark']) {
-  for (const hash of ['', '#s11', '#s11-4-zh', '#fn-zh-hans']) {
-    let destination;
-    vm.runInNewContext(redirect, {
-      location: { search, hash, replace: value => { destination = value; } }
-    });
-    assert.equal(destination, target + search + hash);
-  }
-}
 
 // Explicit language must work even when storage is blocked.
 const scripts = [...reader.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m => m[1]);
@@ -57,8 +45,9 @@ for (const match of reader.matchAll(/(?:src|href)="(\/assets\/[^"?#]+)"/g)) {
 for (const [name, permalink] of [['books.md', '/books/'], ['books-en.md', '/en/books/']]) {
   assert.ok(read('_tabs/' + name).includes('permalink: ' + permalink));
 }
+assert.ok(!existsSync(path.join(root, 'book')), 'The retired /book/read/ entry is back.');
 for (const name of ['_includes/home-content.html', '_posts/2026-08-25-no-view-is-the-whole.md', 'en/posts/no-view-is-the-whole.md']) {
   assert.ok(!read(name).includes('/book/read/'), 'Old reader link: ' + name);
 }
 assert.ok(read('_data/books.yml').includes('slug: no-view-is-the-whole'));
-console.log('PASS: 16 redirects, language selection and URL updates, canonical URL, images, and entry links.');
+console.log('PASS: language selection and URL updates, canonical URL, images, and entry links.');
