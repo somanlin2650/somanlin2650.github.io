@@ -96,7 +96,7 @@ theme_mode: # 留空＝跟隨系統，側欄左下角會有切換鈕
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: # 有方形照片再填 /assets/img/avatar.jpg，留空側欄就不顯示頭像
+avatar: /assets/img/avatar.jpg # 方形照片；留空側欄就不顯示頭像
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
