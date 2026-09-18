@@ -13,7 +13,7 @@ toc: true
 comments: true
 ---
 
-This is the complete text of the book, the same words as the [single-page bilingual reader](/book/read/?lang=en). The reader switches between Chinese and English and opens every figure at full size; this is the site-native version, with a sidebar table of contents, dark mode, and comments.
+This is the complete text of the book, the same words as the [single-page bilingual reader](/books/no-view-is-the-whole/?lang=en). The reader switches between Chinese and English and opens every figure at full size; this is the site-native version, with a sidebar table of contents, dark mode, and comments.
 
 ## Preface — Counting Yourself In
 {: #s1 }

@@ -38,6 +38,8 @@ html[data-bs-theme="dark"] .latest-essay {
 
 {% assign latest_item = site.data.writing | first %}
 {% assign latest = latest_item[include.lang] %}
+{% assign featured_book = site.data.books | where: 'slug', 'no-view-is-the-whole' | first %}
+{% assign reader_url = '/books/' | append: featured_book.slug | append: '/' %}
 
 {% if include.lang == 'en' %}
 <div class="book-home en">
@@ -48,7 +50,7 @@ html[data-bs-theme="dark"] .latest-essay {
   <p>They point at one question: how the way we make sense of the world is itself formed, who can check it, and how it is handed on to the next person. The author calls the turn of counting oneself in &ldquo;the second realisation&rdquo;, and closes with a claim about long-term reliance: when choosing a method, weigh how it will shape the evidence, learning and correction available later.</p>
   <p>Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. Chinese and English, switchable inside the reader.</p>
   <p style="margin:2rem 0 0;">
-    <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=en">Start reading &rarr;</a>
+    <a class="readbtn" href="{{ reader_url | relative_url }}?lang=en">Start reading &rarr;</a>
   </p>
   <p class="alt-read">
     <a href="{{ '/en/posts/no-view-is-the-whole/' | relative_url }}">Or read the whole text on the site &mdash; sidebar contents, dark mode, comments &rarr;</a>
@@ -98,7 +100,7 @@ html[data-bs-theme="dark"] .latest-essay {
   <p>它們指向同一個問題：我們用來理解世界的那套眼光，本身是怎樣形成的，能被誰檢查，又怎樣傳給下一個人。作者把「把自己也算進去」的轉變稱為「第二次頓悟」，並在全書最後提出一項評價長期依賴的主張：選用一種方法時，也要看它如何影響往後取得證據、學習與修正錯誤的能力。</p>
   <p>全書十五章分成四部，十七組圖，七十五條可回查的來源註。中英雙語，可在閱讀器內切換。</p>
   <p style="margin:2rem 0 0;">
-    <a class="readbtn" href="{{ '/book/read/' | relative_url }}?lang=zh">開始閱讀 &rarr;</a>
+    <a class="readbtn" href="{{ reader_url | relative_url }}?lang=zh">開始閱讀 &rarr;</a>
   </p>
   <p class="alt-read">
     <a href="{{ '/posts/no-view-is-the-whole/' | relative_url }}">或讀站內全文版 &mdash; 側邊目錄、深色模式、可留言 &rarr;</a>

@@ -3,6 +3,8 @@
 Jekyll::Hooks.register :site, :post_read do |site|
   tabs = site.data.dig("locales", "en", "tabs")
   tabs["writing"] = "Writing" if tabs
+  tabs["books"] = "Books" if tabs
+  tabs["books-en"] = "Books" if tabs
 end
 
 Jekyll::Hooks.register :pages, :post_render do |page|

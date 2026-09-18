@@ -1,0 +1,26 @@
+<p>{% if include.lang == 'en' %}Books by Soman Lin. Each reader offers Chinese and English editions.{% else %}Soman Lin 的書籍作品。進入閱讀器後，可切換中文或英文。{% endif %}</p>
+
+<div class="book-list">
+{% for book in site.data.books %}
+  {% assign copy = book[include.lang] %}
+  {% assign reader_url = '/books/' | append: book.slug | append: '/' %}
+  {% assign reader_lang = 'zh' %}
+  {% if include.lang == 'en' %}{% assign reader_lang = 'en' %}{% endif %}
+  <article>
+    <h2><a href="{{ reader_url | relative_url }}?lang={{ reader_lang }}">{{ copy.title | escape }}</a></h2>
+    <p class="book-subtitle">{{ copy.subtitle | escape }}</p>
+    <p>{{ copy.description | escape }}</p>
+    <p class="book-links">
+      <a href="{{ reader_url | relative_url }}?lang={{ reader_lang }}">{% if include.lang == 'en' %}Start reading →{% else %}開始閱讀 →{% endif %}</a>
+      <a href="{{ copy.text_url | relative_url }}">{% if include.lang == 'en' %}Site edition{% else %}站內全文版{% endif %}</a>
+    </p>
+  </article>
+{% endfor %}
+</div>
+
+<style>
+.book-list article { padding: 1.4rem 0 1.6rem; border-bottom: 1px solid var(--main-border-color); }
+.book-list h2 { margin: 0 0 .5rem; font-size: 1.5rem; line-height: 1.5; }
+.book-list .book-subtitle { color: var(--text-muted-color); }
+.book-list .book-links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-bottom: 0; }
+</style>
