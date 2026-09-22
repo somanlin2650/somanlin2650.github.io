@@ -1,122 +1,92 @@
-#H1 6 — Usefulness: What Understanding Enables Us to Do
-The year is ending and darkness is approaching, but the little match girl is still outside. In Andersen's story, snow falls, windows glow, and the smell of roast goose fills the street. She walks barefoot. Her oversized slippers were lost while she dodged carriages. Nobody has bought her matches or given her a coin all day.
+#PART Part Three|Where Does the Ability to Understand Reside?|Material passes through other people's hands, methods descend from earlier work, and skills develop between bodies and environments. Following these handovers reveals the actual reach of an ability.
 
-She fears going home without money because her father will beat her. Home is cold too, with wind entering through the roof. She curls into a corner between two houses, hands numb. Perhaps one match could warm them.
+#H1 6 — How Other People's Knowledge Becomes Our Ability
+In 1854, cholera broke out in London's Soho district. Severe diarrhoea and dehydration were followed by death after death among neighbours. An influential explanation attributed the disease to foul air. Disease and bad smells often occurred together; for people living among them, the explanation was readily believable.
 
-It flares. Holding out her hands, she seems to sit before a large iron stove. Warmth reaches her body; she stretches out her feet, but the match dies. The stove disappears. A burnt matchstick remains.
+The physician John Snow suspected contaminated drinking water instead. He had advanced this view before the outbreak. Whether the deaths in these streets supported it required investigation, household by household. He traced addresses, drinking water, and living circumstances, and plotted the information on a map.
 
-She strikes another. In its light the wall turns thin as gauze, revealing a laid table and a steaming goose. The goose jumps down and approaches with knife and fork in its body. The flame goes out, leaving the thick, cold, damp wall.
+On Snow's map, black strokes crowd the buildings near Broad Street. Each stroke marks a death. Among the streets are places labelled PUMP: the pumps from which residents fetched water for daily use.
 
-The third match places her beneath a splendid Christmas tree. Its branches carry many lights. She reaches towards them, and the match dies again. The lights rise into stars; one falls, trailing brightness. She remembers her grandmother saying that a falling star means a soul is going to God. The grandmother who loved her is dead.
+#FIG fig-01-snow-map.jpg|Figure 6.1　Snow's map of the 1854 Broad Street cholera outbreak. Black strokes mark deaths; their clustering provides clues for investigation. Original: John Snow, public domain; digital image details are given in the sources.[^snowmap]|Snow's map of cholera deaths, with dense black strokes near Broad Street and the positions of local water pumps.
 
-With the next flame, her grandmother appears. The girl begs to be taken away. She knows the stove, goose, and tree vanished when their flames died. This time she will not let her grandmother disappear. She hastily lights the whole bundle to keep her there.
+Deaths clustered around the Broad Street pump. But did everyone living nearby drink its water? People drank at home and at work, and some had water brought from farther away. Connecting addresses with drinking sources required knowing how people lived.
 
-Her grandmother lifts her, and together they rise where there is no cold, hunger, or sorrow, to be with God.
+Several exceptions gave the investigation direction. The surrounding streets suffered repeated deaths, while the workhouse had relatively few. A nearby brewery had no registered deaths among its workers. Why were these places different?
 
-The next morning people find the girl frozen to death against the wall, spent matches beside her. They think she had tried to warm herself. They do not know what she saw in the light.[^andersen]
+Of the workhouse's 535 original residents, five died of cholera. It had its own well and water supply and did not send for Broad Street water. Snow asked the brewery owner, Huggins, about the workers. Huggins said they received an allowance of malt liquor. He believed they never even drank water, but distinguished this belief from something he could positively confirm: they did not take water from the street pump. The brewery had a deep well and other supplies.
 
-The ending holds comfort within the flame and cold outside it. From which side should we begin to judge an experience's usefulness?
+Another clue led back to the pump from a distance. A woman who died in Hampstead had not visited the Broad Street area for months. Her son told Snow that she liked its water and had a large bottle delivered regularly by cart. A visiting niece drank it too, then fell ill and died after returning home. Their illnesses and deaths occurred in different places; water from one source connected them.
 
-#H2 What Does Feeling Helped Establish?
-Suppose a personality report says, “You care what others think of you, but sometimes wish you were less influenced by them.” It may touch a current concern. Does its apparent accuracy establish that the test distinguished you from other people?
+On the evening of 7 September, Snow presented his water investigation to the local authorities. The pump handle was removed the next day. Before its removal, the outbreak was already declining, and many residents had left. Deaths continued to decrease afterwards, but that sequence alone cannot establish the effect of removing the handle. Evaluating the waterborne explanation also requires the nearby places with few deaths, distant people who drank the same water, and comparisons between water supplies.[^snow]
 
-Bertram Forer asked students to complete a test, then gave them descriptions apparently derived from their answers. They rated how well the descriptions fitted. Ratings were generally high.
+#H2 How Many People Does a Map Depend On?
+During the same epidemic, Snow compared customers of two water companies in south London. Their pipes served the same streets; neighbouring houses sometimes used different companies. The Lambeth company had moved its intake upstream to cleaner water, whereas Southwark and Vauxhall still drew water affected by the city's sewage. People living close together in similar surroundings could therefore drink from different sources.
 
-Everyone had received the same text. In his 1949 paper, Forer called the exercise a classroom demonstration. It challenged the use of agreement to validate a diagnostic instrument. If one description makes many people feel individually recognised, that feeling does not establish discrimination among individuals.[^forer]
+The comparison sounds simple, yet its first step could be difficult: which company supplied this household? Tenants might not know because landlords paid the bills. Some patients had moved after becoming ill, so their original addresses had to be recovered. Comparing deaths during the epidemic's first seven weeks with the companies' numbers of supplied houses, Snow found a death rate per house roughly eight to nine times higher for Southwark and Vauxhall than for Lambeth.[^snow]
 
-A sentence can apply to one person and most of the class. To assess discrimination, different people's results must be compared. Asking each reader whether it sounds like them cannot establish that ability.
+Residents' and landlords' accounts, original addresses, and supply records had to be matched before death counts could mean anything. Snow could not learn it all merely by walking down a street. Memories, landlords' information, and official records each answered part of the question. Later readers wishing to examine his conclusion also need to know how he established addresses, distinguished supplies, and calculated mortality in each group.
 
-This does not deprive feelings of evidential value. Forer investigated discrimination. If the question concerns pain or discomfort, how a person feels and how that changes become indispensable evidence.
+Because Snow wrote down his investigation, we can examine his reasoning long afterwards without interviewing those households again. Research teams commonly work this way: some measure, others organise data, others analyse. Their instruments and mathematics embody earlier researchers' achievements. If everyone had to invent the instruments and reconstruct all knowledge before beginning, far less could be accomplished.
 
-A placebo usually suggests a patient unaware that a treatment contains no active drug. In 2010, Ted Kaptchuk and colleagues investigated another situation: could effects occur when participants were told?
+Maps and records together preserve knowledge no individual could remember in full. Residents supplied household circumstances; water companies kept pipe records; Snow brought them into one investigation. People's knowledge did not have to become identical before they could jointly answer a question none had previously answered.
 
-The study concerned irritable bowel syndrome, involving problems such as abdominal pain and changed bowel habits. One group knowingly took placebos with a positive treatment explanation. Another received comparable clinical interaction without that treatment. Over three weeks, the placebo group improved more on some self-reported symptom measures.[^placebo]
+We can still read about cases that resist a first impression: the nearby brewery with few casualties, the distant woman drinking the same water. Snow preserved them so that even readers accepting his conclusion could continue questioning it. Remembering only a doctor's courage in opposing the crowd, without learning how he checked his claim, would leave us with much less to learn.
 
-The intervention combined explanation and a pill-taking arrangement, with improvement chiefly measured through reported symptoms. Participants knew their allocation; expectations and reporting could influence assessment. Observed improvement therefore opened another question: which elements of the arrangement produced the differences?
+Trusting an expert also means remembering where their achievements came from. An engineer who repeatedly handles bridge structures well deserves attention. Those results also depend on measurements, colleagues, and construction conditions. These supports may not follow the engineer to a new site. Their achievements offer even less support for their opinions about education policy. There we must investigate another kind of knowledge and how they obtain and compare evidence within it.
 
-#H2 Why Do Planets Move Backwards?
-Beyond subjective feeling lies a firmer success: predicting something previously unknown and repeatedly matching later observations. There are grounds for belief, but which part should we believe? Astronomers long used a system that predicted planetary positions, while its account of celestial motion was later substantially rewritten.
+What readers can check depends on presentation. A report that explains methods, limitations, and subsequent corrections lets others repeat calculations or question conclusions. A screenshot stripped of author, date, and context may not even reveal what question the original words addressed. Both may sound equally certain while leaving very different room for verification.
 
-Record a planet's position against background stars over many nights and it does not always move in one direction. Sometimes it appears to stop, reverse, and resume. This apparent reversal is retrograde motion. Ancient astronomy needed both to explain it and calculate its return.
+Sometimes the missing source is precisely what holds us back. To check a quotation, find the original; to assess a method, examine the problems it handles and its failures. Reasoning alone that “this ought to make sense” can consume more time without reaching the material actually missing.
 
-In the second century CE, Ptolemy of Alexandria organised a geocentric system in the *Almagest*. One device was an epicycle: a planet moved on a small circle whose centre moved on a larger circle. Seen from Earth, the combined movements could trace an advance and retreat. The complete model used further geometrical arrangements to fit different observations.
+#H2 Which Part Is Unknown?
+“I don't know” can indicate very different gaps. In Snow's investigation, a death record might be clear while a household's drinking source still required an interview. Once the source was known, a causal connection required comparisons with other households and explanations. Remaining questions do not erase what is already known.
 
-This tradition and its revisions long supported planetary calculations and preserved extensive observations and techniques. Later explanations could be compared partly because those records survived.
+Distinguishing uncertainties makes the next step easier to arrange. To establish whether something happened, seek records or witnesses. To investigate a cause, compare the predictions of competing explanations. If the facts are broadly clear but a cost remains unacceptable, discuss the trade-off rather than repeatedly rechecking the same data.
 
-Including Earth among the bodies orbiting the Sun offers another explanation. Earth and an outer planet both advance, continually changing relative position. As Earth overtakes the outer planet on the inner track, our line of sight shifts backwards against the stars. Apparent reversal can result from relative motion.
+Suppose you are considering a job in another city. The company can confirm the salary; you can try the commute. Whether you want less time with your family cannot be settled by another salary report. Separating these questions avoids endless information gathering without treating every answerable question as personal preference.
 
-Copernicus's 1543 work proposed a heliocentric arrangement while retaining circular motion, with accuracy still needing improvement. Kepler later combined Tycho's observations with relationships including elliptical orbits and tested them through new tables and observations. Explanations of motion and improvements in prediction developed through different stages.[^astronomy]
+You can interview people and try the route before agreeing to move. Action brings back information previously missing. When the decision comes, the salary and role may remain attractive while the measured commute changes how you see the job.
 
-The old calculations' achievements did not vanish. They left useful predictions alongside an account of motion awaiting revision. New work inherited both successes and errors: which calculations should remain, which assumptions needed checking, and which phenomena remained unexplained?
+#H2 Experts Whose Answers Must Wait
+An expert's fluency is immediately apparent. Forecasting accuracy takes longer. A change of government or an economic indicator crossing a threshold will not deliver its answer before the programme ends.
 
-#H2 Use Is Not Confined to the Finished Result
-A question being answerable does not make it the first question to investigate. Time is limited; equally reliable information can play different roles in a decision.
+Beginning in the mid-1980s, Philip Tetlock followed political and economic experts' predictions over many years. Participants made judgements about specific, checkable events, stated their confidence, and had these judgements compared with later outcomes and benchmarks.[^tetlock]
 
-An engineer handling a fault may first check recently changed settings, when the error occurs, and operations that reproduce it. Every detail might merit study, but with half an hour remaining, information most likely to change the response should come first.
+Performance varied across people, questions, and measures; some results fell below simple benchmarks. Expertise previously recognised through reputation and speech now acquired a cumulative, checkable record. Assessing someone need no longer begin afresh with the impression of their latest appearance.
 
-If that person instead makes astronomy a vocation, questions irrelevant to the fault may deserve a lifetime. Uses span different timescales. The next half-hour cannot judge them all.
+Deadlines, outcomes, and confidence at the time of prediction must be preserved if comparison is to be possible. A prophecy without a time limit or clear conditions may remain “not yet wrong” indefinitely. Those waiting still cannot know when it warrants reliance.
 
-Truth can be pursued for several reasons, as can other activities. Comfort alone also misses painful experiences people willingly undertake.
+#H2 Putting Trust Where It Belongs
+A record also needs interpreting. Probabilities can match observed frequencies without distinguishing which situations are more likely to produce an event. Consider a hypothetical set of weather forecasts.
 
-Attending a funeral may offer comfort, but it can also acknowledge a relationship, remember someone with others, or fulfil a farewell one chooses to bear. Undiminished grief does not make attendance meaningless.
+Suppose it rains on fifty of a hundred days. One forecaster gives a fifty per cent chance every day. Another gives twenty per cent on fifty days and eighty per cent on the other fifty. Rain occurs on ten days in the first group and forty in the second.
 
-Consider a hypothetical survey asking how much money you would pay to protect an endangered species. Someone may refuse a number because they believe the species' continued existence should not depend solely on human willingness to pay.
+Both forecasters' confidence matches the frequencies, but the second supplies something useful for going out: which days are more likely to be wet. This distinguishes calibration from discrimination. Calibration asks whether stated confidence corresponds to frequency; users often also care how well different days can be distinguished.
 
-Recording every refusal as zero would turn opposition to pricing into indifference. The survey needs room for reasons. Conservation still faces scarce resources and allocation decisions. Before those decisions, however, we need to understand what people value.
+Checking an “eighty per cent chance” requires specifying the event, when it counts as occurring, and the outcomes used for comparison. Where numerical probabilities are unsuitable, we can still describe our grounds: “I've done this part myself; that part comes from a report; we have no data on the new situation.” Listeners can then distinguish experience from claims needing further confirmation.
 
-Reading fiction can bring pleasure in language, concern for characters, or renewed feeling for a difficult experience. Without accepting every inference, readers may find comfort or notice something long avoided. A novel need not teach a transferable technique to deserve reading.
+Verification can also become endless. After checking experts, you can check their evaluators, then those evaluators' institutions. Every check uses other knowledge. This path never suddenly reaches a place where no trust in anyone is needed.
 
-The same activity can make factual promises. A novel offered as precise history needs historical checking. A ritual sold with a guarantee of cure requires evidence of that effect. Their existing meanings do not discharge additional factual commitments.
+Discovering that several reports copied one source reduces the weight of what appeared to be widespread agreement. Finding that forecasts never stated checkable deadlines has a similar effect. We cannot check everything. But such differences already give us grounds to adjust trust.
 
-Using an example to support a decision adds another responsibility. As Chapter 4 discussed, a project succeeding after many years does not alone establish that ours should continue. The story's encouragement remains real. But we must spend the next year ourselves, so the reasons must return to our circumstances.
+Nor can responsibility for verification fall entirely on users. If only a provider has the original records but asks users to prove where a system failed, many problems become impossible to raise. Providers therefore need to offer intelligible explanations, suitable verification materials, and ways to resolve disputes. With these conditions, users have some chance of identifying an error.
 
-#H2 Useful to Whom, at Whose Expense?
-Some inadequately supported beliefs provide hope and encourage care. We can acknowledge these benefits while suspending judgement on their account of the world.
+#H2 Borrowed Ability Can Still Be Your Ability
+In “Encouraging Learning,” Xunzi writes that the exemplary person's nature is not different; the difference lies in making good use of things. Standing high to wave does not lengthen the arms, but makes the signal visible farther away. Calling downwind does not strengthen the voice, yet more people hear it. Boats, carriages, height, and wind show how human strengths can arise from things we use rather than reside entirely within us.[^xunzi]
 
-At a funeral, relatives remember someone and express the value of a relationship. These actions have understandable reasons. If someone also believes the deceased is at peace in another world, others can respect that consolation without claiming to have confirmed the world's existence.
+Boats and carriages carry people farther, prompting another question: who maintains these capacities? Crossing water depends on boatbuilding, knowledge of currents, maintenance, and navigation. A passenger need not know every operation to reach the other bank. What they acquire is not complete knowledge of the boat, but access to a capacity sustained by many people.
 
-Using that belief to make major decisions for others demands stronger grounds. Claims about treatment, finances, or safety involve checkable effects and risks borne by other people. Personal certainty and comfort cannot alone provide the required evidence.
+Such borrowing fills everyday life. We consult forecasts before taking umbrellas, follow medicine labels, and let positioning systems calculate routes. If genuine knowledge required personally repeating every observation, proof, and manufacturing process, anyone's world would become very small. Mature understanding can acknowledge dependence, locate its connections, and recognise when to investigate them.
 
-Religion commonly includes accounts of cosmic origins, rituals, communal norms, ethical practice, and identity. Without identifying the claim under discussion, participants may say much while answering different questions.
+Through trust, other people's capacities enter our actions. Whether these connections work can be asked concretely. On which problems has the source been tested? Through which retellings has information passed? Who can return to the records when results look wrong? Are different sources independent, or do they copy one another?
 
-Criticising an origin account's evidence need not deny the value of believers' mutual care. Acknowledging communal support does not establish the account's historical truth. Distinguishing claims avoids having to pronounce judgement on an entire tradition at once.
+Mapping these relationships reveals how much individual performance depends on things outside the individual. Whether to call them parts of the mind will return in Chapter 13; here we trace their support for ability. Books, instruments, colleagues, and institutions can all contribute to understanding. Dependence also reveals vulnerability: when an external link fails, an apparently personal ability may disappear. A second-order framework must ask not only what I believe, but which relationships let me accomplish something through that belief.
 
-Science likewise includes measurement, modelling, collective scrutiny, and technological application. Its achievements help explain how reliable knowledge is obtained. What to pursue and which costs to accept require discussion of values and responsibility, informed by relevant facts.
+#H2 Knowledge Left for the Next Person
+A judgement can reach another person as a bare conclusion, or accompanied by evidence, procedures, and unresolved questions. Leaving the latter takes more work, but lets successors recognise when an answer no longer applies.
 
-Lived reasons are rarely so neatly separated. A community's cosmic beliefs may be what motivate mutual care. A scientific inquiry may attract support because people already value the life it could change. Analysis separates reasons; a person losing certainty may also lose friends and direction.
+This changes what relying on others means. Accepting research does more than borrow something its author knows better than we do. It connects us to records, instruments, methods, and subsequent corrections. Individuals may forget, leave, or refuse to admit mistakes; their records can still let others continue the work.
 
-When a practice leaves its community for another setting, these relationships change. It encounters questions not previously posed in the same way.
+A book carries this responsibility too. Readers cannot repeat every study for its author. Important claims therefore need sources, and crucial steps in reasoning must be findable. A reader's trust does not exempt an author from explanation. Preserved grounds give later questions a place to begin.
 
-The Buddhist Four Noble Truths concern suffering, its origin, its cessation, and a path to cessation. They orient practitioners towards recognising a predicament, understanding its formation, and practising. Bringing some exercises into a modern hospital requires distinguishing religious purposes from clinical questions.
-
-In 1979, Jon Kabat-Zinn began a stress-reduction clinic at the University of Massachusetts Medical Center, bringing breathing, bodily awareness, and attention to present experience into a clinical programme. This became known as mindfulness-based stress reduction. In hospital, exercises face specific questions: which problems they help, compared with what, for how long, and for whom they may be unsuitable.[^mindfulness]
-
-Clinical comparisons need not require acceptance of a whole religious cosmology. How exercises were selected and adapted, and whether earlier ethical requirements remain, are further questions about this transfer. Kabat-Zinn's explanations also address attitudes and background.
-
-Suppose a company offers attention exercises to help employees with stress. They may learn useful methods; the company still needs to examine workload, burdensome procedures, and who can change them. Attributing every discomfort to insufficient practice can leave remediable burdens intact.
-
-Who benefits and for how long cannot now be omitted. An explanation may reassure someone today while sustaining unreasonable work. A simple category saves an administrator minutes while a misclassified person spends days appealing. Chapter 14 examines how institutions make certain achievements particularly visible.
-
-#H2 Usefulness Is Not Another Name for Truth
-Centring usefulness invites two misunderstandings: that a comforting belief counts as true, or that concern with use dispenses with facts. Comfort, truth, and usefulness become confused.
-
-William James's pragmatism examines how ideas acquire meaning in experience and how truth operates through verification and life. It is often reduced to “whatever works is true,” as though immediate effectiveness could confer truth by itself. His writing is more demanding: ideas enter experiential relationships and face existing facts and further experience.[^james]
-
-This book separates two tasks. For factual statements, we investigate whether the asserted situation obtains. For an understanding, we ask whose abilities it increases and under which conditions. We can then evaluate uses without awaiting a final theory of truth, and avoid substituting achievement in one respect for grounds needed in another.
-
-A map with the wrong exit usually fails as a guide; here truth contributes to usefulness. A perfectly accurate geological map still cannot plan an accessible rail transfer. The traveller needs relevant information and a readable representation. Conversely, a false statement may briefly comfort someone while depriving them of reality-based choice. Immediate emotion omits the cost to later decisions.
-
-Judging usefulness therefore requires at least five specifications: for whom, for what purpose, under which conditions, for how long, and at what cost. Another question follows: does the capacity undermine future error checking? A lie maintained by excluding evidence consumes future understanding. Efficiency achieved by transferring difficulty to people without a voice presents local gains as collective gains.
-
-A locally effective method may still be unworthy of adoption. Successful manipulation does have that function; harm to its victims provides grounds for opposition without requiring us to deny its effectiveness. A second-order framework must distinguish function, costs, and reasons for adoption, rather than silently making usefulness settle every value judgement.
-
-Truth matters without monopolising evaluation. Ethical legitimacy, aesthetic value, and respect in relationships each call for their own reasons; none needs to masquerade as a factual proposition. The framework places these standards in their roles and examines how they support or obstruct an ability together.
-
-#H2 How Truth Reaches a Person
-Truth sometimes arrives first as pain. Learning that a relationship has ended or a long project has failed does not immediately bring relief. Yet subsequent choices may require knowing.
-
-Delivery differs too. Someone may have time to understand, ask, and receive help with consequences, or be forced to respond publicly at once. The same news can reach a person through very different treatment.
-
-Sometimes we genuinely do not know how much they can bear now. Fear of their pain may express care, but may also keep us deciding what they are allowed to know. They need support and have choices of their own. Their needed support may differ from what we imagined.
-
-When the girl lights her bundle, the story lets her keep her grandmother. Knowing what morning brings, the reader also feels the cold that comfort cannot remove.
+These handovers let us borrow ability, but they also reveal a difficulty: other people's words may not fit directly into familiar categories. For understanding to connect, we may first need to find out what question the other person is answering.

@@ -1,0 +1,93 @@
+#H1 16 — The Framework Within the Framework
+Studying how understanding works does not place us outside it. This book, too, selects material, arranges relations, and makes evaluations. Having asked other methods to explain what they can do, it owes the same account of its own uses, commitments, and boundaries.
+
+The previous chapter's case for preserving future error detection includes our concern for losses, costs, and rights. These positions cannot be hidden in a flowchart as though its arrows had deduced them. At the end, we need to bring them into view and explain which traditions the framework inherits from, and what further work it proposes.
+
+#H2 After Understanding, Commitment Remains
+Better means of attaining an aim can also be alarming. An oppressive institution can learn from failure and oppress more effectively. Knowing how to accomplish something does not establish its worth. Increased knowledge and effectiveness do not generate ethical legitimacy. Affected people's standing and rights require direct normative arguments.
+
+This book adopts the position that people should have real opportunities to offer reasons, question, and seek appropriate remedy regarding arrangements deeply affecting their lives. Neural reflexes and control systems do not select that position for us. Commitments about human standing and shared life require ethical and political reasons.
+
+A service pursuing faster closure may treat complaints as figures to suppress. Giving users the standing to question whether closure means resolution changes what the system should learn. Equal access to reasons still does not guarantee consensus.
+
+In 2009, US Preventive Services Task Force breast-cancer screening recommendations prompted controversy. At that time, starting regular mammography between forty and forty-nine was presented as an individual decision considering circumstances and the weighting of benefits and harms; biennial screening was recommended from fifty to seventy-four. This is a historical document, not current personal screening advice.[^screening]
+
+Screening seeks possible indications for further examination among people without relevant symptoms. Earlier detection can help, while abnormal results may prove not to be cancer. Some detected and treated cancers might never have caused symptoms or death in that person's lifetime. More detections therefore cannot alone establish overall benefit.
+
+Comparisons also need denominators. Consider hypothetical figures unrelated to breast-screening evidence: an intervention lowers a risk from four in a hundred to two. Both “halves the risk” and “two fewer per hundred” are correct. The latter also exposes the original magnitude. Relative reduction alone invites different impressions of the absolute difference.
+
+The controversy concerned evidential sufficiency, modelling, and communication of benefits and harms. Clearer estimates still leave questions of how much benefit warrants additional tests, anxiety, and treatment. Individual choice requires comprehensible information and support. Handing someone the choice does not remove the difficulty.
+
+In 1953, Richard Rudner argued that evidential thresholds for accepting hypotheses can depend on the consequences of error. Heather Douglas later examined such risk in research methods, data interpretation, and inference.[^values] Including acceptable error risk does not authorise alteration of evidence.
+
+Serious consequences of missing a harmful substance may justify different testing requirements. Hoping it harmless does not justify rewriting measurements. Values affect tolerable uncertainty, not facts at will.
+
+Acknowledging possible error permits commitment. You can revise beliefs about institutional effects while refusing to support concentrating major costs on people without alternatives. One concerns evidence; the other offers a position requiring defence.
+
+That position has a history. Family, education, and experience shape concerns without their influence alone disproving a value. After recognising the history, do you still endorse it, can you explain it to those affected, and will you face its consequences?
+
+Reason, feeling, and experience can prompt reconsideration. Understanding another life may change tolerable costs; evidence may remove anger's grounds. Making a commitment into a binding common rule additionally requires explaining participation and why affected people should accept the arrangement.
+
+#H2 From Understanding to Action and Back
+Earlier choices, inquiries, and practice reveal two movements. To understand, we form explanations from observations, make predictions, and revise with new material. To accomplish, we choose actions for purposes, then let results challenge methods and perhaps purposes themselves.
+
+These movements interweave. Suitable trials clarify initially obscure needs; research can undermine an attractive goal. Acting to learn nevertheless has limits. Possible harm, changed rights, and irrecoverable opportunities prevent learning alone from justifying continuation.
+
+Inquiry may also change the intended action. Recovering records may correct one number; hearing someone previously excluded may widen the question. There is no need to rerun every chapter. Follow the newly revealed difficulty.
+
+Chapter 12's stopping question remains: what might further analysis change, and how much time is worthwhile? No effect on immediate action does not make a question permanently unworthy. Present decisions and long inquiry can have separate time.
+
+With practice, distinctions need less conscious recall. You can notice an unverified inference in an accusation without reciting definitions of observation and interpretation. You can recognise someone's lack of authority without drawing a complete institutional chart. Learned methods occupy less attention, leaving more for this occasion's differences.
+
+#H2 Connect Standards Back to Use
+Chapter 11 separated factual truth, functional effects, and grounds for adoption. A transit map shows how these evaluations work together.
+
+Correct station order meets a factual requirement. Successful transfers also depend on legibility, skill, and environment. A design helping regular travellers while confusing newcomers distributes benefits and losses differently. Accuracy, usability, and distribution each require distinct investigation and discussion.
+
+The framework cannot automatically add them into a score. It asks how standards relate: mandatory conditions, comparable costs, and remaining negotiated differences. Where one ranking cannot be obtained, disagreements and reasons should remain. Replacing everything with useful would erase distinctions we sought to clarify.
+
+#H2 Connections with Existing Traditions
+Important traditions already put the observer back into the problem, connect criticism with revision, and move between judgements and principles. If this book merely renames that work, its claim to unity adds nothing. Comparison should begin by acknowledging paths already travelled.
+
+In 'Cybernetics of Cybernetics', Heinz von Foerster directs second-order cybernetics towards systems that observe. How observers describe, distinguish, and set purposes enters the inquiry rather than remaining outside its description.[^cybernetics] This book follows that turn: the knower's choices and abilities also belong in the analysis. It does not, however, infer from the dependencies of observation that every account is equally valid. We can still compare data, examine inferences, and allow results to count against a claim. This practical analysis does not require readers first to accept a single answer about the ontological status of mind or reality.
+
+In studying the social conditions of science, Helen Longino identifies practical requirements for criticism: forums in which it can be offered, responsiveness to it, publicly discussable standards, and the inclusion of relevant perspectives without arbitrary exclusion by power. This does not give everyone equal expertise on every issue.[^longino] The preceding two chapters' concern with challenge and revision has a direct affinity with this tradition. Following it, we ask how the distinctions raised by criticism enter representations, which operations receive them, and who ultimately changes a decision. Adding an opportunity to speak and changing a route for handling problems remain separate achievements to establish.
+
+Reflective equilibrium moves among particular judgements, principles, and relevant theories, adjusting them towards better mutual support. It permits revision at either end, rather than always making cases yield to principles.[^equilibrium] This helps illuminate the chapter's discussion of values. We also need to trace which material gets a chance to become a considered judgement, and how revised claims enter action. Someone may rethink fairness while a form still offers no place to describe unfair treatment. The reconciliation of reasons must also connect with changes in tools and institutions.
+
+Each tradition contains richer arguments than can be presented here. A few comparisons cannot establish that one has superseded another. This book's chosen task is to examine the selections made by representations, the handovers between methods, and the conditions of revision together, bringing bodily skills, individual judgements, and collective institutions within that inquiry. How much ability this combination adds must be shown by its results, not proved by declaring a difference from predecessors.
+
+Category theory in mathematics inspires attention to relations and composable transformations. Here, however, 'composition' has not received an equally rigorous formal definition. Nor can one symbol dispense with the different preservation conditions required by different uses. This book offers a framework for philosophical analysis that can be examined and revised. Any future formalisation would still need to specify its objects, transformations, rules of composition, and conditions of validity.
+
+#H2 Coherence and Coverage Require Different Tests
+Self-examination does not guarantee consistency. Coherence requires at least that claims under the same conditions and meanings not conflict, and exceptions have reasons. If rearrangement can preserve information, all representation cannot also be defined as deletion. Requiring checked feedback cannot exempt one's own revisable categories from checking.
+
+Including oneself makes contradiction discoverable; the examination still has to occur. Uses, users, terms, and costs face proportionate questions. If the framework complicates simple matters or replaces needed action with classification, its scope should narrow.
+
+Coverage requires another kind of test. This book hopes these relations can analyse a broad range of activities of understanding, but has not proved that they encompass every possible kind. Putting anything new under 'other' only demonstrates a broad category; expanding after criticism only demonstrates revisability. A claim to wide applicability requires examination across fields: can the framework preserve important differences, locate specific gaps, and enable further work?
+
+Mathematics checks definitions and proofs; history examines evidence and context; craft develops discrimination through bodily practice. Renaming all three feedback, without identifying their work, unifies vocabulary rather than understanding. The framework must preserve differences and identify possible assistance among them.
+
+Unmanageable questions can remain as gaps while new tools are sought. A stronger challenge arises when important problems repeatedly get misclassified or merely renamed afterwards. Components and their relationships then need revision. Breadth must be earned through analysis, not declared.
+
+#H2 One Way of Thinking Can Permit Different Practices
+After “I have thought carefully,” we can explain what was considered: available information, borrowed methods, and unfinished matters. These answers reveal what the effort achieved.
+
+Reflection itself faces the test. Revisiting reasons may reveal contradiction or merely consume observation, rest, and action through repetition. Exempting reflection from evaluation because we favour it grants our preferred method the very privilege we challenge.
+
+Everyday coherence asks whether reasons apply to ourselves. If formation affects another's judgement, my own statements do not become history-free simply because they are mine. Valuing direct experience includes permitting others' experiences to trouble my categories. A reason can weigh differently in different circumstances, but circumstances—not self-exemption—must justify it.
+
+Familiar work can rely on practice with feedback; unfamiliar choices need more evidence; emergencies require the best presently available ability. Different procedures can have connected reasons. Time, evidence, and consequences should explain the difference.
+
+Consistency still cannot guarantee correctness. A coherent system can use false data or exclude a group's needs. Compatibility among statements needs company from outcomes, other people's experience, and criticism.
+
+#FIG fig-18-method-review.svg|Figure 16.1　Sometimes answers need changing; sometimes the way of judging needs reconsideration. The outer loop permits review of existing arrangements without demanding that every action rebuild the entire framework. Drawn for this book.|The inner loop runs from problem and method to action and result. The outer loop returns unexpected material to original purposes and standards, revising reasons for choosing methods when necessary.
+
+Requiring infallible standards before every beginning recreates Chapter 12's endless analysis. Judgement proceeds with available knowledge while preserving places for later correction.
+
+Successors may do more than correct us. Inheriting reasons and opportunities to practise, they can ask questions we never conceived. Making that possible is another reason to transmit understanding.
+
+#H2 This Book Is Included
+This book chooses stories, evidence, and language, directing attention to some things and away from others. It devotes many pages to methods. Sometimes a person needs rest or someone willing to hear the whole account. Calling every such lack inadequate thinking would misread their circumstances.
+
+If a distinction does not help, a case conflicts with evidence, or following the analysis obstructs necessary action, the book needs revision too. A book advocating correction must earn reliance through actual help.

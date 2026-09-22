@@ -1,88 +1,60 @@
-#H1 2 — Understanding Never Belongs to One Person Alone
-In 1854, cholera broke out in London's Soho district. Severe diarrhoea and dehydration were followed by death after death among neighbours. An influential explanation attributed the disease to foul air. Disease and bad smells often occurred together; for people living among them, the explanation was readily believable.
+#H1 2 — Preservation, Composition, and Return
+Hans's hoofbeats were counted as an answer; the answer was read as evidence of arithmetic ability. After Pfungst changed the tests, the same hoofbeats received another explanation. The turning point in the previous chapter lay between these steps.
 
-The physician John Snow suspected contaminated drinking water instead. He had advanced this view before the outbreak. Whether the deaths in these streets supported it required investigation, household by household. He traced addresses, drinking water, and living circumstances, and plotted the information on a map.
+For the moment, we can lay out the researcher's work: obtain material, keep records, make comparisons, form a judgement, and arrange another test. As new results arrive, the original explanation may change. Sometimes what is tested, and how it is recorded, must change too.
 
-On Snow's map, black strokes crowd the buildings near Broad Street. Each stroke marks a death. Among the streets are places labelled PUMP: the pumps from which residents fetched water for daily use.
+**Material → Representation → Operation → Judgement and action → Results and new material.**
 
-#FIG fig-01-snow-map.jpg|Figure 2.1　Snow's map of the 1854 Broad Street cholera outbreak. Black strokes mark deaths; their clustering provides clues for investigation. Original: John Snow, public domain; digital image details are given in the sources.[^snowmap]|Snow's map of cholera deaths, with dense black strokes near Broad Street and the positions of local water pumps.
+This sequence offers an initial map. Material consists of the experience and records available on this occasion. Representation preserves some of their differences; operations let us compare, infer, rearrange, or try things out. Judgement can guide action, which changes the environment and brings new material. The knower's abilities, the environment, and available resources support the whole process; purpose gives particular differences and results their importance.
 
-Deaths clustered around the Broad Street pump. But did everyone living nearby drink its water? People drank at home and at work, and some had water brought from farther away. Connecting addresses with drinking sources required knowing how people lived.
+The arrows do not mean that everyone settles on a purpose first and then thinks in order. We may begin doing something before discovering what we want to ask; a skilled body need not first translate what it perceives into sentences. The map helps locate dependencies, without requiring every act of understanding to follow one procedure. Some results arrive much later; others can no longer be checked. These missing routes of return also need to remain visible. Purpose and judgement appear in the map because we are examining how understanding works. This does not give the stones, rivers, or diseases being understood purposes or cognition of their own.
 
-Several exceptions gave the investigation direction. The surrounding streets suffered repeated deaths, while the workhouse had relatively few. A nearby brewery had no registered deaths among its workers. Why were these places different?
+#H2 Can a Difference Survive the Next Step?
+Preservation, composition, and return are the three relations this book uses to examine transformations. Returning to Hans makes their different questions clearer.
 
-Of the workhouse's 535 original residents, five died of cholera. It had its own well and water supply and did not send for Broad Street water. Snow asked the brewery owner, Huggins, about the workers. Huggins said they received an allowance of malt liquor. He believed they never even drank water, but distinguished this belief from something he could positively confirm: they did not take water from the street pump. The brewery had a deep well and other supplies.
+**Preservation** asks what remains distinguishable after a change of form. If the record retains only the number of correct answers, whether the questioner knew the answer disappears from the data. To distinguish arithmetic from responses to bodily signals, that difference must survive. It may matter less for another purpose; what should be preserved always needs to be explained in relation to use.
 
-Another clue led back to the pump from a distance. A woman who died in Hampstead had not visited the Broad Street area for months. Her son told Snow that she liked its water and had a large bottle delivered regularly by cart. A visiting niece drank it too, then fell ill and died after returning home. Their illnesses and deaths occurred in different places; water from one source connected them.
+**Composition** asks whether what one step supplies is enough to support the next. The right number of taps supports the claim that the horse performed correctly in these circumstances. Reaching the claim that he understood arithmetic requires further work to rule out other explanations. Each step may look plausible on its own, while the combined inference outruns the evidence at the point of connection.
 
-On the evening of 7 September, Snow presented his water investigation to the local authorities. The pump handle was removed the next day. Before its removal, the outbreak was already declining, and many residents had left. Deaths continued to decrease afterwards, but that sequence alone cannot establish the effect of removing the handle. Evaluating the waterborne explanation also requires the nearby places with few deaths, distant people who drank the same water, and comparisons between water supplies.[^snow]
+**Return** asks whether later discoveries have a route back to change earlier methods. A failed test can be recorded as a fluke, or it can prompt a review of categories and a new experimental design. When Pfungst brought the questioner's knowledge and the horse's line of sight into the comparison, he changed more than the answer to a single problem.
 
-#H2 How Many People Does a Map Depend On?
-During the same epidemic, Snow compared customers of two water companies in south London. Their pipes served the same streets; neighbouring houses sometimes used different companies. The Lambeth company had moved its intake upstream to cleaner water, whereas Southwark and Vauxhall still drew water affected by the city's sewage. People living close together in similar surroundings could therefore drink from different sources.
+Each relation has its own work to do. Complete records do not guarantee sound connections between inferences; recognising a gap does not guarantee that anyone can change the test. Conversely, even a willingness to repeat the work cannot recover every difference once the original records are gone. Return means a route for investigation and revision, not a promise that time or information can flow backwards.
 
-The comparison sounds simple, yet its first step could be difficult: which company supplied this household? Tenants might not know because landlords paid the bills. Some patients had moved after becoming ill, so their original addresses had to be recovered. Comparing deaths during the epidemic's first seven weeks with the companies' numbers of supplied houses, Snow found a death rate per house roughly eight to nine times higher for Southwark and Vauxhall than for Lambeth.[^snow]
+#H2 What Changes at the First and Second Orders?
+Testing one more problem by the existing method may change our judgement of that performance. Including the questioner's knowledge in the test changes how the judgement is formed. **First-order understanding uses existing methods to address things; second-order understanding also makes the methods of forming, connecting, checking, and revising judgements open to change.**
 
-Residents' and landlords' accounts, original addresses, and supply records had to be matched before death counts could mean anything. Snow could not learn it all merely by walking down a street. Memories, landlords' information, and official records each answered part of the question. Later readers wishing to examine his conclusion also need to know how he established addresses, distinguished supplies, and calculated mortality in each group.
+The distinction is not one of profundity. Thinking through the same answer again may leave the method untouched; changing a field in a record may enable the entire test to distinguish something previously invisible. Second-order understanding must make a difference of this kind.
 
-Because Snow wrote down his investigation, we can examine his reasoning long afterwards without interviewing those households again. Research teams commonly work this way: some measure, others organise data, others analyse. Their instruments and mathematics embody earlier researchers' achievements. If everyone had to invent the instruments and reconstruct all knowledge before beginning, far less could be accomplished.
+Nor are the rules for changing methods exempt. Is an anomaly enough to justify repeating a study? Who can raise it, and who decides whether it deserves attention? Arrangements that repeatedly miss important problems also need reconsideration. We need not ascend through endless levels before every action. A concrete difficulty can guide us to the level that needs another look.
 
-Maps and records together preserve knowledge no individual could remember in full. Residents supplied household circumstances; water companies kept pipe records; Snow brought them into one investigation. People's knowledge did not have to become identical before they could jointly answer a question none had previously answered.
+#H2 How One Transformation Hands Over to Another
+Imagine a water-supply investigation; for now, consider only how its data connect. Household addresses are mapped, drinking-water sources are classified, and deaths are compared across categories. The addresses must correspond to the period under investigation, the categories to the sources being studied, and the death counts to appropriate denominators. If any connection goes wrong, precise calculations may answer a different question.
 
-We can still read about cases that resist a first impression: the nearby brewery with few casualties, the distant woman drinking the same water. Snow preserved them so that even readers accepting his conclusion could continue questioning it. Remembering only a doctor's courage in opposing the crowd, without learning how he checked his claim, would leave us with much less to learn.
+A dataset counting people cannot be compared directly with one counting households supplied merely because both columns say 'mortality rate'. Nor may an unanswered interview quietly become a negative response when tables are merged. Such small handovers determine whether individually useful tasks can combine into a greater ability. Snow's investigation in Chapter 6 will make this concrete.
 
-Trusting an expert also means remembering where their achievements came from. An engineer who repeatedly handles bridge structures well deserves attention. Those results also depend on measurements, colleagues, and construction conditions. These supports may not follow the engineer to a new site. Their achievements offer even less support for their opinions about education policy. There we must investigate another kind of knowledge and how they obtain and compare evidence within it.
+Comparing groups separately before assembling an overview may preserve very different possibilities from compressing everything into an average and only then asking about group differences. Identical names do not guarantee identical contents; a change of order may also lose relations we need.
 
-What readers can check depends on presentation. A report that explains methods, limitations, and subsequent corrections lets others repeat calculations or question conclusions. A screenshot stripped of author, date, and context may not even reveal what question the original words addressed. Both may sound equally certain while leaving very different room for verification.
+The unity sought here rests on these traceable relations. Mathematical proof, historical inquiry, and bodily practice each involve indispensable work. We want to study how they develop abilities, how they can connect under suitable conditions, and how new results can change established methods. Calling them all 'information' is far from enough.
 
-Sometimes the missing source is precisely what holds us back. To check a quotation, find the original; to assess a method, examine the problems it handles and its failures. Reasoning alone that “this ought to make sense” can consume more time without reaching the material actually missing.
+#H2 Where to Begin Checking
+Six questions can help locate the work needed for a particular judgement. They indicate places to examine and may be omitted, divided, or rephrased as circumstances require.
 
-#H2 Which Part Is Unknown?
-“I don't know” can indicate very different gaps. In Snow's investigation, a death record might be clear while a household's drinking source still required an interview. Once the source was known, a causal connection required comparisons with other households and explanations. Remaining questions do not erase what is already known.
+Begin with purpose: **what do we want to understand or accomplish?** Predict an outcome, explain a cause, complete an action, understand someone, or reconsider what is worth pursuing? Clarifying the use helps establish what would count as a gain.
 
-Distinguishing uncertainties makes the next step easier to arrange. To establish whether something happened, seek records or witnesses. To investigate a cause, compare the predictions of competing explanations. If the facts are broadly clear but a cost remains unacceptable, discuss the trade-off rather than repeatedly rechecking the same data.
+Locate ability and circumstance: **who is understanding, and who bears the consequences?** Knowers bring existing abilities, positions, and limits. Those affected may have material absent from the framework, yet may never have had a chance to help define the problem.
 
-Suppose you are considering a job in another city. The company can confirm the salary; you can try the commute. Whether you want less time with your family cannot be settled by another salary report. Separating these questions avoids endless information gathering without treating every answerable question as personal preference.
+Follow the material: **which differences does the representation preserve?** Tables, maps, statements, sensations, and models retain particular relations. Establish where the material came from and how it was selected, then examine what the representation keeps. Once a needed distinction has been merged away, the representation alone cannot restore it.
 
-You can interview people and try the route before agreeing to move. Action brings back information previously missing. When the decision comes, the salary and role may remain attractive while the measured commute changes how you see the job.
+With a representation in place: **which operations are available?** Some representations suit comparison, others proof; some support rapid action, others the reconstruction of someone's reasons. A framework's contents must be considered alongside the work they enable.
 
-#H2 Experts Whose Answers Must Wait
-An expert's fluency is immediately apparent. Forecasting accuracy takes longer. A change of government or an economic indicator crossing a threshold will not deliver its answer before the programme ends.
+Examine what supports that work: **on which conditions does the ability depend?** Sources, environmental regularities, time, skills, tools, and cooperation may all contribute to success. When conditions change, past performance must be checked against the new use.
 
-Beginning in the mid-1980s, Philip Tetlock followed political and economic experts' predictions over many years. Participants made judgements about specific, checkable events, stated their confidence, and had these judgements compared with later outcomes and benchmarks.[^tetlock]
+Finally, trace the destination of revision: **when results return, which level can change?** Sometimes a number needs correction; sometimes a representation, skill, or procedure needs changing. New experience can also undermine the original purpose. If a framework permits revised answers but forbids reconsidering questions, what it never asked will struggle to enter learning.
 
-Performance varied across people, questions, and measures; some results fell below simple benchmarks. Expertise previously recognised through reputation and speech now acquired a cumulative, checkable record. Assessing someone need no longer begin afresh with the impression of their latest appearance.
+The questions locate work. A simple problem may need two; a new field may require finer divisions. Transfer succeeds when concrete work is identified. Repeating shared names is insufficient.
 
-Deadlines, outcomes, and confidence at the time of prediction must be preserved if comparison is to be possible. A prophecy without a time limit or clear conditions may remain “not yet wrong” indefinitely. Those waiting still cannot know when it warrants reliance.
+These six questions do not occupy the same level. Representations and operations are components of a process; knowers, environments, and resources support their operation. Purpose shapes selection and evaluation; revision can act on any of these. Restoring the questions to their relations within transformations helps us see what else may need to change when an answer changes.
 
-#H2 Putting Trust Where It Belongs
-A record also needs interpreting. Probabilities can match observed frequencies without distinguishing which situations are more likely to produce an event. Consider a hypothetical set of weather forecasts.
+This map gives the reading ahead a direction. Part Two examines what transformations preserve. Part Three asks who and what sustain the ability to understand. Part Four brings judgement into contact with purpose and cost. Part Five asks how results can change the conditions that produce understanding. Each part unfolds the same relations while putting this initial map to further tests.
 
-Suppose it rains on fifty of a hundred days. One forecaster gives a fifty per cent chance every day. Another gives twenty per cent on fifty days and eighty per cent on the other fifty. Rain occurs on ten days in the first group and forty in the second.
-
-Both forecasters' confidence matches the frequencies, but the second supplies something useful for going out: which days are more likely to be wet. This distinguishes calibration from discrimination. Calibration asks whether stated confidence corresponds to frequency; users often also care how well different days can be distinguished.
-
-Checking an “eighty per cent chance” requires specifying the event, when it counts as occurring, and the outcomes used for comparison. Where numerical probabilities are unsuitable, we can still describe our grounds: “I've done this part myself; that part comes from a report; we have no data on the new situation.” Listeners can then distinguish experience from claims needing further confirmation.
-
-Verification can also become endless. After checking experts, you can check their evaluators, then those evaluators' institutions. Every check uses other knowledge. This path never suddenly reaches a place where no trust in anyone is needed.
-
-Discovering that several reports copied one source reduces the weight of what appeared to be widespread agreement. Finding that forecasts never stated checkable deadlines has a similar effect. We cannot check everything. But such differences already give us grounds to adjust trust.
-
-Nor can responsibility for verification fall entirely on users. If only a provider has the original records but asks users to prove where a system failed, many problems become impossible to raise. Providers therefore need to offer intelligible explanations, suitable verification materials, and ways to resolve disputes. With these conditions, users have some chance of identifying an error.
-
-#H2 Borrowed Ability Can Still Be Your Ability
-In “Encouraging Learning,” Xunzi writes that the exemplary person's nature is not different; the difference lies in making good use of things. Standing high to wave does not lengthen the arms, but makes the signal visible farther away. Calling downwind does not strengthen the voice, yet more people hear it. Boats, carriages, height, and wind show how human strengths can arise from things we use rather than reside entirely within us.[^xunzi]
-
-Boats and carriages carry people farther, prompting another question: who maintains these capacities? Crossing water depends on boatbuilding, knowledge of currents, maintenance, and navigation. A passenger need not know every operation to reach the other bank. What they acquire is not complete knowledge of the boat, but access to a capacity sustained by many people.
-
-Such borrowing fills everyday life. We consult forecasts before taking umbrellas, follow medicine labels, and let positioning systems calculate routes. If genuine knowledge required personally repeating every observation, proof, and manufacturing process, anyone's world would become very small. Mature understanding can acknowledge dependence, locate its connections, and recognise when to investigate them.
-
-Through trust, other people's capacities enter our actions. Whether these connections work can be asked concretely. On which problems has the source been tested? Through which retellings has information passed? Who can return to the records when results look wrong? Are different sources independent, or do they copy one another?
-
-Mapping these relationships reveals how much individual performance depends on things outside the individual. Whether to call them parts of the mind will return in Chapter 14; here we trace their support for ability. Books, instruments, colleagues, and institutions can all contribute to understanding. Dependence also reveals vulnerability: when an external link fails, an apparently personal ability may disappear. A second-order framework must ask not only what I believe, but which relationships let me accomplish something through that belief.
-
-#H2 Knowledge Left for the Next Person
-A judgement can reach another person as a bare conclusion, or accompanied by evidence, procedures, and unresolved questions. Leaving the latter takes more work, but lets successors recognise when an answer no longer applies.
-
-This changes what relying on others means. Accepting research does more than borrow something its author knows better than we do. It connects us to records, instruments, methods, and subsequent corrections. Individuals may forget, leave, or refuse to admit mistakes; their records can still let others continue the work.
-
-A book carries this responsibility too. Readers cannot repeat every study for its author. Important claims therefore need sources, and crucial steps in reasoning must be findable. A reader's trust does not exempt an author from explanation. Preserved grounds give later questions a place to begin.
+We begin with a transit map. The city remains the same; the lines on paper change, and with them what people can do.

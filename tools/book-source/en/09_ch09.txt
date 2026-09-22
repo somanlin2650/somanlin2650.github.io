@@ -1,104 +1,171 @@
-#PART Part Three|The Knower Is Inside the Framework|Understanding is not pure calculation detached from bodies, time, and other people. The knower's abilities and limits belong to the problem.
+#H1 9 — Bodies, Skills, and Tools
+A firefighting crew enters a house. The fire seems to be near the kitchen. They apply water as usual, but it does not behave as their commander expects.
 
-#H1 9 — Other People Are Not Objects Awaiting Decoding
-Rain falls outside the ruined Rashomon gate. Beneath it, a woodcutter and a priest discuss testimony about a killing. A passer-by shelters there and asks what happened. Kurosawa's film *Rashomon* unfolds through this questioning. Alongside the stranger, we hear incompatible versions of events.
+Interviewing the commander, decision researcher Gary Klein repeatedly explored what happened next. The commander abruptly felt something wrong and ordered everyone out. After they left, the floor collapsed. The fire was actually in the basement, directly below where they had stood.[^klein]
 
-A samurai travelling through a wood with his wife encounters the bandit Tajomaru. The samurai dies; his wife is assaulted. The bandit admits killing him but depicts himself as the victor in a fair duel. In his account, the wife demanded the fight.
+The commander initially called it a sixth sense. That name neither teaches others how to acquire it nor establishes when to trust it. Further questioning uncovered clues: heat disproportionate to the visible fire, unusual quiet, and water not producing the expected effect.
 
-The wife's account contains no duel. After the bandit left, she says, her husband looked at her with contempt. She approached with a dagger, lost consciousness, and awoke to find it in his chest. Speaking through a medium, the dead man supplies a third account: his wife asked the bandit to kill him, and he eventually killed himself. Murder by the bandit and suicide cannot both describe his death.
+He had not first assembled them into a complete argument about a basement. Before that explanation existed, differences had made evacuation seem necessary.
 
-Each speaker's story restages the wood. The people remain; their actions change. The woodcutter later admits more than discovering the body: he witnessed the conflict. His two men hesitate and fight awkwardly, unlike the bandit's heroic duel.
+These clues emerged through retrospective interviews. They permit investigation without establishing that every detail later articulated was fully present in his mind then.
 
-A baby cries beneath the gate. The three discover an abandoned child. The stranger takes its clothes; when the woodcutter objects, he asks where the wife's valuable dagger went. He suspects the woodcutter stole it and concealed what he saw. The man apparently exposing other accounts now faces doubt about his own.
+The scene did not simply provide one conspicuous danger signal. Expected responses failed to occur: water did not reduce fire as anticipated, and heat and sound did not fit. Recognition preceded the interview's explanation. Requiring names, measurements, and a complete argument before differences could affect action might have consumed the time needed to leave.
 
-The woodcutter nevertheless decides to take the child home. The priest initially withholds it, then releases it after hearing his intention.[^rashomon]
+We often place fast, intuitive, and emotional judgement opposite slow, rational thought. These terms concern different dimensions. Speed is time; intuition commonly means an answer arriving without conscious stepwise reasoning; emotion includes feeling, appraisal, and tendencies to act. Rationality can mean explicit inference or appropriate responsiveness to reasons. Comparison must identify its dimension.
 
-The killing remains unresolved, but the child has somewhere to go. Entrusting care to the woodcutter does not require accepting all his testimony. Trust in one person can have different scopes. Life cannot wait indefinitely for settled truth. On what grounds can it continue?
+A fast answer can derive from years of practice. Hours of analysis can keep defending prejudice. Emotion may draw attention to neglected harm; reasoning can examine causes, responsibility, and responses. Assessment needs their contribution to judgement, not ranking by speed or composure alone.
 
-#H2 Leave Unfamiliar Words in Their Setting
-In 1947, Thomas Kuhn, studying physics at Harvard, began reading early scientific texts for teaching. Aristotle's treatment of motion puzzled him. Read through post-Newtonian physics, much seemed untenable. How could a thinker so perceptive elsewhere appear so different here?
+Intuitions also develop differently. Some skills begin as explicit rules and become fluent. Others arise chiefly through exposure, imitation, and feedback without a prior written rule. The former can revisit learned steps; the latter need comparisons of experience and results. Rapid arrival does not make both concealed complete arguments.
 
-Kuhn later described a turning point in understanding Aristotle's vocabulary. Motion and change included growth and altered qualities as well as displacement. Reading only through later physics excluded part of the meaning. Once the terms opened up, the arguments began to reveal their organisation.[^kuhn]
+#H2 Information We Cannot Yet State
+In a 2007 experiment, researchers paired odours participants could not consciously detect with ratings of neutral faces and observed effects under specific conditions. This supports a limited conclusion: sensory influences can enter judgement without their source being reportable.[^smell]
 
-What first looked like a wrong answer turned out to involve a different question. The concepts used to judge the ancient thinker came under examination through reading him.
+Influence does not establish improved accuracy. The odour was not evidence of a person's likeability; it could divert judgement from the intended object.
 
-#H2 Reasons Haidt Heard in India
-In 1993, social psychologist Jonathan Haidt undertook fieldwork in Bhubaneswar in eastern India. Accustomed to understanding morality through harm, rights, and fairness, he initially struggled with certain requirements concerning purity, hierarchy, and duty.
+An unexplained feeling can nevertheless guide investigation. An unusual machine sound can be recorded, compared with normal operation, and checked for associated faults. Inability to name a frequency does not erase the difference. Strength of feeling does not replace comparison either.
 
-In retrospect, he described how daily life helped him see their connections with obligation, care, and sacred things. He began to perceive what adherents believed they preserved, alongside restrictions on individual choice.[^haidt]
+Explicit inference needs relevant input. If its only information is that a machine still runs, careful deduction cannot hear an unrecorded noise. Observation, measurement, and work on site may supply details missing from analysis.
 
-A visitor's experience of hospitality may transform their view without representing everyone living under the rules. Those bearing restrictions have experiences of their own. Understanding how customs sustain relationships can also sharpen criticism of whose sacrifices sustain them.
+Conversely, explicit comparison reveals what impressions omit. Chapter 4's two equal averages concealed the presence of a value below twenty until the original numbers were displayed. A general impression of similar average performance cannot answer that question. Feeling and inference can each miss or reveal differences.
 
-Return to the child beneath the gate. The priest still lacks the full history of the wood, but the woodcutter's willingness to raise the child gives grounds for entrusting care. The dagger remains in question; another life cannot wait. Understanding does not yet add up to a complete judgement of the man, while care must begin.
+An operator hears an anomaly, measurement identifies it, and shared listening teaches a novice to notice previously unheard features. Feeling and explicit comparison change one another through learning. The resulting ability belongs wholly to neither alone.
 
-Interpreting someone also changes our relationship. Decide in advance that they make excuses, and every clarification may become another excuse. Sensing distrust, they speak less. Our explanation of their behaviour is accompanied by an attitude changing that behaviour.
+#FIG fig-16-learning-feedback.svg|Figure 9.1　How feeling, inference, and checks assist one another. Outcomes, example comparisons, and independent measurement can revise judgement. Delayed or incomplete feedback may leave errors unlearned. This is a learning diagram, not a map of brain regions. Drawn for this book.|Experience supplies both fluent reactions and explicit inference. They can prompt one another and be corrected through results, comparison, or independent measures; feedback can also be incomplete.
 
-Letting them correct us makes learning possible. Their account can still be checked against records and others' experience. Mutual understanding grows through replies; more layers of solitary guessing cannot replace them.
+After such checking, a similar sound may quickly indicate where to look. Unsupported guesses need recording too, so misses are not erased by remembered successes. Long learning can improve immediate responses without being repeated before every action.
 
-#H2 After You Know Their Answer
-Knowing a position, we can follow its reasons. Someone supports trialling a new rota because it can be reversed if unsuitable. We learn both their conclusion and a condition they rely on: recoverability.
+#H2 The Ball Is Still Aloft; the Feet Are Already Moving
+A baseball flies towards the outfield. A fielder watches and runs. Describing the task as first obtaining speed, spin, and wind, then calculating a landing point, portrays the body as a ballistic computer unable to report its calculations in time.
 
-Now suppose publishing the rota would cost some workers existing care arrangements that cannot readily be restored. Would the supporter still agree? If the relied-upon condition is absent, does judgement change? Such questions expose both the weight of reasons and overlooked costs.
+Research offers another family of explanations. Fielders use changing visual relationships to adjust while moving, without first fixing a landing point. Models include linear optical trajectories and control of optical acceleration, with distinct conditions and testable expectations.[^catch]
 
-This consideration can guide other decisions: reversible consequences may support a trial; irreversible ones may require preparation. Another opponent may reject the rota for different reasons, even if reversible. Those reasons must be asked about rather than inferred from the first person.
+Movement changes the trajectory subsequently seen. Researchers therefore examine reciprocal relationships between vision and action. Judgement can form while running and continue changing with the run.
 
-#H2 Is Anyone in the Boat Coming Towards You?
-In “The Mountain Tree” of the *Zhuangzi*, a collision changes anger. An empty boat approaches without provoking the story's man. Seeing someone aboard, he calls for them to steer clear. Repeated unanswered calls turn into abuse.[^zhuangzi]
+Carrying a nearly full cup also reveals continuous adjustment: visible water movement changes hands and steps. Studying the activity requires the information acquired during it and the responses. Looking only for a comprehensive plan before departure may miss this process.
 
-The boat still approaches, but anger now has an object: someone expected to respond who does not. Beyond the collision's force lie judgements about intention and responsibility.
+#H2 Cook Ding Also Slows Down
+In “Nourishing Life” in the *Zhuangzi*, Lord Wenhui watches Cook Ding butcher an ox. Hands, shoulders, feet, knees, and knife move in rhythm.
 
-The parable continues into the cultivation of an emptied self. We can also notice how anger depends on inferred intention. Did the person see the approaching collision? Could they avoid it? Until these are established, deliberate refusal is not a settled conclusion.
+Ding says that initially he saw the whole ox; years later, he perceived a structure through which the knife could move. Following spaces among the joints, he avoids forceful collision. The story takes mastery to an extraordinary degree: after nineteen years and thousands of oxen, the blade remains like one freshly sharpened.
 
-Causes can change responsibility. Some people cannot control a boat; others knowingly omit available precautions. Damage remains to be addressed. Who bears responsibility depends on what could be known and done, and what was actually done.
+At a difficult cluster of joints, he becomes alert, concentrates, slows down, and moves the knife with minute care. Only afterwards does he put it away.[^zhuangzi]
 
-Three matters need separating: how behaviour arose, how the actor explains it, and whether that explanation answers those affected. Pressure can help explain a loss of control without deciding how much others should endure. An institution discouraging reports explains some silence; responsibility still depends on authority, risk, and available alternatives.
+His mastery includes slowing at difficulty, not merely speed in familiar work. The nineteen-year blade belongs to the parable's exaggeration. The pause nevertheless suggests a research question: what experience permits both fluent routine and early recognition that this occasion needs special attention?
 
-Public discussion offers another shortcut: calm, fluent speakers appear credible. Clarity aids checking, but some people lack vocabulary, are frightened, or are too hurt to maintain the composure demanded by spectators.
+Daniel Kahneman and Gary Klein's 2009 discussion of expert intuition identified two important conditions: an environment containing learnable regularities, and adequate opportunities to learn them through experience and feedback. Subjective confidence alone cannot guarantee correctness.[^intuition]
 
-When someone angrily says “it happens every time,” we can investigate frequency while addressing the confirmed occurrence. “Every time” may overstate it; the harm already done remains. Helping specify events improves evidence and prevents argument stopping at exaggerated wording.
+Twenty years can make the same guess extremely fluent if errors never become visible. Delayed feedback, luck, and status can obscure which judgement failed. Equal years need not yield equal learning.
 
-Knowing another person's fears can support comfort or threats. Recognising vulnerability does not justify exploiting it.
+Recognition exercises with answers concealed, prediction records, and alternative measurements can expose differences. Skill at hearing does not ensure numerical estimation; reliable cues can fail elsewhere. Intuition established in one task cannot vouch for judgement in another.
 
-Refusal to continue talking may reflect exhaustion or fear of punishment. Stopping established harm, preserving records, and allowing rest and safe expression often take priority over more questions. Care should not await an explanation we find satisfactory.
+#H2 After Understanding, Another Distance Remains
+An idea can be understood yet unavailable when needed. You may accept that one failure does not condemn a whole person and still rush to defend yourself under criticism. You may understand sunk costs yet find it hard to assess a three-year project solely through future costs and opportunities.
 
-#H2 One Word Can Make Different Demands
-Kuhn's example concerns meaning. Everyday discussion adds another difficulty: shared use of “fairness” may conceal different priorities. Some favour first arrivals; others urgent needs. Even translated words can leave demands unspecified.
+The gap identifies further practice. Explaining a reason quietly establishes one kind of understanding. Remembering and acting on it in relevant situations requires recognising the occasion, retaining the procedure, and sometimes bearing discomfort.
 
-In a park redevelopment, “we disagree” may involve several questions:
+John Anderson's 1982 research proposed an account of explicit knowledge becoming procedural ability. Beginners recall rules in sequence; practice can speed execution and reduce conscious rehearsal.[^skill] This helps investigate certain skills. Changes in emotion and belief require inquiry into their own learning processes.
 
-#TAB
-Location of disagreement|What needs clarifying?
-Data|Do records cover the same period and area?
-Definitions|Does access mean walking, wheelchair use, or vehicle speed?
-Causes|Which design creates congestion, and what supports that claim?
-Scale|Are temporary construction disruption and long-term outcomes distinguished?
-Purpose|Are we improving transport, recreation, or something else?
-Values and risks|Which costs are unacceptable to whom, and why?
-Authority|Who may set shared goals, and how do affected people participate?
-#ENDTAB
+Reflection has a long-term use: select worthwhile practices and arrange repeated application and checking. Someone who hears every objection as total rejection can reread a dispute and distinguish specific criticism from judgement of the person. Next time, first establish which point is opposed. If practice helps, what attracts attention changes, and the reminder enters the response itself.
 
-One dispute may contain several unresolved differences. Investigation addresses some factual disagreements without deciding which life is more worthwhile. Conversely, different values do not remove the duty to correct false records.
+Moral judgement faces related demands. Some harms require timely attention without a fresh debate each time. Reflective care should increasingly inform ordinary reactions. Habit does not guarantee goodness: discrimination and evasion can also become automatic.
 
-Suppose managers propose more park lighting for safer passage. One user doubts that lamp positions cover the paths where falls occur. Another accepts the safety effect but worries about nocturnal wildlife. A third asks for residents' participation. All oppose, but different parts of the proposal.
+#H2 Ask Experts When They Would Stop
+“How did you know?” may yield only “I could just see it.” A specific event allows further questions: which detail changed your action, would you have continued without it, and when would you ask for help?
 
-The first question invites investigation of accidents and lighting. The second needs ecological and usage information as well as judgements about costs. The third concerns authority and procedure. Better research alone does not confer the right to decide for others.
+Klein's work uses such inquiry to trace expert decisions. It does not demand an instant complete theory, but investigates cues along an actual decision. Heat, sound, and response to water guided further questions in the fire case.
 
-#FIG fig-13-disagreement.svg|Figure 9.1　Opposition can concern different relationships. This hypothetical proposal develops the table; it is not a park survey. Drawn for this book.|The same lighting proposal can face objections about effectiveness, comparison of costs, and authority. Each needs different evidence or discussion.
+Having heard these cues, novices still need comparison and practice in relevant situations. Interviews identify where attention belongs without conferring expertise. Contemporary records and later results can also distinguish what the interviewee noticed then from explanations formed afterwards.
 
-#H2 Be Clear About the Agreement You Can Reach
-Clarifying disagreement need not eliminate it. Participants may agree on accident records and a lighting improvement for one path, yet disagree about acceptable ecological costs. Separating established points from disputed ones avoids starting the same factual argument again.
+#H2 Keep a Record Before the Outcome
+Known outcomes can seep into recollection of earlier beliefs. A 1975 study by Fischhoff and Beyth used judgements before and after Nixon's visits to China and the Soviet Union. Participants first assessed possible outcomes' probabilities, then recalled their earlier assessments. Events that occurred tended to become more foreseeable in memory; events that did not seemed more doubtful all along.[^hindsight]
 
-Shared standards can cross professions. Product and safety teams may differ over launch dates and accidents while agreeing that easily corrected mistakes require different review from irreversible harm. Procedures can begin there while classification of risks remains debatable.
+Pre-outcome records can expose this rewriting. For important judgements when time permits, record initial cues, expected results, and confidence, including unclear reasons. Later checking then need not credit hindsight as prior knowledge.
 
-The shared standard must also face scrutiny. “Reversible” may conceal disagreement or exclude losses borne by one group. Stating those differences prevents apparent agreement from obstructing discussion.
+A record preserves a judgement without generating every outcome needed to test it. A manager writing that a rejected applicant may be unsuitable still cannot see how the applicant would have performed if hired. Comparison needs the missing kind of evidence to be identified.
 
-Where values or basic beliefs cannot presently be reconciled, disagreement can be specified. Treating a loss as inexchangeable differs from accepting compensation, and neither is simply a misread datum. Recognising the absence of a shared standard can open negotiation and procedures for acceptable coexistence.
+Some outcomes can be followed regardless of our decision. Shares considered but not bought still have later market prices. Specific price predictions and deadlines permit checking beyond remembered purchases.
 
-#H2 The Cost of Changing Your Mind
-A thought encountered yesterday may be easy to revise. A judgement entwined with reputation, belonging, or years of effort is harder. Alongside examining evidence, resistance to persuasion invites a question: what would change cost this person?
+Other comparisons require different arrangements actually being implemented. Product A/B tests expose groups to different versions to compare effects. These designs have costs. When opportunities or treatment are involved, fairness, consent, and tolerable risk restrict experiments. Better prediction does not justify arbitrary costs imposed on others.
 
-They may fear losing colleagues or having all previous work discredited by one error. Distinguishing “this judgement needs correction” from “this person has no ability” can sometimes keep discussion open. Harmful actions and responsibility still need specific treatment.
+Some questions lack the outcome of one person taking another path in the same history. A declined job cannot become an alternative life already lived. Comparable experiences, statistics, and research reduce uncertainty without restoring that unlived history.
 
-A reasonable decision on the information then available also differs from neglect of obtainable evidence. Both can require change after new findings, but what must be admitted and improved differs.
+Before investigating, establish what a dataset can answer and what remains unknown. Investment should compare information costs, consequences of error, and future chances to use the learning. Importance and repetition add reasons, but neither exempts expensive research from cost comparison.
 
-Once judgement changes, the person returns to those who trusted or were hurt by their earlier position. Revising the account is only the beginning of facing them.
+#H2 Emotion Helps Decide What Becomes a Question
+Emotion often helps something begin to matter. Indignation at humiliation can bring a supposed joke into question; attachment can sustain attention to another person's unspoken difficulty. Before answers form, feelings influence what we ask.
+
+This role needs discrimination. Anger may notice injustice or mistake frustration for malice. Shame can prompt reflection or reflect unworthy group demands. Emotions need examination without presuming that examination should remove them.
+
+We can correct anger's attribution while retaining sensitivity to harm. Others' explanations can teach responses to experiences previously ignored. Such changes affect future attention, memory, and inquiry, not merely response speed.
+
+Care sustains observation, enjoyment supports practice, disappointment reopens expectations. Feelings can participate in extended learning rather than merely supply a quick preliminary guess. Their judgements need checking, but composure alone cannot establish their worth.
+
+Reflection changes future feeling, and feeling can expose inadequate reasons. Understanding someone's experience may make a formerly harmless-seeming joke impossible to laugh at. Once that change remains, we need not rehearse the argument every time to stop laughing.
+
+Learning conditions participate too. Comparable examples, timely feedback, and prepared practice improve discrimination. Rest, colleagues willing to point out errors, and tools presenting useful cues affect whether learning occurs.
+
+In an urgent anomaly, trained response may remain the best available ability. With time, comparison and checking may be appropriate. Fast and slow responses can benefit from the same history of learning.
+
+Sometimes what changes is a belief we can state; sometimes it is what first catches our eye. By the time the latter changes, we may no longer remember how long that first glance took to learn.
+
+#H2 Where Do We Draw the Boundary of an Ability?
+The distinctions learned by the body already prevent us from judging understanding solely by reasons that can be stated. Where, then, does this ability reside? An action may depend on sensations its performer has never noticed. When those sensations disappear, something external may take over part of the work.
+
+Close your eyes and you can usually still locate your right hand. Bent or straight, resting against a chair: the arm's position can be felt without sight. This sense of position and movement rarely attracts attention. It lets the eyes look elsewhere while the body continues its work.
+
+In 1992, Jonathan Cole and E. M. Sedgwick reported an unusual participant. He could still move voluntarily and retained some sensations of pain and temperature, but had lost most sensory input concerning light touch and limb position below the neck. In him, the ability to move muscles and the ability to feel movement became distinctly separable.
+
+Watching his forearm move and comparing weights, he could distinguish fairly fine differences. Closing his eyes markedly reduced performance. Some postures and simple repetitive movements could continue to a limited extent; new movements depended on visual feedback.[^deafferentation]
+
+Movements ordinarily requiring little attention demanded sustained watching, adjustment, and relearning. Vision supplied some missing positional information, while making that attention less available elsewhere.
+
+Some bodily work does not even require stepwise neural commands. A paper edge cuts skin, small vessels are damaged, and local haemostasis begins as blood escapes. You may notice, treat, or seek help. Local protein reactions need not await conscious recognition and permission.
+
+Local signals, platelets, and coagulation proteins contribute to clot formation after vessel injury. They can operate before conscious judgement. Haemostasis should not be described as a neural reflex that first sends a message to the spinal cord and receives an order back.[^clotting]
+
+Platelets are small cell fragments involved in haemostasis. Coagulation reactions help form a fibrous network. Local reactions are initiated and amplified, while inhibitory and clearance mechanisms affect them. Explaining when clots form and why they do not expand without limit requires these interactions.
+
+Spinal reflexes instead involve neural circuits. Some responses can be organised without waiting for conscious choice while remaining subject to other neural modulation. Independence from an immediate conscious decision does not mean isolation from the brain.[^spinal]
+
+The brainstem connects brain and spinal cord and participates in breathing and many signals. The cerebellum contributes to coordination, adjustment, and other functions; cerebral regions jointly support perception, memory, language, and planning. Extensive connections sustain activities across regions.[^brain] Explaining behaviour therefore requires tracing information and modulation, not merely naming organs.
+
+Figure 9.2 sets two processes side by side. The left shows local clotting; the right shows interactions among sensory information, neural circuits, and responses. Both can operate without a conscious decision at that moment, but their mechanisms of initiation, regulation, and limitation differ.
+
+#FIG fig-07-body-regulation.svg|Figure 9.2　Functional relations among different mechanisms. Drawn from this chapter's sources to compare division of labour and mutual regulation, not as a complete anatomical diagram. Arrows do not correspond individually to neural pathways. Clotting, reflexes, and conscious activity retain their distinct mechanisms.|Left: local processes involving vascular injury, platelets, and clotting proteins. Right: mutual regulation among sensory inputs, spinal and brainstem circuits, broader brain networks, and responses.
+
+The comparison identifies relationships supporting capacities. Coagulation contributes to haemostasis without thereby possessing human conceptual understanding. Comparing support conditions must preserve that difference. Second-order analysis can examine researchers' representations of mechanisms without calling every feedback process thought.
+
+#H2 Coughing Reveals Mutual Regulation
+In a quiet room, an urge to cough can sometimes be suppressed and sometimes not. You can also cough deliberately to attract attention. Similar sounds need not share initiation or regulation. Research distinguishes stimuli, urge, actual cough counts, and activity during suppression.
+
+Stuart Mazzone and colleagues used functional brain imaging to compare conditions including coughing and suppression. Different patterns supported involvement of networks above the brainstem. Activity differences guide investigation without establishing every region's causal role by themselves.[^cough]
+
+Sometimes an intention to suppress succeeds. When it does not, the body does not wait for permission. We participate in regulation without gaining command over every operation.
+
+#H2 Changing Ourselves Through Things Outside Us
+Self-adjustment need not direct effort only into consciousness. Practice, sleeping environments, tools, and medical interventions can alter different processes. Each requires relevant knowledge; all cannot be attributed simply to willpower.
+
+A small 2007 randomised trial by Alyn Morice and colleagues gives a concrete distinction. Morphine treatment for chronic cough improved some symptom measures, while the citric-acid cough challenge did not show a significant change.[^opiate] One measure recorded symptoms; the other assessed coughing induced by an experimental stimulus.
+
+A threshold marks conditions needed for a response to begin. Claiming that a drug raises a cough threshold requires specifying stimulus, response measurement, and comparison before and after treatment. Less everyday coughing or improved comfort alone does not establish a higher stimulus requirement in a challenge test. Distinguishing measures locates the improvement.
+
+A person may choose an intervention without directing each subsequent physiological reaction. Researchers investigate substances and design trials; clinicians assess suitability; institutions affect access. A bodily change can depend on extensive work outside the body.
+
+Changing oneself can therefore include arranging external conditions. Learners choose environments, ask for correction, and use reminders. These arrangements gradually change habits and judgement. The present self can seek the assistance needed for change. Agency can extend through external conditions without positing an inner commander controlling the whole body.
+
+#H2 Which Changes Count as Regulation?
+It is tempting to call every natural change information processing. If falling stones, clotting blood, catching balls, and debating rules all become one label, distinctions needing investigation disappear beneath it.
+
+Compare a stone with a thermostat. Both obey physical laws. The thermostat also has a sensor, temperature setting, and switch: departures from the setting change heating. Altering the setting or disabling the sensor tests their effects. The stone changes too, but lacks this arrangement of measurement, reference, and response.
+
+Coagulation differs mechanistically from a thermostat, involving local initiation, amplification, and limits. Motor control uses continuously changing sensations; learning may alter future responses. Comparison should identify detected differences, their effects on activity, and how outcomes influence subsequent responses.
+
+Feedback can arrive late or amplify error. Heating from outdated temperature measurements may fail to stop appropriately. Modules repeatedly undoing each other's changes can leave work oscillating. Benefit depends on received information and the timing of response.
+
+Fixed procedures for familiar tasks, adaptable strategies for new situations, and human handling of exceptions form one investigable arrangement. Allocation depends on information, time, and demonstrated ability. A person without original circumstances and with seconds to respond does not acquire missing capacity because a chart says human responsibility.
+
+A whole may accomplish what no part can do alone. Investigating that ability requires both local activity and interaction. Brain or command centre remains a label, not a substitute for studying relationships.
+
+Society adds participants able to reject goals. Employees can protest with reasons deserving a hearing, not merely deviations to be corrected. Bodily organisation can suggest research questions. Authority to demand obedience still requires social and ethical justification.
+
+This chapter has redrawn the boundaries of ability through skill, sensation, and external assistance, while retaining their different mechanisms. What matters is which relations support what we can do, and what can take over when a link is missing. Bodily divisions of labour cannot decide what that ability should serve. The next part therefore begins with purpose.

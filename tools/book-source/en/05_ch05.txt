@@ -1,137 +1,94 @@
-#H1 5 — Omission: A Source of Ability and a Boundary
-On the evening of 31 May 2009, Air France flight AF447 left Rio de Janeiro for Paris with 228 people aboard. Early on 1 June, it was cruising over the Atlantic. The captain had handed over and left the cockpit to rest. Two copilots remained, one flying, the other monitoring and assisting.
+#H1 5 — Conditions and Transfer: How Far Can a Method Travel?
+A triangle's angles sum to 180 degrees. Does this familiar answer apply to both drawings below?
 
-Several airspeed readings suddenly disagreed. The brief inconsistency disconnected the autopilot. Investigators concluded that ice crystals had probably temporarily obstructed the probes supplying airspeed information. Taking control, the pilot flying pulled back on the sidestick, raising the nose. The aircraft climbed while losing speed.
+#FIG fig-05-triangles.svg|Figure 5.1　The left triangle has straight sides in a Euclidean plane; the right has short great-circle arcs on an ideal sphere. Their sums are 180° and 270°. Mathematical constructions drawn for this book.|A planar triangle has angles of ninety, forty-five, and forty-five degrees. On the sphere, the North Pole and two equatorial points ninety degrees of longitude apart form three right angles.
 
-The other copilot noticed the climb and repeatedly called for descent. Nose-down inputs briefly moderated it, but nose-up inputs continued afterwards. During the continued climb, the stall warning sounded continuously. The aircraft reached about 38,000 feet, roughly 3,000 feet above its previous cruising altitude. The monitoring copilot repeatedly called the captain back.
+Trace the right-hand figure and a difficulty appears. Travel from the North Pole along a meridian to the equator, turn ninety degrees, follow a quarter of the equator, and turn ninety degrees back towards the pole. The two meridians meet there at ninety degrees too. Three right angles total 270 degrees.
 
-To understand what followed, we need to understand a stall. When a wing meets the airflow at too great an angle, airflow separates from its surface and lift decreases. The aircraft can descend rapidly even with its nose raised. Continuing to raise the nose cannot overcome the stall merely by pointing upwards.
+The planar sum is 180 degrees; the spherical triangle has three right angles. Both the space and the paths serving as sides have changed. The spherical example uses short great-circle arcs and does not violate the theorem about straight-sided planar triangles.
 
-Some airspeed readings recovered, but the crew did not recognise and resolve the stall. After the captain returned, readings again became invalid and the stall warning stopped. Brief nose-down inputs restored valid readings and the warning resumed. Silence did not mean safety. Reading validity, attitude, and descent had to be interpreted together. The three men did not establish the correct understanding in time. The aircraft struck the sea; no one survived.[^af447]
+Mathematical theorems state axioms and definitions before proving conclusions. Applying them to physical objects requires checking whether the assumptions describe those objects to the required precision. A small patch of ground may be adequately approximated as flat. Large-scale surface routes require attention to curvature and accuracy.
 
-France's accident investigators examined control inputs, warning logic, training, and crew coordination. In routine flight, systems handle much of the work. Under abnormal conditions, details normally outside immediate attention suddenly become essential to judgement.
+#H2 The Postulate People Tried to Prove for Two Thousand Years
+Euclid's *Elements* organises geometry from specified starting points. The famous fifth postulate says that if a line crossing two others makes interior angles on one side sum to less than two right angles, those two lines meet when extended on that side.
 
-Control can return to human hands before understanding catches up. “Let the system handle routine work, then hand over what it cannot manage” sounds comprehensive: machines operate while humans retain the final decision. At the moment of handover, however, the person may face the least familiar situation with almost no time.
+Compared with several other starting points, it seems elaborate. For centuries, mathematicians hoped to derive it from the remaining assumptions. In 1733, Saccheri tried to obtain a contradiction by denying related assumptions. He reached results later recognisable as approaching non-Euclidean geometry, while still trying to reject that path.
 
-#H2 Many Things Still Support a Simple Operation
-Dragging a file into a computer's folder and dragging one into a remote server's folder may look identical. One may finish quickly; the other waits for transmission. If the connection breaks, the familiar icon cannot reconnect it.
+In the nineteenth century, Lobachevsky and Bolyai publicly developed systems unlike Euclid's. Riemann's 1854 lecture investigated more general spaces and geometries. There was no longer just one geometry to study. What different assumptions implied, and whether a system was internally consistent, became questions for comparison.[^geometry]
 
-The user drags an icon while software handles storage and transmission. This keeps the display simple. Delivery still depends on writable storage, continuing connectivity, and a responsive remote device. The display can omit these details; the operation continues to depend on them.
+The spherical triangle gives these differences a visible form. A geodesic follows the locally straightest path along the surface. Its intersections on a sphere obey relationships different from intersections of straight lines in a plane.
 
-In 2002, programmer Joel Spolsky called this sort of situation a “leaky abstraction,” offering a widely circulated engineering generalisation: substantial abstractions leak to some degree, exposing details they sought to hide.[^leaky]
+Kant had used geometry to explain necessary knowledge not obtained merely from individual experiences. Multiple geometries sharpen the distinction between proof within a system and deciding which geometry describes physical space.[^kant] The latter calls for observation.
 
-TCP, for example, offers applications a reliable, ordered data stream and handles certain losses and reorderings of data packets. Connections can still fail, and transmission time is not guaranteed.[^tcp] A remote-file user confronting disconnection may need to establish whether a transfer completed, wait for recovery, or reconnect.
+General relativity later described gravity through curved spacetime and had to face physical tests. Mathematics expanded the available representations; other evidence decides whether they suit the world.
 
-Delay and disconnection may already be specified in a protocol. Sometimes the interface fails to remind users, who mistake everyday convenience for guaranteed success. Specifications must be read carefully to distinguish a tool breaking its promise from a user expecting too much.
+#H2 The Small Print Missing from Rules
+Mathematics states assumptions; everyday rules often omit conditions. First come, first served can settle a queue for drinks. Applied to urgent assistance, it raises questions about who can arrive first, who can wait, and whose needs cannot be delayed. The wording stays the same; the reasons for using it change.
 
-This book uses **abstraction leakage** for a relationship: **differences omitted or hidden by a representation or interface can still affect an outcome users care about. Once those differences matter, operating only within the original representation may no longer suffice to understand or handle the situation.**
+Some conditions emerge only over time. Postponing a dispute may allow people to calm down; postponing every dispute may leave important problems permanently unanswered. Small approximation errors can accumulate beyond tolerance. Evaluation needs the duration of use too.
 
-#FIG fig-11-leakage.svg|Figure 5.1　Hiding detail does not sever dependence. Arrows indicate support and influence, not inevitable failure on every use. Drawn for this book.|On the left, an interface keeps underlying work outside routine attention. On the right, changed underlying conditions affect the same operation. Dependence on those conditions exists on both sides.
+“It depends” is therefore insufficient. Which difference changes the judgement? Does urgency differ? Are waiting costs unequal? Do routes take equal time? Concrete conditions make further investigation possible.
 
-Some limits appear on first use. A newly configured remote folder can lose access when disconnected, unlike a local folder. Skill loss, outdated documentation, and difficulty switching after long use are other risks. Even if none occurs, connectivity remains a condition of remote operation.
+#H2 Newtonian Mechanics Has Not Disappeared
+Newtonian mechanics supports many reliable activities. Appropriate approximations describe ordinary-scale motion and serve mechanical and structural engineering at the required precision. Relativity did not erase these achievements overnight.
 
-#H2 Why Some Gaps Cannot Be Repaired Within the Representation
-Suppose two datasets retain only their means. One contains forty and sixty, the other zero and one hundred. Both average fifty. The arithmetic is correct.
+Satellite navigation requires exceptionally precise time comparisons. Orbital motion and gravity affect satellite clocks relative to ground clocks. Uncorrected differences affect positioning, so relativistic corrections form part of the system.[^relativity]
 
-Now ask whether either contains a value below twenty. The first does not; the second does. With only the mean remaining, we cannot tell which dataset it describes. More decimal places or several more days of analysis cannot recover the lost difference.
+Whether an approximation is acceptable depends on known errors relative to precision requirements. Everyday engineering need not always use the most elaborate model. Higher precision or different scales require comparison anew.
 
-#FIG fig-12-lost-distinction.svg|Figure 5.2　Identical summaries can represent situations requiring different answers. These hypothetical numbers support an argument; they are not measurements. Drawn for this book.|Both forty and sixty, and zero and one hundred, become a mean of fifty. They differ on whether a value falls below twenty. The retained average cannot distinguish the new question.
+#H2 The Person Who Feeds the Chicken
+In *The Problems of Philosophy*, Russell questions experience through a chicken. The person who feeds it every day eventually kills it.[^russell]
 
-The reason generalises. If a representation makes two situations identical while a question requires different answers, a fixed procedure using that representation alone cannot answer both correctly. It needs information that distinguishes them, or must acknowledge its inability to distinguish.
+On that day the pattern breaks. Every previous feeding was real. An exhaustive record could be perfectly accurate while saying nothing about the keeper's future intentions.
 
-For the task of reporting those two numbers' mean, however, either summary is entirely sufficient. A properly bounded question can be answered perfectly by a summary. Omission itself is no error. Trouble arises when a representation built for one question is used for another.
+Readers know the ending and readily see the chicken's blind spot. Turn the question on ourselves and it is harder: why should repeated events continue? Appealing to previously successful patterns still requires explaining why those patterns will hold. More past successes repeat the very inference needing justification.
 
-If omitted differences remain irrelevant, we can spare the effort of handling them. Once the question changes, more computation may do nothing. Users may be unable to fix the problem themselves: original data may be held elsewhere or never have been preserved.
+Everyday predictions nevertheless differ in reliability. To anticipate water interruptions, we can inspect equipment, maintenance plans, and water sources instead of recording only uninterrupted supply. Such information excludes no conceivable accident, but identifies risks absent from the historical regularity.
 
-#H2 Having Limits and Making Limits Untraceable
-Consider two hypothetical incident-reporting systems. Both ask users to press “report a fault” once. One also saves relevant raw data and allows unclassified circumstances to be added. The other keeps only classified results. Each takes one click now; later inquiries have different records available.
+Predicting the future requires attention to conditions beyond a record; inferring the experiences of unobserved people does too. A survey of existing customers tells us about respondents. Generalising to everyone who encountered a service requires knowing about leavers, nonrespondents, and people unable to enter. More customers of the same kind can stabilise some estimates without reaching those never surveyed.
 
-#TAB
-What is compared|Version A|Version B
-Routine operation|One click reports a fault|One click reports a fault
-Background record|Relevant raw data and unclassified additions|Only results fitted into existing categories
-Later investigation|Original records and supplementary accounts remain accessible|Discarded differences cannot be recovered from results
-#ENDTAB
+#H2 When Mechanisms Need Investigating
+Snow did not need complete microscopic knowledge before comparing water supplies. Suitable research can yield causal evidence about an intervention and an outcome before its full mechanism is known.
 
-Suppose faults originally grouped together later prove to have different causes. A can revisit saved data to examine differences the classification missed. If B discarded those details, categories alone cannot restore them. Convenience and later investigation can each be accommodated in design.
+Mechanistic inquiry helps assess changed settings. Knowing which factors sustain an effect guides tests of differences likely to alter it. Outcome comparisons and mechanism research can inform one another.
 
-Choosing a version also involves storage costs, privacy, and purpose. There is no need to preserve everything for every remote possibility. But once we can reasonably anticipate an important failure, keeping an appropriate means of investigation ceases to be an incidental detail.
+An intervention may also have several effects at once. The benefit of one can be offset by another, leaving the overall result different from what was expected. Explaining one causal pathway therefore does not remove the need to compare important outcomes directly. The clinical trial in Chapter 14 will make this distinction concrete.
 
-Likewise, rules supporting only one currency can explicitly reject others, or silently add their numbers as though all shared one unit. Rejection signals the need for another method. Silent addition may conceal the problem with an apparently ordinary answer. Both systems have limits; their consequences differ substantially.
+Even partial mechanistic knowledge may not cover a new situation. Users' anomaly reports, raw data, and alternative measurements can reveal unforeseen differences. Chapter 4 discussed preserving these means of correction. Known ranges of use can also be documented more precisely.
 
-Preserved data still need someone able to read them. That ability is not automatically stored with the files.
+#H2 The Last Stretch from a Principle to a Case
+Discussing practical wisdom, Aristotle stresses knowledge of particulars as well as universals, because action occurs in particular circumstances. Knowing that light meat is digestible must be joined to knowing which meat is light before a suitable meal can be prepared.[^aristotle]
 
-As a system runs smoothly, people usually reduce repeated checks and spend time elsewhere. Time is saved, while rarely used skills can grow rusty. Someone seldom handling an exception manually may need longer to recognise it when suddenly called upon.
+This distinction returns attention to conditions. General rules organise many situations; application returns to one specific occasion. Does this person belong to the studied population? Does today's setting preserve the relationship? Is the signal an ordinary fluctuation or evidence of change?
 
-In 1983, Lisanne Bainbridge described a practical irony of automation: machines take routine operations, leaving humans rare and difficult abnormalities, while reduced practice makes those situations harder to understand quickly. Keeping a human as the last line does not establish that the human can still do the job.[^bainbridge]
+Principles save repeated exploration, support consistent treatment, and make reasons expressible. Individual cases bring differences the general rule did not retain. Impressions alone may lose comparable grounds; classifications alone may miss what distinguishes this occasion.
 
-Maintaining the ability to take over requires continuing work. Practice, accessible state information, and enough handling time all cost something. The smoother automation becomes, the more unnecessary these provisions can appear. Why maintain what is so rarely used? When an exception comes, earlier savings may become abilities that cannot be supplied quickly enough.
+Judgement moves between principle and case. A principle directs attention to relevant features; the case tests the classification. Recurrent exceptions may call for revising the rule rather than repeatedly invoking special treatment. This movement also connects scales within the second-order framework: abstraction permits transfer; concrete encounters test whether this transfer fits.
 
-A remote file can fail on first use; proficiency in a rare operation can decline through disuse. Design must address these different difficulties. Acknowledging limits is only a beginning. The harder choice is how much preparation to maintain for exceptions not yet encountered.
+#H2 Write Down the Range of Use
+“A retail model” or “manufacturing experience” remains too broad. Models inspecting appearance may perform differently with different lenses, lighting, materials, and angles. A shared label conceals widely varying conditions.
 
-#H2 More Reports Did Not Make the War Clearer
-Robert McNamara entered the US Department of Defense in 1961 with experience in wartime statistics and corporate management. He valued numbers, costs, and comparisons in decision-making. Quantification exposed previously hard-to-compare differences and brought analysts into influential positions.
+Suppose a model marks damaged packaging in photographs for human review. It has been tested only with fixed lighting, a specified lens, and a few packages. Backlighting and other reflective materials remain untested. These details explain performance more usefully than an isolated “ninety-five per cent accuracy.”
 
-The Vietnam War is often described as a war lost through reliance on enemy body counts. Historian Gregory Daddis shows what that account omits. The military collected not only kill figures, but large quantities of information about captured weapons, local security, and control. Part of the difficulty lay in too much data and insufficiently coherent ways to recognise which figures meant progress.[^vietnam]
+The camera is later replaced while software stays unchanged. Most sampled photographs are well lit, so average performance looks good. Missed damage increases in the few backlit photographs. A total score may suggest the new lens made no difference. Preserving disputed images and separating misses from false alarms helps locate deterioration.
 
-Political legitimacy, local networks, public attitudes, and an opponent's mobilisation can all affect war. Using casualty, capture, or control figures requires understanding when each reflects strategic progress. Numbers can multiply while the situation stays obscure if their connection to strategic aims remains unclear.
+Tracing failure rewrites the scope. The team had treated the lens simply as a means of acquiring similar images; now its interaction with lighting and material belongs in the account. Scope is not always known before research, awaiting a label. Failure and investigation often make it clear.
 
-When reports allocate resources and responsibility, circumstances outside their numbers matter still more. Can local observations supplement them? If a measure conflicts with actual control, can that discrepancy prompt reassessment? Decisions that recognise only certain figures may repeatedly overlook failure outside them.
+If a later version improves backlit performance, the limits need updating. Records should say which version was tested where and what changed. Otherwise new users may guarantee new uses with old results or remain blocked by a problem already solved.
 
-#H2 People Who Find Workarounds Know Something Too
-When tools fail, users sometimes find a workaround before understanding why it works.
+Geometrical conditions must be stated before a proof begins. Empirical methods' conditions often emerge during work. Requiring every condition in advance may demand precisely what the investigation is supposed to discover.
 
-Suppose an image tool repeatedly selects object edges poorly in certain photographs. After comparisons, a user finds that adjusting contrast first improves selection. They may know nothing of the algorithm yet possess a useful skill: changing input improves subsequent results for this type of photograph.
+#H2 When Models Do Not Cast the Same Vote
+Climate research handles interacting atmosphere, oceans, clouds, and ice. Teams make different modelling choices. The Coupled Model Intercomparison Project, CMIP, provides shared experimental designs that make simulations more comparable.
 
-This book calls such procedures **local compensation**. They first address the immediate problem, while repeated use and comparison establish their range. Failure on a different type of photograph calls for narrowing the rule or investigating again.
+Putting results together reveals agreement and disagreement. Models are not wholly independent: data, methods, and code may be shared. More models do not necessarily add proportionately more independent evidence.
 
-Repeated success can also obscure scope. “Adjusting contrast helps on photographs of this kind” becomes, after several handovers, “always increase contrast before selection.” Successors follow the instruction without knowing that some photographs need no adjustment or become worse. The technique survives; the supporting comparisons do not.
+Some CMIP6 models produce higher equilibrium climate sensitivity. Broadly, this asks how much global mean surface temperature changes after carbon dioxide doubles and climate reaches a new equilibrium. Historical warming, palaeoclimate, and physical-process research provide checks beyond model output.
 
-Many everyday abilities rest on such limited mastery. Writers need not know how fonts reach the screen to write. Maintenance workers may hear an abnormal sound through long comparison before asking for its cause to be tested. Reliability depends on what they distinguish, where it works, and whether mistakes lead to improvement.
+The IPCC's 2021 assessment combined several lines of evidence and described sensitivity ranges at different uncertainty levels. “Likely” and “very likely” refer to different ranges; the intervals must be read with their uncertainty statements.[^climate]
 
-Repeated failures may require examining inputs and environment with help, or checking with another measurement. Investigation takes time; rebuilding categories takes longer. Replacement methods have limits too. Sometimes use must narrow or stop, with the cost of temporarily losing the ability.
+Climate scenarios explore specified development conditions. RCP8.5 is a high radiative-forcing pathway; its number relates to forcing in 2100 relative to preindustrial conditions. It asks what climate might do under those conditions. The probability that the conditions will occur requires separate assessment.
 
-These responses incur different costs; “handling leakage” cannot settle them all. But successors can be spared some wasted work. Records of suitable photograph types, failure cases, and original files mean they need not begin by guessing the meaning of “always increase contrast.”
+Confidence develops through comparisons between models and external evidence. Disagreement can guide research: is a physical process poorly understood, or are development scenarios different? Averaging is quick. Understanding the source of disagreement is often the long work.
 
-Records may also reveal a question earlier users missed.
-
-Some unknowns are already explicit. Did replacing the camera cause an error? Old and new images can be compared, recognition rerun, and possible causes checked.
-
-Harder cases arise when a system never recorded the relevant difference. Suppose engineers retain recognition results but neither original images nor camera replacement dates. When accuracy falls, several clues for proposing and testing explanations are missing. The lower accuracy figure cannot supply what the records omitted.
-
-Surprises cannot be exhaustively listed, but new discoveries can have somewhere to go: reports outside existing categories, operators' descriptions, or raw data relevant to important outcomes. Newly found patterns can then inform additional categories, measurements, or tests.
-
-What to preserve and who may add it still depend on costs and privacy. These choices retain opportunities to investigate questions not yet conceived. Collecting everything in advance is neither practical nor necessarily warranted.
-
-#H2 How Science Differs from an Ad Hoc Repair
-Local techniques keep tools usable; scientific theories also change in response to new phenomena. Distinguishing them requires examining what checks the changes accept.
-
-The photograph technique claims only to improve selection on certain inputs. Repeated comparison offers some support. Explaining how image features affect an algorithm requires expectations testable on new photographs. Others repeating the work with different data should be able to observe corresponding results. Evidence must keep pace with a claim's reach.
-
-New scientific concepts need such examination. Dark matter concerns mass-related problems in galaxy motion and gravitational lensing, among other phenomena; dark energy concerns explanations of accelerated cosmic expansion. Both face multiple observational constraints and continuing unresolved questions.[^cosmology] Assessment compares how an account fits different evidence and what further observable results it predicts.
-
-Adding an independently uncheckable explanation for every discrepancy can shelter a theory from all counterexamples. Expectations for new situations and checks against independent data provide reasons for greater trust.
-
-Does present ignorance establish that ultimate truth must be inaccessible? Present shortcomings do not support that far-reaching conclusion. We can establish that one representation cannot answer a question without establishing the limits of every future method.
-
-Scientific realists ask whether theories describe structures the world actually has; instrumentalists emphasise organising experience and prediction. Despite differences, both can check assumptions, compare evidence, and identify discoveries that would require change.
-
-#H2 Complete Relative to What?
-Chapter 4's numerical notations remind us that improvement need not involve deletion. Two notations can preserve a quantity while changing computational difficulty. The need to select does not prove that every change of representation loses information.
-
-When omission is needed, the question is which differences can be set aside. Fifty suffices for reporting the mean, but not for finding values below twenty. A summary's completeness must be specified relative to a question.
-
-Raw data retain some future options, at costs in storage, organisation, retrieval, and privacy. However abundant, unreadable or inaccessible data cannot become usable ability. Sound arrangements consider both what remains and how successors can use it.
-
-A harder gap is not yet knowing what to record. Unclassified reports give new questions a chance to enter, but merely improve the conditions for discovery. They do not guarantee that every omission will surface. Some unknowns never announce themselves as alarms.
-
-A framework must acknowledge this. Recording “not yet known” is a useful start. It must still indicate possible avenues of inquiry or admit that none is presently available. Once the unknowns are written down, investigation remains to be done.
-
-#H2 Some Limits Call for Another Path
-Leakage need not be repaired by making a system handle everything. Removing a category, stopping a score, or retiring a process may be worthwhile instead.
-
-A form that continually squeezes out important experience may need interviews and individual judgement, not endless new fields. Keeping a method running may deserve little priority if maintenance costs are continually transferred to users.
-
-Whether to retire it also depends on who bears the status quo. A form saves managers reading time while preventing applicants from explaining their real difficulty. An old tool leaves front-line staff repeatedly repairing its effects by hand. Their burdens and alternatives belong in the comparison.
-
-Work a form saves one group may be repeatedly performed by another. Evaluating its usefulness must count their time too.
+What a representation preserves must be considered with its conditions; establishing those conditions depends in turn on who obtains the data and who can recognise differences. The apparently simple 'knower' in our framework now needs to be opened up. The next part begins with Snow's investigation, tracing how one person's knowledge connects with the work of many.

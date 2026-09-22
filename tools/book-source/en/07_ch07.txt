@@ -1,92 +1,104 @@
-#H1 7 — Conditions: Ability Does Not Exist Outside Its Setting
-A triangle's angles sum to 180 degrees. Does this familiar answer apply to both drawings below?
+#H1 7 — Other People Are Not Objects Awaiting Decoding
+Rain falls outside the ruined Rashomon gate. Beneath it, a woodcutter and a priest discuss testimony about a killing. A passer-by shelters there and asks what happened. Kurosawa's film *Rashomon* unfolds through this questioning. Alongside the stranger, we hear incompatible versions of events.
 
-#FIG fig-05-triangles.svg|Figure 7.1　The left triangle has straight sides in a Euclidean plane; the right has short great-circle arcs on an ideal sphere. Their sums are 180° and 270°. Mathematical constructions drawn for this book.|A planar triangle has angles of ninety, forty-five, and forty-five degrees. On the sphere, the North Pole and two equatorial points ninety degrees of longitude apart form three right angles.
+A samurai travelling through a wood with his wife encounters the bandit Tajomaru. The samurai dies; his wife is assaulted. The bandit admits killing him but depicts himself as the victor in a fair duel. In his account, the wife demanded the fight.
 
-Trace the right-hand figure and a difficulty appears. Travel from the North Pole along a meridian to the equator, turn ninety degrees, follow a quarter of the equator, and turn ninety degrees back towards the pole. The two meridians meet there at ninety degrees too. Three right angles total 270 degrees.
+The wife's account contains no duel. After the bandit left, she says, her husband looked at her with contempt. She approached with a dagger, lost consciousness, and awoke to find it in his chest. Speaking through a medium, the dead man supplies a third account: his wife asked the bandit to kill him, and he eventually killed himself. Murder by the bandit and suicide cannot both describe his death.
 
-The planar sum is 180 degrees; the spherical triangle has three right angles. Both the space and the paths serving as sides have changed. The spherical example uses short great-circle arcs and does not violate the theorem about straight-sided planar triangles.
+Each speaker's story restages the wood. The people remain; their actions change. The woodcutter later admits more than discovering the body: he witnessed the conflict. His two men hesitate and fight awkwardly, unlike the bandit's heroic duel.
 
-Mathematical theorems state axioms and definitions before proving conclusions. Applying them to physical objects requires checking whether the assumptions describe those objects to the required precision. A small patch of ground may be adequately approximated as flat. Large-scale surface routes require attention to curvature and accuracy.
+A baby cries beneath the gate. The three discover an abandoned child. The stranger takes its clothes; when the woodcutter objects, he asks where the wife's valuable dagger went. He suspects the woodcutter stole it and concealed what he saw. The man apparently exposing other accounts now faces doubt about his own.
 
-#H2 The Postulate People Tried to Prove for Two Thousand Years
-Euclid's *Elements* organises geometry from specified starting points. The famous fifth postulate says that if a line crossing two others makes interior angles on one side sum to less than two right angles, those two lines meet when extended on that side.
+The woodcutter nevertheless decides to take the child home. The priest initially withholds it, then releases it after hearing his intention.[^rashomon]
 
-Compared with several other starting points, it seems elaborate. For centuries, mathematicians hoped to derive it from the remaining assumptions. In 1733, Saccheri tried to obtain a contradiction by denying related assumptions. He reached results later recognisable as approaching non-Euclidean geometry, while still trying to reject that path.
+The killing remains unresolved, but the child has somewhere to go. Entrusting care to the woodcutter does not require accepting all his testimony. Trust in one person can have different scopes. Life cannot wait indefinitely for settled truth. On what grounds can it continue?
 
-In the nineteenth century, Lobachevsky and Bolyai publicly developed systems unlike Euclid's. Riemann's 1854 lecture investigated more general spaces and geometries. There was no longer just one geometry to study. What different assumptions implied, and whether a system was internally consistent, became questions for comparison.[^geometry]
+#H2 Leave Unfamiliar Words in Their Setting
+In 1947, Thomas Kuhn, studying physics at Harvard, began reading early scientific texts for teaching. Aristotle's treatment of motion puzzled him. Read through post-Newtonian physics, much seemed untenable. How could a thinker so perceptive elsewhere appear so different here?
 
-The spherical triangle gives these differences a visible form. A geodesic follows the locally straightest path along the surface. Its intersections on a sphere obey relationships different from intersections of straight lines in a plane.
+Kuhn later described a turning point in understanding Aristotle's vocabulary. Motion and change included growth and altered qualities as well as displacement. Reading only through later physics excluded part of the meaning. Once the terms opened up, the arguments began to reveal their organisation.[^kuhn]
 
-Kant had used geometry to explain necessary knowledge not obtained merely from individual experiences. Multiple geometries sharpen the distinction between proof within a system and deciding which geometry describes physical space.[^kant] The latter calls for observation.
+What first looked like a wrong answer turned out to involve a different question. The concepts used to judge the ancient thinker came under examination through reading him.
 
-General relativity later described gravity through curved spacetime and had to face physical tests. Mathematics expanded the available representations; other evidence decides whether they suit the world.
+#H2 Reasons Haidt Heard in India
+In 1993, social psychologist Jonathan Haidt undertook fieldwork in Bhubaneswar in eastern India. Accustomed to understanding morality through harm, rights, and fairness, he initially struggled with certain requirements concerning purity, hierarchy, and duty.
 
-#H2 The Small Print Missing from Rules
-Mathematics states assumptions; everyday rules often omit conditions. First come, first served can settle a queue for drinks. Applied to urgent assistance, it raises questions about who can arrive first, who can wait, and whose needs cannot be delayed. The wording stays the same; the reasons for using it change.
+In retrospect, he described how daily life helped him see their connections with obligation, care, and sacred things. He began to perceive what adherents believed they preserved, alongside restrictions on individual choice.[^haidt]
 
-Some conditions emerge only over time. Postponing a dispute may allow people to calm down; postponing every dispute may leave important problems permanently unanswered. Small approximation errors can accumulate beyond tolerance. Evaluation needs the duration of use too.
+A visitor's experience of hospitality may transform their view without representing everyone living under the rules. Those bearing restrictions have experiences of their own. Understanding how customs sustain relationships can also sharpen criticism of whose sacrifices sustain them.
 
-“It depends” is therefore insufficient. Which difference changes the judgement? Does urgency differ? Are waiting costs unequal? Do routes take equal time? Concrete conditions make further investigation possible.
+Return to the child beneath the gate. The priest still lacks the full history of the wood, but the woodcutter's willingness to raise the child gives grounds for entrusting care. The dagger remains in question; another life cannot wait. Understanding does not yet add up to a complete judgement of the man, while care must begin.
 
-#H2 Newtonian Mechanics Has Not Disappeared
-Newtonian mechanics supports many reliable activities. Appropriate approximations describe ordinary-scale motion and serve mechanical and structural engineering at the required precision. Relativity did not erase these achievements overnight.
+Interpreting someone also changes our relationship. Decide in advance that they make excuses, and every clarification may become another excuse. Sensing distrust, they speak less. Our explanation of their behaviour is accompanied by an attitude changing that behaviour.
 
-Satellite navigation requires exceptionally precise time comparisons. Orbital motion and gravity affect satellite clocks relative to ground clocks. Uncorrected differences affect positioning, so relativistic corrections form part of the system.[^relativity]
+Letting them correct us makes learning possible. Their account can still be checked against records and others' experience. Mutual understanding grows through replies; more layers of solitary guessing cannot replace them.
 
-Whether an approximation is acceptable depends on known errors relative to precision requirements. Everyday engineering need not always use the most elaborate model. Higher precision or different scales require comparison anew.
+#H2 After You Know Their Answer
+Knowing a position, we can follow its reasons. Someone supports trialling a new rota because it can be reversed if unsuitable. We learn both their conclusion and a condition they rely on: recoverability.
 
-#H2 The Person Who Feeds the Chicken
-In *The Problems of Philosophy*, Russell questions experience through a chicken. The person who feeds it every day eventually kills it.[^russell]
+Now suppose publishing the rota would cost some workers existing care arrangements that cannot readily be restored. Would the supporter still agree? If the relied-upon condition is absent, does judgement change? Such questions expose both the weight of reasons and overlooked costs.
 
-On that day the pattern breaks. Every previous feeding was real. An exhaustive record could be perfectly accurate while saying nothing about the keeper's future intentions.
+This consideration can guide other decisions: reversible consequences may support a trial; irreversible ones may require preparation. Another opponent may reject the rota for different reasons, even if reversible. Those reasons must be asked about rather than inferred from the first person.
 
-Readers know the ending and readily see the chicken's blind spot. Turn the question on ourselves and it is harder: why should repeated events continue? Appealing to previously successful patterns still requires explaining why those patterns will hold. More past successes repeat the very inference needing justification.
+#H2 Is Anyone in the Boat Coming Towards You?
+In “The Mountain Tree” of the *Zhuangzi*, a collision changes anger. An empty boat approaches without provoking the story's man. Seeing someone aboard, he calls for them to steer clear. Repeated unanswered calls turn into abuse.[^zhuangzi]
 
-Everyday predictions nevertheless differ in reliability. To anticipate water interruptions, we can inspect equipment, maintenance plans, and water sources instead of recording only uninterrupted supply. Such information excludes no conceivable accident, but identifies risks absent from the historical regularity.
+The boat still approaches, but anger now has an object: someone expected to respond who does not. Beyond the collision's force lie judgements about intention and responsibility.
 
-Predicting the future requires attention to conditions beyond a record; inferring the experiences of unobserved people does too. A survey of existing customers tells us about respondents. Generalising to everyone who encountered a service requires knowing about leavers, nonrespondents, and people unable to enter. More customers of the same kind can stabilise some estimates without reaching those never surveyed.
+The parable continues into the cultivation of an emptied self. We can also notice how anger depends on inferred intention. Did the person see the approaching collision? Could they avoid it? Until these are established, deliberate refusal is not a settled conclusion.
 
-#H2 When Mechanisms Need Investigating
-Snow did not need complete microscopic knowledge before comparing water supplies. Suitable research can yield causal evidence about an intervention and an outcome before its full mechanism is known.
+Causes can change responsibility. Some people cannot control a boat; others knowingly omit available precautions. Damage remains to be addressed. Who bears responsibility depends on what could be known and done, and what was actually done.
 
-Mechanistic inquiry helps assess changed settings. Knowing which factors sustain an effect guides tests of differences likely to alter it. Outcome comparisons and mechanism research can inform one another.
+Three matters need separating: how behaviour arose, how the actor explains it, and whether that explanation answers those affected. Pressure can help explain a loss of control without deciding how much others should endure. An institution discouraging reports explains some silence; responsibility still depends on authority, risk, and available alternatives.
 
-An intervention may also have several effects. Benefits through one pathway can be offset through another, leaving overall outcomes unlike expectations. Explaining a pathway therefore does not remove the need to compare important outcomes directly. The next chapter's clinical trial will make this distinction concrete.
+Public discussion offers another shortcut: calm, fluent speakers appear credible. Clarity aids checking, but some people lack vocabulary, are frightened, or are too hurt to maintain the composure demanded by spectators.
 
-Even partial mechanistic knowledge may not cover a new situation. Users' anomaly reports, raw data, and alternative measurements can reveal unforeseen differences. Chapter 5 discussed preserving these means of correction. Known ranges of use can also be documented more precisely.
+When someone angrily says “it happens every time,” we can investigate frequency while addressing the confirmed occurrence. “Every time” may overstate it; the harm already done remains. Helping specify events improves evidence and prevents argument stopping at exaggerated wording.
 
-#H2 The Last Stretch from a Principle to a Case
-Discussing practical wisdom, Aristotle stresses knowledge of particulars as well as universals, because action occurs in particular circumstances. Knowing that light meat is digestible must be joined to knowing which meat is light before a suitable meal can be prepared.[^aristotle]
+Knowing another person's fears can support comfort or threats. Recognising vulnerability does not justify exploiting it.
 
-This distinction returns attention to conditions. General rules organise many situations; application returns to one specific occasion. Does this person belong to the studied population? Does today's setting preserve the relationship? Is the signal an ordinary fluctuation or evidence of change?
+Refusal to continue talking may reflect exhaustion or fear of punishment. Stopping established harm, preserving records, and allowing rest and safe expression often take priority over more questions. Care should not await an explanation we find satisfactory.
 
-Principles save repeated exploration, support consistent treatment, and make reasons expressible. Individual cases bring differences the general rule did not retain. Impressions alone may lose comparable grounds; classifications alone may miss what distinguishes this occasion.
+#H2 One Word Can Make Different Demands
+Kuhn's example concerns meaning. Everyday discussion adds another difficulty: shared use of “fairness” may conceal different priorities. Some favour first arrivals; others urgent needs. Even translated words can leave demands unspecified.
 
-Judgement moves between principle and case. A principle directs attention to relevant features; the case tests the classification. Recurrent exceptions may call for revising the rule rather than repeatedly invoking special treatment. This movement also connects scales within the second-order framework: abstraction permits transfer; concrete encounters test whether this transfer fits.
+In a park redevelopment, “we disagree” may involve several questions:
 
-#H2 Write Down the Range of Use
-“A retail model” or “manufacturing experience” remains too broad. Models inspecting appearance may perform differently with different lenses, lighting, materials, and angles. A shared label conceals widely varying conditions.
+#TAB
+Location of disagreement|What needs clarifying?
+Data|Do records cover the same period and area?
+Definitions|Does access mean walking, wheelchair use, or vehicle speed?
+Causes|Which design creates congestion, and what supports that claim?
+Scale|Are temporary construction disruption and long-term outcomes distinguished?
+Purpose|Are we improving transport, recreation, or something else?
+Values and risks|Which costs are unacceptable to whom, and why?
+Authority|Who may set shared goals, and how do affected people participate?
+#ENDTAB
 
-Suppose a model marks damaged packaging in photographs for human review. It has been tested only with fixed lighting, a specified lens, and a few packages. Backlighting and other reflective materials remain untested. These details explain performance more usefully than an isolated “ninety-five per cent accuracy.”
+One dispute may contain several unresolved differences. Investigation addresses some factual disagreements without deciding which life is more worthwhile. Conversely, different values do not remove the duty to correct false records.
 
-The camera is later replaced while software stays unchanged. Most sampled photographs are well lit, so average performance looks good. Missed damage increases in the few backlit photographs. A total score may suggest the new lens made no difference. Preserving disputed images and separating misses from false alarms helps locate deterioration.
+Suppose managers propose more park lighting for safer passage. One user doubts that lamp positions cover the paths where falls occur. Another accepts the safety effect but worries about nocturnal wildlife. A third asks for residents' participation. All oppose, but different parts of the proposal.
 
-Tracing failure rewrites the scope. The team had treated the lens simply as a means of acquiring similar images; now its interaction with lighting and material belongs in the account. Scope is not always known before research, awaiting a label. Failure and investigation often make it clear.
+The first question invites investigation of accidents and lighting. The second needs ecological and usage information as well as judgements about costs. The third concerns authority and procedure. Better research alone does not confer the right to decide for others.
 
-If a later version improves backlit performance, the limits need updating. Records should say which version was tested where and what changed. Otherwise new users may guarantee new uses with old results or remain blocked by a problem already solved.
+#FIG fig-13-disagreement.svg|Figure 7.1　Opposition can concern different relationships. This hypothetical proposal develops the table; it is not a park survey. Drawn for this book.|The same lighting proposal can face objections about effectiveness, comparison of costs, and authority. Each needs different evidence or discussion.
 
-Geometrical conditions must be stated before a proof begins. Empirical methods' conditions often emerge during work. Requiring every condition in advance may demand precisely what the investigation is supposed to discover.
+#H2 Be Clear About the Agreement You Can Reach
+Clarifying disagreement need not eliminate it. Participants may agree on accident records and a lighting improvement for one path, yet disagree about acceptable ecological costs. Separating established points from disputed ones avoids starting the same factual argument again.
 
-#H2 When Models Do Not Cast the Same Vote
-Climate research handles interacting atmosphere, oceans, clouds, and ice. Teams make different modelling choices. The Coupled Model Intercomparison Project, CMIP, provides shared experimental designs that make simulations more comparable.
+Shared standards can cross professions. Product and safety teams may differ over launch dates and accidents while agreeing that easily corrected mistakes require different review from irreversible harm. Procedures can begin there while classification of risks remains debatable.
 
-Putting results together reveals agreement and disagreement. Models are not wholly independent: data, methods, and code may be shared. More models do not necessarily add proportionately more independent evidence.
+The shared standard must also face scrutiny. “Reversible” may conceal disagreement or exclude losses borne by one group. Stating those differences prevents apparent agreement from obstructing discussion.
 
-Some CMIP6 models produce higher equilibrium climate sensitivity. Broadly, this asks how much global mean surface temperature changes after carbon dioxide doubles and climate reaches a new equilibrium. Historical warming, palaeoclimate, and physical-process research provide checks beyond model output.
+Where values or basic beliefs cannot presently be reconciled, disagreement can be specified. Treating a loss as inexchangeable differs from accepting compensation, and neither is simply a misread datum. Recognising the absence of a shared standard can open negotiation and procedures for acceptable coexistence.
 
-The IPCC's 2021 assessment combined several lines of evidence and described sensitivity ranges at different uncertainty levels. “Likely” and “very likely” refer to different ranges; the intervals must be read with their uncertainty statements.[^climate]
+#H2 The Cost of Changing Your Mind
+A thought encountered yesterday may be easy to revise. A judgement entwined with reputation, belonging, or years of effort is harder. Alongside examining evidence, resistance to persuasion invites a question: what would change cost this person?
 
-Climate scenarios explore specified development conditions. RCP8.5 is a high radiative-forcing pathway; its number relates to forcing in 2100 relative to preindustrial conditions. It asks what climate might do under those conditions. The probability that the conditions will occur requires separate assessment.
+They may fear losing colleagues or having all previous work discredited by one error. Distinguishing “this judgement needs correction” from “this person has no ability” can sometimes keep discussion open. Harmful actions and responsibility still need specific treatment.
 
-Confidence develops through comparisons between models and external evidence. Disagreement can guide research: is a physical process poorly understood, or are development scenarios different? Averaging is quick. Understanding the source of disagreement is often the long work.
+A reasonable decision on the information then available also differs from neglect of obtainable evidence. Both can require change after new findings, but what must be admitted and improved differs.
+
+Once judgement changes, the person returns to those who trusted or were hurt by their earlier position. Revising the account is only the beginning of facing them.
+
+Understanding someone requires allowing their words to change our categories. Learning from predecessors makes a similar demand. We can quote the sentences they left, but still need to reconnect them to the questions, reasons, and conditions from which they arose.

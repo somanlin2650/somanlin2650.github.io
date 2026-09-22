@@ -1,57 +1,144 @@
-#H1 13 — The Knower Is Not a Single Command Centre
-Close your eyes and you can usually still locate your right hand. Bent or straight, resting against a chair: the arm's position can be felt without sight. This sense of position and movement rarely attracts attention. It lets the eyes look elsewhere while the body continues its work.
+#H1 13 — Indicators, Power, and Those Affected
+Customers used their existing accounts. Without application or consent, additional accounts appeared in their names. Recorded business increased while customers might know nothing of it.
 
-In 1992, Jonathan Cole and E. M. Sedgwick reported an unusual participant. He could still move voluntarily and retained some sensations of pain and temperature, but had lost most sensory input concerning light touch and limb position below the neck. In him, the ability to move muscles and the ability to feel movement became distinctly separable.
+Who in a bank benefits from accounts opened for unaware customers? Alongside serving existing needs, employees were asked to sell more products to each customer. Accounts were countable, suitable for targets and rewards. If customers chose every new service, the figure might indicate increased business.
 
-Watching his forearm move and comparing weights, he could distinguish fairly fine differences. Closing his eyes markedly reduced performance. Some postures and simple repetitive movements could continue to a limited extent; new movements depended on visual feedback.[^deafferentation]
+In 2016, the US Consumer Financial Protection Bureau took enforcement action against Wells Fargo. Regulatory records described employees opening unauthorised accounts to meet targets and obtain incentives. Some transferred money from existing accounts into new ones, imposing fees on some customers. Regulators identified sales incentives and inadequate oversight among the problems.[^wellsfargo]
 
-Movements ordinarily requiring little attention demanded sustained watching, adjustment, and relearning. Vision supplied some missing positional information, while making that attention less available elsewhere.
+Accounts and transactions were real, but the event the measure was supposed to represent—customers choosing needed services—had not occurred. An employee's additional sale could become an unaware customer's additional fee and administrative burden.
 
-Some bodily work does not even require stepwise neural commands. A paper edge cuts skin, small vessels are damaged, and local haemostasis begins as blood escapes. You may notice, treat, or seek help. Local protein reactions need not await conscious recognition and permission.
+Consent itself is necessary to such service. Beyond counting accounts, institutions must let customers discover what occurred, stop unauthorised services, and address losses. Faster account creation cannot substitute for these requirements.
 
-Local signals, platelets, and coagulation proteins contribute to clot formation after vessel injury. They can operate before conscious judgement. Haemostasis should not be described as a neural reflex that first sends a message to the spinal cord and receives an order back.[^clotting]
+#H2 What Does a Tail Prove?
+In 1902, Hanoi under French colonial rule faced rats and disease. Newly built sewers in some areas modernised sanitation while giving rats space to travel and breed. Authorities organised extermination and paid by quantity.
 
-Platelets are small cell fragments involved in haemostasis. Coagulation reactions help form a fibrous network. Local reactions are initiated and amplified, while inhibitory and clearance mechanisms affect them. Explaining when clots form and why they do not expand without limit requires these interactions.
+Payment required countable proof. Rat bodies were cumbersome; tails seemed smaller and sufficient evidence of removal. Tails became the claim for a reward. Historian Michael Vann's investigation of colonial archives found later reports of living tailless rats and activities supplying rats for bounties. A tail earned money while its former owner could remain alive.[^hanoi]
 
-Spinal reflexes instead involve neural circuits. Some responses can be organised without waiting for conscious choice while remaining subject to other neural modulation. Independence from an immediate conscious decision does not mean isolation from the brain.[^spinal]
+The tail initially stood for a dead rat. Once separately exchangeable for money, supplying tails and reducing living rats could diverge. Vann places these practices within colonial inequalities of housing, labour, and power. Who designed payment, who could earn from it, and who suffered infestation all affected events. Individual greed alone is an inadequate question.
 
-The brainstem connects brain and spinal cord and participates in breathing and many signals. The cerebellum contributes to coordination, adjustment, and other functions; cerebral regions jointly support perception, memory, language, and planning. Extensive connections sustain activities across regions.[^brain] Explaining behaviour therefore requires tracing information and modulation, not merely naming organs.
+Accounts and tails direct attention to changes after targets are announced. An indicator may initially correlate with what matters. Once people act to achieve it, the relationship cannot be assumed unchanged.
 
-Figure 13.1 compares local haemostasis with interactions among sensation, neural circuits, and responses. Both can operate without an immediate conscious decision; their mechanisms of initiation, regulation, and limitation differ.
+Researchers examined this across fields. Charles Goodhart discussed changes in statistical relationships subjected to monetary-policy pressure in the 1970s. Donald Campbell studied pressures distorting social indicators. Marilyn Strathern addressed measures becoming targets in university assessment.[^metrics] Relationships observed when a measure is chosen may not survive incentives changing behaviour.
 
-#FIG fig-07-body-regulation.svg|Figure 13.1　Functional relationships among different mechanisms. Based on this chapter's sources, the comparison is not a complete anatomical diagram; arrows do not individually correspond to neural pathways. Coagulation, reflexes, and conscious activity retain their mechanistic differences.|Local haemostasis through vessel injury, platelets, and coagulation proteins appears on the left. The right shows interactions among sensory input, spinal and brainstem-related circuits, broader brain networks, and responses.
+#FIG fig-17-metric-feedback.svg|Figure 13.1　Assessment changes assessed behaviour. Meeting targets must be checked against actual service and additional costs; feeding back only target figures can omit both. Drawn for this book.|An institution chooses indicators, connects them to incentives and resources, and receives new figures after behaviour changes. Actual effects and uncounted costs need other checks.
 
-The comparison identifies relationships supporting capacities. Coagulation contributes to haemostasis without thereby possessing human conceptual understanding. Comparing support conditions must preserve that difference. Second-order analysis can examine researchers' representations of mechanisms without calling every feedback process thought.
+#H2 Four Hours Can Change a Hospital
+England faced long stays in emergency departments. Patients could wait for assessment, beds, or further arrangements after reaching hospital. Government set a time requirement: most should be admitted, transferred, or discharged within four hours. In 2005 the target was ninety-eight per cent.
 
-#H2 Coughing Reveals Mutual Regulation
-In a quiet room, an urge to cough can sometimes be suppressed and sometimes not. You can also cough deliberately to attract attention. Similar sounds need not share initiation or regulation. Research distinguishes stimuli, urge, actual cough counts, and activity during suppression.
+Speeding up emergency staff alone could not remove every wait. Without an inpatient bed, effort at the front could not complete the next step. Tests, beds, and departments needed coordination, making what looked like an emergency-department problem a hospital-wide task.
 
-Stuart Mazzone and colleagues used functional brain imaging to compare conditions including coughing and suppression. Different patterns supported involvement of networks above the brainstem. Activity differences guide investigation without establishing every region's causal role by themselves.[^cough]
+Researchers interviewed emergency leaders at nine hospitals in 2008 and published findings in 2011. They recorded reported changes in coordination, resources, and processes, alongside pressure and quality concerns.[^nhs] Interviews clarify institutional responses; better care still requires checking clinical outcomes.
 
-Sometimes an intention to suppress succeeds. When it does not, the body does not wait for permission. We participate in regulation without gaining command over every operation.
+Concentrated decisions just before four hours call for investigating patients' circumstances. Previously delayed tests, beds, or transport may finally have been arranged. Other patients may have been hurried out while still needing observation. Timing is a clue; condition, subsequent outcomes, and actual processes distinguish explanations.
 
-#H2 Changing Ourselves Through Things Outside Us
-Self-adjustment need not direct effort only into consciousness. Practice, sleeping environments, tools, and medical interventions can alter different processes. Each requires relevant knowledge; all cannot be attributed simply to willpower.
+Targets can bring otherwise separate workers together around a difficulty. Their wording also helps determine which difficulties enter that cooperation.
 
-A small 2007 randomised trial by Alyn Morice and colleagues gives a concrete distinction. Morphine treatment for chronic cough improved some symptom measures, while the citric-acid cough challenge did not show a significant change.[^opiate] One measure recorded symptoms; the other assessed coughing induced by an experimental stimulus.
+#H2 The Answer Missing from the Form
+Institutions organise work through options as well as deadlines. Consider a hypothetical employment-support form asking for the main obstacle to finding work. Its only options are lack of experience, difficulty writing a résumé, and not knowing where to find vacancies. There is no space to add anything.
 
-A threshold marks conditions needed for a response to begin. Claiming that a drug raises a cough threshold requires specifying stimulus, response measurement, and comparison before and after treatment. Less everyday coughing or improved comfort alone does not establish a higher stimulus requirement in a challenge test. Distinguishing measures locates the improvement.
+Someone may have none of these difficulties. Caring for family may conflict with fixed shifts. Whether this can enter the record depends on the form:
 
-A person may choose an intervention without directing each subsequent physiological reaction. Researchers investigate substances and design trials; clinicians assess suitability; institutions affect access. A bodily change can depend on extensive work outside the body.
+#TAB
+Permitted response|Can the difficulty be retained?
+Only one of the original three options|A conflict between shifts and care cannot be accurately recorded as another cause
+Unlisted answers, with procedures to review categories|An omitted situation can be recognised, but supplementary information must still reach actual handling
+#ENDTAB
 
-Changing oneself can therefore include arranging external conditions. Learners choose environments, ask for correction, and use reminders. These arrangements gradually change habits and judgement. The present self can seek the assistance needed for change. Agency can extend through external conditions without positing an inner commander controlling the whole body.
+More copies of the first form cannot supply answers outside its categories. Applicants may leave, force a choice, or find another channel; actual investigation must establish which. We can already establish that the options provide no faithful place for this difference.
 
-#H2 Which Changes Count as Regulation?
-It is tempting to call every natural change information processing. If falling stones, clotting blood, catching balls, and debating rules all become one label, distinctions needing investigation disappear beneath it.
+If resources are allocated only through those options, the form does more than describe. It affects assistance, and applicants may learn to redescribe themselves in terms the institution recognises.
 
-Compare a stone with a thermostat. Both obey physical laws. The thermostat also has a sensor, temperature setting, and switch: departures from the setting change heating. Altering the setting or disabling the sensor tests their effects. The stone changes too, but lacks this arrangement of measurement, reference, and response.
+Increasingly neat agreement with three options therefore does not directly validate classification. People may simply have learned which answers work.
 
-Coagulation differs mechanistically from a thermostat, involving local initiation, amplification, and limits. Motor control uses continuously changing sensations; learning may alter future responses. Comparison should identify detected differences, their effects on activity, and how outcomes influence subsequent responses.
+Changing the form begins the work. Suppose a new field permits care responsibilities, and a caseworker reads and confirms the account. Another résumé class does not solve this problem. Compatible working arrangements or care support may be needed. Whether services can follow the discovery depends on allocation.
 
-Feedback can arrive late or amplify error. Heating from outdated temperature measurements may fail to stop appropriately. Modules repeatedly undoing each other's changes can leave work oscillating. Benefit depends on received information and the timing of response.
+A new answer may demand a new method, or reconsideration of whom a service should help and how far. Filing exceptions under old options keeps reports running. Hearing them fully may require admitting that the original question was too narrow.
 
-Fixed procedures for familiar tasks, adaptable strategies for new situations, and human handling of exceptions form one investigable arrangement. Allocation depends on information, time, and demonstrated ability. A person without original circumstances and with seconds to respond does not acquire missing capacity because a chart says human responsibility.
+#H2 After a Manual Is Revised
+The American Psychiatric Association's *Diagnostic and Statistical Manual of Mental Disorders*, DSM, organises diagnostic terms and criteria to support consistent clinical and research communication. Healthcare, insurance, and education arrangements may refer to diagnoses, carrying classification into access to assistance.
 
-A whole may accomplish what no part can do alone. Investigating that ability requires both local activity and interaction. Brain or command centre remains a label, not a substitute for studying relationships.
+In 1980, the third edition formally included post-traumatic stress disorder. People suffering long after trauma existed before it and had been described and treated under other names. Shared criteria supported comparison and provided clinicians and patients with another way to explain difficulties and seek help.[^dsm] Whether resources followed depended on services and institutions.
 
-Society adds participants able to reject goals. Employees can protest with reasons deserving a hearing, not merely deviations to be corrected. Bodily organisation can suggest research questions. Authority to demand obedience still requires social and ethical justification.
+In 1973, the association decided homosexuality itself should no longer be classified as a mental disorder. Evidence, professional debate, affected people's actions, and reassessment of disorder all contributed. Diagnostic terms continued changing, and stigma did not vanish in one revision. The changed status required those relying on medical classification to justify treatment of people to face evidence and lived experience anew.
+
+The 2013 fifth edition brought several previously separate diagnoses, including Asperger's disorder, into autism spectrum disorder. The association cited inconsistent use of earlier categories across clinical settings and reasons for integration. People using an earlier name to understand themselves also faced questions of community, identity, and explaining experience. Revised criteria and willingness to retain an identity term are not identical matters.
+
+Ian Hacking called such reciprocal effects between classifications and people looping effects. Categories alter treatment and self-understanding; people accept, reject, or repurpose names, prompting reconsideration.[^hacking] Research must trace actual services, expectations, and actions. Counting renamed categories does not establish changed lives.
+
+A diagnosis may give a child needed support and invite underestimation. Both effects need separate investigation. Reducing stigma can accompany serious attention to difficulty; retaining a useful diagnosis need not retain low expectations or unsuitable services.
+
+#H2 People Hidden by an Average Score
+Suppose a tool classifies ninety-five of a hundred cases correctly. That figure does not locate the five errors: scattered across circumstances or concentrated in one? Nor does it distinguish a correctable notice from a lost opportunity that cannot be recovered.
+
+False inclusion and false exclusion may require different detection routes. Included people enter a process and leave subsequent records. Excluded people may never return to the system. Later data on admitted cases cannot establish that everyone outside should have remained outside.
+
+Appeals and supplementary evidence can reveal hidden errors. Someone wrongly excluded needs a way to provide corrective evidence. Review must also ask whether appealing is prohibitively time-consuming, evidence is obtainable, and recipients can change decisions. A written procedure must be usable to correct anything.
+
+Front-line workers may notice an exception without a field for it. Those with a field may only annotate, without changing the determination. Rule-makers may receive only aggregate figures.
+
+The newly recorded care difficulty may stall here. A caseworker sees the conflict, while managers receive only totals in three old categories. Sending original accounts to people able to adjust services gives the discovery a chance to reallocate resources.
+
+Receipt still requires response. Even a decision against new services should explain limits of resources or authority. Repeated needs can then accumulate into reconsideration, rather than forcing applicants to explain the same life difficulty from the beginning with each new worker.
+
+#FIG fig-08-knowledge-authority.svg|Figure 13.2　How detected problems reach action. The right adds paths for original records and supplementary accounts to decision-makers, with responses returned to the front line. Dashed lines mark additions. This hypothetical design is not Wells Fargo's organisational chart.|Identical roles with different connections: unclassified material stalls on the left; on the right, new routes carry records into decisions and assign handling and response.
+
+A worker noticing failure cannot necessarily decide a new rule's effects on everyone. Decision-makers need not understand local circumstances better. Bringing experience into discussion does not require giving one party all authority. Participants' reasons must be able to change a proposal, and responsible decision-makers must explain the arrangement adopted.
+
+Some outcomes take time. Do users gain employment opportunities? Who bears additional burdens? New reports allow institutions to learn what their original classification could not record.
+
+One premise underlies this: people raising problems should not be excluded because they complicate procedure. When only designers may name failure, experiences they have never had struggle to change the institution. Knowledge and participants' influence are both restricted.
+
+#H2 Locating Ability Beyond the Individual
+Connected work can give individuals abilities unavailable alone. During an aircraft's approach, required speeds vary with weight, flap settings, and other conditions. Pilots must recognise relationships between present and upcoming speeds amid demanding operations, not simply know one number.
+
+Edwin Hutchins's cockpit research observed reference cards, verbal confirmation, instruments, and speed markers participating together. Speeds could be found beforehand and marked on instruments. Comparing pointer and marker positions then performed work otherwise requiring remembered numbers and numerical comparison.[^hutchins]
+
+Markers move work earlier and turn numerical into spatial comparison. Wrong settings preserve errors too; confirmation with a colleague belongs to the ability. Testing unaided memory alone omits conditions of actual work.
+
+Andy Clark and David Chalmers's “The Extended Mind” makes a stronger philosophical claim: suitably coupled external resources can constitute parts of cognitive processes and even certain beliefs. Where to draw the mind's boundary remains disputed.[^extended]
+
+Their thought experiment compares two people heading for a museum. One recalls the address; another with memory difficulties routinely keeps important information in a notebook and consults it naturally. If the notebook is consistently available, trusted, and integrated into life, should its position outside the skin alone exclude it from relevant cognition?
+
+Whether a notebook counts as mind remains arguable. Its contribution to ability is already investigable. So are cockpit cards, markers, and confirmations in explaining success and error.
+
+Larger cooperation also brings conflicting interests and aims. Departments share data while pursuing different interests; schools share student records while disagreeing over education. Joint cognitive work does not imply one purpose or consciousness. Analysis must preserve disagreement and each participant's authority.
+
+Academic cooperation faces institutional differences too. Disciplines need distinct concepts, instruments, and training, and organise courses, degrees, publication, and review differently. Conceptual understanding leaves these arrangements to navigate.
+
+A project needing two fields may need to establish who can evaluate which evidence, which reviewers suit the results, and how each participant's work is recognised. These conditions affect continuity. Explaining all difficulty as different thinking hides alterable training and assessment.
+
+Researchers may learn each other's evidence yet find assessment hardest to change. Knowing how to collaborate does not establish institutional permission to continue.
+
+#H2 What a Talking System Brings Back Into Question
+AI can learn from accumulated text, images, and other human materials, and acquire abilities through different training and tools. It now provides useful results in some tasks once demanding years of human learning. Reliability cannot be inferred from human learning order. Success at one difficult task does not automatically make seemingly simpler tasks reliable.
+
+Before asking whether it has intelligence, distinguish the actual question. One response can raise questions of function, human likeness, internal mechanisms, or experience:
+
+#TAB
+Question|Where inquiry can begin|What cannot answer it directly
+Can it perform a task?|Task, conditions, stability, and failures|Whether it works as humans do
+Does it behave like a human?|Language, action, and interaction|Whether it has similar feelings
+What useful internal representations form?|How information affects operation and transfer|Whether this produces subjective experience
+Does it have subjective experience?|Clarify experience and admissible evidence|One human-like answer cannot settle it
+#ENDTAB
+
+Producing sentences about grief is observable; feeling grief requires further argument. Statistical mechanisms alone also cannot decide whether understanding is present. Distinguishing questions reveals the reach of an observation.
+
+Once used, a model becomes part of other people's environment. A paper classification differs from one participating in daily large-scale selection. Users adapt inputs, classified people respond, and earlier decisions affect later data. Initial scores matter without settling new behaviour, power, and costs.
+
+In a hypothetical workflow, fixed software checks defined formats and constraints, AI or other searches propose candidates, and appropriate trials compare results. AI may assess suitability for a known procedure and call it, then change methods when results are abnormal. A plausible division still requires testing in actual work.
+
+Some low-impact actions can proceed with records and later checks; other risks need prior limits. Humans taking over need original circumstances and sufficient time. Role names and human resemblance cannot decide the arrangement. Changes to shared goals require responsible and affected people to participate.
+
+Each stage may inherit earlier errors. Model explanations need comparison with original evidence, tool outputs, and records. A generator and checker sharing a blind spot may merely let the same error pass twice. A check must specify which failures it can detect.
+
+A person with seconds and no critical information cannot perform all the verification assigned on paper. Actual detection capacity and authority to stop or change must accompany responsibility.
+
+#H2 Self-Correction Can Still Serve Only the Original Goal
+A system can keep correcting while recognising only one kind of error. A service measuring handling time can learn faster closure without learning whether problems are resolved. Even complaint feedback may teach better obstruction if complaints are defined as burdens to remove.
+
+Beyond closure time, inquiry must follow whether the person's difficulty remains. A new account may change the meaning of completion itself.
+
+Proponents of new goals owe reasons and consideration of costs; others may disagree. But if only faster closure can be discussed, and resolution itself cannot, what most needs changing never enters the conversation.
+
+Results may return to an institution yet change only its techniques for meeting targets. We next need to distinguish failures calling for more data from those calling for a different method, and ask what evidence would justify that change.

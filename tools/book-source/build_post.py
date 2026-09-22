@@ -5,8 +5,8 @@
 深色模式，不進站內搜尋，也沒有留言。做成 post 之後，全書就跟站上其他文章一樣。
 
 標題階層（post 本身的標題是 h1）：
-    #PART              → h2   四個部
-    #H1 在某一部裡面   → h3   十五章
+    #PART              → h2   五個部
+    #H1 在某一部裡面   → h3   十六章
     #H1 不在任何部裡   → h2   序、結語、思想座標與資料來源
     #H2                → h4   小節
 
@@ -35,10 +35,10 @@ DATE = "2026-08-25 16:00:00 +0800"
 UPDATED = "2026-09-22 09:00:00 +0800"
 
 DESC_ZH = ("理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，"
-           "建立一套回看問題、表示、方法與目的的框架。全書十五章、十七張圖及七十九項來源註釋。")
+           "以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及八十二項來源註釋。")
 DESC_EN = ("A second-order philosophy of understanding, action, and revision. "
-           "From lunar landing and maps to everyday judgement, a framework for examining questions, "
-           "representations, methods, and purposes. Fifteen chapters, seventeen images, and seventy-nine source notes.")
+           "Preservation, composition, and return: how understanding forms, connects, and revises itself. "
+           "Sixteen chapters, seventeen images, and eighty-two source notes.")
 
 META = {
     "zh": dict(

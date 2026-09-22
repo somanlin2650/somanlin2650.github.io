@@ -1,181 +1,81 @@
-#H1 10 — Connecting Earlier Understanding to Your Own
-On programming practice sites such as LeetCode, problems often occupy a few paragraphs: find a shortest route, or retrieve an item quickly from large amounts of data. Attempting them brings us to data structures and algorithms. How should information be arranged for retrieval? Which steps are both fast and complete? These names stand for earlier people's work.
+#PART Part Four|Understanding Enters Action|The same understanding can serve different purposes and leave different people bearing the costs. When judgement begins to direct action, time, values, and power enter the framework.
 
-A short problem can have a long history behind its best method. Chapter 4's layered search lets us borrow an established proof of when to stop and why no shorter path was missed. Someone who knows it can concentrate on recognising conditions. Someone who does not may still be trying routes without knowing when the search is complete.
+#H1 10 — Purpose: What Determines Success?
+In *Alice's Adventures in Wonderland*, a peculiar race takes place. Alice and a group of animals have just climbed out of a pool of tears, soaking wet. To get everyone dry, the Dodo proposes a race.
 
-Trying for ourselves reveals the difficulty and what an earlier method saves. Making refusal to consult existing work a test of independent thought, however, turns learning into compulsory reinvention. Earlier achievements sit unused while our time goes into already explored detours.
+The course is roughly circular; its exact shape does not matter. There is no starting signal. Participants begin and stop whenever they please. Eventually the Dodo declares the race over, and everyone gathers to ask who has won.
 
-For life's difficulties, we more readily forget that predecessors are available. Must every promise be kept? What makes an exchange fair? Does personal benefit supply sufficient reason for a choice? These problems may reach us today, but philosophers have debated them for centuries. Their distinctions, counterexamples, and arguments cannot live for us; they can make an inarticulate difficulty approachable.
+After much thought, he decides that everyone has won and everyone must receive a prize. Who will provide them? He points to Alice. She shares the sweets in her pocket, just enough for one each. But she needs a prize too, so she produces a thimble she already owns. The Dodo solemnly presents it back to her amid cheers. Alice thinks it absurd, but accepts.[^alice]
 
-Programming exercises usually specify inputs, constraints, and acceptance criteria. Discussions of fairness may dispute the criteria themselves. Borrowing thought must therefore include reconsidering what would count as resolution. Reading may provide a method—or reveal that our preferred answer excluded someone's circumstances beforehand.
+Everyone did get dry. For that purpose the arrangement worked. But if Alice asks why all the prizes must come from her, dry feathers cannot answer.
 
-#H2 Darwin Reads a Book About Population
-Darwin recalled in his autobiography a difficulty with selection in nature. He recognised the power of artificial selection but needed to understand how variations persisted without a breeder choosing them.
+The race's effectiveness in drying bodies and the fairness of distributing prizes are different matters. Everyday evaluations often mix them too. An exam score may help a teacher assess readiness for the next course. Using it to decide who deserves respect requires another argument. Accurate calculation does not make that use reasonable.
 
-In 1838, he read Malthus on population. Population potentially outgrowing resources prompted a fresh view of competition among animals and plants: could some variations favour survival and reproduction under scarcity, becoming more common in descendants? Long-observed variation now had an explanation to investigate. Years of evidence gathering and revision followed before *On the Origin of Species* appeared.[^darwin]
+The difference is visible in a park. Before a survey begins, someone must choose the concern: summer shade, maintenance costs, or wheelchair access. Purpose determines what equipment surveyors carry, where they stop, and when they return. Expertise partly consists in recognising the differences this work needs to notice.
 
-Darwin read with difficulties accumulated through observation, allowing population and resources to become a biological question. Another reader need not have reached the same place. Supporting the idea then required evidence about organisms, variation, and reproduction. Reading suggested a question; observation tested the borrowed idea. How people should treat the vulnerable still requires ethical reasons, not deduction directly from competition's existence.
+Once a use is specified, investigation remains constrained by facts. Slopes must be measured, shade observed at relevant hours, maintenance costs established rather than filled in by preference. Different concerns call for different inquiries. When we are answering the same question, we can still compare which measurements are more reliable.
 
-We can read philosophy selectively too. Accepting an author's distinction about freedom need not entail accepting their policies. We can explain which step we use and why without first joining the whole school.
+Trade-offs emerge when managers allocate limited space and money. Preserving more trees, widening accessible paths, and lowering costs may not all be maximised together. However precise the slope measurements, they cannot decide whose inconvenience should increase.
 
-But how does a book transmit this ability? Darwin could report being inspired. Later readers also need to see how a relationship between resources and population transfers to biological variation. That connection makes further investigation possible.
+Giving shade, access, and cost a weight and adding them into a score seems to establish a ranking. Whoever sets the weights, however, participates in ordering needs. Arithmetic can be exact while those choices still require explanation to affected people. Incorrect slope measurements should also be corrected. Measurement accuracy and the allocation of a budget are distinct disputes.
 
-#H2 Leave the Reasons for the Next Person
-Take a small question: why is the sum of two even numbers even?
+Knowing who needs a map helps us recognise which omissions matter. A running map without rest facilities may suffice for planning distance. Used to guide wheelchair users, it must identify stairs along the way. A strong criticism shows how an omission obstructs the task the map claims to support.
 
-Try four plus six, eight plus twelve, and more examples. Explaining every possible pair requires another representation. An even integer divides into two equal integer parts. Split each of two even numbers and combine their halves: the total still divides into two equal integer parts. Symbolically, 2a + 2b = 2(a + b), with a and b integers.
+#H2 Which Differences Are Worth Keeping?
+Organising information sets many details aside. Financial statements do not record every office conversation; route maps omit windows. Whether a detail belongs depends on its effect on the judgement users need to make.
 
-The proof does not preserve every detour of discovery. Mood and trial order are omitted; relationships a stranger can repeat remain. Leaving out the personal history helps reasons travel. A reader can point out why “arbitrary integer” cannot replace “even integer” without first judging the author's entire trustworthiness.
+A model preserves selected features and their relationships. A cup described by capacity, material, and heat resistance can be assessed for hot drinks. Shipping it makes weight, dimensions, and fragility more important. Compare four purposes:
 
-Explicit reasons let different people meet at a definition or inference and disagree there. Corrections can reach people the original author never knew. One person's insight has a chance to exceed their own experience.
+#TAB
+Purpose|Keep|Temporarily set aside|Possible mistake
+Drinking|Capacity, heat resistance, safety|Exact shape|Ignoring heat resistance
+Shipping|Dimensions, weight, fragility|Grip and feel|Ignoring breakage
+Design|Proportion, feel, manufacture|Some shipping details|Letting appearance displace use
+Forensics|Residue, fingerprints, sequence of events|Suitability for drinking|Destroying evidence
+#ENDTAB
 
-Making this possible takes extra work. Writing out what one sees immediately can be harder than continuing to use it. Ease for the reader often depends on that earlier effort.
+The same cup asks different things of different people. Heat resistance does not tell a shipper the required box size. Someone collecting fingerprints may need to work before anyone washes it. Purpose affects what must be preserved from the start.
 
-Other abilities need demonstration and practice. “Knead until ready” is insufficient: learners need to feel different doughs, try movements, and receive corrections. Recognising unusual machine sounds requires repeatedly hearing and checking normal and abnormal examples. Words can direct attention to elasticity or sound; touch, discrimination, and movement still need practice.
+#H2 What Is the Task Meant to Achieve?
+A task often serves a purpose not yet stated. A customer-service department may shorten calls to reduce the wait for an answer. If employees quickly transfer complicated cases elsewhere, call figures improve while customers queue repeatedly and retell their problems. Service has not necessarily improved.
 
-“Until it springs back this much” points in a direction, but hands still need the dough. Teacher and student working together can continue distinguishing. Written inferences, indicated differences, and practised movements may together constitute the transmitted ability.
+After a call ends, the customer may join another queue. The department's record ends at hang-up; the customer's problem does not. We must follow what happens afterwards to discover whether service improved.
 
-#FIG fig-14-inheritance.svg|Figure 10.1　Learning from others and passing learning on. Explicit reasons and shared practice can alternate. Checking and practice can reveal errors, but inherited material may remain uncorrected. Drawn for this book.|Reasoning travels through explicit explanations and shared activity. Later learners revise through checking and practice, then pass materials onward. Transmission does not guarantee improvement.
+A longer view exposes conflicts among purposes. A project may skip maintenance to launch on schedule; a department may defer problems until next quarter to meet this quarter's target. Immediate progress has value, but postponed costs belong in the assessment.
 
-Sufficient precision allows machines to participate in checking inference. Lean expresses definitions, propositions, and proofs. People specify the claim formally and supply a proof; the system checks whether it supports the proposition under its logical rules.[^lean]
+#H2 Abstraction Has More Than One Direction
+Calling a cup a container attends to its ability to hold things. Calling it fragile attends to collision risk. Each classification selects for a use; neither must rank above the other.
 
-A paper's “it follows” may leave readers to fill gaps. These tools need omitted steps to become a checkable proof. Systems can assist with details, but suitable definitions and connections among established results may still require considerable work.
+Numerical records select too. A performance score counting only individual output cannot show time spent training colleagues. Classifying a test as normal or abnormal may hide proximity to the threshold. A rectangle around a pedestrian in an image mainly preserves position and size. Judging long-term contributions, tracking changing measurements, or understanding intentions may require other records.
 
-Formalising our short even-number example may seem more laborious than reading it. Longer proofs using more theorems make checking more valuable. Successors can establish precisely which proposition they use, its premises, and its place in a new proof, without always reconstructing an author's unstated steps.
+Whether an omission causes trouble still depends on later use. Some representations chiefly rearrange information to ease calculation or retrieval, without necessarily deleting content. Chapter 3's networks and numbers have already shown this. To evaluate a representation, we must consider what it preserves, which operations it permits, and what we currently need.
 
-Lean checks whether a supplied proof establishes the formal proposition under the chosen logic and axioms. This still relies on the checking tool operating correctly. Suitability for a real-world question requires another inquiry. A bridge model omitting an important loading condition gains no account of that condition merely from a verified internal proof. Chapter 5's question returns: what was omitted, and does later use require it?
+#H2 Better Means Make Purposes Worth Asking About Again
+In Book III of the *Nicomachean Ethics*, Aristotle describes deliberation with a doctor taking healing as the end and considering how to achieve it. In this discussion, deliberation chiefly concerns means.[^aristotle] A specified end gives comparison a direction. This book asks a further question: learning sometimes changes the end itself. Where does that change belong?
 
-#H2 How Learning Becomes Your Own Judgement
-The *Analects* warns of learning without thought and thought without learning.[^analects] Agreement that both matter leaves their connection to be established.
+Given an objective, techniques can become faster and more accurate. Yet in life and institutions, the objective can also need reconsideration. Hospitals may shorten waiting, companies increase sales, schools raise average marks. As technique succeeds, we can forget to ask whether patients receive needed care, customers are properly served, or students learn the intended abilities.
 
-The risks are concrete. Learning without examination can memorise conclusions without their questions or conditions, allowing familiar answers to arrive before judgement and land in unsuitable places. Thinking without learning can mistake an accidental idea for unprecedented insight. Without evidence, counterexamples, and inherited distinctions, thought circles within its own vocabulary.
+Ends and means are not assigned once, before work begins. Means change environments and people. Rankings can teach competitors to value what is rankable; measuring content by clicks teaches creators to generate clicks. The next objective may appear freely chosen while already shaped by the previous measure.
 
-Cooperation between learning and thinking is not simply an equal division of time. Learning brings others' observations, techniques, and failures into our questions. Thinking rearranges and checks whether they fit the circumstances. Ask which difficulty a theory addresses, then try it on your own example. Where it does not fit, identify the failed relationship before dismissing the whole theory or hiding the exception.
+Second-order understanding therefore lets results return to purposes. Besides revising procedures, it examines the pursuit itself. Is the original aim still worth pursuing? Has measurability been mistaken for importance? Who pays when someone gains? New methods can be learned under a fixed goal. Without permission to discuss the goal, however, we cannot learn when to stop pursuing it.
 
-Understanding a passage can begin by redoing one inference. If changing a condition leaves you unable to proceed, the obstruction identifies a next question. Earlier conclusions begin to become abilities you can use and examine.
+This does not require debating life's meaning before every action. Familiar, low-risk matters can follow habits. Reconsideration becomes worthwhile when arrangements endure, effects spread, or improving scores fail to improve people's circumstances. Questioning should help identify work worth continuing; repeatedly restating doubts can also delay necessary action.
 
-#H2 Work Through One Problem
-Meaningful work may concern income, contribution, autonomy, craft, or identity. An exhaustive survey of occupational satisfaction may miss what matters to us. Such problems resist a proof like the one about even numbers, but can still be clarified. Suppose you promised to help a friend finish a task. Circumstances change, and continuing would impose a serious burden, but you think a promise makes withdrawal absolutely forbidden. How should that principle be understood?
+#H2 Understanding Can Change Purpose
+We often imagine first deciding what we want and then learning how to get it. As learning deepens, what we want may change.
 
-It might prohibit withdrawal in every circumstance, normally require performance while allowing major exceptions, or allow changes while requiring attention to arrangements the friend made in reliance on you. These different demands hide in one sentence. Identify which you accept to locate the disagreement.
+Someone may initially understand care as doing everything for another person. Hearing that person's experience can teach them to value the person's choices. Understanding the need changes what doing well means. Pursuing the old objective more efficiently might deepen the interference.
 
-Test the strongest version first. Does a harmful promise still oblige performance? Can an unforeseeable major change leave responsibility wholly unchanged? Counterexamples narrow the principle without yet explaining ordinary promises' force.
+Learning a craft makes this change especially hard to anticipate. Beginners may want speed, then discover details they could not previously hear or see. These details make them willing to slow down and dissatisfied with achievements once a source of pride. Asked at the beginning whether to invest all that time, they might not yet understand what would make it worthwhile.
 
-Look at the friend's arrangements. They may have refused other help, reserved time, or entrusted important work to you. Withdrawal now removes earlier options and may leave no time for replacement. These consequences supply reasons to perform, notify early, or assist with remedies.
+We learn because we value something, and learning changes our reasons for valuing it. Purpose participates in inquiry; inquiry participates in purpose's formation. Arranging them in an irreversible sequence misses this mutual change.
 
-Permission to withdraw therefore need not erase responsibility. Major changes can justify revision while timely notice, truthful explanation, and feasible remedies remain necessary. Principles and particulars together yield a finer judgement: promises continue to provide reasons whose weight depends on content, new circumstances, and established reliance.
+Because desires change, their histories deserve examination. Learning may reveal new interests; advertising, rewards, and group pressure may foster pursuits previously unimportant. Assessment can ask whether someone had opportunities to encounter alternatives, understand costs, and refuse to continue.
 
-Clarification directs factual inquiry. What was promised? What arrangements followed? How large is the new burden? Can assistance take another form? These answers must come from the actual relationship; more abstract reflection cannot supply them.
+In public decisions, hearing a new need must also enable a changed arrangement. A wheelchair user explains that a ramp is unusable. The information has entered the meeting, but if designers can dismiss it as outside the agreed indicators, the testimony has not affected judgement. Additional perspectives matter through their ability to change a problem's scope and subsequent treatment.
 
-Instead of only enduring or breaking faith, there are arrangements to discuss: reduced scope, a changed deadline, a replacement, or reasonable remedies. The friend may accept or explain why the loss remains uncompensated. Analysis prepares the conversation; the friend's answer is theirs to give.
+Institutions face a difficulty here. A goal is needed to begin investigation and allocate resources, but investigation may bring back experiences that change it. An initial count of people crossing a park may later reveal that some cannot even enter. If the first scoring system continues to certify success, new knowledge can only sit beside the decision, unable to alter it.
 
-This used conceptual clarification, counterexamples, questions about reasons, and movement between principles and cases. Such philosophical work can be studied, practised, and criticised further.
+Knowing more does not necessarily improve what we want. But an arrangement that permits better means while forbidding reconsideration of what counts as doing well allows people only to become more skilful at following the original path.
 
-Choose further reading from the obstruction. Peirce's “The Fixation of Belief” examines how beliefs are settled and which inquiries permit experience to revise them. Dewey's *How We Think* begins with concrete perplexities and examines forming and testing possible explanations.[^peirce][^dewey] The promise analysis can also borrow from further work on concepts, counterexamples, and mutual adjustment of principles and cases.
-
-The benefit can be specific: two confused meanings become separable; one explanation gains a testable competitor. Each work has broader commitments; acquiring one method is a beginning. Redoing an inference with your own example and changing its conditions teaches more than remembering school names alone.
-
-Even after reaching an agreeable answer, change the case. Conceptual clarification can articulate disagreement without unifying values. Consequence assessment supplies information without automatically converting rights and promises into mutually offsetting quantities.
-
-Try “every voluntary exchange is fair.” If one party deliberately destroys the other's alternatives, is the remaining consent sufficient? The question reveals circumstances the word voluntary omitted. Willingness to reconsider determines whether the counterexample actually enters judgement.
-
-Working through this analysis does not establish the ability to read every inherited argument. Our promise was an explicitly described hypothesis. An older passage may respond to a problem absent from the page before us.
-
-#H2 Recover the Question Behind the Sentence
-“Deal with this promptly.” Every word is familiar; the recipient may still be at a loss. By the end of today, or by interrupting current work? Does dealing mean acknowledgement, a proposal, or completion? Which checks must not be skipped for speed?
-
-The speaker may assume a recent meeting supplied the context. A later recipient has only the instruction and must recover its question and constraints. Reading sometimes requires setting aside familiar usage to ask what the other person was addressing.
-
-This calls for understanding what someone knew, could choose, and was trying to answer, then reconstructing their inference. Empathy can include this ability. Reading an argument does not require sharing its author's feelings, but does require remembering that the author could not yet see the later events we know.
-
-Clark and Brennan's work on communication emphasises establishing and updating common ground through responses, confirmation, and repair.[^grounding] Written material can supply examples, definitions, and context. Without the author present, gaps may require other reading, practice, or discussion.
-
-How much context needs recovering depends on the material. A careful textbook can be clearer than hurried speech; face-to-face discussion permits immediate questions. Adequacy depends on recipients: can they find what is needed and check their interpretation?
-
-#FIG fig-15-context-reconstruction.svg|Figure 10.2　Investigating an author's meaning. Text and background support an interpretation, then questioning, comparison, or practice tests it. New material can require rewriting an apparently fluent reading. Drawn for this book.|Words and images preserve part of an author's work. Readers form provisional understanding through the text, background, and experience, then revise through inquiry, comparison, or action.
-
-The more smoothly reconstruction proceeds, the easier it is to forget its guesses.
-
-In a series of studies, Eyal, Steffel, and Epley compared imagining another's perspective with obtaining information from them. Perspective-taking instructions did not consistently improve accuracy about others' thoughts and feelings in the studied tasks; obtaining perspectives through conversation improved understanding in the relevant arrangement.[^perspective] More imagining need not mean more knowing.
-
-For “promptly,” propose readings, then check minutes or confirm a deadline. For an old text, examine surrounding passages, the author's usage, contemporary materials, and scholarship. Different objects need different inquiries. A reconstruction open to correction is less likely to be only a plausible story we have supplied.
-
-Across centuries or millennia, recovering context grows harder. Recognising symbols remains far from understanding them.
-
-The *Yijing* is a body of texts transmitted and interpreted over a long period. Each of its sixty-four hexagrams contains six lines, represented in two forms, yin and yang. Hexagram statements address the whole figure; line statements attach to individual lines. Later interpretation adds meanings to figures, positions, and wording. Knowing the combinations is only a beginning. Readers also need to understand how an interpreter uses them to judge a situation.
-
-The core statements and later texts called the “Ten Wings” formed in different periods amid long histories of divination and interpretation. Dating and formation remain subjects of scholarship.[^yijing] A reader must distinguish textual layers, periods, and interpreters.
-
-Beginners can learn one textually supported interpretation, then compare others. For which question is a hexagram invoked? Which words support the reasoning? Which assumptions has the interpreter added? This checks reading. Claims of predictive divination require evidence distinguishing success from failure; textual fluency cannot perform that test.
-
-Other readers bring developed methods and find new correspondences in old figures. Leibniz's encounter with hexagram diagrams provides an example.
-
-After developing binary arithmetic, Leibniz corresponded with the Jesuit Joachim Bouvet in Beijing. Bouvet's diagram offered an appealing correspondence: two kinds of line mapped to 0 and 1, with suitable ordering and reading, produce six-bit numbers. Leibniz discussed the Chinese figures in his 1703 paper on binary arithmetic.[^leibniz]
-
-The mathematics is directly checkable: two choices in each of six positions yield sixty-four combinations. Leibniz found a way to understand the diagrams through his mathematics. The arrangement he saw, however, belonged to the tradition of the Song thinker Shao Yong. Earlier users' understanding still requires texts and historical evidence.
-
-Mathematical correspondence and historical reconstruction must be distinguished. A new mapping may help mathematics; claims to recover ancient arithmetic require historical support. Clear symbol rules also leave much to learn about meanings in ritual, communities, and ordinary life.
-
-Present-day readers may also use the *Yijing* for current problems. These uses need explanation so they are not mistaken for the original text's claims.
-
-This book borrows yin and yang in a narrowly specified contemporary way: when facing a one-sided judgement, investigate overlooked complementary conditions, costs, counterweights, and transitions. This is a questioning exercise, not a summary of all historical uses.
-
-Suppose a project has produced no result for a long time. Continue or abandon seems to demand one answer. First examine accumulated abilities and evidence, displaced alternatives, and resources approaching their limits. These allow comparison among another attempt, a changed method, and termination.
-
-If new vocabulary leaves us merely knowing that we want to continue, without new reasons or checkable differences, the borrowing has not helped. Usefulness depends on what becomes visible and examinable. An ancient name cannot guarantee the effect.
-
-#H2 The Past Inside a Filename
-CON has only three letters, yet ordinary Windows naming rules do not allow it as an ordinary filename. Alongside PRN and NUL, it is reserved for devices. Adding an extension need not make it ordinary.
-
-Microsoft engineer Raymond Chen has traced these names to DOS-era uses. Tools could handle devices much like files, and special names had to survive practices such as automatically appending extensions. Later path and directory capabilities still had to accommodate earlier programs' expectations.[^con]
-
-Present restrictions must be checked against the particular interface, namespace, and version. History identifies dependencies to investigate; current documentation and tests establish present behaviour.
-
-This name's use is documented. Other origin stories can be plausible without adequate evidence. The everyday keyboard provides an example.
-
-Why does its first row begin QWERTY? A familiar answer says early typewriters deliberately slowed typists to prevent jamming. It is memorable, joining today's layout to yesterday's mechanics.
-
-Koichi and Motoko Yasuoka questioned that popular version through early records. Tracing layout changes and users' needs, they argued that difficulties faced by telegraph operators transcribing Morse code provide important clues.[^qwerty] This is an evidence-based interpretation, not a claim that every detail is settled.
-
-The story lets us examine our acceptance of explanations. Deliberate slowing to prevent jams connects purpose, procedure, and outcome smoothly. Establishing it as the actual design rationale requires evidence of decisions and changes. An attractive replacement story needs the same scrutiny.
-
-Evidence also lets us trace how choices persisted. An initially convenient arrangement can create difficulties after many people become dependent on it.
-
-Some early computer systems stored only two year digits: 1999 as 99. Saving two characters per entry had value when storage was expensive and records numerous. The next century inherited a difficulty: did 00 mean 1900 or 2000?
-
-Comparing dates and calculating ages, interest, or deadlines brought missing century information into computation. Encoding, operations, and assumptions of systems exchanging data all needed investigation.
-
-In the late 1990s, governments and businesses invested in inventories, repairs, tests, and contingencies. The anticipated widespread catastrophe did not generally occur at the millennium.[^y2k] Evaluating preparation requires examining faults found, risks removed, and proportionality of costs. A largely uneventful transition alone cannot reveal what would have happened without repairs or distinguish each measure's effect.
-
-Two-digit years preserve an understandable earlier choice and dependencies that outlived expectations. History directs inspection. An original reason need not justify perpetual preservation.
-
-An obscure rule may once have solved a vanished problem. That is a starting hypothesis, not established history.
-
-Asking only what would make a reasonable person do this invites substituting imagined rationales for actual origins. Causes can include mistakes, unequal power, accidental persistence, or incompatible revisions. Historical inquiry distinguishes them through surviving material, not narrative smoothness.
-
-An old comment may preserve a reason or be outdated. Current behaviour needs current documentation and tests. Even when the original rationale disappears, new dependencies may form. Removing the restriction now requires another investigation.
-
-A rule may persist through continuing function, switching costs, vested interests, or lack of authority to change it. History separates possibilities; retention today requires present evidence and costs.
-
-A bridge clarifies the distinction. Why designers chose a safety factor or a standard required a test calls for examining aims, known risks, and contemporary technology. How a bridge deforms under a load requires mechanics and testing. Design history may expose omitted conditions without changing the forces themselves.
-
-Formation and properties answer different questions while supplying mutual clues. History helps explain the forms of programs, processes, interfaces, and classifications. Calculating capacity or proving algorithmic limits needs corresponding properties and inferences. When records cannot establish origins in time, uncertainty should be stated and present tests used to support decisions.
-
-Where inquiry begins depends on the difficulty. Asking the essence of filenames may not explain CON; asking its earlier use identifies a compatibility issue. For a bridge's force calculation, history cannot replace the necessary data.
-
-#H2 Learning from Aircraft to Examine Another Dataset
-What counts as learning Chapter 8's aircraft example? “Notice what is invisible” may leave another dataset unapproachable. More exact questions help: what determines whether a case enters the data, and could excluded cases change the answer we seek?
-
-Apply these to course reviews. If all responses come from completers, investigate who withdrew and why. Difficulty, lack of time, and changed interests mean different things for assessment. Completers alone cannot establish effects on all who enrolled.
-
-Both cases permit examining selection and its relationship to the research question. Aircraft losses and course withdrawals have different causes, so an instruction such as reinforcing less-damaged areas cannot simply transfer. Information about dropouts requires a design appropriate to learning.
-
-This is the detail borrowing must retain. Remember only aircraft, holes, and war, and the example seems confined to the military. Retain only “don't ignore unknowns,” and it cannot guide inquiry. Explaining how selection shapes records identifies whom to seek for comparison.
-
-If changed questions, evidence, and conditions always let the same method support our favourite conclusion, ask whether any result could change our view. Without one, the method may merely provide reasons for preference.
-
-Disagreement while reading can teach us more. Finding where an analogy fails reveals a missed distinction. A valid example stating only what we already know may add little ability.
-
-Accumulated methods can cross disciplines while preserving their distinct tasks. Proof, historical inquiry, shared practice, and counterexamples supply different things. Choosing among them teaches us to explain why this problem calls for this method.
-
-Earlier methods can carry us far. Reaching places their makers never visited may make revision our responsibility.
+Purpose gives differences their weight and success its criteria. Yet comfort, accurate prediction, and fair treatment remain different gains. If all are called 'useful', those distinctions still need to be made clear.

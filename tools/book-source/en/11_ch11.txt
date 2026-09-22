@@ -1,82 +1,124 @@
-#H1 11 — Limits: Thinking Has a Cost Too
-In the preface, the ground cleared Eagle to continue descending. That brief reply arrived through a chain of work: understanding the alarm, assessing the state, and transmitting a judgement.
+#H1 11 — Usefulness: What Understanding Enables Us to Do
+The year is ending and darkness is approaching, but the little match girl is still outside. In Andersen's story, snow falls, windows glow, and the smell of roast goose fills the street. She walks barefoot. Her oversized slippers were lost while she dodged carriages. Nobody has bought her matches or given her a coin all day.
 
-Software specialist Jack Garman supplied guidance; guidance officer Steve Bales assessed the situation; Charles Duke relayed it to the astronauts. The ground continued monitoring essential data and checking recurrent alarms.[^apollo] Training, software design, and divided responsibilities let work proceed in time that one person could not have completed alone.
+She fears going home without money because her father will beat her. Home is cold too, with wind entering through the roof. She curls into a corner between two houses, hands numb. Perhaps one match could warm them.
 
-After landing, engineers could investigate the added load. Participant Fred Martin recalled examining software, using simulation equipment, and comparing telemetry with procedures, tracing the extra workload to the rendezvous radar. One landing had succeeded; the next flight still needed the inquiry.
+It flares. Holding out her hands, she seems to sit before a large iron stove. Warmth reaches her body; she stretches out her feet, but the match dies. The stove disappears. A burnt matchstick remains.
 
-Clearance to continue committed to much less than a complete explanation of the fault. It relied on the alarm type, overload handling, and essential guidance still functioning. Later questions mattered during descent too, but the craft could not wait for all their answers.
+She strikes another. In its light the wall turns thin as gauze, revealing a laid table and a steaming goose. The goose jumps down and approaches with knife and fork in its body. The flame goes out, leaving the thick, cold, damp wall.
 
-Everyday understanding needs such allocation of time. Conversation demands responses before every motive is analysed. Even an evening afterwards cannot accommodate foundational research on every concept before we allow ourselves a next step.
+The third match places her beneath a splendid Christmas tree. Its branches carry many lights. She reaches towards them, and the match dies again. The lights rise into stars; one falls, trailing brightness. She remembers her grandmother saying that a falling star means a soul is going to God. The grandmother who loved her is dead.
 
-Analysis can become endless when every worthwhile question becomes a prerequisite for action.
+With the next flame, her grandmother appears. The girl begs to be taken away. She knows the stove, goose, and tree vanished when their flames died. This time she will not let her grandmother disappear. She hastily lights the whole bundle to keep her there.
 
-Reasoning from first principles can unpack assumptions and locate more basic conditions when an old framework fails. It need not reach an assumption-free origin. Concepts, inference rules, observations, and provisionally accepted knowledge remain in use.
+Her grandmother lifts her, and together they rise where there is no cold, hunger, or sorrow, to be with God.
 
-Questioning already consumes time. Planning next week's language practice does not require resolving the nature of language, the complete neuroscience of learning, and education's ultimate purpose. These deserve study without necessarily being answered before practice begins.
+The next morning people find the girl frozen to death against the wall, spent matches beside her. They think she had tried to warm herself. They do not know what she saw in the light.[^andersen]
 
-If a checked method fits the circumstances reasonably well, using it is usually more feasible than rebuilding all its grounds alone. Anomalies, clearly different conditions, or a premise touching your central doubt can focus investigation on a particular point.
+The ending holds comfort within the flame and cold outside it. From which side should we begin to judge an experience's usefulness?
 
-Pursuing basic conditions should help identify a problematic assumption. If each layer adds another thing that must be fully understood before starting, next week's practice may never be scheduled. Ask which answer would actually alter the arrangement.
+#H2 What Does Feeling Helped Establish?
+Suppose a personality report says, “You care what others think of you, but sometimes wish you were less influenced by them.” It may touch a current concern. Does its apparent accuracy establish that the test distinguished you from other people?
 
-Immediate action, later review, and long-term learning can connect without all occurring at once.
+Bertram Forer asked students to complete a test, then gave them descriptions apparently derived from their answers. They rated how well the descriptions fitted. Ratings were generally high.
 
-#FIG fig-06-thinking-times.svg|Figure 11.1　Immediate action, later analysis, and long-term learning support one another. Lines are not proportional to duration and prescribe no uniform timetable. Drawn for this book.|Present action uses available ability; later review examines results and adjustments; long-term learning changes abilities available next time.
+Everyone had received the same text. In his 1949 paper, Forer called the exercise a classroom demonstration. It challenged the use of agreement to validate a diagnostic instrument. If one description makes many people feel individually recognised, that feeling does not establish discrimination among individuals.[^forer]
 
-High risk does not always permit slow thought. Some urgent, dangerous situations require trained rapid responses. Relevant questions concern available reliable abilities and information, the costs of delay, and conditions that can be improved beforehand.
+A sentence can apply to one person and most of the class. To assess discrimination, different people's results must be compared. Asking each reader whether it sounds like them cannot establish that ability.
 
-#H2 Half the Problem Is in the Environment
-Herbert Simon's research on organisational decisions developed bounded rationality. Actual people cannot obtain all information, list every option, and compute the best answer at no cost. Decisions occur within limits of time, knowledge, and ability. Explanation cannot omit them.[^simon]
+This does not deprive feelings of evidential value. Forer investigated discrimination. If the question concerns pain or discomfort, how a person feels and how that changes become indispensable evidence.
 
-One strategy, satisficing, establishes acceptable requirements and stops at an option meeting them instead of surveying every possibility. A feasible arrangement may need to be affordable and fit the available time. Requirements too low miss worthwhile improvements; too high may produce endless searching. They can also be revised as information arrives.
+A placebo usually suggests a patient unaware that a treatment contains no active drug. In 2010, Ted Kaptchuk and colleagues investigated another situation: could effects occur when participants were told?
 
-Simon compared rational behaviour to scissors: one blade is the task environment, the other the actor's capacities. Either alone cannot explain the work. Stable signals may support a simple rule; changing signals or serious error costs may render it unsuitable.
+The study concerned irritable bowel syndrome, involving problems such as abdominal pain and changed bowel habits. One group knowingly took placebos with a positive treatment explanation. Another received comparable clinical interaction without that treatment. Over three weeks, the placebo group improved more on some self-reported symptom measures.[^placebo]
 
-The same person gains options with clear records, learned methods, and access to knowledgeable people. The person is unchanged; available conditions alter the judgements they can make.
+The intervention combined explanation and a pill-taking arrangement, with improvement chiefly measured through reported symptoms. Participants knew their allocation; expectations and reporting could influence assessment. Observed improvement therefore opened another question: which elements of the arrangement produced the differences?
 
-#H2 Do Not Keep Every Problem Inside Your Head
-Aristotle distinguishes deliberation about what action can change and whose outcome remains uncertain from matters eternal or wholly beyond our agency.[^aristotle] We can further distinguish conditions unchangeable now from those alterable over time. This book uses that distinction for a practical analysis.
+#H2 Why Do Planets Move Backwards?
+Beyond subjective feeling lies a firmer success: predicting something previously unknown and repeatedly matching later observations. There are grounds for belief, but which part should we believe? Astronomers long used a system that predicted planetary positions, while its account of celestial motion was later substantially rewritten.
 
-Imagine three circles. The innermost contains present decisions. The middle contains conditions alterable through cooperation, institutions, or long learning. The outermost contains what must presently be acknowledged, monitored, or borne. Boundaries move. Collective organisation may bring policy into the middle circle; disaster may move a schedule beyond present control.
+Record a planet's position against background stars over many nights and it does not always move in one direction. Sometimes it appears to stop, reverse, and resume. This apparent reversal is retrograde motion. Ancient astronomy needed both to explain it and calculate its return.
 
-Drawing boundaries does not make outer matters unimportant. It specifies what this analysis can do: decide, seek help, record, or commit to later action. Requiring every question resolved before acting can turn thought into avoidance. Looking only inward can also mistake collectively alterable conditions for immutable facts.
+In the second century CE, Ptolemy of Alexandria organised a geocentric system in the *Almagest*. One device was an epicycle: a planet moved on a small circle whose centre moved on a larger circle. Seen from Earth, the combined movements could trace an advance and retreat. The complete model used further geometrical arrangements to fit different observations.
 
-Reasons for stopping need review too. Is further information unlikely to change action, or is the result uncomfortable? Has time actually run out, or have only certain people's time costs been counted? We can state what is known, what remains missing, why action proceeds now, and what would reopen analysis.
+This tradition and its revisions long supported planetary calculations and preserved extensive observations and techniques. Later explanations could be compared partly because those records survived.
 
-#H2 Completing a Limited Inquiry
-Suppose you must decide whether to change next week's learning routine. You read extensively every evening but feel little becomes usable. Tonight you have forty minutes to examine the problem.
+Including Earth among the bodies orbiting the Sun offers another explanation. Earth and an outer planet both advance, continually changing relative position. As Earth overtakes the outer planet on the inner track, our line of sight shifts backwards against the stars. Apparent reversal can result from relative motion.
 
-At the end, there should be an arrangement to try next week. Why you have learned this way may involve years of habit, not fully understood in forty minutes.
+Copernicus's 1543 work proposed a heliocentric arrangement while retaining circular motion, with accuracy still needing improvement. Kepler later combined Tycho's observations with relationships including elliptical orbits and tested them through new tables and observations. Explanations of motion and improvements in prediction developed through different stages.[^astronomy]
 
-Material may be too difficult; reading may exceed application; or learning may already have occurred without being checked. These explanations imply different next steps and are worth distinguishing.
+The old calculations' achievements did not vanish. They left useful predictions alongside an account of motion awaiting revision. New work inherited both successes and errors: which calculations should remain, which assumptions needed checking, and which phenomena remained unexplained?
 
-Choose a recent concept, close the material, explain it, and try a new example. Inability to explain suggests reviewing the material or prerequisites. Explanation without application indicates a need for practice. You may also discover more ability than expected.
+#H2 Use Is Not Confined to the Finished Result
+A question being answerable does not make it the first question to investigate. Time is limited; equally reliable information can play different roles in a decision.
 
-If you can explain but cannot handle changed conditions, keep half the reading time and use the rest for varied examples next week. This addresses the revealed gap. If basic understanding was missing instead, the priority would be foundations, not the same timetable.
+An engineer handling a fault may first check recently changed settings, when the error occurs, and operations that reproduce it. Every detail might merit study, but with half an hour remaining, information most likely to change the response should come first.
 
-After a week, check with new tasks of comparable difficulty. Continued difficulty calls for reviewing examples, feedback, and prior knowledge. Improvement gives reason to consider continuing. The arrangement now specifies both an action and a way to choose what follows. A week's learning will test its usefulness.
+If that person instead makes astronomy a vocation, questions irrelevant to the fault may deserve a lifetime. Uses span different timescales. The next half-hour cannot judge them all.
 
-Other questions can be recorded: unclear long-term goals, scattered materials, or work fragmenting study time. Not solving them tonight does not make them unimportant. They can have time elsewhere without blocking everything now.
+Truth can be pursued for several reasons, as can other activities. Comfort alone also misses painful experiences people willingly undertake.
 
-Further checking generally has grounds if it is likely to alter an important decision or prevent a substantial loss. A secondary detail whose possible answers leave feasible choices unchanged may not warrant extensive work.
+Attending a funeral may offer comfort, but it can also acknowledge a relationship, remember someone with others, or fulfil a farewell one chooses to bear. Undiminished grief does not make attendance meaningless.
 
-Changing a decision is not the whole value of information. Some information improves execution of the same choice. Some exploration builds capacity for recurring future problems without changing today's decision. These benefits count too.
+Consider a hypothetical survey asking how much money you would pay to protect an endangered species. Someone may refuse a number because they believe the species' continued existence should not depend solely on human willingness to pay.
 
-Against them stand time, money, attention, and delay. The cost of reaching a better decision belongs within its evaluation.
+Recording every refusal as zero would turn opposition to pricing into indifference. The survey needs room for reasons. Conservation still faces scarce resources and allocation decisions. Before those decisions, however, we need to understand what people value.
 
-Including these resources connects with bounded and resource rationality. Falk Lieder and Thomas Griffiths's resource-rational analysis studies cognitive strategies' effectiveness and costs under limited computation.[^resource] It offers a relevant direction: evaluate the means of obtaining an answer alongside the answer itself.
+Reading fiction can bring pleasure in language, concern for characters, or renewed feeling for a difficult experience. Without accepting every inference, readers may find comfort or notice something long avoided. A novel need not teach a transferable technique to deserve reading.
 
-Calculating whether more thought is worthwhile can provoke another calculation of whether that calculation is worthwhile. Requiring complete higher-level assurance merely extends endless analysis upwards.
+The same activity can make factual promises. A novel offered as precise history needs historical checking. A ritual sold with a guarantee of cure requires evidence of that effect. Their existing meanings do not discharge additional factual commitments.
 
-Work must begin with provisional arrangements: proportionate time budgets, attention to consequential differences, and limited opportunities to review. Evidence of poor allocation can justify changes without reproving an entire philosophy before each task.
+Using an example to support a decision adds another responsibility. As Chapter 3 discussed, a project succeeding after many years does not alone establish that ours should continue. The story's encouragement remains real. But we must spend the next year ourselves, so the reasons must return to our circumstances.
 
-Repeatedly circling the same reasons may warrant stopping to gather evidence, try something, or ask someone. A cheap, reliable check on a crucial uncertainty may warrant continuing. The next step's potential contribution matters.
+#H2 Useful to Whom, at Whose Expense?
+Some inadequately supported beliefs provide hope and encourage care. We can acknowledge these benefits while suspending judgement on their account of the world.
 
-Inquiry without immediate output deserves time too. Philosophical questions need not all enter tomorrow's task list. Clarify whether this is a deadline-bound decision or an invitation to let a question slowly change you. Confusing the two can leave decisions stalled and thought perpetually hurried.
+At a funeral, relatives remember someone and express the value of a relationship. These actions have understandable reasons. If someone also believes the deceased is at peace in another world, others can respect that consolation without claiming to have confirmed the world's existence.
 
-#H2 A Choice That Cannot Be Lived Twice
-Next week's study schedule can change again. Some choices cannot be fully reversed. After accepting a job, you can check promised duties, but cannot simultaneously live the life in which you declined. That outcome is unavailable for later reading.
+Using that belief to make major decisions for others demands stronger grounds. Claims about treatment, finances, or safety involve checkable effects and risks borne by other people. Personal certainty and comfort cannot alone provide the required evidence.
 
-Success does not prove alternatives would have been worse; difficulty does not by itself prove the original choice careless. We can investigate failed expectations, inaccurate information, and worthwhile checks omitted at the time. Asking about hours, consulting shared caregivers, and examining duties brings us closer than repeatedly comparing job titles mentally.
+Religion commonly includes accounts of cosmic origins, rituals, communal norms, ethical practice, and identity. Without identifying the claim under discussion, participants may say much while answering different questions.
 
-Preparation supplies firmer grounds. A choice remains. As Eagle descended, the ground continued receiving data. Some answers become investigable only after events move forward.
+Criticising an origin account's evidence need not deny the value of believers' mutual care. Acknowledging communal support does not establish the account's historical truth. Distinguishing claims avoids having to pronounce judgement on an entire tradition at once.
+
+Science likewise includes measurement, modelling, collective scrutiny, and technological application. Its achievements help explain how reliable knowledge is obtained. What to pursue and which costs to accept require discussion of values and responsibility, informed by relevant facts.
+
+Lived reasons are rarely so neatly separated. A community's cosmic beliefs may be what motivate mutual care. A scientific inquiry may attract support because people already value the life it could change. Analysis separates reasons; a person losing certainty may also lose friends and direction.
+
+When a practice leaves its community for another setting, these relationships change. It encounters questions not previously posed in the same way.
+
+The Buddhist Four Noble Truths concern suffering, its origin, its cessation, and a path to cessation. They orient practitioners towards recognising a predicament, understanding its formation, and practising. Bringing some exercises into a modern hospital requires distinguishing religious purposes from clinical questions.
+
+In 1979, Jon Kabat-Zinn began a stress-reduction clinic at the University of Massachusetts Medical Center, bringing breathing, bodily awareness, and attention to present experience into a clinical programme. This became known as mindfulness-based stress reduction. In hospital, exercises face specific questions: which problems they help, compared with what, for how long, and for whom they may be unsuitable.[^mindfulness]
+
+Clinical comparisons need not require acceptance of a whole religious cosmology. How exercises were selected and adapted, and whether earlier ethical requirements remain, are further questions about this transfer. Kabat-Zinn's explanations also address attitudes and background.
+
+Suppose a company offers attention exercises to help employees with stress. They may learn useful methods; the company still needs to examine workload, burdensome procedures, and who can change them. Attributing every discomfort to insufficient practice can leave remediable burdens intact.
+
+Who benefits and for how long cannot now be omitted. An explanation may reassure someone today while sustaining unreasonable work. A simple category saves an administrator minutes while a misclassified person spends days appealing. Chapter 13 examines how institutions make certain achievements particularly visible.
+
+#H2 Usefulness Is Not Another Name for Truth
+Centring usefulness invites two misunderstandings: that a comforting belief counts as true, or that concern with use dispenses with facts. Comfort, truth, and usefulness become confused.
+
+William James's pragmatism examines how ideas acquire meaning in experience and how truth operates through verification and life. It is often reduced to “whatever works is true,” as though immediate effectiveness could confer truth by itself. His writing is more demanding: ideas enter experiential relationships and face existing facts and further experience.[^james]
+
+This book separates two tasks. For factual statements, we investigate whether the asserted situation obtains. For an understanding, we ask whose abilities it increases and under which conditions. We can then evaluate uses without awaiting a final theory of truth, and avoid substituting achievement in one respect for grounds needed in another.
+
+A map with the wrong exit usually fails as a guide; here truth contributes to usefulness. A perfectly accurate geological map still cannot plan an accessible rail transfer. The traveller needs relevant information and a readable representation. Conversely, a false statement may briefly comfort someone while depriving them of reality-based choice. Immediate emotion omits the cost to later decisions.
+
+Judging usefulness therefore requires at least five specifications: for whom, for what purpose, under which conditions, for how long, and at what cost. Another question follows: does the capacity undermine future error checking? A lie maintained by excluding evidence consumes future understanding. Efficiency achieved by transferring difficulty to people without a voice presents local gains as collective gains.
+
+A locally effective method may still be unworthy of adoption. Successful manipulation does have that function; harm to its victims provides grounds for opposition without requiring us to deny its effectiveness. A second-order framework must distinguish function, costs, and reasons for adoption, rather than silently making usefulness settle every value judgement.
+
+Truth matters without monopolising evaluation. Ethical legitimacy, aesthetic value, and respect in relationships each call for their own reasons; none needs to masquerade as a factual proposition. The framework places these standards in their roles and examines how they support or obstruct an ability together.
+
+#H2 How Truth Reaches a Person
+Truth sometimes arrives first as pain. Learning that a relationship has ended or a long project has failed does not immediately bring relief. Yet subsequent choices may require knowing.
+
+Delivery differs too. Someone may have time to understand, ask, and receive help with consequences, or be forced to respond publicly at once. The same news can reach a person through very different treatment.
+
+Sometimes we genuinely do not know how much they can bear now. Fear of their pain may express care, but may also keep us deciding what they are allowed to know. They need support and have choices of their own. Their needed support may differ from what we imagined.
+
+When the girl lights her bundle, the story lets her keep her grandmother. Knowing what morning brings, the reader also feels the cold that comfort cannot remove.
+
+Comfort, prediction, understanding, and cooperation offer different abilities. Identifying the use is not the end: how much time remains to acquire this ability, and how much checking can we afford? Sometimes the hardest step is to stop analysing before understanding is complete.

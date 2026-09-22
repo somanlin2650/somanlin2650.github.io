@@ -1,6 +1,6 @@
-#PART Part One|Above the Answer|Before seeking better answers, we examine how an answer takes shape through observation, other people's knowledge, and purpose.
+#PART Part One|Understanding as a Series of Transformations|How is an answer formed, and how does it connect to another? We begin with Hans's hoofbeats, then unfold the framework as a whole.
 
-#H1 1 — How an Answer Is Made
+#H1 1 — From Material to Judgement
 In early twentieth-century Berlin, a horse named Hans attracted crowds by answering arithmetic questions. His owner, Wilhelm von Osten, had been a teacher and believed that animals could be educated. The owner posed a question; Hans tapped a forehoof. The spectators counted, and when the taps reached the required number, he stopped. Again and again, the taps matched the answer.
 
 Was the owner secretly signalling? That was an obvious suspicion. Yet Hans could still answer correctly when the owner was sent away and someone else asked the questions. If deliberate cheating by the owner explained the performance, how were these results to be understood?
@@ -27,7 +27,7 @@ Look closely, and even “he hasn't replied” involves interpretation. We must 
 
 Kant placed this difficulty at the centre of his inquiry. In the *Critique of Pure Reason*, published in 1781, he argued that experience is organised through forms of sensibility and categories of understanding. We cannot strip away all these conditions of knowing and then compare experience with a world presented entirely without them. He also sought to explain how these shared conditions make certain kinds of necessary knowledge possible. Space, time, causality, and geometry play distinct roles in that account.[^kant]
 
-If knowing cannot be separated from human capacities and methods, on what grounds can we judge one account more reliable than another? The geometry in Chapter 7 will bring new difficulties to one kind of knowledge Kant relied on.
+If knowing cannot be separated from human capacities and methods, on what grounds can we judge one account more reliable than another? The geometry in Chapter 5 will bring new difficulties to one kind of knowledge Kant relied on.
 
 For now, we can return to a comparison we can actually make. To check whether someone interrupted a speaker, replayable video usually offers more detail than “he had a bad attitude.” We can count interruptions, hear the surrounding sentences, and identify where our recollections differ. Video still has limits of framing and sound, but these can be investigated individually.
 
@@ -58,4 +58,4 @@ Whether this examination can help elsewhere is the question the book now pursues
 
 A second-order framework addresses relationships among these frameworks. Where does a method hold? What must survive a move to another setting? Where should we return when results depart from expectations? Answers should identify work we can do. If “moving up a level” changes nothing about how we investigate or act, it is merely another expression.
 
-Counting hoofbeats alone could not produce this change of question. The researcher needed a different test, and a record others could examine. By this point, the work of understanding had already outgrown what any one person could see.
+Counting hoofbeats alone could not bring about this change of question. The researcher changed the tests and left records that others could check. How material is recorded, how records support explanations, and how explanations are tested against new results already form a connected sequence here. The next chapter brings these relations together to ask whether they can carry us into other problems.

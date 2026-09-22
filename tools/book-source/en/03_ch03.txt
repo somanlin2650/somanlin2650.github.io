@@ -1,77 +1,105 @@
-#H1 3 — Purpose Has Already Marked Out the World
-In *Alice's Adventures in Wonderland*, a peculiar race takes place. Alice and a group of animals have just climbed out of a pool of tears, soaking wet. To get everyone dry, the Dodo proposes a race.
+#PART Part Two|What Is Preserved, What Is Omitted|A representation makes certain tasks possible and determines which differences disappear. Whether a method can be borrowed depends on whether the relations needed for its new use survive the transformation.
 
-The course is roughly circular; its exact shape does not matter. There is no starting signal. Participants begin and stop whenever they please. Eventually the Dodo declares the race over, and everyone gathers to ask who has won.
+#H1 3 — Representation: Giving the World a Form We Can Work With
+Both maps below show London's Underground. Look first at the centre, then follow a line towards the outskirts. Their different ways of drawing will become apparent.
 
-After much thought, he decides that everyone has won and everyone must receive a prize. Who will provide them? He points to Alice. She shares the sweets in her pocket, just enough for one each. But she needs a prize too, so she produces a thimble she already owns. The Dodo solemnly presents it back to her amid cheers. Alice thinks it absurd, but accepts.[^alice]
+#FIG2 fig-02-london-1908.jpg|The 1908 London Underground map overlays routes on streets and a geographical base, crowding station names in the centre.|1908: still close to the geographical map|fig-03-london-1933.jpg|Beck's 1933 London Underground map uses regular line segments and interchange circles, rearranging distances between stations.|1933: Beck's diagram|Figure 3.1　Historical maps from different years. Left: the 1908 map, identified as public domain in its file record. Right: the second edition of Beck's 1933 map. Image credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, CC BY-NC-SA 3.0. The network itself also changed between these dates.[^map1908][^map1933]
 
-Everyone did get dry. For that purpose the arrangement worked. But if Alice asks why all the prizes must come from her, dry feathers cannot answer.
+On the left, railway lines remain attached to a city of recognisable streets, riverbanks, and parks. Suburban distances stretch the lines while names and bends crowd the centre. On the right, station connections remain, but regular directions create room for labels. Geographical distances and bearings give way to relationships passengers need to recognise.
 
-The race's effectiveness in drying bodies and the fairness of distributing prizes are different matters. Everyday evaluations often mix them too. An exam score may help a teacher assess readiness for the next course. Using it to decide who deserves respect requires another argument. Accurate calculation does not make that use reasonable.
+When Harry Beck proposed his design in 1931, the publicity department rejected it. Could a map so distant from geography guide passengers? In 1933 it finally appeared as a pocket folder, and demand led to further printings.[^beck]
 
-The difference is visible in a park. Before a survey begins, someone must choose the concern: summer shade, maintenance costs, or wheelchair access. Purpose determines what equipment surveyors carry, where they stop, and when they return. Expertise partly consists in recognising the differences this work needs to notice.
+Passengers mainly need the line to take, the order of stations, and places to change. Beck spread the crowded centre and compressed suburban gaps, making names and interchanges easier to identify. Distances ceased to follow geographical scale; connections and station order still had to be accurate.
 
-Once a use is specified, investigation remains constrained by facts. Slopes must be measured, shade observed at relevant hours, maintenance costs established rather than filled in by preference. Different concerns call for different inquiries. When we are answering the same question, we can still compare which measurements are more reliable.
+Ask how long it takes to walk between two stations, and the spacing on the right is insufficient. A new purpose requires information to be restored. What spared trouble on a train may leave a walker short of information.
 
-Trade-offs emerge when managers allocate limited space and money. Preserving more trees, widening accessible paths, and lowering costs may not all be maximised together. However precise the slope measurements, they cannot decide whose inconvenience should increase.
+A first-time visitor may not yet understand the colours or interchange symbols. A key must explain them, and station names help confirm direction. A familiar traveller's instantly legible map is not equally simple for everyone. Track-maintenance engineers need actual locations and equipment details the pocket map does not provide.
 
-Giving shade, access, and cost a weight and adding them into a score seems to establish a ranking. Whoever sets the weights, however, participates in ordering needs. Arithmetic can be exact while those choices still require explanation to affected people. Incorrect slope measurements should also be corrected. Measurement accuracy and the allocation of a budget are distinct disputes.
+How much a map should explain begins with its readers. Removing the key may clean up the page while sending novices in search of someone who can explain it. Concise explanation reduces irrelevant work while preserving what the present task requires.
 
-Knowing who needs a map helps us recognise which omissions matter. A running map without rest facilities may suffice for planning distance. Used to guide wheelchair users, it must identify stairs along the way. A strong criticism shows how an omission obstructs the task the map claims to support.
+An electronic map can show a route first, then reveal exits and walking information on demand. Paper can separate the main map, key, and supplementary pages. Information need not all be read at once, yet remains available when needed. That is one use of layers.
 
-#H2 Which Differences Are Worth Keeping?
-Organising information sets many details aside. Financial statements do not record every office conversation; route maps omit windows. Whether a detail belongs depends on its effect on the judgement users need to make.
+#H2 Compare the Same Network First
+Twenty-five years separate the historical maps, and routes changed too. To distinguish network changes from the benefits of drawing, we must hold connections fixed. The diagram below therefore invents a one-way network of eight locations. A through H, arrow directions, and connections are identical; only the coordinates differ.
 
-A model preserves selected features and their relationships. A cup described by capacity, material, and heat resistance can be assessed for hot drinks. Shipping it makes weight, dimensions, and fragility more important. Compare four purposes:
+#FIG fig-04-same-network.svg|Figure 3.2　Two drawings of the same connections. This hypothetical network was made for the book; it is not London's railway. The right-hand drawing groups locations by minimum steps: A; B and C; D and E; F and G; H.|The same directed network from A to H, arranged by hypothetical positions on the left and in five distance layers from A on the right. Arrows and reachability are unchanged.
 
-#TAB
-Purpose|Keep|Temporarily set aside|Possible mistake
-Drinking|Capacity, heat resistance, safety|Exact shape|Ignoring heat resistance
-Shipping|Dimensions, weight, fragility|Grip and feel|Ignoring breakage
-Design|Proportion, feel, manufacture|Some shipping details|Letting appearance displace use
-Forensics|Residue, fingerprints, sequence of events|Suitability for drinking|Destroying evidence
-#ENDTAB
+What is the fewest steps from A to H? Each arrow counts as one step and can only be followed in its direction. Following an arbitrary route to the end on the left may find just one possibility. Others must still be compared. The right follows another search order: list every location reachable in one step, then two, and continue outwards. If a location reappears, its earlier route took no more steps, so work from that point need not be repeated.
 
-The same cup asks different things of different people. Heat resistance does not tell a shipper the required box size. Someone collecting fingerprints may need to work before anyone washes it. Purpose affects what must be preserved from the start.
+From A, one step reaches B and C; two reach D and E; three reach F and G. H first appears at step four. Every location reachable in fewer than four steps has already been listed, and H is absent. The search establishes why four is minimal by excluding shorter routes.
 
-#H2 What Is the Task Meant to Achieve?
-A task often serves a purpose not yet stated. A customer-service department may shorten calls to reduce the wait for an answer. If employees quickly transfer complicated cases elsewhere, call figures improve while customers queue repeatedly and retell their problems. Service has not necessarily improved.
+This is breadth-first search. Its order supplies a reason for the answer's minimality. On larger networks, recording visited locations and distances avoids repeatedly trying whole routes. Learning an established algorithm saves this repeated exploration.
 
-After a call ends, the customer may join another queue. The department's record ends at hang-up; the customer's problem does not. We must follow what happens afterwards to discover whether service improved.
+Now suppose some connections take one minute and others ten, and we want the fastest journey. Steps no longer equal time. Three ten-minute connections can be slower than five one-minute connections. Breadth-first search still finds the fewest steps. Minimising time requires incorporating each connection's duration and using a method suited to unequal costs.
 
-A longer view exposes conflicts among purposes. A project may skip maintenance to launch on schedule; a department may defer problems until next quarter to meet this quarter's target. Immediate progress has value, but postponed costs belong in the assessment.
+#H2 A Different Notation Changes the Calculation
+The zero in 105 seems to represent nothing, yet preserves the places of units and hundreds. In 15 the two nonzero digits remain, but the quantity has changed. Positional notation gives symbols different values according to place and lets arithmetic proceed through those places.
 
-#H2 Abstraction Has More Than One Direction
-Calling a cup a container attends to its ability to hold things. Calling it fragile attends to collision risk. Each classification selects for a use; neither must rank above the other.
+Write twenty-three times fourteen as 23 × 14. Split fourteen into ten and four: two hundred and thirty plus ninety-two gives three hundred and twenty-two. In written multiplication, intermediate results remain on paper rather than all being held in memory.
 
-Numerical records select too. A performance score counting only individual output cannot show time spent training colleagues. Classifying a test as normal or abnormal may hide proximity to the threshold. A rectangle around a pedestrian in an image mainly preserves position and size. Judging long-term contributions, tracking changing measurements, or understanding intentions may require other records.
+XXIII and XIV also represent twenty-three and fourteen. The quantities do not change, but ordinary decimal long multiplication cannot conveniently be applied directly. A calculator can use an abacus or rewrite the quantities in a more suitable notation. Symbols can record the same amount without making calculation equally easy.
 
-Whether omission causes trouble depends on later use. Some representations chiefly rearrange information to make computation or retrieval easier, without necessarily deleting content. Chapter 4 compares this through networks and numbers. Evaluation must bring together preserved content, permitted operations, and present needs.
+Redrawing the railway map omitted geographical details. Numbers show another possibility: unchanged quantities become easier to manipulate through notation. In their 1987 discussion of diagrams and reasoning, Larkin and Simon distinguished informational equivalence from the amount of work needed to derive an answer.[^representation]
 
-#H2 Better Means Make Purposes Worth Asking About Again
-In Book III of the *Nicomachean Ethics*, Aristotle describes deliberation with a doctor taking healing as the end and considering how to achieve it. In this discussion, deliberation chiefly concerns means.[^aristotle] A specified end gives comparison a direction. This book asks a further question: learning sometimes changes the end itself. Where does that change belong?
+Diagrams can place adjacency, intersections, and sequence directly on the page, reducing the burden of remembering and comparing while reading. But proximity does not establish causation, and an arrow may indicate only order. Points and lines must be explained; an apparently natural visual relationship may lack evidence.
 
-Given an objective, techniques can become faster and more accurate. Yet in life and institutions, the objective can also need reconsideration. Hospitals may shorten waiting, companies increase sales, schools raise average marks. As technique succeeds, we can forget to ask whether patients receive needed care, customers are properly served, or students learn the intended abilities.
+Paper also helps the next person. Intermediate multiplication results show where a carry went wrong. A visible network lets someone absent from the original discussion find another route. Preserved relationships allow thinking to pause or pass to someone else.
 
-Ends and means are not assigned once, before work begins. Means change environments and people. Rankings can teach competitors to value what is rankable; measuring content by clicks teaches creators to generate clicks. The next objective may appear freely chosen while already shaped by the previous measure.
+We often first think of tools executing what has already been planned. These examples show tools helping thought form. Learning to arrange quantities on paper enables calculations once difficult to perform mentally. Drawing dependencies can reveal an unspoken wait. New representations help abilities develop.
 
-Second-order understanding therefore lets results return to purposes. Besides revising procedures, it examines the pursuit itself. Is the original aim still worth pursuing? Has measurability been mistaken for importance? Who pays when someone gains? New methods can be learned under a fixed goal. Without permission to discuss the goal, however, we cannot learn when to stop pursuing it.
+#H2 What Can Be Taken Elsewhere?
+Roads, message transmission, and task dependencies can all be represented by points and lines. Before calculating, we still need their meanings. Do points stand for locations, recipients, or tasks? Do lines permit travel or transmission, or require prior completion? If costs are calculated, which increase along a route, and may they be counted repeatedly?
 
-This does not require debating life's meaning before every action. Familiar, low-risk matters can follow habits. Reconsideration becomes worthwhile when arrangements endure, effects spread, or improving scores fail to improve people's circumstances. Questioning should help identify work worth continuing; repeatedly restating doubts can also delay necessary action.
+In pipes, water entering and leaving a location can be counted. A forwarded message can be copied to several people at once. Calling both a flow does not justify applying the same conservation relationship. Establishing the difference in copying tells us which calculations must change.
 
-#H2 Understanding Can Change Purpose
-We often imagine first deciding what we want and then learning how to get it. As learning deepens, what we want may change.
+Moving a story's lesson into life requires a similar comparison. Someone's eventual success after years without results can convey the difficulty of waiting. Advising another project to continue for a year requires more: what has accumulated, what might another year change, and which signs indicate approaching success? Failed projects can also involve years of effort. Duration alone does not distinguish patience from futility.
 
-Someone may initially understand care as doing everything for another person. Hearing that person's experience can teach them to value the person's choices. Understanding the need changes what doing well means. Pursuing the old objective more efficiently might deepen the interference.
+#H2 When Tools Can Recede into the Background
+“External Things” in the *Zhuangzi* describes a fish trap as a means of obtaining fish: once the fish is caught, the trap can be forgotten. The passage proceeds from fish and traps to meaning and words, directing attention from an instrument to what it helps us grasp.[^zhuangzi-outer]
 
-Learning a craft makes this change especially hard to anticipate. Beginners may want speed, then discover details they could not previously hear or see. These details make them willing to slow down and dissatisfied with achievements once a source of pride. Asked at the beginning whether to invest all that time, they might not yet understand what would make it worthwhile.
+Familiar representations likewise recede from attention. Readers stop consciously identifying letter shapes; passengers learn the key and attend to the next change of train. Studying the map's production on every journey would consume the effort it was meant to save.
 
-We learn because we value something, and learning changes our reasons for valuing it. Purpose participates in inquiry; inquiry participates in purpose's formation. Arranging them in an irreversible sequence misses this mutual change.
+Following that image, this book asks a present-day question: when a tool recedes, can we still find it when something goes wrong? This is not an archival requirement stated by the classical text, but a responsibility arising from our maps and calculations.
 
-Because desires change, their histories deserve examination. Learning may reveal new interests; advertising, rewards, and group pressure may foster pursuits previously unimportant. Assessment can ask whether someone had opportunities to encounter alternatives, understand costs, and refuse to continue.
+Faulty directions call for rechecking connections, directions, and names. An inadequate summary may require original records. Not looking at details now differs from never being able to see them again. One saves present attention; the other limits future investigation.
 
-In public decisions, hearing a new need must also enable a changed arrangement. A wheelchair user explains that a ramp is unusable. The information has entered the meeting, but if designers can dismiss it as outside the agreed indicators, the testimony has not affected judgement. Additional perspectives matter through their ability to change a problem's scope and subsequent treatment.
+Routine convenience and later traceability can be designed separately. The main map need not contain everything; sources, assumptions, and versions can be kept elsewhere. How much to preserve depends on expected use and cost. As a display becomes simpler, we need to distinguish work that is merely out of sight for now.
 
-Institutions face a difficulty here. A goal is needed to begin investigation and allocate resources, but investigation may bring back experiences that change it. An initial count of people crossing a park may later reveal that some cannot even enter. If the first scoring system continues to certify success, new knowledge can only sit beside the decision, unable to alter it.
+#H2 What Supports a Simple Operation?
+A few taps on a phone place a meal order. The customer does not contact the kitchen, arrange deliveries, or organise addresses personally. Platform, restaurant, and courier share those tasks. A simple operation makes ordering possible without understanding every detail.
 
-Knowing more does not necessarily improve what we want. But an arrangement that permits better means while forbidding reconsideration of what counts as doing well allows people only to become more skilful at following the original path.
+If an address cannot be recognised or order status disagrees with the restaurant's information, the hidden processes need investigating. Finding the fault may require comparing order records, address details, and delivery status. If those records were never kept, pressing the same button again will not supply the answer.
+
+A folder icon presents operations for storing and organising files. Users can copy, move, and open them without repeatedly understanding their physical location. An interface is a representation that makes such operations available.
+
+Concepts can similarly spare us item-by-item inspection. Saying a company's profit has increased lets us discuss revenue, costs, and investment without first reading every transaction. But rising profits alongside dwindling cash call for examining receivables, payment timing, or other details. A useful general description cannot alone answer the new question.
+
+“He is conservative” is another summary. If he supports a major change, we can investigate what he seeks to protect before declaring him inconsistent: a procedure, a value, or someone's interests? A familiar word now needs unpacking.
+
+#H2 Boundaries Can Be Redrawn; Consequences Remain Real
+Things change continuously, yet decisions often occur at a particular moment. We set thresholds: an age for legal adulthood, a value triggering an alarm, a condition for further examination. The need to act divides continuous variation into categories.
+
+Consider a hypothetical risk score. Seventy or above means high risk; sixty-nine falls short. One point can determine additional review without actual risk suddenly jumping between those numbers.
+
+Choosing a threshold requires relating scores to risk, considering the consequences of missing high-risk cases and misclassifying low-risk ones, and assessing review resources. Evidence can exclude unsupported choices while leaving responsibility for drawing the line.
+
+Once adopted, a single numerical point changes someone's treatment. Whether the boundary is reasonable cannot be discussed solely inside the formula.
+
+Classification changes treatment, but some things remain beyond its power.
+
+Actual streets test a map's routes. Drawing a shortcut does not let travellers pass through a wall. Raising a bridge's stated load limit does not strengthen it.
+
+We can choose a description, but its usefulness remains constrained by its object. This book calls that **real-world constraint**: some outcomes cannot be changed merely by changing words. Understanding of causes or actual practice must change.
+
+These constraints provide something against which competing models can be checked. Opposite directions for the same journey cannot be dismissed as different perspectives. A rail map and a walking map may each be accurate. First establish whether they answer the same question; then investigate the relevant difference.
+
+#H2 When Both Maps Work
+A city can have transit, terrain, population, and property-price maps. A company can be understood through its balance sheet, processes, and division of labour. Each helps answer different questions. Choice depends on what we need to know now.
+
+Even for one question, maps may have different strengths. Someone hurrying may accept rough travel estimates; a researcher investigating congestion needs more variables. Comparing predictions on new data, assumptions, and verification costs helps selection. No requirement permanently takes precedence for every use.
+
+Harder still, two reliable analyses need not yield a decision. A safety assessment identifies danger; a revenue forecast predicts gains. Neither calculation need be wrong. Combining them into a score requires someone to decide how much revenue offsets danger. Making some danger grounds for suspension also requires reasons.
+
+More maps can be drawn and more evidence obtained. Discussion gains firmer grounds. The people at the table still have to choose.
+
+Changing the form on paper can increase ability. But if a later step needs a difference already omitted, no ease of operation can retrieve it. The next chapter follows this boundary: when does omission enable us, and when does it leave us unable to see?

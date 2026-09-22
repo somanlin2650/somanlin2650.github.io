@@ -1,121 +1,166 @@
-#H1 8 — Revision: Letting a Framework Encounter Failure
-Aircraft return with bullet holes. Ground crews can inspect the damaged surfaces. Aircraft that never return provide no comparable record.
+#H1 8 — Connecting Earlier Understanding to Your Own
+On programming practice sites such as LeetCode, problems often occupy a few paragraphs: find a shortest route, or retrieve an item quickly from large amounts of data. Attempting them brings us to data structures and algorithms. How should information be arranged for retrieval? Which steps are both fast and complete? These names stand for earlier people's work.
 
-During the Second World War, this posed a practical problem for aircraft protection. Armour is heavy; it cannot be added without limit everywhere. Where should a limited weight go?
+A short problem can have a long history behind its best method. Chapter 3's layered search lets us borrow an established proof of when to stop and why no shorter path was missed. Someone who knows it can concentrate on recognising conditions. Someone who does not may still be trying routes without knowing when the search is complete.
 
-The damaged machines before investigators seemed the most direct evidence. Yet their presence already depended on a condition: they had survived those hits and returned.
+Trying for ourselves reveals the difficulty and what an earlier method saves. Making refusal to consult existing work a test of independent thought, however, turns learning into compulsory reinvention. Earlier achievements sit unused while our time goes into already explored detours.
 
-Working in Columbia University's Statistical Research Group, Abraham Wald wrote a series of studies in 1943 using sortie totals, losses, and surviving aircraft's damage to estimate vulnerability.[^wald]
+For life's difficulties, we more readily forget that predecessors are available. Must every promise be kept? What makes an exchange fair? Does personal benefit supply sufficient reason for a choice? These problems may reach us today, but philosophers have debated them for centuries. Their distinctions, counterexamples, and arguments cannot live for us; they can make an inarticulate difficulty approachable.
 
-Many holes in one area might indicate frequent hits, or a greater chance of surviving hits there. Few might indicate rare hits, or a low chance of returning after them. Hole counts do not directly measure vulnerability. Inferring the missing aircraft requires assumptions about hits and survival.
+Programming exercises usually specify inputs, constraints, and acceptance criteria. Discussions of fairness may dispute the criteria themselves. Borrowing thought must therefore include reconsidering what would count as resolution. Reading may provide a method—or reveal that our preferred answer excluded someone's circumstances beforehand.
 
-Records on the airfield can be faultless yet unrepresentative of all sorties. The gap precedes recording: some aircraft did not return to be inspected. More careful counting of visible holes cannot recover their missing damage records.
+#H2 Darwin Reads a Book About Population
+Darwin recalled in his autobiography a difficulty with selection in nature. He recognised the power of artificial selection but needed to understand how variations persisted without a breeder choosing them.
 
-Hiring records have a similar gap. Employers see hired candidates' performance, not what rejected candidates would have done in the same role with the same training. Assessing selection only through hires omits an important comparison.
+In 1838, he read Malthus on population. Population potentially outgrowing resources prompted a fresh view of competition among animals and plants: could some variations favour survival and reproduction under scarcity, becoming more common in descendants? Long-observed variation now had an explanation to investigate. Years of evidence gathering and revision followed before *On the Origin of Species* appeared.[^darwin]
 
-Obtaining that comparison involves actual jobs, training, and treatment. Statistics identifies the gap; someone must still bear the cost of obtaining evidence.
+Darwin read with difficulties accumulated through observation, allowing population and resources to become a biological question. Another reader need not have reached the same place. Supporting the idea then required evidence about organisms, variation, and reproduction. Reading suggested a question; observation tested the borrowed idea. How people should treat the vulnerable still requires ethical reasons, not deduction directly from competition's existence.
 
-Few complaints may indicate good service, difficult submission, ineffective handling, or the departure of the least satisfied. Counting the same channel again does not recover people unable to submit. Interviews, observation, and records of abandoned submissions can offer other evidence.
+We can read philosophy selectively too. Accepting an author's distinction about freedom need not entail accepting their policies. We can explain which step we use and why without first joining the whole school.
 
-Source counts need similar scrutiny. Three reports copying one dataset do not offer three independent bodies of evidence. Three questionnaires with equally narrow options can omit the same experience. Before collecting more, identify the gap it can fill.
+But how does a book transmit this ability? Darwin could report being inspired. Later readers also need to see how a relationship between resources and population transfers to biological variation. That connection makes further investigation possible.
 
-An objector may also change the research question. A completion-rate study omits people never eligible to participate; a satisfaction survey omits compulsory use without an exit. Assessment then reaches beyond its original sample to ask whom the institution serves and whom it excludes.
+#H2 Leave the Reasons for the Next Person
+Take a small question: why is the sum of two even numbers even?
 
-#H2 After One Number Falls
-Even complete data may concern the wrong outcome. Medical research has faced this question: does lowering an indicator associated with mortality make patients live longer?
+Try four plus six, eight plus twelve, and more examples. Explaining every possible pair requires another representation. An even integer divides into two equal integer parts. Split each of two even numbers and combine their halves: the total still divides into two equal integer parts. Symbolically, 2a + 2b = 2(a + b), with a and b integers.
 
-A myocardial infarction damages heart muscle. Some patients subsequently experience premature ventricular contractions—extra beats occurring early. These are associated with higher mortality. Certain drugs suppress them. The tempting inference is that suppression should reduce deaths.
+The proof does not preserve every detour of discovery. Mood and trial order are omitted; relationships a stranger can repeat remain. Leaving out the personal history helps reasons travel. A reader can point out why “arbitrary integer” cannot replace “even integer” without first judging the author's entire trustworthiness.
 
-The Cardiac Arrhythmia Suppression Trial, CAST, allocated eligible patients to drug or placebo groups and compared subsequent outcomes. Its 1989 preliminary report found more arrhythmic deaths or nonfatal cardiac arrests in groups receiving encainide or flecainide, and higher overall mortality. Testing of those drugs stopped early. Improved rhythm measures did not deliver the expected survival benefit.[^cast]
+Explicit reasons let different people meet at a definition or inference and disagree there. Corrections can reach people the original author never knew. One person's insight has a chance to exceed their own experience.
 
-The trial sharply distinguishes association from intervention. An abnormal rhythm associated with death, and a drug reducing that rhythm, do not jointly establish reduced mortality from treatment. Drugs can have other effects. Important patient outcomes must be compared directly.
+Making this possible takes extra work. Writing out what one sees immediately can be harder than continuing to use it. Ease for the reader often depends on that earlier effort.
 
-Establishing the difference also has costs. Some methods permit deliberate changes; others use naturally occurring variation. Arrangements affecting people require responsibility for risk and fairness. Serious, lasting, hard-to-reverse errors generally warrant fuller investigation than minor errors easily detected and repaired.
+Other abilities need demonstration and practice. “Knead until ready” is insufficient: learners need to feel different doughs, try movements, and receive corrections. Recognising unusual machine sounds requires repeatedly hearing and checking normal and abnormal examples. Words can direct attention to elasticity or sound; touch, discrimination, and movement still need practice.
 
-Before a test, let competing explanations state their expectations. Hans illustrates this: a horse doing arithmetic should still answer when the questioner does not know the result; one relying on bodily stopping signals depends on another condition.
+“Until it springs back this much” points in a direction, but hands still need the dough. Teacher and student working together can continue distinguishing. Written inferences, indicated differences, and practised movements may together constitute the transmitted ability.
 
-If a theory claims to anticipate every possible outcome, how much evidence can observation add? Aggression may be explained by a desire, restraint by repression of that same desire. Without independent means of identifying either, the two accounts can accommodate opposite behaviour.
+#FIG fig-14-inheritance.svg|Figure 8.1　Learning from others and passing learning on. Explicit reasons and shared practice can alternate. Checking and practice can reveal errors, but inherited material may remain uncorrected. Drawn for this book.|Reasoning travels through explicit explanations and shared activity. Later learners revise through checking and practice, then pass materials onward. Transmission does not guarantee improvement.
 
-When occurrence and nonoccurrence fit the same explanation, researchers need to specify another observable distinction. Otherwise the only thing demonstrated is the explanation's capacity to continue.
+Sufficient precision allows machines to participate in checking inference. Lean expresses definitions, propositions, and proofs. People specify the claim formally and supply a proof; the system checks whether it supports the proposition under its logical rules.[^lean]
 
-#H2 What Was the Eclipse Meant to Show?
-Daylight normally hides stars near the Sun. A total eclipse briefly permits photographs of the surrounding star field for comparison with photographs taken at other times.
+A paper's “it follows” may leave readers to fill gaps. These tools need omitted steps to become a checkable proof. Systems can assist with details, but suitable definitions and connections among established results may still require considerable work.
 
-On 29 May 1919, British expeditions observed from Príncipe off West Africa and Sobral in Brazil. Arthur Eddington joined the former. They measured the apparent displacement of stars whose light passed near the Sun, for which general relativity offered a quantitative prediction.
+Formalising our short even-number example may seem more laborious than reading it. Longer proofs using more theorems make checking more valuable. Successors can establish precisely which proposition they use, its premises, and its place in a new proof, without always reconstructing an author's unstated steps.
 
-Weather, photographic quality, instruments, and measurement error all had to be addressed. The published measurements and error analysis provided support for general relativity.[^eclipse]
+Lean checks whether a supplied proof establishes the formal proposition under the chosen logic and axioms. This still relies on the checking tool operating correctly. Suitability for a real-world question requires another inquiry. A bridge model omitting an important loading condition gains no account of that condition merely from a verified internal proof. Chapter 4's question returns: what was omitted, and does later use require it?
 
-Looking back on his intellectual development, Popper emphasised the risk of error a theory accepts in advance. Unlike accounts able to append explanations to opposite behaviours, a predicted deflection makes observational conflict possible. This informed his requirement that empirical theories be falsifiable.[^popper]
+#H2 How Learning Becomes Your Own Judgement
+The *Analects* warns of learning without thought and thought without learning.[^analects] Agreement that both matter leaves their connection to be established.
 
-Such tests concern predictions about experience. Mathematical proof, ethical argument, and literary understanding have different standards. A theory claiming observational predictions can be asked to state them before observations have the chance to disagree.
+The risks are concrete. Learning without examination can memorise conclusions without their questions or conditions, allowing familiar answers to arrive before judgement and land in unsuitable places. Thinking without learning can mistake an accidental idea for unprecedented insight. Without evidence, counterexamples, and inherited distinctions, thought circles within its own vocabulary.
 
-Popper later reconsidered a judgement of his own.
+Cooperation between learning and thinking is not simply an equal division of time. Learning brings others' observations, techniques, and failures into our questions. Thinking rearranges and checks whether they fit the circumstances. Ask which difficulty a theory addresses, then try it on your own example. Where it does not fit, identify the failed relationship before dismissing the whole theory or hiding the exception.
 
-If survival of the fittest means only that survivors are fit, the explanation returns to its definition. Defining fitness by survival and then explaining survival by fitness supplies no content distinguishing other outcomes.
+Understanding a passage can begin by redoing one inference. If changing a condition leaves you unable to proceed, the obstruction identifies a next question. Earlier conclusions begin to become abilities you can use and examine.
 
-Popper once described Darwinism as a valuable metaphysical research programme while expressing reservations about testability. In a 1978 article he revised that assessment, recognising testable content in natural selection.[^popper]
+#H2 Work Through One Problem
+Meaningful work may concern income, contribution, autonomy, craft, or identity. An exhaustive survey of occupational satisfaction may miss what matters to us. Such problems resist a proof like the one about even numbers, but can still be clarified. Suppose you promised to help a friend finish a task. Circumstances change, and continuing would impose a serious burden, but you think a promise makes withdrawal absolutely forbidden. How should that principle be understood?
 
-Actual evolutionary research can measure traits and environments before outcomes occur. The Grants and their colleagues followed finches on Daphne Major in the Galápagos, recording individual traits and survival. The 1977 drought changed food conditions; beak characteristics affected use of remaining seeds. Researchers could compare survival and later population characteristics.[^finches]
+It might prohibit withdrawal in every circumstance, normally require performance while allowing major exceptions, or allow changes while requiring attention to arrangements the friend made in reliance on you. These different demands hide in one sentence. Identify which you accept to locate the disagreement.
 
-Recording beaks and food first allows specific relationships to be tested, rather than naming survivors fit afterwards. Unexpected results prompt investigation of food assessments, trait measurement, and other influences.
+Test the strongest version first. Does a harmful promise still oblige performance? Can an unforeseeable major change leave responsibility wholly unchanged? Counterexamples narrow the principle without yet explaining ordinary promises' force.
 
-#H2 An Anomaly Has Several Possible Sources
-A failed prediction need not locate error solely in the theory. Data, operations, and auxiliary assumptions can produce discrepancies. Instruments may fail; conditions thought constant may change during a test.
+Look at the friend's arrangements. They may have refused other help, reserved time, or entrusted important work to you. Withdrawal now removes earlier options and may leave no time for replacement. These consequences supply reasons to perform, notify early, or assist with remedies.
 
-Hans's tests approached a cause because the questioner's knowledge varied comparably. If questions, locations, and procedures all changed, a wrong answer would not identify which change mattered. Controls and comparisons depend on the cause we wish to distinguish.
+Permission to withdraw therefore need not erase responsibility. Major changes can justify revision while timely notice, truthful explanation, and feasible remedies remain necessary. Principles and particulars together yield a finer judgement: promises continue to provide reasons whose weight depends on content, new circumstances, and established reliance.
 
-Everyday claims face the same difficulty. “More autonomy improves team performance” must specify authority over schedules, spending, or technical choices. A failed project may show an overbroad claim, absent information, or decisions communicated too late. These differences permit a testable revision: among teams with relevant skills, information, and timely feedback, does a specific increase in authority reduce waiting for approval?
+Clarification directs factual inquiry. What was promised? What arrangements followed? How large is the new burden? Can assistance take another form? These answers must come from the actual relationship; more abstract reflection cannot supply them.
 
-Proposed interference must itself be investigable. Suspected instrument error calls for calibration or comparison; changed surroundings call for contemporaneous records. Adding an uncheckable excuse for each failure excludes counterexamples altogether.
+Instead of only enduring or breaking faith, there are arrangements to discuss: reduced scope, a changed deadline, a replacement, or reasonable remedies. The friend may accept or explain why the loss remains uncompensated. Analysis prepares the conversation; the friend's answer is theirs to give.
 
-#H2 When a Framework Needs Replacing
-Repairs sometimes restore usefulness; sometimes they accumulate exceptions. Recurrent errors, each requiring another exception, and explanations restricted to the past without testable expectations are reasons to reconsider the original description of the problem.
+This used conceptual clarification, counterexamples, questions about reasons, and movement between principles and cases. Such philosophical work can be studied, practised, and criticised further.
 
-Another reason is an alternative that handles anomalies while accounting for earlier successes. Novelty alone is insufficient. Compare added assumptions, solved problems, and whether reliable achievements would be lost.
+Choose further reading from the obstruction. Peirce's “The Fixation of Belief” examines how beliefs are settled and which inquiries permit experience to revise them. Dewey's *How We Think* begins with concrete perplexities and examines forming and testing possible explanations.[^peirce][^dewey] The promise analysis can also borrow from further work on concepts, counterexamples, and mutual adjustment of principles and cases.
 
-The history of light contains such a transition.
+The benefit can be specific: two confused meanings become separable; one explanation gains a testable competitor. Each work has broader commitments; acquiring one method is a beginning. Redoing an inference with your own example and changing its conditions teaches more than remembering school names alone.
 
-Nineteenth-century physicists knew light had wave properties. Water waves have water; sound travels through media including air. What waves as light crosses space? Ether was an influential answer.
+Even after reaching an agreeable answer, change the case. Conceptual clarification can articulate disagreement without unifying values. Consequence assessment supplies information without automatically converting rights and promises into mutually offsetting quantities.
 
-In 1887, Albert Michelson and Edward Morley sent light back and forth in different directions in an interferometer and compared the returning interference fringes. They sought a displacement expected from Earth's motion through ether, but found an effect far smaller than predicted. Existing accounts of terrestrial motion and light faced a difficulty.[^ether]
+Try “every voluntary exchange is fair.” If one party deliberately destroys the other's alternatives, is the remaining consent sufficient? The question reveals circumstances the word voluntary omitted. Willingness to reconsider determines whether the counterexample actually enters judgement.
 
-Researchers continued revising assumptions and improving experiments. Lorentz and others developed important mathematical relationships usable in later physics. One experiment did not immediately supply a complete replacement theory.
+Working through this analysis does not establish the ability to read every inherited argument. Our promise was an explicitly described hypothesis. An older passage may respond to a problem absent from the page before us.
 
-Special relativity later reformulated relationships among time, space, and light speed, allowing different basic assumptions. Change can concern how questions are posed rather than merely a corrected number. New theories must still fit reliable observations and face new tests.
+#H2 Recover the Question Behind the Sentence
+“Deal with this promptly.” Every word is familiar; the recipient may still be at a loss. By the end of today, or by interrupting current work? Does dealing mean acknowledgement, a proposal, or completion? Which checks must not be skipped for speed?
 
-In hindsight the turning point seems clear. Researchers then could not read the later history. They had to judge whether existing theories could handle the difficulty. New mathematics could repair old accounts or enter later theories. Achievements now assigned to old and new frameworks once developed together.
+The speaker may assume a recent meeting supplied the context. A later recipient has only the instruction and must recover its question and constraints. Reading sometimes requires setting aside familiar usage to ask what the other person was addressing.
 
-#H2 What Might Admitting Error Cost?
-In the mid-nineteenth century, Vienna's General Hospital had two maternity clinics, one staffed by doctors and medical students, the other by midwives. Maternal mortality differed. Ignaz Semmelweis kept asking why.
+This calls for understanding what someone knew, could choose, and was trying to answer, then reconstructing their inference. Empathy can include this ability. Reading an argument does not require sharing its author's feelings, but does require remembering that the author could not yet see the later events we know.
 
-In 1847, a colleague died after an injury during dissection. Semmelweis connected the pathological findings with maternal illness and suspected contamination carried from dissections to patients. Chlorinated washing was introduced and mortality fell. His account of cadaveric particles was not today's full knowledge of microbes and infection.[^semmelweis]
+Clark and Brennan's work on communication emphasises establishing and updating common ground through responses, confirmation, and repair.[^grounding] Written material can supply examples, definitions, and context. Without the author present, gaps may require other reading, practice, or discussion.
 
-The intervention's results forced attention to a disturbing possibility: routine care might transmit lethal contamination. Responding required examining practices and facing harm one might have caused.
+How much context needs recovering depends on the material. A careful textbook can be clearer than hurried speech; face-to-face discussion permits immediate questions. Adequacy depends on recipients: can they find what is needed and check their interpretation?
 
-Admitting such error costs more than changing a rule. Professional identity, colleagues' relationships, and self-assessment may be affected. These costs help explain difficulty, but do not justify refusing evidence.
+#FIG fig-15-context-reconstruction.svg|Figure 8.2　Investigating an author's meaning. Text and background support an interpretation, then questioning, comparison, or practice tests it. New material can require rewriting an apparently fluent reading. Drawn for this book.|Words and images preserve part of an author's work. Readers form provisional understanding through the text, background, and experience, then revise through inquiry, comparison, or action.
 
-Institutions need ways to begin reporting: submit anomalies, suspend doubtful practices, assign verification, and respond to victims. Responsibility remains, but reporting should not await complete proof or be suppressed through humiliation.
+The more smoothly reconstruction proceeds, the easier it is to forget its guesses.
 
-#H2 Returning Through an Ancient Sequence
-The *Doctrine of the Mean* joins broad learning, careful questioning, thoughtful reflection, clear discrimination, and earnest practice in a sequence of verbs.[^zhongyong] Learning leads through inquiry and judgement into action.
+In a series of studies, Eyal, Steffel, and Epley compared imagining another's perspective with obtaining information from them. Perspective-taking instructions did not consistently improve accuracy about others' thoughts and feelings in the studied tasks; obtaining perspectives through conversation improved understanding in the relevant arrangement.[^perspective] More imagining need not mean more knowing.
 
-The text stresses practice. This chapter asks what follows: how can materials brought back by action reopen earlier work? Results can force new distinctions, contradictions can rewrite a question, and new questions can change what to study. After doing, there may still be a need to think again.
+For “promptly,” propose readings, then check minutes or confirm a deadline. For an old text, examine surrounding passages, the author's usage, contemporary materials, and scholarship. Different objects need different inquiries. A reconstruction open to correction is less likely to be only a plausible story we have supplied.
 
-Institutions often equate updating with faster figures and more frequent releases. Speed matters sometimes, but is not learning. Biased data can be followed faster; unchanged authority can prevent detected errors from changing decisions. Revision needs results to return, someone able to recognise discrepancies, and a route to whoever can change the relevant level.
+Across centuries or millennia, recovering context grows harder. Recognising symbols remains far from understanding them.
 
-That level cannot always be fixed beforehand. Wrong measurements call for corrected data; erased distinctions for another representation; changed environments for revisiting conditions. Targets met while lives worsen call for reconsidering purpose. Retraining models, lowering thresholds, or adding rules each time can produce endless versions while leaving the wrong question untouched.
+The *Yijing* is a body of texts transmitted and interpreted over a long period. Each of its sixty-four hexagrams contains six lines, represented in two forms, yin and yang. Hexagram statements address the whole figure; line statements attach to individual lines. Later interpretation adds meanings to figures, positions, and wording. Knowing the combinations is only a beginning. Readers also need to understand how an interpreter uses them to judge a situation.
 
-#H2 Faster Updating Is Not Always Better
-The extent of change should reflect evidential strength. One anomaly may be error or chance. Repeated independent results conflicting with core predictions call for more substantial adjustment. Unresolved doubt can be recorded while discriminating evidence is sought.
+The core statements and later texts called the “Ten Wings” formed in different periods amid long histories of divination and interpretation. Dating and formation remain subjects of scholarship.[^yijing] A reader must distinguish textual layers, periods, and interpreters.
 
-People receiving the same report bring different histories. One has uncovered sampling problems in similar reports; another has repeatedly predicted accurately using them. The report is identical, but its persuasive force may differ.
+Beginners can learn one textually supported interpretation, then compare others. For which question is a hexagram invoked? Which words support the reasoning? Which assumptions has the interpreter added? This checks reading. Claims of predictive divination require evidence distinguishing success from failure; textual fluency cannot perform that test.
 
-Reasonableness depends on how relevant those histories are. Is this the same team and method? Were earlier problems repaired? “I've been deceived before” and “I've always trusted it” cannot alone set the weight of this report.
+Other readers bring developed methods and find new correspondences in old figures. Leibniz's encounter with hexagram diagrams provides an example.
 
-Disagreement can therefore begin with prior beliefs and reasons, then ask what the new report changes. A deeply sceptical reader may become more trusting without reaching another's confidence. Final agreement alone hides that movement.
+After developing binary arithmetic, Leibniz corresponded with the Jesuit Joachim Bouvet in Beijing. Bouvet's diagram offered an appealing correspondence: two kinds of line mapped to 0 and 1, with suitable ordering and reading, produce six-bit numbers. Leibniz discussed the Chinese figures in his 1703 paper on binary arithmetic.[^leibniz]
 
-Stating earlier judgements reveals the source of disagreement. Allowing reliable new evidence to change them keeps past experience from becoming a permanent barrier.
+The mathematics is directly checkable: two choices in each of six positions yield sixty-four combinations. Leibniz found a way to understand the diagrams through his mathematics. The arrangement he saw, however, belonged to the tradition of the Song thinker Shao Yong. Earlier users' understanding still requires texts and historical evidence.
 
-Praising admission of error is easy. Those involved still have to establish whether they erred. Too little revision may prolong harm; too much may discard reliable practice. Later results have not arrived, yet both costs are already being borne.
+Mathematical correspondence and historical reconstruction must be distinguished. A new mapping may help mathematics; claims to recover ancient arithmetic require historical support. Clear symbol rules also leave much to learn about meanings in ritual, communities, and ordinary life.
 
-Comparing evidence, recording judgements, and involving others supplies grounds. It cannot guarantee the right timing every time. Even after criticism has been heard and evidence examined, another revision may be needed. Reliability includes leaving room for that possibility.
+Present-day readers may also use the *Yijing* for current problems. These uses need explanation so they are not mistaken for the original text's claims.
+
+This book borrows yin and yang in a narrowly specified contemporary way: when facing a one-sided judgement, investigate overlooked complementary conditions, costs, counterweights, and transitions. This is a questioning exercise, not a summary of all historical uses.
+
+Suppose a project has produced no result for a long time. Continue or abandon seems to demand one answer. First examine accumulated abilities and evidence, displaced alternatives, and resources approaching their limits. These allow comparison among another attempt, a changed method, and termination.
+
+If new vocabulary leaves us merely knowing that we want to continue, without new reasons or checkable differences, the borrowing has not helped. Usefulness depends on what becomes visible and examinable. An ancient name cannot guarantee the effect.
+
+#H2 The Past Inside a Filename
+CON has only three letters, yet ordinary Windows naming rules do not allow it as an ordinary filename. Alongside PRN and NUL, it is reserved for devices. Adding an extension need not make it ordinary.
+
+Microsoft engineer Raymond Chen has traced these names to DOS-era uses. Tools could handle devices much like files, and special names had to survive practices such as automatically appending extensions. Later path and directory capabilities still had to accommodate earlier programs' expectations.[^con]
+
+Present restrictions must be checked against the particular interface, namespace, and version. History identifies dependencies to investigate; current documentation and tests establish present behaviour.
+
+This name's use is documented. Other origin stories can be plausible without adequate evidence. The everyday keyboard provides an example.
+
+Why does its first row begin QWERTY? A familiar answer says early typewriters deliberately slowed typists to prevent jamming. It is memorable, joining today's layout to yesterday's mechanics.
+
+Koichi and Motoko Yasuoka questioned that popular version through early records. Tracing layout changes and users' needs, they argued that difficulties faced by telegraph operators transcribing Morse code provide important clues.[^qwerty] This is an evidence-based interpretation, not a claim that every detail is settled.
+
+The story lets us examine our acceptance of explanations. Deliberate slowing to prevent jams connects purpose, procedure, and outcome smoothly. Establishing it as the actual design rationale requires evidence of decisions and changes. An attractive replacement story needs the same scrutiny.
+
+Evidence also lets us trace how choices persisted. An initially convenient arrangement can create difficulties after many people become dependent on it.
+
+Some early computer systems stored only two year digits: 1999 as 99. Saving two characters per entry had value when storage was expensive and records numerous. The next century inherited a difficulty: did 00 mean 1900 or 2000?
+
+Comparing dates and calculating ages, interest, or deadlines brought missing century information into computation. Encoding, operations, and assumptions of systems exchanging data all needed investigation.
+
+In the late 1990s, governments and businesses invested in inventories, repairs, tests, and contingencies. The anticipated widespread catastrophe did not generally occur at the millennium.[^y2k] Evaluating preparation requires examining faults found, risks removed, and proportionality of costs. A largely uneventful transition alone cannot reveal what would have happened without repairs or distinguish each measure's effect.
+
+Two-digit years preserve an understandable earlier choice and dependencies that outlived expectations. History directs inspection. An original reason need not justify perpetual preservation.
+
+An obscure rule may once have solved a vanished problem. That is a starting hypothesis, not established history.
+
+Asking only what would make a reasonable person do this invites substituting imagined rationales for actual origins. Causes can include mistakes, unequal power, accidental persistence, or incompatible revisions. Historical inquiry distinguishes them through surviving material, not narrative smoothness.
+
+An old comment may preserve a reason or be outdated. Current behaviour needs current documentation and tests. Even when the original rationale disappears, new dependencies may form. Removing the restriction now requires another investigation.
+
+A rule may persist through continuing function, switching costs, vested interests, or lack of authority to change it. History separates possibilities; retention today requires present evidence and costs.
+
+A bridge clarifies the distinction. Why designers chose a safety factor or a standard required a test calls for examining aims, known risks, and contemporary technology. How a bridge deforms under a load requires mechanics and testing. Design history may expose omitted conditions without changing the forces themselves.
+
+Formation and properties answer different questions while supplying mutual clues. History helps explain the forms of programs, processes, interfaces, and classifications. Calculating capacity or proving algorithmic limits needs corresponding properties and inferences. When records cannot establish origins in time, uncertainty should be stated and present tests used to support decisions.
+
+Where inquiry begins depends on the difficulty. Asking the essence of filenames may not explain CON; asking its earlier use identifies a compatibility issue. For a bridge's force calculation, history cannot replace the necessary data.
+
+Whether earlier achievements become part of our ability depends on what we receive: conclusions alone, or also the conditions, operations, and checks that produced them. Next comes a form of transmission less easily put into words. Someone may know what to do before the body has learned it; another may act correctly before gradually finding words for what they recognised.

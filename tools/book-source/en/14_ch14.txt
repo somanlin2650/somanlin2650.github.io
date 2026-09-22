@@ -1,144 +1,142 @@
-#PART Part Four|A Framework That Can Change Itself|Understanding enters institutions and allocates attention, resources, and a voice. A mature framework permits reconsidering purposes as well as correcting answers.
+#PART Part Five|Understanding That Can Revise Itself|Results do not change methods by themselves. Moving from the discovery of error to new arrangements for judgement requires evidence, channels, and an actual capacity to make changes. This framework must face the same examination.
 
-#H1 14 — Letting Discoveries Change Decisions
-Customers used their existing accounts. Without application or consent, additional accounts appeared in their names. Recorded business increased while customers might know nothing of it.
+#H1 14 — How Failure Finds Its Way Back
+Aircraft return with bullet holes. Ground crews can inspect the damaged surfaces. Aircraft that never return provide no comparable record.
 
-Who in a bank benefits from accounts opened for unaware customers? Alongside serving existing needs, employees were asked to sell more products to each customer. Accounts were countable, suitable for targets and rewards. If customers chose every new service, the figure might indicate increased business.
+During the Second World War, this posed a practical problem for aircraft protection. Armour is heavy; it cannot be added without limit everywhere. Where should a limited weight go?
 
-In 2016, the US Consumer Financial Protection Bureau took enforcement action against Wells Fargo. Regulatory records described employees opening unauthorised accounts to meet targets and obtain incentives. Some transferred money from existing accounts into new ones, imposing fees on some customers. Regulators identified sales incentives and inadequate oversight among the problems.[^wellsfargo]
+The damaged machines before investigators seemed the most direct evidence. Yet their presence already depended on a condition: they had survived those hits and returned.
 
-Accounts and transactions were real, but the event the measure was supposed to represent—customers choosing needed services—had not occurred. An employee's additional sale could become an unaware customer's additional fee and administrative burden.
+Working in Columbia University's Statistical Research Group, Abraham Wald wrote a series of studies in 1943 using sortie totals, losses, and surviving aircraft's damage to estimate vulnerability.[^wald]
 
-Consent itself is necessary to such service. Beyond counting accounts, institutions must let customers discover what occurred, stop unauthorised services, and address losses. Faster account creation cannot substitute for these requirements.
+Many holes in one area might indicate frequent hits, or a greater chance of surviving hits there. Few might indicate rare hits, or a low chance of returning after them. Hole counts do not directly measure vulnerability. Inferring the missing aircraft requires assumptions about hits and survival.
 
-#H2 What Does a Tail Prove?
-In 1902, Hanoi under French colonial rule faced rats and disease. Newly built sewers in some areas modernised sanitation while giving rats space to travel and breed. Authorities organised extermination and paid by quantity.
+Records on the airfield can be faultless yet unrepresentative of all sorties. The gap precedes recording: some aircraft did not return to be inspected. More careful counting of visible holes cannot recover their missing damage records.
 
-Payment required countable proof. Rat bodies were cumbersome; tails seemed smaller and sufficient evidence of removal. Tails became the claim for a reward. Historian Michael Vann's investigation of colonial archives found later reports of living tailless rats and activities supplying rats for bounties. A tail earned money while its former owner could remain alive.[^hanoi]
+Hiring records have a similar gap. Employers see hired candidates' performance, not what rejected candidates would have done in the same role with the same training. Assessing selection only through hires omits an important comparison.
 
-The tail initially stood for a dead rat. Once separately exchangeable for money, supplying tails and reducing living rats could diverge. Vann places these practices within colonial inequalities of housing, labour, and power. Who designed payment, who could earn from it, and who suffered infestation all affected events. Individual greed alone is an inadequate question.
+Obtaining that comparison involves actual jobs, training, and treatment. Statistics identifies the gap; someone must still bear the cost of obtaining evidence.
 
-Accounts and tails direct attention to changes after targets are announced. An indicator may initially correlate with what matters. Once people act to achieve it, the relationship cannot be assumed unchanged.
+Few complaints may indicate good service, difficult submission, ineffective handling, or the departure of the least satisfied. Counting the same channel again does not recover people unable to submit. Interviews, observation, and records of abandoned submissions can offer other evidence.
 
-Researchers examined this across fields. Charles Goodhart discussed changes in statistical relationships subjected to monetary-policy pressure in the 1970s. Donald Campbell studied pressures distorting social indicators. Marilyn Strathern addressed measures becoming targets in university assessment.[^metrics] Relationships observed when a measure is chosen may not survive incentives changing behaviour.
+Source counts need similar scrutiny. Three reports copying one dataset do not offer three independent bodies of evidence. Three questionnaires with equally narrow options can omit the same experience. Before collecting more, identify the gap it can fill.
 
-#FIG fig-17-metric-feedback.svg|Figure 14.1　Assessment changes assessed behaviour. Meeting targets must be checked against actual service and additional costs; feeding back only target figures can omit both. Drawn for this book.|An institution chooses indicators, connects them to incentives and resources, and receives new figures after behaviour changes. Actual effects and uncounted costs need other checks.
+An objector may also change the research question. A completion-rate study omits people never eligible to participate; a satisfaction survey omits compulsory use without an exit. Assessment then reaches beyond its original sample to ask whom the institution serves and whom it excludes.
 
-#H2 Four Hours Can Change a Hospital
-England faced long stays in emergency departments. Patients could wait for assessment, beds, or further arrangements after reaching hospital. Government set a time requirement: most should be admitted, transferred, or discharged within four hours. In 2005 the target was ninety-eight per cent.
+#H2 After One Number Falls
+Even complete data may concern the wrong outcome. Medical research has faced this question: does lowering an indicator associated with mortality make patients live longer?
 
-Speeding up emergency staff alone could not remove every wait. Without an inpatient bed, effort at the front could not complete the next step. Tests, beds, and departments needed coordination, making what looked like an emergency-department problem a hospital-wide task.
+A myocardial infarction damages heart muscle. Some patients subsequently experience premature ventricular contractions—extra beats occurring early. These are associated with higher mortality. Certain drugs suppress them. The tempting inference is that suppression should reduce deaths.
 
-Researchers interviewed emergency leaders at nine hospitals in 2008 and published findings in 2011. They recorded reported changes in coordination, resources, and processes, alongside pressure and quality concerns.[^nhs] Interviews clarify institutional responses; better care still requires checking clinical outcomes.
+The Cardiac Arrhythmia Suppression Trial, CAST, allocated eligible patients to drug or placebo groups and compared subsequent outcomes. Its 1989 preliminary report found more arrhythmic deaths or nonfatal cardiac arrests in groups receiving encainide or flecainide, and higher overall mortality. Testing of those drugs stopped early. Improved rhythm measures did not deliver the expected survival benefit.[^cast]
 
-Concentrated decisions just before four hours call for investigating patients' circumstances. Previously delayed tests, beds, or transport may finally have been arranged. Other patients may have been hurried out while still needing observation. Timing is a clue; condition, subsequent outcomes, and actual processes distinguish explanations.
+The trial sharply distinguishes association from intervention. An abnormal rhythm associated with death, and a drug reducing that rhythm, do not jointly establish reduced mortality from treatment. Drugs can have other effects. Important patient outcomes must be compared directly.
 
-Targets can bring otherwise separate workers together around a difficulty. Their wording also helps determine which difficulties enter that cooperation.
+Establishing the difference also has costs. Some methods permit deliberate changes; others use naturally occurring variation. Arrangements affecting people require responsibility for risk and fairness. Serious, lasting, hard-to-reverse errors generally warrant fuller investigation than minor errors easily detected and repaired.
 
-#H2 The Answer Missing from the Form
-Institutions organise work through options as well as deadlines. Consider a hypothetical employment-support form asking for the main obstacle to finding work. Its only options are lack of experience, difficulty writing a résumé, and not knowing where to find vacancies. There is no space to add anything.
+Before a test, let competing explanations state their expectations. Hans illustrates this: a horse doing arithmetic should still answer when the questioner does not know the result; one relying on bodily stopping signals depends on another condition.
 
-Someone may have none of these difficulties. Caring for family may conflict with fixed shifts. Whether this can enter the record depends on the form:
+If a theory claims to anticipate every possible outcome, how much evidence can observation add? Aggression may be explained by a desire, restraint by repression of that same desire. Without independent means of identifying either, the two accounts can accommodate opposite behaviour.
 
-#TAB
-Permitted response|Can the difficulty be retained?
-Only one of the original three options|A conflict between shifts and care cannot be accurately recorded as another cause
-Unlisted answers, with procedures to review categories|An omitted situation can be recognised, but supplementary information must still reach actual handling
-#ENDTAB
+When occurrence and nonoccurrence fit the same explanation, researchers need to specify another observable distinction. Otherwise the only thing demonstrated is the explanation's capacity to continue.
 
-More copies of the first form cannot supply answers outside its categories. Applicants may leave, force a choice, or find another channel; actual investigation must establish which. We can already establish that the options provide no faithful place for this difference.
+#H2 What Was the Eclipse Meant to Show?
+Daylight normally hides stars near the Sun. A total eclipse briefly permits photographs of the surrounding star field for comparison with photographs taken at other times.
 
-If resources are allocated only through those options, the form does more than describe. It affects assistance, and applicants may learn to redescribe themselves in terms the institution recognises.
+On 29 May 1919, British expeditions observed from Príncipe off West Africa and Sobral in Brazil. Arthur Eddington joined the former. They measured the apparent displacement of stars whose light passed near the Sun, for which general relativity offered a quantitative prediction.
 
-Increasingly neat agreement with three options therefore does not directly validate classification. People may simply have learned which answers work.
+Weather, photographic quality, instruments, and measurement error all had to be addressed. The published measurements and error analysis provided support for general relativity.[^eclipse]
 
-Changing the form begins the work. Suppose a new field permits care responsibilities, and a caseworker reads and confirms the account. Another résumé class does not solve this problem. Compatible working arrangements or care support may be needed. Whether services can follow the discovery depends on allocation.
+Looking back on his intellectual development, Popper emphasised the risk of error a theory accepts in advance. Unlike accounts able to append explanations to opposite behaviours, a predicted deflection makes observational conflict possible. This informed his requirement that empirical theories be falsifiable.[^popper]
 
-A new answer may demand a new method, or reconsideration of whom a service should help and how far. Filing exceptions under old options keeps reports running. Hearing them fully may require admitting that the original question was too narrow.
+Such tests concern predictions about experience. Mathematical proof, ethical argument, and literary understanding have different standards. A theory claiming observational predictions can be asked to state them before observations have the chance to disagree.
 
-#H2 After a Manual Is Revised
-The American Psychiatric Association's *Diagnostic and Statistical Manual of Mental Disorders*, DSM, organises diagnostic terms and criteria to support consistent clinical and research communication. Healthcare, insurance, and education arrangements may refer to diagnoses, carrying classification into access to assistance.
+Popper later reconsidered a judgement of his own.
 
-In 1980, the third edition formally included post-traumatic stress disorder. People suffering long after trauma existed before it and had been described and treated under other names. Shared criteria supported comparison and provided clinicians and patients with another way to explain difficulties and seek help.[^dsm] Whether resources followed depended on services and institutions.
+If survival of the fittest means only that survivors are fit, the explanation returns to its definition. Defining fitness by survival and then explaining survival by fitness supplies no content distinguishing other outcomes.
 
-In 1973, the association decided homosexuality itself should no longer be classified as a mental disorder. Evidence, professional debate, affected people's actions, and reassessment of disorder all contributed. Diagnostic terms continued changing, and stigma did not vanish in one revision. The changed status required those relying on medical classification to justify treatment of people to face evidence and lived experience anew.
+Popper once described Darwinism as a valuable metaphysical research programme while expressing reservations about testability. In a 1978 article he revised that assessment, recognising testable content in natural selection.[^popper]
 
-The 2013 fifth edition brought several previously separate diagnoses, including Asperger's disorder, into autism spectrum disorder. The association cited inconsistent use of earlier categories across clinical settings and reasons for integration. People using an earlier name to understand themselves also faced questions of community, identity, and explaining experience. Revised criteria and willingness to retain an identity term are not identical matters.
+Actual evolutionary research can measure traits and environments before outcomes occur. The Grants and their colleagues followed finches on Daphne Major in the Galápagos, recording individual traits and survival. The 1977 drought changed food conditions; beak characteristics affected use of remaining seeds. Researchers could compare survival and later population characteristics.[^finches]
 
-Ian Hacking called such reciprocal effects between classifications and people looping effects. Categories alter treatment and self-understanding; people accept, reject, or repurpose names, prompting reconsideration.[^hacking] Research must trace actual services, expectations, and actions. Counting renamed categories does not establish changed lives.
+Recording beaks and food first allows specific relationships to be tested, rather than naming survivors fit afterwards. Unexpected results prompt investigation of food assessments, trait measurement, and other influences.
 
-A diagnosis may give a child needed support and invite underestimation. Both effects need separate investigation. Reducing stigma can accompany serious attention to difficulty; retaining a useful diagnosis need not retain low expectations or unsuitable services.
+#H2 An Anomaly Has Several Possible Sources
+A failed prediction need not locate error solely in the theory. Data, operations, and auxiliary assumptions can produce discrepancies. Instruments may fail; conditions thought constant may change during a test.
 
-#H2 People Hidden by an Average Score
-Suppose a tool classifies ninety-five of a hundred cases correctly. That figure does not locate the five errors: scattered across circumstances or concentrated in one? Nor does it distinguish a correctable notice from a lost opportunity that cannot be recovered.
+Hans's tests approached a cause because the questioner's knowledge varied comparably. If questions, locations, and procedures all changed, a wrong answer would not identify which change mattered. Controls and comparisons depend on the cause we wish to distinguish.
 
-False inclusion and false exclusion may require different detection routes. Included people enter a process and leave subsequent records. Excluded people may never return to the system. Later data on admitted cases cannot establish that everyone outside should have remained outside.
+Everyday claims face the same difficulty. “More autonomy improves team performance” must specify authority over schedules, spending, or technical choices. A failed project may show an overbroad claim, absent information, or decisions communicated too late. These differences permit a testable revision: among teams with relevant skills, information, and timely feedback, does a specific increase in authority reduce waiting for approval?
 
-Appeals and supplementary evidence can reveal hidden errors. Someone wrongly excluded needs a way to provide corrective evidence. Review must also ask whether appealing is prohibitively time-consuming, evidence is obtainable, and recipients can change decisions. A written procedure must be usable to correct anything.
+Proposed interference must itself be investigable. Suspected instrument error calls for calibration or comparison; changed surroundings call for contemporaneous records. Adding an uncheckable excuse for each failure excludes counterexamples altogether.
 
-Front-line workers may notice an exception without a field for it. Those with a field may only annotate, without changing the determination. Rule-makers may receive only aggregate figures.
+#H2 When a Framework Needs Replacing
+Repairs sometimes restore usefulness; sometimes they accumulate exceptions. Recurrent errors, each requiring another exception, and explanations restricted to the past without testable expectations are reasons to reconsider the original description of the problem.
 
-The newly recorded care difficulty may stall here. A caseworker sees the conflict, while managers receive only totals in three old categories. Sending original accounts to people able to adjust services gives the discovery a chance to reallocate resources.
+Another reason is an alternative that handles anomalies while accounting for earlier successes. Novelty alone is insufficient. Compare added assumptions, solved problems, and whether reliable achievements would be lost.
 
-Receipt still requires response. Even a decision against new services should explain limits of resources or authority. Repeated needs can then accumulate into reconsideration, rather than forcing applicants to explain the same life difficulty from the beginning with each new worker.
+The history of light contains such a transition.
 
-#FIG fig-08-knowledge-authority.svg|Figure 14.2　How detected problems reach action. The right adds paths for original records and supplementary accounts to decision-makers, with responses returned to the front line. Dashed lines mark additions. This hypothetical design is not Wells Fargo's organisational chart.|Identical roles with different connections: unclassified material stalls on the left; on the right, new routes carry records into decisions and assign handling and response.
+Nineteenth-century physicists knew light had wave properties. Water waves have water; sound travels through media including air. What waves as light crosses space? Ether was an influential answer.
 
-A worker noticing failure cannot necessarily decide a new rule's effects on everyone. Decision-makers need not understand local circumstances better. Bringing experience into discussion does not require giving one party all authority. Participants' reasons must be able to change a proposal, and responsible decision-makers must explain the arrangement adopted.
+In 1887, Albert Michelson and Edward Morley sent light back and forth in different directions in an interferometer and compared the returning interference fringes. They sought a displacement expected from Earth's motion through ether, but found an effect far smaller than predicted. Existing accounts of terrestrial motion and light faced a difficulty.[^ether]
 
-Some outcomes take time. Do users gain employment opportunities? Who bears additional burdens? New reports allow institutions to learn what their original classification could not record.
+Researchers continued revising assumptions and improving experiments. Lorentz and others developed important mathematical relationships usable in later physics. One experiment did not immediately supply a complete replacement theory.
 
-One premise underlies this: people raising problems should not be excluded because they complicate procedure. When only designers may name failure, experiences they have never had struggle to change the institution. Knowledge and participants' influence are both restricted.
+Special relativity later reformulated relationships among time, space, and light speed, allowing different basic assumptions. Change can concern how questions are posed rather than merely a corrected number. New theories must still fit reliable observations and face new tests.
 
-#H2 Locating Ability Beyond the Individual
-Connected work can give individuals abilities unavailable alone. During an aircraft's approach, required speeds vary with weight, flap settings, and other conditions. Pilots must recognise relationships between present and upcoming speeds amid demanding operations, not simply know one number.
+In hindsight the turning point seems clear. Researchers then could not read the later history. They had to judge whether existing theories could handle the difficulty. New mathematics could repair old accounts or enter later theories. Achievements now assigned to old and new frameworks once developed together.
 
-Edwin Hutchins's cockpit research observed reference cards, verbal confirmation, instruments, and speed markers participating together. Speeds could be found beforehand and marked on instruments. Comparing pointer and marker positions then performed work otherwise requiring remembered numbers and numerical comparison.[^hutchins]
+#H2 What Might Admitting Error Cost?
+In the mid-nineteenth century, Vienna's General Hospital had two maternity clinics, one staffed by doctors and medical students, the other by midwives. Maternal mortality differed. Ignaz Semmelweis kept asking why.
 
-Markers move work earlier and turn numerical into spatial comparison. Wrong settings preserve errors too; confirmation with a colleague belongs to the ability. Testing unaided memory alone omits conditions of actual work.
+In 1847, a colleague died after an injury during dissection. Semmelweis connected the pathological findings with maternal illness and suspected contamination carried from dissections to patients. Chlorinated washing was introduced and mortality fell. His account of cadaveric particles was not today's full knowledge of microbes and infection.[^semmelweis]
 
-Andy Clark and David Chalmers's “The Extended Mind” makes a stronger philosophical claim: suitably coupled external resources can constitute parts of cognitive processes and even certain beliefs. Where to draw the mind's boundary remains disputed.[^extended]
+The intervention's results forced attention to a disturbing possibility: routine care might transmit lethal contamination. Responding required examining practices and facing harm one might have caused.
 
-Their thought experiment compares two people heading for a museum. One recalls the address; another with memory difficulties routinely keeps important information in a notebook and consults it naturally. If the notebook is consistently available, trusted, and integrated into life, should its position outside the skin alone exclude it from relevant cognition?
+Admitting such error costs more than changing a rule. Professional identity, colleagues' relationships, and self-assessment may be affected. These costs help explain difficulty, but do not justify refusing evidence.
 
-Whether a notebook counts as mind remains arguable. Its contribution to ability is already investigable. So are cockpit cards, markers, and confirmations in explaining success and error.
+Institutions need ways to begin reporting: submit anomalies, suspend doubtful practices, assign verification, and respond to victims. Responsibility remains, but reporting should not await complete proof or be suppressed through humiliation.
 
-Larger cooperation also brings conflicting interests and aims. Departments share data while pursuing different interests; schools share student records while disagreeing over education. Joint cognitive work does not imply one purpose or consciousness. Analysis must preserve disagreement and each participant's authority.
+#H2 Returning Through an Ancient Sequence
+The *Doctrine of the Mean* joins broad learning, careful questioning, thoughtful reflection, clear discrimination, and earnest practice in a sequence of verbs.[^zhongyong] Learning leads through inquiry and judgement into action.
 
-Academic cooperation faces institutional differences too. Disciplines need distinct concepts, instruments, and training, and organise courses, degrees, publication, and review differently. Conceptual understanding leaves these arrangements to navigate.
+The text stresses practice. This chapter asks what follows: how can materials brought back by action reopen earlier work? Results can force new distinctions, contradictions can rewrite a question, and new questions can change what to study. After doing, there may still be a need to think again.
 
-A project needing two fields may need to establish who can evaluate which evidence, which reviewers suit the results, and how each participant's work is recognised. These conditions affect continuity. Explaining all difficulty as different thinking hides alterable training and assessment.
+Institutions often equate updating with faster figures and more frequent releases. Speed matters sometimes, but is not learning. Biased data can be followed faster; unchanged authority can prevent detected errors from changing decisions. Revision needs results to return, someone able to recognise discrepancies, and a route to whoever can change the relevant level.
 
-Researchers may learn each other's evidence yet find assessment hardest to change. Knowing how to collaborate does not establish institutional permission to continue.
+That level cannot always be fixed beforehand. Wrong measurements call for corrected data; erased distinctions for another representation; changed environments for revisiting conditions. Targets met while lives worsen call for reconsidering purpose. Retraining models, lowering thresholds, or adding rules each time can produce endless versions while leaving the wrong question untouched.
 
-#H2 What a Talking System Brings Back Into Question
-AI can learn from accumulated text, images, and other human materials, and acquire abilities through different training and tools. It now provides useful results in some tasks once demanding years of human learning. Reliability cannot be inferred from human learning order. Success at one difficult task does not automatically make seemingly simpler tasks reliable.
+#H2 Faster Updating Is Not Always Better
+The extent of change should reflect evidential strength. One anomaly may be error or chance. Repeated independent results conflicting with core predictions call for more substantial adjustment. Unresolved doubt can be recorded while discriminating evidence is sought.
 
-Before asking whether it has intelligence, distinguish the actual question. One response can raise questions of function, human likeness, internal mechanisms, or experience:
+People receiving the same report bring different histories. One has uncovered sampling problems in similar reports; another has repeatedly predicted accurately using them. The report is identical, but its persuasive force may differ.
 
-#TAB
-Question|Where inquiry can begin|What cannot answer it directly
-Can it perform a task?|Task, conditions, stability, and failures|Whether it works as humans do
-Does it behave like a human?|Language, action, and interaction|Whether it has similar feelings
-What useful internal representations form?|How information affects operation and transfer|Whether this produces subjective experience
-Does it have subjective experience?|Clarify experience and admissible evidence|One human-like answer cannot settle it
-#ENDTAB
+Reasonableness depends on how relevant those histories are. Is this the same team and method? Were earlier problems repaired? “I've been deceived before” and “I've always trusted it” cannot alone set the weight of this report.
 
-Producing sentences about grief is observable; feeling grief requires further argument. Statistical mechanisms alone also cannot decide whether understanding is present. Distinguishing questions reveals the reach of an observation.
+Disagreement can therefore begin with prior beliefs and reasons, then ask what the new report changes. A deeply sceptical reader may become more trusting without reaching another's confidence. Final agreement alone hides that movement.
 
-Once used, a model becomes part of other people's environment. A paper classification differs from one participating in daily large-scale selection. Users adapt inputs, classified people respond, and earlier decisions affect later data. Initial scores matter without settling new behaviour, power, and costs.
+Stating earlier judgements reveals the source of disagreement. Allowing reliable new evidence to change them keeps past experience from becoming a permanent barrier.
 
-In a hypothetical workflow, fixed software checks defined formats and constraints, AI or other searches propose candidates, and appropriate trials compare results. AI may assess suitability for a known procedure and call it, then change methods when results are abnormal. A plausible division still requires testing in actual work.
+Praising admission of error is easy. Those involved still have to establish whether they erred. Too little revision may prolong harm; too much may discard reliable practice. Later results have not arrived, yet both costs are already being borne.
 
-Some low-impact actions can proceed with records and later checks; other risks need prior limits. Humans taking over need original circumstances and sufficient time. Role names and human resemblance cannot decide the arrangement. Changes to shared goals require responsible and affected people to participate.
+Comparing evidence, recording judgements, and involving others supplies grounds. It cannot guarantee the right timing every time. Even after criticism has been heard and evidence examined, another revision may be needed. Reliability includes leaving room for that possibility.
 
-Each stage may inherit earlier errors. Model explanations need comparison with original evidence, tool outputs, and records. A generator and checker sharing a blind spot may merely let the same error pass twice. A check must specify which failures it can detect.
+#H2 Learning from Aircraft to Examine Another Dataset
+Return to the aircraft case at the beginning of this chapter. What would it mean to have learned from it? 'Notice what you cannot see' may offer little guidance when another dataset arrives. A more precise question remains available: what determines whether a case enters the data, and could the absent cases change the answer we seek?
 
-A person with seconds and no critical information cannot perform all the verification assigned on paper. Actual detection capacity and authority to stop or change must accompany responsibility.
+Apply these to course reviews. If all responses come from completers, investigate who withdrew and why. Difficulty, lack of time, and changed interests mean different things for assessment. Completers alone cannot establish effects on all who enrolled.
 
-#H2 Self-Correction Can Still Serve Only the Original Goal
-A system can keep correcting while recognising only one kind of error. A service measuring handling time can learn faster closure without learning whether problems are resolved. Even complaint feedback may teach better obstruction if complaints are defined as burdens to remove.
+Both cases permit examining selection and its relationship to the research question. Aircraft losses and course withdrawals have different causes, so an instruction such as reinforcing less-damaged areas cannot simply transfer. Information about dropouts requires a design appropriate to learning.
 
-Beyond closure time, inquiry must follow whether the person's difficulty remains. A new account may change the meaning of completion itself.
+This is the detail borrowing must retain. Remember only aircraft, holes, and war, and the example seems confined to the military. Retain only “don't ignore unknowns,” and it cannot guide inquiry. Explaining how selection shapes records identifies whom to seek for comparison.
 
-Proponents of new goals owe reasons and consideration of costs; others may disagree. But if only faster closure can be discussed, and resolution itself cannot, what most needs changing never enters the conversation.
+If changed questions, evidence, and conditions always let the same method support our favourite conclusion, ask whether any result could change our view. Without one, the method may merely provide reasons for preference.
+
+Disagreement while reading can teach us more. Finding where an analogy fails reveals a missed distinction. A valid example stating only what we already know may add little ability.
+
+Accumulated methods can cross disciplines while preserving their distinct tasks. Proof, historical inquiry, shared practice, and counterexamples supply different things. Choosing among them teaches us to explain why this problem calls for this method.
+
+Earlier methods can carry us far. Reaching places their makers never visited may make revision our responsibility.
+
+Learning from failure requires finding the missing people and recovering distinctions that were not retained. Whether this work can happen depends on data and authority still being available. Beyond today's answers, we are deciding what tomorrow's error detection can draw on.

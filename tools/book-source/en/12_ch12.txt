@@ -1,109 +1,84 @@
-#H1 12 — Knowing Before Words
-A firefighting crew enters a house. The fire seems to be near the kitchen. They apply water as usual, but it does not behave as their commander expects.
+#H1 12 — Decisions in Limited Time
+In the preface, the ground cleared Eagle to continue descending. That brief reply arrived through a chain of work: understanding the alarm, assessing the state, and transmitting a judgement.
 
-Interviewing the commander, decision researcher Gary Klein repeatedly explored what happened next. The commander abruptly felt something wrong and ordered everyone out. After they left, the floor collapsed. The fire was actually in the basement, directly below where they had stood.[^klein]
+Software specialist Jack Garman supplied guidance; guidance officer Steve Bales assessed the situation; Charles Duke relayed it to the astronauts. The ground continued monitoring essential data and checking recurrent alarms.[^apollo] Training, software design, and divided responsibilities let work proceed in time that one person could not have completed alone.
 
-The commander initially called it a sixth sense. That name neither teaches others how to acquire it nor establishes when to trust it. Further questioning uncovered clues: heat disproportionate to the visible fire, unusual quiet, and water not producing the expected effect.
+After landing, engineers could investigate the added load. Participant Fred Martin recalled examining software, using simulation equipment, and comparing telemetry with procedures, tracing the extra workload to the rendezvous radar. One landing had succeeded; the next flight still needed the inquiry.
 
-He had not first assembled them into a complete argument about a basement. Before that explanation existed, differences had made evacuation seem necessary.
+Clearance to continue committed to much less than a complete explanation of the fault. It relied on the alarm type, overload handling, and essential guidance still functioning. Later questions mattered during descent too, but the craft could not wait for all their answers.
 
-These clues emerged through retrospective interviews. They permit investigation without establishing that every detail later articulated was fully present in his mind then.
+Everyday understanding needs such allocation of time. Conversation demands responses before every motive is analysed. Even an evening afterwards cannot accommodate foundational research on every concept before we allow ourselves a next step.
 
-The scene did not simply provide one conspicuous danger signal. Expected responses failed to occur: water did not reduce fire as anticipated, and heat and sound did not fit. Recognition preceded the interview's explanation. Requiring names, measurements, and a complete argument before differences could affect action might have consumed the time needed to leave.
+Analysis can become endless when every worthwhile question becomes a prerequisite for action.
 
-We often place fast, intuitive, and emotional judgement opposite slow, rational thought. These terms concern different dimensions. Speed is time; intuition commonly means an answer arriving without conscious stepwise reasoning; emotion includes feeling, appraisal, and tendencies to act. Rationality can mean explicit inference or appropriate responsiveness to reasons. Comparison must identify its dimension.
+Reasoning from first principles can unpack assumptions and locate more basic conditions when an old framework fails. It need not reach an assumption-free origin. Concepts, inference rules, observations, and provisionally accepted knowledge remain in use.
 
-A fast answer can derive from years of practice. Hours of analysis can keep defending prejudice. Emotion may draw attention to neglected harm; reasoning can examine causes, responsibility, and responses. Assessment needs their contribution to judgement, not ranking by speed or composure alone.
+Questioning already consumes time. Planning next week's language practice does not require resolving the nature of language, the complete neuroscience of learning, and education's ultimate purpose. These deserve study without necessarily being answered before practice begins.
 
-Intuitions also develop differently. Some skills begin as explicit rules and become fluent. Others arise chiefly through exposure, imitation, and feedback without a prior written rule. The former can revisit learned steps; the latter need comparisons of experience and results. Rapid arrival does not make both concealed complete arguments.
+If a checked method fits the circumstances reasonably well, using it is usually more feasible than rebuilding all its grounds alone. Anomalies, clearly different conditions, or a premise touching your central doubt can focus investigation on a particular point.
 
-#H2 Information We Cannot Yet State
-In a 2007 experiment, researchers paired odours participants could not consciously detect with ratings of neutral faces and observed effects under specific conditions. This supports a limited conclusion: sensory influences can enter judgement without their source being reportable.[^smell]
+Pursuing basic conditions should help identify a problematic assumption. If each layer adds another thing that must be fully understood before starting, next week's practice may never be scheduled. Ask which answer would actually alter the arrangement.
 
-Influence does not establish improved accuracy. The odour was not evidence of a person's likeability; it could divert judgement from the intended object.
+Immediate action, later review, and long-term learning can connect without all occurring at once.
 
-An unexplained feeling can nevertheless guide investigation. An unusual machine sound can be recorded, compared with normal operation, and checked for associated faults. Inability to name a frequency does not erase the difference. Strength of feeling does not replace comparison either.
+#FIG fig-06-thinking-times.svg|Figure 12.1　Immediate action, later analysis, and long-term learning support one another. Lines are not proportional to duration and prescribe no uniform timetable. Drawn for this book.|Present action uses available ability; later review examines results and adjustments; long-term learning changes abilities available next time.
 
-Explicit inference needs relevant input. If its only information is that a machine still runs, careful deduction cannot hear an unrecorded noise. Observation, measurement, and work on site may supply details missing from analysis.
+High risk does not always permit slow thought. Some urgent, dangerous situations require trained rapid responses. Relevant questions concern available reliable abilities and information, the costs of delay, and conditions that can be improved beforehand.
 
-Conversely, explicit comparison reveals what impressions omit. Chapter 5's two equal averages concealed the presence of a value below twenty until the original numbers were displayed. A general impression of similar average performance cannot answer that question. Feeling and inference can each miss or reveal differences.
+#H2 Half the Problem Is in the Environment
+Herbert Simon's research on organisational decisions developed bounded rationality. Actual people cannot obtain all information, list every option, and compute the best answer at no cost. Decisions occur within limits of time, knowledge, and ability. Explanation cannot omit them.[^simon]
 
-An operator hears an anomaly, measurement identifies it, and shared listening teaches a novice to notice previously unheard features. Feeling and explicit comparison change one another through learning. The resulting ability belongs wholly to neither alone.
+One strategy, satisficing, establishes acceptable requirements and stops at an option meeting them instead of surveying every possibility. A feasible arrangement may need to be affordable and fit the available time. Requirements too low miss worthwhile improvements; too high may produce endless searching. They can also be revised as information arrives.
 
-#FIG fig-16-learning-feedback.svg|Figure 12.1　How feeling, inference, and checks assist one another. Outcomes, example comparisons, and independent measurement can revise judgement. Delayed or incomplete feedback may leave errors unlearned. This is a learning diagram, not a map of brain regions. Drawn for this book.|Experience supplies both fluent reactions and explicit inference. They can prompt one another and be corrected through results, comparison, or independent measures; feedback can also be incomplete.
+Simon compared rational behaviour to scissors: one blade is the task environment, the other the actor's capacities. Either alone cannot explain the work. Stable signals may support a simple rule; changing signals or serious error costs may render it unsuitable.
 
-After such checking, a similar sound may quickly indicate where to look. Unsupported guesses need recording too, so misses are not erased by remembered successes. Long learning can improve immediate responses without being repeated before every action.
+The same person gains options with clear records, learned methods, and access to knowledgeable people. The person is unchanged; available conditions alter the judgements they can make.
 
-#H2 The Ball Is Still Aloft; the Feet Are Already Moving
-A baseball flies towards the outfield. A fielder watches and runs. Describing the task as first obtaining speed, spin, and wind, then calculating a landing point, portrays the body as a ballistic computer unable to report its calculations in time.
+#H2 Do Not Keep Every Problem Inside Your Head
+Aristotle distinguishes deliberation about what action can change and whose outcome remains uncertain from matters eternal or wholly beyond our agency.[^aristotle] We can further distinguish conditions unchangeable now from those alterable over time. This book uses that distinction for a practical analysis.
 
-Research offers another family of explanations. Fielders use changing visual relationships to adjust while moving, without first fixing a landing point. Models include linear optical trajectories and control of optical acceleration, with distinct conditions and testable expectations.[^catch]
+Imagine three circles. The innermost contains present decisions. The middle contains conditions alterable through cooperation, institutions, or long learning. The outermost contains what must presently be acknowledged, monitored, or borne. Boundaries move. Collective organisation may bring policy into the middle circle; disaster may move a schedule beyond present control.
 
-Movement changes the trajectory subsequently seen. Researchers therefore examine reciprocal relationships between vision and action. Judgement can form while running and continue changing with the run.
+Drawing boundaries does not make outer matters unimportant. It specifies what this analysis can do: decide, seek help, record, or commit to later action. Requiring every question resolved before acting can turn thought into avoidance. Looking only inward can also mistake collectively alterable conditions for immutable facts.
 
-Carrying a nearly full cup also reveals continuous adjustment: visible water movement changes hands and steps. Studying the activity requires the information acquired during it and the responses. Looking only for a comprehensive plan before departure may miss this process.
+Reasons for stopping need review too. Is further information unlikely to change action, or is the result uncomfortable? Has time actually run out, or have only certain people's time costs been counted? We can state what is known, what remains missing, why action proceeds now, and what would reopen analysis.
 
-#H2 Cook Ding Also Slows Down
-In “Nourishing Life” in the *Zhuangzi*, Lord Wenhui watches Cook Ding butcher an ox. Hands, shoulders, feet, knees, and knife move in rhythm.
+#H2 Completing a Limited Inquiry
+Suppose you must decide whether to change next week's learning routine. You read extensively every evening but feel little becomes usable. Tonight you have forty minutes to examine the problem.
 
-Ding says that initially he saw the whole ox; years later, he perceived a structure through which the knife could move. Following spaces among the joints, he avoids forceful collision. The story takes mastery to an extraordinary degree: after nineteen years and thousands of oxen, the blade remains like one freshly sharpened.
+At the end, there should be an arrangement to try next week. Why you have learned this way may involve years of habit, not fully understood in forty minutes.
 
-At a difficult cluster of joints, he becomes alert, concentrates, slows down, and moves the knife with minute care. Only afterwards does he put it away.[^zhuangzi]
+Material may be too difficult; reading may exceed application; or learning may already have occurred without being checked. These explanations imply different next steps and are worth distinguishing.
 
-His mastery includes slowing at difficulty, not merely speed in familiar work. The nineteen-year blade belongs to the parable's exaggeration. The pause nevertheless suggests a research question: what experience permits both fluent routine and early recognition that this occasion needs special attention?
+Choose a recent concept, close the material, explain it, and try a new example. Inability to explain suggests reviewing the material or prerequisites. Explanation without application indicates a need for practice. You may also discover more ability than expected.
 
-Daniel Kahneman and Gary Klein's 2009 discussion of expert intuition identified two important conditions: an environment containing learnable regularities, and adequate opportunities to learn them through experience and feedback. Subjective confidence alone cannot guarantee correctness.[^intuition]
+If you can explain but cannot handle changed conditions, keep half the reading time and use the rest for varied examples next week. This addresses the revealed gap. If basic understanding was missing instead, the priority would be foundations, not the same timetable.
 
-Twenty years can make the same guess extremely fluent if errors never become visible. Delayed feedback, luck, and status can obscure which judgement failed. Equal years need not yield equal learning.
+After a week, check with new tasks of comparable difficulty. Continued difficulty calls for reviewing examples, feedback, and prior knowledge. Improvement gives reason to consider continuing. The arrangement now specifies both an action and a way to choose what follows. A week's learning will test its usefulness.
 
-Recognition exercises with answers concealed, prediction records, and alternative measurements can expose differences. Skill at hearing does not ensure numerical estimation; reliable cues can fail elsewhere. Intuition established in one task cannot vouch for judgement in another.
+Other questions can be recorded: unclear long-term goals, scattered materials, or work fragmenting study time. Not solving them tonight does not make them unimportant. They can have time elsewhere without blocking everything now.
 
-#H2 After Understanding, Another Distance Remains
-An idea can be understood yet unavailable when needed. You may accept that one failure does not condemn a whole person and still rush to defend yourself under criticism. You may understand sunk costs yet find it hard to assess a three-year project solely through future costs and opportunities.
+Further checking generally has grounds if it is likely to alter an important decision or prevent a substantial loss. A secondary detail whose possible answers leave feasible choices unchanged may not warrant extensive work.
 
-The gap identifies further practice. Explaining a reason quietly establishes one kind of understanding. Remembering and acting on it in relevant situations requires recognising the occasion, retaining the procedure, and sometimes bearing discomfort.
+Changing a decision is not the whole value of information. Some information improves execution of the same choice. Some exploration builds capacity for recurring future problems without changing today's decision. These benefits count too.
 
-John Anderson's 1982 research proposed an account of explicit knowledge becoming procedural ability. Beginners recall rules in sequence; practice can speed execution and reduce conscious rehearsal.[^skill] This helps investigate certain skills. Changes in emotion and belief require inquiry into their own learning processes.
+Against them stand time, money, attention, and delay. The cost of reaching a better decision belongs within its evaluation.
 
-Reflection has a long-term use: select worthwhile practices and arrange repeated application and checking. Someone who hears every objection as total rejection can reread a dispute and distinguish specific criticism from judgement of the person. Next time, first establish which point is opposed. If practice helps, what attracts attention changes, and the reminder enters the response itself.
+Including these resources connects with bounded and resource rationality. Falk Lieder and Thomas Griffiths's resource-rational analysis studies cognitive strategies' effectiveness and costs under limited computation.[^resource] It offers a relevant direction: evaluate the means of obtaining an answer alongside the answer itself.
 
-Moral judgement faces related demands. Some harms require timely attention without a fresh debate each time. Reflective care should increasingly inform ordinary reactions. Habit does not guarantee goodness: discrimination and evasion can also become automatic.
+Calculating whether more thought is worthwhile can provoke another calculation of whether that calculation is worthwhile. Requiring complete higher-level assurance merely extends endless analysis upwards.
 
-#H2 Ask Experts When They Would Stop
-“How did you know?” may yield only “I could just see it.” A specific event allows further questions: which detail changed your action, would you have continued without it, and when would you ask for help?
+Work must begin with provisional arrangements: proportionate time budgets, attention to consequential differences, and limited opportunities to review. Evidence of poor allocation can justify changes without reproving an entire philosophy before each task.
 
-Klein's work uses such inquiry to trace expert decisions. It does not demand an instant complete theory, but investigates cues along an actual decision. Heat, sound, and response to water guided further questions in the fire case.
+Repeatedly circling the same reasons may warrant stopping to gather evidence, try something, or ask someone. A cheap, reliable check on a crucial uncertainty may warrant continuing. The next step's potential contribution matters.
 
-Having heard these cues, novices still need comparison and practice in relevant situations. Interviews identify where attention belongs without conferring expertise. Contemporary records and later results can also distinguish what the interviewee noticed then from explanations formed afterwards.
+Inquiry without immediate output deserves time too. Philosophical questions need not all enter tomorrow's task list. Clarify whether this is a deadline-bound decision or an invitation to let a question slowly change you. Confusing the two can leave decisions stalled and thought perpetually hurried.
 
-#H2 Keep a Record Before the Outcome
-Known outcomes can seep into recollection of earlier beliefs. A 1975 study by Fischhoff and Beyth used judgements before and after Nixon's visits to China and the Soviet Union. Participants first assessed possible outcomes' probabilities, then recalled their earlier assessments. Events that occurred tended to become more foreseeable in memory; events that did not seemed more doubtful all along.[^hindsight]
+#H2 A Choice That Cannot Be Lived Twice
+Next week's study schedule can change again. Some choices cannot be fully reversed. After accepting a job, you can check promised duties, but cannot simultaneously live the life in which you declined. That outcome is unavailable for later reading.
 
-Pre-outcome records can expose this rewriting. For important judgements when time permits, record initial cues, expected results, and confidence, including unclear reasons. Later checking then need not credit hindsight as prior knowledge.
+Success does not prove alternatives would have been worse; difficulty does not by itself prove the original choice careless. We can investigate failed expectations, inaccurate information, and worthwhile checks omitted at the time. Asking about hours, consulting shared caregivers, and examining duties brings us closer than repeatedly comparing job titles mentally.
 
-A record preserves a judgement without generating every outcome needed to test it. A manager writing that a rejected applicant may be unsuitable still cannot see how the applicant would have performed if hired. Comparison needs the missing kind of evidence to be identified.
+Preparation supplies firmer grounds. A choice remains. As Eagle descended, the ground continued receiving data. Some answers become investigable only after events move forward.
 
-Some outcomes can be followed regardless of our decision. Shares considered but not bought still have later market prices. Specific price predictions and deadlines permit checking beyond remembered purchases.
-
-Other comparisons require different arrangements actually being implemented. Product A/B tests expose groups to different versions to compare effects. These designs have costs. When opportunities or treatment are involved, fairness, consent, and tolerable risk restrict experiments. Better prediction does not justify arbitrary costs imposed on others.
-
-Some questions lack the outcome of one person taking another path in the same history. A declined job cannot become an alternative life already lived. Comparable experiences, statistics, and research reduce uncertainty without restoring that unlived history.
-
-Before investigating, establish what a dataset can answer and what remains unknown. Investment should compare information costs, consequences of error, and future chances to use the learning. Importance and repetition add reasons, but neither exempts expensive research from cost comparison.
-
-#H2 Emotion Helps Decide What Becomes a Question
-Emotion often helps something begin to matter. Indignation at humiliation can bring a supposed joke into question; attachment can sustain attention to another person's unspoken difficulty. Before answers form, feelings influence what we ask.
-
-This role needs discrimination. Anger may notice injustice or mistake frustration for malice. Shame can prompt reflection or reflect unworthy group demands. Emotions need examination without presuming that examination should remove them.
-
-We can correct anger's attribution while retaining sensitivity to harm. Others' explanations can teach responses to experiences previously ignored. Such changes affect future attention, memory, and inquiry, not merely response speed.
-
-Care sustains observation, enjoyment supports practice, disappointment reopens expectations. Feelings can participate in extended learning rather than merely supply a quick preliminary guess. Their judgements need checking, but composure alone cannot establish their worth.
-
-Reflection changes future feeling, and feeling can expose inadequate reasons. Understanding someone's experience may make a formerly harmless-seeming joke impossible to laugh at. Once that change remains, we need not rehearse the argument every time to stop laughing.
-
-Learning conditions participate too. Comparable examples, timely feedback, and prepared practice improve discrimination. Rest, colleagues willing to point out errors, and tools presenting useful cues affect whether learning occurs.
-
-In an urgent anomaly, trained response may remain the best available ability. With time, comparison and checking may be appropriate. Fast and slow responses can benefit from the same history of learning.
-
-Sometimes what changes is a belief we can state; sometimes it is what first catches our eye. By the time the latter changes, we may no longer remember how long that first glance took to learn.
+Individuals do not always decide alone when analysis stops. Assessment deadlines, rewards, and authority keep some questions open while closing others early. Once understanding enters institutions, which results can return to change methods becomes a question of power.

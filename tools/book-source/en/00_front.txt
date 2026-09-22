@@ -7,7 +7,7 @@ Soman Lin
 #TOC
 
 #H1 Preface — Before Landing
-What carries us into unfamiliar worlds is a way of understanding that can examine itself—and change.
+To turn knowledge gathered from different places into usable understanding, we need to see how its parts connect—and how new experience can change those connections.
 
 On 20 July 1969, Armstrong and Aldrin were descending towards the Moon in Eagle. More than thirty thousand feet above the surface, the guidance computer issued a program alarm: 1202.
 
@@ -25,7 +25,7 @@ A brief reply can leave us guessing at another person's attitude until a questio
 
 Looking back, we often find that the difficulty began before an answer took shape. A record preserved part of what happened; an explanation supplied part of its meaning. A measure was chosen, and certain people were authorised to judge whether the result was good enough. By the time we begin arguing over answers, these choices have usually been made, sometimes without anyone noticing.
 
-Second-order understanding, as this book uses the term, starts here: with a look back at how we formed the question and arrived at the answer before us.
+Second-order understanding, as this book uses the term, concerns these arrangements: how material becomes judgement, how judgement leads into action, and how results can change the methods that produced them. Even the rules by which we detect error, learn, and revise are open to examination.
 
 First-order understanding addresses the matter itself. What does the alarm mean? Does this treatment work? Why is the other person silent? Second-order understanding turns to the way we make sense of that matter. Which materials gave the question its shape? What survives when those materials become words, diagrams, or numbers? Who judges, and by what standard? Can later results change the original method?
 
@@ -35,6 +35,6 @@ This book is concerned with what understanding makes possible: better prediction
 
 Usefulness therefore needs to be made specific. Convenience, profit, comfort, and cooperation are all possible uses, but none answers for the others. Whose capacity does an understanding increase, under what conditions, and at whose expense? Once the immediate achievement has passed, how much room does it leave for learning and correction? Following these questions helps us avoid mistaking success on one occasion for fitness everywhere.
 
-We will begin with a horse thought capable of arithmetic. It repeatedly gave the right answers, but researchers gradually found more reason to investigate where those answers came from. Other people's knowledge, our own purposes, and the forms in which we record the world will then enter the discussion. Each chapter adds to a framework for examining understanding across different fields—and for asking the same questions of itself.
+We begin with a horse believed to understand arithmetic. He repeatedly gave correct answers, yet researchers gradually found their origin more revealing than the answers themselves. Ways of recording the world, other people's knowledge, and our own purposes enter through this inquiry. Part One introduces the whole framework: what a transformation preserves, whether different kinds of work can be composed, and whether new results can return to change earlier methods. Subsequent chapters develop these three relations until bodies, tools, and institutions enter the same picture—and the picture itself comes under examination.
 
-By the end, you will be able to practise tracing an answer back through its formation, distinguishing a lack of evidence from a lack of method, enabling conditions, or an opportunity to reconsider the aim. In unfamiliar fields, you can learn to recognise which earlier methods are worth borrowing. In your own reactions, you can notice more of what feelings, habits, and surroundings do together. These abilities take time to develop. This book offers a place to begin: to let failure leave usable clues, and to find a next step while understanding is still unfinished.
+After reading, you can practise tracing an answer back through its making, distinguishing a lack of data or method from missing conditions or an opportunity to reconsider the purpose. In unfamiliar fields, you can identify which earlier methods are worth borrowing; in your own reactions, you can see more of how feeling, habit, and environment work together. The book offers a way to connect these tasks: identify what a piece of knowledge preserves, bring different people's abilities to bear on the problem, and let the results of action reach the places that need to change. It cannot make every decision for you. It can help you explain your grounds for proceeding now, and where you might begin again later.
