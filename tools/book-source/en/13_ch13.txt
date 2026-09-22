@@ -1,0 +1,57 @@
+#H1 13 — The Knower Is Not a Single Command Centre
+Close your eyes and you can usually still locate your right hand. Bent or straight, resting against a chair: the arm's position can be felt without sight. This sense of position and movement rarely attracts attention. It lets the eyes look elsewhere while the body continues its work.
+
+In 1992, Jonathan Cole and E. M. Sedgwick reported an unusual participant. He could still move voluntarily and retained some sensations of pain and temperature, but had lost most sensory input concerning light touch and limb position below the neck. In him, the ability to move muscles and the ability to feel movement became distinctly separable.
+
+Watching his forearm move and comparing weights, he could distinguish fairly fine differences. Closing his eyes markedly reduced performance. Some postures and simple repetitive movements could continue to a limited extent; new movements depended on visual feedback.[^deafferentation]
+
+Movements ordinarily requiring little attention demanded sustained watching, adjustment, and relearning. Vision supplied some missing positional information, while making that attention less available elsewhere.
+
+Some bodily work does not even require stepwise neural commands. A paper edge cuts skin, small vessels are damaged, and local haemostasis begins as blood escapes. You may notice, treat, or seek help. Local protein reactions need not await conscious recognition and permission.
+
+Local signals, platelets, and coagulation proteins contribute to clot formation after vessel injury. They can operate before conscious judgement. Haemostasis should not be described as a neural reflex that first sends a message to the spinal cord and receives an order back.[^clotting]
+
+Platelets are small cell fragments involved in haemostasis. Coagulation reactions help form a fibrous network. Local reactions are initiated and amplified, while inhibitory and clearance mechanisms affect them. Explaining when clots form and why they do not expand without limit requires these interactions.
+
+Spinal reflexes instead involve neural circuits. Some responses can be organised without waiting for conscious choice while remaining subject to other neural modulation. Independence from an immediate conscious decision does not mean isolation from the brain.[^spinal]
+
+The brainstem connects brain and spinal cord and participates in breathing and many signals. The cerebellum contributes to coordination, adjustment, and other functions; cerebral regions jointly support perception, memory, language, and planning. Extensive connections sustain activities across regions.[^brain] Explaining behaviour therefore requires tracing information and modulation, not merely naming organs.
+
+Figure 13.1 compares local haemostasis with interactions among sensation, neural circuits, and responses. Both can operate without an immediate conscious decision; their mechanisms of initiation, regulation, and limitation differ.
+
+#FIG fig-07-body-regulation.svg|Figure 13.1　Functional relationships among different mechanisms. Based on this chapter's sources, the comparison is not a complete anatomical diagram; arrows do not individually correspond to neural pathways. Coagulation, reflexes, and conscious activity retain their mechanistic differences.|Local haemostasis through vessel injury, platelets, and coagulation proteins appears on the left. The right shows interactions among sensory input, spinal and brainstem-related circuits, broader brain networks, and responses.
+
+The comparison identifies relationships supporting capacities. Coagulation contributes to haemostasis without thereby possessing human conceptual understanding. Comparing support conditions must preserve that difference. Second-order analysis can examine researchers' representations of mechanisms without calling every feedback process thought.
+
+#H2 Coughing Reveals Mutual Regulation
+In a quiet room, an urge to cough can sometimes be suppressed and sometimes not. You can also cough deliberately to attract attention. Similar sounds need not share initiation or regulation. Research distinguishes stimuli, urge, actual cough counts, and activity during suppression.
+
+Stuart Mazzone and colleagues used functional brain imaging to compare conditions including coughing and suppression. Different patterns supported involvement of networks above the brainstem. Activity differences guide investigation without establishing every region's causal role by themselves.[^cough]
+
+Sometimes an intention to suppress succeeds. When it does not, the body does not wait for permission. We participate in regulation without gaining command over every operation.
+
+#H2 Changing Ourselves Through Things Outside Us
+Self-adjustment need not direct effort only into consciousness. Practice, sleeping environments, tools, and medical interventions can alter different processes. Each requires relevant knowledge; all cannot be attributed simply to willpower.
+
+A small 2007 randomised trial by Alyn Morice and colleagues gives a concrete distinction. Morphine treatment for chronic cough improved some symptom measures, while the citric-acid cough challenge did not show a significant change.[^opiate] One measure recorded symptoms; the other assessed coughing induced by an experimental stimulus.
+
+A threshold marks conditions needed for a response to begin. Claiming that a drug raises a cough threshold requires specifying stimulus, response measurement, and comparison before and after treatment. Less everyday coughing or improved comfort alone does not establish a higher stimulus requirement in a challenge test. Distinguishing measures locates the improvement.
+
+A person may choose an intervention without directing each subsequent physiological reaction. Researchers investigate substances and design trials; clinicians assess suitability; institutions affect access. A bodily change can depend on extensive work outside the body.
+
+Changing oneself can therefore include arranging external conditions. Learners choose environments, ask for correction, and use reminders. These arrangements gradually change habits and judgement. The present self can seek the assistance needed for change. Agency can extend through external conditions without positing an inner commander controlling the whole body.
+
+#H2 Which Changes Count as Regulation?
+It is tempting to call every natural change information processing. If falling stones, clotting blood, catching balls, and debating rules all become one label, distinctions needing investigation disappear beneath it.
+
+Compare a stone with a thermostat. Both obey physical laws. The thermostat also has a sensor, temperature setting, and switch: departures from the setting change heating. Altering the setting or disabling the sensor tests their effects. The stone changes too, but lacks this arrangement of measurement, reference, and response.
+
+Coagulation differs mechanistically from a thermostat, involving local initiation, amplification, and limits. Motor control uses continuously changing sensations; learning may alter future responses. Comparison should identify detected differences, their effects on activity, and how outcomes influence subsequent responses.
+
+Feedback can arrive late or amplify error. Heating from outdated temperature measurements may fail to stop appropriately. Modules repeatedly undoing each other's changes can leave work oscillating. Benefit depends on received information and the timing of response.
+
+Fixed procedures for familiar tasks, adaptable strategies for new situations, and human handling of exceptions form one investigable arrangement. Allocation depends on information, time, and demonstrated ability. A person without original circumstances and with seconds to respond does not acquire missing capacity because a chart says human responsibility.
+
+A whole may accomplish what no part can do alone. Investigating that ability requires both local activity and interaction. Brain or command centre remains a label, not a substitute for studying relationships.
+
+Society adds participants able to reject goals. Employees can protest with reasons deserving a hearing, not merely deviations to be corrected. Bodily organisation can suggest research questions. Authority to demand obedience still requires social and ethical justification.

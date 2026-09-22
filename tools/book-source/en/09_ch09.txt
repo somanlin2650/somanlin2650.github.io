@@ -1,0 +1,104 @@
+#PART Part Three|The Knower Is Inside the Framework|Understanding is not pure calculation detached from bodies, time, and other people. The knower's abilities and limits belong to the problem.
+
+#H1 9 — Other People Are Not Objects Awaiting Decoding
+Rain falls outside the ruined Rashomon gate. Beneath it, a woodcutter and a priest discuss testimony about a killing. A passer-by shelters there and asks what happened. Kurosawa's film *Rashomon* unfolds through this questioning. Alongside the stranger, we hear incompatible versions of events.
+
+A samurai travelling through a wood with his wife encounters the bandit Tajomaru. The samurai dies; his wife is assaulted. The bandit admits killing him but depicts himself as the victor in a fair duel. In his account, the wife demanded the fight.
+
+The wife's account contains no duel. After the bandit left, she says, her husband looked at her with contempt. She approached with a dagger, lost consciousness, and awoke to find it in his chest. Speaking through a medium, the dead man supplies a third account: his wife asked the bandit to kill him, and he eventually killed himself. Murder by the bandit and suicide cannot both describe his death.
+
+Each speaker's story restages the wood. The people remain; their actions change. The woodcutter later admits more than discovering the body: he witnessed the conflict. His two men hesitate and fight awkwardly, unlike the bandit's heroic duel.
+
+A baby cries beneath the gate. The three discover an abandoned child. The stranger takes its clothes; when the woodcutter objects, he asks where the wife's valuable dagger went. He suspects the woodcutter stole it and concealed what he saw. The man apparently exposing other accounts now faces doubt about his own.
+
+The woodcutter nevertheless decides to take the child home. The priest initially withholds it, then releases it after hearing his intention.[^rashomon]
+
+The killing remains unresolved, but the child has somewhere to go. Entrusting care to the woodcutter does not require accepting all his testimony. Trust in one person can have different scopes. Life cannot wait indefinitely for settled truth. On what grounds can it continue?
+
+#H2 Leave Unfamiliar Words in Their Setting
+In 1947, Thomas Kuhn, studying physics at Harvard, began reading early scientific texts for teaching. Aristotle's treatment of motion puzzled him. Read through post-Newtonian physics, much seemed untenable. How could a thinker so perceptive elsewhere appear so different here?
+
+Kuhn later described a turning point in understanding Aristotle's vocabulary. Motion and change included growth and altered qualities as well as displacement. Reading only through later physics excluded part of the meaning. Once the terms opened up, the arguments began to reveal their organisation.[^kuhn]
+
+What first looked like a wrong answer turned out to involve a different question. The concepts used to judge the ancient thinker came under examination through reading him.
+
+#H2 Reasons Haidt Heard in India
+In 1993, social psychologist Jonathan Haidt undertook fieldwork in Bhubaneswar in eastern India. Accustomed to understanding morality through harm, rights, and fairness, he initially struggled with certain requirements concerning purity, hierarchy, and duty.
+
+In retrospect, he described how daily life helped him see their connections with obligation, care, and sacred things. He began to perceive what adherents believed they preserved, alongside restrictions on individual choice.[^haidt]
+
+A visitor's experience of hospitality may transform their view without representing everyone living under the rules. Those bearing restrictions have experiences of their own. Understanding how customs sustain relationships can also sharpen criticism of whose sacrifices sustain them.
+
+Return to the child beneath the gate. The priest still lacks the full history of the wood, but the woodcutter's willingness to raise the child gives grounds for entrusting care. The dagger remains in question; another life cannot wait. Understanding does not yet add up to a complete judgement of the man, while care must begin.
+
+Interpreting someone also changes our relationship. Decide in advance that they make excuses, and every clarification may become another excuse. Sensing distrust, they speak less. Our explanation of their behaviour is accompanied by an attitude changing that behaviour.
+
+Letting them correct us makes learning possible. Their account can still be checked against records and others' experience. Mutual understanding grows through replies; more layers of solitary guessing cannot replace them.
+
+#H2 After You Know Their Answer
+Knowing a position, we can follow its reasons. Someone supports trialling a new rota because it can be reversed if unsuitable. We learn both their conclusion and a condition they rely on: recoverability.
+
+Now suppose publishing the rota would cost some workers existing care arrangements that cannot readily be restored. Would the supporter still agree? If the relied-upon condition is absent, does judgement change? Such questions expose both the weight of reasons and overlooked costs.
+
+This consideration can guide other decisions: reversible consequences may support a trial; irreversible ones may require preparation. Another opponent may reject the rota for different reasons, even if reversible. Those reasons must be asked about rather than inferred from the first person.
+
+#H2 Is Anyone in the Boat Coming Towards You?
+In “The Mountain Tree” of the *Zhuangzi*, a collision changes anger. An empty boat approaches without provoking the story's man. Seeing someone aboard, he calls for them to steer clear. Repeated unanswered calls turn into abuse.[^zhuangzi]
+
+The boat still approaches, but anger now has an object: someone expected to respond who does not. Beyond the collision's force lie judgements about intention and responsibility.
+
+The parable continues into the cultivation of an emptied self. We can also notice how anger depends on inferred intention. Did the person see the approaching collision? Could they avoid it? Until these are established, deliberate refusal is not a settled conclusion.
+
+Causes can change responsibility. Some people cannot control a boat; others knowingly omit available precautions. Damage remains to be addressed. Who bears responsibility depends on what could be known and done, and what was actually done.
+
+Three matters need separating: how behaviour arose, how the actor explains it, and whether that explanation answers those affected. Pressure can help explain a loss of control without deciding how much others should endure. An institution discouraging reports explains some silence; responsibility still depends on authority, risk, and available alternatives.
+
+Public discussion offers another shortcut: calm, fluent speakers appear credible. Clarity aids checking, but some people lack vocabulary, are frightened, or are too hurt to maintain the composure demanded by spectators.
+
+When someone angrily says “it happens every time,” we can investigate frequency while addressing the confirmed occurrence. “Every time” may overstate it; the harm already done remains. Helping specify events improves evidence and prevents argument stopping at exaggerated wording.
+
+Knowing another person's fears can support comfort or threats. Recognising vulnerability does not justify exploiting it.
+
+Refusal to continue talking may reflect exhaustion or fear of punishment. Stopping established harm, preserving records, and allowing rest and safe expression often take priority over more questions. Care should not await an explanation we find satisfactory.
+
+#H2 One Word Can Make Different Demands
+Kuhn's example concerns meaning. Everyday discussion adds another difficulty: shared use of “fairness” may conceal different priorities. Some favour first arrivals; others urgent needs. Even translated words can leave demands unspecified.
+
+In a park redevelopment, “we disagree” may involve several questions:
+
+#TAB
+Location of disagreement|What needs clarifying?
+Data|Do records cover the same period and area?
+Definitions|Does access mean walking, wheelchair use, or vehicle speed?
+Causes|Which design creates congestion, and what supports that claim?
+Scale|Are temporary construction disruption and long-term outcomes distinguished?
+Purpose|Are we improving transport, recreation, or something else?
+Values and risks|Which costs are unacceptable to whom, and why?
+Authority|Who may set shared goals, and how do affected people participate?
+#ENDTAB
+
+One dispute may contain several unresolved differences. Investigation addresses some factual disagreements without deciding which life is more worthwhile. Conversely, different values do not remove the duty to correct false records.
+
+Suppose managers propose more park lighting for safer passage. One user doubts that lamp positions cover the paths where falls occur. Another accepts the safety effect but worries about nocturnal wildlife. A third asks for residents' participation. All oppose, but different parts of the proposal.
+
+The first question invites investigation of accidents and lighting. The second needs ecological and usage information as well as judgements about costs. The third concerns authority and procedure. Better research alone does not confer the right to decide for others.
+
+#FIG fig-13-disagreement.svg|Figure 9.1　Opposition can concern different relationships. This hypothetical proposal develops the table; it is not a park survey. Drawn for this book.|The same lighting proposal can face objections about effectiveness, comparison of costs, and authority. Each needs different evidence or discussion.
+
+#H2 Be Clear About the Agreement You Can Reach
+Clarifying disagreement need not eliminate it. Participants may agree on accident records and a lighting improvement for one path, yet disagree about acceptable ecological costs. Separating established points from disputed ones avoids starting the same factual argument again.
+
+Shared standards can cross professions. Product and safety teams may differ over launch dates and accidents while agreeing that easily corrected mistakes require different review from irreversible harm. Procedures can begin there while classification of risks remains debatable.
+
+The shared standard must also face scrutiny. “Reversible” may conceal disagreement or exclude losses borne by one group. Stating those differences prevents apparent agreement from obstructing discussion.
+
+Where values or basic beliefs cannot presently be reconciled, disagreement can be specified. Treating a loss as inexchangeable differs from accepting compensation, and neither is simply a misread datum. Recognising the absence of a shared standard can open negotiation and procedures for acceptable coexistence.
+
+#H2 The Cost of Changing Your Mind
+A thought encountered yesterday may be easy to revise. A judgement entwined with reputation, belonging, or years of effort is harder. Alongside examining evidence, resistance to persuasion invites a question: what would change cost this person?
+
+They may fear losing colleagues or having all previous work discredited by one error. Distinguishing “this judgement needs correction” from “this person has no ability” can sometimes keep discussion open. Harmful actions and responsibility still need specific treatment.
+
+A reasonable decision on the information then available also differs from neglect of obtainable evidence. Both can require change after new findings, but what must be admitted and improved differs.
+
+Once judgement changes, the person returns to those who trusted or were hurt by their earlier position. Revising the account is only the beginning of facing them.

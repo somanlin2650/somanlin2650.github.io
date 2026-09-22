@@ -1,1789 +1,2002 @@
 ---
 layout: post
-title: "No View Is the Whole: The World and the Ways We Make Sense of It"
+title: "No View Is the Whole: A Second-Order Philosophy of Understanding, Action, and Revision"
 date: 2026-08-25 16:00:00 +0800
-last_modified_at: 2026-09-15 20:00:00 +0800
+last_modified_at: 2026-09-22 09:00:00 +0800
 lang: en
 permalink: /en/posts/no-view-is-the-whole/
 alternate_url: /posts/no-view-is-the-whole/
 categories: [Book]
 tags: [No View Is the Whole, Cognition, Models, Leaky Abstractions, Philosophy of Science]
-description: "Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. From a horse in Berlin that seemed to do arithmetic and the 1854 London cholera map to a programme alarm on the lunar lander, one question runs through it: how the way we make sense of the world is itself formed, checked, and handed on to the next person."
+description: "A second-order philosophy of understanding, action, and revision. From lunar landing and maps to everyday judgement, a framework for examining questions, representations, methods, and purposes. Fifteen chapters, seventeen images, and seventy-nine source notes."
 toc: true
 comments: true
 ---
 
 This is the complete text of the book, the same words as the [single-page bilingual reader](/books/no-view-is-the-whole/?lang=en). The reader switches between Chinese and English and opens every figure at full size; this is the site-native version, with a sidebar table of contents, dark mode, and comments.
 
-## Preface — Counting Yourself In
+## Preface — Before Landing
 {: #s1 }
 
-When someone disagrees with us, an explanation is never hard to find. He has not met certain kinds of people, he was once burned in some particular way, or he has spent his whole life inside that one circle. When it comes to ourselves, we may feel there is nothing to explain: things are simply as they are.
+What carries us into unfamiliar worlds is a way of understanding that can examine itself—and change.
 
-Pressed further, we can add a line: "I have thought about this carefully." The sentence carries great weight with ourselves; with others it may not. When the other person offers the same assurance, we still want to know what he has seen, whom he trusts, and which situations he has missed. Psychological research has found that when people assess bias in themselves and in others, they give different weight to inner intentions and to outward behaviour.[^introspection] We know how to trace another person's judgement back to its sources; when the trail reaches ourselves, it sometimes stops.
+On 20 July 1969, Armstrong and Aldrin were descending towards the Moon in Eagle. More than thirty thousand feet above the surface, the guidance computer issued a program alarm: 1202.
 
-What I want to pursue is what happens if we take that step further. The self that is used to understand the world also lives in the world: it learnt its methods from certain people, trained its skills in a certain environment, kept paying attention because it cared about certain things, and only then arrived at the answer that now seems as plain as anything could be. That history of formation affects where the answer can be used.
+Armstrong reported the code to Houston. A little later, he asked again for an interpretation. Neither astronaut had encountered this alarm in their simulations. They did not yet know whether it meant they should abort the landing.
 
-I call the shift that comes with recognising this "the second realisation". We already know how to explain why other people think as they do; now the way of seeing that is doing the explaining must submit to the same questioning. Even our most successful experiences and the methods of reasoning we trust most are included.
+The craft was still descending. Altitude and fuel were running down. A decision could not wait until every question had been answered.
 
-Success is especially good at hiding this question. When a skill has helped for a long time, we pay less and less attention to the conditions it depends on. Move somewhere new, and the same way of working suddenly fails; the first thought may still be that other people are not cooperating, or that we have not tried hard enough. Putting in more effort sometimes improves the result, and sometimes only applies a method that no longer fits more thoroughly than before.
+The ground gave them clearance to continue. The alarms returned several times; Mission Control kept receiving reports and checking that essential guidance functions were still operating. Eagle landed safely.[^apollo]
 
-A simple problem about finding a ball can make this easily overlooked difference visible. Someone puts a ball in a box and leaves the room; while he is away, the ball is moved into a drawer. A child who has watched the whole thing is asked where the man will look first when he comes back.
+The engineers later traced the extra workload to the rendezvous radar. Under overload, the software's recovery mechanisms had kept essential tasks running. During the descent, the ground already had sufficient grounds to recommend continuing. A fuller account of what had gone wrong would have to wait.[^apollo]
 
-The child knows the ball is in the drawer. To expect the man to look in the box, the child has to count in one more fact: he did not see the ball being moved. Problems of this kind have been used to study children's understanding of other people's beliefs.[^beliefs] The same room holds the ball's actual position and also a person who does not yet know the ball has gone. The second is enough to explain why he walks towards a box we know full well is empty.
+Life brings us moments like this too: something needs deciding while our understanding remains incomplete. Besides looking for an answer, we must work out what we need to know this time.
 
-Adults usually have no trouble with this scene. But when we say "the data are clear enough" or "anyone with experience knows this", we have often stepped back onto our own familiar ground. What knowledge does it take to see that clarity? Under what circumstances was that experience acquired? If someone else had the same information and the same history, would we be willing to trust him too?
+A brief reply can leave us guessing at another person's attitude until a question reveals that we were talking about different things. Poor results at work may call for practice, or for another look at the assessment: could the contributions left out of the score be indispensable to the job? The more fluently we use a familiar method, the easier it becomes to forget that its environment can change. We may have thought hard and worked hard, yet made little headway.
 
-![On the left, other people's judgements are handed over to experience, information and circumstance for explanation, while one's own certainty becomes the measure directly; on the right, one's own judgements and other people's are placed within the same set of checkable questions.](/assets/img/book/en/fig-10-self-included.svg){: width="1200" height="810" }
-_Figure 0.1　Use compatible standards of checking for yourself and for others. The information available to each side may differ, and the difference needs to be explained; your own certainty is not thereby exempt from checking. Drawn for this book._
+Looking back, we often find that the difficulty began before an answer took shape. A record preserved part of what happened; an explanation supplied part of its meaning. A measure was chosen, and certain people were authorised to judge whether the result was good enough. By the time we begin arguing over answers, these choices have usually been made, sometimes without anyone noticing.
 
-Seeing ourselves this way also changes what we ask of thinking. At work we know time is limited, yet in reflection we may demand that every matter be thought through before we allow ourselves to stop. How much time a piece of reasoning had, what data it obtained, whether a method worked out by earlier people was available: all of these affect what it can accomplish. Asking only whether we have thought deeply enough is not yet a complete understanding of what thinking is.
+Second-order understanding, as this book uses the term, starts here: with a look back at how we formed the question and arrived at the answer before us.
 
-Sometimes it is even that feeling we cannot put into words that first notices a detail the analysis never obtained. The experienced hand feels the sound is wrong; the novice hears only that the machine is still running. Putting both in front of the same written description has not necessarily given them the same information. To know when that feeling deserves trust, we need to trace how it was learnt and how it was checked.
+First-order understanding addresses the matter itself. What does the alarm mean? Does this treatment work? Why is the other person silent? Second-order understanding turns to the way we make sense of that matter. Which materials gave the question its shape? What survives when those materials become words, diagrams, or numbers? Who judges, and by what standard? Can later results change the original method?
 
-None of these questions can be handed to someone else for good. To consult an expert, we still have to know whom our question is suited to; to decide that liking something is enough, we have already judged that this matter allows a choice made on liking alone. Life keeps requiring us to choose how to judge, even though most of the time we do it naturally, without giving it a name.
+This examination must help with the matter at hand. A descending lunar module cannot suspend operations for reflection. Everyday problems likewise require a next step. We may need more evidence, a different representation, someone else's expertise, or even a reconsideration of our purpose. Sometimes what matters most is knowing where analysis should pause.
 
-Fortunately, this capacity need not be invented from scratch. Earlier people have already tried many ways of understanding evidence, responsibility, conflict and living together, and have left reasons that can be learnt and criticised. We can draw on them, then recognise where they need to be revised. The coherence that gradually builds up comes from having reasons to follow when choosing a method as well: the same demands cannot be used only to scrutinise others, and exceptions must arise from differences in circumstance, not from who happens to benefit.
+This book is concerned with what understanding makes possible: better predictions about our surroundings, deeper knowledge of ourselves, and action with firmer grounds. Settling ultimate truth is not its principal task. Truth and falsity still matter; wrong coordinates will not lead us to our destination, however many perspectives we collect. Yet even a true statement must enter suitable relationships before it can support action. An average can be perfectly correct while the people averaged remain invisible. The cause of an accident can be established while disagreement over who should bear the risk continues.
 
-This is the layer I hope the book will help readers see more of. Faced with a highly persuasive answer, one can understand what it says and also see how it came to be possible; faced with difficulty, one can doubt the answer and also recognise whether what is needed is a different way of asking, another kind of information, or other people's participation.
+Usefulness therefore needs to be made specific. Convenience, profit, comfort, and cooperation are all possible uses, but none answers for the others. Whose capacity does an understanding increase, under what conditions, and at whose expense? Once the immediate achievement has passed, how much room does it leave for learning and correction? Following these questions helps us avoid mistaking success on one occasion for fitness everywhere.
 
-Some questions only appear at that point. The original answer still runs smoothly, yet we begin to notice that the understanding we have been using all along has left no room for certain things.
+We will begin with a horse thought capable of arithmetic. It repeatedly gave the right answers, but researchers gradually found more reason to investigate where those answers came from. Other people's knowledge, our own purposes, and the forms in which we record the world will then enter the discussion. Each chapter adds to a framework for examining understanding across different fields—and for asking the same questions of itself.
 
-## Part One — What Belief Rests On
+By the end, you will be able to practise tracing an answer back through its formation, distinguishing a lack of evidence from a lack of method, enabling conditions, or an opportunity to reconsider the aim. In unfamiliar fields, you can learn to recognise which earlier methods are worth borrowing. In your own reactions, you can notice more of what feelings, habits, and surroundings do together. These abilities take time to develop. This book offers a place to begin: to let failure leave usable clues, and to find a next step while understanding is still unfinished.
+
+## Part One — Above the Answer
 {: #part1 }
 
-### 1 — How a Fact Becomes a Sentence
+> Before seeking better answers, we examine how an answer takes shape through observation, other people's knowledge, and purpose.
+{: .prompt-info }
+
+### 1 — How an Answer Is Made
 {: #s2 }
 
-In the early years of the twentieth century, a horse in Berlin called Clever Hans drew people who came to watch him answer questions. His owner, Wilhelm von Osten, had been a schoolteacher and believed that animals could be educated. He would set an arithmetic problem, and Hans would tap with a forehoof, seeming to stop at the right count. The spectators counted the taps as they fell and saw him, with their own eyes, get the answer right time after time.
+In early twentieth-century Berlin, a horse named Hans attracted crowds by answering arithmetic questions. His owner, Wilhelm von Osten, had been a teacher and believed that animals could be educated. The owner posed a question; Hans tapped a forehoof. The spectators counted, and when the taps reached the required number, he stopped. Again and again, the taps matched the answer.
 
-The explanation that comes to mind first is cheating: was the owner secretly giving a signal? Investigation ran into trouble here. When the owner was asked to step away and someone else put the questions, Hans could still answer correctly. Simply accusing the owner of fraud did not account for everything that was happening in front of people.
+Was the owner secretly signalling? That was an obvious suspicion. Yet Hans could still answer correctly when the owner was sent away and someone else asked the questions. If deliberate cheating by the owner explained the performance, how were these results to be understood?
 
-The psychologist Oskar Pfungst devised a special kind of addition problem. The owner would first lean close to Hans's ear and whisper a number that no one else could hear; Pfungst would then say another number, keeping it from the owner in the same way. Hans was then asked to add the two together.
+The psychologist Oskar Pfungst changed the way the questions were asked. The owner leaned towards Hans's ear and whispered a number that no one else could hear. Pfungst then supplied another number without letting the owner know it. Hans was asked to add them.
 
-This time each of the two men knew only one number, and neither knew the sum. If Hans had understood both numbers and could do addition, he would have been the only one present who might know the answer. After each trial, the researchers repeated it with the answer known to them, to see whether the result changed.
+The two numbers remained in separate minds. Neither person knew the total. If Hans understood both numbers and could add, he alone might know the answer. After each trial, the researchers repeated it with the answer known, to see whether that made a difference.
 
-Of the thirty-one trials Pfungst recorded in which no one knew the answer, Hans got only three right; of the thirty-one in which the questioner knew, he got twenty-nine. Other tests found that blocking his view of the questioner also affected his answers. These differences turned Pfungst's attention towards the people. What exactly was the horse seeing in them?
+In the thirty-one trials Pfungst recorded with the answer unknown, Hans was right three times; in thirty-one trials with the answer known, he was right twenty-nine times. Other tests showed that obstructing his view of the questioner also affected his answers. Performance varied with what the person knew and what the horse could see. Pfungst began watching the people. What about them could Hans be noticing?
 
-A questioner would often lean slightly forward, watching the horse's foot and waiting for the taps to reach the answer. At the expected tap, the head would lift very slightly and the body would gradually return to a more upright posture. For the person, this may have been nothing more than an unconscious easing as the wait came to an end; for Hans, it was the signal to stop tapping. When Pfungst deliberately altered these movements, he could also affect when the horse stopped.[^hans]
+Questioners would often lean slightly forward, watching the hoof and waiting for the expected number of taps. At that number, their heads made a small upward movement and their bodies gradually straightened. For the people, this might be no more than an unconscious release of tension as the wait ended. For Hans, it was a signal to stop. Pfungst could also influence the stopping point by deliberately changing these movements.[^hans]
 
-Hans really could stop at the right count. What needed re-examining was why people took this performance as a capacity for arithmetic. "He tapped five times" records a result; "he worked out that it was five" goes further and explains how he arrived at that result. The first sentence being true is not enough to prove the second.
+The hoofbeats were real; their interpretation had changed. Why should stopping at the right number mean that Hans could do arithmetic? “He tapped five times” records a result. “He calculated five” goes further, explaining how that result was obtained. Establishing the first does not establish the second.
 
-#### What is in front of you has already been selected
+#### What We See Has Already Been Selected
 {: #s2-1 }
 
-What a video recording of a street keeps depends on where the camera points, how the light falls and how often a frame is captured. Human observation selects as well. On the same street, a driver may attend to the traffic, an architect to the fronts of the houses, while a child is drawn to a dog by the kerb. They face the same street, yet what they remember may differ.
+A camera pointed at a street cannot preserve the whole street. Framing, lighting, and recording intervals help determine what can later be seen. Human attention selects too. On the same street, a driver may notice traffic, an architect the façades, and a child a dog beside the road. They face the same street and may remember different things.
 
-Choosing what to notice and interpreting what has been seen can be separated further still. "He did not reply to my message today" can be checked against the message log; "he is distancing himself from me" needs more to be known. He may have been busy, may have missed it, or may in fact be pulling away. If the second sentence is taken straight away as something confirmed, the other causes are easily overlooked.
+Attention selects; interpretation takes another step. “He hasn't replied today” can be checked against the message record. “He is distancing himself from me” calls for more understanding. He may be busy, may have missed the message, or may indeed be withdrawing. Treating the latter claim as established makes the other explanations easy to miss.
 
-"He is distancing himself from me" may also be true. The difficulty is that once we believe it, we pay more attention to the replies that do not come and remember less often the times he got in touch first. The idea that began as an interpretation of the record starts choosing the next batch of records for us.
+“He is distancing himself” may also be true. The difficulty is that once we believe it, we may notice unanswered messages more readily than occasions when he contacted us first. We think we are still gathering evidence, while our explanation has already begun selecting it.
 
-#### Can an observation be found that involves no interpretation at all?
+#### Can Observation Be Free of Interpretation?
 {: #s2-2 }
 
-And yet even "he did not reply to my message" requires the record to be read. We have to know what sending and replying mean, fix the period we are counting, and notice whether he responded by some other route. If observation too depends on concepts, is the distinction drawn above still of any use?
+Look closely, and even “he hasn't replied” involves interpretation. We must understand what sending and replying mean, choose the period to count, and consider whether he responded in some other way. If observation itself depends on concepts, is the distinction still useful?
 
-Kant placed this difficulty of knowing at the centre of his thought. In the *Critique of Pure Reason*, published in 1781, he argued that our experience is organised by the forms of sensibility and the categories of the understanding; we cannot remove all of these conditions of knowing and then compare what remains with a world never presented through them. He also tried to show that it is precisely because experience has these shared conditions that certain knowledge can possess necessity. Space, time, causation and geometry each have a role in this account.[^kant]
+Kant placed this difficulty at the centre of his inquiry. In the *Critique of Pure Reason*, published in 1781, he argued that experience is organised through forms of sensibility and categories of understanding. We cannot strip away all these conditions of knowing and then compare experience with a world presented entirely without them. He also sought to explain how these shared conditions make certain kinds of necessary knowledge possible. Space, time, causality, and geometry play distinct roles in that account.[^kant]
 
-This pushes the problem further. If knowing always passes through human faculties and methods, how are we to judge that one claim is more reliable than another? The geometry of Chapter 7 will bring a new problem to one piece of knowledge on which Kant relied heavily.
+If knowing cannot be separated from human capacities and methods, on what grounds can we judge one account more reliable than another? The geometry in Chapter 7 will bring new difficulties to one kind of knowledge Kant relied on.
 
-For now, a more concrete comparison can be made. To check whether someone interrupted a speaker, a recording that can be replayed usually offers more detail than the sentence "his attitude was bad". We can count the interruptions, hear clearly the sentences before and after, and point to where our memories do not agree. The recording still has the limits of its framing and its sound pickup, but those limits can be established one by one.
+For now, we can return to a comparison we can actually make. To check whether someone interrupted a speaker, replayable video usually offers more detail than “he had a bad attitude.” We can count interruptions, hear the surrounding sentences, and identify where our recollections differ. Video still has limits of framing and sound, but these can be investigated individually.
 
-The recording an event leaves behind can be edited, described in words, and then understood as an act of contempt. That understanding in turn changes what is recorded next time and how questions are asked. We can follow these changes back to the disputed step, but it is hard to arrange them as a fixed staircase that leads only forward.
+A recording can be edited, described in words, and then interpreted as an instance of contempt. That interpretation may change what gets recorded or asked next. We can follow these changes to investigate a disputed step, although they rarely form a fixed staircase running in only one direction.
 
-#### Making an accusation something that can be answered
+#### Making an Accusation Answerable
 {: #s2-3 }
 
-In a high-conflict setting, repeatedly reminding everyone "not to be subjective" is almost useless. What helps more is changing the shape of the sentence.
+In a heated dispute, “don't be subjective” often invites another accusation. Unpacking a judgement gives the conversation somewhere to go.
 
-Turn "he simply does not respect me" into: "He interrupted me twice just now, and he did not respond to the risk I raised; I read those two actions as disrespect, though I do not yet know what he was thinking at the time."
+Instead of “he simply doesn't respect me,” try: “He interrupted me twice and didn't respond to the risk I raised. I interpret those actions as disrespect, although I don't yet know what he was thinking.”
 
-Turn "customers have no need for this feature at all" into: "None of the seven people interviewed so far brought it up unprompted, which makes me lower my estimate of how strong the need is; but the sample and the way the questions were put may both have affected this result."
+Instead of “customers don't need this feature,” try: “None of the seven people interviewed so far mentioned it unprompted. That lowers my estimate of demand, although the sample and the questions may have influenced the result.”
 
-A dispute that matters is worth a few more sentences to set out the behaviour seen and one's own reading of it. Only then does the other person know which point they can answer: admit to having interrupted you, explain why they did not respond, or point to a stretch of conversation you failed to note. Everyday exchanges that are familiar and undisputed naturally need not be unfolded like this at every sentence.
+The extra sentences show the other person where a reply can begin: acknowledging an interruption, explaining the lack of response, or pointing out a passage you omitted. Familiar, undisputed exchanges need not be expanded this way sentence by sentence.
 
-#### Memory goes on writing too
+#### Memory Goes On Writing
 {: #s2-4 }
 
-In 1974, Elizabeth Loftus and John Palmer had participants watch films of car accidents and then estimate the speed of the vehicles. The questions used different verbs for the collision, and the stronger wording produced higher estimates of speed. The researchers then pressed a further question: were participants simply adjusting the number upward to fit the wording as they answered, or had the memory itself been affected afterwards?
+In 1974, Elizabeth Loftus and John Palmer showed participants films of traffic accidents and then asked them to estimate speed. The questions used different verbs for the collision. Stronger wording produced higher estimates. Two explanations remained possible: participants might merely have adjusted their numbers to the question, or their memories might also have changed. The researchers pursued the difference.
 
-A second experiment recruited a fresh set of participants. After watching the film, some received the speed question with one wording or another, and some were not asked it at all. A week later, the researchers asked them whether they had seen any broken glass. There was no broken glass in the film, yet the group that had earlier met the stronger collision word more often answered that they had.[^memory]
+Their second experiment used another group. After watching a film, some participants received speed questions with different wording, while others received no such question. A week later, they were asked whether they had seen broken glass. There was none in the film. Those previously given the stronger collision wording were nevertheless more likely to say they had seen it.[^memory]
 
-The wording had already changed the later answers. The speaker need not have meant to mislead, and the person remembering need not have felt they were adding anything, yet broken glass appeared in an account that originally had none.
+The film could be replayed, but the question had changed the answers. The questioner need not have intended to mislead, nor the person remembering have noticed any added detail. Broken glass that was never there had entered the account.
 
-The researchers could still replay the film and know which answers did not match the picture. Everyday conflicts rarely have so complete a point of comparison: we rely on memory to say what happened, and other people's accounts take part in how we remember afterwards. We begin to need records, and to need other people; and both come with selections of their own.
+The researchers could replay the film and identify answers that did not match it. Everyday conflicts rarely provide such complete comparisons. We explain events from memory, and other people's accounts enter later recollections. We turn to records and to other people. But records have their framing, and other people have their memories too.
 
-### 2 — You Do Not Have to Know Everything Yourself
+#### From the Answer Back to Its Formation
+{: #s2-5 }
+
+The study of Hans changed the question. Researchers began with a horse that answered arithmetic correctly; they came to compare the questioner's knowledge, bodily movements, and the horse's tapping. The performance remained before them. The capacity it indicated had changed.
+
+Whether this examination can help elsewhere is the question the book now pursues. A few terms will help. A **representation** is a form that preserves distinctions: a sentence, a diagram, a set of numbers. An **operation** is something we can do with it, such as comparing, calculating, or questioning. A **framework** connects questions, representations, procedures, and standards of evaluation so that we can judge which answers to use. It may never have been written down and still shape everyday judgement.
+
+A second-order framework addresses relationships among these frameworks. Where does a method hold? What must survive a move to another setting? Where should we return when results depart from expectations? Answers should identify work we can do. If “moving up a level” changes nothing about how we investigate or act, it is merely another expression.
+
+Counting hoofbeats alone could not produce this change of question. The researcher needed a different test, and a record others could examine. By this point, the work of understanding had already outgrown what any one person could see.
+
+### 2 — Understanding Never Belongs to One Person Alone
 {: #s3 }
 
-In 1854, cholera broke out in Soho, London. The disease can cause severe diarrhoea and dehydration, and in the neighbourhood people died one after another. The influential view of the day linked disease with foul air: stinking surroundings often went together with sickness, and for people at the time the explanation was not without appeal.
+In 1854, cholera broke out in London's Soho district. Severe diarrhoea and dehydration were followed by death after death among neighbours. An influential explanation attributed the disease to foul air. Disease and bad smells often occurred together; for people living among them, the explanation was readily believable.
 
-The physician John Snow suspected instead that an important route of transmission was contaminated drinking water. He had already put forward claims to that effect before this outbreak; now he needed to find out whether what was happening in this district could lend them support. He looked into where the dead had lived, where their water came from and how they had lived, and he also drew the data onto a map.
+The physician John Snow suspected contaminated drinking water instead. He had advanced this view before the outbreak. Whether the deaths in these streets supported it required investigation, household by household. He traced addresses, drinking water, and living circumstances, and plotted the information on a map.
 
-Look at the map first. Around Broad Street, short black bars are stacked thickly along the edges of the houses. Each mark points to one death, and the positions labelled PUMP, the water pumps, are scattered among the streets.
+On Snow's map, black strokes crowd the buildings near Broad Street. Each stroke marks a death. Among the streets are places labelled PUMP: the pumps from which residents fetched water for daily use.
 
-[![Snow's map of cholera deaths. Dense short black bars can be seen around Broad Street, and the map also marks the positions of the various water pumps.](/assets/img/book/shared/fig-01-snow-map.jpg){: width="1600" height="1501" }](/assets/img/book/shared/fig-01-snow-map.full.jpg)
-_Figure 2.1　Snow's map of the deaths, from his book, recording the Broad Street cholera outbreak of 1854. Short black bars mark deaths; the clusters on the map provided leads for the investigation. Original: John Snow, public domain; see the source for the digital file.[^snowmap]_
+[![Snow's map of cholera deaths, with dense black strokes near Broad Street and the positions of local water pumps.](/assets/img/book/shared/fig-01-snow-map.jpg){: width="1600" height="1501" }](/assets/img/book/shared/fig-01-snow-map.full.jpg)
+_Figure 2.1　Snow's map of the 1854 Broad Street cholera outbreak. Black strokes mark deaths; their clustering provides clues for investigation. Original: John Snow, public domain; digital image details are given in the sources.[^snowmap]_
 
-On the map the deaths cluster around the Broad Street pump. But does living close by mean having drunk its water? Some people drank water at home, some at their place of work, and some may have had it brought from a distance by someone else. To connect an address with a source of drinking water, each person's circumstances still had to be looked into.
+Deaths clustered around the Broad Street pump. But did everyone living nearby drink its water? People drank at home and at work, and some had water brought from farther away. Connecting addresses with drinking sources required knowing how people lived.
 
-Snow's record preserves a few places that especially invite further questions. In the surrounding streets people died one after another, yet the workhouse had relatively few deaths; the brewery, not far from the pump, had no deaths registered among its workers either. Why were the people in these places different?
+Several exceptions gave the investigation direction. The surrounding streets suffered repeated deaths, while the workhouse had relatively few. A nearby brewery had no registered deaths among its workers. Why were these places different?
 
-The workhouse had 535 inmates already living there, and five of them died of cholera; it had its own well and its own supply, and sent nobody to Broad Street for water. For the brewery, Snow went and asked the proprietor, Mr Huggins. He said the workers had an allowance of malt liquor to drink. He believed they did not drink water at all, but he was clear about one thing he could be certain of: they did not take water from the pump in the street. The brewery also had a deep well and other supplies of its own.
+Of the workhouse's 535 original residents, five died of cholera. It had its own well and water supply and did not send for Broad Street water. Snow asked the brewery owner, Huggins, about the workers. Huggins said they received an allowance of malt liquor. He believed they never even drank water, but distinguished this belief from something he could positively confirm: they did not take water from the street pump. The brewery had a deep well and other supplies.
 
-The opposite kind of clue came from far away. A woman living in Hampstead died of cholera, though she had not been near Broad Street for several months. Only after Snow asked her son did he learn that she liked the water there, and that a cart regularly brought a large bottle of it to her house. A niece who came to visit drank it too, and after returning to her own home she fell ill and died. The two fell ill and died in places far apart, yet the water they had drunk came from one source.
+Another clue led back to the pump from a distance. A woman who died in Hampstead had not visited the Broad Street area for months. Her son told Snow that she liked its water and had a large bottle delivered regularly by cart. A visiting niece drank it too, then fell ill and died after returning home. Their illnesses and deaths occurred in different places; water from one source connected them.
 
-On the evening of 7 September, Snow took his drinking-water inquiry to the local governing body; the next day the pump handle was removed. Before it was removed, the outbreak had already been declining and many residents had already left. The later fall in deaths therefore cannot tell us on its own how much the removal of the handle achieved. To assess the explanation of transmission by drinking water, we still have to look at the places that were close by yet suffered few deaths, the people who lived far away yet drank the same water, and the comparison between different sources of supply.[^snow]
+On the evening of 7 September, Snow presented his water investigation to the local authorities. The pump handle was removed the next day. Before its removal, the outbreak was already declining, and many residents had left. Deaths continued to decrease afterwards, but that sequence alone cannot establish the effect of removing the handle. Evaluating the waterborne explanation also requires the nearby places with few deaths, distant people who drank the same water, and comparisons between water supplies.[^snow]
 
-#### How many people a map depends on
+#### How Many People Does a Map Depend On?
 {: #s3-1 }
 
-During the same epidemic, Snow was also comparing the customers of two water companies in south London. The two companies' pipes ran through the same streets, and sometimes next-door neighbours took water from different companies; the Lambeth company had moved its intake upstream to cleaner water, while the intake of the Southwark and Vauxhall company was still affected by the city's sewage. People who lived very close together, in similar conditions, might therefore be drinking water from different sources.
+During the same epidemic, Snow compared customers of two water companies in south London. Their pipes served the same streets; neighbouring houses sometimes used different companies. The Lambeth company had moved its intake upstream to cleaner water, whereas Southwark and Vauxhall still drew water affected by the city's sewage. People living close together in similar surroundings could therefore drink from different sources.
 
-To make the comparison, he first had to find out which company supplied each household. Tenants did not necessarily know, since the water rate was paid by the landlord, so after asking the tenant the search had to go on; some people had been moved elsewhere after falling ill, and the record had to be traced back to their original address. Snow set the deaths in the first seven weeks of the epidemic against the number of houses each company supplied. The death rate per house for the Southwark and Vauxhall company came to roughly eight to nine times that of the Lambeth company.[^snow]
+The comparison sounds simple, yet its first step could be difficult: which company supplied this household? Tenants might not know because landlords paid the bills. Some patients had moved after becoming ill, so their original addresses had to be recovered. Comparing deaths during the epidemic's first seven weeks with the companies' numbers of supplied houses, Snow found a death rate per house roughly eight to nine times higher for Southwark and Vauxhall than for Lambeth.[^snow]
 
-This inquiry had to check what residents and landlords said against the original addresses of the dead and the records of supply before it could compare deaths among households under different conditions of supply. Snow could not learn everything simply by walking into a street himself; the memories of residents, the papers landlords kept and the official records each answered part of the question. Anyone who later wanted to check his conclusion also had to know how he confirmed addresses, told the sources of supply apart and counted the deaths in each group.
+Residents' and landlords' accounts, original addresses, and supply records had to be matched before death counts could mean anything. Snow could not learn it all merely by walking down a street. Memories, landlords' information, and official records each answered part of the question. Later readers wishing to examine his conclusion also need to know how he established addresses, distinguished supplies, and calculated mortality in each group.
 
-Because Snow wrote down how the inquiry was carried out, we can examine his reasoning many years later without interviewing those residents again. Research teams often divide their work in the same way: some people measure, some organise the data, some analyse; and the instruments and mathematical methods each of them uses carry the results of earlier researchers inside them. If everyone had to invent their own instruments and rebuild all knowledge personally before beginning their own research, far less would get done.
+Because Snow wrote down his investigation, we can examine his reasoning long afterwards without interviewing those households again. Research teams commonly work this way: some measure, others organise data, others analyse. Their instruments and mathematics embody earlier researchers' achievements. If everyone had to invent the instruments and reconstruct all knowledge before beginning, far less could be accomplished.
 
-Knowledge left behind in this way already exceeds any one person's memory. The residents knew only about their own households, the water companies remembered their pipes, and Snow placed the two in a single inquiry. Their knowledge did not have to become the same first; together they could still answer a question that nobody had been able to answer before.
+Maps and records together preserve knowledge no individual could remember in full. Residents supplied household circumstances; water companies kept pipe records; Snow brought them into one investigation. People's knowledge did not have to become identical before they could jointly answer a question none had previously answered.
 
-We can still read today about the cases that do not fit the first impression easily: the works close by with few deaths, the woman far away who drank water from the same source. Snow kept them, so that those who accepted his conclusion could go on asking questions. If all we remembered was one brave physician who stood against the majority, the most useful part of this knowledge would be the part that never got handed down.
+We can still read about cases that resist a first impression: the nearby brewery with few casualties, the distant woman drinking the same water. Snow preserved them so that even readers accepting his conclusion could continue questioning it. Remembering only a doctor's courage in opposing the crowd, without learning how he checked his claim, would leave us with much less to learn.
 
-An engineer who has handled bridge structures well many times gives us reason to value his judgement on such matters. That record also rests on measurements, colleagues and the original conditions on site; when he is brought to a new site, that support does not necessarily come with him. As for his opinions on education policy, the old record offers even less reason. What needs checking there is a different kind of knowledge, and how he obtains and compares evidence in that field.
+Trusting an expert also means remembering where their achievements came from. An engineer who repeatedly handles bridge structures well deserves attention. Those results also depend on measurements, colleagues, and construction conditions. These supports may not follow the engineer to a new site. Their achievements offer even less support for their opinions about education policy. There we must investigate another kind of knowledge and how they obtain and compare evidence within it.
 
-How much a reader can check also depends on how the material is presented. If a report sets out its methods, the limits of its data and its later corrections, others can redo the calculations or question the conclusion. A screenshot with author, date and context cut away may leave us unable even to confirm what the original words were answering. Even when both speak with equal certainty, we have reason to trust them to different degrees.
+What readers can check depends on presentation. A report that explains methods, limitations, and subsequent corrections lets others repeat calculations or question conclusions. A screenshot stripped of author, date, and context may not even reveal what question the original words addressed. Both may sound equally certain while leaving very different room for verification.
 
-Sometimes the cheapest effective next step is precisely to recover the source that was left out. To check a quotation, find the original first; to assess a method, first see what kind of problem it handles and where it fails. Guessing on your own that 'this ought to make sense' may take more time and still never touch the material that is actually missing.
+Sometimes the missing source is precisely what holds us back. To check a quotation, find the original; to assess a method, examine the problems it handles and its failures. Reasoning alone that “this ought to make sense” can consume more time without reaching the material actually missing.
 
-#### Which part, exactly, is unknown
+#### Which Part Is Unknown?
 {: #s3-2 }
 
-'I don't know' does not always admit the same kind of lack. Return to Snow's inquiry: the death records could be quite definite, while which water a particular household actually drank still needed a visit. Once the source of supply was established, whether the two were causally related required in turn a comparison with other households and with the possible explanations. What is already known does not all become void because questions remain.
+“I don't know” can indicate very different gaps. In Snow's investigation, a death record might be clear while a household's drinking source still required an interview. Once the source was known, a causal connection required comparisons with other households and explanations. Remaining questions do not erase what is already known.
 
-Stating your doubt specifically makes it easier to decide the next step. If you do not know whether something happened, you can look for records or witnesses; if the cause is unclear, you can compare what several explanations would predict; if the facts are largely clear but a certain cost is unacceptable to you, then the trade-off has to be discussed, rather than the same batch of data checked over and over.
+Distinguishing uncertainties makes the next step easier to arrange. To establish whether something happened, seek records or witnesses. To investigate a cause, compare the predictions of competing explanations. If the facts are broadly clear but a cost remains unacceptable, discuss the trade-off rather than repeatedly rechecking the same data.
 
-Suppose you are considering a job in another town. The salary can be confirmed with the company, the actual commute can be tried out, but whether you are willing to spend less time with your family cannot be settled by another salary report. Keeping the three questions apart avoids gathering data without end, and it also stops you from calling everything a matter of personal values when some of it can still be checked.
+Suppose you are considering a job in another city. The company can confirm the salary; you can try the commute. Whether you want less time with your family cannot be settled by another salary report. Separating these questions avoids endless information gathering without treating every answerable question as personal preference.
 
-You can even go to the interview and try the commute first, without yet agreeing to move. Action brings back the information that was missing. By the time the decision really has to be made, the salary and the post may still be attractive, while the commute you have actually measured has changed how you see the job.
+You can interview people and try the route before agreeing to move. Action brings back information previously missing. When the decision comes, the salary and role may remain attractive while the measured commute changes how you see the job.
 
-#### Experts who wait for time to check them
+#### Experts Whose Answers Must Wait
 {: #s3-3 }
 
-Listening to an expert's analysis, what you feel most immediately is how fluently he speaks. A prediction, though, requires waiting. Whether a certain regime changes, whether an economic indicator crosses a threshold, will not hand in its answer when the programme ends.
+An expert's fluency is immediately apparent. Forecasting accuracy takes longer. A change of government or an economic indicator crossing a threshold will not deliver its answer before the programme ends.
 
-From the mid-1980s, Philip Tetlock tracked the predictions of experts in politics and economics over a long period. He asked participants to make checkable judgements about specific events and to state their degree of confidence, then set these against the later outcomes and against comparison baselines.[^tetlock]
+Beginning in the mid-1980s, Philip Tetlock followed political and economic experts' predictions over many years. Participants made judgements about specific, checkable events, stated their confidence, and had these judgements compared with later outcomes and benchmarks.[^tetlock]
 
-Performance in the study varied by person, by question and by method of assessment, and some did worse than simple comparison methods. Expertise that could previously be felt only in conversation now had a record that accumulated over time. Judging a person no longer had to start afresh from the impression left each time he spoke.
+Performance varied across people, questions, and measures; some results fell below simple benchmarks. Expertise previously recognised through reputation and speech now acquired a cumulative, checkable record. Assessing someone need no longer begin afresh with the impression of their latest appearance.
 
-The record has to keep the prediction's deadline, its outcome and the confidence held at the time, or there is nothing to compare later. A prophecy with no time limit and no explicit conditions may be described as not yet wrong for a very long time; those waiting on it have no way of knowing at what point it actually deserves their trust.
+Deadlines, outcomes, and confidence at the time of prediction must be preserved if comparison is to be possible. A prophecy without a time limit or clear conditions may remain “not yet wrong” indefinitely. Those waiting still cannot know when it warrants reliance.
 
-#### Putting trust where it fits
+#### Putting Trust Where It Belongs
 {: #s3-4 }
 
-A record of predictions can reveal another difference that is easily confused: a person whose stated probabilities match the actual frequencies still may not help us tell which situations are more likely to happen. A set of hypothetical weather forecasts shows the difference.
+A record also needs interpreting. Probabilities can match observed frequencies without distinguishing which situations are more likely to produce an event. Consider a hypothetical set of weather forecasts.
 
-Suppose it rains on fifty days out of a hundred. The first forecaster gives a fifty per cent chance every day. The second gives twenty per cent on fifty of the days and eighty per cent on the other fifty; it turns out to rain on ten days in the first group and forty in the second.
+Suppose it rains on fifty of a hundred days. One forecaster gives a fifty per cent chance every day. Another gives twenty per cent on fifty days and eighty per cent on the other fifty. Rain occurs on ten days in the first group and forty in the second.
 
-Both forecasters' confidence matches the frequency of rain, but the second supplies one more piece of information useful to anyone going out: which days are more likely to be wet. This simplified data separates calibration from discrimination. Calibration deals with whether the stated confidence has a matching frequency; users usually also care how far the different days can actually be told apart.
+Both forecasters' confidence matches the frequencies, but the second supplies something useful for going out: which days are more likely to be wet. This distinguishes calibration from discrimination. Calibration asks whether stated confidence corresponds to frequency; users often also care how well different days can be distinguished.
 
-To check whether 'eighty per cent sure' is reliable, we at least have to say clearly what is being predicted, what counts as its happening, and which outcomes it will be checked against. In everyday exchanges where estimating probabilities does not suit, we can still state our grounds: 'This part I have done myself, that part rests on a report, and for the new situation there is no data yet.' The listener then knows which claims come from experience and which still need separate confirmation.
+Checking an “eighty per cent chance” requires specifying the event, when it counts as occurring, and the outcomes used for comparison. Where numerical probabilities are unsuitable, we can still describe our grounds: “I've done this part myself; that part comes from a report; we have no data on the new situation.” Listeners can then distinguish experience from claims needing further confirmation.
 
-There is also a limit that no amount of extra effort removes. After checking the expert, you can go on to check the people who assess experts, and then the institutions those people belong to. Every check draws on other knowledge. This road never suddenly delivers you to a position where you need trust nobody at all.
+Verification can also become endless. After checking experts, you can check their evaluators, then those evaluators' institutions. Every check uses other knowledge. This path never suddenly reaches a place where no trust in anyone is needed.
 
-When you find that several reports were all copied from the same source, what looked like the agreement of many people loses some of its weight. Discovering that a prediction never left a checkable deadline has a similar effect. We can check only some of these things, but such specific findings are already enough to change our trust, without waiting until the whole body of knowledge has been examined.
+Discovering that several reports copied one source reduces the weight of what appeared to be widespread agreement. Finding that forecasts never stated checkable deadlines has a similar effect. We cannot check everything. But such differences already give us grounds to adjust trust.
 
-Nor can the responsibility for checking be pushed entirely onto the user. If only the service provider can obtain the original records, yet the user is required to prove for themselves which step of the system went wrong, many problems can never be raised. The provider should give an intelligible account, suitable data for checking and a channel for handling disputes; otherwise 'check it yourself' merely asks people to complete a task without the information it requires.
+Nor can responsibility for verification fall entirely on users. If only a provider has the original records but asks users to prove where a system failed, many problems become impossible to raise. Providers therefore need to offer intelligible explanations, suitable verification materials, and ways to resolve disputes. With these conditions, users have some chance of identifying an error.
 
-#### Knowledge left for the next person
+#### Borrowed Ability Can Still Be Your Ability
 {: #s3-5 }
 
-When a judgement passes into someone else's hands, it can arrive as a bare conclusion, or it can be left together with its data, its methods and the questions still unresolved. The second kind of handing on takes more trouble, but it makes it possible for the next person to discover that the answer no longer suits a new situation.
+In “Encouraging Learning,” Xunzi writes that the exemplary person's nature is not different; the difference lies in making good use of things. Standing high to wave does not lengthen the arms, but makes the signal visible farther away. Calling downwind does not strengthen the voice, yet more people hear it. Boats, carriages, height, and wind show how human strengths can arise from things we use rather than reside entirely within us.[^xunzi]
 
-This also changes how we picture relying on others. In accepting a piece of research we do more than borrow the little that the researcher knows beyond us; we also connect ourselves to the records, instruments, methods and subsequent corrections. Individuals forget, leave, and even refuse to admit mistakes, yet the material they leave behind may still let others carry the work on.
+Boats and carriages carry people farther, prompting another question: who maintains these capacities? Crossing water depends on boatbuilding, knowledge of currents, maintenance, and navigation. A passenger need not know every operation to reach the other bank. What they acquire is not complete knowledge of the boat, but access to a capacity sustained by many people.
 
-A book carries this responsibility too. Readers cannot redo every study on the author's behalf, so the author must give the important claims their sources and make the key steps of the reasoning findable. Trust does not release the author from giving that account. It is worth placing, often, precisely because others can still ask questions after it has been placed.
+Such borrowing fills everyday life. We consult forecasts before taking umbrellas, follow medicine labels, and let positioning systems calculate routes. If genuine knowledge required personally repeating every observation, proof, and manufacturing process, anyone's world would become very small. Mature understanding can acknowledge dependence, locate its connections, and recognise when to investigate them.
 
-### 3 — Who Decides What Is Worth Looking At
+Through trust, other people's capacities enter our actions. Whether these connections work can be asked concretely. On which problems has the source been tested? Through which retellings has information passed? Who can return to the records when results look wrong? Are different sources independent, or do they copy one another?
+
+Mapping these relationships reveals how much individual performance depends on things outside the individual. Whether to call them parts of the mind will return in Chapter 14; here we trace their support for ability. Books, instruments, colleagues, and institutions can all contribute to understanding. Dependence also reveals vulnerability: when an external link fails, an apparently personal ability may disappear. A second-order framework must ask not only what I believe, but which relationships let me accomplish something through that belief.
+
+#### Knowledge Left for the Next Person
+{: #s3-6 }
+
+A judgement can reach another person as a bare conclusion, or accompanied by evidence, procedures, and unresolved questions. Leaving the latter takes more work, but lets successors recognise when an answer no longer applies.
+
+This changes what relying on others means. Accepting research does more than borrow something its author knows better than we do. It connects us to records, instruments, methods, and subsequent corrections. Individuals may forget, leave, or refuse to admit mistakes; their records can still let others continue the work.
+
+A book carries this responsibility too. Readers cannot repeat every study for its author. Important claims therefore need sources, and crucial steps in reasoning must be findable. A reader's trust does not exempt an author from explanation. Preserved grounds give later questions a place to begin.
+
+### 3 — Purpose Has Already Marked Out the World
 {: #s4 }
 
-In Lewis Carroll's Alice's Adventures in Wonderland, Alice and a crowd of animals climb out of a pool of tears, soaked through. Everyone needs to get dry, and the Dodo proposes a race.
+In *Alice's Adventures in Wonderland*, a peculiar race takes place. Alice and a group of animals have just climbed out of a pool of tears, soaking wet. To get everyone dry, the Dodo proposes a race.
 
-The course is roughly a circle, though the shape does not matter. There is no starting signal for the field; whoever wants to run runs, and whoever wants to stop stops. After a while the Dodo declares the race over, and everyone crowds round to ask who has won.
+The course is roughly circular; its exact shape does not matter. There is no starting signal. Participants begin and stop whenever they please. Eventually the Dodo declares the race over, and everyone gathers to ask who has won.
 
-It thinks for a long time and decides that everybody has won, and that everybody must have a prize. Who is to provide the prizes? The Dodo points at Alice. She hands round the sweets from her pocket, and there is exactly one each. But she is to have a prize too, so she brings out a thimble that was already hers. The Dodo solemnly presents it back to her, and everyone cheers. Alice finds the whole thing absurd, and takes the prize all the same.[^alice]
+After much thought, he decides that everyone has won and everyone must receive a prize. Who will provide them? He points to Alice. She shares the sweets in her pocket, just enough for one each. But she needs a prize too, so she produces a thimble she already owns. The Dodo solemnly presents it back to her amid cheers. Alice thinks it absurd, but accepts.[^alice]
 
-By the end of the run, everyone is dry. If all the Dodo has to show is that running like this helps to dry a body, it has a result to report. Should Alice press it on why the prizes all had to come from her, pointing once more at the dried feathers would be an answer to a different question.
+Everyone did get dry. For that purpose the arrangement worked. But if Alice asks why all the prizes must come from her, dry feathers cannot answer.
 
-How much "it achieved its purpose" can say in defence of an arrangement depends on what we are evaluating. An examination mark can help a teacher see whether a student is ready for the next course; using it to decide who deserves respect calls for reasons to be given separately. A mark that has been calculated without error cannot, on its own, show that the second use is justified.
+The race's effectiveness in drying bodies and the fairness of distributing prizes are different matters. Everyday evaluations often mix them too. An exam score may help a teacher assess readiness for the next course. Using it to decide who deserves respect requires another argument. Accurate calculation does not make that use reasonable.
 
-We can set the question down in a park. First decide what is to be surveyed: shade in summer, maintenance costs, or whether a wheelchair can get through. The purpose settles which tools the surveyor picks up, where they linger and when they come back for a second look. One of the things expertise does is help people recognise the differences that work of this kind needs to see.
+The difference is visible in a park. Before a survey begins, someone must choose the concern: summer shade, maintenance costs, or wheelchair access. Purpose determines what equipment surveyors carry, where they stop, and when they return. Expertise partly consists in recognising the differences this work needs to notice.
 
-Then the facts begin to constrain the answers. A gradient has its own way of being measured, shade has its hours, and the upkeep of a material cannot be filled in to suit a position. Caring about different things makes for different surveys; once two people are answering the same question, it is still possible to compare which measurement is the more reliable.
+Once a use is specified, investigation remains constrained by facts. Slopes must be measured, shade observed at relevant hours, maintenance costs established rather than filled in by preference. Different concerns call for different inquiries. When we are answering the same question, we can still compare which measurements are more reliable.
 
-A difficulty of another kind surfaces only when the manager has to divide limited space and a limited budget. Keeping more trees, widening the paths and holding down maintenance may not all reach their best at once. However precise the gradient data, it will not decide on everyone's behalf who should bear a little more of the inconvenience.
+Trade-offs emerge when managers allocate limited space and money. Preserving more trees, widening accessible paths, and lowering costs may not all be maximised together. However precise the slope measurements, they cannot decide whose inconvenience should increase.
 
-If an overall score multiplies shade, access and cost each by a weight, then whoever sets the weights is shaping which needs are met first. The formula may compute very exactly; the choice of weights still has to be explained to the people it affects. On the other side, if the gradient really was measured wrongly, the figure should be corrected. Whether a measurement is accurate, and how a limited budget should be shared out, are two different disputes.
+Giving shade, access, and cost a weight and adding them into a score seems to establish a ranking. Whoever sets the weights, however, participates in ordering needs. Arithmetic can be exact while those choices still require explanation to affected people. Incorrect slope measurements should also be corrected. Measurement accuracy and the allocation of a budget are distinct disputes.
 
-Stating the use first also lets us judge, in concrete terms, whether an omission is a problem. A running route map that leaves out rest stops may still be enough for planning distances; if the same map is used to guide wheelchair users, the stairs along the way must be marked. The strongest ground for criticising such a map is to point to the omission that gets in the way of what it claims to help with.
+Knowing who needs a map helps us recognise which omissions matter. A running map without rest facilities may suffice for planning distance. Used to guide wheelchair users, it must identify stairs along the way. A strong criticism shows how an omission obstructs the task the map claims to support.
 
-#### Which differences are worth keeping
+#### Which Differences Are Worth Keeping?
 {: #s4-1 }
 
-When we organise information for a given use, we usually leave some details out. A financial statement does not record every conversation in the office, and a route map does not mark the position of every window. Whether a detail is kept depends on whether it would affect the judgements the user has to make.
+Organising information sets many details aside. Financial statements do not record every office conversation; route maps omit windows. Whether a detail belongs depends on its effect on the judgement users need to make.
 
-A model can be used to record the features we care about and the relations between them. Recording a cup as a capacity, a material and a degree of heat resistance, for instance, helps someone judge whether it is fit for hot water; if the task is to arrange shipping, weight, dimensions and fragility matter more. Four uses can be compared here:
+A model preserves selected features and their relationships. A cup described by capacity, material, and heat resistance can be assessed for hot drinks. Shipping it makes weight, dimensions, and fragility more important. Compare four purposes:
 
-| Purpose | Kept | Set aside for now | Possible error |
+| Purpose | Keep | Temporarily set aside | Possible mistake |
 |---|---|---|---|
-| Drinking | Capacity, heat resistance, safety | Exact shape | Overlooking heat resistance |
-| Logistics | Dimensions, weight, fragility | Feel in the hand | Overlooking breakage |
-| Design | Proportion, texture, manufacturing process | Some logistics details | Looks displacing use |
-| Forensics | Residue, fingerprints, timing | Whether it is pleasant to drink from | Destroying evidence |
+| Drinking | Capacity, heat resistance, safety | Exact shape | Ignoring heat resistance |
+| Shipping | Dimensions, weight, fragility | Grip and feel | Ignoring breakage |
+| Design | Proportion, feel, manufacture | Some shipping details | Letting appearance displace use |
+| Forensics | Residue, fingerprints, sequence of events | Suitability for drinking | Destroying evidence |
 
-Each of these sets of data is useful, and they cannot be swapped about at will. Knowing that a cup withstands heat does not tell the shipper how large a box is needed; the person lifting fingerprints may have to finish recording them before someone else washes the cup. By the time the inquiry begins, the purpose has already shaped what is kept.
+The same cup asks different things of different people. Heat resistance does not tell a shipper the required box size. Someone collecting fingerprints may need to work before anyone washes it. Purpose affects what must be preserved from the start.
 
-#### What the work is meant to get us
+#### What Is the Task Meant to Achieve?
 {: #s4-2 }
 
-The task in front of us usually has a further reason standing behind it. A customer service department that wants shorter calls may want them so that people waiting to be answered wait a little less. If staff transfer complicated problems away quickly, the call figures improve while customers queue again and again and retell their story; the service has not improved because of it.
+A task often serves a purpose not yet stated. A customer-service department may shorten calls to reduce the wait for an answer. If employees quickly transfer complicated cases elsewhere, call figures improve while customers queue repeatedly and retell their problems. Service has not necessarily improved.
 
-When the call ends, the customer may join another queue for another line. The original record stops at the moment the phone is put down, but his problem carries on. To know whether the service has improved, the record has to follow him a stretch further.
+After a call ends, the customer may join another queue. The department's record ends at hang-up; the customer's problem does not. We must follow what happens afterwards to discover whether service improved.
 
-Time also sets different purposes against one another. A project may skip necessary maintenance in order to launch on schedule; a department may push pending problems into next quarter in order to hit this quarter's target. The progress in hand still has value, but the assessment has to count in the cost that has been deferred.
+A longer view exposes conflicts among purposes. A project may skip maintenance to launch on schedule; a department may defer problems until next quarter to meet this quarter's target. Immediate progress has value, but postponed costs belong in the assessment.
 
-#### Abstraction has more than one direction
+#### Abstraction Has More Than One Direction
 {: #s4-3 }
 
-To class a cup as a "container" is to attend to the fact that it holds things; to class it as a "fragile item" is to attend to the risk of a knock. The two classifications keep different features, and there is no need to rank one above the other first.
+Calling a cup a container attends to its ability to hold things. Calling it fragile attends to collision risk. Each classification selects for a use; neither must rank above the other.
 
-The distinction also helps in assessing records that have been reduced to numbers. If an employee's performance score counts only the cases he has closed himself, it cannot show how much time he spent training colleagues; sorting test results into normal and abnormal may no longer show how near a value came to the threshold; drawing a rectangular box round a pedestrian in an image keeps mainly position and size. When the next step is to judge long-term contribution, track how a value changes or understand where the pedestrian intends to go, other records may be needed.
+Numerical records select too. A performance score counting only individual output cannot show time spent training colleagues. Classifying a test as normal or abnormal may hide proximity to the threshold. A rectangle around a pedestrian in an image mainly preserves position and size. Judging long-term contributions, tracking changing measurements, or understanding intentions may require other records.
 
-Whether an omission causes a problem still depends on the later use. Some representations mainly rearrange information so that calculation or lookup becomes easier, and do not necessarily delete any of the original content. Chapter 4 compares this case using road networks and numerals. Judging whether a representation is good means actually looking at what it preserves, what it makes convenient, and what the present question needs.
+Whether omission causes trouble depends on later use. Some representations chiefly rearrange information to make computation or retrieval easier, without necessarily deleting content. Chapter 4 compares this through networks and numbers. Evaluation must bring together preserved content, permitted operations, and present needs.
 
-#### Purposes are changed by understanding too
+#### Better Means Make Purposes Worth Asking About Again
 {: #s4-4 }
 
-If a purpose could be fixed once and for all, the difficulties that followed would mostly be a matter of finding the means. But people often find that, having learnt a few things, what they want to accomplish has changed as well.
+In Book III of the *Nicomachean Ethics*, Aristotle describes deliberation with a doctor taking healing as the end and considering how to achieve it. In this discussion, deliberation chiefly concerns means.[^aristotle] A specified end gives comparison a direction. This book asks a further question: learning sometimes changes the end itself. Where does that change belong?
 
-Someone who first understood caring as doing everything for the other person, and who then heard that person's own account, begins to value leaving him his choices. At that point the new understanding has changed what "doing it well" means. Pursuing the old goal more efficiently might, if anything, intrude on him more deeply.
+Given an objective, techniques can become faster and more accurate. Yet in life and institutions, the objective can also need reconsideration. Hospitals may shorten waiting, companies increase sales, schools raise average marks. As technique succeeds, we can forget to ask whether patients receive needed care, customers are properly served, or students learn the intended abilities.
 
-In learning a craft, this kind of change is especially hard to explain in advance. A beginner may want only to get the job done fast, and only later comes to pick out details he could not hear or see before. Those details make him willing to slow down, even to stop being satisfied with work he was once proud of. Had he been asked at the outset whether he wanted to put in all those hours, he would not necessarily have known what he would be putting them in for.
+Ends and means are not assigned once, before work begins. Means change environments and people. Rankings can teach competitors to value what is rankable; measuring content by clicks teaches creators to generate clicks. The next objective may appear freely chosen while already shaped by the previous measure.
 
-We learn because we value something, and what we learn alters the reasons we valued it. Purpose takes part in inquiry, and inquiry takes part in forming purpose. Draw the two as sharply sequenced steps and this whole stretch of experience has nowhere to go.
+Second-order understanding therefore lets results return to purposes. Besides revising procedures, it examines the pursuit itself. Is the original aim still worth pursuing? Has measurability been mistaken for importance? Who pays when someone gains? New methods can be learned under a fixed goal. Without permission to discuss the goal, however, we cannot learn when to stop pursuing it.
 
-A change of wishes is itself worth looking back on. Learning may lead a person to a new interest; advertising, rewards and group pressure may also set him chasing things he never cared about before. One way to evaluate such a change is to ask whether he had the chance to encounter other options, to understand the cost, and to refuse when he no longer wished to go on.
+This does not require debating life's meaning before every action. Familiar, low-risk matters can follow habits. Reconsideration becomes worthwhile when arrangements endure, effects spread, or improving scores fail to improve people's circumstances. Questioning should help identify work worth continuing; repeatedly restating doubts can also delay necessary action.
 
-Public decisions carry one further practical requirement. A wheelchair user points out that the ramp cannot be used, and the information has certainly entered the room; if the designer can still pass over it because it is not among the established metrics, the intervention has had no effect on the judgement. The value of more viewpoints has to be judged by whether they can change the scope of the problem and what is done about it afterwards.
+#### Understanding Can Change Purpose
+{: #s4-5 }
 
-Institutions run into difficulty at this same point. An institution needs a goal before it can begin to survey and to allocate resources, yet the survey may bring back lived experience capable of changing the goal. What began as a count of how many people could walk through the park turns up the fact that some people cannot get in at all; if the original scoring is still used to show that everything is in order, the added understanding becomes a marginal note that cannot touch the decision.
+We often imagine first deciding what we want and then learning how to get it. As learning deepens, what we want may change.
 
-We cannot guarantee that every wish becomes better for being understood. But an arrangement that permits only the improvement of means, and never permits the question "what does doing it well actually mean" to be asked afresh, has already set an end point to what people may learn.
+Someone may initially understand care as doing everything for another person. Hearing that person's experience can teach them to value the person's choices. Understanding the need changes what doing well means. Pursuing the old objective more efficiently might deepen the interference.
 
-## Part Two — Models, Their Uses, and Where They Apply
+Learning a craft makes this change especially hard to anticipate. Beginners may want speed, then discover details they could not previously hear or see. These details make them willing to slow down and dissatisfied with achievements once a source of pride. Asked at the beginning whether to invest all that time, they might not yet understand what would make it worthwhile.
+
+We learn because we value something, and learning changes our reasons for valuing it. Purpose participates in inquiry; inquiry participates in purpose's formation. Arranging them in an irreversible sequence misses this mutual change.
+
+Because desires change, their histories deserve examination. Learning may reveal new interests; advertising, rewards, and group pressure may foster pursuits previously unimportant. Assessment can ask whether someone had opportunities to encounter alternatives, understand costs, and refuse to continue.
+
+In public decisions, hearing a new need must also enable a changed arrangement. A wheelchair user explains that a ramp is unusable. The information has entered the meeting, but if designers can dismiss it as outside the agreed indicators, the testimony has not affected judgement. Additional perspectives matter through their ability to change a problem's scope and subsequent treatment.
+
+Institutions face a difficulty here. A goal is needed to begin investigation and allocate resources, but investigation may bring back experiences that change it. An initial count of people crossing a park may later reveal that some cannot even enter. If the first scoring system continues to certify success, new knowledge can only sit beside the decision, unable to alter it.
+
+Knowing more does not necessarily improve what we want. But an arrangement that permits better means while forbidding reconsideration of what counts as doing well allows people only to become more skilful at following the original path.
+
+## Part Two — The Structure of Understanding
 {: #part2 }
 
-### 4 — A Different Representation Makes Thinking Possible
+> Selecting material, rearranging relationships, and omitting appropriately can increase our abilities. Each has conditions and leaves different boundaries.
+{: .prompt-info }
+
+### 4 — Representation: Giving the World a Form We Can Work With
 {: #s5 }
 
-Look first at the centre of each of these two maps, then follow one line out to the suburbs.
+Both maps below show London's Underground. Look first at the centre, then follow a line towards the outskirts. Their different ways of drawing will become apparent.
 
-| 1908: still resting on the geographic base map | 1933: Beck's diagram |
+| 1908: still close to the geographical map | 1933: Beck's diagram |
 |---|---|
-| [![The London Underground map of 1908, its lines laid over a base map of streets and geography, with station names crowded at the centre.](/assets/img/book/shared/fig-02-london-1908.jpg){: width="1600" height="1267" }](/assets/img/book/shared/fig-02-london-1908.full.jpg) | [![Harry Beck's 1933 London Underground map, which presents the network in regular line segments with interchange circles and respaces the stations.](/assets/img/book/shared/fig-03-london-1933.jpg){: width="1536" height="1105" }](/assets/img/book/shared/fig-03-london-1933.full.jpg) |
+| [![The 1908 London Underground map overlays routes on streets and a geographical base, crowding station names in the centre.](/assets/img/book/shared/fig-02-london-1908.jpg){: width="1600" height="1267" }](/assets/img/book/shared/fig-02-london-1908.full.jpg) | [![Beck's 1933 London Underground map uses regular line segments and interchange circles, rearranging distances between stations.](/assets/img/book/shared/fig-03-london-1933.jpg){: width="1536" height="1105" }](/assets/img/book/shared/fig-03-london-1933.full.jpg) |
 
-_Figure 4.1　Two historical maps from different decades. On the left, the Underground map of 1908, marked in the archive as public domain; on the right, the second edition of Beck's 1933 map, image source and credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, CC BY-NC-SA 3.0. The two maps also carry the differences of a network that changed over the years.[^map1908][^map1933]_
+_Figure 4.1　Historical maps from different years. Left: the 1908 map, identified as public domain in its file record. Right: the second edition of Beck's 1933 map. Image credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, CC BY-NC-SA 3.0. The network itself also changed between these dates.[^map1908][^map1933]_
 
-In the left-hand map the railway still clings to a city in which streets, riverbanks and parks can be recognised. Suburban distances stretch the lines out, while the centre is crammed with station names and bends. The right-hand map keeps the connections between stations, straightens the lines into regular directions and makes room for the names. The London you see has been stretched, compressed and rearranged.
+On the left, railway lines remain attached to a city of recognisable streets, riverbanks, and parks. Suburban distances stretch the lines while names and bends crowd the centre. On the right, station connections remain, but regular directions create room for labels. Geographical distances and bearings give way to relationships passengers need to recognise.
 
-When Harry Beck put the design forward in 1931, the publicity department turned it down. Could passengers really read a map that strayed so far from geography? By 1933 the design was at last printed as a pocket folder, and demand brought further printings.[^beck]
+When Harry Beck proposed his design in 1931, the publicity department rejected it. Could a map so distant from geography guide passengers? In 1933 it finally appeared as a pocket folder, and demand led to further printings.[^beck]
 
-A passenger holding the map mainly wants to know which line to take, which stations it passes in order, and where to change. Beck opened out the crowded centre and shortened the suburban gaps so that station names and interchanges were easier to pick out. Distances on the map therefore no longer follow geographic scale, while the connections between stations and their sequence still have to be accurate.
+Passengers mainly need the line to take, the order of stations, and places to change. Beck spread the crowded centre and compressed suburban gaps, making names and interchanges easier to identify. Distances ceased to follow geographical scale; connections and station order still had to be accurate.
 
-When you ask instead how long it takes to walk between two stations, the spacing on the right-hand map is no longer enough to answer. The purpose has changed, and so has the information that needs to be put back. An omission has concrete gains and losses, and these can be compared.
+Ask how long it takes to walk between two stations, and the spacing on the right is insufficient. A new purpose requires information to be restored. What spared trouble on a train may leave a walker short of information.
 
-A visitor arriving in London for the first time may not yet be familiar even with the line colours and the interchange symbol. He needs a key to tell him how to read the map, and then station names to confirm his direction. A map that someone who knows the network can take in at a glance is not necessarily as simple for him. As for the engineers who maintain the track, they also need actual positions and equipment data, and the pocket travel map does not supply these.
+A first-time visitor may not yet understand the colours or interchange symbols. A key must explain them, and station names help confirm direction. A familiar traveller's instantly legible map is not equally simple for everyone. Track-maintenance engineers need actual locations and equipment details the pocket map does not provide.
 
-How long an explanation should be therefore also depends on what the reader has already learnt. Cut the key that a newcomer needs and the page is cleaner, but he has to go about asking people what the symbols mean. A concise explanation should spare people irrelevant work while keeping the explanation needed to finish the task in hand.
+How much a map should explain begins with its readers. Removing the key may clean up the page while sending novices in search of someone who can explain it. Concise explanation reduces irrelevant work while preserving what the present task requires.
 
-A digital map can show the travel route first and let people tap open exit and walking information; a printed one can separate the main map, the key and supplementary pages. Users ordinarily read only the part they need, and when a new question arises they can still find further explanation.
+An electronic map can show a route first, then reveal exits and walking information on demand. Paper can separate the main map, key, and supplementary pages. Information need not all be read at once, yet remains available when needed. That is one use of layers.
 
-#### Compare on the same network first
+#### Compare the Same Network First
 {: #s5-1 }
 
-The two historical maps are twenty-five years apart, and the lines themselves were added to and removed. To see on its own what the redrawing brings, it is best to hold the connections fixed. The figure below therefore constructs a separate one-way network of eight places: in both drawings, A to H, the arrow directions and the links are exactly the same, and only the placement of the coordinates changes.
+Twenty-five years separate the historical maps, and routes changed too. To distinguish network changes from the benefits of drawing, we must hold connections fixed. The diagram below therefore invents a one-way network of eight locations. A through H, arrow directions, and connections are identical; only the coordinates differ.
 
-![The same one-way network from A to H. On the left the places are spread according to hypothetical positions; on the right they are arranged in five layers by the number of steps from A. Arrows and reachability are identical.](/assets/img/book/en/fig-04-same-network.svg){: width="1200" height="800" }
-_Figure 4.2　Two drawings of the same set of links. This is a hypothetical example drawn for this book, not the London network. The right-hand drawing is arranged by fewest steps: A; B, C; D, E; F, G; H._
+![The same directed network from A to H, arranged by hypothetical positions on the left and in five distance layers from A on the right. Arrows and reachability are unchanged.](/assets/img/book/en/fig-04-same-network.svg){: width="1200" height="800" }
+_Figure 4.2　Two drawings of the same connections. This hypothetical network was made for the book; it is not London's railway. The right-hand drawing groups locations by minimum steps: A; B and C; D and E; F and G; H._
 
-What is the smallest number of steps from A to H? Each arrow counts as one step, and you may travel only in the direction of the arrow. If you pick any route on the left-hand drawing and follow it to the end, what you get may be only one route among several, and you still have to compare the others before you can confirm it is the shortest. The right-hand drawing searches in a different order: first list every place reachable in one step, then every place reachable in two, and work outwards layer by layer. When a place turns up a second time, you already know that the earlier route reached it in no more steps than this one, so there is no need to start again from here.
+What is the fewest steps from A to H? Each arrow counts as one step and can only be followed in its direction. Following an arbitrary route to the end on the left may find just one possibility. Others must still be compared. The right follows another search order: list every location reachable in one step, then two, and continue outwards. If a location reappears, its earlier route took no more steps, so work from that point need not be repeated.
 
-Starting from A, one step reaches B and C, two steps reach D and E, three steps reach F and G, and only the fourth step finds H. The search has already listed every place reachable in fewer than four steps, and H is not among them, so four steps is at once one route that has been found and the smallest number of steps required.
+From A, one step reaches B and C; two reach D and E; three reach F and G. H first appears at step four. Every location reachable in fewer than four steps has already been listed, and H is absent. The search establishes why four is minimal by excluding shorter routes.
 
-This method is called breadth-first search. It supplies an order of searching, and it also supplies the reason for being sure the answer is the shortest. As the network grows, following the same method and recording the places already reached and the steps taken avoids trying complete routes over and over. What learning an algorithm that others have worked out saves is exactly this kind of repeated fumbling.
+This is breadth-first search. Its order supplies a reason for the answer's minimality. On larger networks, recording visited locations and distances avoids repeatedly trying whole routes. Learning an established algorithm saves this repeated exploration.
 
-Now suppose some links take one minute and others ten, and we want the quickest route. Taking one step fewer no longer necessarily takes less time; three links of ten minutes each may be slower than five links of one minute each. Breadth-first search can still find the route with the fewest steps, but to find the route that takes the least time, the time of every link has to enter the calculation, and a method suited to differing costs has to be used.
+Now suppose some connections take one minute and others ten, and we want the fastest journey. Steps no longer equal time. Three ten-minute connections can be slower than five one-minute connections. Breadth-first search still finds the fewest steps. Minimising time requires incorporating each connection's duration and using a method suited to unequal costs.
 
-#### Write it differently and the calculation changes
+#### A Different Notation Changes the Calculation
 {: #s5-2 }
 
-One hundred and five is written 105. The zero in the middle seems to stand for nothing, yet it keeps the units apart from the hundreds. Write 15 and the two digits that carry value are still there, but the quantity has changed. Place-value notation lets the same symbol stand for different magnitudes in different positions, and it lets addition, subtraction, multiplication and division proceed step by step along those positions.
+The zero in 105 seems to represent nothing, yet preserves the places of units and hundreds. In 15 the two nonzero digits remain, but the quantity has changed. Positional notation gives symbols different values according to place and lets arithmetic proceed through those places.
 
-Write twenty-three times fourteen as 23 × 14 and you can split fourteen into ten and four, work out two hundred and thirty first, then ninety-two, and put them together to make three hundred and twenty-two. Long multiplication sets these relations out on paper, so that all the intermediate results need not be held in the head.
+Write twenty-three times fourteen as 23 × 14. Split fourteen into ten and four: two hundred and thirty plus ninety-two gives three hundred and twenty-two. In written multiplication, intermediate results remain on paper rather than all being held in memory.
 
-The Roman numerals XXIII and XIV also stand for twenty-three and fourteen. The quantities have not changed, but the decimal long multiplication above cannot conveniently be applied to them directly. The person calculating can switch to a tool such as an abacus, or first rewrite the numbers in a notation suited to the operation. Recording a quantity and being able to work out a product easily are two different requirements.
+XXIII and XIV also represent twenty-three and fourteen. The quantities do not change, but ordinary decimal long multiplication cannot conveniently be applied directly. A calculator can use an abacus or rewrite the quantities in a more suitable notation. Symbols can record the same amount without making calculation equally easy.
 
-When the Underground map was redrawn, some geographic detail was omitted. The numerical example shows another possibility: the quantity is kept unchanged, and certain operations still become easier because of the representation. When Larkin and Simon discussed diagrams and reasoning in 1987, they distinguished two things: that the content of two representations can be derived from each other does not mean that finding a given answer takes the same amount of work.[^representation]
+Redrawing the railway map omitted geographical details. Numbers show another possibility: unchanged quantities become easier to manipulate through notation. In their 1987 discussion of diagrams and reasoning, Larkin and Simon distinguished informational equivalence from the amount of work needed to derive an answer.[^representation]
 
-A diagram can present relations such as adjacency, crossing and sequence directly on the page, easing the reader's burden of cross-checking in memory while reading. But two objects drawn close together do not necessarily have a causal relation, and an arrow may indicate nothing more than order. When using a diagram, it is still necessary to say what the points and lines stand for, lest the drawing hint in addition at conclusions that have not yet been established.
+Diagrams can place adjacency, intersections, and sequence directly on the page, reducing the burden of remembering and comparing while reading. But proximity does not establish causation, and an arrow may indicate only order. Points and lines must be explained; an apparently natural visual relationship may lack evidence.
 
-An arrangement on paper has a further effect that is easily overlooked: someone else can carry on from it. Long multiplication leaves its intermediate results, and another person can see which column carried wrongly; a network with its links drawn lets someone who took no part in the original discussion still look for another route. A representation preserves relations that people can operate on, and thinking can therefore be interrupted, handed over and resumed.
+Paper also helps the next person. Intermediate multiplication results show where a carry went wrong. A visible network lets someone absent from the original discussion find another route. Preserved relationships allow thinking to pause or pass to someone else.
 
-We often think of tools as things picked up only after the thinking is done. Here the order is not so tidy. Only after learning how to lay quantities out on paper can people reliably complete calculations that were hard to complete in the head; only after drawing out the dependencies among tasks does it become possible to notice a wait that had never been spoken of. A new representation also takes part in forming the ability.
+We often first think of tools executing what has already been planned. These examples show tools helping thought form. Learning to arrange quantities on paper enables calculations once difficult to perform mentally. Drawing dependencies can reveal an unspoken wait. New representations help abilities develop.
 
-#### What can be carried elsewhere
+#### What Can Be Taken Elsewhere?
 {: #s5-3 }
 
-Roads, the passing of messages and dependencies between tasks can all be represented with points and lines. Before carrying the same method of calculation across, the meaning of the points and lines has to be confirmed: is a point a place, a recipient or a task? Does a line mean that one can pass, that something can be sent, or that something must be finished first? If costs are being calculated, it also has to be made clear which costs increase as a line is traversed, and whether they may be counted more than once.
+Roads, message transmission, and task dependencies can all be represented by points and lines. Before calculating, we still need their meanings. Do points stand for locations, recipients, or tasks? Do lines permit travel or transmission, or require prior completion? If costs are calculated, which increase along a route, and may they be counted repeatedly?
 
-For example, when water flows through pipes, the amount entering and leaving a point can be calculated; when a message is forwarded, it may be copied to many people at once. That both sides use the word "flow" is not enough to justify carrying over the same conservation relation. Only when the differences are set out explicitly can one see which step of the original calculation needs changing.
+In pipes, water entering and leaving a location can be counted. A forwarded message can be copied to several people at once. Calling both a flow does not justify applying the same conservation relationship. Establishing the difference in copying tells us which calculations must change.
 
-Borrowing a story needs the same comparison. Someone who went for years without results and then succeeded can let readers feel how hard the waiting was. To use this to urge another project to hold on for one more year, one has to establish: what has the past investment accumulated? Which thing might one more year of waiting change? What signs show that results are drawing near? A failed project may also have a long history of investment, and length of time by itself cannot tell the two apart.
+Moving a story's lesson into life requires a similar comparison. Someone's eventual success after years without results can convey the difficulty of waiting. Advising another project to continue for a year requires more: what has accumulated, what might another year change, and which signs indicate approaching success? Failed projects can also involve years of effort. Duration alone does not distinguish patience from futility.
 
-#### What a simple action needs behind it
+#### When Tools Can Recede into the Background
 {: #s5-4 }
 
-A few taps on a phone and a food order is sent. The user does not have to contact the kitchen, arrange the order of deliveries or sort out delivery addresses; these are shared among the platform, the restaurant and the courier. The simple action lets him place the order without understanding all the details.
+“External Things” in the *Zhuangzi* describes a fish trap as a means of obtaining fish: once the fish is caught, the trap can be forgotten. The passage proceeds from fish and traps to meaning and words, directing attention from an instrument to what it helps us grasp.[^zhuangzi-outer]
 
-But if the delivery address cannot be made out, or the order status does not match what the restaurant received, the process that was hidden behind the screen becomes important. Finding where the error lies may require comparing the order record, the address and the delivery status. If these data were never kept, the user can press the same button a few more times and still get no answer.
+Familiar representations likewise recede from attention. Readers stop consciously identifying letter shapes; passengers learn the key and attend to the next change of train. Studying the map's production on every journey would consume the effort it was meant to save.
 
-The folder icon on a computer presents the operations of storing and organising files on the screen. The user can copy, move and open files without having to know each time where the data are actually held. A representation of this kind, made for people to operate, is called an interface.
+Following that image, this book asks a present-day question: when a tool recedes, can we still find it when something goes wrong? This is not an archival requirement stated by the classical text, but a responsibility arising from our maps and calculations.
 
-Some concepts work in a similar way. To say that a company's profit has risen lets us discuss revenue, costs and investment first, without immediately reading through every transaction. If, however, profit on the books rises while cash keeps falling, it becomes necessary to look into receivables, the timing of payments or other relevant details. The summary that was useful before cannot, on its own, answer the new question.
+Faulty directions call for rechecking connections, directions, and names. An inadequate summary may require original records. Not looking at details now differs from never being able to see them again. One saves present attention; the other limits future investigation.
 
-"He is very conservative" is also a summary. If this person suddenly supports a proposal that would greatly change the present state of affairs, rather than concluding straight away that he has contradicted himself, one can ask what exactly he is protecting: an existing process, a certain value, or the interests of a group of people? A word that is convenient for everyday description needs to be spelt out afresh when it meets a counter-example.
+Routine convenience and later traceability can be designed separately. The main map need not contain everything; sources, assumptions, and versions can be kept elsewhere. How much to preserve depends on expected use and cost. As a display becomes simpler, we need to distinguish work that is merely out of sight for now.
 
-#### The boundary can be redrawn, yet the consequences remain real
+#### What Supports a Simple Operation?
 {: #s5-5 }
 
-Some decisions need a clear threshold. The law fixes the day on which a person comes of age, a monitoring system sets the value that triggers an alarm, a screening procedure lays down when further tests are arranged. People have to act at some moment, and so they divide a continuously changing situation into a few categories.
+A few taps on a phone place a meal order. The customer does not contact the kitchen, arrange deliveries, or organise addresses personally. Platform, restaurant, and courier share those tasks. A simple operation makes ordering possible without understanding every detail.
 
-Take a hypothetical risk score: seventy or above is classed as high risk, and sixty-nine falls short. That one point can decide whether additional review is triggered, yet the actual risk does not necessarily jump between sixty-nine and seventy.
+If an address cannot be recognised or order status disagrees with the restaurant's information, the hidden processes need investigating. Finding the fault may require comparing order records, address details, and delivery status. If those records were never kept, pressing the same button again will not supply the answer.
 
-Choosing the threshold requires reference to the relation between risk and score, and consideration of the respective consequences of missing someone at high risk and of misjudging someone at low risk, as well as how much review capacity can be committed. The data limit which choices are well founded; the decision-maker still has to explain why the line is drawn here.
+A folder icon presents operations for storing and organising files. Users can copy, move, and open them without repeatedly understanding their physical location. An interface is a representation that makes such operations available.
 
-Once the threshold is adopted, what was only one point in a calculation changes how a particular person is treated. Discussion of whether the line is drawn reasonably therefore cannot stay inside the formula.
+Concepts can similarly spare us item-by-item inspection. Saying a company's profit has increased lets us discuss revenue, costs, and investment without first reading every transaction. But rising profits alongside dwindling cash call for examining receivables, payment timing, or other details. A useful general description cannot alone answer the new question.
 
-Classification changes how people are treated, yet the power of renaming has places it cannot reach.
+“He is conservative” is another summary. If he supports a major change, we can investigate what he seeks to protect before declaring him inconsistent: a procedure, a value, or someone's interests? A familiar word now needs unpacking.
 
-When a traveller finds the way by the map, the actual streets test whether the route exists. Draw a short cut on the map and the wall will not let anyone through on that account; write a higher permitted load for a bridge and the bridge does not become any stronger because of the number.
-
-We can choose how to describe, but whether a description is useful is still limited by the thing described. This book calls this situation "the constraint of reality": some outcomes cannot be changed by changing the words alone; the understanding of the causes, or the actual practice, has to be adjusted.
-
-This gives different models a place where they can be compared. When two maps give opposite directions for the same road, the discussion cannot be closed with "a difference of viewpoint"; when two maps guide travel by train and on foot respectively, each may be accurate. Only after confirming whether they answer the same question does one know which kind of difference to check.
-
-#### When both maps can be used
+#### Boundaries Can Be Redrawn; Consequences Remain Real
 {: #s5-6 }
 
-A city can have a transit map, a relief map, a population map and a house-price map all at once. A company, too, can be understood through its balance sheet, its operating procedures and its division of labour. Each of these representations helps answer a different question, and which to choose depends on what needs to be known this time.
+Things change continuously, yet decisions often occur at a particular moment. We set thresholds: an age for legal adulthood, a value triggering an alarm, a condition for further examination. The need to act divides continuous variation into categories.
 
-Faced with the same question, several maps sometimes correct one another, and sometimes each still carries its own cost. Someone in a hurry may accept a rough estimate of time, while someone studying the causes of congestion has to keep several more variables. Comparing how the maps predict new data, what they assume and what it costs to check them can help with the choice; no single requirement can always come first for every use.
+Consider a hypothetical risk score. Seventy or above means high risk; sixty-nine falls short. One point can determine additional review without actual risk suddenly jumping between those numbers.
 
-Organisations also meet another situation: two analyses are both quite reliable, yet they cannot combine themselves into a decision. The safety assessment points to a danger, the revenue forecast looks favourable, and the arithmetic in neither is wrong. If the two are converted into a single overall score, someone has to decide how much revenue offsets how much danger; if it is ruled that a certain kind of danger is enough to halt the project, reasons have to be given for that too.
+Choosing a threshold requires relating scores to risk, considering the consequences of missing high-risk cases and misclassifying low-risk ones, and assessing review resources. Evidence can exclude unsupported choices while leaving responsibility for drawing the line.
 
-Drawing more maps means this discussion need not proceed in a vacuum. The lines and numbers on the maps, though, will not take on the choice for the people at the table.
+Once adopted, a single numerical point changes someone's treatment. Whether the boundary is reasonable cannot be discussed solely inside the formula.
 
-### 5 — What Was Left Out Is Still at Work
+Classification changes treatment, but some things remain beyond its power.
+
+Actual streets test a map's routes. Drawing a shortcut does not let travellers pass through a wall. Raising a bridge's stated load limit does not strengthen it.
+
+We can choose a description, but its usefulness remains constrained by its object. This book calls that **real-world constraint**: some outcomes cannot be changed merely by changing words. Understanding of causes or actual practice must change.
+
+These constraints provide something against which competing models can be checked. Opposite directions for the same journey cannot be dismissed as different perspectives. A rail map and a walking map may each be accurate. First establish whether they answer the same question; then investigate the relevant difference.
+
+#### When Both Maps Work
+{: #s5-7 }
+
+A city can have transit, terrain, population, and property-price maps. A company can be understood through its balance sheet, processes, and division of labour. Each helps answer different questions. Choice depends on what we need to know now.
+
+Even for one question, maps may have different strengths. Someone hurrying may accept rough travel estimates; a researcher investigating congestion needs more variables. Comparing predictions on new data, assumptions, and verification costs helps selection. No requirement permanently takes precedence for every use.
+
+Harder still, two reliable analyses need not yield a decision. A safety assessment identifies danger; a revenue forecast predicts gains. Neither calculation need be wrong. Combining them into a score requires someone to decide how much revenue offsets danger. Making some danger grounds for suspension also requires reasons.
+
+More maps can be drawn and more evidence obtained. Discussion gains firmer grounds. The people at the table still have to choose.
+
+### 5 — Omission: A Source of Ability and a Boundary
 {: #s6 }
 
-On the evening of 31 May 2009, Air France flight AF447 left Rio de Janeiro for Paris with two hundred and twenty-eight people on board. By the early hours of 1 June the aircraft was cruising over the Atlantic. The captain had handed over and left the cockpit to rest, leaving the two co-pilots in their seats, one flying, the other monitoring and assisting.
+On the evening of 31 May 2009, Air France flight AF447 left Rio de Janeiro for Paris with 228 people aboard. Early on 1 June, it was cruising over the Atlantic. The captain had handed over and left the cockpit to rest. Two copilots remained, one flying, the other monitoring and assisting.
 
-The airspeed readings suddenly became inconsistent for a short time, and the autopilot disconnected. The investigation concluded that the probes used to obtain airspeed information had most likely been obstructed for a while by ice crystals. The co-pilot flying took control and pulled back on the sidestick, raising the nose; the aircraft began to climb and, as it did so, to lose speed.
+Several airspeed readings suddenly disagreed. The brief inconsistency disconnected the autopilot. Investigators concluded that ice crystals had probably temporarily obstructed the probes supplying airspeed information. Taking control, the pilot flying pulled back on the sidestick, raising the nose. The aircraft climbed while losing speed.
 
-The other co-pilot noticed that the aircraft was climbing and asked several times for it to descend. The pilot flying did make nose-down inputs, and the climb eased for a moment, but then the nose came up again and stayed up. As the climb went on, the stall warning sounded continuously; the altitude reached about thirty-eight thousand feet at one point, some three thousand feet above the original cruising level. The monitoring co-pilot called repeatedly for the captain to come back.
+The other copilot noticed the climb and repeatedly called for descent. Nose-down inputs briefly moderated it, but nose-up inputs continued afterwards. During the continued climb, the stall warning sounded continuously. The aircraft reached about 38,000 feet, roughly 3,000 feet above its previous cruising altitude. The monitoring copilot repeatedly called the captain back.
 
-A stall, here, is a matter of the wings. The angle at which the wing meets the airflow becomes too steep, the flow begins to separate from the wing surface, and lift falls away. With its nose pointing upwards the aircraft can still be dropping fast. Holding the nose up does not end that state merely because it looks like flying upwards.
+To understand what followed, we need to understand a stall. When a wing meets the airflow at too great an angle, airflow separates from its surface and lift decreases. The aircraft can descend rapidly even with its nose raised. Continuing to raise the nose cannot overcome the stall merely by pointing upwards.
 
-Although some of the airspeed readings had come back, the crew still failed to recognise the stall and recover from it. After the captain returned to the cockpit the airspeed readings became invalid again and the stall warning stopped; when the nose was briefly lowered and the readings became valid once more, the warning sounded again. Whether the warning was on or off did not correspond directly to whether the aircraft was now any safer. It had to be read together with whether the airspeed data was valid, what attitude the aircraft was in, and how it was descending. The three men did not arrive at a correct judgement in time. The aircraft went into the sea, and no one on board survived.[^af447]
+Some airspeed readings recovered, but the crew did not recognise and resolve the stall. After the captain returned, readings again became invalid and the stall warning stopped. Brief nose-down inputs restored valid readings and the warning resumed. Silence did not mean safety. Reading validity, attitude, and descent had to be interpreted together. The three men did not establish the correct understanding in time. The aircraft struck the sea; no one survived.[^af447]
 
-The French accident investigators traced the event through the control records, the logic of the warnings, the training, and the way the crew worked together. In ordinary flight the systems handle a great deal on the pilots' behalf; once something goes wrong, details that normally need no individual attention suddenly become part of a judgement that has to be made at once.
+France's accident investigators examined control inputs, warning logic, training, and crew coordination. In routine flight, systems handle much of the work. Under abnormal conditions, details normally outside immediate attention suddenly become essential to judgement.
 
-A person can have the controls back without having, at the same moment, the ability to understand the situation. "When the system meets something it cannot handle, it hands over to a human" sounds like a thorough arrangement: the machine does the routine work and the human keeps the final decision. When the handover actually comes, what is left to the human may be exactly the situation that is least familiar and leaves least time to think.
+Control can return to human hands before understanding catches up. “Let the system handle routine work, then hand over what it cannot manage” sounds comprehensive: machines operate while humans retain the final decision. At the moment of handover, however, the person may face the least familiar situation with almost no time.
 
-#### A simple action still rests on many things
+#### Many Things Still Support a Simple Operation
 {: #s6-1 }
 
-Putting a file into a folder on your own computer and putting a file into a folder on a remote server can be the same drag on screen. The first may finish almost at once; the second has to wait for the transfer. If the connection drops part-way, no amount of resemblance to a local folder will keep that communication alive.
+Dragging a file into a computer's folder and dragging one into a remote server's folder may look identical. One may finish quickly; the other waits for transmission. If the connection breaks, the familiar icon cannot reconnect it.
 
-The user only drags an icon; the program takes care of storing and transmitting, which is why the folder view can be so simple. Whether the file arrives still depends on whether the disk can be written to, whether the connection holds, and whether the remote device responds. These details do not normally need to be shown one by one, yet when they fail they bear on the very same action.
+The user drags an icon while software handles storage and transmission. This keeps the display simple. Delivery still depends on writable storage, continuing connectivity, and a responsive remote device. The display can omit these details; the operation continues to depend on them.
 
-In 2002 the programmer Joel Spolsky gave this kind of situation a name, the "leaky abstraction", and offered a generalisation about engineering that has travelled widely since: any abstraction with real substance will, to some degree, expose the details it set out to hide.[^leaky]
+In 2002, programmer Joel Spolsky called this sort of situation a “leaky abstraction,” offering a widely circulated engineering generalisation: substantial abstractions leak to some degree, exposing details they sought to hide.[^leaky]
 
-Take TCP, the set of rules for network transmission that lets applications work with a reliable, ordered stream of data, and that can cope with some packets going missing or arriving out of order. A connection may still fail, and there is no fixed guarantee of how long transmission will take.[^tcp] Someone working with remote files who loses the connection may need to check whether the transfer completed, wait for it to recover, or reconnect.
+TCP, for example, offers applications a reliable, ordered data stream and handles certain losses and reorderings of data packets. Connections can still fail, and transmission time is not guaranteed.[^tcp] A remote-file user confronting disconnection may need to establish whether a transfer completed, wait for recovery, or reconnect.
 
-Delay and disconnection may have been set out in the protocol's specification all along; the trouble sometimes lies in an interface that gives the user no reminder, and in a user who mistakes everyday convenience for a guarantee of success at any moment. Once we are clear about what the specification actually promises, we can tell whether the tool has failed to deliver or whether we expected a capability it never agreed to provide.
+Delay and disconnection may already be specified in a protocol. Sometimes the interface fails to remind users, who mistake everyday convenience for guaranteed success. Specifications must be read carefully to distinguish a tool breaking its promise from a user expecting too much.
 
-This book keeps the term "leaky abstraction" to name that relationship: **some of the differences that a representation or interface left out or hid can still affect the outcomes the user cares about; once they come to matter, working only within the original representation may no longer be enough to understand or deal with what is in front of us.**
+This book uses **abstraction leakage** for a relationship: **differences omitted or hidden by a representation or interface can still affect an outcome users care about. Once those differences matter, operating only within the original representation may no longer suffice to understand or handle the situation.**
 
-![The left side shows an interface sparing the user from attending to the underlying work on every use; the right side shows that a change in the underlying conditions still affects the outcome of the same action. On both sides the underlying conditions persist.](/assets/img/book/en/fig-11-leakage.svg){: width="1200" height="800" }
-_Figure 5.1　Hiding the details does not cut the dependence on them. The arrows in the figure show relations of support and influence, not that every use will fail. Drawn for this book._
+![On the left, an interface keeps underlying work outside routine attention. On the right, changed underlying conditions affect the same operation. Dependence on those conditions exists on both sides.](/assets/img/book/en/fig-11-leakage.svg){: width="1200" height="800" }
+_Figure 5.1　Hiding detail does not sever dependence. Arrows indicate support and influence, not inevitable failure on every use. Drawn for this book._
 
-This kind of limit can show up on the very first use. A newly set-up remote folder, for example, can no longer supply files the way a local folder does once the connection drops. The loss of skill over years of use, documentation going out of date, the difficulty of replacing the tool: these are a separate set of risks. Even if none of them ever arises, a connection remains a condition for any remote operation.
+Some limits appear on first use. A newly configured remote folder can lose access when disconnected, unlike a local folder. Skill loss, outdated documentation, and difficulty switching after long use are other risks. Even if none occurs, connectivity remains a condition of remote operation.
 
-#### Why some gaps cannot be filled from within the original representation
+#### Why Some Gaps Cannot Be Repaired Within the Representation
 {: #s6-2 }
 
-Suppose two sets of data survive only as their averages. One set was forty and sixty; the other was zero and one hundred. Both average fifty, and there is nothing wrong with that calculation.
+Suppose two datasets retain only their means. One contains forty and sixty, the other zero and one hundred. Both average fifty. The arithmetic is correct.
 
-Now someone asks whether either set contains a value below twenty. The first does not; the second does. If the average really is all that is left, there is no way to tell from it which set was which. However precisely the fifty is computed, however long it is analysed, the difference that has been lost will not grow back out of it.
+Now ask whether either contains a value below twenty. The first does not; the second does. With only the mean remaining, we cannot tell which dataset it describes. More decimal places or several more days of analysis cannot recover the lost difference.
 
-![Two hypothetical data sets, forty and sixty, and zero and one hundred, are both recorded as an average of fifty; but the answer to whether anyone falls below twenty differs. With only the average kept, the new question cannot be settled.](/assets/img/book/en/fig-12-lost-distinction.svg){: width="1200" height="815" }
-_Figure 5.2　The same summary can stand for situations that call for different answers. The numbers are hypothetical, chosen for the argument, not measured data. Drawn for this book._
+![Both forty and sixty, and zero and one hundred, become a mean of fifty. They differ on whether a value falls below twenty. The retained average cannot distinguish the new question.](/assets/img/book/en/fig-12-lost-distinction.svg){: width="1200" height="815" }
+_Figure 5.2　Identical summaries can represent situations requiring different answers. These hypothetical numbers support an argument; they are not measurements. Drawn for this book._
 
-The reason can be stated quite plainly. If a representation records two actual situations as the same content, and some question demands different answers for the two, then any fixed way of judging that relies on this representation alone cannot answer correctly in both cases. At the least, one piece of information that separates them has to be added, or it has to be admitted that for now they cannot be told apart.
+The reason generalises. If a representation makes two situations identical while a question requires different answers, a fixed procedure using that representation alone cannot answer both correctly. It needs information that distinguishes them, or must acknowledge its inability to distinguish.
 
-When the task is only to compute the average of the two numbers, either summary is entirely sufficient. An abstraction can stay accurate on a well-defined question; leaving something out does not automatically amount to being wrong. The difficulty is that we so often take a representation built for one kind of question and go on to answer other questions with it.
+For the task of reporting those two numbers' mean, however, either summary is entirely sufficient. A properly bounded question can be answered perfectly by a summary. Omission itself is no error. Trouble arises when a representation built for one question is used for another.
 
-So long as the omitted difference stays irrelevant to the question, we can safely spare ourselves the effort of handling it. Once the question changes, more computation may be no help at all. The difficulty at that point may not even be one the person using the representation can resolve: the original data may be kept somewhere else, or it may never have been kept.
+If omitted differences remain irrelevant, we can spare the effort of handling them. Once the question changes, more computation may do nothing. Users may be unable to fix the problem themselves: original data may be held elsewhere or never have been preserved.
 
-#### Having a limit, and leaving the limit nowhere to be found
+#### Having Limits and Making Limits Untraceable
 {: #s6-3 }
 
-Consider two hypothetical systems for reporting faults. In both, the user presses "report fault" once. One of them also saves the relevant raw data from that moment and allows situations outside the existing categories to be written in; the other keeps only the result once it has been sorted into the existing categories. The screens are equally simple; what can be looked up afterwards is not.
+Consider two hypothetical incident-reporting systems. Both ask users to press “report a fault” once. One also saves relevant raw data and allows unclassified circumstances to be added. The other keeps only classified results. Each takes one click now; later inquiries have different records available.
 
-| Point of comparison | Version A | Version B |
+| What is compared | Version A | Version B |
 |---|---|---|
-| Everyday operation | One press to report a fault | One press to report a fault |
-| Background record | Keeps the relevant raw data; allows uncategorised situations to be added | Keeps only the result after sorting into existing categories |
-| When something must be traced | Raw records and supplementary notes are available | Discarded differences cannot be recovered from the result |
+| Routine operation | One click reports a fault | One click reports a fault |
+| Background record | Relevant raw data and unclassified additions | Only results fitted into existing categories |
+| Later investigation | Original records and supplementary accounts remain accessible | Discarded differences cannot be recovered from results |
 
-If it later turns out that faults filed under one category in fact had different causes, Version A can go back to the saved data and see which differences the original classification failed to record; Version B, having discarded the relevant details, cannot reconstruct them from the categorised results alone. Ease of operation, and the keeping of data for catching errors later, can be handled separately by different parts of the design.
+Suppose faults originally grouped together later prove to have different causes. A can revisit saved data to examine differences the classification missed. If B discarded those details, categories alone cannot restore them. Convenience and later investigation can each be accommodated in design.
 
-Choosing between them also means reckoning the cost of storing data and weighing privacy and use. There is no need to keep everything against every remote possibility. But once we have reason to expect a particular failure that matters, whether to leave an adequate path for tracing it becomes a practical choice.
+Choosing a version also involves storage costs, privacy, and purpose. There is no need to preserve everything for every remote possibility. But once we can reasonably anticipate an important failure, keeping an appropriate means of investigation ceases to be an incidental detail.
 
-In the same way, a checkout rule that supports a single currency can refuse other currencies outright, or it can quietly treat figures in different currencies as if they were in the same unit. The first tells the user that another method is needed; the second may cover the problem with an answer that looks normal. Every abstraction has limits, and the ways of handling those limits can differ enormously.
+Likewise, rules supporting only one currency can explicitly reject others, or silently add their numbers as though all shared one unit. Rejection signals the need for another method. Silent addition may conceal the problem with an apparently ordinary answer. Both systems have limits; their consequences differ substantially.
 
-Once the data has been kept, someone still has to be able to read it and act on it. That ability, too, has to be maintained.
+Preserved data still need someone able to read them. That ability is not automatically stored with the files.
 
-When a system has run smoothly for a long time, people usually check it less often and spend their time on other things. That saves effort, but it can also let certain abilities go rusty. Someone who rarely handles faults by hand, for example, may need more time to recognise the situation when suddenly asked to take over.
+As a system runs smoothly, people usually reduce repeated checks and spend time elsewhere. Time is saved, while rarely used skills can grow rusty. Someone seldom handling an exception manually may need longer to recognise it when suddenly called upon.
 
-Writing about automation in 1983, Lisanne Bainbridge pointed to a contradiction in practice. Once automation has taken over routine operation, what remains for the human may be the rare and difficult abnormality; yet the operator, lacking daily practice, finds it hard to grasp the situation quickly when suddenly required to. Keeping a person at the last gate does not by itself guarantee that the person is still able to complete the handover.[^bainbridge]
+In 1983, Lisanne Bainbridge described a practical irony of automation: machines take routine operations, leaving humans rare and difficult abnormalities, while reduced practice makes those situations harder to understand quickly. Keeping a human as the last line does not establish that the human can still do the job.[^bainbridge]
 
-Keeping people able to take over is therefore work that has to go on continuously in ordinary times. The practice required, the status information that must be available, and the time needed to act all have costs. The more smoothly the automation runs, the more easily these investments come to look superfluous: if they are so seldom used, why keep paying for them? Only when the abnormality arrives does the cost that was saved reappear in another form.
+Maintaining the ability to take over requires continuing work. Practice, accessible state information, and enough handling time all cost something. The smoother automation becomes, the more unnecessary these provisions can appear. Why maintain what is so rarely used? When an exception comes, earlier savings may become abilities that cannot be supplied quickly enough.
 
-A remote file can lose its connection on the very first use; proficiency in a rare operation can decline after long disuse. These are difficulties from different sources, and design has to face both. Knowing that an abstraction cannot take care of everything does not, on its own, tell us how much capacity to hold in reserve, day to day, for an exception that has not yet arrived.
+A remote file can fail on first use; proficiency in a rare operation can decline through disuse. Design must address these different difficulties. Acknowledging limits is only a beginning. The harder choice is how much preparation to maintain for exceptions not yet encountered.
 
-#### More and more reports, and the war no clearer
+#### More Reports Did Not Make the War Clearer
 {: #s6-4 }
 
-In 1961 Robert McNamara arrived at the United States Department of Defense. He came from wartime statistical work and corporate management, and he valued decisions supported by quantities, costs, and comparisons. These methods could reveal differences that had previously been hard to set side by side, and they gave analysts an important place in the running of defence.
+Robert McNamara entered the US Department of Defense in 1961 with experience in wartime statistics and corporate management. He valued numbers, costs, and comparisons in decision-making. Quantification exposed previously hard-to-compare differences and brought analysts into influential positions.
 
-The Vietnam War is often described afterwards as a war lost because the only thing anyone looked at was the enemy body count. The historian Gregory Daddis's research complicates that story. What was collected at the time went well beyond kill counts: weapons captured, local security, the state of control over territory, a great mass of data. Part of the problem lay precisely in there being too much of it, and too little of a consistent way of telling which numbers actually meant progress.[^vietnam]
+The Vietnam War is often described as a war lost through reliance on enemy body counts. Historian Gregory Daddis shows what that account omits. The military collected not only kill figures, but large quantities of information about captured weapons, local security, and control. Part of the difficulty lay in too much data and insufficiently coherent ways to recognise which figures meant progress.[^vietnam]
 
-Political legitimacy, local networks, popular attitudes, and the opponent's mobilisation could all shape the course of the war. To use figures for casualties, captured weapons, or local control, one had to understand under what conditions each of them reflected strategic progress. Adding another batch of numbers, if their relation to the strategic aims still could not be spelt out, did not necessarily add to anyone's understanding of how the war was going.
+Political legitimacy, local networks, public attitudes, and an opponent's mobilisation can all affect war. Using casualty, capture, or control figures requires understanding when each reflects strategic progress. Numbers can multiply while the situation stays obscure if their connection to strategic aims remains unclear.
 
-When those reports were also used to allocate resources and assign responsibility, looking into what lay outside the numbers mattered all the more. Could observations from people on the ground supplement the existing reports? When someone found that an indicator did not match the actual state of control, could that prompt decision-makers to reassess? Gaps in measurement can persist because the decision process accepts only certain numbers.
+When reports allocate resources and responsibility, circumstances outside their numbers matter still more. Can local observations supplement them? If a measure conflicts with actual control, can that discrepancy prompt reassessment? Decisions that recognise only certain figures may repeatedly overlook failure outside them.
 
-#### Those who find a way round also know something
+#### People Who Find Workarounds Know Something Too
 {: #s6-5 }
 
-Sometimes a user can deal with a tool's limits without first working out the full principle behind them.
+When tools fail, users sometimes find a workaround before understanding why it works.
 
-Suppose an image tool consistently fails to pick out the edges of objects in a certain kind of photograph. After a few comparisons the user finds that adjusting the contrast first gives a selection closer to what is wanted. He may have no idea how the selection algorithm computes its result, yet he has learnt a useful technique: on this kind of photograph, changing the input first improves what follows.
+Suppose an image tool repeatedly selects object edges poorly in certain photographs. After comparisons, a user finds that adjusting contrast first improves selection. They may know nothing of the algorithm yet possess a useful skill: changing input improves subsequent results for this type of photograph.
 
-This can be called a local workaround. It solves the immediate difficulty first, and lets repeated use and comparison confirm its scope of use afterwards. If it stops working on another kind of photograph, the rule has to be narrowed or the cause looked into afresh.
+This book calls such procedures **local compensation**. They first address the immediate problem, while repeated use and comparison establish their range. Failure on a different type of photograph calls for narrowing the rule or investigating again.
 
-Success after success, though, can make people forget the scope. What was first written down was "on this kind of photograph, adjust the contrast first; the result is better". After a few handovers only "always raise the contrast before selecting" remains. Those who come later follow the rule without knowing that some photographs never needed the treatment, and may even be made worse by it. The technique has become a general rule, and what has vanished is the set of comparisons that originally supported it.
+Repeated success can also obscure scope. “Adjusting contrast helps on photographs of this kind” becomes, after several handovers, “always increase contrast before selection.” Successors follow the instruction without knowing that some photographs need no adjustment or become worse. The technique survives; the supporting comparisons do not.
 
-We rely on this kind of limited grasp with a great many tools. A writer does not have to understand how a typeface is rendered on screen before writing; a maintenance engineer may, from years of comparison, hear an abnormal sound first and only then ask someone to test for the cause. Whether such a competence is reliable should be judged by what the person recognises, under what conditions it works, and whether he can improve after a miss.
+Many everyday abilities rest on such limited mastery. Writers need not know how fonts reach the screen to write. Maintenance workers may hear an abnormal sound through long comparison before asking for its cause to be tested. Reliability depends on what they distinguish, where it works, and whether mistakes lead to improvement.
 
-If the technique keeps failing, the user may have to ask someone to examine the inputs and the environment, or switch to another measurement to cross-check. That takes time; overhauling the whole classification takes far more, and after the change there will be new limits to meet. Sometimes the only option is to narrow the use, or even suspend it, and bear the loss of not being able to do that thing for a while.
+Repeated failures may require examining inputs and environment with help, or checking with another measurement. Investigation takes time; rebuilding categories takes longer. Replacement methods have limits too. Sometimes use must narrow or stop, with the cost of temporarily losing the ability.
 
-Each of these responses has its own price, and no single action can be called "dealing with the leak" once and for all. Still, whoever takes over can at least be spared some wasted effort: if the original user leaves behind the kinds of photograph the technique applies to, the cases where it failed, and the original files, the successor need not start guessing again from the single line "always raise the contrast".
+These responses incur different costs; “handling leakage” cannot settle them all. But successors can be spared some wasted work. Records of suitable photograph types, failure cases, and original files mean they need not begin by guessing the meaning of “always increase contrast.”
 
-Leaving a record of how something was used can also, at times, let those who come later ask questions that no one had asked before.
+Records may also reveal a question earlier users missed.
 
-Some unknowns can already be put as definite questions. Was a particular error caused by a change of camera? One can compare old and new images, rerun the recognition, and eliminate possibilities one by one.
+Some unknowns are already explicit. Did replacing the camera cause an error? Old and new images can be compared, recognition rerun, and possible causes checked.
 
-Harder are the cases where the system has not yet recorded the difference that caused the error. Suppose an engineer keeps only the recognition results, with no original images and no record of when the camera was changed. When he sees accuracy falling, he is short of several clues he might have used to propose and test a cause. The original report had no fields for them, and an error does not sprout its own explanation.
+Harder cases arise when a system never recorded the relevant difference. Suppose engineers retain recognition results but neither original images nor camera replacement dates. When accuracy falls, several clues for proposing and testing explanations are missing. The lower accuracy figure cannot supply what the records omitted.
 
-We cannot list every surprise in advance, but we can give new findings somewhere to be written down: allowing faults outside the existing categories to be entered, letting operators add what they saw on the spot, or keeping the raw data connected to important results. Once a new pattern is found, one can then decide whether to add a category, change the measurement, or test again.
+Surprises cannot be exhaustively listed, but new discoveries can have somewhere to go: reports outside existing categories, operators' descriptions, or raw data relevant to important outcomes. Newly found patterns can then inform additional categories, measurements, or tests.
 
-Which data to keep, and who may add to it, still have to be weighed against cost and privacy. The aim of the design is to give problems no one has yet foreseen a chance to be noticed and investigated, rather than to require every system to hoard everything in advance.
+What to preserve and who may add it still depend on costs and privacy. These choices retain opportunities to investigate questions not yet conceived. Collecting everything in advance is neither practical nor necessarily warranted.
 
-#### How science differs from a temporary fix
+#### How Science Differs from an Ad Hoc Repair
 {: #s6-6 }
 
-A tool can stay in use on the strength of local techniques, and scientific theories, too, are frequently revised in the face of new phenomena. The difference between the two can be seen in what checks the revision must then submit to.
+Local techniques keep tools usable; scientific theories also change in response to new phenomena. Distinguishing them requires examining what checks the changes accept.
 
-The photograph technique above claims only that it improves selection on one kind of input, and repeated comparison on that kind of photograph gives it partial support. To go further and explain how features of the image affect the algorithm, one would have to put forward expectations that can be checked on new photographs; and when others repeat the work with different data, they should be able to see corresponding results. As the claim grows, so does the evidence it requires.
+The photograph technique claims only to improve selection on certain inputs. Repeated comparison offers some support. Explaining how image features affect an algorithm requires expectations testable on new photographs. Others repeating the work with different data should be able to observe corresponding results. Evidence must keep pace with a claim's reach.
 
-New concepts in science need the same kind of checking. The discussion of dark matter concerns the problem of mass in phenomena such as the motion of galaxies and gravitational lensing; dark energy concerns the explanation of the universe's accelerating expansion. Each is constrained by several sets of observations, and each still has open questions and ongoing research.[^cosmology] To assess them, one compares how the whole explanation fits the different lines of evidence, and what further observable results it leads us to expect.
+New scientific concepts need such examination. Dark matter concerns mass-related problems in galaxy motion and gravitational lensing, among other phenomena; dark energy concerns explanations of accelerated cosmic expansion. Both face multiple observational constraints and continuing unresolved questions.[^cosmology] Assessment compares how an account fits different evidence and what further observable results it predicts.
 
-If every discordant result were met only with an added explanation that cannot be checked separately, any theory could be kept safe. What gives us reason to trust a theory more is its ability to anticipate new situations from its principles and to submit to checking against independent data.
+Adding an independently uncheckable explanation for every discrepancy can shelter a theory from all counterexamples. Expectations for new situations and checks against independent data provide reasons for greater trust.
 
-Does the fact that knowledge is still limited mean that "ultimate truth must be unattainable"? That step cannot be taken from present shortcomings alone. We can establish that a given representation cannot answer a given question without thereby establishing the limits of every future method.
+Does present ignorance establish that ultimate truth must be inaccessible? Present shortcomings do not support that far-reaching conclusion. We can establish that one representation cannot answer a question without establishing the limits of every future method.
 
-Scientific realists care whether a theory describes structure the world actually has; instrumentalists lay more stress on a theory's use in organising experience and making predictions. They understand theories differently, yet they can still jointly check what assumptions a claim uses, what evidence it fits, and what kind of finding would demand its revision.
+Scientific realists ask whether theories describe structures the world actually has; instrumentalists emphasise organising experience and prediction. Despite differences, both can check assumptions, compare evidence, and identify discoveries that would require change.
 
-#### Some limits call for a different road
+#### Complete Relative to What?
 {: #s6-7 }
 
-When a leak appears, the existing system does not necessarily have to be repaired until it can handle everything. Giving up a category, stopping a scoring scheme, or retiring a process may be better.
+Chapter 4's numerical notations remind us that improvement need not involve deletion. Two notations can preserve a quantity while changing computational difficulty. The need to select does not prove that every change of representation loses information.
 
-If a form keeps squeezing out important experience, the answer need not be to add fields without end; perhaps decisions of this kind need interviews and case-by-case judgement to take part as well. If a method shifts its maintenance costs onto its users, keeping it running is not necessarily a goal worth putting first.
+When omission is needed, the question is which differences can be set aside. Fifty suffices for reporting the mean, but not for finding values below twenty. A summary's completeness must be specified relative to a question.
 
-Choosing how to handle a limit also involves how the costs are distributed. A form that saves managers time in review may make it hard for the people filling it in to describe their real difficulties; keeping an old tool in service may leave frontline workers patching things by hand again and again. In weighing whether to keep it, the burden on these people and the alternatives should be compared together.
+Raw data retain some future options, at costs in storage, organisation, retrieval, and privacy. However abundant, unreadable or inaccessible data cannot become usable ability. Sound arrangements consider both what remains and how successors can use it.
 
-A form kept originally to save trouble may leave another group of people forever making up for what it failed to record. Whether it is worth keeping can no longer be judged by how efficiently the form organises things.
+A harder gap is not yet knowing what to record. Unclassified reports give new questions a chance to enter, but merely improve the conditions for discovery. They do not guarantee that every omission will surface. Some unknowns never announce themselves as alarms.
 
-### 6 — Useful, True, and Worthwhile
+A framework must acknowledge this. Recording “not yet known” is a useful start. It must still indicate possible avenues of inquiry or admit that none is presently available. Once the unknowns are written down, investigation remains to be done.
+
+#### Some Limits Call for Another Path
+{: #s6-8 }
+
+Leakage need not be repaired by making a system handle everything. Removing a category, stopping a score, or retiring a process may be worthwhile instead.
+
+A form that continually squeezes out important experience may need interviews and individual judgement, not endless new fields. Keeping a method running may deserve little priority if maintenance costs are continually transferred to users.
+
+Whether to retire it also depends on who bears the status quo. A form saves managers reading time while preventing applicants from explaining their real difficulty. An old tool leaves front-line staff repeatedly repairing its effects by hand. Their burdens and alternatives belong in the comparison.
+
+Work a form saves one group may be repeatedly performed by another. Evaluating its usefulness must count their time too.
+
+### 6 — Usefulness: What Understanding Enables Us to Do
 {: #s7 }
 
-It was getting dark, and the little girl was still in the street selling matches. Andersen sets the story on the last day of the year. Snow was falling, and from every house came light and the smell of roast goose, while she walked outside barefoot. The oversized slippers she had set out in were lost when she dodged out of the way of a carriage, and all day nobody had bought a match from her or given her a single coin.
+The year is ending and darkness is approaching, but the little match girl is still outside. In Andersen's story, snow falls, windows glow, and the smell of roast goose fills the street. She walks barefoot. Her oversized slippers were lost while she dodged carriages. Nobody has bought her matches or given her a coin all day.
 
-She dared not go home. Her father would beat her for bringing back no money, and home was hardly warmer, for the wind still came in through the cracks in the roof. At last she crept into a corner between two houses, her hands stiff with cold. One match, struck, might warm her fingers a little.
+She fears going home without money because her father will beat her. Home is cold too, with wind entering through the roof. She curls into a corner between two houses, hands numb. Perhaps one match could warm them.
 
-The flame caught. She held her hands towards the light, and it was as if she were sitting before a great iron stove. Her body grew warm, and she was stretching out her feet to warm them too when the match went out. The stove was gone, and all that remained in her hand was the burnt stub.
+It flares. Holding out her hands, she seems to sit before a large iron stove. Warmth reaches her body; she stretches out her feet, but the match dies. The stove disappears. A burnt matchstick remains.
 
-She struck another. Where the light fell, the wall turned as thin as gauze, and behind it stood a table laid with a cloth, a roast goose still steaming on it. The goose jumped down from its dish and waddled towards her, knife and fork and all; then the flame died, and there was nothing in front of her again but the thick, cold, damp wall.
+She strikes another. In its light the wall turns thin as gauze, revealing a laid table and a steaming goose. The goose jumps down and approaches with knife and fork in its body. The flame goes out, leaving the thick, cold, damp wall.
 
-With the third match she found herself sitting beneath a splendid Christmas tree. Many small lights burned on its branches, and she reached up to touch them, and the match went out. The lights of the tree rose higher and higher until they became the stars in the sky, and one of them fell, drawing a long streak of light behind it. She remembered what her grandmother had told her: when a star falls, a soul is going up to God. Her grandmother was the one person who had loved her, and she was dead.
+The third match places her beneath a splendid Christmas tree. Its branches carry many lights. She reaches towards them, and the match dies again. The lights rise into stars; one falls, trailing brightness. She remembers her grandmother saying that a falling star means a soul is going to God. The grandmother who loved her is dead.
 
-When the next match flared, her grandmother stood there in the light. The little girl begged to be taken with her. She knew by now what happened when the flame went out: the stove had vanished, the goose had vanished, the Christmas tree had vanished, and this time she would not lose her grandmother too. In haste she struck the whole bundle of matches at once, to keep her grandmother there.
+With the next flame, her grandmother appears. The girl begs to be taken away. She knows the stove, goose, and tree vanished when their flames died. This time she will not let her grandmother disappear. She hastily lights the whole bundle to keep her there.
 
-Her grandmother lifted her up in her arms, and together they rose to a place where there was no cold, no hunger and no sorrow, and came to God.
+Her grandmother lifts her, and together they rise where there is no cold, hunger, or sorrow, to be with God.
 
-The next morning, people in the street found the girl leaning against the wall, frozen to death, a bundle of burnt-out matches beside her. They supposed she had only been trying to warm herself. They did not know what she had seen in the light.[^andersen]
+The next morning people find the girl frozen to death against the wall, spent matches beside her. They think she had tried to warm herself. They do not know what she saw in the light.[^andersen]
 
-When an experience really does bring comfort, are we weighing that comfort, or the reality the person was actually standing in?
+The ending holds comfort within the flame and cold outside it. From which side should we begin to judge an experience's usefulness?
 
-#### A report that seems to be about you alone
+#### What Does Feeling Helped Establish?
 {: #s7-1 }
 
-Suppose a personality profile reads: "You care a great deal about how others see you, yet at times you wish you did not have to be swayed by them." Reading a sentence like that, you may feel it has caught a contradiction in you exactly. But can that feeling of recognition show that the test has really told you apart from other people?
+Suppose a personality report says, “You care what others think of you, but sometimes wish you were less influenced by them.” It may touch a current concern. Does its apparent accuracy establish that the test distinguished you from other people?
 
-Bertram Forer asked the students in his class to complete a test. Afterwards he handed each of them a personality description that appeared to have been written from their results, and asked them to rate how well it fitted. The students generally rated it highly.
+Bertram Forer asked students to complete a test, then gave them descriptions apparently derived from their answers. They rated how well the descriptions fitted. Ratings were generally high.
 
-Only then came the disclosure: they had all been given the same text. Forer's paper of 1949 called the exercise a classroom demonstration. What he was challenging was the practice of validating a diagnostic tool by the assent of the people it was applied to. If one description can make many people each feel "this is exactly me", then the feeling of being seen cannot on its own prove that the description has picked out anything individual.[^forer]
+Everyone had received the same text. In his 1949 paper, Forer called the exercise a classroom demonstration. It challenged the use of agreement to validate a diagnostic instrument. If one description makes many people feel individually recognised, that feeling does not establish discrimination among individuals.[^forer]
 
-A sentence in a personality report may apply to one person; the same sentence may apply to most of the class. To learn whether a test distinguishes between individuals, you have to set different people's results side by side. It is not enough to let each person read their own and then ask, "Does this sound like you?"
+A sentence can apply to one person and most of the class. To assess discrimination, different people's results must be compared. Asking each reader whether it sounds like them cannot establish that ability.
 
-Forer's question was whether a test could recognise individual differences, and the subjects' sense that the description fitted was not enough to answer it. Yet when the thing under study is itself a feeling, such as pain or discomfort, how the person describes their own change becomes data that cannot be done without.
+This does not deprive feelings of evidential value. Forer investigated discrimination. If the question concerns pain or discomfort, how a person feels and how that changes become indispensable evidence.
 
-The word placebo usually brings to mind a patient who does not know that what they have been given contains no active drug. In 2010, Ted Kaptchuk and his colleagues studied a different situation: if participants are told plainly, does the effect still appear?
+A placebo usually suggests a patient unaware that a treatment contains no active drug. In 2010, Ted Kaptchuk and colleagues investigated another situation: could effects occur when participants were told?
 
-The condition they studied was irritable bowel syndrome, an illness whose troubles include abdominal pain and changes in bowel habit. Participants were divided into groups. One group knew that what they were taking was a placebo and were given a positive account of the treatment; the other received a similar degree of contact with the clinicians but not the treatment itself. Over three weeks, the placebo group improved more on some of the self-reported symptom measures.[^placebo]
+The study concerned irritable bowel syndrome, involving problems such as abdominal pain and changed bowel habits. One group knowingly took placebos with a positive treatment explanation. Another received comparable clinical interaction without that treatment. Over three weeks, the placebo group improved more on some self-reported symptom measures.[^placebo]
 
-What the study compared was an intervention made up of an explanation and a schedule of pills, and the improvement showed up mainly in the symptoms participants reported themselves. They knew which group they were in, and their expectations and the way they answered may also have shaped the measurements. The result is therefore something to go on studying: why did this arrangement help with some symptoms, and which of its ingredients made the difference?
+The intervention combined explanation and a pill-taking arrangement, with improvement chiefly measured through reported symptoms. Participants knew their allocation; expectations and reporting could influence assessment. Observed improvement therefore opened another question: which elements of the arrangement produced the differences?
 
-#### Why planets go backwards in the sky
+#### Why Do Planets Move Backwards?
 {: #s7-2 }
 
-Some successes push the question the other way. When a method predicts things not previously known, and its results agree again and again with new observations, we have reason to believe it. But how much of it should we believe? Astronomers long used a system that could compute the positions of the planets, and the account of how the heavenly bodies actually move was later very substantially rewritten.
+Beyond subjective feeling lies a firmer success: predicting something previously unknown and repeatedly matching later observations. There are grounds for belief, but which part should we believe? Astronomers long used a system that predicted planetary positions, while its account of celestial motion was later substantially rewritten.
 
-Record a planet's position against the background stars over many nights in a row and you will find that it does not always move in the same direction. At times it seems to stop, then to go backwards, then to resume its former course. Ancient astronomy had to explain this retrograde motion, and it also had to calculate when it would occur.
+Record a planet's position against background stars over many nights and it does not always move in one direction. Sometimes it appears to stop, reverse, and resume. This apparent reversal is retrograde motion. Ancient astronomy needed both to explain it and calculate its return.
 
-In the second century, Ptolemy of Alexandria set out a geocentric system of astronomy in the Almagest. One of its devices is called the epicycle: the planet moves round a small circle, while the centre of that small circle moves round a larger one. Seen from the earth, the two motions combine to trace a path that sometimes advances and sometimes retreats. The full model had further geometrical arrangements as well, fitted to the observations of the different bodies.
+In the second century CE, Ptolemy of Alexandria organised a geocentric system in the *Almagest*. One device was an epicycle: a planet moved on a small circle whose centre moved on a larger circle. Seen from Earth, the combined movements could trace an advance and retreat. The complete model used further geometrical arrangements to fit different observations.
 
-This tradition, with the corrections made to it afterwards, was used for a very long time to compute planetary positions, and it preserved a great body of observations and methods of calculation. Later astronomers were able to compare the old explanation with new ones precisely because these records were there to use.
+This tradition and its revisions long supported planetary calculations and preserved extensive observations and techniques. Later explanations could be compared partly because those records survived.
 
-If the earth also travels round the sun, retrograde motion can be understood in a different way. The earth and an outer planet each move forward, and their relative positions keep changing; when the earth, on the inside track, overtakes the outer planet, the direction in which we look towards it shifts backwards against the background of stars. The retreat seen in the sky can then be explained by the relative motion of observer and planet.
+Including Earth among the bodies orbiting the Sun offers another explanation. Earth and an outer planet both advance, continually changing relative position. As Earth overtakes the outer planet on the inner track, our line of sight shifts backwards against the stars. Apparent reversal can result from relative motion.
 
-The work Copernicus published in 1543 proposed a heliocentric arrangement, but it still used circular motion, and its computational accuracy left room for improvement. Later, Kepler, working from Tycho Brahe's observations, developed the elliptical orbit and the relations that go with it, and these were then tested against new tables and new observations. The explanation of celestial motion and the improvement of positional prediction passed through distinct stages of research.[^astronomy]
+Copernicus's 1543 work proposed a heliocentric arrangement while retaining circular motion, with accuracy still needing improvement. Kepler later combined Tycho's observations with relationships including elliptical orbits and tested them through new tables and observations. Explanations of motion and improvements in prediction developed through different stages.[^astronomy]
 
-The computational achievements of the old method did not vanish with what came later. It left behind a stock of usable predictions, and also an account of motion waiting to be rewritten. Researchers had to carry on from this mixed inheritance: which calculations to keep, which assumptions to re-examine, and which phenomena remained unexplained.
+The old calculations' achievements did not vanish. They left useful predictions alongside an account of motion awaiting revision. New work inherited both successes and errors: which calculations should remain, which assumptions needed checking, and which phenomena remained unexplained?
 
-#### Some things are worth doing in themselves
+#### Use Is Not Confined to the Finished Result
 {: #s7-3 }
 
-Knowing that a piece of information can be checked still leaves the decision of whether it is worth checking now. Time is limited, and two pieces of information, equally reliable, may bear very differently on the decision in front of you.
+A question being answerable does not make it the first question to investigate. Time is limited; equally reliable information can play different roles in a decision.
 
-An engineer dealing with a fault can begin by confirming which settings were recently changed, when the error appears, and which operations reproduce it. Every one of these details might repay study, but if only half an hour remains, the first thing to get hold of is the information most likely to change what is done next.
+An engineer handling a fault may first check recently changed settings, when the error occurs, and operations that reproduce it. Every detail might merit study, but with half an hour remaining, information most likely to change the response should come first.
 
-An astronomical question with no bearing on today's decisions may still be worth a lifetime of study. Its value does not have to be adjudicated by the half hour spent on the fault.
+If that person instead makes astronomy a vocation, questions irrelevant to the fault may deserve a lifetime. Uses span different timescales. The next half-hour cannot judge them all.
 
-There are many reasons to pursue the truth, and the same is true of other activities. If the only question asked is whether something makes a person more comfortable, we miss the things people do knowing full well that they will be uncomfortable.
+Truth can be pursued for several reasons, as can other activities. Comfort alone also misses painful experiences people willingly undertake.
 
-Attending a funeral may include comfort, but a person may also go in order to acknowledge a relationship, to remember the dead together with others, or to complete a farewell they have chosen to take on. Even if the day brings no comfort at all, these reasons do not necessarily disappear.
+Attending a funeral may offer comfort, but it can also acknowledge a relationship, remember someone with others, or fulfil a farewell one chooses to bear. Undiminished grief does not make attendance meaningless.
 
-Consider another hypothetical question. A survey asks you to write down how much you would pay to protect an endangered species. Someone refuses to enter a figure, perhaps because they believe that whether a species deserves to survive should not be settled by how much people are willing to pay.
+Consider a hypothetical survey asking how much money you would pay to protect an endangered species. Someone may refuse a number because they believe the species' continued existence should not depend solely on human willingness to pay.
 
-If every such refusal is recorded as zero, an objection to pricing may be written down as complete indifference. The survey needs to allow people to say why they left the box empty. Conservation in practice still faces the difficulty of limited resources and still has to argue about how to allocate them; but before allocating, one has first to understand correctly what it is that people value.
+Recording every refusal as zero would turn opposition to pricing into indifference. The survey needs room for reasons. Conservation still faces scarce resources and allocation decisions. Before those decisions, however, we need to understand what people value.
 
-Reading a novel, a person may enjoy the rhythm of the language, worry over the fate of a character, or feel again some stretch of life that resists being put into words. A passage can fail to persuade us as an argument and still console, or make us notice a problem we had been unwilling to face. Nor does a novel have to teach a transferable method before it deserves the time spent reading it.
+Reading fiction can bring pleasure in language, concern for characters, or renewed feeling for a difficult experience. Without accepting every inference, readers may find comfort or notice something long avoided. A novel need not teach a transferable technique to deserve reading.
 
-The same activity may also make promises about matters of fact. If a novel is taken as an accurate record of a period of history, its history needs checking; if a ritual charges a fee on the promise of certain cure, the evidence for that effect has to be examined. Respecting what reading or ritual means to people does not require exempting these additional promises from checking.
+The same activity can make factual promises. A novel offered as precise history needs historical checking. A ritual sold with a guarantee of cure requires evidence of that effect. Their existing meanings do not discharge additional factual commitments.
 
-If we intend to use an example we have read to support a decision, we take on an added duty of explanation. Chapter 4 discussed how someone else's plan succeeding after many years cannot by itself show that our own plan should continue. This does not erase the strength the story once gave; it is only that, when the time comes to commit the next year, reasons that bear on our own situation still have to be found.
+Using an example to support a decision adds another responsibility. As Chapter 4 discussed, a project succeeding after many years does not alone establish that ours should continue. The story's encouragement remains real. But we must spend the next year ourselves, so the reasons must return to our circumstances.
 
-#### When comfort is bound up with a way of life
+#### Useful to Whom, at Whose Expense?
 {: #s7-4 }
 
-Some beliefs lack sufficient evidence yet make people more hopeful and more willing to look after one another. Acknowledging the good a belief does can be kept separate from accepting its account of the world.
+Some inadequately supported beliefs provide hope and encourage care. We can acknowledge these benefits while suspending judgement on their account of the world.
 
-Take the funeral discussed earlier in this chapter. A family uses the ceremony to remember the dead and to express how much the relationship meant, and these actions have reasons anyone can understand. If someone also believes that the dead have found peace in another world, others can respect what has been entrusted to that belief without claiming to have confirmed that such a world exists.
+At a funeral, relatives remember someone and express the value of a relationship. These actions have understandable reasons. If someone also believes the deceased is at peace in another world, others can respect that consolation without claiming to have confirmed the world's existence.
 
-If the same belief is then used to make major decisions on behalf of other people, the question changes. To claim that a certain message is enough to settle someone else's treatment, finances or safety involves effects that can be checked and risks that others will bear. Personal conviction and the experience of being comforted cannot on their own supply the evidence such decisions need.
+Using that belief to make major decisions for others demands stronger grounds. Claims about treatment, finances, or safety involve checkable effects and risks borne by other people. Personal certainty and comfort cannot alone provide the required evidence.
 
-A religion usually contains, all at once, an account of the origin of the universe, rituals, the norms of a community, ethical practice and a sense of identity. In discussing a particular religion, unless one first says which claim is in question, it is easy for each side to say a great deal without ever answering the same point.
+Religion commonly includes accounts of cosmic origins, rituals, communal norms, ethical practice, and identity. Without identifying the claim under discussion, participants may say much while answering different questions.
 
-To criticise an origin story for lacking evidence, for example, is not necessarily to deny the value of believers caring for one another; and to affirm the support a community provides is not enough to show that the story really happened. Different claims can receive different assessments, without first passing a single verdict on the whole tradition.
+Criticising an origin account's evidence need not deny the value of believers' mutual care. Acknowledging communal support does not establish the account's historical truth. Distinguishing claims avoids having to pronounce judgement on an entire tradition at once.
 
-Science, too, comprises many activities: measurement, model-building, collective review and technical application. Its achievements help to show how these methods arrive at reliable knowledge. As for what ought to be pursued and which costs are acceptable, scientific research can supply the relevant facts, and a discussion of values and responsibility is still needed.
+Science likewise includes measurement, modelling, collective scrutiny, and technological application. Its achievements help explain how reliable knowledge is obtained. What to pursue and which costs to accept require discussion of values and responsibility, informed by relevant facts.
 
-Real life, however, does not always lay these things out separately. A community's beliefs about the cosmos may be the very reason its members are willing to care for one another; a line of scientific research is often thought worth pursuing because people already value the lives it might change. Analysis can tell the different reasons apart, but the person living inside them may lose, all at the same time, a certainty, a circle of friends and the direction their life had.
+Lived reasons are rarely so neatly separated. A community's cosmic beliefs may be what motivate mutual care. A scientific inquiry may attract support because people already value the life it could change. Analysis separates reasons; a person losing certainty may also lose friends and direction.
 
-When a practice leaves the community it came from, these relations change again. It may be taken up to answer questions that were never posed in the same way before.
+When a practice leaves its community for another setting, these relationships change. It encounters questions not previously posed in the same way.
 
-The Four Noble Truths of the Buddhist tradition speak of suffering, the origin of suffering, the cessation of suffering, and the path that leads to that cessation. The arrangement lets the practitioner recognise the predicament, understand how it arose, and then commit to practice. When some of these exercises are carried into a modern hospital, the original religious discipline and the clinical research need to be accounted for separately.
+The Buddhist Four Noble Truths concern suffering, its origin, its cessation, and a path to cessation. They orient practitioners towards recognising a predicament, understanding its formation, and practising. Bringing some exercises into a modern hospital requires distinguishing religious purposes from clinical questions.
 
-In 1979, Jon Kabat-Zinn began work at a stress reduction clinic at the University of Massachusetts Medical Center, organising exercises in breathing, bodily awareness and attention to present experience into a clinical course. The approach later became widely known as mindfulness-based stress reduction. Once inside the hospital, the practice had to face concrete questions: which complaints it helps with, compared with what, how long the effect lasts, and who it may not suit.[^mindfulness]
+In 1979, Jon Kabat-Zinn began a stress-reduction clinic at the University of Massachusetts Medical Center, bringing breathing, bodily awareness, and attention to present experience into a clinical programme. This became known as mindfulness-based stress reduction. In hospital, exercises face specific questions: which problems they help, compared with what, for how long, and for whom they may be unsuitable.[^mindfulness]
 
-Clinical research can begin by comparing the effect of the practice on particular complaints, and participants need not accept the whole religious cosmology. How the exercises were selected from the original tradition and adapted, and whether its ethical requirements were retained, belong to another part of understanding this transfer. Kabat-Zinn's own account of the course also includes the attitude of practice and its background.
+Clinical comparisons need not require acceptance of a whole religious cosmology. How exercises were selected and adapted, and whether earlier ethical requirements remain, are further questions about this transfer. Kabat-Zinn's explanations also address attitudes and background.
 
-Take a hypothetical company that uses attention exercises to help its staff cope with stress. Employees may learn useful methods, and the company still needs to check whether the workload is reasonable, which processes create a continuing burden, and who is able to change them. If every discomfort is put down to insufficient personal practice, working conditions that could have been improved may go unaddressed indefinitely.
+Suppose a company offers attention exercises to help employees with stress. They may learn useful methods; the company still needs to examine workload, burdensome procedures, and who can change them. Attributing every discomfort to insufficient practice can leave remediable burdens intact.
 
-This is why "useful" has to say for whom, and over what span of time. An explanation may set an employee's mind at rest for the day while allowing an unreasonable workload to continue; a simple classification saves the caseworker a few minutes while the person wrongly classified may spend days on an appeal. Chapter 14 will go on to trace how institutions make some of these results far easier to see than others.
+Who benefits and for how long cannot now be omitted. An explanation may reassure someone today while sustaining unreasonable work. A simple category saves an administrator minutes while a misclassified person spends days appealing. Chapter 14 examines how institutions make certain achievements particularly visible.
 
-#### How the truth reaches a person
+#### Usefulness Is Not Another Name for Truth
 {: #s7-5 }
 
-An important truth can cause pain. Learning that a relationship is over, or that a project of many years has failed, brings no immediate relief. But the choices the person makes next may depend on knowing these things.
+Centring usefulness invites two misunderstandings: that a comforting belief counts as true, or that concern with use dispenses with facts. Comfort, truth, and usefulness become confused.
 
-There are also different ways of telling. A person may be given time to understand, to ask questions, and to get help with the consequences; or they may be forced to respond at once in front of everyone. The truth of the news is the same; the treatment they receive is very different.
+William James's pragmatism examines how ideas acquire meaning in experience and how truth operates through verification and life. It is often reduced to “whatever works is true,” as though immediate effectiveness could confer truth by itself. His writing is more demanding: ideas enter experiential relationships and face existing facts and further experience.[^james]
 
-Harder still, we sometimes genuinely do not know how much they can bear at this moment. Fearing their pain may come from care, and it may also lead us to keep deciding on their behalf what they are allowed to know. They need support, and they have their own choices to make; and their response may change what we had understood "support" to mean.
+This book separates two tasks. For factual statements, we investigate whether the asserted situation obtains. For an understanding, we ask whose abilities it increases and under which conditions. We can then evaluate uses without awaiting a final theory of truth, and avoid substituting achievement in one respect for grounds needed in another.
 
-When the little girl struck the whole bundle of matches, the story let her keep her grandmother. The reader who knows the ending can no longer see that blaze as nothing more than a comfort.
+A map with the wrong exit usually fails as a guide; here truth contributes to usefulness. A perfectly accurate geological map still cannot plan an accessible rail transfer. The traveller needs relevant information and a readable representation. Conversely, a false statement may briefly comfort someone while depriving them of reality-based choice. Immediate emotion omits the cost to later decisions.
 
-### 7 — Answers Come with Conditions
+Judging usefulness therefore requires at least five specifications: for whom, for what purpose, under which conditions, for how long, and at what cost. Another question follows: does the capacity undermine future error checking? A lie maintained by excluding evidence consumes future understanding. Efficiency achieved by transferring difficulty to people without a voice presents local gains as collective gains.
+
+A locally effective method may still be unworthy of adoption. Successful manipulation does have that function; harm to its victims provides grounds for opposition without requiring us to deny its effectiveness. A second-order framework must distinguish function, costs, and reasons for adoption, rather than silently making usefulness settle every value judgement.
+
+Truth matters without monopolising evaluation. Ethical legitimacy, aesthetic value, and respect in relationships each call for their own reasons; none needs to masquerade as a factual proposition. The framework places these standards in their roles and examines how they support or obstruct an ability together.
+
+#### How Truth Reaches a Person
+{: #s7-6 }
+
+Truth sometimes arrives first as pain. Learning that a relationship has ended or a long project has failed does not immediately bring relief. Yet subsequent choices may require knowing.
+
+Delivery differs too. Someone may have time to understand, ask, and receive help with consequences, or be forced to respond publicly at once. The same news can reach a person through very different treatment.
+
+Sometimes we genuinely do not know how much they can bear now. Fear of their pain may express care, but may also keep us deciding what they are allowed to know. They need support and have choices of their own. Their needed support may differ from what we imagined.
+
+When the girl lights her bundle, the story lets her keep her grandmother. Knowing what morning brings, the reader also feels the cold that comfort cannot remove.
+
+### 7 — Conditions: Ability Does Not Exist Outside Its Setting
 {: #s8 }
 
-What do the interior angles of a triangle add up to?
+A triangle's angles sum to 180 degrees. Does this familiar answer apply to both drawings below?
 
-![A right-angled triangle on the plane with angles of ninety, forty-five and forty-five degrees; on the sphere, a triangle formed by the North Pole and two points on the equator ninety degrees of longitude apart, with three right angles.](/assets/img/book/en/fig-05-triangles.svg){: width="1200" height="700" }
-_Figure 7.1　On the left, a triangle on the Euclidean plane with straight lines for sides; on the right, a triangle on an ideal sphere with short arcs of great circles for sides. The two answers are 180° and 270°. A mathematical construction. Drawn for this book._
+![A planar triangle has angles of ninety, forty-five, and forty-five degrees. On the sphere, the North Pole and two equatorial points ninety degrees of longitude apart form three right angles.](/assets/img/book/en/fig-05-triangles.svg){: width="1200" height="700" }
+_Figure 7.1　The left triangle has straight sides in a Euclidean plane; the right has short great-circle arcs on an ideal sphere. Their sums are 180° and 270°. Mathematical constructions drawn for this book._
 
-You can walk the right-hand figure as a route. Start at the North Pole and follow a meridian down to the equator, turn ninety degrees, walk a quarter of the way round the equator, then turn ninety degrees again and head back to the North Pole. The two meridians meet at the pole, and the angle between them there is ninety degrees as well. Three angles, two hundred and seventy degrees in all.
+Trace the right-hand figure and a difficulty appears. Travel from the North Pole along a meridian to the equator, turn ninety degrees, follow a quarter of the equator, and turn ninety degrees back towards the pole. The two meridians meet there at ninety degrees too. Three right angles total 270 degrees.
 
-A triangle on the plane has interior angles adding up to one hundred and eighty degrees, yet the spherical triangle on the right has three right angles. The difference lies in the space the figure sits in, and in which paths we take as its sides. The example on the sphere uses short arcs of great circles; it does not violate the theorem about straight-sided triangles on the plane.
+The planar sum is 180 degrees; the spherical triangle has three right angles. Both the space and the paths serving as sides have changed. The spherical example uses short great-circle arcs and does not violate the theorem about straight-sided planar triangles.
 
-A mathematical theorem states which axioms and definitions it adopts, and then proves its conclusion. To use it to describe an actual object, one must also confirm that those assumptions match the purpose well enough. When surveying the shape of a small plot of ground, for example, a flat approximation may already be sufficient; a route across a large stretch of the Earth's surface calls for attention to curvature and to the precision required.
+Mathematical theorems state axioms and definitions before proving conclusions. Applying them to physical objects requires checking whether the assumptions describe those objects to the required precision. A small patch of ground may be adequately approximated as flat. Large-scale surface routes require attention to curvature and accuracy.
 
-#### The one they spent two thousand years trying to prove
+#### The Postulate People Tried to Prove for Two Thousand Years
 {: #s8-1 }
 
-Euclid's *Elements* organises geometrical reasoning by first setting out a number of starting points that may be adopted. The famous fifth postulate says that if a straight line crosses two other lines, and the interior angles on the same side add up to less than two right angles, then those two lines, extended on that side, will meet.
+Euclid's *Elements* organises geometry from specified starting points. The famous fifth postulate says that if a line crossing two others makes interior angles on one side sum to less than two right angles, those two lines meet when extended on that side.
 
-This statement is more roundabout than some of the other starting points. For a long time mathematicians hoped to prove it from the remaining assumptions, so that it would no longer have to be accepted on its own. In 1733 Saccheri tried to reach a contradiction by denying the relevant assumption and following where that led. He obtained a good many results that would later look close to non-Euclidean geometry, and in the end he still tried to rule that road out.
+Compared with several other starting points, it seems elaborate. For centuries, mathematicians hoped to derive it from the remaining assumptions. In 1733, Saccheri tried to obtain a contradiction by denying related assumptions. He reached results later recognisable as approaching non-Euclidean geometry, while still trying to reject that path.
 
-In the nineteenth century Lobachevsky and Bolyai openly developed systems that differed from Euclidean geometry. Riemann, in a lecture of 1854, went further and studied more general spaces and geometries. It gradually became possible to compare geometries built on different assumptions: what each could prove, and whether contradictions arose.[^geometry]
+In the nineteenth century, Lobachevsky and Bolyai publicly developed systems unlike Euclid's. Riemann's 1854 lecture investigated more general spaces and geometries. There was no longer just one geometry to study. What different assumptions implied, and whether a system was internally consistent, became questions for comparison.[^geometry]
 
-The spherical example at the start of this chapter gives the difference between geometries a visible shape before anything else. A geodesic on a sphere is the path that runs locally straightest along the surface; the angles at which geodesics meet on the sphere obey a different relation from the angles between straight lines on the plane.
+The spherical triangle gives these differences a visible form. A geodesic follows the locally straightest path along the surface. Its intersections on a sphere obey relationships different from intersections of straight lines in a plane.
 
-Kant once used geometry to illustrate necessary knowledge that is not obtained from individual experiences alone. The development of several geometries made a distinction more pressing: does a proof within one system also suffice to decide which geometry physical space adopts?[^kant] Answering the second question also requires comparing theory with actual observation.
+Kant had used geometry to explain necessary knowledge not obtained merely from individual experiences. Multiple geometries sharpen the distinction between proof within a system and deciding which geometry describes physical space.[^kant] The latter calls for observation.
 
-When general relativity later described gravity through the geometry of curved spacetime, it had to submit to the check of physical observation. Mathematical study of the different possibilities gave physics more representations to draw on; whether they are fit to describe the world is judged by other evidence.
+General relativity later described gravity through curved spacetime and had to face physical tests. Mathematics expanded the available representations; other evidence decides whether they suit the world.
 
-#### The small print the rule leaves off
+#### The Small Print Missing from Rules
 {: #s8-2 }
 
-Everyday rules seldom come with their conditions printed alongside. "First come, first served" settles a great many disputes when the matter is buying a drink; used to allocate help that is urgent and important, it raises the questions of who has the chance to arrive first, who can afford to wait, and whose need cannot be put off. The wording of the rule has not changed at all, yet the reasons for choosing it may fall short.
+Mathematics states assumptions; everyday rules often omit conditions. First come, first served can settle a queue for drinks. Applied to urgent assistance, it raises questions about who can arrive first, who can wait, and whose needs cannot be delayed. The wording stays the same; the reasons for using it change.
 
-How long a practice is used also bears on whether it is suitable. Postponing a quarrel for a while may let both sides cool down; postponing it every time may leave an important matter unanswered for a long while. An approximate calculation carries only a small error over a short span, and once the errors accumulate through repetition they may exceed what is tolerable. When judging the effect, the length of use has to be reported along with it.
+Some conditions emerge only over time. Postponing a dispute may allow people to calm down; postponing every dispute may leave important problems permanently unanswered. Small approximation errors can accumulate beyond tolerance. Evaluation needs the duration of use too.
 
-If "it depends" stops there, it is still of limited help. More useful is to point out which difference would change the judgement: whether the urgency is the same, whether the costs of waiting are wildly unequal, whether different stretches of the road take the same time. Once the conditions are concrete, what to check next is also clearer.
+“It depends” is therefore insufficient. Which difference changes the judgement? Does urgency differ? Are waiting costs unequal? Do routes take equal time? Concrete conditions make further investigation possible.
 
-#### Newtonian mechanics has not vanished from the world
+#### Newtonian Mechanics Has Not Disappeared
 {: #s8-3 }
 
-Newtonian mechanics supports a great deal of reliable work. In describing motion at everyday scales, and in designing many machines and engineering structures, a suitable approximation reaches the precision required. When relativity arrived, this work was not all made obsolete.
+Newtonian mechanics supports many reliable activities. Appropriate approximations describe ordinary-scale motion and serve mechanical and structural engineering at the required precision. Relativity did not erase these achievements overnight.
 
-Satellite positioning, by contrast, needs extremely precise comparisons of time. Orbital motion and gravitational conditions affect the rate of a satellite's clock relative to a clock on the ground; if these differences are not properly handled, the positioning result suffers. For this reason the system has to incorporate the corresponding relativistic corrections.[^relativity]
+Satellite navigation requires exceptionally precise time comparisons. Orbital motion and gravity affect satellite clocks relative to ground clocks. Uncorrected differences affect positioning, so relativistic corrections form part of the system.[^relativity]
 
-So when using an approximate method, one can first state the precision required and the known error, and then decide whether it is enough. Everyday engineering need not adopt the most elaborate model every time; when higher precision is needed, or a different scale is encountered, the comparison should be made afresh.
+Whether an approximation is acceptable depends on known errors relative to precision requirements. Everyday engineering need not always use the most elaborate model. Higher precision or different scales require comparison anew.
 
-#### The person who fed it every day
+#### The Person Who Feeds the Chicken
 {: #s8-4 }
 
-In *The Problems of Philosophy* Russell leaves us a chicken. The person who brings it food every day arrives one day and, instead of feeding it, kills it.[^russell]
+In *The Problems of Philosophy*, Russell questions experience through a chicken. The person who feeds it every day eventually kills it.[^russell]
 
-The ending is so short that it hardly gives anyone time to prepare. Every past feeding was real; had the chicken kept a complete record, it could even have kept one without a single error. But those records did not hand over the keeper's plans for the future along with them.
+On that day the pattern breaks. Every previous feeding was real. An exhaustive record could be perfectly accurate while saying nothing about the keeper's future intentions.
 
-Those who know the ending find it easy to laugh at the bird. Yet the question Russell leaves behind pursues the reader just as closely: why should what has kept happening in the past go on happening? To answer with regularities that have succeeded before still leaves one having to explain why those regularities will remain in force. Digging further back into the past for a few more successes does not supply this demand with a wholly independent guarantee.
+Readers know the ending and readily see the chicken's blind spot. Turn the question on ourselves and it is harder: why should repeated events continue? Appealing to previously successful patterns still requires explaining why those patterns will hold. More past successes repeat the very inference needing justification.
 
-Everyday predictions still differ in how reliable they are. To predict whether the water supply will be interrupted, for example, one can note that there has been water every day in the past, and one can also check the state of the equipment, the maintenance schedule and the source. This information cannot guarantee that nothing will ever go wrong, yet it can identify risks that go unnoticed when only the past record is consulted.
+Everyday predictions nevertheless differ in reliability. To anticipate water interruptions, we can inspect equipment, maintenance plans, and water sources instead of recording only uninterrupted supply. Such information excludes no conceivable accident, but identifies risks absent from the historical regularity.
 
-In the same way, a satisfaction survey that interviews only existing customers can tell you about the experience of those who replied. To draw conclusions about everyone who ever came into contact with the service, one also needs to know about those who left, those who did not reply, and those who never managed to get into the service at all. Enlarging the sample of customers of the same kind can make certain estimates steadier; it cannot, on its own, fill in the opinions of those who were never surveyed.
+Predicting the future requires attention to conditions beyond a record; inferring the experiences of unobserved people does too. A survey of existing customers tells us about respondents. Generalising to everyone who encountered a service requires knowing about leavers, nonrespondents, and people unable to enter. More customers of the same kind can stabilise some estimates without reaching those never surveyed.
 
-#### When the mechanism still has to be traced
+#### When Mechanisms Need Investigating
 {: #s8-5 }
 
-Snow did not first acquire complete microscopic knowledge of how cholera spreads before comparing different sources of drinking water. A suitably designed study can provide causal evidence that an intervention affects a particular outcome while the full mechanism is still unclear.
+Snow did not need complete microscopic knowledge before comparing water supplies. Suitable research can yield causal evidence about an intervention and an outcome before its full mechanism is known.
 
-Studying how the effect comes about, in turn, helps in judging what will happen once the setting changes. Knowing which factors the effect depends on lets researchers give priority to testing the differences that might alter it. Comparing actual effects and establishing the mechanism of action can therefore help each other.
+Mechanistic inquiry helps assess changed settings. Knowing which factors sustain an effect guides tests of differences likely to alter it. Outcome comparisons and mechanism research can inform one another.
 
-An intervention may also produce several effects at once. One of them may be beneficial while another cancels it out, so that the overall result does not necessarily match what was expected. Having explained one pathway of action, then, one still needs to compare the important outcomes directly. The clinical trial in the next chapter will make this difference concrete.
+An intervention may also have several effects. Benefits through one pathway can be offset through another, leaving overall outcomes unlike expectations. Explaining a pathway therefore does not remove the need to compare important outcomes directly. The next chapter's clinical trial will make this distinction concrete.
 
-Knowing part of the mechanism may still miss a new situation. Anomalies reported by users, the raw data, and a second kind of measurement sometimes let researchers discover a difference they had not thought of. Chapter 5 discussed how to preserve these ways of catching errors; now the known scope of use can also be recorded more concretely.
+Even partial mechanistic knowledge may not cover a new situation. Users' anomaly reports, raw data, and alternative measurements can reveal unforeseen differences. Chapter 5 discussed preserving these means of correction. Known ranges of use can also be documented more precisely.
 
-#### Writing down the scope of use
+#### The Last Stretch from a Principle to a Case
 {: #s8-6 }
 
-"This is a retail model" or "this is manufacturing experience" is still too broad. Image models that all serve to inspect the appearance of objects may perform very differently depending on the lens, the lighting, the material of the object, or the angle of the shot. A shared name does not guarantee that the factors affecting recognition are shared too.
+Discussing practical wisdom, Aristotle stresses knowledge of particulars as well as universals, because action occurs in particular circumstances. Knowing that light meat is digestible must be joined to knowing which meat is light before a suitable meal can be prepared.[^aristotle]
 
-Take a hypothetical model used to flag damaged packaging in product photographs, which are then passed to staff for review. It has been tested only under fixed lighting, with a specified lens, and on a few kinds of packaging; backlighting and other reflective materials the team has not yet confirmed. Writing down these circumstances says more about where the result came from than the bare line "ninety-five per cent accuracy".
+This distinction returns attention to conditions. General rules organise many situations; application returns to one specific occasion. Does this person belong to the studied population? Does today's setting preserve the relationship? Is the signal an ordinary fluctuation or evidence of change?
 
-Later the camera is replaced, while the program stays at the same version. Most of the photographs the team spot-checks are well lit, and the average score looks good, yet misses on the few backlit photographs have increased. If only the total score is kept, it is easy to conclude that the new lens made no difference. Keeping the disputed images, and comparing misses and false alarms separately, is what allows the conditions under which performance worsened to be found, little by little.
+Principles save repeated exploration, support consistent treatment, and make reasons expressible. Individual cases bring differences the general rule did not retain. Impressions alone may lose comparable grounds; classifications alone may miss what distinguishes this occasion.
 
-At this point "scope of use" has acquired new content. The team had thought of the lens simply as a tool for obtaining photographs of the same kind; now they have to include how it combines with lighting and material in their account. The scope of use is not always something known before the study begins, waiting to be printed as a line of small print beside the product; it also takes shape slowly, through failure and investigation.
+Judgement moves between principle and case. A principle directs attention to relevant features; the case tests the classification. Recurrent exceptions may call for revising the rule rather than repeatedly invoking special treatment. This movement also connects scales within the second-order framework: abstraction permits transfer; concrete encounters test whether this transfer fits.
 
-If a later version improves performance under backlighting, the old limitation should be updated as well. The record needs to show which version was tested in which environment, and what changed afterwards. Otherwise new users may vouch for a new use with an old score, or may go on avoiding a difficulty that has already been solved.
-
-The conditions in a geometrical theorem must be stated before the proof can begin. The conditions of use for an empirical method, by contrast, often become clear while the work is under way. Demanding that every condition be written down at the outset looks careful, and may in practice demand that people know in advance what the research is about to discover.
-
-#### When a group of models do not cast the same vote
+#### Write Down the Range of Use
 {: #s8-7 }
 
-Studying the future climate means handling processes that act on one another: the atmosphere, the oceans, clouds and ice. Models built by different research teams make different arrangements in certain details. CMIP, the Coupled Model Intercomparison Project, has teams run their simulations under a common experimental design, so that the results are better placed to be compared.
+“A retail model” or “manufacturing experience” remains too broad. Models inspecting appearance may perform differently with different lenses, lighting, materials, and angles. A shared label conceals widely varying conditions.
 
-Setting the results side by side helps show which changes are more consistent and where the differences are larger. But the models are not fully independent of one another; they may share data, methods or code. Having many models does not mean that each additional one brings an equally independent ballot of evidence.
+Suppose a model marks damaged packaging in photographs for human review. It has been tested only with fixed lighting, a specified lens, and a few packages. Backlighting and other reflective materials remain untested. These details explain performance more usefully than an isolated “ninety-five per cent accuracy.”
 
-Some of the models in CMIP6 give a higher equilibrium climate sensitivity. This quantity asks, roughly: if the concentration of carbon dioxide doubles and the climate reaches a new equilibrium, by how much does the global mean surface temperature change? To assess it, one can also draw on historical warming, palaeoclimate, and research into the relevant physical processes, rather than counting votes among model outputs alone.
+The camera is later replaced while software stays unchanged. Most sampled photographs are well lit, so average performance looks good. Missed damage increases in the few backlit photographs. A total score may suggest the new lens made no difference. Preserving disputed images and separating misses from false alarms helps locate deterioration.
 
-The IPCC assessment of 2021 brought together several lines of evidence and described the range of sensitivity with different degrees of uncertainty. The ranges corresponding to "likely" and "very likely" differ; to understand them, the numerical intervals and their accompanying statements of uncertainty have to be read together.[^climate]
+Tracing failure rewrites the scope. The team had treated the lens simply as a means of acquiring similar images; now its interaction with lighting and material belongs in the account. Scope is not always known before research, awaiting a label. Failure and investigation often make it clear.
 
-Climate scenarios, for their part, are projections under specified conditions of development. The familiar RCP8.5 is a high radiative forcing pathway, and the number in its name relates to the level of radiative forcing in 2100 relative to pre-industrial times. It helps researchers ask how the climate might change if development follows this set of conditions; how likely the conditions themselves are to come about has to be assessed separately.
+If a later version improves backlit performance, the limits need updating. Records should say which version was tested where and what changed. Otherwise new users may guarantee new uses with old results or remain blocked by a problem already solved.
 
-Our grip on the future may therefore come from models and from evidence outside the models constraining one another. When the results do not yet agree, the disagreement can also leave a direction for research: is some physical process poorly understood, or were different development scenarios adopted? Getting to the bottom of these questions often takes far longer than computing an average across all the models.
+Geometrical conditions must be stated before a proof begins. Empirical methods' conditions often emerge during work. Requiring every condition in advance may demand precisely what the investigation is supposed to discover.
 
-### 8 — Giving Error a Chance to Show
+#### When Models Do Not Cast the Same Vote
+{: #s8-8 }
+
+Climate research handles interacting atmosphere, oceans, clouds, and ice. Teams make different modelling choices. The Coupled Model Intercomparison Project, CMIP, provides shared experimental designs that make simulations more comparable.
+
+Putting results together reveals agreement and disagreement. Models are not wholly independent: data, methods, and code may be shared. More models do not necessarily add proportionately more independent evidence.
+
+Some CMIP6 models produce higher equilibrium climate sensitivity. Broadly, this asks how much global mean surface temperature changes after carbon dioxide doubles and climate reaches a new equilibrium. Historical warming, palaeoclimate, and physical-process research provide checks beyond model output.
+
+The IPCC's 2021 assessment combined several lines of evidence and described sensitivity ranges at different uncertainty levels. “Likely” and “very likely” refer to different ranges; the intervals must be read with their uncertainty statements.[^climate]
+
+Climate scenarios explore specified development conditions. RCP8.5 is a high radiative-forcing pathway; its number relates to forcing in 2100 relative to preindustrial conditions. It asks what climate might do under those conditions. The probability that the conditions will occur requires separate assessment.
+
+Confidence develops through comparisons between models and external evidence. Disagreement can guide research: is a physical process poorly understood, or are development scenarios different? Averaging is quick. Understanding the source of disagreement is often the long work.
+
+### 8 — Revision: Letting a Framework Encounter Failure
 {: #s9 }
 
-The aircraft came back with bullet holes in them. Ground crews could walk up to the fuselage and inspect where the damage lay; the aircraft that did not come back could not be inspected in the same way.
+Aircraft return with bullet holes. Ground crews can inspect the damaged surfaces. Aircraft that never return provide no comparable record.
 
-During the Second World War this was a practical difficulty in adding protection to aircraft. Armour is heavy, and no part of the airframe can be thickened without limit; someone had to decide where a limited weight was best placed.
+During the Second World War, this posed a practical problem for aircraft protection. Armour is heavy; it cannot be added without limit everywhere. Where should a limited weight go?
 
-The damaged airframes that did return looked like the most direct material for deciding where the armour should go. They had also already passed through one round of selection: having taken this damage, they were still able to fly home.
+The damaged machines before investigators seemed the most direct evidence. Yet their presence already depended on a condition: they had survived those hits and returned.
 
-Abraham Wald, working in the Statistical Research Group at Columbia, wrote a set of studies in 1943 that used the number of sorties, the losses, and the damage data from surviving aircraft to estimate the vulnerability of the aircraft.[^wald]
+Working in Columbia University's Statistical Research Group, Abraham Wald wrote a series of studies in 1943 using sortie totals, losses, and surviving aircraft's damage to estimate vulnerability.[^wald]
 
-Many holes in one part of the returning aircraft might mean that part was hit more often, or it might mean that an aircraft hit there could still return fairly easily. Conversely, few holes might mean fewer hits, or it might mean that an aircraft hit there rarely came back. To estimate where the vulnerable places were, assumptions about being hit and about surviving had to be combined before anything about the lost aircraft could be inferred from the data on those that returned.
+Many holes in one area might indicate frequent hits, or a greater chance of surviving hits there. Few might indicate rare hits, or a low chance of returning after them. Hole counts do not directly measure vulnerability. Inferring the missing aircraft requires assumptions about hits and survival.
 
-The records taken on the apron could be entirely free of error and still fail to represent every aircraft that flew. The problem arose before the data came into being: some aircraft did not return, and so left no damage record of the same kind. However carefully the returning aircraft were inspected, that inspection could not fill the gap on its own.
+Records on the airfield can be faultless yet unrepresentative of all sorties. The gap precedes recording: some aircraft did not return to be inspected. More careful counting of visible holes cannot recover their missing damage records.
 
-Hiring records can run into a similar limit. A company can see how the people it hired went on to perform, but it does not know how the people it turned away would have done in the same posts with the same training. Judging a selection method by the results of the first group alone leaves out an important comparison.
+Hiring records have a similar gap. Employers see hired candidates' performance, not what rejected candidates would have done in the same role with the same training. Assessing selection only through hires omits an important comparison.
 
-Supplying the comparison with those who were not hired also involves real vacancies, real training, and real pay. Seeing from the statistics which piece of data is missing does not make the cost of obtaining it disappear.
+Obtaining that comparison involves actual jobs, training, and treatment. Statistics identifies the gap; someone must still bear the cost of obtaining evidence.
 
-A small number of appeals may mean the service is good, or it may mean that appealing is difficult, that appeals go nowhere, or that the most dissatisfied people have already left. If the system records only the appeals that were successfully submitted, counting the same channel again will still miss those who tried and failed. One can instead conduct interviews, observe people using the process, or check how many gave up part-way through submitting.
+Few complaints may indicate good service, difficult submission, ineffective handling, or the departure of the least satisfied. Counting the same channel again does not recover people unable to submit. Interviews, observation, and records of abandoned submissions can offer other evidence.
 
-The number of sources needs checking in the same way. Three reports that all copy from the same set of data do not provide three independent pieces of evidence; three questionnaires with the same too-narrow options may all miss the same kind of experience together. Before adding data, first confirm which of the missing parts this round of collection can supply.
+Source counts need similar scrutiny. Three reports copying one dataset do not offer three independent bodies of evidence. Three questionnaires with equally narrow options can omit the same experience. Before collecting more, identify the gap it can fill.
 
-Sometimes the person raising an objection changes the research question as well. Where the question had been the completion rate among participants, they point out that a certain group was never eligible to take part; where it had been user satisfaction, they point out that some people were compelled to accept the service and could not leave it. Questions like these bring people outside the original sample into the evaluation, and only then does it become easier to judge whom an institution has served and whom it has missed.
+An objector may also change the research question. A completion-rate study omits people never eligible to participate; a satisfaction survey omits compulsory use without an exit. Assessment then reaches beyond its original sample to ask whom the institution serves and whom it excludes.
 
-#### After pushing a number down
+#### After One Number Falls
 {: #s9-1 }
 
-Medical research has met a heavier version of the problem: if a number that looks bad is pushed down, will patients live longer?
+Even complete data may concern the wrong outcome. Medical research has faced this question: does lowering an indicator associated with mortality make patients live longer?
 
-A myocardial infarction damages the heart muscle, and some patients afterwards develop premature ventricular contractions, an early beat slipped into the rhythm of the heart. The condition is associated with a higher risk of death. Certain drugs can suppress this kind of arrhythmia, and so a conjecture worth testing arose: if it is suppressed, will fewer people die?
+A myocardial infarction damages heart muscle. Some patients subsequently experience premature ventricular contractions—extra beats occurring early. These are associated with higher mortality. Certain drugs suppress them. The tempting inference is that suppression should reduce deaths.
 
-The clinical trial known as CAST assigned eligible patients to a drug group or a placebo group and went on comparing what happened to them. The preliminary report published in 1989 showed that the groups taking the two drugs under test, encainide and flecainide, had more deaths from arrhythmia or non-fatal cardiac arrests, and more deaths overall. The trial of these two drugs was therefore stopped early. The rhythm indicator that the treatment had been meant to improve did not bring the expected benefit in survival.[^cast]
+The Cardiac Arrhythmia Suppression Trial, CAST, allocated eligible patients to drug or placebo groups and compared subsequent outcomes. Its 1989 preliminary report found more arrhythmic deaths or nonfatal cardiac arrests in groups receiving encainide or flecainide, and higher overall mortality. Testing of those drugs stopped early. Improved rhythm measures did not deliver the expected survival benefit.[^cast]
 
-The trial illustrates the difference between a correlation and the effect of an intervention. That a certain rhythm is associated with a higher risk of death, and that a drug can reduce that rhythm, is still not enough to prove that taking the drug lowers mortality. The drug may have other effects at the same time, and the important outcomes for patients must be compared directly.
+The trial sharply distinguishes association from intervention. An abnormal rhythm associated with death, and a drug reducing that rhythm, do not jointly establish reduced mortality from treatment. Drugs can have other effects. Important patient outcomes must be compared directly.
 
-Checking has its own costs. Some methods can alter one condition and compare; others can only make use of differences that arise naturally; arrangements that touch other people's interests carry a responsibility for risk and for fairness. Errors that are serious, persistent, and hard to undo are usually worth a fuller check, while small errors that are easy to spot and repair can be handled more lightly.
+Establishing the difference also has costs. Some methods permit deliberate changes; others use naturally occurring variation. Arrangements affecting people require responsibility for risk and fairness. Serious, lasting, hard-to-reverse errors generally warrant fuller investigation than minor errors easily detected and repaired.
 
-To test an explanation, look first at where it expects a different result from the other explanations. Clever Hans in the first chapter is an example: that the horse could still count correctly when the questioner did not know the answer, and that it needed to pick up a person's signal to stop, are two expectations that can be compared.
+Before a test, let competing explanations state their expectations. Hans illustrates this: a horse doing arithmetic should still answer when the questioner does not know the result; one relying on bodily stopping signals depends on another condition.
 
-If any result at all can be described as supporting the same theory, it is hard to know what evidence an observation has added. Someone attacks another person, and this is explained as a certain desire; he restrains himself from attacking, and this is explained as the same desire being repressed. Without some separate way of recognising the desire and the repression, these two accounts on their own can absorb opposite behaviours alike.
+If a theory claims to anticipate every possible outcome, how much evidence can observation add? Aggression may be explained by a desire, restraint by repression of that same desire. Without independent means of identifying either, the two accounts can accommodate opposite behaviour.
 
-When the same behaviour, whether it appears or not, can be gathered into the same explanation, the researcher still has to point to some observable difference. Otherwise all we know is that he is able to keep talking.
+When occurrence and nonoccurrence fit the same explanation, researchers need to specify another observable distinction. Otherwise the only thing demonstrated is the explanation's capacity to continue.
 
-#### What they hoped to see on the day of the eclipse
+#### What Was the Eclipse Meant to Show?
 {: #s9-2 }
 
-In ordinary daylight the stars near the sun are drowned in its glare. A total eclipse offers a brief opportunity: with the moon covering the sun, observers can photograph the surrounding star field and set it against comparison plates taken at other times.
+Daylight normally hides stars near the Sun. A total eclipse briefly permits photographs of the surrounding star field for comparison with photographs taken at other times.
 
-On 29 May 1919, expeditions organised from Britain went separately to the island of Príncipe off the coast of West Africa and to Sobral in Brazil. Arthur Eddington took part in the former. What the study set out to compare was how far the apparent positions of the stars shifted as their light passed near the sun; general relativity gave a quantitative expectation for this deflection.
+On 29 May 1919, British expeditions observed from Príncipe off West Africa and Sobral in Brazil. Arthur Eddington joined the former. They measured the apparent displacement of stars whose light passed near the Sun, for which general relativity offered a quantitative prediction.
 
-The expeditions had to deal with weather, the quality of the plates, the instruments, and measurement error before they could compare whether the shift in the stars' positions matched the expectation. The results published afterwards supported general relativity, and the evidence came from the analysis of the photographs and of the errors.[^eclipse]
+Weather, photographic quality, instruments, and measurement error all had to be addressed. The published measurements and error analysis provided support for general relativity.[^eclipse]
 
-When Karl Popper later looked back on the development of his thinking, he set great store by theories that take a risk in advance like this. Compared with the kind of explanation just described, which can add an account for opposite behaviours alike, the expected amount of deflection gave observation a chance to come into conflict with the theory. This was an important reason for his demand that empirical theories possess falsifiability.[^popper]
+Looking back on his intellectual development, Popper emphasised the risk of error a theory accepts in advance. Unlike accounts able to append explanations to opposite behaviours, a predicted deflection makes observational conflict possible. This informed his requirement that empirical theories be falsifiable.[^popper]
 
-Checks of this kind are aimed at predictions about the empirical world. Mathematical proof, ethical reasons, and literary understanding each have their own ways of being assessed; of a theory that claims to predict what will be observed, we can ask that it first state its expectation clearly and then give observation the chance to disagree with it.
+Such tests concern predictions about experience. Mathematical proof, ethical argument, and literary understanding have different standards. A theory claiming observational predictions can be asked to state them before observations have the chance to disagree.
 
-Yet the person who makes this demand also meets moments when his own judgement needs looking at again.
+Popper later reconsidered a judgement of his own.
 
-If 'survival of the fittest' is put only as 'whatever survives was well adapted', it does look like going round in a circle. Defining fitness by survival and then explaining survival by fitness has yet to deliver any content that would separate one result from another.
+If survival of the fittest means only that survivors are fit, the explanation returns to its definition. Defining fitness by survival and then explaining survival by fitness supplies no content distinguishing other outcomes.
 
-Popper at one time rated Darwinism a valuable metaphysical research programme and had reservations about its testability. In 1978 he revised that assessment in an article, acknowledging that the theory of natural selection has testable content.[^popper]
+Popper once described Darwinism as a valuable metaphysical research programme while expressing reservations about testability. In a 1978 article he revised that assessment, recognising testable content in natural selection.[^popper]
 
-Evolutionary research in practice can measure traits and environment before the outcome appears. Peter and Rosemary Grant and their research team followed the ground finches of Daphne Major in the Galápagos over many years, recording the characteristics of individual birds and whether they survived. A drought in 1977 changed the food supply, and different beak shapes were related to the ability to use the seeds that remained. The researchers could therefore compare which individuals survived and how the characteristics of the population changed afterwards.[^finches]
+Actual evolutionary research can measure traits and environments before outcomes occur. The Grants and their colleagues followed finches on Daphne Major in the Galápagos, recording individual traits and survival. The 1977 drought changed food conditions; beak characteristics affected use of remaining seeds. Researchers could compare survival and later population characteristics.[^finches]
 
-Recording beak shape and food first and comparing survival afterwards makes it possible to check a concrete relationship, rather than simply calling the survivors 'the fittest' after the fact. If the result does not match expectation, researchers can go on to examine their assessment of the food, their measurement of the traits, and other factors bearing on survival.
+Recording beaks and food first allows specific relationships to be tested, rather than naming survivors fit afterwards. Unexpected results prompt investigation of food assessments, trait measurement, and other influences.
 
-#### One anomaly, several possibilities
+#### An Anomaly Has Several Possible Sources
 {: #s9-3 }
 
-When an observation fails to match expectation, the difference may come from the data, from the procedure, from an auxiliary assumption, or from the theory itself. An anomalous figure may come from a faulty instrument, for instance, and conditions assumed to be fixed may have changed during the test.
+A failed prediction need not locate error solely in the theory. Data, operations, and auxiliary assumptions can produce discrepancies. Instruments may fail; conditions thought constant may change during a test.
 
-The tests on Clever Hans in the first chapter could close in on the cause because they were arranged so that one thing, whether a person knew the answer, varied in a way that could be compared. Had the questions, the place, and the manner of asking all changed at once, a wrong answer would have been hard to attribute to any one of them. Which conditions need to be held constant, and which further situations need comparing, depends on the cause one is trying to rule out this time.
+Hans's tests approached a cause because the questioner's knowledge varied comparably. If questions, locations, and procedures all changed, a wrong answer would not identify which change mattered. Controls and comparisons depend on the cause we wish to distinguish.
 
-The same difficulty appears in everyday claims. 'Giving people more authority improves team performance': authority for whom, exactly, to decide the schedule, the spending, or the technical approach? A project that runs out of control may show that the claim was too broad, or it may show that the staff could decide but could not get the information, or learnt of one another's decisions too late. Only when these differences have been traced can a hypothesis be framed that the next case can compare: in a team with the relevant skills, information, and timely feedback, does adding a particular decision right shorten the wait for approval?
+Everyday claims face the same difficulty. “More autonomy improves team performance” must specify authority over schedules, spending, or technical choices. A failed project may show an overbroad claim, absent information, or decisions communicated too late. These differences permit a testable revision: among teams with relevant skills, information, and timely feedback, does a specific increase in authority reduce waiting for approval?
 
-When a confounding factor is proposed, it too should be open to checking. If the instrument is suspected, look for a way to calibrate or compare it; if the conditions are suspected of changing, consult the records from the time. Adding one uncheckable reason after every failure robs the theory of its chance to meet a counterexample.
+Proposed interference must itself be investigable. Suspected instrument error calls for calibration or comparison; changed surroundings call for contemporaneous records. Adding an uncheckable excuse for each failure excludes counterexamples altogether.
 
-#### When to change the frame
+#### When a Framework Needs Replacing
 {: #s9-4 }
 
-A local repair sometimes solves the problem and sometimes makes the explanation harder and harder to use. If the same kind of failure keeps recurring, if each time another exception has to be added, and if the new account can only explain the past and offers no checkable expectation, then it is worth reconsidering how the problem was described in the first place.
+Repairs sometimes restore usefulness; sometimes they accumulate exceptions. Recurrent errors, each requiring another exception, and explanations restricted to the past without testable expectations are reasons to reconsider the original description of the problem.
 
-Another strong reason is that an alternative explanation already exists which handles the new anomaly and also accounts for the results the old method got right. The comparison should weigh more than the novelty of the new account: how many extra assumptions it needs, which difficulties it resolves, and whether it would throw away reliable results already in hand.
+Another reason is an alternative that handles anomalies while accounting for earlier successes. Novelty alone is insufficient. Compare added assumptions, solved problems, and whether reliable achievements would be lost.
 
-The physics of light went through a change of this kind.
+The history of light contains such a transition.
 
-Nineteenth-century physicists knew that light behaves as a wave. Water waves have water, and sound travels through air or some other medium; when light crosses space, what is it that waves? The ether was once an important hypothesis put forward to answer that question.
+Nineteenth-century physicists knew light had wave properties. Water waves have water; sound travels through media including air. What waves as light crosses space? Ether was an influential answer.
 
-In 1887 Albert Michelson and Edward Morley used an interferometer to send light out and back along different directions and then compared the interference fringes where the beams rejoined. They were looking for the shift in the fringes that the earth's motion relative to the ether ought to produce, and the effect they measured was far smaller than was then expected. This put the existing arrangement, which used the ether to account for the earth's motion and the propagation of light, in difficulty.[^ether]
+In 1887, Albert Michelson and Edward Morley sent light back and forth in different directions in an interferometer and compared the returning interference fringes. They sought a displacement expected from Earth's motion through ether, but found an effect far smaller than predicted. Existing accounts of terrestrial motion and light faced a difficulty.[^ether]
 
-Researchers went on revising their assumptions and improving the experiments. The work of Lorentz and others developed important mathematical relations that later physics was able to use. The process involved trial and correction, and the alternative account did not appear complete after a single experiment.
+Researchers continued revising assumptions and improving experiments. Lorentz and others developed important mathematical relationships usable in later physics. One experiment did not immediately supply a complete replacement theory.
 
-Special relativity later restated the relations between time, space, and the speed of light, allowing the phenomena to be handled from different basic assumptions. Change sometimes concerns how the question is asked, and goes beyond correcting a single value; the new theory must still fit the reliable observations already made, and must submit to new checks.
+Special relativity later reformulated relationships among time, space, and light speed, allowing different basic assumptions. Change can concern how questions are posed rather than merely a corrected number. New theories must still fit reliable observations and face new tests.
 
-The researchers of the time had no finished history of physics to consult. They had to judge whether the difficulty in front of them could still be handled by the old theory; the new mathematical relations might be used to amend the old explanation, or might be taken up by a theory yet to come. The results we now sort into an 'old frame' and a 'new frame' were tangled together in the same inquiry while they were taking shape.
+In hindsight the turning point seems clear. Researchers then could not read the later history. They had to judge whether existing theories could handle the difficulty. New mathematics could repair old accounts or enter later theories. Achievements now assigned to old and new frameworks once developed together.
 
-#### What admitting an error may cost
+#### What Might Admitting Error Cost?
 {: #s9-5 }
 
-In the middle of the nineteenth century, the two maternity clinics of the Vienna General Hospital had different rates of death among mothers. The gap between the clinic where physicians and medical students worked and the one staffed by midwives kept Ignaz Semmelweis on the trail.
+In the mid-nineteenth century, Vienna's General Hospital had two maternity clinics, one staffed by doctors and medical students, the other by midwives. Maternal mortality differed. Ignaz Semmelweis kept asking why.
 
-In 1847 a colleague died after being wounded during dissection work. Semmelweis connected the lesions found in his body with the disease of the mothers and suspected that medical staff were carrying some contamination from the dissecting room and passing it on when they attended the women. He introduced washing with a chlorine solution, and the death rate afterwards fell. The explanation he used, 'cadaverous particles', was not the complete knowledge of microbes and infection we have today.[^semmelweis]
+In 1847, a colleague died after an injury during dissection. Semmelweis connected the pathological findings with maternal illness and suspected contamination carried from dissections to patients. Chlorinated washing was introduced and mortality fell. His account of cadaveric particles was not today's full knowledge of microbes and infection.[^semmelweis]
 
-The success of the washing made a possibility that was hard to accept impossible to ignore: the staff had believed they were caring for the mothers, and their daily routine might have been spreading a fatal contamination. Responding to this evidence meant re-examining how the work was done, and perhaps facing the harm that past actions had caused.
+The intervention's results forced attention to a disturbing possibility: routine care might transmit lethal contamination. Responding required examining practices and facing harm one might have caused.
 
-The cost of admitting an error of this kind goes beyond changing a rule. Professional identity, relations with colleagues, and one's estimate of oneself may all be affected. These costs help us understand why correction is difficult; whether to accept an explanation should still be decided by the evidence.
+Admitting such error costs more than changing a rule. Professional identity, colleagues' relationships, and self-assessment may be affected. These costs help explain difficulty, but do not justify refusing evidence.
 
-Institutions can make admitting error more feasible. They can, for example, allow workers to file records of anomalies and to suspend a practice that is in doubt, and set out clearly who is to check and who is to answer to those harmed. This keeps responsibility in place, and it means people need not abandon a report because the cause has not yet been fully proved, or because they fear being humiliated for making it.
+Institutions need ways to begin reporting: submit anomalies, suspend doubtful practices, assign verification, and respond to victims. Responsibility remains, but reporting should not await complete proof or be suppressed through humiliation.
 
-#### Updating quickly is not necessarily better
+#### Returning Through an Ancient Sequence
 {: #s9-6 }
 
-The size of a correction should match the evidence. A single anomaly may come from measurement error or a chance event; when several independent studies repeatedly reach the same result, and that result directly contradicts a core prediction, a larger adjustment is needed. Even when the matter cannot yet be settled, the doubt can be noted and the search continued for data that would tell the causes apart.
+The *Doctrine of the Mean* joins broad learning, careful questioning, thoughtful reflection, clear discrimination, and earnest practice in a sequence of verbs.[^zhongyong] Learning leads through inquiry and judgement into action.
 
-Before people receive the same new report, they often already carry different experience and different judgements. One person once found a sampling problem in a report of this kind; another has repeatedly made accurate predictions by relying on it. That history may lead them to give the new report different degrees of trust.
+The text stresses practice. This chapter asks what follows: how can materials brought back by action reopen earlier work? Results can force new distinctions, contradictions can rewrite a question, and new questions can change what to study. After doing, there may still be a need to think again.
 
-Whether either reaction is reasonable depends on how relevant the past experience is to this report. Does it come from the same research team? Does it use the same method? Has the problem found before been fixed? 'I have been misled before' or 'I have always trusted it' does not, on its own, account for how much trust this particular report deserves.
+Institutions often equate updating with faster figures and more frequent releases. Speed matters sometimes, but is not learning. Biased data can be followed faster; unchanged authority can prevent detected errors from changing decisions. Revision needs results to return, someone able to recognise discrepancies, and a route to whoever can change the relevant level.
 
-So when people disagree, they can begin by asking what each side believed before and why, and then compare which of those reasons the new report has changed. Someone may have been deeply sceptical, may have raised their trust after reading it, and still fall short of the other person's certainty. Looking only at whether they agree in the end misses an update that actually happened.
+That level cannot always be fixed beforehand. Wrong measurements call for corrected data; erased distinctions for another representation; changed environments for revisiting conditions. Targets met while lives worsen call for reconsidering purpose. Retraining models, lowering thresholds, or adding rules each time can produce endless versions while leaving the wrong question untouched.
 
-Setting out one's earlier judgement lets others see where the disagreement comes from; allowing new and reliable evidence to keep changing it stops past experience from becoming a permanent reason to refuse correction.
+#### Faster Updating Is Not Always Better
+{: #s9-7 }
 
-That admitting error deserves praise is easy to say. The hard part is that the person concerned still has to judge whether they were in fact wrong. Change too little and people may go on being harmed; change too quickly and a practice that was reliable may be thrown away. The later results have not yet appeared, yet both costs have already begun to fall on someone.
+The extent of change should reflect evidential strength. One anomaly may be error or chance. Repeated independent results conflicting with core predictions call for more substantial adjustment. Unresolved doubt can be recorded while discriminating evidence is sought.
 
-Comparing the evidence, recording the judgement, and bringing others into the inquiry can give a decision grounds. This work still does not guarantee that we will choose the right moment for correction every time. A reliable method must also leave room for this possibility: that a person listens seriously to criticism, checks the data as well as they can, and in the end still makes a judgement that will need changing again.
+People receiving the same report bring different histories. One has uncovered sampling problems in similar reports; another has repeatedly predicted accurately using them. The report is identical, but its persuasive force may differ.
 
-## Part Three — The Finite Mind
+Reasonableness depends on how relevant those histories are. Is this the same team and method? Were earlier problems repaired? “I've been deceived before” and “I've always trusted it” cannot alone set the weight of this report.
+
+Disagreement can therefore begin with prior beliefs and reasons, then ask what the new report changes. A deeply sceptical reader may become more trusting without reaching another's confidence. Final agreement alone hides that movement.
+
+Stating earlier judgements reveals the source of disagreement. Allowing reliable new evidence to change them keeps past experience from becoming a permanent barrier.
+
+Praising admission of error is easy. Those involved still have to establish whether they erred. Too little revision may prolong harm; too much may discard reliable practice. Later results have not arrived, yet both costs are already being borne.
+
+Comparing evidence, recording judgements, and involving others supplies grounds. It cannot guarantee the right timing every time. Even after criticism has been heard and evidence examined, another revision may be needed. Reliability includes leaving room for that possibility.
+
+## Part Three — The Knower Is Inside the Framework
 {: #part3 }
 
-### 9 — What It Takes to Understand a Person
+> Understanding is not pure calculation detached from bodies, time, and other people. The knower's abilities and limits belong to the problem.
+{: .prompt-info }
+
+### 9 — Other People Are Not Objects Awaiting Decoding
 {: #s10 }
 
-In heavy rain, the woodcutter and the priest shelter beneath the ruined Rashomon gate, still talking over the testimony they have just heard in a murder case. A commoner comes in out of the rain as well and presses them to say what happened. Akira Kurosawa's film *Rashomon* then lets him, and the audience with him, hear several versions that cannot be squared with one another.
+Rain falls outside the ruined Rashomon gate. Beneath it, a woodcutter and a priest discuss testimony about a killing. A passer-by shelters there and asks what happened. Kurosawa's film *Rashomon* unfolds through this questioning. Alongside the stranger, we hear incompatible versions of events.
 
-A samurai travelling through the forest with his wife met the bandit Tajomaru. The samurai died and the wife was raped. The bandit admits the killing, yet casts himself as the winner of a fair duel. In his version it was the wife who demanded that the two men fight, and only then did he cross swords with the samurai.
+A samurai travelling through a wood with his wife encounters the bandit Tajomaru. The samurai dies; his wife is assaulted. The bandit admits killing him but depicts himself as the victor in a fair duel. In his account, the wife demanded the fight.
 
-There is no duel in the wife's account. She says that after the bandit left, her husband looked at her with contempt. She went towards him holding the dagger, then lost consciousness, and when she came round the blade was in her husband's chest. The dead man, speaking through a medium, offers a third account: his wife had asked the bandit to kill him, and in the end he took his own life with the dagger. Did the bandit kill the samurai, or did the samurai kill himself? The two causes of death cannot both be right.
+The wife's account contains no duel. After the bandit left, she says, her husband looked at her with contempt. She approached with a dagger, lost consciousness, and awoke to find it in his chest. Speaking through a medium, the dead man supplies a third account: his wife asked the bandit to kill him, and he eventually killed himself. Murder by the bandit and suicide cannot both describe his death.
 
-With each telling the film acts the events out again for the audience. The people are the same few people, but what they do in the forest changes. The woodcutter later changes his story too: he did more than find the body, he saw the fight. In his version both men shrink back, and the exchange they finally stumble into is a sorry affair, nothing like the heroic duel of the bandit's telling.
+Each speaker's story restages the wood. The people remain; their actions change. The woodcutter later admits more than discovering the body: he witnessed the conflict. His two men hesitate and fight awkwardly, unlike the bandit's heroic duel.
 
-A baby's cry comes from under the gate, and the three men find an abandoned child. The commoner takes the child's clothing; the woodcutter rebukes him, only to be challenged in turn: where did the wife's valuable dagger go? The commoner suspects that the woodcutter stole it, and that this is why he concealed what he saw. The accusation gives reason to question the woodcutter's testimony as well.
+A baby cries beneath the gate. The three discover an abandoned child. The stranger takes its clothes; when the woodcutter objects, he asks where the wife's valuable dagger went. He suspects the woodcutter stole it and concealed what he saw. The man apparently exposing other accounts now faces doubt about his own.
 
-The woodcutter nonetheless decides to take the child home and raise it. The priest at first refuses to hand the baby over, and lets go only when he hears what the woodcutter intends.[^rashomon]
+The woodcutter nevertheless decides to take the child home. The priest initially withholds it, then releases it after hearing his intention.[^rashomon]
 
-When the priest gave him the child, what exactly did he believe?
+The killing remains unresolved, but the child has somewhere to go. Entrusting care to the woodcutter does not require accepting all his testimony. Trust in one person can have different scopes. Life cannot wait indefinitely for settled truth. On what grounds can it continue?
 
-#### Leave the unfamiliar word where it stands, for now
+#### Leave Unfamiliar Words in Their Setting
 {: #s10-1 }
 
-In 1947 Thomas Kuhn, then doing research in physics at Harvard, began reading early scientific texts for a course he had been asked to teach. Aristotle's discussion of motion left him deeply puzzled. Looked at from the physics that came after Newton, many of the claims seemed impossible to sustain; yet this was a thinker so acute in other fields. Why should he appear so utterly different here?
+In 1947, Thomas Kuhn, studying physics at Harvard, began reading early scientific texts for teaching. Aristotle's treatment of motion puzzled him. Read through post-Newtonian physics, much seemed untenable. How could a thinker so perceptive elsewhere appear so different here?
 
-Kuhn recalled later that the turn came when he came to understand Aristotle's vocabulary afresh. The motion and change Aristotle discussed took in the movement of bodies, but also growth, alteration of qualities and similar questions. If one reads only with the later physicists' usage in mind, in which motion means a change of position, part of the original meaning is shut out. Once he had recognised this difference, Kuhn was better able to see why each stretch of argument was arranged as it was.[^kuhn]
+Kuhn later described a turning point in understanding Aristotle's vocabulary. Motion and change included growth and altered qualities as well as displacement. Reading only through later physics excluded part of the meaning. Once the terms opened up, the arguments began to reveal their organisation.[^kuhn]
 
-At first Kuhn was, in effect, marking a piece of physics homework full of wrong answers; later the question itself changed. What had been called motion turned out to include growth and change of quality, which he had not put into the question at all. The progress in reading came when the concepts used to judge the text also began to change.
+What first looked like a wrong answer turned out to involve a different question. The concepts used to judge the ancient thinker came under examination through reading him.
 
-#### The reasons Haidt heard in India
+#### Reasons Haidt Heard in India
 {: #s10-2 }
 
-In 1993 the social psychologist Jonathan Haidt went to Bhubaneswar, in eastern India, to do fieldwork. He was used to understanding moral questions in terms of harm, rights and fairness, and when he met certain local demands concerning purity, hierarchy and duty, he found it hard at first to see what they meant in the life around him.
+In 1993, social psychologist Jonathan Haidt undertook fieldwork in Bhubaneswar in eastern India. Accustomed to understanding morality through harm, rights, and fairness, he initially struggled with certain requirements concerning purity, hierarchy, and duty.
 
-Looking back, Haidt wrote that the daily life of the people there gradually brought him to understand how some of these rules connected with ideas of obligation, care and the sacred. He stopped seeing only restrictions on individual choice, and began to see what those who kept the rules believed they were upholding.[^haidt]
+In retrospect, he described how daily life helped him see their connections with obligation, care, and sacred things. He began to perceive what adherents believed they preserved, alongside restrictions on individual choice.[^haidt]
 
-The hospitality a visitor receives may make him look at community afresh, but it cannot speak for the lives of everyone the rules bind. Those who bear the restrictions have their own experience of them. The more one understands how a rule sustains relationships, the better placed one sometimes is to point out which people within it have always been asked to give more.
+A visitor's experience of hospitality may transform their view without representing everyone living under the rules. Those bearing restrictions have experiences of their own. Understanding how customs sustain relationships can also sharpen criticism of whose sacrifices sustain them.
 
-Now back to the child under the gate. The priest still does not know everything that happened in the forest, but the woodcutter's readiness to raise the child gives him a reason to hand over its care. The question of the dagger has not gone away, and in front of him is a life that cannot wait indefinitely. Living with other people very often goes on inside this kind of understanding, one that never adds up to a single overall verdict.
+Return to the child beneath the gate. The priest still lacks the full history of the wood, but the woodcutter's willingness to raise the child gives grounds for entrusting care. The dagger remains in question; another life cannot wait. Understanding does not yet add up to a complete judgement of the man, while care must begin.
 
-Understanding another person also changes our relationship with him. Decide at the outset that someone is making excuses, and every clarification he offers afterwards may turn into further excuses; he senses the distrust and says less. The attitude the one who understands has taken up is already part of the behaviour he is trying to explain.
+Interpreting someone also changes our relationship. Decide in advance that they make excuses, and every clarification may become another excuse. Sensing distrust, they speak less. Our explanation of their behaviour is accompanied by an attitude changing that behaviour.
 
-Only by giving the other person the chance to correct us can we learn from the answer something we did not know before. His account can still be checked against records of what he did and against other people's experience. Mutual understanding takes shape in these exchanges; neither side can complete it alone by guessing more thoroughly.
+Letting them correct us makes learning possible. Their account can still be checked against records and others' experience. Mutual understanding grows through replies; more layers of solitary guessing cannot replace them.
 
-#### After you know his answer
+#### After You Know Their Answer
 {: #s10-3 }
 
-Knowing what a person supports is where understanding starts. Suppose, for example, that a team is discussing whether to trial a new shift rota, and someone is willing to back it because it can be tried for a while and reversed if it proves unsuitable. You know his position, and you also know one condition he leans on: whether the consequences can be undone.
+Knowing a position, we can follow its reasons. Someone supports trialling a new rota because it can be reversed if unsuitable. We learn both their conclusion and a condition they rely on: recoverability.
 
-You can then ask: if publishing the new rota would cost some people the care arrangements they now rely on, arrangements not easily restored, would he still support it in the same way? The question tests how much weight "it can be reversed" carries in his judgement, and it helps him notice a cost he may have overlooked.
+Now suppose publishing the rota would cost some workers existing care arrangements that cannot readily be restored. Would the supporter still agree? If the relied-upon condition is absent, does judgement change? Such questions expose both the weight of reasons and overlooked costs.
 
-Once this consideration is understood, it can be watched for in other decisions: where consequences are easy to repair, is there a case for trying first; where they are hard to undo, is more preparation needed? But another person may oppose the rota for quite different reasons, and refuse it even though it can be reversed. To understand him, one has to ask again what his reasons really are.
+This consideration can guide other decisions: reversible consequences may support a trial; irreversible ones may require preparation. Another opponent may reject the rota for different reasons, even if reversible. Those reasons must be asked about rather than inferred from the first person.
 
-#### Is anyone aboard the boat that strikes you
+#### Is Anyone in the Boat Coming Towards You?
 {: #s10-4 }
 
-Zhuangzi, in "The Mountain Tree", shrinks the scene to a single collision. An empty boat drifts into a man's boat and he does not lose his temper; if he sees someone aboard, he shouts at him to steer clear. He shouts and gets no answer, shouts more urgently, and in the end abuse follows.[^zhuangzi]
+In “The Mountain Tree” of the *Zhuangzi*, a collision changes anger. An empty boat approaches without provoking the story's man. Seeing someone aboard, he calls for them to steer clear. Repeated unanswered calls turn into abuse.[^zhuangzi]
 
-The boat still strikes, but the anger now has an object: a person who ought to have answered and did not. The event has been placed within intention and responsibility, and the feeling changes with it.
+The boat still approaches, but anger now has an object: someone expected to respond who does not. Beyond the collision's force lie judgements about intention and responsibility.
 
-The parable goes on to speak of the discipline of emptying oneself to wander the world. A reader can first notice something in the collision itself: whether we grow angry often depends on how we read the other person's intention. Did that man see the boat was about to hit? Was he able to steer clear? Until such things have been established, deliberate refusal to give way is only one possible explanation.
+The parable continues into the cultivation of an emptied self. We can also notice how anger depends on inferred intention. Did the person see the approaching collision? Could they avoid it? Until these are established, deliberate refusal is not a settled conclusion.
 
-Establishing the cause can change the judgement of responsibility. Some people truly cannot control the boat; others know the risk and fail to take an action that was within their power. The damage from the collision still has to be dealt with, but who should answer for it depends on what could be known at the time, what could be done, and what was actually done.
+Causes can change responsibility. Some people cannot control a boat; others knowingly omit available precautions. Damage remains to be addressed. Who bears responsibility depends on what could be known and done, and what was actually done.
 
-The causes of an action, the reasons the person gives for it, and the reasons that would justify it to those affected should also be kept apart. Stress can help explain why someone lost control, but it has not yet answered how much those in the way should have to put up with. An institution that makes staff afraid to report errors accounts for part of their silence; how responsibility is shared still has to take in authority, risk and the choices that were available.
+Three matters need separating: how behaviour arose, how the actor explains it, and whether that explanation answers those affected. Pressure can help explain a loss of control without deciding how much others should endure. An institution discouraging reports explains some silence; responsibility still depends on authority, risk, and available alternatives.
 
-Public discussion in particular needs to beware of another short cut: treating the calm, fluent account as the more reliable one. A clear account is easier to check, but some people lack the vocabulary, some are frightened at that moment, and some have suffered precisely the kind of harm that makes the composure demanded of them impossible.
+Public discussion offers another shortcut: calm, fluent speakers appear credible. Clarity aids checking, but some people lack vocabulary, are frightened, or are too hurt to maintain the composure demanded by spectators.
 
-If someone says angrily "it happens every time", one can check how many times it has happened while dealing with the one occasion already confirmed. Even if "every time" is inaccurate, the harm that did occur does not go away. Helping him set out what happened improves the quality of the record, and it stops the argument from stalling on an exaggerated word.
+When someone angrily says “it happens every time,” we can investigate frequency while addressing the confirmed occurrence. “Every time” may overstate it; the harm already done remains. Helping specify events improves evidence and prevents argument stopping at exaggerated wording.
 
-Knowing what a person fears can be used to comfort him, and it can be used to threaten him. An accurate understanding of his weakness does not come with a reason to exploit it.
+Knowing another person's fears can support comfort or threats. Recognising vulnerability does not justify exploiting it.
 
-Someone who does not want to go on talking now may simply be exhausted, or afraid of being punished for voicing an objection. Stopping the harm already confirmed, keeping the record, and letting the person rest and speak in safety are often more urgent than further questioning. He does not have to explain himself to our satisfaction before he qualifies for care.
+Refusal to continue talking may reflect exhaustion or fear of punishment. Stopping established harm, preserving records, and allowing rest and safe expression often take priority over more questions. Care should not await an explanation we find satisfactory.
 
-#### The same word may be making different demands
+#### One Word Can Make Different Demands
 {: #s10-5 }
 
-Kuhn's example concerns the meaning of a word. Everyday discussion runs into a further difficulty: even when everyone uses the word "fairness", they may prize different arrangements. Some think whoever arrived first should be served first; others think whoever is in most urgent need should come first. Translating the word into another language has not yet made clear whom they are asking to do what.
+Kuhn's example concerns meaning. Everyday discussion adds another difficulty: shared use of “fairness” may conceal different priorities. Some favour first arrivals; others urgent needs. Even translated words can leave demands unspecified.
 
-Take the redesign of a park. "We see it differently" may contain any of the following questions:
+In a park redevelopment, “we disagree” may involve several questions:
 
-| Where the disagreement lies | What needs clarifying |
+| Location of disagreement | What needs clarifying? |
 |---|---|
-| Data | Are both sides using usage records for the same period and the same area? |
-| Definition | Does ease of passage mean walking, wheelchairs, or the speed of vehicles? |
-| Causation | Which design would cause crowding, and what evidence supports that? |
-| Scale | Have short-term disruption from construction and long-term consequences of use been kept separate? |
-| Purpose | Is it transport, recreation, or some other need that is being improved? |
-| Values and risk | Which costs are hard for which people to accept, and why? |
-| Authority | Who is entitled to set the shared goal, and how do those affected take part? |
+| Data | Do records cover the same period and area? |
+| Definitions | Does access mean walking, wheelchair use, or vehicle speed? |
+| Causes | Which design creates congestion, and what supports that claim? |
+| Scale | Are temporary construction disruption and long-term outcomes distinguished? |
+| Purpose | Are we improving transport, recreation, or something else? |
+| Values and risks | Which costs are unacceptable to whom, and why? |
+| Authority | Who may set shared goals, and how do affected people participate? |
 
-A single quarrel may be stuck at several of these points at once. More investigation can settle some disagreements over data, but it will not decide for the park's users which kind of life is more worth having; and saying that values differ does not exempt a mistaken usage record from correction.
+One dispute may contain several unresolved differences. Investigation addresses some factual disagreements without deciding which life is more worthwhile. Conversely, different values do not remove the duty to correct false records.
 
-Put the table back against a concrete proposal. Take a hypothetical case: the park's managers want to add night-time lighting to make it safer to pass through. One user doubts that the lamps, where they are placed, would reach the stretch of path where people most often fall. Another believes the lighting would work, but worries about the effect on the creatures that roost there at night. A third demands that nearby residents be involved in the decision first. All three may say "I object", but the reasons that need answering are different.
+Suppose managers propose more park lighting for safer passage. One user doubts that lamp positions cover the paths where falls occur. Another accepts the safety effect but worries about nocturnal wildlife. A third asks for residents' participation. All oppose, but different parts of the proposal.
 
-The first doubt can be checked against where accidents happen and how well the lighting works. The second calls for more ecological and usage data, and it also involves how the various costs are to be treated. The third asks about entitlement and procedure in the decision; however well the first two studies are done, they have not yet answered who may decide on whose behalf.
+The first question invites investigation of accidents and lighting. The second needs ecological and usage information as well as judgements about costs. The third concerns authority and procedure. Better research alone does not confer the right to decide for others.
 
-![The same park lighting proposal may meet different objections at three points: whether the lighting works, how costs are compared, and who has the authority to decide; each calls for a different kind of checking or discussion.](/assets/img/book/en/fig-13-disagreement.svg){: width="1200" height="860" }
-_Figure 9.1　One objection may fall on different relationships. This is the hypothetical proposal carried over from the table above, not an actual park survey. Drawn for this book._
+![The same lighting proposal can face objections about effectiveness, comparison of costs, and authority. Each needs different evidence or discussion.](/assets/img/book/en/fig-13-disagreement.svg){: width="1200" height="860" }
+_Figure 9.1　Opposition can concern different relationships. This hypothetical proposal develops the table; it is not a park survey. Drawn for this book._
 
-#### State first whatever part can be agreed
+#### Be Clear About the Agreement You Can Reach
 {: #s10-6 }
 
-Discussion does not necessarily reach full consensus. In the park lighting example, the parties may agree on the existing accident data, and agree that more lighting would improve one particular path, while still judging differently whether the ecological cost is acceptable. Separating what has been confirmed from what remains disputed saves the next discussion from starting over with the same batch of data.
+Clarifying disagreement need not eliminate it. Participants may agree on accident records and a lighting improvement for one path, yet disagree about acceptable ecological costs. Separating established points from disputed ones avoids starting the same factual argument again.
 
-Some shared criteria can also reach across professions. A product team wants an early launch and a safety team worries about accidents, yet both may agree that a small error which can be corrected quickly and an error which might cause irreversible harm call for different kinds of review. That agreement can become the reason for arranging a procedure, after which the two sides go on to discuss which risks belong in which class.
+Shared standards can cross professions. Product and safety teams may differ over launch dates and accidents while agreeing that easily corrected mistakes require different review from irreversible harm. Procedures can begin there while classification of risks remains debatable.
 
-Shared criteria must themselves be open to checking. The two sides may still differ over what counts as "reversible", or discover that the losses borne by one group have not been counted. The differences should then be set out explicitly, rather than everyone continuing to use the same word and pretending agreement has been reached.
+The shared standard must also face scrutiny. “Reversible” may conceal disagreement or exclude losses borne by one group. Stating those differences prevents apparent agreement from obstructing discussion.
 
-If rankings of value or basic beliefs cannot for now be reconciled, the disagreement itself can at least be stated clearly. One person holds that a certain loss cannot be traded away; another is willing to compensate for it with other goods. This is a different problem from misreading the data. Only by admitting that no shared criterion yet exists can the parties look for negotiation, procedure, or some other acceptable way of living alongside one another.
+Where values or basic beliefs cannot presently be reconciled, disagreement can be specified. Treating a loss as inexchangeable differs from accepting compensation, and neither is simply a misread datum. Recognising the absence of a shared standard can open negotiation and procedures for acceptable coexistence.
 
-#### The cost of changing one's mind
+#### The Cost of Changing Your Mind
 {: #s10-7 }
 
-An idea one read about only yesterday may be easy to change; a judgement bound up with professional reputation, group belonging or years of investment may be hard to let go. When persuasion meets resistance, besides checking whether the evidence is sufficient, one can also try to understand what the change would mean for the person concerned.
+A thought encountered yesterday may be easy to revise. A judgement entwined with reputation, belonging, or years of effort is harder. Alongside examining evidence, resistance to persuasion invites a question: what would change cost this person?
 
-He may be worried about losing the support of his peers, or afraid that admitting one mistake will wipe out everything he has worked for. Sometimes, clearly separating "this judgement needs correcting" from "this person has no competence at all" is enough to let the discussion go on. Which actions caused damage and must be answered for should still be dealt with specifically.
+They may fear losing colleagues or having all previous work discredited by one error. Distinguishing “this judgement needs correction” from “this person has no ability” can sometimes keep discussion open. Harmful actions and responsibility still need specific treatment.
 
-A distinction is also needed between a reasonable decision made on the information available at the time and a lapse in which evidence that was available then was ignored. Both may need to change when new data appears, but what has to be acknowledged and improved is different in each case.
+A reasonable decision on the information then available also differs from neglect of obtainable evidence. Both can require change after new findings, but what must be admitted and improved differs.
 
-After changing his judgement, the person still has to go back to his own community and face those who trusted him, or were hurt, because of what he used to maintain. Correcting a statement may be only the beginning of that work.
+Once judgement changes, the person returns to those who trusted or were hurt by their earlier position. Revising the account is only the beginning of facing them.
 
-### 10 — Borrowing Other People's Thinking
+### 10 — Connecting Earlier Understanding to Your Own
 {: #s11 }
 
-LeetCode is a platform for practising programming. A problem may ask for the shortest route, or for a way to find one item quickly in a large body of data. Anyone who starts practising soon meets "data structures" and "algorithms". The first studies how data should be arranged so that it is convenient to use; the second sets out the steps for getting a job done, and the reasons behind them.
+On programming practice sites such as LeetCode, problems often occupy a few paragraphs: find a shortest route, or retrieve an item quickly from large amounts of data. Attempting them brings us to data structures and algorithms. How should information be arranged for retrieval? Which steps are both fast and complete? These names stand for earlier people's work.
 
-The statement of a problem is short; finding a good method may have cost researchers many years. The layer-by-layer search for a path in Chapter 4 lets us lean on an existing proof to know when the search can stop, and why no shorter route has been missed. Someone who has learnt the method spends their time recognising the conditions of the problem. Someone who has never met it may be worn out simply from trying a few routes.
+A short problem can have a long history behind its best method. Chapter 4's layered search lets us borrow an established proof of when to stop and why no shorter path was missed. Someone who knows it can concentrate on recognising conditions. Someone who does not may still be trying routes without knowing when the search is complete.
 
-Trying for yourself has value. Where you get stuck, you can see what makes the problem hard, and you learn to recognise what exactly a method saves. But if never looking at existing results is taken as proof of independent thought, learning becomes a test of reinventing things. What humanity has accumulated is given no chance to work, while the individual's stamina is asked to stretch without limit.
+Trying for ourselves reveals the difficulty and what an earlier method saves. Making refusal to consult existing work a test of independent thought, however, turns learning into compulsory reinvention. Earlier achievements sit unused while our time goes into already explored detours.
 
-Faced with the hard questions of life, though, we easily forget this way of learning. Should a person keep every promise? What kind of exchange is fair? If a choice benefits me, is that sufficient reason to make it? These puzzles may have landed on us only today, yet philosophers have been arguing about them for a very long time. The distinctions, counterexamples and arguments they have offered will not live our lives for us, but they can help us see where exactly we are stuck.
+For life's difficulties, we more readily forget that predecessors are available. Must every promise be kept? What makes an exchange fair? Does personal benefit supply sufficient reason for a choice? These problems may reach us today, but philosophers have debated them for centuries. Their distinctions, counterexamples, and arguments cannot live for us; they can make an inarticulate difficulty approachable.
 
-A programming problem usually comes with its inputs, its constraints and its test for acceptance already given. In a discussion of fairness, even the test for acceptance may be in dispute. That makes borrowing ideas a matter for more judgement. Reading an argument, you may come away with a method; you may also discover only then that the answer you had been pursuing had ruled out certain people's situations in advance.
+Programming exercises usually specify inputs, constraints, and acceptance criteria. Discussions of fairness may dispute the criteria themselves. Borrowing thought must therefore include reconsidering what would count as resolution. Reading may provide a method—or reveal that our preferred answer excluded someone's circumstances beforehand.
 
-#### Darwin reads a book about population
+#### Darwin Reads a Book About Population
 {: #s11-1 }
 
-In his autobiography Charles Darwin recalled that selection in the state of nature had once puzzled him. He had already seen the power of artificial breeding, but he still needed to understand how, with no breeder doing the choosing, differences among living things could be kept.
+Darwin recalled in his autobiography a difficulty with selection in nature. He recognised the power of artificial selection but needed to understand how variations persisted without a breeder choosing them.
 
-In 1838 he read Malthus's book on population. Population can grow faster than the means of living, and that problem made him think again about the struggle for existence among animals and plants. In an environment of limited resources, would certain differences make an organism more likely to survive and reproduce, so that those differences were passed to descendants more often? The differences he had gathered over long years of observation now had an explanation that could be worked on further. He still spent many years after that arranging evidence and revising his ideas before he published *On the Origin of Species*.[^darwin]
+In 1838, he read Malthus on population. Population potentially outgrowing resources prompted a fresh view of competition among animals and plants: could some variations favour survival and reproduction under scarcity, becoming more common in descendants? Long-observed variation now had an explanation to investigate. Years of evidence gathering and revision followed before *On the Origin of Species* appeared.[^darwin]
 
-Darwin read with a puzzle left over from long observation, and only because of that did the relation between population and resources turn, before his eyes, into a question in biology. Another person reading the same book need not have arrived there. Making the idea stand up afterwards meant going back to the evidence on species, variation and reproduction. The borrowing happened in this movement back and forth. As for how people should treat the weak, or how a struggle for existence should be conducted, none of this decided that for us.
+Darwin read with difficulties accumulated through observation, allowing population and resources to become a biological question. Another reader need not have reached the same place. Supporting the idea then required evidence about organisms, variation, and reproduction. Reading suggested a question; observation tested the borrowed idea. How people should treat the vulnerable still requires ethical reasons, not deduction directly from competition's existence.
 
-When we read works of philosophy, we too can choose with a question in hand. You may accept a distinction an author draws about "freedom" while disagreeing with the policy he builds on it. To explain which step you have adopted, and why, you do not first have to become a disciple of some school.
+We can read philosophy selectively too. Accepting an author's distinction about freedom need not entail accepting their policies. We can explain which step we use and why without first joining the whole school.
 
-But how does a book hand this ability to its readers? Darwin could say that his reading gave him inspiration. For those who come after, what is more useful is to see how he applied the relation between population and resources to variation among living things, and then to keep checking along that same step.
+But how does a book transmit this ability? Darwin could report being inspired. Later readers also need to see how a relationship between resources and population transfers to biological variation. That connection makes further investigation possible.
 
-#### Leaving the reasons for the next person
+#### Leave the Reasons for the Next Person
 {: #s11-2 }
 
-Start with a very small example. Why is the sum of two even numbers still even?
+Take a small question: why is the sum of two even numbers even?
 
-You can try four plus six, eight plus twelve, and a few more pairs. To hand the discovery to someone else, though, there is another way of writing it. An even number can be split into two equal whole-number parts. Halve each of two even numbers and put one half from each together; the sum can still be divided into two equal whole-number parts. In symbols, write the two even numbers as 2a and 2b; adding them gives 2(a + b), where a and b are both integers.
+Try four plus six, eight plus twelve, and more examples. Explaining every possible pair requires another representation. An even integer divides into two equal integer parts. Split each of two even numbers and combine their halves: the total still divides into two equal integer parts. Symbolically, 2a + 2b = 2(a + b), with a and b integers.
 
-The proof about even numbers does not record every detour the discoverer took. It leaves out the mood of the moment and the order of the trial sums, and keeps the relation that is enough for a stranger to redo it. This omission has a power of its own. A reader can point out that "any integer" cannot be substituted for "even number", without first having to judge whether the author, as a whole person, deserves trust.
+The proof does not preserve every detour of discovery. Mood and trial order are omitted; relationships a stranger can repeat remain. Leaving out the personal history helps reasons travel. A reader can point out why “arbitrary integer” cannot replace “even integer” without first judging the author's entire trustworthiness.
 
-This is one point on which I set particular store by stated reasons. They make it possible for different people to meet at the same place and to disagree over the same definition, the same step of inference; corrections can therefore pass into the hands of people the original author never knew. When one person works something out once, the benefit need not stop with that person.
+Explicit reasons let different people meet at a definition or inference and disagree there. Corrections can reach people the original author never knew. One person's insight has a chance to exceed their own experience.
 
-To achieve this, the discoverer has to spend more effort, not less. Writing down what you grasp at a glance is often more trouble than simply going on using it. The ease the reader receives contains the work an earlier person did for the sake of passing it on.
+Making this possible takes extra work. Writing out what one sees immediately can be harder than continuing to use it. Ease for the reader often depends on that earlier effort.
 
-Some abilities are handed down mainly through demonstration and practice. In learning to knead dough, knowing that it should be "kneaded to the right degree" is not enough; the learner needs to touch different doughs, try the movements, and then ask someone skilled to point out the differences. Learning to recognise an abnormal noise in a machine likewise takes repeated listening to normal and abnormal examples, checking one's judgement each time. Words can remind us to attend to the spring of the dough or to a particular stretch of sound; the actual feel, the discrimination by ear and the movements still have to be practised.
+Other abilities need demonstration and practice. “Knead until ready” is insufficient: learners need to feel different doughs, try movements, and receive corrections. Recognising unusual machine sounds requires repeatedly hearing and checking normal and abnormal examples. Words can direct attention to elasticity or sound; touch, discrimination, and movement still need practice.
 
-Sometimes the words stop right there, at "springs back to about this degree". After that, teacher and student have to touch the same piece of dough together. The inference that can be written, the difference that can be pointed to and the movement practised by hand may only together make up the ability the newcomer actually learns.
+“Until it springs back this much” points in a direction, but hands still need the dough. Teacher and student working together can continue distinguishing. Written inferences, indicated differences, and practised movements may together constitute the transmitted ability.
 
-![Thinking can be passed on along two complementary routes, stated reasons and shared practice; those who come later revise the material through checking and practice and hand it to the next group; handing down does not guarantee that the content improves.](/assets/img/book/en/fig-14-inheritance.svg){: width="1200" height="900" }
-_Figure 10.1　How other people learnt, and then handed it on. Stated reasons and shared practice can interleave; checking and practice can uncover errors, but what is handed down may also go uncorrected indefinitely. Drawn for this book._
+![Reasoning travels through explicit explanations and shared activity. Later learners revise through checking and practice, then pass materials onward. Transmission does not guarantee improvement.](/assets/img/book/en/fig-14-inheritance.svg){: width="1200" height="900" }
+_Figure 10.1　Learning from others and passing learning on. Explicit reasons and shared practice can alternate. Checking and practice can reveal errors, but inherited material may remain uncorrected. Drawn for this book._
 
-Mathematicians have carried this work of passing on further still, to the point where a machine can take part in the checking.
+Sufficient precision allows machines to participate in checking inference. Lean expresses definitions, propositions, and proofs. People specify the claim formally and supply a proof; the system checks whether it supports the proposition under its logical rules.[^lean]
 
-There is a kind of work in mathematics that sets out its reasons with unusual care. Lean is a tool for expressing definitions, propositions and proofs. People write what is to be proved in a precise form and then supply a proof; the system checks, by its logical rules, whether that proof supports the proposition as written.[^lean]
+A paper's “it follows” may leave readers to fill gaps. These tools need omitted steps to become a checkable proof. Systems can assist with details, but suitable definitions and connections among established results may still require considerable work.
 
-Where a proof on paper would say "from which it follows", a reader can perhaps fill the gap alone. Handed to a tool of this kind, the omitted steps must be capable of being filled in as a checkable proof. The system can help complete some of the details, but whether the definitions are well chosen, and how existing results are joined up, may still take a great deal of work.
+Formalising our short even-number example may seem more laborious than reading it. Longer proofs using more theorems make checking more valuable. Successors can establish precisely which proposition they use, its premises, and its place in a new proof, without always reconstructing an author's unstated steps.
 
-The even-number example above is short, and formalising it seems more trouble than simply seeing it. Once proofs grow long and the theorems they cite multiply, this checking becomes more helpful. A later worker can confirm which proposition they are citing and which premises it needs, then use it in a new proof. Nobody has to guess afresh, at every citation, which step the original author left out.
+Lean checks whether a supplied proof establishes the formal proposition under the chosen logic and axioms. This still relies on the checking tool operating correctly. Suitability for a real-world question requires another inquiry. A bridge model omitting an important loading condition gains no account of that condition merely from a verified internal proof. Chapter 5's question returns: what was omitted, and does later use require it?
 
-What Lean checks is whether, under the logic and axioms adopted, the proof given derives the proposition written down. That result still depends on the checking tool working correctly; whether the proposition is fit to answer a real question needs a separate check. If a model for studying a bridge left out an important loading condition, a proof inside the model, even one that passes the check, says nothing about how the real bridge would behave under that condition. The question from Chapter 5 sits right here: what was left out when the model was built, and does a later use happen to need exactly that?
-
-#### Working a problem through once, properly
+#### How Learning Becomes Your Own Judgement
 {: #s11-3 }
 
-To ask whether a job is meaningful may be to ask about income, contribution, autonomy, the growth of a craft or a sense of identity; looking up satisfaction ratings for various job titles may not reach the thing you care about. The hard questions of life rarely run, as the even numbers do, from a clear definition straight through to the end of a proof. Borrowing the thinking of those before us can still begin by redoing a stretch of reasoning. Here is a hypothetical problem. You have promised to help a friend finish a piece of work, and circumstances have since changed. You hold that "having promised, you absolutely must not withdraw", but carrying on would impose a clear burden. How should this principle be understood?
+The *Analects* warns of learning without thought and thought without learning.[^analects] Agreement that both matter leaves their connection to be established.
 
-"Having promised, you must not withdraw" may express several different demands: no withdrawal under any circumstances; promises should normally be kept, but a major upheaval allows an exception; or the arrangement may be changed, provided you deal with the preparations the other person made on the strength of your promise. The original sentence does not separate these meanings, so the first question is which one you actually agree with.
+The risks are concrete. Learning without examination can memorise conclusions without their questions or conditions, allowing familiar answers to arrive before judgement and land in unsuitable places. Thinking without learning can mistake an accidental idea for unprecedented insight. Without evidence, counterexamples, and inherited distinctions, thought circles within its own vocabulary.
 
-Put the strongest version in a hard place first. If what was promised would itself harm someone, is there still a duty to perform it? If a major change arises that could not reasonably have been foreseen at the time, can the responsibility not shift at all? These counterexamples force the principle to narrow, while the weight of everyday promises still has to be explained separately.
+Cooperation between learning and thinking is not simply an equal division of time. Learning brings others' observations, techniques, and failures into our questions. Thinking rearranges and checks whether they fit the circumstances. Ask which difficulty a theory addresses, then try it on your own example. Where it does not fit, identify the failed relationship before dismissing the whole theory or hiding the exception.
 
-Why a promise carries weight can be seen in the other person's arrangements. Because you agreed, he may have turned down other help, set time aside or entrusted important work to you. Withdrawing now would cost him the options he once had, perhaps leaving no time to find a substitute. These consequences supply reasons to perform, to give early notice or to help repair the damage.
+Understanding a passage can begin by redoing one inference. If changing a condition leaves you unable to proceed, the obstruction identifies a next question. Earlier conclusions begin to become abilities you can use and examine.
 
-In this way, permission to withdraw and continuing responsibility can both hold at once. A major change may be enough to alter the original arrangement, but early notice, an honest account and whatever remedy lies within your power may still be required. After the principle and the case have been checked against each other, what emerges is a finer judgement: the promise keeps supplying reasons, and the weight of those reasons depends on what was promised, on what has changed and on the reliance that has already formed.
-
-Only when conceptual analysis has come this far does the practical enquiry have a direction. What exactly was promised at the time? What arrangements has the other person already made? How heavy is the new burden? Could a different form of help be offered? These facts have to be obtained from the real relationship; thinking the principle through a little further cannot answer them in its place.
-
-Where there were once only two options, grinding on or breaking faith, there are now arrangements that can be discussed with the friend: narrowing the scope of the help, moving the deadline, finding a replacement, or bearing a reasonable remedy after withdrawing. The friend may accept, or may point out that none of these makes good the loss. The analysis gives the conversation a clearer starting point; it has not agreed anything on the friend's behalf.
-
-The analysis above drew on conceptual clarification, counterexamples, the pressing of reasons, and the checking of a general principle against a particular case and back again. All of these are philosophical work that can be read about further, practised and criticised.
-
-From there you can go deeper, choosing works according to the difficulty you have met. Peirce, in "The Fixation of Belief", discusses how people settle their beliefs, and asks which ways of enquiring allow experience to revise what we originally thought. Dewey's *How We Think* starts from concrete perplexities and discusses how people propose possible explanations and then check them.[^peirce][^dewey] The analysis of the promise above can go on borrowing tools from studies of conceptual clarification, of counterexamples, and of checking general principles and particular cases against each other.
-
-What reading yields can be quite concrete. Two meanings that were once run together can now be kept apart; where there was once a single explanation, you now know there are rival explanations that can be checked. Each work makes broader claims of its own, and learning one of its methods is only a beginning. Redoing one of the author's inferences with an example of your own, then changing the conditions to see whether it still holds, will help more than remembering the name of a school.
-
-The practice should not end the moment a satisfying answer arrives. Change the situation and see what the method just used can do. Conceptual clarification can let people state their disagreement; it may not make them value the same thing. Weighing consequences can supply important information; it does not automatically turn rights and promises into figures that cancel one another out.
-
-"Every voluntary exchange is fair" can be tried the same way. If one party's alternatives have been deliberately destroyed by the other, is the consent that remains still enough to make the exchange fair? Pressing this one step shows which situations "voluntary" had been leaving out all along. Whether you are willing to revise the principle in those situations is what gives the counterexample its force.
-
-Still, learning to redo this stretch of analysis is not yet the same as being able to read every argument that has come down to us. The promise just now was a hypothetical we had taken care to spell out; with an old piece of writing, what the author was answering at the time may not be written on that page at all.
-
-#### Understanding a sentence means finding its question again
+#### Work Through One Problem
 {: #s11-4 }
 
-An instruction says only "handle this as soon as possible". Every word is familiar, yet the task has not necessarily been made clear. Does it mean a reply before the end of the day, or dropping whatever is in hand at once? Does handling it mean acknowledging receipt, proposing a plan, or finishing the whole job? Are there checks that must not be skipped for the sake of speed?
+Meaningful work may concern income, contribution, autonomy, craft, or identity. An exhaustive survey of occupational satisfaction may miss what matters to us. Such problems resist a proof like the one about even numbers, but can still be clarified. Suppose you promised to help a friend finish a task. Circumstances change, and continuing would impose a serious burden, but you think a promise makes withdrawal absolutely forbidden. How should that principle be understood?
 
-The person who wrote it may have assumed that, since the two of them had just come out of a meeting, none of that background needed saying. Whoever takes over later has only those few words, and has to recover the question and the constraints that go with them. Understanding a text sometimes needs exactly this work: setting your own everyday usage aside for a moment and asking what the other person was responding to at the time.
+It might prohibit withdrawal in every circumstance, normally require performance while allowing major exceptions, or allow changes while requiring attention to arrangements the friend made in reliance on you. These different demands hide in one sentence. Identify which you accept to locate the disagreement.
 
-The reader here needs a capacity for understanding other people: to find out what the other person knew at the time, what choices were open to them and which question they were answering, and then to try to reconstruct how they reached their conclusion. This is one layer of what "empathy" can include. Understanding an argument does not necessarily require sharing the author's emotions, but it does require not treating outcomes you know about afterwards as things the author already knew.
+Test the strongest version first. Does a harmful promise still oblige performance? Can an unforeseeable major change leave responsibility wholly unchanged? Counterexamples narrow the principle without yet explaining ordinary promises' force.
 
-In their study of communication, Clark and Brennan stress that common ground has to be built and updated within the interaction. Partners in a conversation gather evidence of how far they understand each other through responses, acknowledgements and repairs.[^grounding] Written material can also supply examples, definitions and context in advance; when the author is absent, the gaps may have to be filled by the reader's other reading, hands-on work and discussion.
+Look at the friend's arrangements. They may have refused other help, reserved time, or entrusted important work to you. Withdrawal now removes earlier options and may leave no time for replacement. These consequences supply reasons to perform, notify early, or assist with remedies.
 
-How much background needs filling in depends on how the material was written. A carefully laid-out textbook may be easier to understand than a hurried spoken explanation; the advantage of talking face to face is that you can ask at once. Whether communication has been adequate is judged by whether the receiver can find the necessary information and confirm that they have understood correctly.
+Permission to withdraw therefore need not erase responsibility. Major changes can justify revision while timely notice, truthful explanation, and feasible remedies remain necessary. Principles and particulars together yield a finer judgement: promises continue to provide reasons whose weight depends on content, new circumstances, and established reliance.
 
-![Text and images present only part of the author's work at the time; the reader forms a provisional understanding from the text, background material and their own experience, then revises it by asking, comparing and trying things out.](/assets/img/book/en/fig-15-context-reconstruction.svg){: width="1200" height="890" }
-_Figure 10.2　How a reader finds out what the author meant. A reading is first proposed from the text and background material, then checked by asking, comparing or trying things out; new material found later may force a reading that once seemed smooth to be rewritten. Drawn for this book._
+Clarification directs factual inquiry. What was promised? What arrangements followed? How large is the new burden? Can assistance take another form? These answers must come from the actual relationship; more abstract reflection cannot supply them.
 
-Reconstruction also has a trap that is easily overlooked. The smoother the explanation, the more likely we are to forget that it is still a guess.
+Instead of only enduring or breaking faith, there are arrangements to discuss: reduced scope, a changed deadline, a replacement, or reasonable remedies. The friend may accept or explain why the loss remains uncompensated. Analysis prepares the conversation; the friend's answer is theirs to give.
 
-In a series of studies, Eyal, Steffel and Epley compared imagining another person's perspective with actually obtaining information from that person. In the judgement tasks the studies set up, asking participants to put themselves in the other's shoes did not consistently improve the accuracy of their judgements about what others thought and felt; the condition in which perspectives were obtained through conversation did improve understanding.[^perspective] Imagining a few more details and knowing more about the other person's actual situation do not have the same effect.
+This used conceptual clarification, counterexamples, questions about reasons, and movement between principles and cases. Such philosophical work can be studied, practised, and criticised further.
 
-Back to "handle this as soon as possible". We can propose several readings first, then look at the minutes of the meeting or simply confirm the deadline. With an old book, what can be checked is the surrounding text, the same author's usage elsewhere, the materials of the period and other scholarship. Different objects call for different checks; only by giving your reconstruction a chance to be corrected do you avoid merely writing another handsome story on the other person's behalf.
+Choose further reading from the obstruction. Peirce's “The Fixation of Belief” examines how beliefs are settled and which inquiries permit experience to revise them. Dewey's *How We Think* begins with concrete perplexities and examines forming and testing possible explanations.[^peirce][^dewey] The promise analysis can also borrow from further work on concepts, counterexamples, and mutual adjustment of principles and cases.
 
-Stretch the distance to several hundred or several thousand years, and restoring the background takes far more work. Being able to read the symbols is a very small part of it.
+The benefit can be specific: two confused meanings become separable; one explanation gains a testable competitor. Each work has broader commitments; acquiring one method is a beginning. Redoing an inference with your own example and changing its conditions teaches more than remembering school names alone.
 
-The *Yijing*, the Book of Changes, is a body of texts that has passed through long handing down and interpretation. Each of the sixty-four hexagrams is made of six lines, and each line can take one of two forms, yin or yang; the hexagram statement is a written account of the hexagram as a whole, while line statements are attached beneath each line. Later interpretation gave further meanings to the hexagram images, the positions of the lines and the words. Knowing how six lines combine is only the starting point for reading the figures; the reader also needs to know how a particular interpreter used them to judge a situation.
+Even after reaching an agreeable answer, change the case. Conceptual clarification can articulate disagreement without unifying values. Consequence assessment supplies information without automatically converting rights and promises into mutually offsetting quantities.
 
-The core hexagram and line statements, and the writings later called the *Yizhuan*, the Commentaries on the Changes, or the Ten Wings, took shape in different periods and passed through long use in divination and long interpretation. The dating of the texts and the manner of their formation are still under scholarly discussion.[^yijing] In reading, therefore, one needs to be clear which layer of text one is reading, and from which period, and which interpreter, a claim comes.
+Try “every voluntary exchange is fair.” If one party deliberately destroys the other's alternatives, is the remaining consent sufficient? The question reveals circumstances the word voluntary omitted. Willingness to reconsider determines whether the counterexample actually enters judgement.
 
-On a first reading, you can learn one interpretation that has textual grounding, then compare it with other readings. On what kinds of question is the same hexagram cited? Which hexagram or line statement do the reasons come from? What assumptions has the interpreter added? Doing this lets you check whether you have understood. Whether divination has any predictive power is a separate matter; it needs evidence that can tell successful predictions from failed ones, and familiarity with the text cannot stand in as proof.
+Working through this analysis does not establish the ability to read every inherited argument. Our promise was an explicitly described hypothesis. An older passage may respond to a problem absent from the page before us.
 
-Sometimes a reader who already has a mature method of their own meets an old set of figures and finds a new correspondence. Leibniz was a reader of that kind.
-
-After developing binary arithmetic, Leibniz corresponded with Joachim Bouvet, a Jesuit in Beijing. The hexagram diagrams Bouvet sent him showed him a very attractive correspondence: match the two kinds of line to 0 and 1, and under a suitable arrangement and way of reading, the six-line combinations can correspond to six-digit binary numbers. Leibniz's paper on binary of 1703 discussed these Chinese figures.[^leibniz]
-
-This mathematical correspondence can be checked directly: two choices at each position, six positions, sixty-four combinations in all. Leibniz had found a way of understanding the hexagram diagrams through his own mathematics. The arrangement he saw, however, belonged to the tradition of Shao Yong in the Song dynasty; how ancient users understood those figures still has to be explained from the texts of their own time and other historical sources.
-
-Two different results appear here. A new correspondence may help mathematical thinking; to claim that the arithmetical knowledge of the ancients has been recovered, historical evidence must be produced. Success in the first does not automatically accomplish the second. Even once the rules of the symbols are clear, there remains a great deal to learn about how their users understood them in ritual, in community and in daily life.
-
-Someone reading the *Yijing* today may also want to borrow it for a problem in front of them. That requires setting out one's own usage, so that others know what we are actually proposing.
-
-In borrowing yin and yang, this book adopts a contemporary usage of very small scope: when faced with a one-sided judgement, first look for the complementary conditions, costs, counterweights and changes it has overlooked. This is an exercise in asking questions, and no generalisation about every ancient use of yin and yang.
-
-Suppose a project has gone a long time without results, and "we should continue" and "we should give up" seem to leave room for only one answer. One can first find out what abilities and data have actually accumulated over that time, then reckon which options the investment has crowded out and which resources are near their limit. With that information, it becomes possible to compare whether to try once more, to change approach, or to end the project.
-
-If, after swapping in a new set of words, we still know only that we want to continue, and have found no new reason and no checkable difference, the borrowing has not helped. Whether a method is useful depends on what more it made us see and check; the ancient name cannot vouch for it by itself.
-
-#### The past a file name carries
+#### Recover the Question Behind the Sentence
 {: #s11-5 }
 
-"CON" is only three letters, yet under the file-naming rules commonly used in Windows it is no ordinary name. Along with PRN, NUL and others, it is reserved for devices; simply adding an extension does not necessarily turn it back into an ordinary file.
+“Deal with this promptly.” Every word is familiar; the recipient may still be at a loss. By the end of today, or by interrupting current work? Does dealing mean acknowledgement, a proposal, or completion? Which checks must not be skipped for speed?
 
-Raymond Chen, an engineer at Microsoft, has traced what such names were used for in the DOS era. Tools could handle devices in much the way they handled files, and the special status of the names had to survive conventions such as programs adding an extension automatically. By the time the system acquired fuller support for paths and directories, the expectations early programs had about names still had to be respected.[^con]
+The speaker may assume a recent meeting supplied the context. A later recipient has only the instruction and must recover its question and constraints. Reading sometimes requires setting aside familiar usage to ask what the other person was addressing.
 
-To know which operation is restricted today, one still has to look up the rules for the interface, namespace and version in use. The history of how it took shape explains which dependencies to check; only the current documentation and actual testing tell us how the operation in front of us will run.
+This calls for understanding what someone knew, could choose, and was trying to answer, then reconstructing their inference. Empathy can include this ability. Reading an argument does not require sharing its author's feelings, but does require remembering that the author could not yet see the later events we know.
 
-The use behind the name is on record and can be checked. Other origin stories that sound reasonable do not necessarily have the same footing. The keyboard we use every day is one example.
+Clark and Brennan's work on communication emphasises establishing and updating common ground through responses, confirmation, and repair.[^grounding] Written material can supply examples, definitions, and context. Without the author present, gaps may require other reading, practice, or discussion.
 
-Why does the first row of the keyboard begin QWERTY? The common answer is that early typewriters, to stop the type bars jamming, deliberately made people type a little slower. The story is easy to remember, and it makes it easy to believe that today's familiar layout came from a constraint that has since disappeared.
+How much context needs recovering depends on the material. A careful textbook can be clearer than hurried speech; face-to-face discussion permits immediate questions. Adequacy depends on recipients: can they find what is needed and check their interpretation?
 
-Koichi Yasuoka and Motoko Yasuoka, who have studied the early sources, have cast doubt on this popular version. Tracing the changes in the keyboard layout and the demands made by its early users, they argue that the problems telegraph operators met in transcribing Morse code provide an important clue to understanding how the layout changed.[^qwerty] This is an explanation argued from historical sources, and it has not settled every detail of how the layout formed.
+![Words and images preserve part of an author's work. Readers form provisional understanding through the text, background, and experience, then revise through inquiry, comparison, or action.](/assets/img/book/en/fig-15-context-reconstruction.svg){: width="1200" height="890" }
+_Figure 10.2　Investigating an author's meaning. Text and background support an interpretation, then questioning, comparison, or practice tests it. New material can require rewriting an apparently fluent reading. Drawn for this book._
 
-The keyboard story can therefore also be used to check how we accept explanations. "To avoid jamming, so they slowed typing deliberately" joins purpose, method and result very smoothly; to confirm that this really was the design reason at the time, one still has to find evidence of decisions and modifications. Having found another, more attractive version, one owes it the same check.
+The more smoothly reconstruction proceeds, the easier it is to forget its guesses.
 
-Once the sources are in hand, one still has to trace how that choice was carried forward afterwards. An arrangement that saved effort at the time may run into new difficulties only after a great many people have come to depend on it.
+In a series of studies, Eyal, Steffel, and Epley compared imagining another's perspective with obtaining information from them. Perspective-taking instructions did not consistently improve accuracy about others' thoughts and feelings in the studied tasks; obtaining perspectives through conversation improved understanding in the relevant arrangement.[^perspective] More imagining need not mean more knowing.
 
-In some early computer systems, only the last two digits of the year were stored, so 1999 was written 99. Two characters fewer per record had real value where storage was expensive and data piled up in volume. The cost was left to later users: when 2000 arrived, should 00 be read as 1900 or as 2000?
+For “promptly,” propose readings, then check minutes or confirm a deadline. For an old text, examine surrounding passages, the author's usage, contemporary materials, and scholarship. Different objects need different inquiries. A reconstruction open to correction is less likely to be only a plausible story we have supplied.
 
-If a system used the year to order events, or to calculate ages, interest or terms, the difference of a century amounted to far more than two missing characters on a screen. How the data were encoded, how the programs computed, and what assumptions the systems exchanging data with one another had made all needed to be checked.
+Across centuries or millennia, recovering context grows harder. Recognising symbols remains far from understanding them.
 
-In the late 1990s, governments and businesses invested heavily in inventories, patches, testing and contingency preparations. After the turn of the year, the large-scale disasters that had been anticipated did not generally occur.[^y2k] Assessing whether the preparations were worth it requires finding out which faults were actually discovered, which fixes removed risk, and whether the spending was proportionate. Looking only at the fact that the new year passed largely without incident tells us neither what would have happened without the fixes nor which measures had what effect.
+The *Yijing* is a body of texts transmitted and interpreted over a long period. Each of its sixty-four hexagrams contains six lines, represented in two forms, yin and yang. Hexagram statements address the whole figure; line statements attach to individual lines. Later interpretation adds meanings to figures, positions, and wording. Knowing the combinations is only a beginning. Readers also need to understand how an interpreter uses them to judge a situation.
 
-What the two-digit year left behind was a choice that was once understandable, and a dependency that lived longer than expected. Tracing the history of how it took shape lets us know which places to check; it does not require us to keep things as they were for ever because there was once a reason.
+The core statements and later texts called the “Ten Wings” formed in different periods amid long histories of divination and interpretation. Dating and formation remain subjects of scholarship.[^yijing] A reader must distinguish textual layers, periods, and interpreters.
 
-A rule that is hard to understand may once have solved a problem that no longer exists. That is a hypothesis worth checking; it is not yet the rule's history.
+Beginners can learn one textually supported interpretation, then compare others. For which question is a hexagram invoked? Which words support the reasoning? Which assumptions has the interpreter added? This checks reading. Claims of predictive divination require evidence distinguishing success from failure; textual fluency cannot perform that test.
 
-If we ask only "what reason would lead a reasonable person to do this", it is easy to invent a plausible origin for whatever exists. The actual cause may equally have been an oversight, an imbalance of power, an accident carried forward, or several mutually incompatible modifications. To tell these possibilities apart, historical research needs the material that has survived; it cannot rely on how smoothly an explanation sounds.
+Other readers bring developed methods and find new correspondences in old figures. Leibniz's encounter with hexagram diagrams provides an example.
 
-An old comment in the code may preserve the original reason, or it may be out of date. How the program works today still has to be confirmed from current documentation and tests. Even when the original reason has gone, later programs may have formed new dependencies, and the consequences of removing a restriction have to be traced separately.
+After developing binary arithmetic, Leibniz corresponded with the Jesuit Joachim Bouvet in Beijing. Bouvet's diagram offered an appealing correspondence: two kinds of line mapped to 0 and 1, with suitable ordering and reading, produce six-bit numbers. Leibniz discussed the Chinese figures in his 1703 paper on binary arithmetic.[^leibniz]
 
-A rule may persist because its function is still there, or because of the cost of replacing it, vested interests, or the fact that nobody ever had the authority to change it. Tracing the past can separate these possibilities more clearly; deciding whether to keep the rule today still means weighing the evidence and costs in front of us.
+The mathematics is directly checkable: two choices in each of six positions yield sixty-four combinations. Leibniz found a way to understand the diagrams through his mathematics. The arrangement he saw, however, belonged to the tradition of the Song thinker Shao Yong. Earlier users' understanding still requires texts and historical evidence.
 
-A bridge lets us separate two kinds of question. Why the designers chose a particular safety factor, and why the code demands a particular test, are questions for the design goals, the known risks and the technical conditions of the time. How the bridge will deform or fail under a specific load is a question for mechanical analysis and the relevant testing. Understanding the design reasons helps to reveal which situations the model may have left out; the forces the structure actually bears do not change on that account.
+Mathematical correspondence and historical reconstruction must be distinguished. A new mapping may help mathematics; claims to recover ancient arithmetic require historical support. Clear symbol rules also leave much to learn about meanings in ritual, communities, and ordinary life.
 
-Investigating the history of how something took shape and studying the properties of the thing itself can therefore help each other, yet they answer different questions. The first is particularly suited to recognising why programs, procedures, interfaces and classifications have the form they now have; to calculate a load-bearing capacity or find the limits of an algorithm, one still has to study the relevant properties and inferences. Sometimes the sources fall short, and the origin cannot be established within the deadline; then the unknown has to be written down clearly, and the decision supported instead by present-day tests.
+Present-day readers may also use the *Yijing* for current problems. These uses need explanation so they are not mistaken for the original text's claims.
 
-Where to begin can be judged from the difficulty at hand. Asking "what is the essence of a file name" will not necessarily explain the special rule for CON; finding out what it was once used for can point to concrete compatibility problems. Turn to the load calculations for a bridge, and the history of the design cannot substitute for the data the calculation needs.
+This book borrows yin and yang in a narrowly specified contemporary way: when facing a one-sided judgement, investigate overlooked complementary conditions, costs, counterweights, and transitions. This is a questioning exercise, not a summary of all historical uses.
 
-#### Learning from the aircraft story to check a different set of data
+Suppose a project has produced no result for a long time. Continue or abandon seems to demand one answer. First examine accumulated abilities and evidence, displaced alternatives, and resources approaching their limits. These allow comparison among another attempt, a changed method, and termination.
+
+If new vocabulary leaves us merely knowing that we want to continue, without new reasons or checkable differences, the borrowing has not helped. Usefulness depends on what becomes visible and examinable. An ancient name cannot guarantee the effect.
+
+#### The Past Inside a Filename
 {: #s11-6 }
 
-What would it mean to have learnt the aircraft case from Chapter 8? Remembering only "pay attention to what cannot be seen" may still leave you not knowing what to check when a new problem comes. More exact questions can be kept instead. What conditions decide whether a case enters the data? Would the cases that did not enter happen to change the answer we want?
+CON has only three letters, yet ordinary Windows naming rules do not allow it as an ordinary filename. Alongside PRN and NUL, it is reserved for devices. Adding an extension need not make it ordinary.
 
-Now apply the questions to feedback on a course. If everything collected is the evaluations of those who completed it, first find out who dropped out after enrolling, and why. Falling behind, running out of time and losing interest each mean something different for evaluating the course. Reading only the responses of those who finished, one cannot know the course's effect on everyone who enrolled.
+Microsoft engineer Raymond Chen has traced these names to DOS-era uses. Tools could handle devices much like files, and special names had to survive practices such as automatically appending extensions. Later path and directory capabilities still had to accommodate earlier programs' expectations.[^con]
 
-The two cases can borrow the same method of checking: recognise how the data were filtered, then ask whether the filtering bears on the question under study. Their specific causes differ, so a conclusion such as "reinforce the places with fewer bullet holes" cannot simply be carried across. How to obtain information from learners after they drop out still requires a survey designed afresh for the course.
+Present restrictions must be checked against the particular interface, namespace, and version. History identifies dependencies to investigate; current documentation and tests establish present behaviour.
 
-This is the detail to keep when borrowing a method. Remembering only the aircraft, the bullet holes and the war, one easily assumes it is useful only for military matters; left with only "do not ignore the unknown", one cannot guide a single enquiry. Explaining how the filtering process affects the data is what lets those who come later know which groups to compare.
+This name's use is documented. Other origin stories can be plausible without adequate evidence. The everyday keyboard provides an example.
 
-If, when the question, the evidence and the conditions all change, you can still always use the same method to prove the answer you liked in the first place, it is worth going back to check: is there any result that would really make you change your view? If there is none, using the method may be nothing more than supplying reasons for a preference after the fact.
+Why does its first row begin QWERTY? A familiar answer says early typewriters deliberately slowed typists to prevent jamming. It is memorable, joining today's layout to yesterday's mechanics.
 
-Understanding that can be carried over does not always come from agreement. Finding where an analogy fails may teach us a difference we had not noticed. Conversely, an example that holds completely, if it says only what we already knew, does not necessarily add to our capacity for judgement.
+Koichi and Motoko Yasuoka questioned that popular version through early records. Tracing layout changes and users' needs, they argued that difficulties faced by telegraph operators transcribing Morse code provide important clues.[^qwerty] This is an evidence-based interpretation, not a claim that every detail is settled.
 
-Ways of thinking accumulated like this can cross out of their original disciplines without our having to declare every field the same thing. Mathematical proof, historical tracing, shared practice and counterexamples each help us obtain something different. In choosing among them, we also gradually learn to explain why the case in front of us needs this one.
+The story lets us examine our acceptance of explanations. Deliberate slowing to prevent jams connects purpose, procedure, and outcome smoothly. Establishing it as the actual design rationale requires evidence of decisions and changes. An attractive replacement story needs the same scrutiny.
 
-Those who come later will meet problems those before them never met. Learning a method is for having the ability to get that far; once there, sometimes the method itself has to change too.
+Evidence also lets us trace how choices persisted. An initially convenient arrangement can create difficulties after many people become dependent on it.
 
-### 11 — Thinking Has Deadlines Too
+Some early computer systems stored only two year digits: 1999 as 99. Saving two characters per entry had value when storage was expensive and records numerous. The next century inherited a difficulty: did 00 mean 1900 or 2000?
+
+Comparing dates and calculating ages, interest, or deadlines brought missing century information into computation. Encoding, operations, and assumptions of systems exchanging data all needed investigation.
+
+In the late 1990s, governments and businesses invested in inventories, repairs, tests, and contingencies. The anticipated widespread catastrophe did not generally occur at the millennium.[^y2k] Evaluating preparation requires examining faults found, risks removed, and proportionality of costs. A largely uneventful transition alone cannot reveal what would have happened without repairs or distinguish each measure's effect.
+
+Two-digit years preserve an understandable earlier choice and dependencies that outlived expectations. History directs inspection. An original reason need not justify perpetual preservation.
+
+An obscure rule may once have solved a vanished problem. That is a starting hypothesis, not established history.
+
+Asking only what would make a reasonable person do this invites substituting imagined rationales for actual origins. Causes can include mistakes, unequal power, accidental persistence, or incompatible revisions. Historical inquiry distinguishes them through surviving material, not narrative smoothness.
+
+An old comment may preserve a reason or be outdated. Current behaviour needs current documentation and tests. Even when the original rationale disappears, new dependencies may form. Removing the restriction now requires another investigation.
+
+A rule may persist through continuing function, switching costs, vested interests, or lack of authority to change it. History separates possibilities; retention today requires present evidence and costs.
+
+A bridge clarifies the distinction. Why designers chose a safety factor or a standard required a test calls for examining aims, known risks, and contemporary technology. How a bridge deforms under a load requires mechanics and testing. Design history may expose omitted conditions without changing the forces themselves.
+
+Formation and properties answer different questions while supplying mutual clues. History helps explain the forms of programs, processes, interfaces, and classifications. Calculating capacity or proving algorithmic limits needs corresponding properties and inferences. When records cannot establish origins in time, uncertainty should be stated and present tests used to support decisions.
+
+Where inquiry begins depends on the difficulty. Asking the essence of filenames may not explain CON; asking its earlier use identifies a compatibility issue. For a bridge's force calculation, history cannot replace the necessary data.
+
+#### Learning from Aircraft to Examine Another Dataset
+{: #s11-7 }
+
+What counts as learning Chapter 8's aircraft example? “Notice what is invisible” may leave another dataset unapproachable. More exact questions help: what determines whether a case enters the data, and could excluded cases change the answer we seek?
+
+Apply these to course reviews. If all responses come from completers, investigate who withdrew and why. Difficulty, lack of time, and changed interests mean different things for assessment. Completers alone cannot establish effects on all who enrolled.
+
+Both cases permit examining selection and its relationship to the research question. Aircraft losses and course withdrawals have different causes, so an instruction such as reinforcing less-damaged areas cannot simply transfer. Information about dropouts requires a design appropriate to learning.
+
+This is the detail borrowing must retain. Remember only aircraft, holes, and war, and the example seems confined to the military. Retain only “don't ignore unknowns,” and it cannot guide inquiry. Explaining how selection shapes records identifies whom to seek for comparison.
+
+If changed questions, evidence, and conditions always let the same method support our favourite conclusion, ask whether any result could change our view. Without one, the method may merely provide reasons for preference.
+
+Disagreement while reading can teach us more. Finding where an analogy fails reveals a missed distinction. A valid example stating only what we already know may add little ability.
+
+Accumulated methods can cross disciplines while preserving their distinct tasks. Proof, historical inquiry, shared practice, and counterexamples supply different things. Choosing among them teaches us to explain why this problem calls for this method.
+
+Earlier methods can carry us far. Reaching places their makers never visited may make revision our responsibility.
+
+### 11 — Limits: Thinking Has a Cost Too
 {: #s12 }
 
-On 20 July 1969, Neil Armstrong and Buzz Aldrin were descending from lunar orbit towards the surface of the Moon in the lunar module, the Eagle. Mission control on the ground was receiving a continuous stream of flight data and talking with them by radio.
+In the preface, the ground cleared Eagle to continue descending. That brief reply arrived through a chain of work: understanding the alarm, assessing the state, and transmitting a judgement.
 
-The guidance computer suddenly threw up a programme alarm. Armstrong reported the code, 1202, and shortly afterwards asked the ground again for a reading on it. Knowing which code it was did not yet let the astronauts decide whether to carry on descending. The module did not hang in the air while it waited for an answer.
+Software specialist Jack Garman supplied guidance; guidance officer Steve Bales assessed the situation; Charles Duke relayed it to the astronauts. The ground continued monitoring essential data and checking recurrent alarms.[^apollo] Training, software design, and divided responsibilities let work proceed in time that one person could not have completed alone.
 
-What the ground had to answer at that moment was whether this alarm was interfering with any function the landing needed. A 1202 meant that the work the computer had scheduled exceeded the resources available, but the software had been given an order of priorities in advance, and after an overload it could still recover the guidance tasks that mattered. Whether the system could go on doing those tasks became the crux of the judgement. Why the extra load had appeared had not, at that point, been traced.
+After landing, engineers could investigate the added load. Participant Fred Martin recalled examining software, using simulation equipment, and comparing telemetry with procedures, tracing the extra workload to the rendezvous radar. One landing had succeeded; the next flight still needed the inquiry.
 
-Jack Garman, who knew the software well, advised continuing. Steve Bales, responsible for the guidance system, assessed the alarm and the state of the vehicle and read it as safe to keep descending. Charlie Duke passed the answer up to the Eagle.
+Clearance to continue committed to much less than a complete explanation of the fault. It relied on the alarm type, overload handling, and essential guidance still functioning. Later questions mattered during descent too, but the craft could not wait for all their answers.
 
-The alarm came back. Aldrin reported the same code, and said what data had been on the display when it appeared. The ground replied that they would be watching the difference between the two estimates of altitude. The descent went on, and so did the checking of status over the radio. A question that had just been answered had to be judged again as each new report came in.[^apollo]
+Everyday understanding needs such allocation of time. Conversation demands responses before every motive is analysed. Even an evening afterwards cannot accommodate foundational research on every concept before we allow ourselves a next step.
 
-Only after the module had landed safely did the engineering teams have time to hunt down the extra load. Fred Martin, who took part, recalled that they examined the software, used the simulators, and checked the telemetry against the operating procedures, and traced the additional load to something connected with the rendezvous radar. Those findings bore on later flights; the fact that this landing had succeeded was no reason to stop asking.
+Analysis can become endless when every worthwhile question becomes a prerequisite for action.
 
-The judgement that allowed the descent to continue was far narrower than "we understand the whole fault". It rested on the kind of alarm, on how the software handled an overload, and on the essential guidance that was still running. The question the later investigation set out to answer mattered at the time as well, but nobody could demand that it be settled first before the module was allowed to fly on.
+Reasoning from first principles can unpack assumptions and locate more basic conditions when an old framework fails. It need not reach an assumption-free origin. Concepts, inference rules, observations, and provisionally accepted knowledge remain in use.
 
-The same division of labour across time appears in ordinary life. A conversation needs continuous responses and cannot wait for every motive to be dissected; afterwards, even with a whole evening to hand, you cannot finish the foundational research on every concept before you permit yourself to form the next step.
+Questioning already consumes time. Planning next week's language practice does not require resolving the nature of language, the complete neuroscience of learning, and education's ultimate purpose. These deserve study without necessarily being answered before practice begins.
 
-Analysis paralysis is sometimes caused by something other than a shortfall in reasoning: every question worth pursuing has been promoted to a necessary precondition of the decision at hand.
+If a checked method fits the circumstances reasonably well, using it is usually more feasible than rebuilding all its grounds alone. Anomalies, clearly different conditions, or a premise touching your central doubt can focus investigation on a particular point.
 
-Starting from first principles, taking assumptions apart and following them down to more basic conditions, comes into its own when an old framework no longer applies. But it cannot guarantee that you have reached a place with no presuppositions. You are still using concepts, rules of inference, observations, and some knowledge you have accepted for the time being.
+Pursuing basic conditions should help identify a problematic assumption. If each layer adds another thing that must be fully understood before starting, next week's practice may never be scheduled. Ask which answer would actually alter the arrangement.
 
-The more immediate limit is cost. To decide how to practise a foreign language next week, you do not first have to settle the nature of language, the complete neural mechanism of learning, and the ultimate purpose of education. These questions deserve study; whether they belong to the necessary groundwork for this particular decision is a separate judgement.
+Immediate action, later review, and long-term learning can connect without all occurring at once.
 
-If a method that has already been checked is to hand, and your situation broadly meets its conditions, using it first is usually more feasible than rebuilding every reason on your own. When the results turn out oddly, when the conditions are plainly different, or when the method's premises run straight into your central doubt, that is the place to put more analysis.
+![Present action uses available ability; later review examines results and adjustments; long-term learning changes abilities available next time.](/assets/img/book/en/fig-06-thinking-times.svg){: width="1200" height="820" }
+_Figure 11.1　Immediate action, later analysis, and long-term learning support one another. Lines are not proportional to duration and prescribe no uniform timetable. Drawn for this book._
 
-Tracing things back to more basic conditions ought to help us identify which assumption has gone wrong. If each layer we peel away adds another requirement of the form "this must be fully thought through before we can begin", the task of planning next week's practice will never be finished. At that point we need to ask again: which of these doubts has an answer that would really change this plan?
+High risk does not always permit slow thought. Some urgent, dangerous situations require trained rapid responses. Relevant questions concern available reliable abilities and information, the costs of delay, and conditions that can be improved beforehand.
 
-Acting in the moment, checking afterwards, and learning over the long run make different demands on thinking.
-
-![Thinking work across three timescales: responding in the moment with the abilities already to hand; checking the results afterwards and deciding on adjustments; learning over the long run, which changes the abilities available next time.](/assets/img/book/en/fig-06-thinking-times.svg){: width="1200" height="820" }
-_Figure 11.1　Action in the moment, analysis afterwards, and long-term learning follow on from one another. The segments are not drawn to scale in time, nor do they imply that everyone should follow the same schedule. Drawn for this book._
-
-High stakes alone do not settle that one should slow down either. Some high-stakes situations, precisely because time is so short, have to rely on trained, rapid responses. The questions that matter are what reliable abilities and materials were available at the time, what delay would cost, and whether the conditions can be improved in ordinary times.
-
-#### Half the problem is in the environment
+#### Half the Problem Is in the Environment
 {: #s12-1 }
 
-Herbert Simon studied how organisations make decisions and proposed the direction that came to be called "bounded rationality". Real people cannot obtain all the information at once, list every option, and then compute the best answer at no cost. Decisions happen within limited time, knowledge and ability, and those conditions need to enter the explanation directly.[^simon]
+Herbert Simon's research on organisational decisions developed bounded rationality. Actual people cannot obtain all information, list every option, and compute the best answer at no cost. Decisions occur within limits of time, knowledge, and ability. Explanation cannot omit them.[^simon]
 
-One strategy he discussed goes by the name satisficing: you first set a requirement that would be acceptable, and once the search turns up an option that meets it you can stop, without exhausting every possibility. For instance, you might first establish that an arrangement has to be affordable and fit the time available, and then decide among the options that qualify. Set the requirement too low and you miss improvements that were worth fighting for; too high and you may never find a workable plan. The requirement can also be adjusted in the course of the search as new information arrives.
+One strategy, satisficing, establishes acceptable requirements and stops at an option meeting them instead of surveying every possibility. A feasible arrangement may need to be affordable and fit the available time. Requirements too low miss worthwhile improvements; too high may produce endless searching. They can also be revised as information arrives.
 
-He likened rational behaviour to a pair of scissors: one blade is the structure of the task environment, the other the abilities of the agent. Looking at one blade alone, it is hard to explain the work that gets done. If the environment gives off stable signals, a simple rule may be enough; when the signals change, or when mistakes are costly, the same rule may no longer suit.
+Simon compared rational behaviour to scissors: one blade is the task environment, the other the actor's capacities. Either alone cannot explain the work. Stable signals may support a simple rule; changing signals or serious error costs may render it unsuitable.
 
-The same person, with clear records to hand, a usable method already learnt, and someone who knows the situation within reach, has many more ways forward than when facing vague data alone. The decision-maker is still the same person; the judgements they are able to make have already changed.
+The same person gains options with clear records, learned methods, and access to knowledgeable people. The person is unchanged; available conditions alter the judgements they can make.
 
-#### How a bounded analysis gets finished
+#### Do Not Keep Every Problem Inside Your Head
 {: #s12-2 }
 
-Take a hypothetical case. You have to decide whether to change your current study arrangements next week. You read a great deal every evening, yet feel that very little of it is genuinely usable. Tonight you have only forty minutes to deal with the question.
+Aristotle distinguishes deliberation about what action can change and whose outcome remains uncertain from matters eternal or wholly beyond our agency.[^aristotle] We can further distinguish conditions unchangeable now from those alterable over time. This book uses that distinction for a practical analysis.
 
-What tonight needs is an arrangement you can try next week. As for why you have kept studying this way, that may involve habits many years old, and it will not all become clear in forty minutes.
+Imagine three circles. The innermost contains present decisions. The middle contains conditions alterable through cooperation, institutions, or long learning. The outermost contains what must presently be acknowledged, monitored, or borne. Boundaries move. Collective organisation may bring policy into the middle circle; disaster may move a schedule beyond present control.
 
-The material may be too hard; you may be reading a lot and using little; and there is a further possibility, that you have in fact learnt something and simply never checked. These explanations lead to different arrangements, and it is worth trying to tell them apart first.
+Drawing boundaries does not make outer matters unimportant. It specifies what this analysis can do: decide, seek help, record, or commit to later action. Requiring every question resolved before acting can turn thought into avoidance. Looking only inward can also mistake collectively alterable conditions for immutable facts.
 
-So you pick one concept you read recently, close the material, and try to explain it and to work a fresh example. If you cannot even state the basic meaning, the material or your prior knowledge deserves another look; if you can state it but cannot use it, the practice that follows has a clearer direction. It may also turn out, once you try, that you can use it better than you had supposed.
+Reasons for stopping need review too. Is further information unlikely to change action, or is the result uncomfortable? Has time actually run out, or have only certain people's time costs been counted? We can state what is known, what remains missing, why action proceeds now, and what would reopen analysis.
 
-Carry the case further. Suppose the check shows that you can explain the concept but do not know how to use it when a problem alters the conditions. Next week you could provisionally keep half of your reading time and give the other half to working through examples with variations. This adjustment targets the gap just exposed. If the check had instead shown that the basic concept was unclear, the priority would have to shift to shoring up the foundations, and the same timetable could not simply be applied.
-
-A week later, check again with a new task of similar difficulty. If you still cannot apply the concept, the difficulty of the examples, the feedback, and your prior knowledge all need looking at again; if there has been progress, then decide whether to keep this allocation. Which step to take first, and how to judge the next, are already written into the arrangement. Whether it works is left for the actual learning to answer.
-
-The remaining doubts can still be written down: whether the long-term goal is clear, whether the choice of material is too scattered, whether your present job is breaking your study time into fragments. They do not lose their standing because they went unresolved this time, but neither do they all have to stand in the way of tonight's decision.
-
-If the next check is likely to change an important decision, or to avert an obvious loss, there is usually reason to go on checking. If the feasible choices in front of you are the same however a minor detail turns out, spending a great deal more time chasing it may not pay.
-
-But "would it change the decision" is not the whole of it. Some information helps you carry out the same decision, showing you how to do it better; some inquiry, though it does not alter today's choice, builds capacity for a question that will keep coming back. These kinds of value have to be counted too.
-
-On the other side lie the time, money and attention the checking itself consumes, and the cost of delay. In pursuing a better decision, you cannot assume that the process of arriving at it is free.
-
-Bringing the time and resources that thinking requires into the evaluation connects with research on bounded rationality and resource rationality. The resource-rational analysis proposed by Falk Lieder and Thomas Griffiths studies exactly this: the effectiveness and the cost of different cognitive strategies under limited computation.[^resource] For our question it offers a useful line of inquiry. Beyond comparing which answer is better, it also compares whether the way of getting to an answer is worth it.
-
-Once we begin to calculate "is this still worth thinking about", we may go on to ask "is it worth calculating whether this is still worth thinking about". If every level is required to have a complete guarantee from the level above it, analysis paralysis has merely moved house.
-
-In practice this needs some starting points that are open to revision: adopt a time budget proportionate to the task, check first the information that will swing the main differences, and keep a limited number of chances to look back. When you already have reason to believe the allocation of time has gone wrong, adjust it then; there is no need to re-prove the whole philosophy of allocation before every piece of work.
-
-If the analysis keeps circling the same set of reasons, that is the moment to stop and look something up, try it out, or ask someone; if a cheap and reliable way of checking the key doubt is still available, it may be worth spending a little more time. Whether to continue should be decided by what can be learnt next.
-
-Please also keep some time for inquiry with no immediate output. Philosophy need not always be in the service of tomorrow's to-do list. Only be clear at the outset which you are doing: solving a problem with a deadline, or allowing a question to change you slowly. Both activities can have value. It is confusing them that makes it easy to lose the freedom to act and the freedom to think at the same time.
-
-#### A choice you cannot go back and redo
+#### Completing a Limited Inquiry
 {: #s12-3 }
 
-A study arrangement can be adjusted again next week; some choices cannot be fully withdrawn. After accepting a job, you can check whether the duties match what was described, but you will not also live through the life in which you did not accept it. The other road leaves behind no result waiting for you to go back and read.
+Suppose you must decide whether to change next week's learning routine. You read extensively every evening but feel little becomes usable. Tonight you have forty minutes to examine the problem.
 
-If things go well afterwards, that does not prove the other choice would necessarily have been worse; if difficulties come, the outcome alone cannot show that the decision was rash. What can still be traced is which expectations fell through, which information was off, and whether a check worth doing was missed at the time. Asking about actual working hours before the deadline, talking it over with the person you share caring duties with, and finding out what the day-to-day responsibilities are come closer to those questions than turning a few job titles over and over in your mind.
+At the end, there should be an arrangement to try next week. Why you have learned this way may involve years of habit, not fully understood in forty minutes.
 
-These efforts give a choice something to rest on; they do not spare anyone the choosing. While the module went on descending, the ground was still receiving new data. Some answers only begin to become obtainable after events have already moved on.
+Material may be too difficult; reading may exceed application; or learning may already have occurred without being checked. These explanations imply different next steps and are worth distinguishing.
 
-### 12 — What We Know Before We Can Say It
+Choose a recent concept, close the material, explain it, and try a new example. Inability to explain suggests reviewing the material or prerequisites. Explanation without application indicates a need for practice. You may also discover more ability than expected.
+
+If you can explain but cannot handle changed conditions, keep half the reading time and use the rest for varied examples next week. This addresses the revealed gap. If basic understanding was missing instead, the priority would be foundations, not the same timetable.
+
+After a week, check with new tasks of comparable difficulty. Continued difficulty calls for reviewing examples, feedback, and prior knowledge. Improvement gives reason to consider continuing. The arrangement now specifies both an action and a way to choose what follows. A week's learning will test its usefulness.
+
+Other questions can be recorded: unclear long-term goals, scattered materials, or work fragmenting study time. Not solving them tonight does not make them unimportant. They can have time elsewhere without blocking everything now.
+
+Further checking generally has grounds if it is likely to alter an important decision or prevent a substantial loss. A secondary detail whose possible answers leave feasible choices unchanged may not warrant extensive work.
+
+Changing a decision is not the whole value of information. Some information improves execution of the same choice. Some exploration builds capacity for recurring future problems without changing today's decision. These benefits count too.
+
+Against them stand time, money, attention, and delay. The cost of reaching a better decision belongs within its evaluation.
+
+Including these resources connects with bounded and resource rationality. Falk Lieder and Thomas Griffiths's resource-rational analysis studies cognitive strategies' effectiveness and costs under limited computation.[^resource] It offers a relevant direction: evaluate the means of obtaining an answer alongside the answer itself.
+
+Calculating whether more thought is worthwhile can provoke another calculation of whether that calculation is worthwhile. Requiring complete higher-level assurance merely extends endless analysis upwards.
+
+Work must begin with provisional arrangements: proportionate time budgets, attention to consequential differences, and limited opportunities to review. Evidence of poor allocation can justify changes without reproving an entire philosophy before each task.
+
+Repeatedly circling the same reasons may warrant stopping to gather evidence, try something, or ask someone. A cheap, reliable check on a crucial uncertainty may warrant continuing. The next step's potential contribution matters.
+
+Inquiry without immediate output deserves time too. Philosophical questions need not all enter tomorrow's task list. Clarify whether this is a deadline-bound decision or an invitation to let a question slowly change you. Confusing the two can leave decisions stalled and thought perpetually hurried.
+
+#### A Choice That Cannot Be Lived Twice
+{: #s12-4 }
+
+Next week's study schedule can change again. Some choices cannot be fully reversed. After accepting a job, you can check promised duties, but cannot simultaneously live the life in which you declined. That outcome is unavailable for later reading.
+
+Success does not prove alternatives would have been worse; difficulty does not by itself prove the original choice careless. We can investigate failed expectations, inaccurate information, and worthwhile checks omitted at the time. Asking about hours, consulting shared caregivers, and examining duties brings us closer than repeatedly comparing job titles mentally.
+
+Preparation supplies firmer grounds. A choice remains. As Eagle descended, the ground continued receiving data. Some answers become investigable only after events move forward.
+
+### 12 — Knowing Before Words
 {: #s13 }
 
-A fire crew entered a house to deal with a fire that appeared to have started around the kitchen. The crew put water on it in the familiar way, but the fire did not respond as the commander expected.
+A firefighting crew enters a house. The fire seems to be near the kitchen. They apply water as usual, but it does not behave as their commander expects.
 
-When the decision researcher Gary Klein interviewed this commander, he heard an account that he kept returning to with further questions. The commander had suddenly felt that something was wrong and ordered everyone out. After the crew had left, the floor where they had been standing collapsed. The real fire was in the basement. They had been standing above it the whole time.[^klein]
+Interviewing the commander, decision researcher Gary Klein repeatedly explored what happened next. The commander abruptly felt something wrong and ordered everyone out. After they left, the floor collapsed. The fire was actually in the basement, directly below where they had stood.[^klein]
 
-At first the commander called the judgement a sixth sense. If the matter stopped at that name, nobody else would know whether it could be learned, or when to trust it next time. Only as the interview kept working backwards did several cues gradually surface: the heat in the room was out of proportion to the fire he could see, the sound was unusually quiet, and the water was doing less than expected.
+The commander initially called it a sixth sense. That name neither teaches others how to acquire it nor establishes when to trust it. Further questioning uncovered clues: heat disproportionate to the visible fire, unusual quiet, and water not producing the expected effect.
 
-In that moment, he had not first arranged these into a complete argument about the basement. A few discrepancies had already combined into the feeling that they needed to get out.
+He had not first assembled them into a complete argument about a basement. Before that explanation existed, differences had made evacuation seem necessary.
 
-These cues were recovered step by step in the interview afterwards. A researcher can follow them up, but cannot take the full explanation given in the interview and put it back, unchanged, into the commander's mind before the retreat.
+These clues emerged through retrospective interviews. They permit investigation without establishing that every detail later articulated was fully present in his mind then.
 
-The scene did not simply present one extra, conspicuous danger signal. Some responses that would normally have occurred failed to occur: the fire did not die down as expected once water was on it, and the sound and the heat did not match. The commander noticed these differences first, and explained them step by step only in the interview. Had he been required to name the differences, quantify them and complete the argument before they were allowed to affect his decision, the time to get out might have been lost.
+The scene did not simply provide one conspicuous danger signal. Expected responses failed to occur: water did not reduce fire as anticipated, and heat and sound did not fit. Recognition preceded the interview's explanation. Requiring names, measurements, and a complete argument before differences could affect action might have consumed the time needed to leave.
 
-We often put "fast, intuitive, emotional" on one side and "slow, rational" on the other. These words describe different things. "Fast" refers to how much time was taken. "Intuitive" usually means that the answer arrived first, without the person being aware of any step-by-step reasoning. Emotion includes feeling, an appraisal of the situation, and a disposition to act. "Rational" sometimes means explicit inference, and sometimes means that a judgement responds appropriately to reasons. To compare two judgements, we first need to know whether we are comparing their speed, the way they were formed, or the adequacy of their reasons.
+We often place fast, intuitive, and emotional judgement opposite slow, rational thought. These terms concern different dimensions. Speed is time; intuition commonly means an answer arriving without conscious stepwise reasoning; emotion includes feeling, appraisal, and tendencies to act. Rationality can mean explicit inference or appropriate responsiveness to reasons. Comparison must identify its dimension.
 
-A quick answer may come out of years of practice; an analysis that lasts for hours may spend the whole time finding excuses for an existing prejudice. Emotion can prompt a person to notice a harm that has been overlooked, while reasoning can examine the cause of the harm, who is responsible, and how to respond. To evaluate them, it is not enough to ask which arrived first or which looks calmer.
+A fast answer can derive from years of practice. Hours of analysis can keep defending prejudice. Emotion may draw attention to neglected harm; reasoning can examine causes, responsibility, and responses. Assessment needs their contribution to judgement, not ranking by speed or composure alone.
 
-Intuitions also differ in how they are formed. Some skills are learned from explicit rules and, once practised, no longer need to be recited step by step; other powers of recognition are formed mainly through repeated exposure, imitation and feedback, and the learner never wrote out a complete set of rules in the first place. With the former, one can trace the steps that were once learned; with the latter, one has more need to compare experience against outcomes. The fact that both arrive quickly does not mean that beneath each there must lie an argument waiting to be recovered.
+Intuitions also develop differently. Some skills begin as explicit rules and become fluent. Others arise chiefly through exposure, imitation, and feedback without a prior written rule. The former can revisit learned steps; the latter need comparisons of experience and results. Rapid arrival does not make both concealed complete arguments.
 
-#### Information we cannot yet put into words
+#### Information We Cannot Yet State
 {: #s13-1 }
 
-In 2007 a group of researchers ran an experiment in which odours that participants could not consciously detect were paired with ratings of how likeable neutral faces were, and observed that under particular conditions the odours affected the ratings. This supports a limited claim: some sensory influences can take part in a judgement while the person is unable to report clearly where they came from.[^smell]
+In a 2007 experiment, researchers paired odours participants could not consciously detect with ratings of neutral faces and observed effects under specific conditions. This supports a limited conclusion: sensory influences can enter judgement without their source being reportable.[^smell]
 
-It does not show that such influence is more accurate. The odour in the experiment was no evidence of whether the person in the photograph deserved to be liked; in this setting, an undetected influence may even pull the judgement away from the very thing it was meant to assess.
+Influence does not establish improved accuracy. The odour was not evidence of a person's likeability; it could divert judgement from the intended object.
 
-A feeling whose source cannot yet be explained can serve as a starting point for checking. Someone who hears that a machine sounds wrong, for instance, can first record the sound, compare it with the normal state, and then check whether it goes with a fault. That the person cannot say which frequency has changed does not make the difference unreal; that the feeling is strong does not remove the need to compare.
+An unexplained feeling can nevertheless guide investigation. An unusual machine sound can be recorded, compared with normal operation, and checked for associated faults. Inability to name a frequency does not erase the difference. Strength of feeling does not replace comparison either.
 
-Explicit reasoning needs access to the relevant information before it has any chance of judging well. If the only input is "the machine is still running", no amount of careful inference from that sentence will produce a stretch of abnormal sound on its own. Sensory observation, instrument readings and hands-on operation can supply details that never entered the analysis.
+Explicit inference needs relevant input. If its only information is that a machine still runs, careful deduction cannot hear an unrecorded noise. Observation, measurement, and work on site may supply details missing from analysis.
 
-The reverse also holds: explicit comparison can find what feeling has missed. Only when Chapter 5 set out two groups of numbers with the same average did we see that one group contained values below twenty; the impression that "average performance is about the same" could not have answered that question. Feeling and inference can each miss things, and each can make new differences visible.
+Conversely, explicit comparison reveals what impressions omit. Chapter 5's two equal averages concealed the presence of a value below twenty until the original numbers were displayed. A general impression of similar average performance cannot answer that question. Feeling and inference can each miss or reveal differences.
 
-An operator hears the fault first, measurement then confirms what kind it is, and a few sessions of listening together lead a newcomer to start noticing parts of the sound she had not heard before. By this point, feeling and explicit comparison have altered each other, and the ability that results is hard to credit wholly to either side.
+An operator hears an anomaly, measurement identifies it, and shared listening teaches a novice to notice previously unheard features. Feeling and explicit comparison change one another through learning. The resulting ability belongs wholly to neither alone.
 
-![Feeling and practised response, and explicit inference, both draw their material from experience; each can prompt the other, and outcomes, comparison or independent measurement bring corrections back; feedback may also be incomplete.](/assets/img/book/en/fig-16-learning-feedback.svg){: width="1200" height="900" }
-_Figure 12.1　How feeling, inference and checking help one another. Actual outcomes, comparison of examples and independent measurement can all change the original judgement; where feedback is delayed or incomplete, one may never learn where the error lay. The figure shows learning relationships, not the layout of brain regions. Drawn for this book._
+![Experience supplies both fluent reactions and explicit inference. They can prompt one another and be corrected through results, comparison, or independent measures; feedback can also be incomplete.](/assets/img/book/en/fig-16-learning-feedback.svg){: width="1200" height="900" }
+_Figure 12.1　How feeling, inference, and checks assist one another. Outcomes, example comparisons, and independent measurement can revise judgement. Delayed or incomplete feedback may leave errors unlearned. This is a learning diagram, not a map of brain regions. Drawn for this book._
 
-After checking of this kind, the operator may know more quickly which part to inspect the next time a similar sound appears. Where the measurement did not support the original judgement, that record needs keeping too, so that we do not remember only the times the guess was right. Learning over the long run can improve the response in the moment, without the whole of that learning having to be redone before each action.
+After such checking, a similar sound may quickly indicate where to look. Unsupported guesses need recording too, so misses are not erased by remembered successes. Long learning can improve immediate responses without being repeated before every action.
 
-#### The ball is still in the air and the feet are already running
+#### The Ball Is Still Aloft; the Feet Are Already Moving
 {: #s13-2 }
 
-A baseball is hit towards the outfield. The fielder looks up to track it and starts moving at the same time. If we say his job is first to obtain the ball's initial speed, its spin and the wind, and then to work out where it will land, we slip easily into thinking that the body is just quietly completing a ballistic calculation there was no time to say aloud.
+A baseball flies towards the outfield. A fielder watches and runs. Describing the task as first obtaining speed, spin, and wind, then calculating a landing point, portrays the body as a ballistic computer unable to report its calculations in time.
 
-Research on catching has offered another kind of explanation. The player uses the continuously changing relationship of the ball within his field of view, adjusting as he runs, with no need to compute a fixed landing point first and then run to it with his eyes shut. The models researchers have proposed include keeping the ball's visual trajectory linear in some respect and regulating a particular optical acceleration; different models come with different conditions and testable predictions.[^catch]
+Research offers another family of explanations. Fielders use changing visual relationships to adjust while moving, without first fixing a landing point. Models include linear optical trajectories and control of optical acceleration, with distinct conditions and testable expectations.[^catch]
 
-The player's movement also changes the trajectory he will see next. Researchers therefore need to observe how visual information and movement pass back and forth before they can compare the models. The process of catching does not sit waiting behind some complete calculation performed before the action.
+Movement changes the trajectory subsequently seen. Researchers therefore examine reciprocal relationships between vision and action. Judgement can form while running and continue changing with the run.
 
-Walking with a nearly full glass of water makes the same adjusting-as-you-go easy to notice: you see the surface tilt, and hand and step correct accordingly. Studying activities like these means observing what information people pick up while acting and how they respond; looking only for a comprehensive plan finished before the action began may miss the important part of the process.
+Carrying a nearly full cup also reveals continuous adjustment: visible water movement changes hands and steps. Studying the activity requires the information acquired during it and the responses. Looking only for a comprehensive plan before departure may miss this process.
 
-#### Even Cook Ding slows down
+#### Cook Ding Also Slows Down
 {: #s13-3 }
 
-In "The Secret of Caring for Life", in the *Zhuangzi*, Lord Wenhui watches Cook Ding cut up an ox and is astonished at his movements. Hand, shoulder, foot and knee work with the knife like a performance with its own rhythm.
+In “Nourishing Life” in the *Zhuangzi*, Lord Wenhui watches Cook Ding butcher an ox. Hands, shoulders, feet, knees, and knife move in rhythm.
 
-Cook Ding says that when he began, what he saw was the whole ox; after a few years, what stood before him was no longer a single, complete object. He runs the knife along the gaps between sinew and bone, rather than forcing his way through. The story pushes this skill to a point that is almost beyond belief: the knife has been in use for nineteen years and has cut up several thousand oxen, yet its edge is still as if freshly ground.
+Ding says that initially he saw the whole ox; years later, he perceived a structure through which the knife could move. Following spaces among the joints, he avoids forceful collision. The story takes mastery to an extraordinary degree: after nineteen years and thousands of oxen, the blade remains like one freshly sharpened.
 
-Where sinew and bone knot together and the knife is hard to place, he still becomes wary. His attention gathers, his movements slow, and he moves the blade by the smallest degrees. Only when it is done does he withdraw the knife.[^zhuangzi]
+At a difficult cluster of joints, he becomes alert, concentrates, slows down, and moves the knife with minute care. Only afterwards does he put it away.[^zhuangzi]
 
-Cook Ding's skill lies in doing the ordinary work quickly, and equally in slowing down when he meets a difficult place. The nineteen-year blade carries the exaggeration of a parable, but the pause raises a question that can be studied: what kind of experience lets a person carry a familiar movement through smoothly and also notice early that this time calls for special care?
+His mastery includes slowing at difficulty, not merely speed in familiar work. The nineteen-year blade belongs to the parable's exaggeration. The pause nevertheless suggests a research question: what experience permits both fluent routine and early recognition that this occasion needs special attention?
 
-In 2009 Kahneman and Klein discussed expert intuition together and set out two important conditions: the environment must contain stable cues that can be learned, and the person judging must have had enough opportunity to learn them through experience and feedback. They also cautioned that a subjective sense of certainty is, in itself, no guarantee that a judgement is correct.[^intuition]
+Daniel Kahneman and Gary Klein's 2009 discussion of expert intuition identified two important conditions: an environment containing learnable regularities, and adequate opportunities to learn them through experience and feedback. Subjective confidence alone cannot guarantee correctness.[^intuition]
 
-If errors are never pointed out, twenty years may do no more than make a certain kind of guessing more fluent. When feedback comes too late, or when outcomes are obscured by luck or by standing, a person may not even be able to tell which judgement went wrong. Equal years of service can hide very different histories of learning.
+Twenty years can make the same guess extremely fluent if errors never become visible. Delayed feedback, luck, and status can obscure which judgement failed. Equal years need not yield equal learning.
 
-Recognition exercises in which the answer is withheld, records of predictions set against outcomes, or a measurement of another kind can make this difference visible. Someone good at telling sounds apart will not necessarily be good at estimating quantities, and a cue that was reliable may fail in a new environment; "having intuition" has never been a qualification that covers all of a job.
+Recognition exercises with answers concealed, prediction records, and alternative measurements can expose differences. Skill at hearing does not ensure numerical estimation; reliable cues can fail elsewhere. Intuition established in one task cannot vouch for judgement in another.
 
-#### After understanding, there is still some way to go
+#### After Understanding, Another Distance Remains
 {: #s13-4 }
 
-Understanding a claim when you hear it and being able to use it when needed are different outcomes of learning. You may agree that "one failure does not condemn the whole person" and yet want to defend yourself the instant you are criticised; you may know that past investment cannot be recovered and still find it hard, facing a project you have worked on for three years, to decide only on the costs and opportunities ahead.
+An idea can be understood yet unavailable when needed. You may accept that one failure does not condemn a whole person and still rush to defend yourself under criticism. You may understand sunk costs yet find it hard to assess a three-year project solely through future costs and opportunities.
 
-This gap can point to what needs practising next. Being able to explain a reason in a quiet moment tells us only that we have understood it; to recall it in the relevant situation and act on it, we also need to recognise the moment, remember what to do, and sometimes learn to bear an uncomfortable feeling.
+The gap identifies further practice. Explaining a reason quietly establishes one kind of understanding. Remembering and acting on it in relevant situations requires recognising the occasion, retaining the procedure, and sometimes bearing discomfort.
 
-In his 1982 work on skill acquisition, John Anderson proposed a theory in which explicit knowledge gradually gives rise to procedural ability. When first learning certain cognitive skills, people need to recall the rules one after another; with practice, execution may become faster and no longer require every step to be rehearsed silently.[^skill] The theory helps us study how certain skills become fluent; changes in emotion and belief still require an examination of the learning processes proper to them.
+John Anderson's 1982 research proposed an account of explicit knowledge becoming procedural ability. Beginners recall rules in sequence; practice can speed execution and reduce conscious rehearsal.[^skill] This helps investigate certain skills. Changes in emotion and belief require inquiry into their own learning processes.
 
-Reflection therefore has a long-term use: choosing which practices are worth keeping, arranging for their repeated use and checking, and making them easier to carry out next time. Someone who, in an argument, always hears a single objection as total rejection can reread the exchange afterwards and practise separating the specific criticism from a verdict on the whole person; next time, they can first confirm which point the other person objects to, and then answer. If the practice helps, what changes may be the difference noticed first, rather than merely one more reminder committed to memory.
+Reflection has a long-term use: select worthwhile practices and arrange repeated application and checking. Someone who hears every objection as total rejection can reread a dispute and distinguish specific criticism from judgement of the person. Next time, first establish which point is opposed. If practice helps, what attracts attention changes, and the reminder enters the response itself.
 
-Moral judgement faces a similar demand. Some harms that call for a timely response cannot wait to be seen until a full debate has run its course each time; we hope that a concern which has passed through reflection will gradually shape ordinary attention and reaction as well. But habit in itself carries no guarantee of right or wrong: a group's ways of discriminating, or of shifting responsibility, can be learned to the same high degree of fluency.
+Moral judgement faces related demands. Some harms require timely attention without a fresh debate each time. Reflective care should increasingly inform ordinary reactions. Habit does not guarantee goodness: discrimination and evasion can also become automatic.
 
-#### Ask the expert when they would stop
+#### Ask Experts When They Would Stop
 {: #s13-5 }
 
-When a learner asks a master "how did you know?", the answer is sometimes just "you can tell at a glance". The question can be put differently: which detail made you change what you were doing? If that detail had been different, would you have carried on? Under what circumstances would you ask someone else to help check?
+“How did you know?” may yield only “I could just see it.” A specific event allows further questions: which detail changed your action, would you have continued without it, and when would you ask for help?
 
-Questioning of this kind is one of the main ways Klein studied expert decisions. Rather than asking the interviewee to produce a complete theory on the spot, it follows a single actual decision and picks out which cues would have affected the choice. In the firefighting case, the heat, the sound and the fire's response to water were exactly what the interview went on to pursue.
+Klein's work uses such inquiry to trace expert decisions. It does not demand an instant complete theory, but investigates cues along an actual decision. Heat, sound, and response to water guided further questions in the fire case.
 
-Having learned these cues, the newcomer still has to compare and practise in the relevant situations. An interview can tell him where attention is worth directing; a spoken account alone cannot give him the same experience. If the account can be set beside records made at the time and the outcomes that followed, it also becomes easier to separate what the interviewee noticed then from the explanations that formed only afterwards.
+Having heard these cues, novices still need comparison and practice in relevant situations. Interviews identify where attention belongs without conferring expertise. Contemporary records and later results can also distinguish what the interviewee noticed then from explanations formed afterwards.
 
-#### Leave a record before the outcome arrives
+#### Keep a Record Before the Outcome
 {: #s13-6 }
 
-Looking back, we easily mix the outcome we later learned into the feeling we had at the time. A study published in 1975 by Fischhoff and Beyth examined this using judgements made before and after Nixon's visits to China and the Soviet Union. Before the visits, participants estimated the probabilities of a series of possible outcomes; afterwards, they recalled how they had estimated them. In recollection, what had happened tended to become more foreseeable than it had originally seemed, and what had not happened seemed to have been more doubtful all along.[^hindsight]
+Known outcomes can seep into recollection of earlier beliefs. A 1975 study by Fischhoff and Beyth used judgements before and after Nixon's visits to China and the Soviet Union. Participants first assessed possible outcomes' probabilities, then recalled their earlier assessments. Events that occurred tended to become more foreseeable in memory; events that did not seemed more doubtful all along.[^hindsight]
 
-If a record from before the outcome can be kept, there is a chance of catching this rewriting. For important judgements where time allows, you can write down first what you noticed earliest, what you expect to happen, and how confident you are; where the reasons are still unclear, record that as it is. Then, when you check afterwards, reasons that occurred to you later will not all be counted as things you knew from the start.
+Pre-outcome records can expose this rewriting. For important judgements when time permits, record initial cues, expected results, and confidence, including unclear reasons. Later checking then need not credit hindsight as prior knowledge.
 
-A record preserves the original judgement, but it does not automatically supply every outcome. Take a hypothetical manager who notes "this applicant may not be suitable" and therefore does not hire the person; however complete the log, it has not produced that person's performance after joining. To compare prediction with outcome, one still has to identify which kind of data is missing.
+A record preserves a judgement without generating every outcome needed to test it. A manager writing that a rejected applicant may be unsuitable still cannot see how the applicant would have performed if hired. Comparison needs the missing kind of evidence to be identified.
 
-Some outcomes are not determined by our own choice and could always have been tracked. A share that was considered but not bought, for example, will still have a market price afterwards. If a specific price expectation and time horizon were recorded beforehand, they can be checked later, rather than remembering only what was actually bought.
+Some outcomes can be followed regardless of our decision. Shares considered but not bought still have later market prices. Specific price predictions and deadlines permit checking beyond remembered purchases.
 
-Other comparisons require actually putting different arrangements in place. A/B testing of a product exposes different groups to different versions, so the effect of a particular change can be compared. This design has its costs; where people's opportunities or treatment are involved, fairness, consent and tolerable risk limit how one may experiment. Wanting to improve one's own predictive ability is not sufficient to justify handing the costs to other people at will.
+Other comparisons require different arrangements actually being implemented. Product A/B tests expose groups to different versions to compare effects. These designs have costs. When opportunities or treatment are involved, fairness, consent, and tolerable risk restrict experiments. Better prediction does not justify arbitrary costs imposed on others.
 
-For still other questions, what is missing is the outcome of the same person taking the other road through the same stretch of history. The job that was not accepted cannot afterwards become another life one has already lived. Other people's experience under similar conditions, broader statistics and relevant research can narrow the uncertainty, but they will not restore the individual outcome that never occurred.
+Some questions lack the outcome of one person taking another path in the same history. A declined job cannot become an alternative life already lived. Comparable experiences, statistics, and research reduce uncertainty without restoring that unlived history.
 
-Before checking, then, first establish which question this data can answer and what it leaves unknown. How much is worth investing must be weighed together with the cost of obtaining the information, the consequences of a wrong judgement, and how many future occasions there will be to use what is learned. Each of these can add to the reasons for checking, but "it matters a great deal" or "it will come up again" is not by itself enough to conclude that any expensive investigation is worth it.
+Before investigating, establish what a dataset can answer and what remains unknown. Investment should compare information costs, consequences of error, and future chances to use the learning. Importance and repetition add reasons, but neither exempts expensive research from cost comparison.
 
-#### Emotion shapes what we take to be a problem
+#### Emotion Helps Decide What Becomes a Question
 {: #s13-7 }
 
-Why something becomes a problem for us often has to do with emotion. The indignation of seeing someone humiliated can make behaviour that had passed as a joke worth questioning; concern for a person can keep us attentive to difficulties he has not spoken of. Emotion affects answers, and sometimes it has already affected what we are willing to ask.
+Emotion often helps something begin to matter. Indignation at humiliation can bring a supposed joke into question; attachment can sustain attention to another person's unspoken difficulty. Before answers form, feelings influence what we ask.
 
-This practical role also needs to be identified case by case. Anger may notice an injustice, or it may mistake frustration for another person's malice; shame may prompt reflection, or it may stem from a group's demands that do not deserve acceptance. Emotion needs to be understood and checked, but the checking should not assume that the only acceptable result is for the emotion to disappear.
+This role needs discrimination. Anger may notice injustice or mistake frustration for malice. Shame can prompt reflection or reflect unworthy group demands. Emotions need examination without presuming that examination should remove them.
 
-You can discover that your anger was attributed to the wrong cause and still keep your original sensitivity to a certain kind of harm; you can also, through someone else's account, learn to respond to experiences you never used to care about. Changes like these do more than speed up the response in the moment. They alter what you will notice in future, what you will remember, and what you will be willing to check.
+We can correct anger's attribution while retaining sensitivity to harm. Others' explanations can teach responses to experiences previously ignored. Such changes affect future attention, memory, and inquiry, not merely response speed.
 
-Care keeps a person observing a difficulty over time; liking sustains long practice; disappointment drives a person to re-examine what they had expected. Feelings such as these can take part in understanding and learning over long stretches, and their role goes beyond quickly offering a guess before the analysis begins. The judgements they guide still have to be checked, but they cannot be evaluated by calmness alone.
+Care sustains observation, enjoyment supports practice, disappointment reopens expectations. Feelings can participate in extended learning rather than merely supply a quick preliminary guess. Their judgements need checking, but composure alone cannot establish their worth.
 
-Within these long-term changes, reflection alters what is felt next time, and feeling can make the old reasons come to seem insufficient. After you have understood what someone else went through, a kind of joke that once seemed harmless may no longer raise a laugh. That change does not have to be maintained by silently rehearsing the whole argument every time.
+Reflection changes future feeling, and feeling can expose inadequate reasons. Understanding someone's experience may make a formerly harmless-seeming joke impossible to laugh at. Once that change remains, we need not rehearse the argument every time to stop laughing.
 
-The conditions of learning play their part too. Comparing similar examples, receiving timely feedback and adjusting practice beforehand make differences easier to recognise in the moment. Whether the work allows time for rest, whether the people around you are willing to point out mistakes, and which cues the tools display, in turn set limits on whether these changes can happen at all.
+Learning conditions participate too. Comparable examples, timely feedback, and prepared practice improve discrimination. Rest, colleagues willing to point out errors, and tools presenting useful cues affect whether learning occurs.
 
-If the present moment is abnormal and time is short, the practised response may still be the most usable capacity to hand; when there is time, one can stop to compare and check. Both may be the products of this joint learning.
+In an urgent anomaly, trained response may remain the best available ability. With time, comparison and checking may be appropriate. Fast and slow responses can benefit from the same history of learning.
 
-What we change is sometimes a sentence we believe, and sometimes what we notice at first glance. Once the second kind of change has taken place, a person may no longer remember that it once took so much time to learn.
+Sometimes what changes is a belief we can state; sometimes it is what first catches our eye. By the time the latter changes, we may no longer remember how long that first glance took to learn.
 
-### 13 — One Body, Many Kinds of Regulation
+### 13 — The Knower Is Not a Single Command Centre
 {: #s14 }
 
-Close your eyes and you will most likely still know where your right hand is: whether the arm is bent, stretched out, or resting on the back of the chair. This sense of position and movement is seldom noticed on its own. It is what lets the limbs keep working while the eyes are busy looking somewhere else.
+Close your eyes and you can usually still locate your right hand. Bent or straight, resting against a chair: the arm's position can be felt without sight. This sense of position and movement rarely attracts attention. It lets the eyes look elsewhere while the body continues its work.
 
-In 1992 the researchers Jonathan Cole and E. M. Sedgwick reported on an unusual participant. He could still move voluntarily, and he retained some sensation of pain and of heat and cold, but below the neck he had lost most of the sensory input concerned with light touch and the position of his limbs. Being able to move a muscle and being able to feel how one is moving turned out, in his case, to be clearly different things.
+In 1992, Jonathan Cole and E. M. Sedgwick reported an unusual participant. He could still move voluntarily and retained some sensations of pain and temperature, but had lost most sensory input concerning light touch and limb position below the neck. In him, the ability to move muscles and the ability to feel movement became distinctly separable.
 
-Asked to compare weights while watching his forearm move, he could still tell apart quite fine differences; with his eyes closed, the ability fell away markedly. Certain postures and simple repeated movements could be kept up to a limited extent, but new movements needed visual feedback.[^deafferentation]
+Watching his forearm move and comparing weights, he could distinguish fairly fine differences. Closing his eyes markedly reduced performance. Some postures and simple repetitive movements could continue to a limited extent; new movements depended on visual feedback.[^deafferentation]
 
-Movements that ordinarily need no particular attention required him to keep watching, adjusting and relearning. Vision made up part of the missing information about position, and in doing so it took up attention that could otherwise have been turned elsewhere.
+Movements ordinarily requiring little attention demanded sustained watching, adjustment, and relearning. Vision supplied some missing positional information, while making that attention less available elsewhere.
 
-Other kinds of work need even less in the way of step-by-step commands from the nerves. When the edge of a sheet of paper cuts the skin, tiny blood vessels are damaged and blood seeps out, and the local process of stopping the bleeding is already under way. You can notice the wound, deal with it or ask for help, but you do not first approve each protein reaction in your mind.
+Some bodily work does not even require stepwise neural commands. A paper edge cuts skin, small vessels are damaged, and local haemostasis begins as blood escapes. You may notice, treat, or seek help. Local protein reactions need not await conscious recognition and permission.
 
-When a vessel is injured, local signals, platelets and clotting proteins take part in forming a clot. This is a set of physiological mechanisms. It does not have to pass through conscious judgement first, and it is not a neural reflex in which a message travels to the spinal cord before an order to stop the bleeding is sent back.[^clotting]
+Local signals, platelets, and coagulation proteins contribute to clot formation after vessel injury. They can operate before conscious judgement. Haemostasis should not be described as a neural reflex that first sends a message to the spinal cord and receives an order back.[^clotting]
 
-Platelets are small cell fragments in the blood that take part in stopping bleeding; the reactions of the clotting proteins help to form a fibrous mesh. The local reaction is triggered and amplified, and it is also shaped by mechanisms that limit it and clear it away. To explain when a clot forms, and why it does not go on spreading without limit, one has to study how these chemical reactions act on one another.
+Platelets are small cell fragments involved in haemostasis. Coagulation reactions help form a fibrous network. Local reactions are initiated and amplified, while inhibitory and clearance mechanisms affect them. Explaining when clots form and why they do not expand without limit requires these interactions.
 
-Spinal reflexes, by contrast, do involve neural circuits. Some responses can be organised without waiting for a conscious decision, while still remaining open to modulation by other neural activity. That a response goes ahead without permission from present awareness does not mean it is forever cut off from the influence of the brain.[^spinal]
+Spinal reflexes instead involve neural circuits. Some responses can be organised without waiting for conscious choice while remaining subject to other neural modulation. Independence from an immediate conscious decision does not mean isolation from the brain.[^spinal]
 
-The brainstem connects the cerebrum with the spinal cord and takes part in vital functions such as breathing, as well as in a great deal of signal processing; the cerebellum takes part in the coordination and adjustment of movement, among other functions; and different regions of the cerebrum share in sensation, memory, language and planning. These parts are extensively connected, and many activities have to be carried out across regions together.[^brain] To explain a piece of behaviour, one usually also needs to know which information is passed on and how, and which activities modulate which others. A list of organ names is not enough.
+The brainstem connects brain and spinal cord and participates in breathing and many signals. The cerebellum contributes to coordination, adjustment, and other functions; cerebral regions jointly support perception, memory, language, and planning. Extensive connections sustain activities across regions.[^brain] Explaining behaviour therefore requires tracing information and modulation, not merely naming organs.
 
-Figure 13.1 sets the two kinds of process side by side. The left shows the local stopping of bleeding; the right shows the interplay between sensory information, neural circuits and responses. Both sides can operate without a conscious decision in the moment, yet the particular ways in which they are triggered, regulated and limited differ.
+Figure 13.1 compares local haemostasis with interactions among sensation, neural circuits, and responses. Both can operate without an immediate conscious decision; their mechanisms of initiation, regulation, and limitation differ.
 
-![On the left, the local process in which vessel injury, platelets and clotting proteins take part in stopping bleeding; on the right, the mutual regulation between sensory input, circuits of the spinal cord and brainstem, wider brain networks, and responses.](/assets/img/book/en/fig-07-body-regulation.svg){: width="1200" height="900" }
-_Figure 13.1　The functional relations between different mechanisms. The figure compares division of labour and mutual regulation; it is not a complete anatomical diagram, and the arrows do not correspond one by one to neural pathways. Clotting, reflexes and conscious activity keep their separate mechanisms. Drawn for this book from the literature cited in this chapter._
+![Local haemostasis through vessel injury, platelets, and coagulation proteins appears on the left. The right shows interactions among sensory input, spinal and brainstem-related circuits, broader brain networks, and responses.](/assets/img/book/en/fig-07-body-regulation.svg){: width="1200" height="900" }
+_Figure 13.1　Functional relationships among different mechanisms. Based on this chapter's sources, the comparison is not a complete anatomical diagram; arrows do not individually correspond to neural pathways. Coagulation, reflexes, and conscious activity retain their mechanistic differences._
 
-#### Coughing shows mutual regulation
+The comparison identifies relationships supporting capacities. Coagulation contributes to haemostasis without thereby possessing human conceptual understanding. Comparing support conditions must preserve that difference. Second-order analysis can examine researchers' representations of mechanisms without calling every feedback process thought.
+
+#### Coughing Reveals Mutual Regulation
 {: #s14-1 }
 
-In a quiet room, when the urge to cough rises in your throat, you can sometimes hold it back for a while and sometimes cannot; you can also cough deliberately to catch someone's attention. From the outside all of these are coughs, yet the processes that set them off and shape them are not quite the same. Research therefore has to separate the stimulus, the urge to cough, the number of coughs actually produced, and the activity that goes on during deliberate suppression.
+In a quiet room, an urge to cough can sometimes be suppressed and sometimes not. You can also cough deliberately to attract attention. Similar sounds need not share initiation or regulation. Research distinguishes stimuli, urge, actual cough counts, and activity during suppression.
 
-Functional brain imaging studies by Stuart Mazzone and colleagues compared coughing with the suppression of coughing, among other conditions, and observed different patterns of brain activity, which supports the view that the control of coughing in humans involves networks above the brainstem. Differences in activity seen in the images help in studying the processes concerned, but they do not amount to establishing, from the images alone, the complete causal function of each region.[^cough]
+Stuart Mazzone and colleagues used functional brain imaging to compare conditions including coughing and suppression. Different patterns supported involvement of networks above the brainstem. Activity differences guide investigation without establishing every region's causal role by themselves.[^cough]
 
-The attempt to hold a cough back does affect it, and there are also times when it cannot be held. Being able to take an active part in regulation has not turned the body into a procedure that waits for one's approval every time.
+Sometimes an intention to suppress succeeds. When it does not, the body does not wait for permission. We participate in regulation without gaining command over every operation.
 
-#### People can also change themselves through external things
+#### Changing Ourselves Through Things Outside Us
 {: #s14-2 }
 
-Deliberate adjustment does not happen only inside consciousness. You can change how you practise, arrange the environment you sleep in, lean on tools, and you can also alter certain physiological processes through medical intervention. These measures work in different ways and call for different bodies of knowledge; they cannot all be treated as another name for the will.
+Self-adjustment need not direct effort only into consciousness. Practice, sleeping environments, tools, and medical interventions can alter different processes. Each requires relevant knowledge; all cannot be attributed simply to willpower.
 
-A small randomised trial by Alyn Morice and colleagues in 2007 shows what needs to be kept apart when an external intervention is assessed. The study treated chronic cough with morphine and observed improvement on some symptom scores; a citric acid cough challenge in the same study, however, did not show a significant change.[^opiate] The two methods of measurement produced different results: one recorded symptoms, the other observed the coughs elicited by an experimental stimulus.
+A small 2007 randomised trial by Alyn Morice and colleagues gives a concrete distinction. Morphine treatment for chronic cough improved some symptom measures, while the citric-acid cough challenge did not show a significant change.[^opiate] One measure recorded symptoms; the other assessed coughing induced by an experimental stimulus.
 
-A threshold is the level a condition has to reach before a given response begins to appear. To say that a drug has raised some cough threshold, one has to state what the stimulus was, how the response was measured, and how before and after the intervention were compared. Coughing less in daily life, or feeling more comfortable, is not by itself enough to prove that a stronger experimental stimulus is now needed to bring on a cough. Only by keeping these results apart can one know which kind of improvement the study actually supports.
+A threshold marks conditions needed for a response to begin. Claiming that a drug raises a cough threshold requires specifying stimulus, response measurement, and comparison before and after treatment. Less everyday coughing or improved comfort alone does not establish a higher stimulus requirement in a challenge test. Distinguishing measures locates the improvement.
 
-A person can decide to accept an intervention without having to direct in person every physiological response that follows it. Researchers identify what a substance does and design trials, medical workers assess whether it suits a given case, and institutions affect whether a person can obtain help at all; the change that finally takes place in one person's body has depended on a great deal of work that was never inside that body.
+A person may choose an intervention without directing each subsequent physiological reaction. Researchers investigate substances and design trials; clinicians assess suitability; institutions affect access. A bodily change can depend on extensive work outside the body.
 
-This gives "changing yourself by your own efforts" a second meaning. A learner can choose the setting in which to practise, ask others to correct them, and use tools that issue reminders; these arrangements in turn gradually change their habits and their judgement. It is the present self that makes the arrangements, yet what the self can later do, and what it readily notices, will be shaped by them. A person's agency can extend through external conditions, and there is no need first to assume an inner commander in charge of the whole body.
+Changing oneself can therefore include arranging external conditions. Learners choose environments, ask for correction, and use reminders. These arrangements gradually change habits and judgement. The present self can seek the assistance needed for change. Agency can extend through external conditions without positing an inner commander controlling the whole body.
 
-#### Which changes count as regulation
+#### Which Changes Count as Regulation?
 {: #s14-3 }
 
-At this point it is tempting to call every natural change "information processing". But if a falling stone, clotting blood, catching a ball and debating a regulation are left with only one name between them, the very differences that were worth understanding disappear.
+It is tempting to call every natural change information processing. If falling stones, clotting blood, catching balls, and debating rules all become one label, distinctions needing investigation disappear beneath it.
 
-Start by comparing a stone with a thermostat. Both obey the laws of physics, but the thermostat has a sensor, a temperature setting and a switch: when the measured temperature departs from the setting, the device changes the heating. By adjusting the setting or disabling the sensor, one can check how each part affects the outcome. A stone falls, and has acquired no such set of measurement and response in doing so.
+Compare a stone with a thermostat. Both obey physical laws. The thermostat also has a sensor, temperature setting, and switch: departures from the setting change heating. Altering the setting or disabling the sensor tests their effects. The stone changes too, but lacks this arrangement of measurement, reference, and response.
 
-Nor is clotting simply another thermostat. It includes the triggering, amplification and limitation of a local reaction, while the control of movement draws on many kinds of continuously changing sensation. Learning may further change how one responds in future. To compare these processes, one should point out which differences they detect, how those differences alter activity, and how the outcome feeds into later responses.
+Coagulation differs mechanistically from a thermostat, involving local initiation, amplification, and limits. Motor control uses continuously changing sensations; learning may alter future responses. Comparison should identify detected differences, their effects on activity, and how outcomes influence subsequent responses.
 
-Feedback can also arrive too late, or amplify the original deviation. A thermostat that keeps heating on the basis of an out-of-date temperature may fail to stop at the right moment; two modules that take turns undoing each other's changes may leave a piece of work being altered back and forth. The name feedback carries no guarantee that it helps. One has to check what it takes in and when it changes activity.
+Feedback can arrive late or amplify error. Heating from outdated temperature measurements may fail to stop appropriately. Modules repeatedly undoing each other's changes can leave work oscillating. Benefit depends on received information and the timing of response.
 
-Letting fixed procedures carry out familiar tasks, letting the parts that can adjust their strategy deal with new situations, and then having people handle certain exceptions, is a division of labour that can be studied. Which part should take over depends on the information it receives, the time available to it, and the capacities it has already demonstrated. If a person cannot see the original situation and has only a few seconds to respond, writing "a human is responsible" does not supply the missing capacity.
+Fixed procedures for familiar tasks, adaptable strategies for new situations, and human handling of exceptions form one investigable arrangement. Allocation depends on information, time, and demonstrated ability. A person without original circumstances and with seconds to respond does not acquire missing capacity because a chart says human responsibility.
 
-What a whole can do may be something no single part can do on its own. Studying such a capacity means looking at local activity and at how the parts affect one another at the same time; calling one part the brain or the command centre still leaves one having to return to these concrete relations.
+A whole may accomplish what no part can do alone. Investigating that ability requires both local activity and interaction. Brain or command centre remains a label, not a substitute for studying relationships.
 
-Once we cross over into society, the participants can also object to the goal. Workers protest, and their disagreement carries reasons that need to be heard; it cannot be treated across the board as a deviation awaiting correction. The body's division of labour can prompt questions, but it cannot provide legitimacy for anyone's right to demand anyone else's obedience.
+Society adds participants able to reject goals. Employees can protest with reasons deserving a hearing, not merely deviations to be corrected. Bodily organisation can suggest research questions. Authority to demand obedience still requires social and ethical justification.
 
-## Part Four — Understanding the World Together
+## Part Four — A Framework That Can Change Itself
 {: #part4 }
 
-### 14 — Letting Other People's Findings Change Decisions
+> Understanding enters institutions and allocates attention, resources, and a voice. A mature framework permits reconsidering purposes as well as correcting answers.
+{: .prompt-info }
+
+### 14 — Letting Discoveries Change Decisions
 {: #s15 }
 
-Some people go to a bank in order to pay their salary into an account. They ask for no further services and agree to no other products, yet new accounts appear in their names.
+Customers used their existing accounts. Without application or consent, additional accounts appeared in their names. Recorded business increased while customers might know nothing of it.
 
-Why would a bank open accounts for customers who know nothing about them? Besides serving existing needs, staff were also required to sell more products to the same customer. The number of accounts is easy to count; it can be recorded as performance, set as a target, and tied to rewards. If every added service came from the customer's own choice, the count might well show that business had grown.
+Who in a bank benefits from accounts opened for unaware customers? Alongside serving existing needs, employees were asked to sell more products to each customer. Accounts were countable, suitable for targets and rewards. If customers chose every new service, the figure might indicate increased business.
 
-In 2016 the U.S. Consumer Financial Protection Bureau took enforcement action against Wells Fargo. The regulatory documents record that employees, in order to meet sales targets and earn incentives, opened accounts without customers' consent; some of these operations also moved funds from customers' existing accounts into the new ones, leaving some customers to bear fees. The problems the regulator pointed to included sales incentives and inadequate oversight.[^wellsfargo]
+In 2016, the US Consumer Financial Protection Bureau took enforcement action against Wells Fargo. Regulatory records described employees opening unauthorised accounts to meet targets and obtain incentives. Some transferred money from existing accounts into new ones, imposing fees on some customers. Regulators identified sales incentives and inadequate oversight among the problems.[^wellsfargo]
 
-The accounts really were created and the transactions really were recorded, but the thing those numbers were originally meant to stand for did not happen: a customer choosing a new service because they needed it. For the bank's evaluation there may have been one more sale on the books; for the unwitting customer there may have been fees, and paperwork that had to be sorted out.
+Accounts and transactions were real, but the event the measure was supposed to represent—customers choosing needed services—had not occurred. An employee's additional sale could become an unaware customer's additional fee and administrative burden.
 
-A customer's consent is itself a necessary condition for the service to exist at all. Besides counting the accounts opened, the institution needs to let customers find out what has happened, stop services they never agreed to, and deal with the losses already caused. Raising the efficiency of account opening cannot take the place of these requirements.
+Consent itself is necessary to such service. Beyond counting accounts, institutions must let customers discover what occurred, stop unauthorised services, and address losses. Faster account creation cannot substitute for these requirements.
 
-#### What a tail actually proves
+#### What Does a Tail Prove?
 {: #s15-1 }
 
-In 1902 Hanoi, under French colonial rule, faced a rat infestation and the risk of disease. The newly built sewers brought modern sanitation to parts of the city, and also gave the rats a space in which to move and breed with ease. The colonial authorities organised a rat-killing campaign and paid by the piece.
+In 1902, Hanoi under French colonial rule faced rats and disease. Newly built sewers in some areas modernised sanitation while giving rats space to travel and breed. Authorities organised extermination and paid by quantity.
 
-Counting needs evidence. Large numbers of rat carcasses are hard to transport and tally; a tail is far smaller, and seemed enough to show that one rat had been disposed of. So the tail became the proof that earned the bounty. The historian Michael Vann traced the campaign through the colonial archives, and what he found in its aftermath included live rats without tails, and activity that supplied rats for the sake of the reward. A tail cut off could be exchanged for money; the rat that remained had not necessarily died.[^hanoi]
+Payment required countable proof. Rat bodies were cumbersome; tails seemed smaller and sufficient evidence of removal. Tails became the claim for a reward. Historian Michael Vann's investigation of colonial archives found later reports of living tailless rats and activities supplying rats for bounties. A tail earned money while its former owner could remain alive.[^hanoi]
 
-The tail was originally meant to prove that a rat had been eliminated; once a tail could be exchanged for money on its own, the supply of tails could come apart from any reduction in the number of living rats. Vann's research also sets these practices back within the residential divisions, labour and power of a colonial city. Who designed the payment scheme, who could earn an income from it, and who bore the infestation all shaped the campaign, and the question cannot be reduced to whether individual rat-catchers were greedy.
+The tail initially stood for a dead rat. Once separately exchangeable for money, supplying tails and reducing living rats could diverge. Vann places these practices within colonial inequalities of housing, labour, and power. Who designed payment, who could earn from it, and who suffered infestation all affected events. Individual greed alone is an inadequate question.
 
-The bank's accounts and Hanoi's tails both show us a gap in time: before a metric becomes a target, it may be connected to the thing we care about; once the target is announced and people begin acting on it, the original relationship needs to be checked again.
+Accounts and tails direct attention to changes after targets are announced. An indicator may initially correlate with what matters. Once people act to achieve it, the relationship cannot be assumed unchanged.
 
-Several researchers have studied changes of this kind from different fields. Charles Goodhart, discussing monetary management in the 1970s, noticed that a statistical relationship may change once it becomes a point of leverage for policy; Donald Campbell studied the distorting pressures on indicators used in social evaluation; and Marilyn Strathern, in a discussion of university assessment, set out the problem that arises when a measure becomes a target.[^metrics] The relationship observed when a metric was set will not necessarily persist unchanged once rewards and penalties have altered behaviour.
+Researchers examined this across fields. Charles Goodhart discussed changes in statistical relationships subjected to monetary-policy pressure in the 1970s. Donald Campbell studied pressures distorting social indicators. Marilyn Strathern addressed measures becoming targets in university assessment.[^metrics] Relationships observed when a measure is chosen may not survive incentives changing behaviour.
 
-![An institution selects a metric from its original purpose, ties the metric to rewards and resources, participants change their practices, and the new figures flow back into the evaluation; real effects and uncounted costs need other routes of checking.](/assets/img/book/en/fig-17-metric-feedback.svg){: width="1200" height="880" }
-_Figure 14.1　How evaluation changes the behaviour it evaluates. Once the target is met, there is still the question of whether the actual service improved and whether costs rose; if only the target figures flow back into the evaluation, both of these outcomes may be missed. Drawn for this book._
+![An institution chooses indicators, connects them to incentives and resources, and receives new figures after behaviour changes. Actual effects and uncounted costs need other checks.](/assets/img/book/en/fig-17-metric-feedback.svg){: width="1200" height="880" }
+_Figure 14.1　Assessment changes assessed behaviour. Meeting targets must be checked against actual service and additional costs; feeding back only target figures can omit both. Drawn for this book._
 
-#### Four hours can change a hospital
+#### Four Hours Can Change a Hospital
 {: #s15-2 }
 
-England once faced the problem of emergency patients being held for long periods. A patient who had arrived at hospital might still wait and wait for assessment, a bed or the next arrangement. The government turned time into an explicit requirement: most emergency patients should be admitted, transferred or discharged within four hours. In 2005 the target demanded that 98 per cent be dealt with in that time.
+England faced long stays in emergency departments. Patients could wait for assessment, beds, or further arrangements after reaching hospital. Government set a time requirement: most should be admitted, transferred, or discharged within four hours. In 2005 the target was ninety-eight per cent.
 
-It is not enough for the emergency department alone to move faster. If a patient who needs admission has no bed, however hard the frontline clinicians work, the next step cannot be completed. The hospital has to manage the coordination of tests, beds and the various departments; waits that had easily been seen as internal to emergency medicine began to become the responsibility of the whole hospital.
+Speeding up emergency staff alone could not remove every wait. Without an inpatient bed, effort at the front could not complete the next step. Tests, beds, and departments needed coordination, making what looked like an emergency-department problem a hospital-wide task.
 
-Researchers interviewed emergency department leaders at nine hospitals in 2008 and published their results in 2011. They recorded the changes in coordination, resources and process that interviewees reported, and also the pressure the time target brought and the doubts about quality.[^nhs] These interviews help us understand how hospitals responded to the target; whether patients received better care as a result still has to be checked against the corresponding clinical outcomes.
+Researchers interviewed emergency leaders at nine hospitals in 2008 and published findings in 2011. They recorded reported changes in coordination, resources, and processes, alongside pressure and quality concerns.[^nhs] Interviews clarify institutional responses; better care still requires checking clinical outcomes.
 
-If decisions cluster just before the four-hour deadline, the patients' circumstances need further examination. Some may be tests, beds or transfers that had previously been delayed and were at last arranged in time; others may have been hurried out while they still needed observation. The distribution of times can point to where investigation is worthwhile; only the clinical picture, the subsequent outcomes and the actual process can help tell the causes apart.
+Concentrated decisions just before four hours call for investigating patients' circumstances. Previously delayed tests, beds, or transport may finally have been arranged. Other patients may have been hurried out while still needing observation. Timing is a clue; condition, subsequent outcomes, and actual processes distinguish explanations.
 
-Setting a target sometimes brings people who had each been busy on their own to work together on a single difficulty. But how the difficulty is named also decides who can join that work.
+Targets can bring otherwise separate workers together around a difficulty. Their wording also helps determine which difficulties enter that cooperation.
 
-Consider a hypothetical job-help form. It asks: "What is the main difficulty you face in looking for work?" It offers only three options: no work experience, not knowing how to write a CV, and not knowing how to find vacancies. There is no box for anything further.
-
-Someone may lack none of the three; the real constraint is a clash between the time needed to care for a family member and the fixed shifts the vacancies demand. What needs comparing here is two ways of keeping the record:
-
-| Replies the form allows | Whether the record can retain this difficulty |
-|---|---|
-| Only one of the original three options | The clash between shift patterns and caring responsibilities cannot be recorded faithfully as a different kind of cause |
-| Answers not on the list are allowed, and a procedure reviews the categories | There is a chance of recognising situations the original options left out; it still has to be checked whether the additional information actually enters the handling of the case |
-
-In the first format, the omission in the classification cannot remove itself by collecting more copies of the same form. The person filling it in may give up, pick an option reluctantly, or look for another channel to explain; which of these happens needs actual investigation. What can be settled first is that the original options provided no place where this difference could be faithfully written down.
-
-Then ask a further question: what if the help on offer is also allocated according to those three options alone? At that point the form is no longer merely describing difficulties. It may affect which kinds of help can be obtained, and it gives people reason to adjust what they say to fit what the institution will accept.
-
-If the answers received match the three options more and more closely, that cannot be taken directly as evidence that the classification is correct. People may have learned how to answer in order to stand a chance of getting help.
-
-Revising the form is a start. Suppose the additional box at last lets the person explain their caring responsibilities, and the caseworker, having read it, confirms it with them; the caseworker then knows that another CV course will not solve this difficulty. What has to be looked for next may be a working arrangement that fits, or other support for caring. Whether such help can be provided already runs up against the limits of how resources were originally allocated.
-
-A new answer may call for a new practice, and it may call for deciding afresh whom this service is meant to help and how far it should go. Folding the exception back into the nearest old option keeps the reports tidy; hearing the exception out may let managers discover that the original question was asked too narrowly.
-
-#### After a manual is revised
+#### The Answer Missing from the Form
 {: #s15-3 }
 
-The Diagnostic and Statistical Manual of Mental Disorders, published by the American Psychiatric Association, is usually shortened to DSM. It organises diagnostic names and criteria so that research and clinical work can communicate in a reasonably consistent language. Medical, insurance and educational arrangements in different places also refer to diagnoses, so the classifications in the manual may, through these various institutions, affect the resources a person can obtain.
+Institutions organise work through options as well as deadlines. Consider a hypothetical employment-support form asking for the main obstacle to finding work. Its only options are lack of experience, difficulty writing a résumé, and not knowing where to find vacancies. There is no space to add anything.
 
-In 1980 the third edition formally included post-traumatic stress disorder. People living with the long-term effects of trauma had existed before that, and had been described and treated under other names. The new diagnosis provided a shared name and shared criteria, allowing researchers to compare cases in a more consistent way, and giving clinicians and the people concerned one more way to explain a difficulty and seek help.[^dsm] Whether resources actually increased still depended on how subsequent services and institutions adopted the classification.
+Someone may have none of these difficulties. Caring for family may conflict with fixed shifts. Whether this can enter the record depends on the form:
 
-In 1973 the Association decided to stop listing homosexuality itself as a mental disorder. That change involved research evidence, professional dispute, action by the people concerned, and a reassessment of which conditions should count as illness. The related diagnostic names continued to be adjusted afterwards, and stigma did not vanish with a single revision; but changing the diagnostic status put the reasons that had used a medical classification to support certain kinds of treatment under direct challenge.
+| Permitted response | Can the difficulty be retained? |
+|---|---|
+| Only one of the original three options | A conflict between shifts and care cannot be accurately recorded as another cause |
+| Unlisted answers, with procedures to review categories | An omitted situation can be recognised, but supplementary information must still reach actual handling |
 
-The fifth edition, in 2013, brought several previously separate diagnoses, Asperger's syndrome among them, into autism spectrum disorder. The Association explained that some of the old categories had not been applied consistently across different clinical settings, and that there were research and diagnostic reasons for moving to a more integrated description. For people who had come to understand themselves under an old name, this also touched community, identity and the way they explained their own experience to others. How the criteria are revised, and whether a person still wishes to use a particular name for who they are, are not entirely the same decision.
+More copies of the first form cannot supply answers outside its categories. Applicants may leave, force a choice, or find another channel; actual investigation must establish which. We can already establish that the options provide no faithful place for this difference.
 
-The philosopher Ian Hacking called the back-and-forth influence between classifications and people "looping effects": a classification changes how people are treated and may change how they understand themselves; and as people accept, reject or adapt these names, researchers in turn rethink the classification.[^hacking] To study such effects, one has to trace which services, expectations and actions a diagnosis actually changed, and not infer every person's life from the name alone.
+If resources are allocated only through those options, the form does more than describe. It affects assistance, and applicants may learn to redescribe themselves in terms the institution recognises.
 
-A child who receives a diagnosis may gain support that had been missing, and may also have their abilities underestimated. These two consequences need to be checked separately. Reducing stigma can proceed alongside taking the child's difficulties seriously; keeping a useful diagnosis still leaves room to change expectations that are set too low or services that do not fit.
+Increasingly neat agreement with three options therefore does not directly validate classification. People may simply have learned which answers work.
 
-#### The people an average score cannot see
+Changing the form begins the work. Suppose a new field permits care responsibilities, and a caseworker reads and confirms the account. Another résumé class does not solve this problem. Compatible working arrangements or care support may be needed. Whether services can follow the discovery depends on allocation.
+
+A new answer may demand a new method, or reconsideration of whom a service should help and how far. Filing exceptions under old options keeps reports running. Hearing them fully may require admitting that the original question was too narrow.
+
+#### After a Manual Is Revised
 {: #s15-4 }
 
-Suppose a tool gets ninety-five of a hundred cases right. Knowing that figure alone, we do not yet know where the five errors fall: scattered across all kinds of situations, or almost all in the same predicament? Nor do we know whether the consequence is a notice that can be corrected, or the loss of an opportunity that is hard to recover.
+The American Psychiatric Association's *Diagnostic and Statistical Manual of Mental Disorders*, DSM, organises diagnostic terms and criteria to support consistent clinical and research communication. Healthcare, insurance, and education arrangements may refer to diagnoses, carrying classification into access to assistance.
 
-Judging someone who does not meet the conditions to be eligible, and keeping out someone who does, sometimes need different channels before they can be discovered. The former enters the process, and their later performance may leave a record; the latter never gets the opportunity at all, and the system may never see them again. Follow-up data on those already admitted cannot by itself prove that everyone excluded ought to have been excluded.
+In 1980, the third edition formally included post-traumatic stress disorder. People suffering long after trauma existed before it and had been described and treated under other names. Shared criteria supported comparison and provided clinicians and patients with another way to explain difficulties and seek help.[^dsm] Whether resources followed depended on services and institutions.
 
-Appeals and additional information can bring back errors that were not seen the first time. If someone wrongly excluded has a way to submit further evidence, for instance, the institution has a chance to look at their eligibility again. It also has to be checked whether the appeal takes so long that it cannot be used, whether the information needed was obtained, and whether the person receiving the appeal has the authority to correct the decision. A procedure listed on paper is not enough to show that errors can be dealt with.
+In 1973, the association decided homosexuality itself should no longer be classified as a mental disorder. Evidence, professional debate, affected people's actions, and reassessment of disorder all contributed. Diagnostic terms continued changing, and stigma did not vanish in one revision. The changed status required those relying on medical classification to justify treatment of people to face evidence and lived experience anew.
 
-A frontline worker may notice a kind of exception very early, yet have no field in which to record it; the person who has a field may only be able to add a note, without being able to change the decision; and the person with the authority to change the rules may see only the aggregated figures.
+The 2013 fifth edition brought several previously separate diagnoses, including Asperger's disorder, into autism spectrum disorder. The association cited inconsistent use of earlier categories across clinical settings and reasons for integration. People using an earlier name to understand themselves also faced questions of community, identity, and explaining experience. Revised criteria and willingness to retain an identity term are not identical matters.
 
-The form's additional explanation may run into an obstacle here too. The caseworker sees the clash between shifts and caring; those above receive only the statistics for the three established difficulties. Only if the original explanation is sent along to the people who can adjust the service does the new problem stand a chance of changing how resources are allocated.
+Ian Hacking called such reciprocal effects between classifications and people looping effects. Categories alter treatment and self-understanding; people accept, reject, or repurpose names, prompting reconsideration.[^hacking] Research must trace actual services, expectations, and actions. Counting renamed categories does not establish changed lives.
 
-Once it arrives, someone still has to respond. A decision that a service cannot be added for now also has to state which resources or which authority constrain it; only then can the records accumulate into a fresh discussion when the same kind of need appears again. The person concerned should not have to prove from scratch, every time they are passed to a different caseworker, that the same difficulty in their life really exists.
+A diagnosis may give a child needed support and invite underestimation. Both effects need separate investigation. Reducing stigma can accompany serious attention to difficulty; retaining a useful diagnosis need not retain low expectations or unsuitable services.
 
-![A comparison of two identical arrangements of roles. On the left, material outside the classification stops at the frontline; on the right, an added path carries original records and additional explanations into the decision, and specifies who acts and who replies.](/assets/img/book/en/fig-08-knowledge-authority.svg){: width="1200" height="780" }
-_Figure 14.2　How the people who know about a problem get it dealt with. The right-hand diagram sends the original records and additional explanations to the people with the authority to act, and returns the decision to the frontline; the dotted lines are the added routes. This is a hypothetical comparison of institutional design, not an organisation chart of Wells Fargo. Drawn for this book._
-
-A worker who sees a failure still may not be able to decide alone what a new rule will mean for everyone. The person who holds the authority to decide may not understand the ground any better than the worker does. Bringing raw experience into the discussion does not require handing all authority to one side first; it requires that each side's reasons can actually change the proposal, and that the person responsible for the decision then explains which arrangement has been adopted.
-
-Some results only show later. After the service is adjusted, whether the person concerned really has a better chance of finding work, and who has been given a heavier load by the new arrangement, both need new reports. That is how an institution can learn what its original classification never taught it.
-
-But this depends on the people who raise the problem not being pushed out for making things more troublesome. An institution that lets only its designers name failure will find it hard to learn from experiences its designers never had. This limits knowledge, and it limits participants' influence on their shared life.
-
-#### Placing ability outside the individual
+#### People Hidden by an Average Score
 {: #s15-5 }
 
-Work distributed across different positions can also make up an ability that no individual had to begin with. As an aircraft prepares to land, the speeds that need attention at different stages depend on conditions such as weight and flap setting. The pilot has to know more than a single number; in the midst of a busy operation, they also have to recognise how the current speed relates to the speed needed next.
+Suppose a tool classifies ninety-five of a hundred cases correctly. That figure does not locate the five errors: scattered across circumstances or concentrated in one? Nor does it distinguish a correctable notice from a lost opportunity that cannot be recovered.
 
-Studying the cockpit, Edwin Hutchins observed that reference cards, spoken confirmations, instruments and speed bugs all take part in this work. The required speeds can be looked up in advance and placed on the instrument as markers; afterwards, looking at where the needle stands in relation to the markers completes part of what might otherwise have required remembering the numbers and then comparing values.[^hutchins]
+False inclusion and false exclusion may require different detection routes. Included people enter a process and leave subsequent records. Excluded people may never return to the system. Later data on admitted cases cannot establish that everyone outside should have remained outside.
 
-The markers move some of the work to beforehand, and they also turn a comparison of values into a comparison of positions in front of the eyes. If they are set wrongly, they preserve the error just as faithfully; the confirmation between the pilot and their colleagues is part of this ability. Testing one person alone on how much they can remember without tools would miss what the actual operation relies on.
+Appeals and supplementary evidence can reveal hidden errors. Someone wrongly excluded needs a way to provide corrective evidence. Review must also ask whether appealing is prohibitively time-consuming, evidence is obtainable, and recipients can change decisions. A written procedure must be usable to correct anything.
 
-Andy Clark and David Chalmers's "The Extended Mind" makes a stronger philosophical claim: under suitable conditions of coupling, external resources can become part of a cognitive process, and even of certain beliefs. The claim concerns how the boundary of the mind is to be drawn, and it remains a matter of philosophical dispute.[^extended]
+Front-line workers may notice an exception without a field for it. Those with a field may only annotate, without changing the determination. Rule-makers may receive only aggregate figures.
 
-The authors use a thought experiment to make the question concrete. Two people want to go to a museum; one recalls the address from memory, while the other, because of difficulties with memory, has long kept important information in a notebook carried everywhere, and turns to it as a matter of course when needed. If the notebook is reliably available, its contents consistently trusted, and it takes a continuing part in the person's life, should we exclude it from the relevant cognition simply because it lies outside the skin?
+The newly recorded care difficulty may stall here. A caseworker sees the conflict, while managers receive only totals in three old categories. Sending original accounts to people able to adjust services gives the discovery a chance to reallocate resources.
 
-Even without ruling for now on whether the notebook belongs to the mind, we can still study how it takes part in a person's actual abilities. The same holds for the cockpit: the reference cards, the markers and the colleagues' confirmations are all factors that have to be examined when explaining performance and error.
+Receipt still requires response. Even a decision against new services should explain limits of resources or authority. Repeated needs can then accumulate into reconsideration, rather than forcing applicants to explain the same life difficulty from the beginning with each new worker.
 
-As the scope of cooperation widens further, new problems appear. Departments in a company can exchange data yet pursue different interests; schools can share student records yet hold different ideas of what good education is. Doing cognitive work together does not mean that everyone has the same purpose or a single shared consciousness. In analysing an organisation, the disagreements between participants, and what each of them is able to decide, still have to be kept in view.
+![Identical roles with different connections: unclassified material stalls on the left; on the right, new routes carry records into decisions and assign handling and response.](/assets/img/book/en/fig-08-knowledge-authority.svg){: width="1200" height="780" }
+_Figure 14.2　How detected problems reach action. The right adds paths for original records and supplementary accounts to decision-makers, with responses returned to the front line. Dashed lines mark additions. This hypothetical design is not Wells Fargo's organisational chart._
 
-Cooperation between disciplines also meets institutional differences of this kind. Different disciplines may genuinely need different concepts, instruments and training; within a university, they also organise their own courses, award their own degrees, and use their own systems of publication and review. Researchers who want to work together therefore face more than conceptual problems.
+A worker noticing failure cannot necessarily decide a new rule's effects on everyone. Decision-makers need not understand local circumstances better. Bringing experience into discussion does not require giving one party all authority. Participants' reasons must be able to change a proposal, and responsible decision-makers must explain the arrangement adopted.
 
-For instance, a study that needs the methods of two fields at once may first have to settle: which side can assess the other side's evidence? To which kind of reviewer should the results be submitted? Is the time participants put in recognised within each side's system of evaluation? These institutional arrangements affect whether the cooperation can continue. If the whole difficulty is put down to "the two sides think differently", there is no training or evaluation system left that could be changed.
+Some outcomes take time. Do users gain employment opportunities? Who bears additional burdens? New reports allow institutions to learn what their original classification could not record.
 
-Researchers can first spend time learning to understand the other side's evidence, and they may also find that what is hardest to change is the evaluation system. Two people already know how to work together; the units they belong to may not give them the conditions to keep going.
+One premise underlies this: people raising problems should not be excluded because they complicate procedure. When only designers may name failure, experiences they have never had struggle to change the institution. Knowledge and participants' influence are both restricted.
 
-#### What questions a talking system brings back
+#### Locating Ability Beyond the Individual
 {: #s15-6 }
 
-AI can learn from the text, images and other data that people have accumulated over a long time, and can also acquire abilities through different kinds of training and tools. Some work that once required a person to learn for many years is work in which machines can now provide useful results; how ability is distributed, though, cannot be guessed by following the order in which humans grow up. Doing a hard task well does not automatically make every apparently simpler task reliable.
+Connected work can give individuals abilities unavailable alone. During an aircraft's approach, required speeds vary with weight, flap settings, and other conditions. Pilots must recognise relationships between present and upcoming speeds amid demanding operations, not simply know one number.
 
-Before discussing "whether it is intelligent", one can first sort out which question one wants to ask. The same answer may concern function, degree of resemblance to humans, internal mechanism or subjective experience:
+Edwin Hutchins's cockpit research observed reference cards, verbal confirmation, instruments, and speed markers participating together. Speeds could be found beforehand and marked on instruments. Comparing pointer and marker positions then performed work otherwise requiring remembered numbers and numerical comparison.[^hutchins]
 
-| What you actually want to ask | Where to start checking | What this does not answer on its own |
-|---|---|---|
-| Whether it can complete a given piece of work | The task, its conditions, stability and failures | Whether it completes the work in the same way a person does |
-| Whether its behaviour resembles a person's | Language, actions and modes of interaction | Whether it has the same feelings |
-| What usable representations have formed inside it | How information affects its operation and transfer | Whether this is enough to produce subjective experience |
-| Whether it has subjective experience | First clarify what experience means and what evidence would be acceptable | A single human-like answer cannot close the case |
+Markers move work earlier and turn numerical into spatial comparison. Wrong settings preserve errors too; confirmation with a colleague belongs to the ability. Testing unaided memory alone omits conditions of actual work.
 
-Being able to produce sentences about grief is an observable performance; whether it feels grief still needs other arguments. That it uses statistical methods internally is likewise not enough on its own to decide whether it can understand. Only once the questions are sorted out do we know which kind of claim a given observation supports.
+Andy Clark and David Chalmers's “The Extended Mind” makes a stronger philosophical claim: suitably coupled external resources can constitute parts of cognitive processes and even certain beliefs. Where to draw the mind's boundary remains disputed.[^extended]
 
-Deployment also makes a model part of other people's environment. A classification that exists only on paper and one that takes part in a great many screenings every day have different consequences. Users adjust their inputs, the people being classified respond to the rules, and later data may be affected by earlier decisions. So the original test scores still matter, yet they are not enough to answer how the new behaviour, power and costs are distributed.
+Their thought experiment compares two people heading for a museum. One recalls the address; another with memory difficulties routinely keeps important information in a notebook and consults it naturally. If the notebook is consistently available, trusted, and integrated into life, should its position outside the skin alone exclude it from relevant cognition?
 
-In a hypothetical workflow, fixed programs can check clearly defined formats and constraints, AI or other search methods propose candidate solutions, and suitable trials then compare the results. AI might also first judge whether the conditions for a known method are met and then call a fixed procedure; if the results turn out anomalous, another approach is tried. Whether this division of labour is useful needs to be confirmed by testing on the task.
+Whether a notebook counts as mind remains arguable. Its contribution to ability is already investigable. So are cockpit cards, markers, and confirmations in explaining success and error.
 
-Some low-impact operations can be carried out first and logged, to be checked afterwards; some risks need to be constrained in advance. When a person takes over, they also have to be given the original situation and enough time. Which party seems more human, and which is called the intelligent core, cannot substitute for these arrangements. As for whether to change the shared goal, that still requires the participation of those who bear the responsibility and those who are affected.
+Larger cooperation also brings conflicting interests and aims. Departments share data while pursuing different interests; schools share student records while disagreeing over education. Joint cognitive work does not imply one purpose or consciousness. Analysis must preserve disagreement and each participant's authority.
 
-Each stage may also receive the errors of the stage before. A model's explanations need to be checked against the original data, the tool results and the operation logs; if the generator and the checker would miss the same kind of problem, running it once more does not necessarily add much capacity to catch errors. When designing a check, state which kinds of error it can find.
+Academic cooperation faces institutional differences too. Disciplines need distinct concepts, instruments, and training, and organise courses, degrees, publication, and review differently. Conceptual understanding leaves these arrangements to navigate.
 
-A person with only a few seconds left, and no view of the crucial information, can hardly carry all the checking that the process on paper hands to them. Who is actually able to spot a problem, and who has the authority to halt or change things, should be designed together with the allocation of responsibility.
+A project needing two fields may need to establish who can evaluate which evidence, which reviewers suit the results, and how each participant's work is recognised. These conditions affect continuity. Explaining all difficulty as different thinking hides alterable training and assessment.
 
-#### Self-correction may serve only the original goal
+Researchers may learn each other's evidence yet find assessment hardest to change. Knowing how to collaborate does not establish institutional permission to continue.
+
+#### What a Talking System Brings Back Into Question
 {: #s15-7 }
 
-A system can be very good at correcting errors while allowing only one kind of error to be named. If a service system asks only whether processing time has been shortened, it can keep learning to close cases faster without ever learning to recognise whether the person's problem has actually been dealt with. Even if feedback from appeals is added, so long as appeals are still defined as a burden to be cleared, the feedback may help the system exclude dissatisfaction more efficiently.
+AI can learn from accumulated text, images, and other human materials, and acquire abilities through different training and tools. It now provides useful results in some tasks once demanding years of human learning. Reliability cannot be inferred from human learning order. Success at one difficult task does not automatically make seemingly simpler tasks reliable.
 
-Where the system once counted only the time taken to close a case, it now has to trace where that person's difficulty went after the case was closed. Receiving a new piece of experience sometimes makes us rethink even what "done" means.
+Before asking whether it has intelligence, distinguish the actual question. One response can raise questions of function, human likeness, internal mechanisms, or experience:
 
-Those who propose a new goal also need to state their reasons and the likely costs; others may still disagree. But if the institution accepts only suggestions about "how to close cases faster", and never lets anyone discuss whether a case has been resolved, the part that most needs changing stays permanently outside the discussion.
+| Question | Where inquiry can begin | What cannot answer it directly |
+|---|---|---|
+| Can it perform a task? | Task, conditions, stability, and failures | Whether it works as humans do |
+| Does it behave like a human? | Language, action, and interaction | Whether it has similar feelings |
+| What useful internal representations form? | How information affects operation and transfer | Whether this produces subjective experience |
+| Does it have subjective experience? | Clarify experience and admissible evidence | One human-like answer cannot settle it |
 
-### 15 — What Makes an Understanding Worth Relying On
+Producing sentences about grief is observable; feeling grief requires further argument. Statistical mechanisms alone also cannot decide whether understanding is present. Distinguishing questions reveals the reach of an observation.
+
+Once used, a model becomes part of other people's environment. A paper classification differs from one participating in daily large-scale selection. Users adapt inputs, classified people respond, and earlier decisions affect later data. Initial scores matter without settling new behaviour, power, and costs.
+
+In a hypothetical workflow, fixed software checks defined formats and constraints, AI or other searches propose candidates, and appropriate trials compare results. AI may assess suitability for a known procedure and call it, then change methods when results are abnormal. A plausible division still requires testing in actual work.
+
+Some low-impact actions can proceed with records and later checks; other risks need prior limits. Humans taking over need original circumstances and sufficient time. Role names and human resemblance cannot decide the arrangement. Changes to shared goals require responsible and affected people to participate.
+
+Each stage may inherit earlier errors. Model explanations need comparison with original evidence, tool outputs, and records. A generator and checker sharing a blind spot may merely let the same error pass twice. A check must specify which failures it can detect.
+
+A person with seconds and no critical information cannot perform all the verification assigned on paper. Actual detection capacity and authority to stop or change must accompany responsibility.
+
+#### Self-Correction Can Still Serve Only the Original Goal
+{: #s15-8 }
+
+A system can keep correcting while recognising only one kind of error. A service measuring handling time can learn faster closure without learning whether problems are resolved. Even complaint feedback may teach better obstruction if complaints are defined as burdens to remove.
+
+Beyond closure time, inquiry must follow whether the person's difficulty remains. A new account may change the meaning of completion itself.
+
+Proponents of new goals owe reasons and consideration of costs; others may disagree. But if only faster closure can be discussed, and resolution itself cannot, what most needs changing never enters the conversation.
+
+### 15 — A Second-Order Framework: Understanding That Can Change Itself
 {: #s16 }
 
-When we make a judgement, we are also changing how the next judgement can be made. Relying on a tool may save effort today while letting a skill that goes long unused slowly grow rusty; keeping a record of one failure adds work now, yet those who come later may be spared a stretch of wasted road because of it. The ways we understand the world are themselves changing the capacities and conditions within it.
+Today's judgements change the grounds of tomorrow's. A tool saves effort while an unused skill grows rusty. Preserving a failure adds work now but may spare successors a detour. Understanding does more than deliver an answer. Methods leave abilities and limits behind.
 
-Begin by comparing two hypothetical public service systems. At present they handle the same cases, and on the results that have been checked they are equally accurate. System A keeps suitable records of its failures, lets those affected add circumstances the original classification had no room for, and has someone responsible for dealing with errors once they are confirmed. System B gradually deletes its failure data, restricts outside comparison, and makes it harder for the people who raise exceptions to go on taking part.
+Consider two hypothetical public-service systems handling the same cases with equally accurate checked results. A preserves appropriate failure records, accepts circumstances outside its categories, and assigns someone to correct confirmed errors. B gradually deletes failure data, restricts outside comparisons, and makes participation harder for people raising exceptions.
 
-Judged by the current rate of correct answers alone, there is no difference between them. But B is reducing the means by which we could learn about its later performance. Without records, it is hard to compare whether an error keeps recurring; without access to other sources, it is hard to know whether the original results were complete; once the people who raised exceptions have left, the omissions in the classification also become harder to see.
+Current accuracy does not distinguish them. B nevertheless reduces opportunities to see later performance. Without records, repeated error is hard to identify. Without other sources, completeness is difficult to assess. Once people raising exceptions leave, omissions become less visible.
 
-B may still get the next case right. What is disappearing is the basis on which anyone could later judge whether it did, and the means of making a correction once a problem has been confirmed. A choice made today has already altered the conditions for knowing in the future.
+B may still answer correctly next time. What disappears is the basis for judging later correctness and the means of making established corrections. Current performance has not fallen; future conditions of inquiry have changed.
 
-Personal candour cannot maintain these capacities on its own. Someone willing to admit mistakes may still not know where they went wrong if the only cases they can read about are the successes; an institution that speaks with confidence, if it submits to independent checks that have real effect, may be easier to examine than one that is modest in speech yet refuses to hand over its data. Attitude has to be matched by data, skill and authority before it can actually change a judgement.
+Candour alone cannot maintain these abilities. Someone willing to admit mistakes may not find them when only successes are available. A confident institution accepting effective independent checks may be more examinable than a modest one withholding evidence. Willingness needs data, skill, and authority to produce correction.
 
-Why should effort be spent on preserving the capacity to catch errors? A value judgement needs to be stated openly here: when an error could cause serious loss, and the chance of avoiding it can be kept open at a proportionate cost, we have reason to make that upkeep part of our choice. This is no command derived from the bare fact that people make mistakes. It gives weight to avoidable loss, and at the same time it requires costs, rights and other needs to be weighed against one another.
+Why spend effort preserving error detection? The values must be explicit: when errors threaten important losses and opportunities to avoid them can be maintained at proportionate cost, we have reason to include maintenance in our choices. Fallibility alone does not issue this command. It also values avoidable loss and requires comparison of costs, rights, and other needs.
 
-From this, the book puts forward a claim for evaluating long-term reliance: **while serious uncertainty remains, the choice of a method should also take into account how it affects the capacity, later on, to obtain evidence, to learn, and to correct serious errors.**
+For methods relied on over time, this book therefore proposes: **while important uncertainty remains, choosing a method should include consideration of its effects on future capacities to obtain evidence, learn, and correct important errors.**
 
-What is being evaluated here is the reason for continued use. The correct answers a book already contains do not become wrong because its author refuses criticism; but on content not yet verified, on new situations of use, or on future editions, a refusal to have errors checked affects what we have to go on in continuing to believe it. Whether an answer is true, what evidence there already is, and how evidence will be obtained and corrected later are three things that need to be set out separately.
+This concerns continued reliance. An author's refusal of criticism does not make existing correct answers false. For unverified content, new applications, or future editions, however, refusal weakens grounds for trust. Truth, present evidence, and future acquisition and correction of evidence need separate treatment.
 
-The distinction also changes how each case is handled. A method that performs well yet lacks any channel for checking may be helped simply by adding external verification first, without the method itself having to be rewritten straight away. A method whose procedures are open yet which keeps giving wrong answers may need to be revised, or even relieved for a time of some important task; a willingness to be checked is not the same as already being able to do the job. Between A and B, the actual costs still have to be compared, and it cannot be concluded that A should be adopted whatever the price simply because it keeps more procedures in place.
+The distinction changes responses. A successful method without verification channels may first need external checking, not immediate replacement. An open procedure that continually fails may need revision or suspension from an important task. Openness cannot replace performance. A and B still require actual cost comparison; additional procedures do not justify A at any price.
 
-![The horizontal axis shows the conditions for recognising and dealing with serious errors, the vertical axis present performance. Two points at the same height show that the answers need not yet have worsened while the conditions for catching errors have moved from sounder to weaker.](/assets/img/book/en/fig-09-reliance-over-time.svg){: width="1200" height="800" }
-_Figure 15.1　Present performance is the same; the later capacity to catch errors may already differ. Movement to the left marks weakening conditions for catching and correcting errors, and is no prediction that the next case will certainly go wrong; the figure has no measured scale. Drawn for this book._
+![The horizontal axis concerns conditions for identifying and correcting important errors; the vertical axis is current performance. Two equally high points show unchanged answers alongside weakened checking conditions.](/assets/img/book/en/fig-09-reliance-over-time.svg){: width="1200" height="800" }
+_Figure 15.1　Equal present performance can conceal different future capacities to detect error. Leftward movement denotes weakened checking and correction, not a prediction of inevitable failure next time. No empirical scale is shown. Drawn for this book._
 
-Conversely, adding an appeal channel that can actually overturn a determination, even before it has raised the average score, may allow people who previously had nowhere to appeal to point out omissions in the classification. Its effect still has to be checked and its cost assessed; but it cannot be concluded that the change has no value simply because the short-term score has not risen. What long-term reliance requires us to compare also includes which evidence can be obtained in future, and who is in a position to make that evidence change a decision.
+Conversely, an effective appeal channel can reveal classification gaps to people previously without recourse before average scores improve. Effects need checking and costs assessing. No short-term increase does not establish no value. Continued reliance compares future access to evidence and who can make discoveries change decisions.
 
-#### Catching errors has costs too
+#### Checking Has Costs
 {: #s16-1 }
 
-Between services A and B, keeping more records is not always better either. More checking may lower efficiency, and it may intrude on privacy. Publishing certain data in full may expose vulnerable people to fresh harm. Allowing every objection to halt the work may leave an important service unable to run at all.
+Does A's larger archive necessarily make it preferable? Investigation may reduce efficiency or invade privacy. Full disclosure can expose vulnerable people to harm. Letting every objection halt operations may disable essential services.
 
-Preserving the capacity to catch errors has to be weighed together with cost, time limits and rights. Some information can be seen by independent examiners bound by obligations, without being opened to everyone; some exceptions are better reviewed at regular intervals than allowed to interrupt the work each time. The concrete arrangements have to be designed separately.
+Error checking must be considered alongside costs, deadlines, and rights. Constrained independent reviewers may access information unsuitable for universal publication. Some exceptions warrant periodic review rather than immediate interruption. Such distinctions belong in concrete design.
 
-If an error-checking arrangement costs a great deal, adds almost nothing to what can actually be detected, or causes a graver loss that cannot reasonably be accepted, there may be no sufficient reason to keep it. Being given the name of oversight does not exempt it from a check on its costs.
+A costly check supplying little discrimination or causing more serious unacceptable losses may lack adequate justification. The name oversight does not exempt an arrangement from demonstrating proportionate benefit.
 
-There are also situations in which going on checking the same thing is simply not worth it. If we truly had a sufficient guarantee that a system must be correct under every relevant condition, and that it would never stray beyond those conditions, then checking the same thing over and over might do nothing except add cost. This is why the claim above was limited to cases where serious uncertainty remains and reliance will continue; for a result that is already guaranteed, the mere fact that it could be checked again is no ground for demanding more resources.
+Some matters do not warrant endless rechecking. Suppose a system really has sufficient guarantees of correctness under all relevant conditions and can never leave them. Repeated checking may then add only cost. This is why the claim concerns important uncertainty and continued reliance. The mere possibility of another check does not justify more resources for guaranteed results.
 
-To apply such a guarantee to the system in front of us, its scope has to be established. Which premises does the formal proof use? Which inputs do the tests cover? Will actual use go beyond those conditions? So long as some part that could affect the outcome remains unconfirmed, the reason for catching errors has not entirely gone.
+Applying such assurance requires establishing scope. Which premises underlie the proof? Which inputs were tested? Can actual use leave those conditions? Unconfirmed influences can still supply reasons for examination.
 
-An opaque interior does not mean that every kind of reliable evidence is lacking. Performance records, external measurement and suitable comparison can sometimes supply sufficient reason for use. Whether the internal steps need to be understood depends on whether doing so would settle an important question still unconfirmed; transparency in itself cannot be treated as a necessary condition for all knowledge.
+Opaque internals do not eliminate all reliable evidence. Performance records, external measurement, and suitable comparisons can sometimes justify use. Whether another internal detail resolves an important uncertainty supplies the reason to investigate. Transparency need not be a universal prerequisite of knowledge.
 
-#### Letting those who come after do more
+#### Let Successors Do More
 {: #s16-2 }
 
-Keeping data is useful because someone can take it and compare afresh; writing out reasons is useful because someone can learn them and point to a step that does not hold. If the data exist but no one has permission to read them, if the method is written down but practice and questioning are never allowed, what gets handed down may be nothing more than the name of an authority.
+Records help because someone can compare again; explicit reasons help because someone can learn and challenge a step. Data nobody may read and methods nobody may practise or question can leave successors only an unchallengeable name.
 
-What we need to build together therefore includes data that can be obtained, practices that can be learnt, and openings through which new findings can enter decisions. These support one another. A new measurement may expose the inadequacy of an old classification; the account of someone directly affected may point to what ought to be measured; reasons made public allow people far away to redo the comparison. No single person has to know everything first, and other people's results can still become one's own new capacity.
+What we build together therefore includes accessible evidence, learnable procedures, and opportunities for findings to enter decisions. These support one another. Measurements expose categories; testimony identifies measurements; public reasons allow distant repetition. Nobody need know everything before separate achievements form new abilities.
 
-More people able to take part does not make error disappear. A newly added examiner may also be swayed by interests, or may simply carry over the judgements of the original group. What is worth comparing is how much more the data and practices they bring can actually uncover.
+More participants do not eliminate error. New reviewers may share interests or judgements with earlier ones. Compare the data, methods, and additional detection they actually bring.
 
-The value of an added check can be relative and limited. Two checks that fail in different ways may expose problems better than one check repeated; making the source of the data traceable may be easier to verify than an authoritative signature alone; separating the authority to decide from certain interests may reduce particular distortions.
+A check can have limited but definite value. Differently fallible checks may reveal more than repetition of one method. Traceable sources may permit more verification than an authoritative signature. Separating authority from particular interests may reduce specific distortions.
 
-These comparisons do not have to wait for a final examiner who never errs. What they need are concrete reasons showing how the added arrangement changes risks already identified, and whether it is worth its cost. If a layer of oversight merely reproduces the blind spots already present, this book has no reason to count the added layer as progress.
+These comparisons need not await an infallible final reviewer. They need concrete reasons why a new arrangement changes identified risks at worthwhile cost. Another layer copying old blind spots has no automatic claim to progress.
 
-Snow in Chapter 2 completed his comparison by relying on residents, landlords and water-supply records; the reader in Chapter 10 followed the reasons and learnt a method they had not known before; the service in Chapter 14 reconsidered what it offered, starting from difficulties the original form could not record. Together these pieces of work enlarged what later people could ask, check and do. Their value goes beyond making the old answers wrong a few times less often.
+Snow's investigation combined households, landlords, and water records. Chapter 10's readers acquired methods by following reasons. Chapter 14's services reconsidered provision through difficulties their forms could not record. Each expands what successors can ask, check, and do. Existing answers may fail less often; new questions also become possible.
 
-A coherent way of thinking can form through learning of this kind. Faced with different problems, it lets proof, interviewing, sensory practice or negotiation each do their own work; choosing among them in turn requires reasons that can be stated and that bear on the problem. One's own experience submits to the same demand. Even "this is how I usually check" can turn out to be a practice in need of revision.
+A coherent way of thinking can form through this learning. Proof, interviews, sensory practice, and negotiation can each serve different questions, with relevant reasons for choosing them. Personal experience faces the same demand. Even familiar checking methods can be reconsidered.
 
-This direction carries forward the thinking introduced earlier. Peirce and Dewey placed inquiry within difficulty, action and experience; bounded rationality brought time and ability into the explanation of judgement; Hutchins's research, together with Clark and Chalmers's argument for the extended mind, made arrangements beyond the individual harder to ignore. Putting these threads together, we can press the question: will the capacities we borrow today give the people of tomorrow a better chance to understand and change their own situation, or make it ever harder to see where something has gone wrong?
+This direction inherits earlier thought. Peirce and Dewey locate inquiry within difficulty, action, and experience. Bounded rationality includes time and ability. Hutchins's research and Clark and Chalmers's extended-mind argument make external arrangements harder to ignore. Their intersection leaves a common question: do today's borrowed capacities help tomorrow's people understand and alter their circumstances, or make error harder to see?
 
-#### After seeing clearly, a commitment still has to be made
+#### After Understanding, Commitment Remains
 {: #s16-3 }
 
-Yet those who come after becoming ever more able to achieve some purpose may also be the more worrying prospect. An oppressive institution can learn to recognise its own failures and maintain the oppression more effectively. Understanding how to get a thing done has not yet answered whether it is worth doing. Effectiveness in knowing cannot by itself manufacture ethical legitimacy. Whether those affected can make demands, and whether they have a right to be free of certain treatment, involves a normative position that has to be defended directly.
+Better means of attaining an aim can also be alarming. An oppressive institution can learn from failure and oppress more effectively. Knowing how to accomplish something does not establish its worth. Increased knowledge and effectiveness do not generate ethical legitimacy. Affected people's standing and rights require direct normative arguments.
 
-The position this book takes is that people should have a real opportunity to offer reasons, raise questions and seek suitable redress concerning arrangements that deeply affect their lives. How neural reflexes and control systems work has not chosen this position for us; a commitment to the standing of persons and to living together has to be defended with ethical and political reasons.
+This book adopts the position that people should have real opportunities to offer reasons, question, and seek appropriate remedy regarding arrangements deeply affecting their lives. Neural reflexes and control systems do not select that position for us. Commitments about human standing and shared life require ethical and political reasons.
 
-If the service system of Chapter 14 wants only to close cases faster, appeals may come to be treated as a number to be kept down. Giving those affected the right to question whether "closed" means the problem has been solved changes what the system ought to learn. Even so, once every party is able to give reasons, a choice everyone agrees on will not necessarily emerge.
+A service pursuing faster closure may treat complaints as figures to suppress. Giving users the standing to question whether closure means resolution changes what the system should learn. Equal access to reasons still does not guarantee consensus.
 
-In 2009, the breast cancer screening recommendation published by the U.S. Preventive Services Task Force provoked controversy. The recommendation of the time left the question of whether to begin regular mammography between the ages of forty and forty-nine as a decision that had to take account of individual circumstances and the weight given to benefits and harms; for ages fifty to seventy-four, it recommended screening every two years. What is discussed here is a historical document from that year, and it cannot serve as personal screening advice today.[^screening]
+In 2009, US Preventive Services Task Force breast-cancer screening recommendations prompted controversy. At that time, starting regular mammography between forty and forty-nine was presented as an individual decision considering circumstances and the weighting of benefits and harms; biennial screening was recommended from fifty to seventy-four. This is a historical document, not current personal screening advice.[^screening]
 
-Screening looks, among people without relevant symptoms, for signs that may call for further examination. Finding certain cancers early can bring benefit, yet an abnormal result may in the end prove not to be cancer; and some cancers that are found and treated might never have caused symptoms or death within that person's lifetime. These different situations mean that "a few more cases found" cannot by itself answer the question of overall benefit and harm.
+Screening seeks possible indications for further examination among people without relevant symptoms. Earlier detection can help, while abnormal results may prove not to be cancer. Some detected and treated cancers might never have caused symptoms or death in that person's lifetime. More detections therefore cannot alone establish overall benefit.
 
-When comparing effects, the denominator also has to be known. Take first a set of hypothetical figures unrelated to any breast cancer screening data: some programme reduces a risk from four people in every hundred to two. To say "the risk is halved" is correct, and to say "two fewer people in every hundred" is also correct; the second lets the reader know at the same time how large the original risk was. When only the proportional reduction is reported, people readily form different pictures of the actual difference.
+Comparisons also need denominators. Consider hypothetical figures unrelated to breast-screening evidence: an intervention lowers a risk from four in a hundred to two. Both “halves the risk” and “two fewer per hundred” are correct. The latter also exposes the original magnitude. Relative reduction alone invites different impressions of the absolute difference.
 
-The controversy of that year concerned whether the evidence was sufficient, how the models estimated the effects, and how benefits and harms should be expressed. Even where some effects are estimated more clearly, it remains to be weighed how much expected benefit is worth how much additional examination, anxiety and cost of treatment. Where an individual has to decide, they also have to be given explanation and support they can understand; simply handing them the choice does nothing to lessen the difficulty.
+The controversy concerned evidential sufficiency, modelling, and communication of benefits and harms. Clearer estimates still leave questions of how much benefit warrants additional tests, anxiety, and treatment. Individual choice requires comprehensible information and support. Handing someone the choice does not remove the difficulty.
 
-Richard Rudner proposed in 1953 that how strong the evidence must be before a hypothesis is accepted may depend on the consequences of judging wrongly. Heather Douglas later went further, studying how such inductive risk bears on research methods, the reading of data and inference.[^values] A claim of this sort brings "how great a risk of misjudgement to bear" into the discussion; the evidence itself must still be handled truthfully.
+In 1953, Richard Rudner argued that evidential thresholds for accepting hypotheses can depend on the consequences of error. Heather Douglas later examined such risk in research methods, data interpretation, and inference.[^values] Including acceptable error risk does not authorise alteration of evidence.
 
-For example, the grave consequences of failing to detect a harmful substance can lead us to demand different conditions of testing; they cannot lead us to rewrite a measured value because we hope the substance is harmless. That values take part in how uncertainty is borne does not mean the facts can be shaped at will.
+Serious consequences of missing a harmful substance may justify different testing requirements. Hoping it harmless does not justify rewriting measurements. Values affect tolerable uncertainty, not facts at will.
 
-Admitting that one may have seen wrongly does not require standing forever in the middle of every dispute. You can be willing to revise your judgement of an institution's effects while making clear that you will not support shifting heavy costs onto people who have no choice. The first concerns evidence; the second puts forward a position that has to be defended.
+Acknowledging possible error permits commitment. You can revise beliefs about institutional effects while refusing to support concentrating major costs on people without alternatives. One concerns evidence; the other offers a position requiring defence.
 
-That position has a history of its own. Family, education and experience take part in what we care about, but finding the causes that formed a position is not the same as proving it wrong. What still has to be asked is this: knowing all that, are we now willing to go on owning it, can we explain our reasons to those it affects, and are we willing to face the consequences it brings about?
+That position has a history. Family, education, and experience shape concerns without their influence alone disproving a value. After recognising the history, do you still endorse it, can you explain it to those affected, and will you face its consequences?
 
-Reason, feeling and experience can all lead us to reassess a value. Coming to understand another person's situation may change the costs we were previously willing to accept; establishing the facts may take the ground from under an earlier anger. If we go further and want to turn our own commitment into a shared rule binding on others, we must also explain who can take part in the decision, and why those affected should accept such an arrangement.
+Reason, feeling, and experience can prompt reconsideration. Understanding another life may change tolerable costs; evidence may remove anger's grounds. Making a commitment into a binding common rule additionally requires explaining participation and why affected people should accept the arrangement.
 
-#### From understanding back to action, and back again
+#### From Understanding to Action and Back
 {: #s16-4 }
 
-The choosing, checking and practising discussed so far move in two kinds of loop. To get something clear, we form an interpretation from observation, state an expectation, and then revise it with new material. To get something done, we choose an action with a purpose in mind, and when the results arrive we check the method and may also change the original purpose.
+Earlier choices, inquiries, and practice reveal two movements. To understand, we form explanations from observations, make predictions, and revise with new material. To accomplish, we choose actions for purposes, then let results challenge methods and perhaps purposes themselves.
 
-The two loops can interleave. A trial run under suitable conditions can help identify a need that could not be articulated before; a research finding may strip an otherwise attractive goal of its justification. But action is not an all-purpose licence to experiment. When someone will be hurt, when rights and interests will change, when an opportunity may not be recoverable, a thing cannot be carried through simply because it would aid learning.
+These movements interweave. Suitable trials clarify initially obscure needs; research can undermine an attractive goal. Acting to learn nevertheless has limits. Possible harm, changed rights, and irrecoverable opportunities prevent learning alone from justifying continuation.
 
-A single check may also change what was originally to be done. Recovering the record made on the spot may mean correcting only one number; hearing out the experience of someone never asked before may reveal that the scope of the problem needs to widen. There is no need at that point to run through every earlier chapter again; following the difficulty that has actually appeared is enough.
+Inquiry may also change the intended action. Recovering records may correct one number; hearing someone previously excluded may widen the question. There is no need to rerun every chapter. Follow the newly revealed difficulty.
 
-The stopping question of Chapter 11 still holds: what might the next step of analysis change, and how much time is it worth? Even so, that a question will not change the action in front of us for now does not mean it is never worth studying. You can complete the present decision first and set aside other time for the needs of learning and understanding for their own sake. The two pieces of work do not have to be settled on the same evening.
+Chapter 11's stopping question remains: what might further analysis change, and how much time is worthwhile? No effect on immediate action does not make a question permanently unworthy. Present decisions and long inquiry can have separate time.
 
-With time, some distinctions become second nature. You do not have to recite the definitions of observation and interpretation before noticing that an accusation carries an unproven guess inside it; nor do you have to draw the whole institutional map before knowing that the person in front of you lacks the authority to deal with a problem they have already seen. Once a method has been learnt, it can take up less of one's awareness, leaving attention for the differences that belong to this occasion alone.
+With practice, distinctions need less conscious recall. You can notice an unverified inference in an accusation without reciting definitions of observation and interpretation. You can recognise someone's lack of authority without drawing a complete institutional chart. Learned methods occupy less attention, leaving more for this occasion's differences.
 
-#### One way of thinking, with room for different practices
+#### Six Questions to Use Again
 {: #s16-5 }
 
-The sentence from the preface, "I have thought about it carefully", now has a continuation. What information was to hand while thinking, whose methods were borrowed, what still remains undealt with? Only in answering these questions do we learn what that care accomplished.
+Six questions locate work within an actual judgement. They gather the chapters' methods and can be omitted, divided, or reformulated as circumstances require.
 
-Reflection itself has to submit to this kind of checking. Going back over one's reasons may turn up a contradiction, or it may amount to turning the same thoughts over and over, eating up time for observation, rest and action. If, because we advocate reflection, we no longer allow its effects and costs to be compared, we have made an exception for precisely the method we trust most.
+First, **what are we trying to understand or accomplish?** Prediction, explanation, action, understanding someone, or reconsidering what deserves pursuit? A specified use helps identify worthwhile results.
 
-Coherence has practical content here. If I hold that the origins of a view may shape other people's judgements, I cannot declare that a statement has no formation history worth studying merely because it came from me. If I say direct experience deserves weight, I must also allow other people's experience to raise difficulties for my classifications. The same reason can carry different weight on different occasions, but the difference has to be supported by the circumstances and cannot be settled by "this time it is me".
+Second, **who is understanding, and who bears the outcome?** Knowers bring abilities, positions, and limits. Affected people may possess material absent from the framework without ever helping define the problem.
 
-A familiar operation can rely on practice that has already received feedback; an unfamiliar choice may call for looking up more data; in an emergency, one must use whatever capacity is most reliable at that moment. These differences need not break the coherence; what has to be accounted for is why time, evidence and consequences led us to switch to another practice.
+Third, **which differences does the representation preserve?** Forms, maps, statements, feelings, and models retain different relationships. Establish acquisition and selection before inspecting what remains. Differences merged away cannot be restored by that representation alone.
 
-Consistency is still not enough to guarantee correctness. A whole set of ideas may rest on wrong data, or may never have counted in the needs of some group of people. So besides checking whether one's own statements are compatible with one another, they have to be compared against actual results, other people's experience and objections.
+Fourth, **which operations are available?** Some representations support comparison or proof, others rapid action or reconstruction of reasons. Their content belongs with the work they permit.
 
-![The inner loop runs from problem and method to action and results; the outer loop sends unexpected material back to the original purpose and criteria of evaluation, and where necessary revises the reasons for choosing the method as well.](/assets/img/book/en/fig-18-method-review.svg){: width="1200" height="840" }
-_Figure 15.2　Sometimes the answer has to change; sometimes the way of judging has to be reconsidered. The outer loop shows that the existing arrangement can be re-examined, without requiring the whole way of thinking to be rebuilt for every action. Drawn for this book._
+Fifth, **which conditions support the ability?** Sources, regularities, time, skills, tools, and cooperation may all contribute. Changed conditions require comparing earlier performance with the new use.
 
-To demand, every time, that the criteria be proved infallible before one is permitted to begin is to fall back into the difficulty of Chapter 11. Judgement moves forward on the knowledge it already has, and leaves places where one can come back later and correct it.
+Sixth, **when results return, which level can change?** Numbers may need correction, representations replacement, abilities development, procedures revision. New experience may undermine the aim. A framework permitting only changed answers keeps initially unasked questions outside learning.
 
-Those who come after will do more than correct us. Given the reasons and the chances to practise that we leave behind, they may ask questions we have not yet thought of. Making that possible is one more reason an understanding deserves to be handed down.
+The questions locate work. A simple problem may need two; a new field may require finer divisions. Transfer succeeds when concrete work is identified. Repeating shared names is insufficient.
 
-#### This book is in it too
+#### How One Understanding Connects to Another
 {: #s16-6 }
 
-This book has chosen certain stories, materials and ways of putting things, and so it readily draws the reader's attention to some matters while passing over others. It spends many pages on method, but what a person sometimes truly lacks is time to rest, or someone willing to hear them tell the whole story through. To write all of that up as a failure of thinking would misread their situation just as badly.
+Six boxes ticked achieve little by themselves. A framework also examines how one understanding joins another.
 
-If a reader finds that a distinction does not help, that an example does not match the data, or that following the analysis caused them to miss what ought to have been done, this book too needs to change. It cannot earn the standing of something worth relying on in advance, merely by advocating correction.
+An epidemic becomes addresses, mapped strokes, and comparisons of water sources. Representations change while certain relationships survive. Mapping makes clustering visible; interviews distinguish proximity from shared drinking water. Successive transformations connect because earlier ones retain what later ones need.
 
-## Afterword — After Understanding, Living Together
+Others cannot connect. A mean alone cannot answer a later question about distribution. Translating silence into consent before counting produces increasingly precise calculations of an earlier interpretation. Accuracy at the end still requires checking the transformations.
+
+This book particularly follows three relationships through these sequences.
+
+The first is **preservation**: moving from experience to records to models, which differences important to the present use remain?
+
+The second is **composition**: can one person's observations join another's data, or one representation supply a later operation, with compatible premises?
+
+The third is **return**: after outcomes, can records and reasons guide investigation back to the data, representation, operation, conditions, or purpose needing review? Return means inquiry and revision. Deleted information need not be recoverable, nor consequences reversible.
+
+These relationships connect the six questions' checks. The framework need not turn medicine, mathematics, history, and ethics into one kind of thing. It compares how their understandings preserve relationships, combine, and change through outcomes.
+
+For reference, an episode can be provisionally written as a sequence: **a knower in an environment, pursuing a use, represents material, performs operations, forms a judgement or action, and receives feedback through results.** These are locations for examination. Change at any location may change ability; an overlooked location can misdirect explanations of failure.
+
+Actual understanding need not follow this order. Unease can precede a clear question; skilled movements need not begin as sentences. Results may arrive late or never become checkable. The framework locates the formation of purposes, working skills, and absent feedback without asserting a complete chain in every case. It organises our relationships in handling things, not purposes or cognition attributed to every object handled.
+
+#### Composition Needs a Sound Handover
+{: #s16-7 }
+
+Two useful steps can fail together. Accurate addresses mixing post-move and illness-time locations produce a precise map answering the wrong question. Two datasets labelled mortality cannot be directly compared as the same measure if one uses people and the other supplied households as denominator.
+
+Before combining, establish what is handed over. Does one step's output meet the next step's definitions, scale, timing, and conditions? Correct later arithmetic cannot repair an incorrect intermediate unit. Likewise, no stated objection cannot silently become consent.
+
+Order can alter results too. Comparing groups before summarising may preserve differences; collapsing everything into one score before asking about group circumstances may lose them. Earlier abilities need joint examination at these handovers.
+
+This is the purpose of the book's unified abstraction: methods from different fields can identify one another's conditions before connecting. Similar form suggests borrowing; actual transfer requires confirmation. Mathematical structures have precise definitions and proofs. These relationships currently offer philosophical tools, not an already formalised and proven complete mathematical theory.
+
+#### Connect Standards Back to Use
+{: #s16-8 }
+
+Chapter 6 separated factual truth, functional effects, and grounds for adoption. A transit map shows how these evaluations work together.
+
+Correct station order meets a factual requirement. Successful transfers also depend on legibility, skill, and environment. A design helping regular travellers while confusing newcomers distributes benefits and losses differently. Accuracy, usability, and distribution each require distinct investigation and discussion.
+
+The framework cannot automatically add them into a score. It asks how standards relate: mandatory conditions, comparable costs, and remaining negotiated differences. Where one ranking cannot be obtained, disagreements and reasons should remain. Replacing everything with useful would erase distinctions we sought to clarify.
+
+#### Coherence and Completeness Need Different Tests
+{: #s16-9 }
+
+Self-examination does not guarantee consistency. Coherence requires at least that claims under the same conditions and meanings not conflict, and exceptions have reasons. If rearrangement can preserve information, all representation cannot also be defined as deletion. Requiring checked feedback cannot exempt one's own revisable categories from checking.
+
+Including oneself makes contradiction discoverable; the examination still has to occur. Uses, users, terms, and costs face proportionate questions. If the framework complicates simple matters or replaces needed action with classification, its scope should narrow.
+
+Completeness is another demand. This book seeks wide applicability without proving that its components cover every possible understanding. An other category proves only breadth of a label; expansion after criticism proves revisability. High completeness requires investigating whether important differences survive across fields, concrete gaps become identifiable, and new work can continue.
+
+Mathematics checks definitions and proofs; history examines evidence and context; craft develops discrimination through bodily practice. Renaming all three feedback, without identifying their work, unifies vocabulary rather than understanding. The framework must preserve differences and identify possible assistance among them.
+
+Unmanageable questions can remain as gaps while new tools are sought. A stronger challenge arises when important problems repeatedly get misclassified or merely renamed afterwards. Components and their relationships then need revision. Breadth must be earned through analysis, not declared.
+
+#### One Way of Thinking Can Permit Different Practices
+{: #s16-10 }
+
+After “I have thought carefully,” we can explain what was considered: available information, borrowed methods, and unfinished matters. These answers reveal what the effort achieved.
+
+Reflection itself faces the test. Revisiting reasons may reveal contradiction or merely consume observation, rest, and action through repetition. Exempting reflection from evaluation because we favour it grants our preferred method the very privilege we challenge.
+
+Everyday coherence asks whether reasons apply to ourselves. If formation affects another's judgement, my own statements do not become history-free simply because they are mine. Valuing direct experience includes permitting others' experiences to trouble my categories. A reason can weigh differently in different circumstances, but circumstances—not self-exemption—must justify it.
+
+Familiar work can rely on practice with feedback; unfamiliar choices need more evidence; emergencies require the best presently available ability. Different procedures can have connected reasons. Time, evidence, and consequences should explain the difference.
+
+Consistency still cannot guarantee correctness. A coherent system can use false data or exclude a group's needs. Compatibility among statements needs company from outcomes, other people's experience, and criticism.
+
+![An inner loop runs from question and method to action and results. An outer loop returns unexpected material to purposes and standards, potentially revising reasons for selecting methods.](/assets/img/book/en/fig-18-method-review.svg){: width="1200" height="840" }
+_Figure 15.2　Sometimes answers change; sometimes the way of judging must be reconsidered. The outer loop permits examination of existing arrangements without requiring every action to rebuild an entire outlook. Drawn for this book._
+
+Requiring infallible standards before every beginning recreates Chapter 11's endless analysis. Judgement proceeds with available knowledge while preserving places for later correction.
+
+Successors may do more than correct us. Inheriting reasons and opportunities to practise, they can ask questions we never conceived. Making that possible is another reason to transmit understanding.
+
+#### This Book Is Included
+{: #s16-11 }
+
+This book chooses stories, evidence, and language, directing attention to some things and away from others. It devotes many pages to methods. Sometimes a person needs rest or someone willing to hear the whole account. Calling every such lack inadequate thinking would misread their circumstances.
+
+If a distinction does not help, a case conflicts with evidence, or following the analysis obstructs necessary action, the book needs revision too. A book advocating correction must earn reliance through actual help.
+
+## Afterword — Bringing Answers Back to Life
 {: #s17 }
 
-When the priest handed the child to the woodcutter, the killing in the wood still had no answer. Nor did we find one for him in the chapters that followed. Whether the woodcutter stole the dagger, and how he will care for the child from now on, remain things that still have to be understood.
+As Eagle descended, the ground had to decide whether essential functions continued after the alarms. After the mission, engineers could investigate the overload and improve subsequent procedures and training. An immediate judgement supported action; later inquiry prepared the next action better.
 
-Yet the two men had already responded from within that incomplete understanding. The story did not wait for everything to be established before letting someone carry the child away in his arms. This has kept me attentive to one thing. We want to get matters clear, and often we want it because other people live inside those matters with us, waiting for an answer, or bearing the consequences of there being none yet.
+Everyday life rarely has such clear divisions. Materials lie scattered among memories, forms, bodily feelings, and others' experience. Purposes conflict as deadlines approach. We reuse familiar methods and assess effort through readily counted results, gradually forgetting other procedures and needs. A workable arrangement quietly becomes an unchangeable one.
 
-Knowing this does not suddenly make judgement easy. Some harms have to be stopped at once, while some causes take a long time to trace; some people can state their reasons clearly, while others have not yet found the right words. We need knowledge, and we also need the time, the tools and the help from one another that let knowledge arrive.
+A second-order framework offers a way to look back. When an answer remains elusive, examine how the question formed: where material came from, which differences survived, which operations were available, and which conditions sustained them. Then return to the matter: gather evidence, change representations, seek help, revise procedures. Sometimes the purpose itself requires reconsideration.
 
-To write down a reason is to hand one's own understanding to someone else. They may carry on using it, or they may point to what we failed to see. Someone is willing to leave a record of a failure; someone is willing to demonstrate a movement that cannot be put into words; someone brings into the discussion an experience that previously had nowhere to be voiced. Later understanding begins from concrete work of this kind.
+Useful can no longer be mere praise. For whom, where, for how long, and at whose expense must be specified. Reality constrains possible choices without choosing for us. A bridge's stability can be studied; who should bear risk needs reasons. Even an effective institution remains answerable to people affected by it.
 
-We cannot decide for the next person what they ought to see. What we can do is make sure that today's understanding, useful as it already is, does not become the reason they can no longer ask tomorrow.
+This framework receives no exemption. If six questions merely lengthen conversation without improving discrimination, use fewer. If new experiences are repeatedly misclassified, revise the categories. Coherence needs particular checks; applicability needs varied challenges. Willingness to change permits this work to continue without proving it complete.
 
-## Coordinates and Sources
+Misunderstanding and error will not vanish after reading. You may misjudge someone, choose a poor measure, or regret a decision under uncertainty. Failure can nevertheless leave clues beyond disappointment: missing material, altered conditions, or neglected matters now requiring attention. The next step gains direction.
+
+We must act before we fully understand. We can let existing understanding do its best while leaving room for what has not yet been seen. We move forward with it today; tomorrow's discovery still has somewhere to return.
+
+## Intellectual Bearings and Sources
 {: #s18 }
 
-The historical facts, studies, interviews and retellings of literary works in the main text rest on the sources listed below. Images are credited separately in their captions and image-source notes; historical image files are kept apart from the diagrams drawn for this book. Literary works are kept for their narrative and intellectual value; interviews are kept as the experience of those interviewed and as reconstruction after the event. Cases explicitly marked as hypothetical are used to test reasoning and do not pose as actual events. The evaluative claims and institutional proposals in Chapter 15 are positions this book puts forward and defends; they should not be read as conclusions that the works below jointly endorse.
+The sources below support the historical accounts, research, interviews, classical passages, and literary retellings. Images carry separate credits and source notes; historical images are distinguished from diagrams drawn for this book. Literary retellings follow the original narratives and ideas. Interviews retain their status as reported experience and retrospective reconstruction. Explicitly hypothetical cases test reasoning rather than impersonate actual events. Chapter 15's evaluative claims and institutional proposals are positions argued for in this book, not conclusions jointly endorsed by all the works below.
 
 [^snowmap]: John Snow, the map recording the 1854 outbreak in *On the Mode of Communication of Cholera*. [Image file and rights information](https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg). The original is in the public domain; this book uses the 3,840-pixel version provided with the file, with the content of the map unaltered. The clustering of deaths on the map cannot on its own replace the investigation of the water source.
 
@@ -1813,7 +2026,7 @@ The historical facts, studies, interviews and retellings of literary works in th
 
 [^con]: Raymond Chen (2003). “What's the Deal with Those Reserved Filenames Like NUL and CON?” [An engineer's historical explanation](https://devblogs.microsoft.com/oldnewthing/20031022-00/?p=42073); Microsoft, [Naming Files, Paths, and Namespaces](https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file). Chapter 10 distinguishes the historical explanation from the current rules of each interface; the documentation was checked on 8 September 2026.
 
-[^apollo]: NASA, *Apollo 11 Lunar Surface Journal*, [transcript of the descent and landing communications](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html), in particular the report from mission time 102:38:26, the reply at 102:38:53 to continue the descent, and the repeated alarms that followed; Fred H. Martin (1994), [a participant's retrospective on the program alarms](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-fm.html). The exchanges between the astronauts and Duke in Chapter 11 are retold from the transcript; the division of engineering work on the ground and the search for the cause after landing also draw on the editors' notes and Martin's later recollection.
+[^apollo]: NASA, *Apollo 11 Lunar Surface Journal*, [descent and landing transcript](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html), especially reports from mission time 102:38:26, clearance at 102:38:53, and subsequent alarms; Fred H. Martin (1994), [a participant’s retrospective account of the program alarms](https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-fm.html). The preface and Chapter 11 follow the transcript and participant recollections. Ground engineering roles and post-landing investigation also draw on editorial notes and Martin’s account.
 
 [^deafferentation]: J. D. Cole & E. M. Sedgwick (1992). “The Perceptions of Force and of Movement in a Man without Large Myelinated Sensory Afferents below the Neck.” *The Journal of Physiology, 449*, 503–515. [Abstract of the study](https://europepmc.org/article/MED/1522522). Chapter 13 is limited to this case's loss of sensation, visual feedback and motor performance, and does not extend the case's results into a condition shared by all sensory disorders.
 
@@ -1921,10 +2134,6 @@ The historical facts, studies, interviews and retellings of literary works in th
 
 [^values]: Richard Rudner (1953). “The Scientist Qua Scientist Makes Value Judgments.” *Philosophy of Science, 20*(1), 1–6, [publisher's page for the paper](https://www.cambridge.org/core/journals/philosophy-of-science/article/scientist-qua-scientist-makes-value-judgments/BA23A8340EB3039A50C4177AEE2C2A5C); Heather Douglas (2000). “Inductive Risk and Values in Science.” *Philosophy of Science, 67*(4), 559–579, [DOI of the original paper](https://doi.org/10.1086/392855). Chapter 15 distinguishes the role of values in bearing the risk of error from rewriting facts at will according to values; this is an argued position, not an uncontested definition.
 
-[^beliefs]: Heinz Wimmer and Josef Perner (1983). “Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children’s understanding of deception.” *Cognition* 13(1): 103–128. [Original paper](https://doi.org/10.1016/0010-0277(83)90004-5). The ball, the box and the drawer in the Preface are an illustration adapted from the false-belief task based on a change in an object's location, not a verbatim retelling of the original experimental scene. The book uses it to show how what different people know can be understood within one scene; passing one task is not equated with full self-awareness, and it is not claimed that everyone has the same moment of insight. What this book calls "the second realisation" is a metaphor the author uses to describe counting oneself in, not a further universal developmental stage confirmed by this research. Nor does the children's task on its own establish the normative demands this book makes of adult judgement.
-
-[^introspection]: Emily Pronin and Matthew B. Kugler (2007). “Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot.” *Journal of Experimental Social Psychology* 43: 565–578. [Original paper](https://doi.org/10.1016/j.jesp.2006.05.011). The study compares the different weight given to introspection, behaviour and other material when assessing one's own biases and those of others; it does not mean that every person in every judgement is necessarily like this, and whether a reason holds cannot be decided directly from how it came about.
-
 [^leaky]: Joel Spolsky (2002-11-11). “The Law of Leaky Abstractions.” [The author's original text](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/). Chapter 5 keeps the name "leaky abstraction", separating the empirical generalisation from engineering from the cross-domain argument this book makes on its own account; the example of two sets of data with the same summary where a new question demands different answers offers a necessity argument with explicit premises, and does not claim that one engineering article proves every abstraction must be wrong for every use.
 
 [^tcp]: IETF (2022). *RFC 9293: Transmission Control Protocol (TCP)*, in particular the description of the service in section 2.2 and the handling of connection failure in section 3.8.3. [Formal specification](https://www.rfc-editor.org/rfc/rfc9293.html). A reliable, ordered byte-stream service does not amount to delivery within a fixed time or a connection that never drops; the main text does not write failures the specification allows as violations of the specification by the protocol.
@@ -1934,3 +2143,15 @@ The historical facts, studies, interviews and retellings of literary works in th
 [^grounding]: Herbert H. Clark and Susan E. Brennan (1991). “Grounding in Communication.” [The authors' public copy of the original chapter](https://web.stanford.edu/~clark/1990s/Clark,%20H.H.%20_%20Brennan,%20S.E.%20_Grounding%20in%20communication_%201991.pdf). Common ground and the mutual confirmation of understanding are updated as communication proceeds, and different media provide different conditions for this. The main text connects it to reading and the reconstruction of background, and does not equate the whole of empathic ability with this one model of communication.
 
 [^perspective]: Tal Eyal, Mary Steffel, and Nicholas Epley (2018). “Perspective Mistaking: Accurately Understanding the Mind of Another Requires Getting Perspective, Not Taking Perspective.” *Journal of Personality and Social Psychology* 114(4): 547–571. [Original paper](https://doi.org/10.1037/pspa0000115). The paper reports twenty-five experiments; imagining another person's perspective did not consistently improve the accuracy of judgement, while arrangements in which information was obtained through conversation did. Chapter 10 uses it to distinguish reconstructing thoughts from obtaining information; the conclusion is limited to the tasks tested and is not extended into a claim that empathy, imagination or historical understanding is generally ineffective.
+
+[^analects]: *Analects*, “Wei Zheng,” on learning without thought and thought without learning. [Chinese Text Project original](https://ctext.org/analects/wei-zheng/zh). Chapter 10 develops a movement between receiving earlier material and reorganising and testing it. This extension belongs to the present book.
+
+[^xunzi]: *Xunzi*, “Encouraging Learning,” on making good use of things, including its images of height, wind, boats, and carriages. [Chinese Text Project original](https://ctext.org/xunzi/quan-xue/zh). Chapter 2 uses the passage to discuss abilities supported by tools, people, and institutions, without attributing modern distributed cognition theory to Xunzi.
+
+[^zhuangzi-outer]: *Zhuangzi*, “External Things,” on the fish trap and forgetting it once the fish is obtained. [Chinese Text Project original](https://ctext.org/text.pl?if=zh&node=2956). Chapter 4 develops the relationship into a discussion of representations receding from attention while retaining ways to inspect them. The latter is this book’s extension to information systems.
+
+[^zhongyong]: *Book of Rites*, “Doctrine of the Mean,” on broad learning, careful questioning, reflection, discrimination, and practice. [Chinese Text Project original](https://ctext.org/text.pl?if=zh&node=10282). Chapter 8 discusses the sequence and adds an argument for returning from outcomes to revision.
+
+[^aristotle]: Aristotle, *Nicomachean Ethics*, Books III and VI. [MIT Internet Classics Archive text](https://classics.mit.edu/Aristotle/nicomachaen.html). Chapters 3, 7, and 11 respectively draw on deliberation, practical wisdom’s attention to particulars, and matters alterable through action. This book’s framework is not attributed to Aristotle.
+
+[^james]: William James (1907), *Pragmatism: A New Name for Some Old Ways of Thinking*, especially Lectures II and VI. [Project Gutenberg text](https://www.gutenberg.org/ebooks/5116). Chapter 6 distinguishes pragmatism from equating comfort with truth. This book evaluates statements’ truth separately from capacities provided by an understanding.

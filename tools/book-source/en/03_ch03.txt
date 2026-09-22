@@ -1,0 +1,77 @@
+#H1 3 — Purpose Has Already Marked Out the World
+In *Alice's Adventures in Wonderland*, a peculiar race takes place. Alice and a group of animals have just climbed out of a pool of tears, soaking wet. To get everyone dry, the Dodo proposes a race.
+
+The course is roughly circular; its exact shape does not matter. There is no starting signal. Participants begin and stop whenever they please. Eventually the Dodo declares the race over, and everyone gathers to ask who has won.
+
+After much thought, he decides that everyone has won and everyone must receive a prize. Who will provide them? He points to Alice. She shares the sweets in her pocket, just enough for one each. But she needs a prize too, so she produces a thimble she already owns. The Dodo solemnly presents it back to her amid cheers. Alice thinks it absurd, but accepts.[^alice]
+
+Everyone did get dry. For that purpose the arrangement worked. But if Alice asks why all the prizes must come from her, dry feathers cannot answer.
+
+The race's effectiveness in drying bodies and the fairness of distributing prizes are different matters. Everyday evaluations often mix them too. An exam score may help a teacher assess readiness for the next course. Using it to decide who deserves respect requires another argument. Accurate calculation does not make that use reasonable.
+
+The difference is visible in a park. Before a survey begins, someone must choose the concern: summer shade, maintenance costs, or wheelchair access. Purpose determines what equipment surveyors carry, where they stop, and when they return. Expertise partly consists in recognising the differences this work needs to notice.
+
+Once a use is specified, investigation remains constrained by facts. Slopes must be measured, shade observed at relevant hours, maintenance costs established rather than filled in by preference. Different concerns call for different inquiries. When we are answering the same question, we can still compare which measurements are more reliable.
+
+Trade-offs emerge when managers allocate limited space and money. Preserving more trees, widening accessible paths, and lowering costs may not all be maximised together. However precise the slope measurements, they cannot decide whose inconvenience should increase.
+
+Giving shade, access, and cost a weight and adding them into a score seems to establish a ranking. Whoever sets the weights, however, participates in ordering needs. Arithmetic can be exact while those choices still require explanation to affected people. Incorrect slope measurements should also be corrected. Measurement accuracy and the allocation of a budget are distinct disputes.
+
+Knowing who needs a map helps us recognise which omissions matter. A running map without rest facilities may suffice for planning distance. Used to guide wheelchair users, it must identify stairs along the way. A strong criticism shows how an omission obstructs the task the map claims to support.
+
+#H2 Which Differences Are Worth Keeping?
+Organising information sets many details aside. Financial statements do not record every office conversation; route maps omit windows. Whether a detail belongs depends on its effect on the judgement users need to make.
+
+A model preserves selected features and their relationships. A cup described by capacity, material, and heat resistance can be assessed for hot drinks. Shipping it makes weight, dimensions, and fragility more important. Compare four purposes:
+
+#TAB
+Purpose|Keep|Temporarily set aside|Possible mistake
+Drinking|Capacity, heat resistance, safety|Exact shape|Ignoring heat resistance
+Shipping|Dimensions, weight, fragility|Grip and feel|Ignoring breakage
+Design|Proportion, feel, manufacture|Some shipping details|Letting appearance displace use
+Forensics|Residue, fingerprints, sequence of events|Suitability for drinking|Destroying evidence
+#ENDTAB
+
+The same cup asks different things of different people. Heat resistance does not tell a shipper the required box size. Someone collecting fingerprints may need to work before anyone washes it. Purpose affects what must be preserved from the start.
+
+#H2 What Is the Task Meant to Achieve?
+A task often serves a purpose not yet stated. A customer-service department may shorten calls to reduce the wait for an answer. If employees quickly transfer complicated cases elsewhere, call figures improve while customers queue repeatedly and retell their problems. Service has not necessarily improved.
+
+After a call ends, the customer may join another queue. The department's record ends at hang-up; the customer's problem does not. We must follow what happens afterwards to discover whether service improved.
+
+A longer view exposes conflicts among purposes. A project may skip maintenance to launch on schedule; a department may defer problems until next quarter to meet this quarter's target. Immediate progress has value, but postponed costs belong in the assessment.
+
+#H2 Abstraction Has More Than One Direction
+Calling a cup a container attends to its ability to hold things. Calling it fragile attends to collision risk. Each classification selects for a use; neither must rank above the other.
+
+Numerical records select too. A performance score counting only individual output cannot show time spent training colleagues. Classifying a test as normal or abnormal may hide proximity to the threshold. A rectangle around a pedestrian in an image mainly preserves position and size. Judging long-term contributions, tracking changing measurements, or understanding intentions may require other records.
+
+Whether omission causes trouble depends on later use. Some representations chiefly rearrange information to make computation or retrieval easier, without necessarily deleting content. Chapter 4 compares this through networks and numbers. Evaluation must bring together preserved content, permitted operations, and present needs.
+
+#H2 Better Means Make Purposes Worth Asking About Again
+In Book III of the *Nicomachean Ethics*, Aristotle describes deliberation with a doctor taking healing as the end and considering how to achieve it. In this discussion, deliberation chiefly concerns means.[^aristotle] A specified end gives comparison a direction. This book asks a further question: learning sometimes changes the end itself. Where does that change belong?
+
+Given an objective, techniques can become faster and more accurate. Yet in life and institutions, the objective can also need reconsideration. Hospitals may shorten waiting, companies increase sales, schools raise average marks. As technique succeeds, we can forget to ask whether patients receive needed care, customers are properly served, or students learn the intended abilities.
+
+Ends and means are not assigned once, before work begins. Means change environments and people. Rankings can teach competitors to value what is rankable; measuring content by clicks teaches creators to generate clicks. The next objective may appear freely chosen while already shaped by the previous measure.
+
+Second-order understanding therefore lets results return to purposes. Besides revising procedures, it examines the pursuit itself. Is the original aim still worth pursuing? Has measurability been mistaken for importance? Who pays when someone gains? New methods can be learned under a fixed goal. Without permission to discuss the goal, however, we cannot learn when to stop pursuing it.
+
+This does not require debating life's meaning before every action. Familiar, low-risk matters can follow habits. Reconsideration becomes worthwhile when arrangements endure, effects spread, or improving scores fail to improve people's circumstances. Questioning should help identify work worth continuing; repeatedly restating doubts can also delay necessary action.
+
+#H2 Understanding Can Change Purpose
+We often imagine first deciding what we want and then learning how to get it. As learning deepens, what we want may change.
+
+Someone may initially understand care as doing everything for another person. Hearing that person's experience can teach them to value the person's choices. Understanding the need changes what doing well means. Pursuing the old objective more efficiently might deepen the interference.
+
+Learning a craft makes this change especially hard to anticipate. Beginners may want speed, then discover details they could not previously hear or see. These details make them willing to slow down and dissatisfied with achievements once a source of pride. Asked at the beginning whether to invest all that time, they might not yet understand what would make it worthwhile.
+
+We learn because we value something, and learning changes our reasons for valuing it. Purpose participates in inquiry; inquiry participates in purpose's formation. Arranging them in an irreversible sequence misses this mutual change.
+
+Because desires change, their histories deserve examination. Learning may reveal new interests; advertising, rewards, and group pressure may foster pursuits previously unimportant. Assessment can ask whether someone had opportunities to encounter alternatives, understand costs, and refuse to continue.
+
+In public decisions, hearing a new need must also enable a changed arrangement. A wheelchair user explains that a ramp is unusable. The information has entered the meeting, but if designers can dismiss it as outside the agreed indicators, the testimony has not affected judgement. Additional perspectives matter through their ability to change a problem's scope and subsequent treatment.
+
+Institutions face a difficulty here. A goal is needed to begin investigation and allocate resources, but investigation may bring back experiences that change it. An initial count of people crossing a park may later reveal that some cannot even enter. If the first scoring system continues to certify success, new knowledge can only sit beside the decision, unable to alter it.
+
+Knowing more does not necessarily improve what we want. But an arrangement that permits better means while forbidding reconsideration of what counts as doing well allows people only to become more skilful at following the original path.

@@ -1,0 +1,103 @@
+#PART Part Two|The Structure of Understanding|Selecting material, rearranging relationships, and omitting appropriately can increase our abilities. Each has conditions and leaves different boundaries.
+
+#H1 4 — Representation: Giving the World a Form We Can Work With
+Both maps below show London's Underground. Look first at the centre, then follow a line towards the outskirts. Their different ways of drawing will become apparent.
+
+#FIG2 fig-02-london-1908.jpg|The 1908 London Underground map overlays routes on streets and a geographical base, crowding station names in the centre.|1908: still close to the geographical map|fig-03-london-1933.jpg|Beck's 1933 London Underground map uses regular line segments and interchange circles, rearranging distances between stations.|1933: Beck's diagram|Figure 4.1　Historical maps from different years. Left: the 1908 map, identified as public domain in its file record. Right: the second edition of Beck's 1933 map. Image credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, CC BY-NC-SA 3.0. The network itself also changed between these dates.[^map1908][^map1933]
+
+On the left, railway lines remain attached to a city of recognisable streets, riverbanks, and parks. Suburban distances stretch the lines while names and bends crowd the centre. On the right, station connections remain, but regular directions create room for labels. Geographical distances and bearings give way to relationships passengers need to recognise.
+
+When Harry Beck proposed his design in 1931, the publicity department rejected it. Could a map so distant from geography guide passengers? In 1933 it finally appeared as a pocket folder, and demand led to further printings.[^beck]
+
+Passengers mainly need the line to take, the order of stations, and places to change. Beck spread the crowded centre and compressed suburban gaps, making names and interchanges easier to identify. Distances ceased to follow geographical scale; connections and station order still had to be accurate.
+
+Ask how long it takes to walk between two stations, and the spacing on the right is insufficient. A new purpose requires information to be restored. What spared trouble on a train may leave a walker short of information.
+
+A first-time visitor may not yet understand the colours or interchange symbols. A key must explain them, and station names help confirm direction. A familiar traveller's instantly legible map is not equally simple for everyone. Track-maintenance engineers need actual locations and equipment details the pocket map does not provide.
+
+How much a map should explain begins with its readers. Removing the key may clean up the page while sending novices in search of someone who can explain it. Concise explanation reduces irrelevant work while preserving what the present task requires.
+
+An electronic map can show a route first, then reveal exits and walking information on demand. Paper can separate the main map, key, and supplementary pages. Information need not all be read at once, yet remains available when needed. That is one use of layers.
+
+#H2 Compare the Same Network First
+Twenty-five years separate the historical maps, and routes changed too. To distinguish network changes from the benefits of drawing, we must hold connections fixed. The diagram below therefore invents a one-way network of eight locations. A through H, arrow directions, and connections are identical; only the coordinates differ.
+
+#FIG fig-04-same-network.svg|Figure 4.2　Two drawings of the same connections. This hypothetical network was made for the book; it is not London's railway. The right-hand drawing groups locations by minimum steps: A; B and C; D and E; F and G; H.|The same directed network from A to H, arranged by hypothetical positions on the left and in five distance layers from A on the right. Arrows and reachability are unchanged.
+
+What is the fewest steps from A to H? Each arrow counts as one step and can only be followed in its direction. Following an arbitrary route to the end on the left may find just one possibility. Others must still be compared. The right follows another search order: list every location reachable in one step, then two, and continue outwards. If a location reappears, its earlier route took no more steps, so work from that point need not be repeated.
+
+From A, one step reaches B and C; two reach D and E; three reach F and G. H first appears at step four. Every location reachable in fewer than four steps has already been listed, and H is absent. The search establishes why four is minimal by excluding shorter routes.
+
+This is breadth-first search. Its order supplies a reason for the answer's minimality. On larger networks, recording visited locations and distances avoids repeatedly trying whole routes. Learning an established algorithm saves this repeated exploration.
+
+Now suppose some connections take one minute and others ten, and we want the fastest journey. Steps no longer equal time. Three ten-minute connections can be slower than five one-minute connections. Breadth-first search still finds the fewest steps. Minimising time requires incorporating each connection's duration and using a method suited to unequal costs.
+
+#H2 A Different Notation Changes the Calculation
+The zero in 105 seems to represent nothing, yet preserves the places of units and hundreds. In 15 the two nonzero digits remain, but the quantity has changed. Positional notation gives symbols different values according to place and lets arithmetic proceed through those places.
+
+Write twenty-three times fourteen as 23 × 14. Split fourteen into ten and four: two hundred and thirty plus ninety-two gives three hundred and twenty-two. In written multiplication, intermediate results remain on paper rather than all being held in memory.
+
+XXIII and XIV also represent twenty-three and fourteen. The quantities do not change, but ordinary decimal long multiplication cannot conveniently be applied directly. A calculator can use an abacus or rewrite the quantities in a more suitable notation. Symbols can record the same amount without making calculation equally easy.
+
+Redrawing the railway map omitted geographical details. Numbers show another possibility: unchanged quantities become easier to manipulate through notation. In their 1987 discussion of diagrams and reasoning, Larkin and Simon distinguished informational equivalence from the amount of work needed to derive an answer.[^representation]
+
+Diagrams can place adjacency, intersections, and sequence directly on the page, reducing the burden of remembering and comparing while reading. But proximity does not establish causation, and an arrow may indicate only order. Points and lines must be explained; an apparently natural visual relationship may lack evidence.
+
+Paper also helps the next person. Intermediate multiplication results show where a carry went wrong. A visible network lets someone absent from the original discussion find another route. Preserved relationships allow thinking to pause or pass to someone else.
+
+We often first think of tools executing what has already been planned. These examples show tools helping thought form. Learning to arrange quantities on paper enables calculations once difficult to perform mentally. Drawing dependencies can reveal an unspoken wait. New representations help abilities develop.
+
+#H2 What Can Be Taken Elsewhere?
+Roads, message transmission, and task dependencies can all be represented by points and lines. Before calculating, we still need their meanings. Do points stand for locations, recipients, or tasks? Do lines permit travel or transmission, or require prior completion? If costs are calculated, which increase along a route, and may they be counted repeatedly?
+
+In pipes, water entering and leaving a location can be counted. A forwarded message can be copied to several people at once. Calling both a flow does not justify applying the same conservation relationship. Establishing the difference in copying tells us which calculations must change.
+
+Moving a story's lesson into life requires a similar comparison. Someone's eventual success after years without results can convey the difficulty of waiting. Advising another project to continue for a year requires more: what has accumulated, what might another year change, and which signs indicate approaching success? Failed projects can also involve years of effort. Duration alone does not distinguish patience from futility.
+
+#H2 When Tools Can Recede into the Background
+“External Things” in the *Zhuangzi* describes a fish trap as a means of obtaining fish: once the fish is caught, the trap can be forgotten. The passage proceeds from fish and traps to meaning and words, directing attention from an instrument to what it helps us grasp.[^zhuangzi-outer]
+
+Familiar representations likewise recede from attention. Readers stop consciously identifying letter shapes; passengers learn the key and attend to the next change of train. Studying the map's production on every journey would consume the effort it was meant to save.
+
+Following that image, this book asks a present-day question: when a tool recedes, can we still find it when something goes wrong? This is not an archival requirement stated by the classical text, but a responsibility arising from our maps and calculations.
+
+Faulty directions call for rechecking connections, directions, and names. An inadequate summary may require original records. Not looking at details now differs from never being able to see them again. One saves present attention; the other limits future investigation.
+
+Routine convenience and later traceability can be designed separately. The main map need not contain everything; sources, assumptions, and versions can be kept elsewhere. How much to preserve depends on expected use and cost. As a display becomes simpler, we need to distinguish work that is merely out of sight for now.
+
+#H2 What Supports a Simple Operation?
+A few taps on a phone place a meal order. The customer does not contact the kitchen, arrange deliveries, or organise addresses personally. Platform, restaurant, and courier share those tasks. A simple operation makes ordering possible without understanding every detail.
+
+If an address cannot be recognised or order status disagrees with the restaurant's information, the hidden processes need investigating. Finding the fault may require comparing order records, address details, and delivery status. If those records were never kept, pressing the same button again will not supply the answer.
+
+A folder icon presents operations for storing and organising files. Users can copy, move, and open them without repeatedly understanding their physical location. An interface is a representation that makes such operations available.
+
+Concepts can similarly spare us item-by-item inspection. Saying a company's profit has increased lets us discuss revenue, costs, and investment without first reading every transaction. But rising profits alongside dwindling cash call for examining receivables, payment timing, or other details. A useful general description cannot alone answer the new question.
+
+“He is conservative” is another summary. If he supports a major change, we can investigate what he seeks to protect before declaring him inconsistent: a procedure, a value, or someone's interests? A familiar word now needs unpacking.
+
+#H2 Boundaries Can Be Redrawn; Consequences Remain Real
+Things change continuously, yet decisions often occur at a particular moment. We set thresholds: an age for legal adulthood, a value triggering an alarm, a condition for further examination. The need to act divides continuous variation into categories.
+
+Consider a hypothetical risk score. Seventy or above means high risk; sixty-nine falls short. One point can determine additional review without actual risk suddenly jumping between those numbers.
+
+Choosing a threshold requires relating scores to risk, considering the consequences of missing high-risk cases and misclassifying low-risk ones, and assessing review resources. Evidence can exclude unsupported choices while leaving responsibility for drawing the line.
+
+Once adopted, a single numerical point changes someone's treatment. Whether the boundary is reasonable cannot be discussed solely inside the formula.
+
+Classification changes treatment, but some things remain beyond its power.
+
+Actual streets test a map's routes. Drawing a shortcut does not let travellers pass through a wall. Raising a bridge's stated load limit does not strengthen it.
+
+We can choose a description, but its usefulness remains constrained by its object. This book calls that **real-world constraint**: some outcomes cannot be changed merely by changing words. Understanding of causes or actual practice must change.
+
+These constraints provide something against which competing models can be checked. Opposite directions for the same journey cannot be dismissed as different perspectives. A rail map and a walking map may each be accurate. First establish whether they answer the same question; then investigate the relevant difference.
+
+#H2 When Both Maps Work
+A city can have transit, terrain, population, and property-price maps. A company can be understood through its balance sheet, processes, and division of labour. Each helps answer different questions. Choice depends on what we need to know now.
+
+Even for one question, maps may have different strengths. Someone hurrying may accept rough travel estimates; a researcher investigating congestion needs more variables. Comparing predictions on new data, assumptions, and verification costs helps selection. No requirement permanently takes precedence for every use.
+
+Harder still, two reliable analyses need not yield a decision. A safety assessment identifies danger; a revenue forecast predicts gains. Neither calculation need be wrong. Combining them into a score requires someone to decide how much revenue offsets danger. Making some danger grounds for suspension also requires reasons.
+
+More maps can be drawn and more evidence obtained. Discussion gains firmer grounds. The people at the table still have to choose.

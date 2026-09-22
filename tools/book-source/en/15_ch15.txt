@@ -1,0 +1,175 @@
+#H1 15 — A Second-Order Framework: Understanding That Can Change Itself
+Today's judgements change the grounds of tomorrow's. A tool saves effort while an unused skill grows rusty. Preserving a failure adds work now but may spare successors a detour. Understanding does more than deliver an answer. Methods leave abilities and limits behind.
+
+Consider two hypothetical public-service systems handling the same cases with equally accurate checked results. A preserves appropriate failure records, accepts circumstances outside its categories, and assigns someone to correct confirmed errors. B gradually deletes failure data, restricts outside comparisons, and makes participation harder for people raising exceptions.
+
+Current accuracy does not distinguish them. B nevertheless reduces opportunities to see later performance. Without records, repeated error is hard to identify. Without other sources, completeness is difficult to assess. Once people raising exceptions leave, omissions become less visible.
+
+B may still answer correctly next time. What disappears is the basis for judging later correctness and the means of making established corrections. Current performance has not fallen; future conditions of inquiry have changed.
+
+Candour alone cannot maintain these abilities. Someone willing to admit mistakes may not find them when only successes are available. A confident institution accepting effective independent checks may be more examinable than a modest one withholding evidence. Willingness needs data, skill, and authority to produce correction.
+
+Why spend effort preserving error detection? The values must be explicit: when errors threaten important losses and opportunities to avoid them can be maintained at proportionate cost, we have reason to include maintenance in our choices. Fallibility alone does not issue this command. It also values avoidable loss and requires comparison of costs, rights, and other needs.
+
+For methods relied on over time, this book therefore proposes: **while important uncertainty remains, choosing a method should include consideration of its effects on future capacities to obtain evidence, learn, and correct important errors.**
+
+This concerns continued reliance. An author's refusal of criticism does not make existing correct answers false. For unverified content, new applications, or future editions, however, refusal weakens grounds for trust. Truth, present evidence, and future acquisition and correction of evidence need separate treatment.
+
+The distinction changes responses. A successful method without verification channels may first need external checking, not immediate replacement. An open procedure that continually fails may need revision or suspension from an important task. Openness cannot replace performance. A and B still require actual cost comparison; additional procedures do not justify A at any price.
+
+#FIG fig-09-reliance-over-time.svg|Figure 15.1　Equal present performance can conceal different future capacities to detect error. Leftward movement denotes weakened checking and correction, not a prediction of inevitable failure next time. No empirical scale is shown. Drawn for this book.|The horizontal axis concerns conditions for identifying and correcting important errors; the vertical axis is current performance. Two equally high points show unchanged answers alongside weakened checking conditions.
+
+Conversely, an effective appeal channel can reveal classification gaps to people previously without recourse before average scores improve. Effects need checking and costs assessing. No short-term increase does not establish no value. Continued reliance compares future access to evidence and who can make discoveries change decisions.
+
+#H2 Checking Has Costs
+Does A's larger archive necessarily make it preferable? Investigation may reduce efficiency or invade privacy. Full disclosure can expose vulnerable people to harm. Letting every objection halt operations may disable essential services.
+
+Error checking must be considered alongside costs, deadlines, and rights. Constrained independent reviewers may access information unsuitable for universal publication. Some exceptions warrant periodic review rather than immediate interruption. Such distinctions belong in concrete design.
+
+A costly check supplying little discrimination or causing more serious unacceptable losses may lack adequate justification. The name oversight does not exempt an arrangement from demonstrating proportionate benefit.
+
+Some matters do not warrant endless rechecking. Suppose a system really has sufficient guarantees of correctness under all relevant conditions and can never leave them. Repeated checking may then add only cost. This is why the claim concerns important uncertainty and continued reliance. The mere possibility of another check does not justify more resources for guaranteed results.
+
+Applying such assurance requires establishing scope. Which premises underlie the proof? Which inputs were tested? Can actual use leave those conditions? Unconfirmed influences can still supply reasons for examination.
+
+Opaque internals do not eliminate all reliable evidence. Performance records, external measurement, and suitable comparisons can sometimes justify use. Whether another internal detail resolves an important uncertainty supplies the reason to investigate. Transparency need not be a universal prerequisite of knowledge.
+
+#H2 Let Successors Do More
+Records help because someone can compare again; explicit reasons help because someone can learn and challenge a step. Data nobody may read and methods nobody may practise or question can leave successors only an unchallengeable name.
+
+What we build together therefore includes accessible evidence, learnable procedures, and opportunities for findings to enter decisions. These support one another. Measurements expose categories; testimony identifies measurements; public reasons allow distant repetition. Nobody need know everything before separate achievements form new abilities.
+
+More participants do not eliminate error. New reviewers may share interests or judgements with earlier ones. Compare the data, methods, and additional detection they actually bring.
+
+A check can have limited but definite value. Differently fallible checks may reveal more than repetition of one method. Traceable sources may permit more verification than an authoritative signature. Separating authority from particular interests may reduce specific distortions.
+
+These comparisons need not await an infallible final reviewer. They need concrete reasons why a new arrangement changes identified risks at worthwhile cost. Another layer copying old blind spots has no automatic claim to progress.
+
+Snow's investigation combined households, landlords, and water records. Chapter 10's readers acquired methods by following reasons. Chapter 14's services reconsidered provision through difficulties their forms could not record. Each expands what successors can ask, check, and do. Existing answers may fail less often; new questions also become possible.
+
+A coherent way of thinking can form through this learning. Proof, interviews, sensory practice, and negotiation can each serve different questions, with relevant reasons for choosing them. Personal experience faces the same demand. Even familiar checking methods can be reconsidered.
+
+This direction inherits earlier thought. Peirce and Dewey locate inquiry within difficulty, action, and experience. Bounded rationality includes time and ability. Hutchins's research and Clark and Chalmers's extended-mind argument make external arrangements harder to ignore. Their intersection leaves a common question: do today's borrowed capacities help tomorrow's people understand and alter their circumstances, or make error harder to see?
+
+#H2 After Understanding, Commitment Remains
+Better means of attaining an aim can also be alarming. An oppressive institution can learn from failure and oppress more effectively. Knowing how to accomplish something does not establish its worth. Increased knowledge and effectiveness do not generate ethical legitimacy. Affected people's standing and rights require direct normative arguments.
+
+This book adopts the position that people should have real opportunities to offer reasons, question, and seek appropriate remedy regarding arrangements deeply affecting their lives. Neural reflexes and control systems do not select that position for us. Commitments about human standing and shared life require ethical and political reasons.
+
+A service pursuing faster closure may treat complaints as figures to suppress. Giving users the standing to question whether closure means resolution changes what the system should learn. Equal access to reasons still does not guarantee consensus.
+
+In 2009, US Preventive Services Task Force breast-cancer screening recommendations prompted controversy. At that time, starting regular mammography between forty and forty-nine was presented as an individual decision considering circumstances and the weighting of benefits and harms; biennial screening was recommended from fifty to seventy-four. This is a historical document, not current personal screening advice.[^screening]
+
+Screening seeks possible indications for further examination among people without relevant symptoms. Earlier detection can help, while abnormal results may prove not to be cancer. Some detected and treated cancers might never have caused symptoms or death in that person's lifetime. More detections therefore cannot alone establish overall benefit.
+
+Comparisons also need denominators. Consider hypothetical figures unrelated to breast-screening evidence: an intervention lowers a risk from four in a hundred to two. Both “halves the risk” and “two fewer per hundred” are correct. The latter also exposes the original magnitude. Relative reduction alone invites different impressions of the absolute difference.
+
+The controversy concerned evidential sufficiency, modelling, and communication of benefits and harms. Clearer estimates still leave questions of how much benefit warrants additional tests, anxiety, and treatment. Individual choice requires comprehensible information and support. Handing someone the choice does not remove the difficulty.
+
+In 1953, Richard Rudner argued that evidential thresholds for accepting hypotheses can depend on the consequences of error. Heather Douglas later examined such risk in research methods, data interpretation, and inference.[^values] Including acceptable error risk does not authorise alteration of evidence.
+
+Serious consequences of missing a harmful substance may justify different testing requirements. Hoping it harmless does not justify rewriting measurements. Values affect tolerable uncertainty, not facts at will.
+
+Acknowledging possible error permits commitment. You can revise beliefs about institutional effects while refusing to support concentrating major costs on people without alternatives. One concerns evidence; the other offers a position requiring defence.
+
+That position has a history. Family, education, and experience shape concerns without their influence alone disproving a value. After recognising the history, do you still endorse it, can you explain it to those affected, and will you face its consequences?
+
+Reason, feeling, and experience can prompt reconsideration. Understanding another life may change tolerable costs; evidence may remove anger's grounds. Making a commitment into a binding common rule additionally requires explaining participation and why affected people should accept the arrangement.
+
+#H2 From Understanding to Action and Back
+Earlier choices, inquiries, and practice reveal two movements. To understand, we form explanations from observations, make predictions, and revise with new material. To accomplish, we choose actions for purposes, then let results challenge methods and perhaps purposes themselves.
+
+These movements interweave. Suitable trials clarify initially obscure needs; research can undermine an attractive goal. Acting to learn nevertheless has limits. Possible harm, changed rights, and irrecoverable opportunities prevent learning alone from justifying continuation.
+
+Inquiry may also change the intended action. Recovering records may correct one number; hearing someone previously excluded may widen the question. There is no need to rerun every chapter. Follow the newly revealed difficulty.
+
+Chapter 11's stopping question remains: what might further analysis change, and how much time is worthwhile? No effect on immediate action does not make a question permanently unworthy. Present decisions and long inquiry can have separate time.
+
+With practice, distinctions need less conscious recall. You can notice an unverified inference in an accusation without reciting definitions of observation and interpretation. You can recognise someone's lack of authority without drawing a complete institutional chart. Learned methods occupy less attention, leaving more for this occasion's differences.
+
+#H2 Six Questions to Use Again
+Six questions locate work within an actual judgement. They gather the chapters' methods and can be omitted, divided, or reformulated as circumstances require.
+
+First, **what are we trying to understand or accomplish?** Prediction, explanation, action, understanding someone, or reconsidering what deserves pursuit? A specified use helps identify worthwhile results.
+
+Second, **who is understanding, and who bears the outcome?** Knowers bring abilities, positions, and limits. Affected people may possess material absent from the framework without ever helping define the problem.
+
+Third, **which differences does the representation preserve?** Forms, maps, statements, feelings, and models retain different relationships. Establish acquisition and selection before inspecting what remains. Differences merged away cannot be restored by that representation alone.
+
+Fourth, **which operations are available?** Some representations support comparison or proof, others rapid action or reconstruction of reasons. Their content belongs with the work they permit.
+
+Fifth, **which conditions support the ability?** Sources, regularities, time, skills, tools, and cooperation may all contribute. Changed conditions require comparing earlier performance with the new use.
+
+Sixth, **when results return, which level can change?** Numbers may need correction, representations replacement, abilities development, procedures revision. New experience may undermine the aim. A framework permitting only changed answers keeps initially unasked questions outside learning.
+
+The questions locate work. A simple problem may need two; a new field may require finer divisions. Transfer succeeds when concrete work is identified. Repeating shared names is insufficient.
+
+#H2 How One Understanding Connects to Another
+Six boxes ticked achieve little by themselves. A framework also examines how one understanding joins another.
+
+An epidemic becomes addresses, mapped strokes, and comparisons of water sources. Representations change while certain relationships survive. Mapping makes clustering visible; interviews distinguish proximity from shared drinking water. Successive transformations connect because earlier ones retain what later ones need.
+
+Others cannot connect. A mean alone cannot answer a later question about distribution. Translating silence into consent before counting produces increasingly precise calculations of an earlier interpretation. Accuracy at the end still requires checking the transformations.
+
+This book particularly follows three relationships through these sequences.
+
+The first is **preservation**: moving from experience to records to models, which differences important to the present use remain?
+
+The second is **composition**: can one person's observations join another's data, or one representation supply a later operation, with compatible premises?
+
+The third is **return**: after outcomes, can records and reasons guide investigation back to the data, representation, operation, conditions, or purpose needing review? Return means inquiry and revision. Deleted information need not be recoverable, nor consequences reversible.
+
+These relationships connect the six questions' checks. The framework need not turn medicine, mathematics, history, and ethics into one kind of thing. It compares how their understandings preserve relationships, combine, and change through outcomes.
+
+For reference, an episode can be provisionally written as a sequence: **a knower in an environment, pursuing a use, represents material, performs operations, forms a judgement or action, and receives feedback through results.** These are locations for examination. Change at any location may change ability; an overlooked location can misdirect explanations of failure.
+
+Actual understanding need not follow this order. Unease can precede a clear question; skilled movements need not begin as sentences. Results may arrive late or never become checkable. The framework locates the formation of purposes, working skills, and absent feedback without asserting a complete chain in every case. It organises our relationships in handling things, not purposes or cognition attributed to every object handled.
+
+#H2 Composition Needs a Sound Handover
+Two useful steps can fail together. Accurate addresses mixing post-move and illness-time locations produce a precise map answering the wrong question. Two datasets labelled mortality cannot be directly compared as the same measure if one uses people and the other supplied households as denominator.
+
+Before combining, establish what is handed over. Does one step's output meet the next step's definitions, scale, timing, and conditions? Correct later arithmetic cannot repair an incorrect intermediate unit. Likewise, no stated objection cannot silently become consent.
+
+Order can alter results too. Comparing groups before summarising may preserve differences; collapsing everything into one score before asking about group circumstances may lose them. Earlier abilities need joint examination at these handovers.
+
+This is the purpose of the book's unified abstraction: methods from different fields can identify one another's conditions before connecting. Similar form suggests borrowing; actual transfer requires confirmation. Mathematical structures have precise definitions and proofs. These relationships currently offer philosophical tools, not an already formalised and proven complete mathematical theory.
+
+#H2 Connect Standards Back to Use
+Chapter 6 separated factual truth, functional effects, and grounds for adoption. A transit map shows how these evaluations work together.
+
+Correct station order meets a factual requirement. Successful transfers also depend on legibility, skill, and environment. A design helping regular travellers while confusing newcomers distributes benefits and losses differently. Accuracy, usability, and distribution each require distinct investigation and discussion.
+
+The framework cannot automatically add them into a score. It asks how standards relate: mandatory conditions, comparable costs, and remaining negotiated differences. Where one ranking cannot be obtained, disagreements and reasons should remain. Replacing everything with useful would erase distinctions we sought to clarify.
+
+#H2 Coherence and Completeness Need Different Tests
+Self-examination does not guarantee consistency. Coherence requires at least that claims under the same conditions and meanings not conflict, and exceptions have reasons. If rearrangement can preserve information, all representation cannot also be defined as deletion. Requiring checked feedback cannot exempt one's own revisable categories from checking.
+
+Including oneself makes contradiction discoverable; the examination still has to occur. Uses, users, terms, and costs face proportionate questions. If the framework complicates simple matters or replaces needed action with classification, its scope should narrow.
+
+Completeness is another demand. This book seeks wide applicability without proving that its components cover every possible understanding. An other category proves only breadth of a label; expansion after criticism proves revisability. High completeness requires investigating whether important differences survive across fields, concrete gaps become identifiable, and new work can continue.
+
+Mathematics checks definitions and proofs; history examines evidence and context; craft develops discrimination through bodily practice. Renaming all three feedback, without identifying their work, unifies vocabulary rather than understanding. The framework must preserve differences and identify possible assistance among them.
+
+Unmanageable questions can remain as gaps while new tools are sought. A stronger challenge arises when important problems repeatedly get misclassified or merely renamed afterwards. Components and their relationships then need revision. Breadth must be earned through analysis, not declared.
+
+#H2 One Way of Thinking Can Permit Different Practices
+After “I have thought carefully,” we can explain what was considered: available information, borrowed methods, and unfinished matters. These answers reveal what the effort achieved.
+
+Reflection itself faces the test. Revisiting reasons may reveal contradiction or merely consume observation, rest, and action through repetition. Exempting reflection from evaluation because we favour it grants our preferred method the very privilege we challenge.
+
+Everyday coherence asks whether reasons apply to ourselves. If formation affects another's judgement, my own statements do not become history-free simply because they are mine. Valuing direct experience includes permitting others' experiences to trouble my categories. A reason can weigh differently in different circumstances, but circumstances—not self-exemption—must justify it.
+
+Familiar work can rely on practice with feedback; unfamiliar choices need more evidence; emergencies require the best presently available ability. Different procedures can have connected reasons. Time, evidence, and consequences should explain the difference.
+
+Consistency still cannot guarantee correctness. A coherent system can use false data or exclude a group's needs. Compatibility among statements needs company from outcomes, other people's experience, and criticism.
+
+#FIG fig-18-method-review.svg|Figure 15.2　Sometimes answers change; sometimes the way of judging must be reconsidered. The outer loop permits examination of existing arrangements without requiring every action to rebuild an entire outlook. Drawn for this book.|An inner loop runs from question and method to action and results. An outer loop returns unexpected material to purposes and standards, potentially revising reasons for selecting methods.
+
+Requiring infallible standards before every beginning recreates Chapter 11's endless analysis. Judgement proceeds with available knowledge while preserving places for later correction.
+
+Successors may do more than correct us. Inheriting reasons and opportunities to practise, they can ask questions we never conceived. Making that possible is another reason to transmit understanding.
+
+#H2 This Book Is Included
+This book chooses stories, evidence, and language, directing attention to some things and away from others. It devotes many pages to methods. Sometimes a person needs rest or someone willing to hear the whole account. Calling every such lack inadequate thinking would misread their circumstances.
+
+If a distinction does not help, a case conflicts with evidence, or following the analysis obstructs necessary action, the book needs revision too. A book advocating correction must earn reliance through actual help.

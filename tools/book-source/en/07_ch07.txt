@@ -1,0 +1,92 @@
+#H1 7 — Conditions: Ability Does Not Exist Outside Its Setting
+A triangle's angles sum to 180 degrees. Does this familiar answer apply to both drawings below?
+
+#FIG fig-05-triangles.svg|Figure 7.1　The left triangle has straight sides in a Euclidean plane; the right has short great-circle arcs on an ideal sphere. Their sums are 180° and 270°. Mathematical constructions drawn for this book.|A planar triangle has angles of ninety, forty-five, and forty-five degrees. On the sphere, the North Pole and two equatorial points ninety degrees of longitude apart form three right angles.
+
+Trace the right-hand figure and a difficulty appears. Travel from the North Pole along a meridian to the equator, turn ninety degrees, follow a quarter of the equator, and turn ninety degrees back towards the pole. The two meridians meet there at ninety degrees too. Three right angles total 270 degrees.
+
+The planar sum is 180 degrees; the spherical triangle has three right angles. Both the space and the paths serving as sides have changed. The spherical example uses short great-circle arcs and does not violate the theorem about straight-sided planar triangles.
+
+Mathematical theorems state axioms and definitions before proving conclusions. Applying them to physical objects requires checking whether the assumptions describe those objects to the required precision. A small patch of ground may be adequately approximated as flat. Large-scale surface routes require attention to curvature and accuracy.
+
+#H2 The Postulate People Tried to Prove for Two Thousand Years
+Euclid's *Elements* organises geometry from specified starting points. The famous fifth postulate says that if a line crossing two others makes interior angles on one side sum to less than two right angles, those two lines meet when extended on that side.
+
+Compared with several other starting points, it seems elaborate. For centuries, mathematicians hoped to derive it from the remaining assumptions. In 1733, Saccheri tried to obtain a contradiction by denying related assumptions. He reached results later recognisable as approaching non-Euclidean geometry, while still trying to reject that path.
+
+In the nineteenth century, Lobachevsky and Bolyai publicly developed systems unlike Euclid's. Riemann's 1854 lecture investigated more general spaces and geometries. There was no longer just one geometry to study. What different assumptions implied, and whether a system was internally consistent, became questions for comparison.[^geometry]
+
+The spherical triangle gives these differences a visible form. A geodesic follows the locally straightest path along the surface. Its intersections on a sphere obey relationships different from intersections of straight lines in a plane.
+
+Kant had used geometry to explain necessary knowledge not obtained merely from individual experiences. Multiple geometries sharpen the distinction between proof within a system and deciding which geometry describes physical space.[^kant] The latter calls for observation.
+
+General relativity later described gravity through curved spacetime and had to face physical tests. Mathematics expanded the available representations; other evidence decides whether they suit the world.
+
+#H2 The Small Print Missing from Rules
+Mathematics states assumptions; everyday rules often omit conditions. First come, first served can settle a queue for drinks. Applied to urgent assistance, it raises questions about who can arrive first, who can wait, and whose needs cannot be delayed. The wording stays the same; the reasons for using it change.
+
+Some conditions emerge only over time. Postponing a dispute may allow people to calm down; postponing every dispute may leave important problems permanently unanswered. Small approximation errors can accumulate beyond tolerance. Evaluation needs the duration of use too.
+
+“It depends” is therefore insufficient. Which difference changes the judgement? Does urgency differ? Are waiting costs unequal? Do routes take equal time? Concrete conditions make further investigation possible.
+
+#H2 Newtonian Mechanics Has Not Disappeared
+Newtonian mechanics supports many reliable activities. Appropriate approximations describe ordinary-scale motion and serve mechanical and structural engineering at the required precision. Relativity did not erase these achievements overnight.
+
+Satellite navigation requires exceptionally precise time comparisons. Orbital motion and gravity affect satellite clocks relative to ground clocks. Uncorrected differences affect positioning, so relativistic corrections form part of the system.[^relativity]
+
+Whether an approximation is acceptable depends on known errors relative to precision requirements. Everyday engineering need not always use the most elaborate model. Higher precision or different scales require comparison anew.
+
+#H2 The Person Who Feeds the Chicken
+In *The Problems of Philosophy*, Russell questions experience through a chicken. The person who feeds it every day eventually kills it.[^russell]
+
+On that day the pattern breaks. Every previous feeding was real. An exhaustive record could be perfectly accurate while saying nothing about the keeper's future intentions.
+
+Readers know the ending and readily see the chicken's blind spot. Turn the question on ourselves and it is harder: why should repeated events continue? Appealing to previously successful patterns still requires explaining why those patterns will hold. More past successes repeat the very inference needing justification.
+
+Everyday predictions nevertheless differ in reliability. To anticipate water interruptions, we can inspect equipment, maintenance plans, and water sources instead of recording only uninterrupted supply. Such information excludes no conceivable accident, but identifies risks absent from the historical regularity.
+
+Predicting the future requires attention to conditions beyond a record; inferring the experiences of unobserved people does too. A survey of existing customers tells us about respondents. Generalising to everyone who encountered a service requires knowing about leavers, nonrespondents, and people unable to enter. More customers of the same kind can stabilise some estimates without reaching those never surveyed.
+
+#H2 When Mechanisms Need Investigating
+Snow did not need complete microscopic knowledge before comparing water supplies. Suitable research can yield causal evidence about an intervention and an outcome before its full mechanism is known.
+
+Mechanistic inquiry helps assess changed settings. Knowing which factors sustain an effect guides tests of differences likely to alter it. Outcome comparisons and mechanism research can inform one another.
+
+An intervention may also have several effects. Benefits through one pathway can be offset through another, leaving overall outcomes unlike expectations. Explaining a pathway therefore does not remove the need to compare important outcomes directly. The next chapter's clinical trial will make this distinction concrete.
+
+Even partial mechanistic knowledge may not cover a new situation. Users' anomaly reports, raw data, and alternative measurements can reveal unforeseen differences. Chapter 5 discussed preserving these means of correction. Known ranges of use can also be documented more precisely.
+
+#H2 The Last Stretch from a Principle to a Case
+Discussing practical wisdom, Aristotle stresses knowledge of particulars as well as universals, because action occurs in particular circumstances. Knowing that light meat is digestible must be joined to knowing which meat is light before a suitable meal can be prepared.[^aristotle]
+
+This distinction returns attention to conditions. General rules organise many situations; application returns to one specific occasion. Does this person belong to the studied population? Does today's setting preserve the relationship? Is the signal an ordinary fluctuation or evidence of change?
+
+Principles save repeated exploration, support consistent treatment, and make reasons expressible. Individual cases bring differences the general rule did not retain. Impressions alone may lose comparable grounds; classifications alone may miss what distinguishes this occasion.
+
+Judgement moves between principle and case. A principle directs attention to relevant features; the case tests the classification. Recurrent exceptions may call for revising the rule rather than repeatedly invoking special treatment. This movement also connects scales within the second-order framework: abstraction permits transfer; concrete encounters test whether this transfer fits.
+
+#H2 Write Down the Range of Use
+“A retail model” or “manufacturing experience” remains too broad. Models inspecting appearance may perform differently with different lenses, lighting, materials, and angles. A shared label conceals widely varying conditions.
+
+Suppose a model marks damaged packaging in photographs for human review. It has been tested only with fixed lighting, a specified lens, and a few packages. Backlighting and other reflective materials remain untested. These details explain performance more usefully than an isolated “ninety-five per cent accuracy.”
+
+The camera is later replaced while software stays unchanged. Most sampled photographs are well lit, so average performance looks good. Missed damage increases in the few backlit photographs. A total score may suggest the new lens made no difference. Preserving disputed images and separating misses from false alarms helps locate deterioration.
+
+Tracing failure rewrites the scope. The team had treated the lens simply as a means of acquiring similar images; now its interaction with lighting and material belongs in the account. Scope is not always known before research, awaiting a label. Failure and investigation often make it clear.
+
+If a later version improves backlit performance, the limits need updating. Records should say which version was tested where and what changed. Otherwise new users may guarantee new uses with old results or remain blocked by a problem already solved.
+
+Geometrical conditions must be stated before a proof begins. Empirical methods' conditions often emerge during work. Requiring every condition in advance may demand precisely what the investigation is supposed to discover.
+
+#H2 When Models Do Not Cast the Same Vote
+Climate research handles interacting atmosphere, oceans, clouds, and ice. Teams make different modelling choices. The Coupled Model Intercomparison Project, CMIP, provides shared experimental designs that make simulations more comparable.
+
+Putting results together reveals agreement and disagreement. Models are not wholly independent: data, methods, and code may be shared. More models do not necessarily add proportionately more independent evidence.
+
+Some CMIP6 models produce higher equilibrium climate sensitivity. Broadly, this asks how much global mean surface temperature changes after carbon dioxide doubles and climate reaches a new equilibrium. Historical warming, palaeoclimate, and physical-process research provide checks beyond model output.
+
+The IPCC's 2021 assessment combined several lines of evidence and described sensitivity ranges at different uncertainty levels. “Likely” and “very likely” refer to different ranges; the intervals must be read with their uncertainty statements.[^climate]
+
+Climate scenarios explore specified development conditions. RCP8.5 is a high radiative-forcing pathway; its number relates to forcing in 2100 relative to preindustrial conditions. It asks what climate might do under those conditions. The probability that the conditions will occur requires separate assessment.
+
+Confidence develops through comparisons between models and external evidence. Disagreement can guide research: is a physical process poorly understood, or are development scenarios different? Averaging is quick. Understanding the source of disagreement is often the long work.

@@ -1,0 +1,109 @@
+#H1 12 — Knowing Before Words
+A firefighting crew enters a house. The fire seems to be near the kitchen. They apply water as usual, but it does not behave as their commander expects.
+
+Interviewing the commander, decision researcher Gary Klein repeatedly explored what happened next. The commander abruptly felt something wrong and ordered everyone out. After they left, the floor collapsed. The fire was actually in the basement, directly below where they had stood.[^klein]
+
+The commander initially called it a sixth sense. That name neither teaches others how to acquire it nor establishes when to trust it. Further questioning uncovered clues: heat disproportionate to the visible fire, unusual quiet, and water not producing the expected effect.
+
+He had not first assembled them into a complete argument about a basement. Before that explanation existed, differences had made evacuation seem necessary.
+
+These clues emerged through retrospective interviews. They permit investigation without establishing that every detail later articulated was fully present in his mind then.
+
+The scene did not simply provide one conspicuous danger signal. Expected responses failed to occur: water did not reduce fire as anticipated, and heat and sound did not fit. Recognition preceded the interview's explanation. Requiring names, measurements, and a complete argument before differences could affect action might have consumed the time needed to leave.
+
+We often place fast, intuitive, and emotional judgement opposite slow, rational thought. These terms concern different dimensions. Speed is time; intuition commonly means an answer arriving without conscious stepwise reasoning; emotion includes feeling, appraisal, and tendencies to act. Rationality can mean explicit inference or appropriate responsiveness to reasons. Comparison must identify its dimension.
+
+A fast answer can derive from years of practice. Hours of analysis can keep defending prejudice. Emotion may draw attention to neglected harm; reasoning can examine causes, responsibility, and responses. Assessment needs their contribution to judgement, not ranking by speed or composure alone.
+
+Intuitions also develop differently. Some skills begin as explicit rules and become fluent. Others arise chiefly through exposure, imitation, and feedback without a prior written rule. The former can revisit learned steps; the latter need comparisons of experience and results. Rapid arrival does not make both concealed complete arguments.
+
+#H2 Information We Cannot Yet State
+In a 2007 experiment, researchers paired odours participants could not consciously detect with ratings of neutral faces and observed effects under specific conditions. This supports a limited conclusion: sensory influences can enter judgement without their source being reportable.[^smell]
+
+Influence does not establish improved accuracy. The odour was not evidence of a person's likeability; it could divert judgement from the intended object.
+
+An unexplained feeling can nevertheless guide investigation. An unusual machine sound can be recorded, compared with normal operation, and checked for associated faults. Inability to name a frequency does not erase the difference. Strength of feeling does not replace comparison either.
+
+Explicit inference needs relevant input. If its only information is that a machine still runs, careful deduction cannot hear an unrecorded noise. Observation, measurement, and work on site may supply details missing from analysis.
+
+Conversely, explicit comparison reveals what impressions omit. Chapter 5's two equal averages concealed the presence of a value below twenty until the original numbers were displayed. A general impression of similar average performance cannot answer that question. Feeling and inference can each miss or reveal differences.
+
+An operator hears an anomaly, measurement identifies it, and shared listening teaches a novice to notice previously unheard features. Feeling and explicit comparison change one another through learning. The resulting ability belongs wholly to neither alone.
+
+#FIG fig-16-learning-feedback.svg|Figure 12.1　How feeling, inference, and checks assist one another. Outcomes, example comparisons, and independent measurement can revise judgement. Delayed or incomplete feedback may leave errors unlearned. This is a learning diagram, not a map of brain regions. Drawn for this book.|Experience supplies both fluent reactions and explicit inference. They can prompt one another and be corrected through results, comparison, or independent measures; feedback can also be incomplete.
+
+After such checking, a similar sound may quickly indicate where to look. Unsupported guesses need recording too, so misses are not erased by remembered successes. Long learning can improve immediate responses without being repeated before every action.
+
+#H2 The Ball Is Still Aloft; the Feet Are Already Moving
+A baseball flies towards the outfield. A fielder watches and runs. Describing the task as first obtaining speed, spin, and wind, then calculating a landing point, portrays the body as a ballistic computer unable to report its calculations in time.
+
+Research offers another family of explanations. Fielders use changing visual relationships to adjust while moving, without first fixing a landing point. Models include linear optical trajectories and control of optical acceleration, with distinct conditions and testable expectations.[^catch]
+
+Movement changes the trajectory subsequently seen. Researchers therefore examine reciprocal relationships between vision and action. Judgement can form while running and continue changing with the run.
+
+Carrying a nearly full cup also reveals continuous adjustment: visible water movement changes hands and steps. Studying the activity requires the information acquired during it and the responses. Looking only for a comprehensive plan before departure may miss this process.
+
+#H2 Cook Ding Also Slows Down
+In “Nourishing Life” in the *Zhuangzi*, Lord Wenhui watches Cook Ding butcher an ox. Hands, shoulders, feet, knees, and knife move in rhythm.
+
+Ding says that initially he saw the whole ox; years later, he perceived a structure through which the knife could move. Following spaces among the joints, he avoids forceful collision. The story takes mastery to an extraordinary degree: after nineteen years and thousands of oxen, the blade remains like one freshly sharpened.
+
+At a difficult cluster of joints, he becomes alert, concentrates, slows down, and moves the knife with minute care. Only afterwards does he put it away.[^zhuangzi]
+
+His mastery includes slowing at difficulty, not merely speed in familiar work. The nineteen-year blade belongs to the parable's exaggeration. The pause nevertheless suggests a research question: what experience permits both fluent routine and early recognition that this occasion needs special attention?
+
+Daniel Kahneman and Gary Klein's 2009 discussion of expert intuition identified two important conditions: an environment containing learnable regularities, and adequate opportunities to learn them through experience and feedback. Subjective confidence alone cannot guarantee correctness.[^intuition]
+
+Twenty years can make the same guess extremely fluent if errors never become visible. Delayed feedback, luck, and status can obscure which judgement failed. Equal years need not yield equal learning.
+
+Recognition exercises with answers concealed, prediction records, and alternative measurements can expose differences. Skill at hearing does not ensure numerical estimation; reliable cues can fail elsewhere. Intuition established in one task cannot vouch for judgement in another.
+
+#H2 After Understanding, Another Distance Remains
+An idea can be understood yet unavailable when needed. You may accept that one failure does not condemn a whole person and still rush to defend yourself under criticism. You may understand sunk costs yet find it hard to assess a three-year project solely through future costs and opportunities.
+
+The gap identifies further practice. Explaining a reason quietly establishes one kind of understanding. Remembering and acting on it in relevant situations requires recognising the occasion, retaining the procedure, and sometimes bearing discomfort.
+
+John Anderson's 1982 research proposed an account of explicit knowledge becoming procedural ability. Beginners recall rules in sequence; practice can speed execution and reduce conscious rehearsal.[^skill] This helps investigate certain skills. Changes in emotion and belief require inquiry into their own learning processes.
+
+Reflection has a long-term use: select worthwhile practices and arrange repeated application and checking. Someone who hears every objection as total rejection can reread a dispute and distinguish specific criticism from judgement of the person. Next time, first establish which point is opposed. If practice helps, what attracts attention changes, and the reminder enters the response itself.
+
+Moral judgement faces related demands. Some harms require timely attention without a fresh debate each time. Reflective care should increasingly inform ordinary reactions. Habit does not guarantee goodness: discrimination and evasion can also become automatic.
+
+#H2 Ask Experts When They Would Stop
+“How did you know?” may yield only “I could just see it.” A specific event allows further questions: which detail changed your action, would you have continued without it, and when would you ask for help?
+
+Klein's work uses such inquiry to trace expert decisions. It does not demand an instant complete theory, but investigates cues along an actual decision. Heat, sound, and response to water guided further questions in the fire case.
+
+Having heard these cues, novices still need comparison and practice in relevant situations. Interviews identify where attention belongs without conferring expertise. Contemporary records and later results can also distinguish what the interviewee noticed then from explanations formed afterwards.
+
+#H2 Keep a Record Before the Outcome
+Known outcomes can seep into recollection of earlier beliefs. A 1975 study by Fischhoff and Beyth used judgements before and after Nixon's visits to China and the Soviet Union. Participants first assessed possible outcomes' probabilities, then recalled their earlier assessments. Events that occurred tended to become more foreseeable in memory; events that did not seemed more doubtful all along.[^hindsight]
+
+Pre-outcome records can expose this rewriting. For important judgements when time permits, record initial cues, expected results, and confidence, including unclear reasons. Later checking then need not credit hindsight as prior knowledge.
+
+A record preserves a judgement without generating every outcome needed to test it. A manager writing that a rejected applicant may be unsuitable still cannot see how the applicant would have performed if hired. Comparison needs the missing kind of evidence to be identified.
+
+Some outcomes can be followed regardless of our decision. Shares considered but not bought still have later market prices. Specific price predictions and deadlines permit checking beyond remembered purchases.
+
+Other comparisons require different arrangements actually being implemented. Product A/B tests expose groups to different versions to compare effects. These designs have costs. When opportunities or treatment are involved, fairness, consent, and tolerable risk restrict experiments. Better prediction does not justify arbitrary costs imposed on others.
+
+Some questions lack the outcome of one person taking another path in the same history. A declined job cannot become an alternative life already lived. Comparable experiences, statistics, and research reduce uncertainty without restoring that unlived history.
+
+Before investigating, establish what a dataset can answer and what remains unknown. Investment should compare information costs, consequences of error, and future chances to use the learning. Importance and repetition add reasons, but neither exempts expensive research from cost comparison.
+
+#H2 Emotion Helps Decide What Becomes a Question
+Emotion often helps something begin to matter. Indignation at humiliation can bring a supposed joke into question; attachment can sustain attention to another person's unspoken difficulty. Before answers form, feelings influence what we ask.
+
+This role needs discrimination. Anger may notice injustice or mistake frustration for malice. Shame can prompt reflection or reflect unworthy group demands. Emotions need examination without presuming that examination should remove them.
+
+We can correct anger's attribution while retaining sensitivity to harm. Others' explanations can teach responses to experiences previously ignored. Such changes affect future attention, memory, and inquiry, not merely response speed.
+
+Care sustains observation, enjoyment supports practice, disappointment reopens expectations. Feelings can participate in extended learning rather than merely supply a quick preliminary guess. Their judgements need checking, but composure alone cannot establish their worth.
+
+Reflection changes future feeling, and feeling can expose inadequate reasons. Understanding someone's experience may make a formerly harmless-seeming joke impossible to laugh at. Once that change remains, we need not rehearse the argument every time to stop laughing.
+
+Learning conditions participate too. Comparable examples, timely feedback, and prepared practice improve discrimination. Rest, colleagues willing to point out errors, and tools presenting useful cues affect whether learning occurs.
+
+In an urgent anomaly, trained response may remain the best available ability. With time, comparison and checking may be appropriate. Fast and slow responses can benefit from the same history of learning.
+
+Sometimes what changes is a belief we can state; sometimes it is what first catches our eye. By the time the latter changes, we may no longer remember how long that first glance took to learn.

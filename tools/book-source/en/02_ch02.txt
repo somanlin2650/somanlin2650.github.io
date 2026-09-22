@@ -1,0 +1,88 @@
+#H1 2 — Understanding Never Belongs to One Person Alone
+In 1854, cholera broke out in London's Soho district. Severe diarrhoea and dehydration were followed by death after death among neighbours. An influential explanation attributed the disease to foul air. Disease and bad smells often occurred together; for people living among them, the explanation was readily believable.
+
+The physician John Snow suspected contaminated drinking water instead. He had advanced this view before the outbreak. Whether the deaths in these streets supported it required investigation, household by household. He traced addresses, drinking water, and living circumstances, and plotted the information on a map.
+
+On Snow's map, black strokes crowd the buildings near Broad Street. Each stroke marks a death. Among the streets are places labelled PUMP: the pumps from which residents fetched water for daily use.
+
+#FIG fig-01-snow-map.jpg|Figure 2.1　Snow's map of the 1854 Broad Street cholera outbreak. Black strokes mark deaths; their clustering provides clues for investigation. Original: John Snow, public domain; digital image details are given in the sources.[^snowmap]|Snow's map of cholera deaths, with dense black strokes near Broad Street and the positions of local water pumps.
+
+Deaths clustered around the Broad Street pump. But did everyone living nearby drink its water? People drank at home and at work, and some had water brought from farther away. Connecting addresses with drinking sources required knowing how people lived.
+
+Several exceptions gave the investigation direction. The surrounding streets suffered repeated deaths, while the workhouse had relatively few. A nearby brewery had no registered deaths among its workers. Why were these places different?
+
+Of the workhouse's 535 original residents, five died of cholera. It had its own well and water supply and did not send for Broad Street water. Snow asked the brewery owner, Huggins, about the workers. Huggins said they received an allowance of malt liquor. He believed they never even drank water, but distinguished this belief from something he could positively confirm: they did not take water from the street pump. The brewery had a deep well and other supplies.
+
+Another clue led back to the pump from a distance. A woman who died in Hampstead had not visited the Broad Street area for months. Her son told Snow that she liked its water and had a large bottle delivered regularly by cart. A visiting niece drank it too, then fell ill and died after returning home. Their illnesses and deaths occurred in different places; water from one source connected them.
+
+On the evening of 7 September, Snow presented his water investigation to the local authorities. The pump handle was removed the next day. Before its removal, the outbreak was already declining, and many residents had left. Deaths continued to decrease afterwards, but that sequence alone cannot establish the effect of removing the handle. Evaluating the waterborne explanation also requires the nearby places with few deaths, distant people who drank the same water, and comparisons between water supplies.[^snow]
+
+#H2 How Many People Does a Map Depend On?
+During the same epidemic, Snow compared customers of two water companies in south London. Their pipes served the same streets; neighbouring houses sometimes used different companies. The Lambeth company had moved its intake upstream to cleaner water, whereas Southwark and Vauxhall still drew water affected by the city's sewage. People living close together in similar surroundings could therefore drink from different sources.
+
+The comparison sounds simple, yet its first step could be difficult: which company supplied this household? Tenants might not know because landlords paid the bills. Some patients had moved after becoming ill, so their original addresses had to be recovered. Comparing deaths during the epidemic's first seven weeks with the companies' numbers of supplied houses, Snow found a death rate per house roughly eight to nine times higher for Southwark and Vauxhall than for Lambeth.[^snow]
+
+Residents' and landlords' accounts, original addresses, and supply records had to be matched before death counts could mean anything. Snow could not learn it all merely by walking down a street. Memories, landlords' information, and official records each answered part of the question. Later readers wishing to examine his conclusion also need to know how he established addresses, distinguished supplies, and calculated mortality in each group.
+
+Because Snow wrote down his investigation, we can examine his reasoning long afterwards without interviewing those households again. Research teams commonly work this way: some measure, others organise data, others analyse. Their instruments and mathematics embody earlier researchers' achievements. If everyone had to invent the instruments and reconstruct all knowledge before beginning, far less could be accomplished.
+
+Maps and records together preserve knowledge no individual could remember in full. Residents supplied household circumstances; water companies kept pipe records; Snow brought them into one investigation. People's knowledge did not have to become identical before they could jointly answer a question none had previously answered.
+
+We can still read about cases that resist a first impression: the nearby brewery with few casualties, the distant woman drinking the same water. Snow preserved them so that even readers accepting his conclusion could continue questioning it. Remembering only a doctor's courage in opposing the crowd, without learning how he checked his claim, would leave us with much less to learn.
+
+Trusting an expert also means remembering where their achievements came from. An engineer who repeatedly handles bridge structures well deserves attention. Those results also depend on measurements, colleagues, and construction conditions. These supports may not follow the engineer to a new site. Their achievements offer even less support for their opinions about education policy. There we must investigate another kind of knowledge and how they obtain and compare evidence within it.
+
+What readers can check depends on presentation. A report that explains methods, limitations, and subsequent corrections lets others repeat calculations or question conclusions. A screenshot stripped of author, date, and context may not even reveal what question the original words addressed. Both may sound equally certain while leaving very different room for verification.
+
+Sometimes the missing source is precisely what holds us back. To check a quotation, find the original; to assess a method, examine the problems it handles and its failures. Reasoning alone that “this ought to make sense” can consume more time without reaching the material actually missing.
+
+#H2 Which Part Is Unknown?
+“I don't know” can indicate very different gaps. In Snow's investigation, a death record might be clear while a household's drinking source still required an interview. Once the source was known, a causal connection required comparisons with other households and explanations. Remaining questions do not erase what is already known.
+
+Distinguishing uncertainties makes the next step easier to arrange. To establish whether something happened, seek records or witnesses. To investigate a cause, compare the predictions of competing explanations. If the facts are broadly clear but a cost remains unacceptable, discuss the trade-off rather than repeatedly rechecking the same data.
+
+Suppose you are considering a job in another city. The company can confirm the salary; you can try the commute. Whether you want less time with your family cannot be settled by another salary report. Separating these questions avoids endless information gathering without treating every answerable question as personal preference.
+
+You can interview people and try the route before agreeing to move. Action brings back information previously missing. When the decision comes, the salary and role may remain attractive while the measured commute changes how you see the job.
+
+#H2 Experts Whose Answers Must Wait
+An expert's fluency is immediately apparent. Forecasting accuracy takes longer. A change of government or an economic indicator crossing a threshold will not deliver its answer before the programme ends.
+
+Beginning in the mid-1980s, Philip Tetlock followed political and economic experts' predictions over many years. Participants made judgements about specific, checkable events, stated their confidence, and had these judgements compared with later outcomes and benchmarks.[^tetlock]
+
+Performance varied across people, questions, and measures; some results fell below simple benchmarks. Expertise previously recognised through reputation and speech now acquired a cumulative, checkable record. Assessing someone need no longer begin afresh with the impression of their latest appearance.
+
+Deadlines, outcomes, and confidence at the time of prediction must be preserved if comparison is to be possible. A prophecy without a time limit or clear conditions may remain “not yet wrong” indefinitely. Those waiting still cannot know when it warrants reliance.
+
+#H2 Putting Trust Where It Belongs
+A record also needs interpreting. Probabilities can match observed frequencies without distinguishing which situations are more likely to produce an event. Consider a hypothetical set of weather forecasts.
+
+Suppose it rains on fifty of a hundred days. One forecaster gives a fifty per cent chance every day. Another gives twenty per cent on fifty days and eighty per cent on the other fifty. Rain occurs on ten days in the first group and forty in the second.
+
+Both forecasters' confidence matches the frequencies, but the second supplies something useful for going out: which days are more likely to be wet. This distinguishes calibration from discrimination. Calibration asks whether stated confidence corresponds to frequency; users often also care how well different days can be distinguished.
+
+Checking an “eighty per cent chance” requires specifying the event, when it counts as occurring, and the outcomes used for comparison. Where numerical probabilities are unsuitable, we can still describe our grounds: “I've done this part myself; that part comes from a report; we have no data on the new situation.” Listeners can then distinguish experience from claims needing further confirmation.
+
+Verification can also become endless. After checking experts, you can check their evaluators, then those evaluators' institutions. Every check uses other knowledge. This path never suddenly reaches a place where no trust in anyone is needed.
+
+Discovering that several reports copied one source reduces the weight of what appeared to be widespread agreement. Finding that forecasts never stated checkable deadlines has a similar effect. We cannot check everything. But such differences already give us grounds to adjust trust.
+
+Nor can responsibility for verification fall entirely on users. If only a provider has the original records but asks users to prove where a system failed, many problems become impossible to raise. Providers therefore need to offer intelligible explanations, suitable verification materials, and ways to resolve disputes. With these conditions, users have some chance of identifying an error.
+
+#H2 Borrowed Ability Can Still Be Your Ability
+In “Encouraging Learning,” Xunzi writes that the exemplary person's nature is not different; the difference lies in making good use of things. Standing high to wave does not lengthen the arms, but makes the signal visible farther away. Calling downwind does not strengthen the voice, yet more people hear it. Boats, carriages, height, and wind show how human strengths can arise from things we use rather than reside entirely within us.[^xunzi]
+
+Boats and carriages carry people farther, prompting another question: who maintains these capacities? Crossing water depends on boatbuilding, knowledge of currents, maintenance, and navigation. A passenger need not know every operation to reach the other bank. What they acquire is not complete knowledge of the boat, but access to a capacity sustained by many people.
+
+Such borrowing fills everyday life. We consult forecasts before taking umbrellas, follow medicine labels, and let positioning systems calculate routes. If genuine knowledge required personally repeating every observation, proof, and manufacturing process, anyone's world would become very small. Mature understanding can acknowledge dependence, locate its connections, and recognise when to investigate them.
+
+Through trust, other people's capacities enter our actions. Whether these connections work can be asked concretely. On which problems has the source been tested? Through which retellings has information passed? Who can return to the records when results look wrong? Are different sources independent, or do they copy one another?
+
+Mapping these relationships reveals how much individual performance depends on things outside the individual. Whether to call them parts of the mind will return in Chapter 14; here we trace their support for ability. Books, instruments, colleagues, and institutions can all contribute to understanding. Dependence also reveals vulnerability: when an external link fails, an apparently personal ability may disappear. A second-order framework must ask not only what I believe, but which relationships let me accomplish something through that belief.
+
+#H2 Knowledge Left for the Next Person
+A judgement can reach another person as a bare conclusion, or accompanied by evidence, procedures, and unresolved questions. Leaving the latter takes more work, but lets successors recognise when an answer no longer applies.
+
+This changes what relying on others means. Accepting research does more than borrow something its author knows better than we do. It connects us to records, instruments, methods, and subsequent corrections. Individuals may forget, leave, or refuse to admit mistakes; their records can still let others continue the work.
+
+A book carries this responsibility too. Readers cannot repeat every study for its author. Important claims therefore need sources, and crucial steps in reasoning must be findable. A reader's trust does not exempt an author from explanation. Preserved grounds give later questions a place to begin.

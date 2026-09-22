@@ -1,0 +1,61 @@
+#PART Part One|Above the Answer|Before seeking better answers, we examine how an answer takes shape through observation, other people's knowledge, and purpose.
+
+#H1 1 — How an Answer Is Made
+In early twentieth-century Berlin, a horse named Hans attracted crowds by answering arithmetic questions. His owner, Wilhelm von Osten, had been a teacher and believed that animals could be educated. The owner posed a question; Hans tapped a forehoof. The spectators counted, and when the taps reached the required number, he stopped. Again and again, the taps matched the answer.
+
+Was the owner secretly signalling? That was an obvious suspicion. Yet Hans could still answer correctly when the owner was sent away and someone else asked the questions. If deliberate cheating by the owner explained the performance, how were these results to be understood?
+
+The psychologist Oskar Pfungst changed the way the questions were asked. The owner leaned towards Hans's ear and whispered a number that no one else could hear. Pfungst then supplied another number without letting the owner know it. Hans was asked to add them.
+
+The two numbers remained in separate minds. Neither person knew the total. If Hans understood both numbers and could add, he alone might know the answer. After each trial, the researchers repeated it with the answer known, to see whether that made a difference.
+
+In the thirty-one trials Pfungst recorded with the answer unknown, Hans was right three times; in thirty-one trials with the answer known, he was right twenty-nine times. Other tests showed that obstructing his view of the questioner also affected his answers. Performance varied with what the person knew and what the horse could see. Pfungst began watching the people. What about them could Hans be noticing?
+
+Questioners would often lean slightly forward, watching the hoof and waiting for the expected number of taps. At that number, their heads made a small upward movement and their bodies gradually straightened. For the people, this might be no more than an unconscious release of tension as the wait ended. For Hans, it was a signal to stop. Pfungst could also influence the stopping point by deliberately changing these movements.[^hans]
+
+The hoofbeats were real; their interpretation had changed. Why should stopping at the right number mean that Hans could do arithmetic? “He tapped five times” records a result. “He calculated five” goes further, explaining how that result was obtained. Establishing the first does not establish the second.
+
+#H2 What We See Has Already Been Selected
+A camera pointed at a street cannot preserve the whole street. Framing, lighting, and recording intervals help determine what can later be seen. Human attention selects too. On the same street, a driver may notice traffic, an architect the façades, and a child a dog beside the road. They face the same street and may remember different things.
+
+Attention selects; interpretation takes another step. “He hasn't replied today” can be checked against the message record. “He is distancing himself from me” calls for more understanding. He may be busy, may have missed the message, or may indeed be withdrawing. Treating the latter claim as established makes the other explanations easy to miss.
+
+“He is distancing himself” may also be true. The difficulty is that once we believe it, we may notice unanswered messages more readily than occasions when he contacted us first. We think we are still gathering evidence, while our explanation has already begun selecting it.
+
+#H2 Can Observation Be Free of Interpretation?
+Look closely, and even “he hasn't replied” involves interpretation. We must understand what sending and replying mean, choose the period to count, and consider whether he responded in some other way. If observation itself depends on concepts, is the distinction still useful?
+
+Kant placed this difficulty at the centre of his inquiry. In the *Critique of Pure Reason*, published in 1781, he argued that experience is organised through forms of sensibility and categories of understanding. We cannot strip away all these conditions of knowing and then compare experience with a world presented entirely without them. He also sought to explain how these shared conditions make certain kinds of necessary knowledge possible. Space, time, causality, and geometry play distinct roles in that account.[^kant]
+
+If knowing cannot be separated from human capacities and methods, on what grounds can we judge one account more reliable than another? The geometry in Chapter 7 will bring new difficulties to one kind of knowledge Kant relied on.
+
+For now, we can return to a comparison we can actually make. To check whether someone interrupted a speaker, replayable video usually offers more detail than “he had a bad attitude.” We can count interruptions, hear the surrounding sentences, and identify where our recollections differ. Video still has limits of framing and sound, but these can be investigated individually.
+
+A recording can be edited, described in words, and then interpreted as an instance of contempt. That interpretation may change what gets recorded or asked next. We can follow these changes to investigate a disputed step, although they rarely form a fixed staircase running in only one direction.
+
+#H2 Making an Accusation Answerable
+In a heated dispute, “don't be subjective” often invites another accusation. Unpacking a judgement gives the conversation somewhere to go.
+
+Instead of “he simply doesn't respect me,” try: “He interrupted me twice and didn't respond to the risk I raised. I interpret those actions as disrespect, although I don't yet know what he was thinking.”
+
+Instead of “customers don't need this feature,” try: “None of the seven people interviewed so far mentioned it unprompted. That lowers my estimate of demand, although the sample and the questions may have influenced the result.”
+
+The extra sentences show the other person where a reply can begin: acknowledging an interruption, explaining the lack of response, or pointing out a passage you omitted. Familiar, undisputed exchanges need not be expanded this way sentence by sentence.
+
+#H2 Memory Goes On Writing
+In 1974, Elizabeth Loftus and John Palmer showed participants films of traffic accidents and then asked them to estimate speed. The questions used different verbs for the collision. Stronger wording produced higher estimates. Two explanations remained possible: participants might merely have adjusted their numbers to the question, or their memories might also have changed. The researchers pursued the difference.
+
+Their second experiment used another group. After watching a film, some participants received speed questions with different wording, while others received no such question. A week later, they were asked whether they had seen broken glass. There was none in the film. Those previously given the stronger collision wording were nevertheless more likely to say they had seen it.[^memory]
+
+The film could be replayed, but the question had changed the answers. The questioner need not have intended to mislead, nor the person remembering have noticed any added detail. Broken glass that was never there had entered the account.
+
+The researchers could replay the film and identify answers that did not match it. Everyday conflicts rarely provide such complete comparisons. We explain events from memory, and other people's accounts enter later recollections. We turn to records and to other people. But records have their framing, and other people have their memories too.
+
+#H2 From the Answer Back to Its Formation
+The study of Hans changed the question. Researchers began with a horse that answered arithmetic correctly; they came to compare the questioner's knowledge, bodily movements, and the horse's tapping. The performance remained before them. The capacity it indicated had changed.
+
+Whether this examination can help elsewhere is the question the book now pursues. A few terms will help. A **representation** is a form that preserves distinctions: a sentence, a diagram, a set of numbers. An **operation** is something we can do with it, such as comparing, calculating, or questioning. A **framework** connects questions, representations, procedures, and standards of evaluation so that we can judge which answers to use. It may never have been written down and still shape everyday judgement.
+
+A second-order framework addresses relationships among these frameworks. Where does a method hold? What must survive a move to another setting? Where should we return when results depart from expectations? Answers should identify work we can do. If “moving up a level” changes nothing about how we investigate or act, it is merely another expression.
+
+Counting hoofbeats alone could not produce this change of question. The researcher needed a different test, and a record others could examine. By this point, the work of understanding had already outgrown what any one person could see.

@@ -1,0 +1,121 @@
+#H1 8 — Revision: Letting a Framework Encounter Failure
+Aircraft return with bullet holes. Ground crews can inspect the damaged surfaces. Aircraft that never return provide no comparable record.
+
+During the Second World War, this posed a practical problem for aircraft protection. Armour is heavy; it cannot be added without limit everywhere. Where should a limited weight go?
+
+The damaged machines before investigators seemed the most direct evidence. Yet their presence already depended on a condition: they had survived those hits and returned.
+
+Working in Columbia University's Statistical Research Group, Abraham Wald wrote a series of studies in 1943 using sortie totals, losses, and surviving aircraft's damage to estimate vulnerability.[^wald]
+
+Many holes in one area might indicate frequent hits, or a greater chance of surviving hits there. Few might indicate rare hits, or a low chance of returning after them. Hole counts do not directly measure vulnerability. Inferring the missing aircraft requires assumptions about hits and survival.
+
+Records on the airfield can be faultless yet unrepresentative of all sorties. The gap precedes recording: some aircraft did not return to be inspected. More careful counting of visible holes cannot recover their missing damage records.
+
+Hiring records have a similar gap. Employers see hired candidates' performance, not what rejected candidates would have done in the same role with the same training. Assessing selection only through hires omits an important comparison.
+
+Obtaining that comparison involves actual jobs, training, and treatment. Statistics identifies the gap; someone must still bear the cost of obtaining evidence.
+
+Few complaints may indicate good service, difficult submission, ineffective handling, or the departure of the least satisfied. Counting the same channel again does not recover people unable to submit. Interviews, observation, and records of abandoned submissions can offer other evidence.
+
+Source counts need similar scrutiny. Three reports copying one dataset do not offer three independent bodies of evidence. Three questionnaires with equally narrow options can omit the same experience. Before collecting more, identify the gap it can fill.
+
+An objector may also change the research question. A completion-rate study omits people never eligible to participate; a satisfaction survey omits compulsory use without an exit. Assessment then reaches beyond its original sample to ask whom the institution serves and whom it excludes.
+
+#H2 After One Number Falls
+Even complete data may concern the wrong outcome. Medical research has faced this question: does lowering an indicator associated with mortality make patients live longer?
+
+A myocardial infarction damages heart muscle. Some patients subsequently experience premature ventricular contractions—extra beats occurring early. These are associated with higher mortality. Certain drugs suppress them. The tempting inference is that suppression should reduce deaths.
+
+The Cardiac Arrhythmia Suppression Trial, CAST, allocated eligible patients to drug or placebo groups and compared subsequent outcomes. Its 1989 preliminary report found more arrhythmic deaths or nonfatal cardiac arrests in groups receiving encainide or flecainide, and higher overall mortality. Testing of those drugs stopped early. Improved rhythm measures did not deliver the expected survival benefit.[^cast]
+
+The trial sharply distinguishes association from intervention. An abnormal rhythm associated with death, and a drug reducing that rhythm, do not jointly establish reduced mortality from treatment. Drugs can have other effects. Important patient outcomes must be compared directly.
+
+Establishing the difference also has costs. Some methods permit deliberate changes; others use naturally occurring variation. Arrangements affecting people require responsibility for risk and fairness. Serious, lasting, hard-to-reverse errors generally warrant fuller investigation than minor errors easily detected and repaired.
+
+Before a test, let competing explanations state their expectations. Hans illustrates this: a horse doing arithmetic should still answer when the questioner does not know the result; one relying on bodily stopping signals depends on another condition.
+
+If a theory claims to anticipate every possible outcome, how much evidence can observation add? Aggression may be explained by a desire, restraint by repression of that same desire. Without independent means of identifying either, the two accounts can accommodate opposite behaviour.
+
+When occurrence and nonoccurrence fit the same explanation, researchers need to specify another observable distinction. Otherwise the only thing demonstrated is the explanation's capacity to continue.
+
+#H2 What Was the Eclipse Meant to Show?
+Daylight normally hides stars near the Sun. A total eclipse briefly permits photographs of the surrounding star field for comparison with photographs taken at other times.
+
+On 29 May 1919, British expeditions observed from Príncipe off West Africa and Sobral in Brazil. Arthur Eddington joined the former. They measured the apparent displacement of stars whose light passed near the Sun, for which general relativity offered a quantitative prediction.
+
+Weather, photographic quality, instruments, and measurement error all had to be addressed. The published measurements and error analysis provided support for general relativity.[^eclipse]
+
+Looking back on his intellectual development, Popper emphasised the risk of error a theory accepts in advance. Unlike accounts able to append explanations to opposite behaviours, a predicted deflection makes observational conflict possible. This informed his requirement that empirical theories be falsifiable.[^popper]
+
+Such tests concern predictions about experience. Mathematical proof, ethical argument, and literary understanding have different standards. A theory claiming observational predictions can be asked to state them before observations have the chance to disagree.
+
+Popper later reconsidered a judgement of his own.
+
+If survival of the fittest means only that survivors are fit, the explanation returns to its definition. Defining fitness by survival and then explaining survival by fitness supplies no content distinguishing other outcomes.
+
+Popper once described Darwinism as a valuable metaphysical research programme while expressing reservations about testability. In a 1978 article he revised that assessment, recognising testable content in natural selection.[^popper]
+
+Actual evolutionary research can measure traits and environments before outcomes occur. The Grants and their colleagues followed finches on Daphne Major in the Galápagos, recording individual traits and survival. The 1977 drought changed food conditions; beak characteristics affected use of remaining seeds. Researchers could compare survival and later population characteristics.[^finches]
+
+Recording beaks and food first allows specific relationships to be tested, rather than naming survivors fit afterwards. Unexpected results prompt investigation of food assessments, trait measurement, and other influences.
+
+#H2 An Anomaly Has Several Possible Sources
+A failed prediction need not locate error solely in the theory. Data, operations, and auxiliary assumptions can produce discrepancies. Instruments may fail; conditions thought constant may change during a test.
+
+Hans's tests approached a cause because the questioner's knowledge varied comparably. If questions, locations, and procedures all changed, a wrong answer would not identify which change mattered. Controls and comparisons depend on the cause we wish to distinguish.
+
+Everyday claims face the same difficulty. “More autonomy improves team performance” must specify authority over schedules, spending, or technical choices. A failed project may show an overbroad claim, absent information, or decisions communicated too late. These differences permit a testable revision: among teams with relevant skills, information, and timely feedback, does a specific increase in authority reduce waiting for approval?
+
+Proposed interference must itself be investigable. Suspected instrument error calls for calibration or comparison; changed surroundings call for contemporaneous records. Adding an uncheckable excuse for each failure excludes counterexamples altogether.
+
+#H2 When a Framework Needs Replacing
+Repairs sometimes restore usefulness; sometimes they accumulate exceptions. Recurrent errors, each requiring another exception, and explanations restricted to the past without testable expectations are reasons to reconsider the original description of the problem.
+
+Another reason is an alternative that handles anomalies while accounting for earlier successes. Novelty alone is insufficient. Compare added assumptions, solved problems, and whether reliable achievements would be lost.
+
+The history of light contains such a transition.
+
+Nineteenth-century physicists knew light had wave properties. Water waves have water; sound travels through media including air. What waves as light crosses space? Ether was an influential answer.
+
+In 1887, Albert Michelson and Edward Morley sent light back and forth in different directions in an interferometer and compared the returning interference fringes. They sought a displacement expected from Earth's motion through ether, but found an effect far smaller than predicted. Existing accounts of terrestrial motion and light faced a difficulty.[^ether]
+
+Researchers continued revising assumptions and improving experiments. Lorentz and others developed important mathematical relationships usable in later physics. One experiment did not immediately supply a complete replacement theory.
+
+Special relativity later reformulated relationships among time, space, and light speed, allowing different basic assumptions. Change can concern how questions are posed rather than merely a corrected number. New theories must still fit reliable observations and face new tests.
+
+In hindsight the turning point seems clear. Researchers then could not read the later history. They had to judge whether existing theories could handle the difficulty. New mathematics could repair old accounts or enter later theories. Achievements now assigned to old and new frameworks once developed together.
+
+#H2 What Might Admitting Error Cost?
+In the mid-nineteenth century, Vienna's General Hospital had two maternity clinics, one staffed by doctors and medical students, the other by midwives. Maternal mortality differed. Ignaz Semmelweis kept asking why.
+
+In 1847, a colleague died after an injury during dissection. Semmelweis connected the pathological findings with maternal illness and suspected contamination carried from dissections to patients. Chlorinated washing was introduced and mortality fell. His account of cadaveric particles was not today's full knowledge of microbes and infection.[^semmelweis]
+
+The intervention's results forced attention to a disturbing possibility: routine care might transmit lethal contamination. Responding required examining practices and facing harm one might have caused.
+
+Admitting such error costs more than changing a rule. Professional identity, colleagues' relationships, and self-assessment may be affected. These costs help explain difficulty, but do not justify refusing evidence.
+
+Institutions need ways to begin reporting: submit anomalies, suspend doubtful practices, assign verification, and respond to victims. Responsibility remains, but reporting should not await complete proof or be suppressed through humiliation.
+
+#H2 Returning Through an Ancient Sequence
+The *Doctrine of the Mean* joins broad learning, careful questioning, thoughtful reflection, clear discrimination, and earnest practice in a sequence of verbs.[^zhongyong] Learning leads through inquiry and judgement into action.
+
+The text stresses practice. This chapter asks what follows: how can materials brought back by action reopen earlier work? Results can force new distinctions, contradictions can rewrite a question, and new questions can change what to study. After doing, there may still be a need to think again.
+
+Institutions often equate updating with faster figures and more frequent releases. Speed matters sometimes, but is not learning. Biased data can be followed faster; unchanged authority can prevent detected errors from changing decisions. Revision needs results to return, someone able to recognise discrepancies, and a route to whoever can change the relevant level.
+
+That level cannot always be fixed beforehand. Wrong measurements call for corrected data; erased distinctions for another representation; changed environments for revisiting conditions. Targets met while lives worsen call for reconsidering purpose. Retraining models, lowering thresholds, or adding rules each time can produce endless versions while leaving the wrong question untouched.
+
+#H2 Faster Updating Is Not Always Better
+The extent of change should reflect evidential strength. One anomaly may be error or chance. Repeated independent results conflicting with core predictions call for more substantial adjustment. Unresolved doubt can be recorded while discriminating evidence is sought.
+
+People receiving the same report bring different histories. One has uncovered sampling problems in similar reports; another has repeatedly predicted accurately using them. The report is identical, but its persuasive force may differ.
+
+Reasonableness depends on how relevant those histories are. Is this the same team and method? Were earlier problems repaired? “I've been deceived before” and “I've always trusted it” cannot alone set the weight of this report.
+
+Disagreement can therefore begin with prior beliefs and reasons, then ask what the new report changes. A deeply sceptical reader may become more trusting without reaching another's confidence. Final agreement alone hides that movement.
+
+Stating earlier judgements reveals the source of disagreement. Allowing reliable new evidence to change them keeps past experience from becoming a permanent barrier.
+
+Praising admission of error is easy. Those involved still have to establish whether they erred. Too little revision may prolong harm; too much may discard reliable practice. Later results have not arrived, yet both costs are already being borne.
+
+Comparing evidence, recording judgements, and involving others supplies grounds. It cannot guarantee the right timing every time. Even after criticism has been heard and evidence examined, another revision may be needed. Reliability includes leaving room for that possibility.
