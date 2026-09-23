@@ -1,3 +1,33 @@
+- date: 2026-09-23
+  zh-TW:
+    title: 我為什麼遵守一套可以修改的道德
+    description: 我願意接受社會教給我的規矩，卻不把它們當成永遠不能改的答案。從一件垃圾、一個誤判，到如何面對自己的反感，完整展開一種讓習慣與反思共同工作的道德觀。
+    categories:
+    - 哲學
+    - 二階框架的應用
+    tags:
+    - 道德
+    - 實用主義
+    - 習慣
+    - 反思
+    - 所見非全貌
+    url: /posts/a-morality-we-can-revise/
+  en:
+    title: Why I Follow a Morality I Can Revise
+    description: I am willing to follow rules learned from society without treating them as final answers. From
+      a piece of litter and a mistaken accusation to an examination of aversion, this essay develops a morality
+      in which habit and reflection work together.
+    categories:
+    - Philosophy
+    - Applying the Second-Order Framework
+    tags:
+    - Morality
+    - Pragmatism
+    - Habit
+    - Reflection
+    - No View Is the Whole
+    url: /en/posts/a-morality-we-can-revise/
+
 - date: 2026-08-25
   zh-TW:
     title: "當系統看不見自己正在缺氧：從 AI Agent、自動化到制度設計"
@@ -20,14 +50,14 @@
 # 全書排在文章後面，那兩處才不會被它蓋掉。
 - date: 2026-08-25
   zh-TW:
-    title: "所見非全貌：世界，以及我們理解它的方式"
+    title: "所見非全貌：理解、行動與修正的二階哲學"
     url: /posts/no-view-is-the-whole/
-    description: "全書十五章分成四部，十七組圖、七十五條可回查的來源註。從柏林會算術的馬、一八五四年倫敦的霍亂地圖，到登月小艇上的程式警報，追問的是同一件事：我們用來理解世界的那套眼光，本身是怎樣形成、怎樣被檢查、又怎樣傳給下一個人。"
+    description: "理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及八十二項來源註釋。"
     categories: [書籍]
     tags: [所見非全貌, 認知, 模型, 抽象洩漏, 科學哲學]
   en:
-    title: "No View Is the Whole: The World and the Ways We Make Sense of It"
+    title: "No View Is the Whole: A Second-Order Philosophy of Understanding, Action, and Revision"
     url: /en/posts/no-view-is-the-whole/
-    description: "Fifteen chapters in four parts, seventeen figures, seventy-five sources you can check. From a horse in Berlin that seemed to do arithmetic and the 1854 London cholera map to a programme alarm on the lunar lander, one question runs through it: how the way we make sense of the world is itself formed, checked, and handed on to the next person."
+    description: "A second-order philosophy of understanding, action, and revision. Preservation, composition, and return: how understanding forms, connects, and revises itself. Sixteen chapters, seventeen images, and eighty-two source notes."
     categories: [Book]
     tags: [No View Is the Whole, Cognition, Models, Leaky Abstractions, Philosophy of Science]
