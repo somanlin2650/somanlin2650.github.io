@@ -1,3 +1,33 @@
+- date: 2026-09-24
+  zh-TW:
+    title: 你不必重新發現世界：自學如何借用前人的思考
+    description: 看得懂書上的每一步，卻不知道為什麼要這樣做？從虛數到日常學習，找回定義背後的問題，借用前人的思考，也知道何時該停止追溯、自己動手。
+    categories:
+    - 學習
+    - 哲學
+    tags:
+    - 自學
+    - 理解
+    - 認知同理
+    - 知識
+    - 所見非全貌
+    url: /posts/you-dont-have-to-rediscover-the-world/
+  en:
+    title: 'You Don''t Have to Rediscover the World: Learning from Other People''s Thinking'
+    description: You can follow every step on the page and still have no idea why anyone would take those
+      steps. How recovering the problem behind a concept can help us learn, and when to stop looking back
+      and try it ourselves.
+    categories:
+    - Learning
+    - Philosophy
+    tags:
+    - Self-directed Learning
+    - Understanding
+    - Epistemic Empathy
+    - Knowledge
+    - No View Is the Whole
+    url: /en/posts/you-dont-have-to-rediscover-the-world/
+
 - date: 2026-09-23
   zh-TW:
     title: 我為什麼遵守一套可以修改的道德
