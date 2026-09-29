@@ -54,12 +54,12 @@
   font-weight: 600;
 }
 #topbar .site-lang-compact {
-  display: none; margin-left: auto; padding: .25rem .5rem;
+  display: inline-flex; margin-left: auto; padding: .25rem .5rem;
   color: var(--text-muted-color); font-size: .8rem; font-weight: 600;
   text-decoration: none;
 }
-@media (max-width: 1199px) {
-  #topbar .site-lang-compact { display: inline-flex; }
+@media (min-width: 850px) {
+  .site-lang-sidebar-ready #topbar .site-lang-compact { display: none; }
 }
 /* 錨點落下來的位置要跟 tocbot 判定「已經讀到這一節」的門檻一致，否則點了目錄
    之後，文章摘要會把上一節當成目前位置：桌機那一份的 headingsOffset 是 32，
@@ -106,8 +106,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  function languageLink(label, lang, href, active) {
-    var a = document.createElement("a");
+  function languageLink(label, lang, href, active, existing) {
+    var a = existing || document.createElement("a");
     a.textContent = label;
     var explicit = new URL(href, location.origin);
     explicit.search = location.search;
@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     a.setAttribute("data-href-base", explicit.pathname + explicit.search);
     a.setAttribute("data-site-lang", lang);
     a.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
+    a.setAttribute("hreflang", lang === "zh" ? "zh-Hant" : "en");
     if (active) a.setAttribute("aria-current", "true");
     a.addEventListener("click", remember);
     return a;
@@ -157,14 +158,20 @@ document.addEventListener("DOMContentLoaded", function () {
     group.appendChild(languageLink("中文", "zh", zhUrl, !isEn));
     group.appendChild(languageLink("EN", "en", enUrl, isEn));
     profile.appendChild(group);
+    document.documentElement.classList.add("site-lang-sidebar-ready");
   }
 
   var searchTrigger = document.getElementById("search-trigger");
   if (searchTrigger) {
-    var compact = languageLink(isEn ? "中" : "EN", isEn ? "zh" : "en", alternate, false);
+    /* Reuse the crawlable translation link instead of showing a third switch.
+       Without JavaScript it remains in the document as a working fallback. */
+    var translation = document.querySelector("nav.translation-link");
+    var existing = translation && translation.querySelector("a");
+    var compact = languageLink(isEn ? "中" : "EN", isEn ? "zh" : "en", alternate, false, existing);
     compact.className = "site-lang-compact";
     compact.setAttribute("aria-label", isEn ? "切換成中文" : "Switch to English");
     searchTrigger.parentNode.insertBefore(compact, searchTrigger);
+    if (translation && !translation.children.length) translation.remove();
   }
 
   var homeUrl = isEn ? "/en/" : "/";
