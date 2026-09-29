@@ -7,6 +7,16 @@ Jekyll::Hooks.register :site, :post_read do |site|
   tabs["books-en"] = "Books" if tabs
 end
 
+# Chirpy reads the global tagline even on translated pages. Localize the
+# rendered subtitle at build time so it also works without JavaScript.
+Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
+  next unless page.data["lang"] == "en"
+
+  page.output.sub!(%r{(<p\b[^>]*class="[^"]*\bsite-subtitle\b[^"]*"[^>]*>).*?(</p>)}m) do
+    "#{$1}AI · Philosophy · Learning#{$2}"
+  end
+end
+
 # Render ordinary links as well as hreflang metadata so both translations can
 # be discovered without JavaScript. Do not put page-specific links in Chirpy's
 # cached footer, which is shared by all pages of a language.
