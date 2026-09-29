@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When a System Cannot See Its Own Hypoxia: From AI Agents and Automation to Institutional Design"
+title: "AI Agents and Automation: When a System Cannot See Its Own Hypoxia"
 date: 2026-08-25 15:20:00 +0800
 lang: en
 permalink: /en/posts/when-ai-cannot-see-its-own-hypoxia/
@@ -188,3 +188,8 @@ Automation handles the known. Local controllers handle immediate feedback. Learn
 What is worth imitating, then, is not only the brain, nor even the nervous system as a whole. It is the way humans use reason to understand their own limitations, then use tools, cooperation, science, and institutions to compensate for them.
 
 A mature Agent system does more than act on its environment, and more than tune its automation. It must also know that what it sees is not the world itself; that its alarms can fall silent; that its judgement can fail—and, while it can still reason, place the necessary protection outside itself.
+
+
+## Further reading
+
+Oversight of a system and reflection on a judgment are different tasks, but both require existing rules to remain open to examination. [A Revisable Morality: From Habit to Reflection](/en/posts/a-morality-we-can-revise/) takes that question into everyday norms.

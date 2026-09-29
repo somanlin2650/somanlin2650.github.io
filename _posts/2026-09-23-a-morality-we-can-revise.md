@@ -154,3 +154,8 @@ comments: true
 [^anti-realism]: Richard Joyce，〈Moral Anti-Realism〉，*Stanford Encyclopedia of Philosophy*。[專文](https://plato.stanford.edu/entries/moral-anti-realism/)。本文借用這個討論位置，不將反實在論、虛無主義與實用主義視為同義詞，也不宣稱下文的生活策略可由反實在論單獨推出。
 [^dewey]: John Dewey (1922)，*Human Nature and Conduct*，第一部第四、五節與第三部。[原文全文](https://www.gutenberg.org/files/41386/41386-h/41386-h.htm)。本文參考他對習俗、習慣與反思的討論；文中的「壓縮」與具體假設案例是本文的分析，不是杜威的原句，也不表示他接受本文的全部後設倫理立場。
 [^simon]: Herbert A. Simon (1978)，〈Rational Decision-Making in Business Organizations〉。[諾貝爾紀念演講全文](https://www.nobelprize.org/uploads/2018/06/simon-lecture.pdf)。本文借用有限理性對資訊與計算限制的重視，將其用於道德判斷的注意力分配；這項延伸不等於該研究證明了某套道德觀最優。
+
+
+## 延伸閱讀
+
+承接既有規範而保留修正能力，也是一個學習問題。〈[不必重新發現世界：自學如何借用前人的思考](/posts/you-dont-have-to-rediscover-the-world/)〉進一步討論，如何把承接而來的知識轉成判斷、遷移與修正的能力。

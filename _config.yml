@@ -16,9 +16,10 @@ timezone: Asia/Taipei
 
 title: Soman Lin # 側欄最上方的站名
 
-tagline: # 側欄名字底下那行小字，想寫再填
+tagline: AI · 哲學 · 自學
 
-description: # 給搜尋引擎與 RSS 用的一兩句介紹，想寫再填
+description: >-
+  Soman Lin 的個人知識網站，收錄 AI Agent、自動化與系統設計、認知與哲學、自學與理解的長篇文章，以及免費線上書籍《所見非全貌》。提供繁體中文與英文版本。
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -180,6 +181,15 @@ collections:
     sort_by: order
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      author: Soman Lin
+  - scope:
+      path: "en/posts"
+    values:
+      seo:
+        type: BlogPosting
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts

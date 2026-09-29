@@ -3,6 +3,10 @@
 (function () {
   var alternate = {{ page.alternate_url | default: '' | jsonify }};
   if (!alternate || !window.SiteLanguage) return;
+  // Language-specific deep links stay stable. Only the entry point or an
+  // explicit language request may redirect; no crawler-specific behaviour.
+  var explicit = /^(zh|en)(?:-|$)/i.test(new URL(location.href).searchParams.get('lang') || '');
+  if (location.pathname !== '/' && !explicit) return;
   var current = {{ page.lang | default: site.lang | jsonify }};
   current = /^en\b/i.test(current) ? 'en' : 'zh';
   if (SiteLanguage.resolve() === current) return;
@@ -22,6 +26,9 @@
 >
 
 {% if page.alternate_url %}
+  {% if page.url == '/' or page.url == '/en/' %}
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+  {% endif %}
   {% if page.lang == 'en' %}
     <link rel="alternate" hreflang="zh-Hant" href="{{ page.alternate_url | absolute_url }}">
     <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">

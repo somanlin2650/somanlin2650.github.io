@@ -200,3 +200,8 @@ comments: true
 [^berkeley]: George Berkeley, *The Analyst*（1734），尤其第 XIII–XVI 節對增量消去的討論。可讀都柏林三一學院 David R. Wilkins 整理的[原文](https://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analyst.html)。本文以現代語言說明問題，並非沿用柏克萊的全部論證，也不表示他的批判足以推翻微積分。
 
 [^empathy]: Lama Z. Jaber、Sherry Southerland、Felisha Dake，〈Cultivating epistemic empathy in preservice teacher education〉，*Teaching and Teacher Education* 72（2018），13–23，[DOI: 10.1016/j.tate.2018.02.009](https://doi.org/10.1016/j.tate.2018.02.009)。研究情境是師資培育；本文提出的「學習者理解觀念提出者」是方法上的延伸，並非該研究直接驗證的成效。
+
+
+## 延伸閱讀
+
+借用前人的知識，也涉及如何承接既有規範。〈[一套可以修改的道德：從習慣到反思](/posts/a-morality-we-can-revise/)〉把「先承接，再檢查與修正」放進道德判斷，展開另一個完整實例。

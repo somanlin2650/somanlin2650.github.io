@@ -202,3 +202,8 @@ Further reading: [*No View Is the Whole: A Second-Order Philosophy of Understand
 [^berkeley]: George Berkeley, *The Analyst* (1734), particularly sections XIII–XVI on the elimination of increments. [Full text edited by David R. Wilkins, Trinity College Dublin](https://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analyst.html). The explanation here uses modern language; it neither adopts all of Berkeley's reasoning nor suggests that his criticism invalidated calculus.
 
 [^empathy]: Lama Z. Jaber, Sherry Southerland, and Felisha Dake, “Cultivating epistemic empathy in preservice teacher education,” *Teaching and Teacher Education* 72 (2018), 13–23. [DOI: 10.1016/j.tate.2018.02.009](https://doi.org/10.1016/j.tate.2018.02.009). The study concerned teacher education. The learner-to-thinker direction proposed here is an extension, not an outcome directly tested in that research.
+
+
+## Further reading
+
+Learning from inherited knowledge raises a related question about inherited norms. [A Revisable Morality: From Habit to Reflection](/en/posts/a-morality-we-can-revise/) examines how established practices can guide judgment while remaining open to revision.

@@ -156,3 +156,8 @@ This is an independent application of *No View Is the Whole*. The book's framewo
 [^anti-realism]: Richard Joyce, “Moral Anti-Realism”, *Stanford Encyclopedia of Philosophy*. [Article](https://plato.stanford.edu/entries/moral-anti-realism/). This essay locates its discussion here without treating anti-realism, nihilism, and pragmatism as synonyms or claiming that anti-realism alone entails the practical approach developed above.
 [^dewey]: John Dewey (1922), *Human Nature and Conduct*, Part One, sections IV–V, and Part Three. [Full text](https://www.gutenberg.org/files/41386/41386-h/41386-h.htm). The essay draws on his discussion of custom, habit, and reflection. “Compression” and the hypothetical examples are this essay's analysis, not Dewey's wording, and do not imply his acceptance of its entire metaethical position.
 [^simon]: Herbert A. Simon (1978), “Rational Decision-Making in Business Organizations”. [Nobel Memorial Lecture](https://www.nobelprize.org/uploads/2018/06/simon-lecture.pdf). The essay applies bounded rationality's attention to informational and computational limits to the allocation of attention in moral judgement. This extension does not mean the research proves any moral outlook optimal.
+
+
+## Further reading
+
+Accepting inherited norms while retaining the ability to revise them is also a problem of learning. [No Need to Rediscover the World](/en/posts/you-dont-have-to-rediscover-the-world/) examines how borrowed knowledge becomes a capacity for judgment, transfer, and revision.
