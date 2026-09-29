@@ -88,3 +88,26 @@ h1.dynamic-title,
   line-height: 1.65;
   letter-spacing: 0.01em;
 }
+
+/* The theme's light panels otherwise share the article's white background.
+   Scope the extra separation to light mode, including an explicit override
+   on a device whose system appearance is dark. */
+@mixin light-reading-columns {
+  #sidebar {
+    background: #edf1f5;
+    border-right: 1px solid #ccd5de;
+  }
+  @media (min-width: 1200px) {
+    #panel-wrapper {
+      --main-bg: #f5f7f9;
+      background: #f5f7f9;
+      border-left: 1px solid #d5dde5;
+      padding-left: 1.25rem !important;
+    }
+  }
+}
+
+html[data-bs-theme='light'] { @include light-reading-columns; }
+@media (prefers-color-scheme: light) {
+  html:not([data-bs-theme]) { @include light-reading-columns; }
+}

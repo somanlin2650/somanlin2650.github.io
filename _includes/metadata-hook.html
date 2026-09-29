@@ -1,3 +1,18 @@
+<script src="{{ '/assets/js/site-language.js' | relative_url }}"></script>
+<script>
+(function () {
+  var alternate = {{ page.alternate_url | default: '' | jsonify }};
+  if (!alternate || !window.SiteLanguage) return;
+  var current = {{ page.lang | default: site.lang | jsonify }};
+  current = /^en\b/i.test(current) ? 'en' : 'zh';
+  if (SiteLanguage.resolve() === current) return;
+  var target = new URL(alternate, location.origin);
+  target.search = location.search;
+  target.hash = location.hash;
+  if (target.pathname !== location.pathname) location.replace(target.href);
+}());
+</script>
+
 <!-- 繁體中文網頁字型：思源宋體 TC（內文）／思源黑體 TC（介面與標題）／Source Serif 4（西文） -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +44,7 @@
 .site-lang-switch a:hover { color: var(--sidebar-active-color); }
 .site-lang-switch a[aria-current="true"] {
   background: var(--sidebar-btn-bg); color: var(--sidebar-active-color);
-  font-weight: 600; pointer-events: none;
+  font-weight: 600;
 }
 #topbar .site-lang-compact {
   display: none; margin-left: auto; padding: .25rem .5rem;
@@ -57,8 +72,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var zhUrl = isEn ? alternate : current;
   var enUrl = isEn ? current : alternate;
 
-  try { localStorage.setItem("site_lang", isEn ? "en" : "zh"); } catch (e) {}
-
   /* 全書那兩篇的標題帶著固定編號（part1 / s4 / s4-1），中英兩篇一致，
      所以換語言時可以把目前讀到的位置一起帶過去。其他頁面的標題 id 由
      kramdown 依標題文字產生，兩種語言對不起來，就不加錨點。 */
@@ -78,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function remember(event) {
     var link = event.currentTarget;
     var target = link.getAttribute("data-site-lang");
-    try { localStorage.setItem("site_lang", target); } catch (e) {}
+    if (window.SiteLanguage) SiteLanguage.remember(target);
     var base = link.getAttribute("data-href-base");
     if (base) {
       var anchor = currentAnchor();
@@ -89,8 +102,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function languageLink(label, lang, href, active) {
     var a = document.createElement("a");
     a.textContent = label;
-    a.href = href;
-    a.setAttribute("data-href-base", href);
+    var explicit = new URL(href, location.origin);
+    explicit.search = location.search;
+    explicit.searchParams.set("lang", lang);
+    a.href = explicit.pathname + explicit.search;
+    a.setAttribute("data-href-base", explicit.pathname + explicit.search);
     a.setAttribute("data-site-lang", lang);
     a.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
     if (active) a.setAttribute("aria-current", "true");
