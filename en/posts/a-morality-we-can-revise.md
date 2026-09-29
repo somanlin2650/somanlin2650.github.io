@@ -1,158 +1,153 @@
 ---
 layout: post
-title: "Why I Follow a Morality I Can Revise"
+title: "A Revisable Morality: From Habit to Reflection"
 date: 2026-09-23 19:00:00 +0800
 lang: en
 permalink: /en/posts/a-morality-we-can-revise/
 alternate_url: /posts/a-morality-we-can-revise/
 categories: [Philosophy, Applying the Second-Order Framework]
 tags: [Morality, Pragmatism, Habit, Reflection, No View Is the Whole]
-description: "I am willing to follow rules learned from society without treating them as final answers. From a piece of litter and a mistaken accusation to an examination of aversion, this essay develops a morality in which habit and reflection work together."
+description: "Social norms can guide daily life while remaining open to revision. From a mistaken judgment about litter to the role of aversion in public rules, this essay follows habit, judgment, and second-order reflection in practice."
+last_modified_at: 2026-09-29 13:42:14 +0800
 toc: true
 comments: true
 ---
 
-I do not believe the world contained a finished code of right and wrong before anyone lived in it. Yet when I finish a drink, I still look for somewhere appropriate to dispose of the cup. When someone else is next in line, my convenience alone does not seem a sufficient reason to step ahead.
+Morality need not carry an eternal guarantee to provide reasons for action. An empty cup still needs proper disposal, and someone arriving at a queue still has reason to wait. Shared spaces require care, cooperation depends on predictable conduct, and daily life leaves little time to argue every small decision from first principles.
 
-These rules have not lost my reasons for following them simply because they lack an eternal guarantee. Shared spaces need maintaining. Cooperation depends on reasonably predictable conduct. And my time is limited: I cannot reconstruct the conditions of living together before attending to every small task.
+Inherited rules can therefore serve as starting points and gradually become effortless habits. Yet habits misjudge, and rules can outlive their purposes. A workable moral outlook needs ways to detect mistakes and change both judgments and norms.
 
-I am willing to inherit many of the practices society has taught me. Some need not even come to mind before my body follows them. What concerns me is whether, when something goes wrong, I can still notice and change.
-
-In *No View Is the Whole*, I use preservation, composition, and return to examine how understanding forms and revises itself. A moral outlook offers a practical application. We receive norms from society, turn them into habits, use them to judge ourselves and others, and let experience return to change how we judge. This essay follows the whole process, including the difficulties faced by my willingness to go along with society.
+*No View Is the Whole* examines how understanding develops and changes through preservation, composition, and return. Morality offers a complete application: social norms enter individual life, habits turn them into judgments, and experience changes the way those judgments are made. A piece of litter is enough to begin following that process, including the difficulties of accepting society's guidance.
 
 ## Rules Did Not Fall from the Sky
 {: #grounds }
 
-For me, “do not litter” is a rule of life I accept. It concerns cleanliness, other people's labour, the use of shared spaces, and how I am willing to live with others. I need not first believe in an independently existing evil of littering to have a reason to dispose of my cup properly.
+The rule against littering concerns cleanliness, other people's labour, and shared space. These provide reasons for proper disposal without an additional assumption that an independent evil of littering exists in the universe.
 
-This outlook does not accept that morality has an ultimate basis independent of people. Philosophically, it belongs in discussions of moral anti-realism. But that term covers different positions; it does not decide how I should live next.[^anti-realism] In particular, rejecting an objective morality does not by itself entail following society, or caring only about my own interests. Those are further choices requiring further reasons.
+The position developed here begins from moral anti-realism, without grounding morality in an ultimate basis independent of people. That term covers several positions and does not by itself settle how life should be arranged.[^anti-realism] Rejecting an objective morality entails neither compliance with society nor exclusive concern for personal interests. Further choices require further reasons.
 
-I live among people. I need cooperation, trust, and predictable dealings, and I would prefer not to spend my days in endless argument. These needs give a reasonably workable set of norms value as a starting point.
+Cooperation, trust, and predictable dealings are explicit commitments of this outlook. Given their importance to living together, a reasonably workable set of norms has value as a starting point and reduces the need for repeated negotiation.
 
-My own commitments remain part of that choice. Efficiency alone cannot determine what I value. If an arrangement saves me trouble by transferring it to someone else, its efficiency has not yet answered whether I am willing to support it. “Useful” must specify useful to whom, and in the service of what.
+Efficiency cannot replace those commitments. An arrangement may save its users trouble by transferring the burden to others. Its efficiency does not settle whether that transfer deserves support. Usefulness must specify its beneficiaries and the purposes it serves.
 
-Nor am I trying here to disprove every form of moral realism. I want to begin from the position I currently accept and see whether it supports a coherent, usable, and reflective way of living. The framework can help examine these connections. It cannot conjure up what anyone must cherish.
+This is a way of living developed from a stated position and commitments. Anti-realism supplies a point of departure; particular norms remain subject to examination through their purposes and consequences. The framework can check these connections without determining, from nothing, what everyone must cherish.
 
-## Society Has Already Done Some of the Work
+## Inheriting a Starting Point
 {: #inheritance }
 
-Few people read a moral theory before learning to wait, apologise, or keep a promise. Usually, we begin by learning what to do at home, at school, and in everyday encounters. Only much later do we have a chance to explain why.
+Few people finish a moral theory before learning to wait, apologise, or keep promises. Practices usually come first, at home, at school, and in everyday encounters. An account of the reasons may come much later.
 
-In *Human Nature and Conduct*, Dewey compares acquiring a group's morality with inheriting its language. The life a child enters already has activities and demands in place.[^dewey] I find this persuasive. Speakers need not invent grammar; people learning to live together need not reconstruct every courtesy.
+In *Human Nature and Conduct*, Dewey compares acquiring a group's morality with inheriting its language. A child enters a life in which activities and expectations already exist.[^dewey] Speakers need not invent grammar, and learning to live together need not require reconstructing every courtesy.
 
-For familiar, recurring rules of everyday conduct, where I have no specific reason to object, I therefore tend to comply first. I join the queue, try to arrive when agreed, and ask before borrowing. These practices save more than my own calculations. They also spare others from having to guess afresh what I will do.
+For familiar, recurring rules without a specific reason for objection, initial compliance is a workable arrangement. Joining the queue, arriving when agreed, and asking before borrowing save individual calculation while making conduct more predictable to others.
 
-Using available answers leaves time for unresolved problems. This is also what I find helpful in work on bounded rationality: it reminds us that acquiring information and comparing choices are constrained by ability and time.[^simon] Requiring everyone to complete an adequate argument before every action may sound rigorous. In practice, it may leave even the most important matters without attention.
+Using available answers leaves time for unresolved problems. Work on bounded rationality emphasizes the limits of time and ability in acquiring information and comparing options.[^simon] Requiring a complete argument before every action may sound rigorous while leaving important matters without attention.
 
-But society does not bequeath only good answers refined through trial and error. Rules can persist through power, fear, inertia, or accident. An arrangement's longevity may show that it facilitates cooperation. It may also show that those bearing its costs have never had a chance to change it.
+Social inheritance, however, contains more than good answers refined by trial and error. Rules can persist through power, fear, inertia, or accident. Longevity may reflect useful cooperation, or the inability of those bearing the costs to change an arrangement.
 
-What I am willing to inherit, then, is a set of usable starting points. Ideas do not become invalid merely because they come from parents, religion, or mainstream culture. Neither does widespread observance guarantee them. Origins deserve investigation, but cannot alone decide an idea's merits.
+Inherited norms are usable starting points that remain open to examination. An idea is neither invalidated by its origin in family, religion, or mainstream culture nor guaranteed by its popularity. Origins matter without settling merit on their own.
 
-## Following One Judgement about Litter to Its End
+## Following a Judgment about Litter
 {: #worked-example }
 
-Consider an explicitly hypothetical everyday situation, and follow how this outlook would work.
+Consider a hypothetical situation. Someone walks past, leaving packaging on the ground. An observer immediately disapproves and concludes that the person should not litter. The conclusion looks direct, but several steps connect it to the event.
 
-A person walks past, leaving a piece of packaging on the ground. I see it, feel immediate disapproval, and think that they should not litter. The conclusion seems straightforward. Yet several steps have brought me to it.
+First, the packaging is identified as rubbish. The sequence of a person passing and packaging appearing is then interpreted as deliberate disposal. The rule against littering makes the conduct something to stop. Only then comes the choice of action: alert the person, accuse them, or first deal with the rubbish.
 
-First, I see packaging on the ground and identify it as rubbish. I then interpret the sequence—the person passing, the packaging appearing—as their having discarded it. Next, the rule against littering enters my judgement, making this conduct something to stop. Finally, I must decide whether to alert the person, accuse them, or first deal with what is on the ground.
+In an ordinary situation, these steps need not be spelled out. A familiar rule allows recognition to lead quickly to action. Compression here means that background and reasons recede from attention, leaving distinctions sufficient for the immediate purpose. It is not a complete scientific account of how the brain stores morality.
 
-In an ordinary, uncontroversial situation, I would not spell out every step. The rule is familiar; identifying rubbish as something to dispose of properly can quickly lead to action. By compression, I mean that much of the background and reasoning recedes from attention, leaving distinctions sufficient for the immediate use. This is not a complete scientific explanation of how the brain stores morality.
+Habit need not originate in personally worked-out reasons. Imitation and repetition often precede explanation. What habit saves may be work already done by others, or the effort of examining an inheritance that has never been carefully questioned.
 
-Nor need I assume that I once worked out those reasons myself. Many practices are first learned from others and repeated; explanations come later. What habit spares me may be work already done by predecessors, or an inheritance that has never been carefully examined.
+Now add information: the packaging slipped from a torn bag without its owner's noticing.
 
-Now add some information: the packaging slipped from a torn bag, unnoticed by its owner.
+Something on the ground still needs attention. The judgment that its owner deliberately left trouble for others has lost its basis. Pointing out the torn bag can address the situation without classifying the person as inconsiderate. Leaving rubbish behind and doing so deliberately need separating; the rule supporting cleanliness remains useful.
 
-Something on the ground still needs attending to. The judgement that this person deliberately left trouble for someone else, however, has lost its basis. I can tell them their bag has torn without first treating them as someone who disregards others. The correction does not require abandoning the rule against littering. It requires separating two things I had merged: leaving litter behind and doing so deliberately.
+This is a problem of preservation. Remembering the event only as an encounter with an inconsiderate person removes distinctions among intention, carelessness, and accident. The evaluation may survive while its basis disappears. Preserving the distinction between observation and inference leaves a place for correction to begin.
 
-This is a question of preservation. If I remember the encounter only as “an inconsiderate person”, differences among intention, carelessness, and accident have been compressed away. Later, I may retain only an evaluation, without the material from which I formed it. Keeping observation distinct from inference leaves somewhere for correction to begin.
+Composition enters next. Packaging on the ground supports clearing it away but does not alone justify blaming someone. Moving from cleanliness to responsibility requires information about how it fell, what its owner knew, and what they could do. Individually reasonable ideas can still lack the conditions needed to connect them.
 
-Composition enters at the next step. Packaging on the ground supports the need to clear it away, but does not alone support blaming a person. Moving from cleanliness to responsibility requires more: how the item fell, whether its owner knew, and whether they could deal with it. Two individually reasonable ideas do not necessarily make a reasonable sequence.
+Return begins when new information changes the judgment. Its effects remain limited if correction ends with an apology. A future encounter can begin with an alert and an opportunity to respond; a public accusation capable of harming a reputation requires further checking. The norm remains, while the conditions for blame change.
 
-Return occurs when new information actually changes my judgement. But I would like it to leave more than an apology on this occasion. Next time, I can begin by alerting the person and allowing a response. Before making a public accusation that could damage a reputation, I can check further. The original rule remains; the conditions for moving to blame have changed.
+A first-order correction addresses this mistaken judgment. A second-order revision changes how observation leads to blame in future. Repeating the same mistake after apologising means that experience changed an answer without changing the method producing it.
 
-A first-order correction is recognising that I misjudged this person. A second-order revision changes how I move from observation to blame in future. If I apologise and forget, then repeat the same mistake in the same way, the experience has changed an answer without changing the method producing it.
+The situation can develop further. Repeated rubbish in one place gives reason to investigate overflowing bins, unclear signs, or collection arrangements. Asking only whose morals are deficient excludes other ways to improve the environment. The problem may involve individual attitudes, the wider arrangements, or both.
 
-Take the hypothetical situation further. If scattered rubbish repeatedly appears in the same place, I have reason to investigate overflowing bins, unclear signs, or collection arrangements. What needs attention may extend beyond individual attitudes. If I permit myself to ask only whose morals are deficient, I exclude other ways of improving the situation.
+The process now runs from accepting a norm and forming a habit through encountering contrary evidence, changing a judgment, and carrying the change into daily life. Cleanliness remains the purpose, while the revised approach reduces misplaced blame and improves diagnosis. These practical changes provide a way to examine the framework's usefulness.
 
-Only now have we completed the circuit: accepting a norm, letting habit take over, encountering contrary evidence, changing a judgement, and carrying that change into daily life. The shared space still needs care, and I have acquired a way to blame people less hastily and better locate the problem. The framework's usefulness can be assessed through this change, rather than established merely by saying that I have reflected.
-
-## Which Errors Am I Willing to Accept?
+## Who Bears the Cost of Error?
 {: #costs }
 
-I accept that everyday judgement cannot always be exact. If disposing of rubbish requires calculating pollution, labour, and the consequences of everyone's conduct each time, a small, manageable task becomes an inquiry without a deadline.
+Everyday judgment cannot always be exact. Recalculating pollution, labour, and everyone's possible consequences before disposing of each piece of rubbish would turn a manageable task into an inquiry without a deadline.
 
-But tolerating some error cannot mean merely counting mistakes. Bringing my own cup to the wrong sorting bin, noticing, and sorting it again is one mistake. Publicly accusing someone without checking is also one mistake. Their costs, who bears them, and how easily they can be repaired differ.
+Tolerating error, however, requires more than counting mistakes. Taking a cup to the wrong recycling bin and then sorting it correctly may count as one error. A public accusation made without checking may also count as one. Their costs, the people bearing them, and the difficulty of repair differ substantially.
 
-My willingness to save time through habit does not already give me a reason to impose any loss on others. As consequences become greater and harder to repair, a quick judgement needs more scrutiny. The point is to put checking where it may change an important outcome.
+Saving time through habit does not justify imposing any loss on others. Greater, less reversible consequences call for closer scrutiny. Checking belongs where it can change important outcomes, rather than being distributed equally across every minor decision.
 
-This also makes me reluctant to call my outlook an optimisation system. I have no common unit for every value, nor a proof that one allocation is best. More honestly, I am seeking affordable ways of proceeding with limited time and ability, while allowing later results to expose their inadequacies.
+This does not establish an optimal moral arrangement. Different values may lack a common unit of measurement, and several successes cannot prove an entire method best. The aim here is an approach affordable within limited time and ability, with later results able to expose its inadequacies.
 
 ## Why Aversion Cannot Directly Become a Prohibition
 {: #aversion }
 
-Litter is a relatively easy case because we broadly know what we are trying to maintain. Differences over ways of living go deeper. Sometimes what disturbs me is simply that someone does not live in the way I know.
+Litter is a relatively easy case because cleanliness provides a clear purpose. Disagreements about ways of living are harder: discomfort sometimes arises simply because another life differs from familiar patterns.
 
-Attitudes towards same-sex couples provide a test. Consider a possible psychological response: someone learns aversion in their upbringing and later finds that unease arrives even when they cannot explain it.
+Attitudes towards same-sex couples provide a test. Aversion can be learned during upbringing and later appear before any reason can be offered. The question is how such a possible reaction becomes a basis for a norm.
 
-The feeling is real, but it initially tells us about the person feeling it. Moving from there to a claim that others should not live this way requires further reasons. Which specific conduct affects whom? What supports the feared consequences? Would the same demand still apply to an opposite-sex couple?
+The feeling is real, but initially describes the person experiencing it. Moving from aversion to a demand that others live differently requires further reasons. Which conduct affects whom? What evidence supports the feared consequences? Would the same requirement apply to an opposite-sex couple?
 
-If all that remains after examination is unfamiliarity, I have no reason to treat it as sufficient evidence for requiring someone else to change their life. Culture may explain an aversion's origin; origin alone cannot justify restricting others. Conversely, a feeling does not become necessarily mistaken merely because culture helped form it. What needs examination is what the feeling actually supports.
+If examination leaves only unfamiliarity, it is insufficient to require a change in someone else's life. Culture can explain an aversion's origin without making a restriction justified. Conversely, cultural influence alone does not make a feeling mistaken. What matters is what it supports and whether the reasoning contains a gap.
 
-The absence of harm to me does not establish that there is nothing worth considering. Other people's circumstances may be precisely what I have not seen. But until I obtain reasons adequate to support a restriction, I can withhold my aversion from the making of public rules.
+An absence of effects on the person judging does not establish that nothing deserves attention. Other people's circumstances may remain unseen. But without adequate reasons for restriction, aversion can remain a feeling rather than enter public rules.
 
-This does not require emotion to disappear when an argument ends. People can first change how they treat others, allow more experience in, and gradually revise crude categories. If I privately acknowledge possible prejudice while continuing to act exactly as before, revisability has not yet reached my life.
+Emotion need not disappear as soon as an argument ends. Conduct can change first, with new experience gradually revising crude categories. A private acknowledgment of possible prejudice does little if treatment of others remains unchanged.
 
-Here, second-order reflection changes the way a feeling acquires authority to judge. A feeling can alert me to something worth examining. It cannot exempt the move from feeling to norm from the need for reasons.
+Second-order reflection here changes how a feeling acquires authority to judge. Feelings can direct attention to something worth examining; the move from feeling to norm still requires reasons.
 
-## Some Questions Can Remain Undecided
+## When Judgment Can Wait
 {: #attention }
 
-I do not think everyone needs a clear moral position on every controversy. If information is lacking, no decision currently calls for my action, and acquiring understanding would be costly, I can acknowledge that I do not yet know and give my time elsewhere.
+A clear position on every controversy is not a requirement of moral life. When information is lacking, no immediate decision is required, and understanding would be costly, withholding judgment can preserve attention for other matters.
 
-Keeping a question open at least leaves my uncertainty visible. Casually accepting the most pleasing account may turn something barely understood into a settled position. Rather than pronounce on strangers merely to appear to have a mind of my own, I would prefer to withhold judgement for now.
+Keeping a question open leaves uncertainty visible. Casually accepting the most agreeable account can instead turn a poorly understood matter into a settled position. Suspending a conclusion is then preferable to hastily classifying unfamiliar people and events.
 
-Distance from my life, however, does not guarantee small consequences. If the decision is mine to make, or I have already undertaken a responsibility, difficulty alone does not make the matter irrelevant to me. Whether to invest attention must include my position and existing commitments.
+Distance does not guarantee small consequences. A decision-maker or someone already committed to a responsibility cannot dismiss a matter simply because it is difficult. The allocation of attention must include the person's position and existing commitments.
 
-Following an existing practice and withholding judgement each have their place. Standing before a queue, I need to decide where to join, and can usually adopt the familiar rule. Reading an unfamiliar dispute need not require my immediate enlistment on either side. One borrows a practice; the other acknowledges that sufficient understanding has not yet been acquired.
+Following an existing practice and withholding judgment serve different purposes. Joining a queue requires an immediate choice, usually covered by a familiar rule. Reading about an unfamiliar dispute need not require choosing a side. One approach borrows a practice; the other preserves an acknowledged lack of understanding.
 
-Both can change as circumstances develop. An emergency may require reconsidering an ordinary first-come order. A once-distant issue may require more investigation when it becomes part of a decision at work. I am trying to manage attention, not declare that a problem left unattended today will never deserve it.
+Both can change with circumstances. An emergency may alter an ordinary first-come order. A distant issue may need investigation once it becomes part of a decision at work. Attention can be reallocated; leaving a question aside today does not make it permanently unimportant.
 
-## “I Can Always Change My Mind” Is Not Enough
+## Revision Requires Conditions, Not Only Willingness
 {: #revision }
 
-Here lies the hardest difficulty in accepting society's guidance: if society also teaches me what deserves doubt, how can I know that I am not continually overlooking something important?
+Accepting society's guidance creates a difficult question: society may also determine what seems worth doubting. Norms that shape attention can leave important matters consistently unseen.
 
-Promising to reflect when necessary may leave that difficulty untouched. If I encounter only one group's accounts, dismiss every dissenter as ignorant, and make disagreement increasingly costly, the material that might prompt reflection may never arrive. I can still believe that judgement is mine while losing the conditions for judging again.
+A promise to reflect when necessary may not solve this. Encountering only one group's accounts, dismissing dissent as ignorance, and making questions costly can prevent relevant material from arriving. The individual appears to retain authority over judgment while losing the conditions for judging again.
 
-Revisability therefore requires some room left open in ordinary life. In important disagreements, retain the original account and its reasons. When deciding something that affects others, allow them to supply material I lack. Occasionally check whether a rule relied on for years still addresses the problem it was meant to address. These practices take time, but need not turn every small matter into a fresh research project.
+Revisability therefore needs room maintained in ordinary life. Important disagreements deserve a record of the original claims and reasons. People affected by decisions need opportunities to supply material. Longstanding rules occasionally need checking against their purposes. These arrangements take time without requiring every small matter to become a research project.
 
-The hypothetical litter case also reveals conditions beyond the individual. Suppose a management rule imposes penalties solely from photographs, while those accused have no way to explain that a bag tore without their knowledge. An official willing to be fair might still be left with a procedure permitting only the selection of a penalty.
+The litter example extends beyond individual judgment. Suppose a management rule imposes penalties solely from photographs, with no opportunity to explain an unnoticed tear in a bag. Even an official willing to act fairly may face a procedure permitting only a penalty.
 
-Adding a field for explanations would be a beginning. Who will read it? What material can be supplied? Once a mistake is established, can anyone withdraw the penalty and change the way the next case is judged? Filing a complaint and letting new information change a decision are different things. None of this settles in advance whether an accident removes all responsibility. It first allows different circumstances to be considered separately.
+Adding an explanation field is only a beginning. Who reads it? What supporting material is accepted? Can anyone withdraw a mistaken penalty and revise the handling of later cases? Filing complaints and allowing new evidence to change decisions are different activities. This does not settle whether an accident removes all responsibility; it makes different circumstances available for separate consideration.
 
-Whether people can change cannot therefore be judged by will alone. Time, sources of information, other people's responses, and the actions institutions permit all participate. An injunction to remain open-minded can easily become mere self-appraisal if those conditions are removed.
+The ability to revise depends on more than will. Time, information sources, responses from others, and institutional permissions all contribute. An instruction to remain open-minded can become mere self-appraisal when those conditions are missing.
 
-I consequently do not mind that many of my ideas are learned. If someone calls all social influence brainwashing, I will not reject it all to prove my innocence. But if the word means blocking information, punishing questions, or disabling the re-examination of belief, that undermines the very conditions under which I am willing to go along. Accepting that I am shaped does not mean accepting every way of shaping me.
+Learning and social influence form many beliefs, without making them unworthy of acceptance. Calling all social influence brainwashing obscures differences between ways beliefs are formed. Blocking information, punishing questions, and preventing beliefs from being re-examined do undermine the conditions for compliance accepted by this outlook. Being shaped does not require accepting every means of shaping.
 
-This is also where I locate a freedom of thought worth keeping. Others can teach me how to think; I can accept their guidance and follow it for years. But when new reasons emerge, I still have room to obtain information, reconsider, and change what I do. This is not the whole of freedom, but it is a part I am unwilling to surrender.
+One concrete aspect of intellectual freedom lies here. Ideas can be taught, accepted, and followed for years while access to information, reconsideration, and changed conduct remains available when new reasons emerge. This does not exhaust freedom's meaning, but it is indispensable to revisability.
 
 ## Valuing Revision Is Itself a Commitment
 {: #commitment }
 
-One question remains. Why do I value revisability? Might this, too, be something society has taught me?
+Revisability has a history, too. Language, ways of identifying error, and habits of listening to reasons can all reflect social influence. This outlook does not stand outside that influence: the standards used to examine an inheritance must themselves remain open to examination.
 
-Very possibly. My language, my ways of identifying error, and my willingness to hear reasons all have histories. I have no position free of influence from which to pass final judgement on every other influence.
+Having an origin does not deprive a choice of reasons. Costly mistakes, alternative accounts that improve a situation, and the value of preserving future opportunities can still be examined, compared, and challenged. Reasons open to further scrutiny remain available reasons.
 
-Having a history does not deprive a choice of reasons. I can still explain which past mistakes proved costly, when hearing another account opened a way forward, and why I want to preserve opportunities for future change. Those reasons may be challenged. That does not make them no reasons at all.
+Reflection also offers no guarantee of improvement. Learning and revision can serve the more effective pursuit of harmful ends. The capacity to change and the direction of change require separate consideration. Direction still depends on commitments, consequences, and the ability to account for decisions to those affected.
 
-Nor can I guarantee that reflection makes people better. Someone can learn well in order to pursue ends I oppose more effectively. Revisability provides a capacity to change. Where change should lead still requires attention to what we value, what we are prepared to bear, and whether we can account for it to those affected.
+This outlook lets workable daily practices become habits, then reopens what habit omits when significant counterexamples, conflicts, or changed costs appear. Revision still requires practice if new understanding is to become a future spontaneous response. Reason and intuition change each other; neither is infallible.
 
-This is what I ask of my moral outlook: let workable daily practices become habits that require little effort. When an important counterexample, conflict, or change in costs appears, unfold what habit has left out. After revision, practise, so that new understanding has a chance to become the next spontaneous response. Reason and intuition change one another; neither occupies the seat of an infallible judge.
+The empty cup still calls for proper disposal. Someone else's discarded object calls for observation to be distinguished from inference. A situation that an existing rule cannot handle allows the rule itself to become a question.
 
-Returning to the empty cup, I will still dispose of it appropriately. But when someone else leaves something behind, I am willing to distinguish a little more before judging. When an existing rule cannot handle a situation, I also allow the question to reach the rule.
-
-What I inherit is a way of living. It lets me avoid starting over each morning while leaving room for something I may learn tomorrow.
+A revisable morality makes it possible to live without starting again each morning, while allowing what becomes known later to change what happens next.
 
 ---
 
