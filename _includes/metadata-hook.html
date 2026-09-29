@@ -3,16 +3,27 @@
 (function () {
   var alternate = {{ page.alternate_url | default: '' | jsonify }};
   if (!alternate || !window.SiteLanguage) return;
-  /* Language-specific deep links stay stable. Only the entry point or an
-     explicit language request may redirect; no crawler-specific behaviour. */
-  var explicit = /^(zh|en)(?:-|$)/i.test(new URL(location.href).searchParams.get('lang') || '');
-  if (location.pathname !== '/' && !explicit) return;
+  var url = new URL(location.href);
+  var explicit = /^(zh|en)(?:-|$)/i.test(url.searchParams.get('lang') || '');
+  var desired = explicit ? SiteLanguage.resolve() : null;
+  /* Consume legacy language parameters, keeping unrelated queries and hashes. */
+  if (url.searchParams.has('lang')) {
+    url.searchParams.delete('lang');
+    history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+  }
   var current = {{ page.lang | default: site.lang | jsonify }};
   current = /^en\b/i.test(current) ? 'en' : 'zh';
-  if (SiteLanguage.resolve() === current) return;
+  /* Auto-detect only a fresh homepage entry. Internal links keep their language. */
+  var internal = document.referrer && new URL(document.referrer).origin === location.origin;
+  if (!explicit && (location.pathname !== '/' || internal)) return;
+  desired = desired || SiteLanguage.resolve();
+  if (desired === current) return;
   var target = new URL(alternate, location.origin);
-  target.search = location.search;
-  target.hash = location.hash;
+  target.search = url.search;
+  target.hash = url.hash;
+  /* Carry an explicit choice across the redirect even when storage is blocked.
+     The destination consumes this parameter immediately. */
+  if (explicit) target.searchParams.set('lang', desired);
   if (target.pathname !== location.pathname) location.replace(target.href);
 }());
 </script>
@@ -39,27 +50,10 @@
 {% endif %}
 
 <style>
-.site-lang-switch {
-  display: inline-flex; gap: .25rem; margin-top: .9rem; padding: .2rem;
-  border: 1px solid var(--sidebar-border-color); border-radius: .35rem;
-  font-family: var(--bs-font-sans-serif); font-size: .72rem; font-style: normal;
-}
-.site-lang-switch a {
-  min-width: 2.25rem; padding: .22rem .45rem; border-radius: .22rem;
-  color: var(--sidebar-muted-color); text-align: center; text-decoration: none;
-}
-.site-lang-switch a:hover { color: var(--sidebar-active-color); }
-.site-lang-switch a[aria-current="true"] {
-  background: var(--sidebar-btn-bg); color: var(--sidebar-active-color);
-  font-weight: 600;
-}
 #topbar .site-lang-compact {
   display: inline-flex; margin-left: auto; padding: .25rem .5rem;
   color: var(--text-muted-color); font-size: .8rem; font-weight: 600;
   text-decoration: none;
-}
-@media (min-width: 850px) {
-  .site-lang-sidebar-ready #topbar .site-lang-compact { display: none; }
 }
 /* 錨點落下來的位置要跟 tocbot 判定「已經讀到這一節」的門檻一致，否則點了目錄
    之後，文章摘要會把上一節當成目前位置：桌機那一份的 headingsOffset 是 32，
@@ -73,11 +67,8 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var isEn = /^en\b/i.test(document.documentElement.lang || "");
-  var current = window.location.pathname;
   var fallback = isEn ? "/" : "/en/";
   var alternate = {{ page.alternate_url | default: '' | jsonify }} || fallback;
-  var zhUrl = isEn ? alternate : current;
-  var enUrl = isEn ? current : alternate;
 
   /* 全書那兩篇的標題帶著固定編號（part1 / s4 / s4-1），中英兩篇一致，
      所以換語言時可以把目前讀到的位置一起帶過去。其他頁面的標題 id 由
@@ -103,6 +94,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (base) {
       var anchor = currentAnchor();
       link.href = anchor ? base + "#" + anchor : base;
+      /* A transient choice is needed only when neither storage is writable.
+         The destination removes it before displaying the page. */
+      if (new URL(link.href).pathname === '/' && window.SiteLanguage && SiteLanguage.resolve() !== target) {
+        var fallbackUrl = new URL(link.href);
+        fallbackUrl.searchParams.set('lang', target);
+        link.href = fallbackUrl.href;
+      }
     }
   }
 
@@ -111,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
     a.textContent = label;
     var explicit = new URL(href, location.origin);
     explicit.search = location.search;
-    explicit.searchParams.set("lang", lang);
+    explicit.searchParams.delete("lang");
     a.href = explicit.pathname + explicit.search;
     a.setAttribute("data-href-base", explicit.pathname + explicit.search);
     a.setAttribute("data-site-lang", lang);
@@ -147,18 +145,6 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("load", function () {
       if (!moved) requestAnimationFrame(land);
     });
-  }
-
-  var profile = document.querySelector("#sidebar .profile-wrapper");
-  if (profile) {
-    var group = document.createElement("div");
-    group.className = "site-lang-switch";
-    group.setAttribute("role", "group");
-    group.setAttribute("aria-label", isEn ? "Site language" : "網站語言");
-    group.appendChild(languageLink("中文", "zh", zhUrl, !isEn));
-    group.appendChild(languageLink("EN", "en", enUrl, isEn));
-    profile.appendChild(group);
-    document.documentElement.classList.add("site-lang-sidebar-ready");
   }
 
   var searchTrigger = document.getElementById("search-trigger");

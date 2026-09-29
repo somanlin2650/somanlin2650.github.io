@@ -27,8 +27,7 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
   english = page.data["lang"] == "en"
   label = english ? "繁體中文" : "English"
   language = english ? "zh-Hant" : "en"
-  preference = english ? "zh" : "en"
-  href = "#{page.site.baseurl}#{alternate}?lang=#{preference}"
+  href = "#{page.site.baseurl}#{alternate}"
   link = %(<nav class="translation-link" aria-label="#{english ? 'Translation' : '其他語言'}"><a href="#{href}" hreflang="#{language}" lang="#{language}">#{label}</a></nav>)
   page.output.sub!(%r{(<main\b[^>]*>)}, "\\1#{link}")
 end
