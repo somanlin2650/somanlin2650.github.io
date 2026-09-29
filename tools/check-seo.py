@@ -1,5 +1,6 @@
 """Check the generated site's indexing metadata before deployment (stdlib only)."""
 import json
+import subprocess
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -12,6 +13,8 @@ class Page(HTMLParser):
         self.tags = []
         self.json_blocks = []
         self.in_json = False
+        self.scripts = []
+        self.in_script = False
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
@@ -20,14 +23,20 @@ class Page(HTMLParser):
         if tag == "script" and attrs.get("type") == "application/ld+json":
             self.in_json = True
             self.json_blocks.append("")
+        elif tag == "script" and not attrs.get("src") and attrs.get("type", "text/javascript") in ("text/javascript", "module"):
+            self.in_script = True
+            self.scripts.append("")
 
     def handle_endtag(self, tag):
         if tag == "script":
             self.in_json = False
+            self.in_script = False
 
     def handle_data(self, data):
         if self.in_json:
             self.json_blocks[-1] += data
+        if self.in_script:
+            self.scripts[-1] += data
 
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
@@ -60,4 +69,6 @@ for path in paths:
         assert any(d.get("@type") == "BlogPosting" and d.get("author") for d in data), (path, "Missing article/author metadata")
     if path in ("/", "/en/"):
         assert alternates.get("x-default") == origin + "/"
+        for script in page.scripts:
+            subprocess.run(["node", "--check"], input=script, text=True, encoding="utf-8", check=True)
 print(f"SEO checks passed for {len(paths)} core pages, sitemap, and robots.txt.")
