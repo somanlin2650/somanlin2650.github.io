@@ -223,6 +223,9 @@ What matters is not whether we call this "thinking". What matters is:
 
 The Venus flytrap has no neurons, yet it uses electrical signals and Ca$$^{2+}$$ dynamics to coordinate its rapid closure.
 
+![An open Venus flytrap with small trigger hairs on the inner lobes and longer tooth-like projections along the edges.](/assets/img/articles/cognition-flytrap.webp){: width="1527" height="1670" }
+*The small hairs on the inner lobes receive the mechanical stimulation discussed here; the longer projections along the edges are a different structure. This photograph shows anatomy, not calcium dynamics over time. Photo: Noah Elhardt; [source](https://commons.wikimedia.org/wiki/File:Venus_Flytrap_showing_trigger_hairs.jpg), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/). Converted to WebP without cropping.*
+
 In the typical case, if two mechanical stimuli to the trigger hairs occur within about 30 seconds, the second one pushes cytosolic Ca$$^{2+}$$ up to the threshold associated with closure. If the second stimulus comes too late, the Ca$$^{2+}$$ signal from the first has already decayed, and the total is not enough to trigger closure.
 
 Conceptually:

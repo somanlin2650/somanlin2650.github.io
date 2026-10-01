@@ -114,3 +114,27 @@ html[data-bs-theme='light'] { @include light-reading-columns; }
 
 // Crawlable language links also work when JavaScript is unavailable.
 .translation-link { text-align: right; font-size: .85rem; margin: .5rem 0 1rem; }
+
+/* ── 文章橫幅 ───────────────────────────────────────────
+   由 _plugins/article-hero.rb 放在 <article> 開頭、標題之前。
+   保留約 3:1 的完整構圖：寬度跟著容器，高度自動，不裁切。     */
+
+.post-hero {
+  margin: 0 0 1.5rem;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.5rem;
+  }
+
+  figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.78rem;
+    color: var(--text-muted-color);
+    text-align: right;
+  }
+}

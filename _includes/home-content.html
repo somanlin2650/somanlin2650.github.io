@@ -42,7 +42,7 @@
     <h2 id="featured-book">{{ book_copy.title }}</h2>
     <p><strong>{{ book_copy.subtitle }}</strong></p>
     <p>{{ book_copy.description }}</p>
-    <p>{% if english %}The book develops the framework behind these essays across sixteen chapters, with seventeen illustrations and eighty-two source notes.{% else %}從登月降落、地圖與日常判斷出發，逐步展開這些文章背後的二階框架。全書十六章，附十七張圖與八十二項來源註釋。{% endif %}</p>
+    <p>{% if english %}The book develops the framework behind these essays across sixteen chapters, with seventeen illustrations, two supplementary historical photographs, and eighty-two source notes.{% else %}從登月降落、地圖與日常判斷出發，逐步展開這些文章背後的二階框架。全書十六章，附十七張圖、兩張補充歷史照片與八十二項來源註釋。{% endif %}</p>
     <p><a href="{{ book_copy.text_url | relative_url }}">{% if english %}Read the complete book{% else %}閱讀全書{% endif %} →</a></p>
     <p><a href="{{ '/books/no-view-is-the-whole/' | relative_url }}?lang={% if english %}en{% else %}zh{% endif %}">{% if english %}Open the bilingual reader{% else %}開啟雙語閱讀器{% endif %}</a></p>
   </section>

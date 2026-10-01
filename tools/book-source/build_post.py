@@ -24,7 +24,7 @@
 """
 import io, os, re, sys
 
-from build_html import parse, split_caption, web_image, plain
+from build_html import parse, split_caption, web_image, plain, article_image
 from book_config import SLUG, READER_URL
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -35,10 +35,10 @@ DATE = "2026-08-25 16:00:00 +0800"
 UPDATED = "2026-09-22 09:00:00 +0800"
 
 DESC_ZH = ("理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，"
-           "以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及八十二項來源註釋。")
+           "以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及兩張補充歷史照片、八十二項來源註釋。")
 DESC_EN = ("A second-order philosophy of understanding, action, and revision. "
            "Preservation, composition, and return: how understanding forms, connects, and revises itself. "
-           "Sixteen chapters, seventeen images, and eighty-two source notes.")
+           "Sixteen chapters, seventeen images plus two supplementary historical photographs, and eighty-two source notes.")
 
 META = {
     "zh": dict(
@@ -154,6 +154,14 @@ def convert(blocks, lang):
             add()
             add("_%s%s%s_" % (num, "　" if num else "", rest))
             add()
+        elif kind == "photos":
+            # 補充照片：不編圖號；圖說含網址底線，用星號標斜體才不會被當成強調符號拆開。
+            for fn, alt, cap in val:
+                url, w, h = article_image(fn)
+                add('![%s](%s){: width="%d" height="%d" }' % (
+                    plain(alt).replace("[", "(").replace("]", ")").replace('"', "'"), url, w, h))
+                add("*%s*" % cap)
+                add()
         elif kind == "tab":
             cap, rows = val
             add("| " + " | ".join(rows[0]) + " |")

@@ -1,5 +1,10 @@
 - date: 2026-10-01
+  image:
+    path: /assets/img/articles/cognition-hero.webp
+    width: 2171
+    height: 724
   zh-TW:
+    image_alt: '暮色城市上空，無數椋鳥形成巨大的流動群形，地面水道與燈火構成另一尺度的網絡；AI 生成概念場景。'
     title: 從反應到異質理性：認知連續體、湧現與文明—AI 螺旋
     description: 從單細胞、神經系統到個體理性、文明與人工智慧，把反射、直覺與理性看成同一個連續能力空間裡的不同宏觀狀態；複雜結構一旦穩定，就被封裝成新的簡單單元，再組合出新的複雜性。
     categories:
@@ -17,6 +22,7 @@
     - 認識論
     url: /posts/from-reaction-to-heterogeneous-rationality/
   en:
+    image_alt: 'A vast starling murmuration above a coastal city, with waterways and lights forming networks at another scale; an AI-generated conceptual scene.'
     title: 'From Reaction to Heterogeneous Rationality: The Cognitive Continuum, Emergence, and the Civilization–AI Spiral'
     description: From single cells and nervous systems to individual reasoning, civilization, and AI, reflex,
       intuition, and reason appear as macroscopic regimes of one continuous space of capacities. Once a complex
@@ -36,7 +42,12 @@
     - Epistemology
     url: /en/posts/from-reaction-to-heterogeneous-rationality/
 - date: 2026-09-24
+  image:
+    path: /assets/img/articles/learning-hero.webp
+    width: 2172
+    height: 724
   zh-TW:
+    image_alt: '一本巨大的古書形成層層紙頁峽谷，探索者沿橋梁跨越前人留下的路徑；AI 生成超現實場景。'
     title: 不必重新發現世界：自學如何借用前人的思考
     description: 學習可以借用前人的推理，形成判斷、遷移與修正的能力。從虛數到認知同理，探討概念如何產生意義、教材應保留哪些轉折，以及理解需要深入到什麼程度。
     categories:
@@ -50,6 +61,7 @@
     - 所見非全貌
     url: /posts/you-dont-have-to-rediscover-the-world/
   en:
+    image_alt: 'A colossal open book forms terraced paper canyons crossed by an explorer and a bridge; an AI-generated surreal scene.'
     title: 'No Need to Rediscover the World: Learning from Other People''s Thinking'
     description: Learning can turn borrowed reasoning into an ability to judge, transfer, and revise.
       From imaginary numbers to epistemic empathy, an examination of meaning, the turns a lesson should
@@ -65,7 +77,12 @@
     - No View Is the Whole
     url: /en/posts/you-dont-have-to-rediscover-the-world/
 - date: 2026-09-23
+  image:
+    path: /assets/img/articles/morality-hero.webp
+    width: 2172
+    height: 724
   zh-TW:
+    image_alt: '海中的巨型藍瓷碎片以金繕接合，內部長出花園，水流穿過舊裂隙；AI 生成超現實場景。'
     title: 一套可以修改的道德：從習慣到反思
     description: 道德可以承接社會規範，也保留修改規範的能力。從垃圾的誤判到反感如何進入公共規則，展開習慣、判斷與二階反思共同運作的過程。
     categories:
@@ -79,6 +96,7 @@
     - 所見非全貌
     url: /posts/a-morality-we-can-revise/
   en:
+    image_alt: 'Colossal blue ceramic fragments joined with gold surround a living garden in the sea; an AI-generated surreal scene.'
     title: 'A Revisable Morality: From Habit to Reflection'
     description: Social norms can guide daily life while remaining open to revision. From a mistaken judgment
       about litter to the role of aversion in public rules, this essay follows habit, judgment, and second-order
@@ -95,13 +113,19 @@
     url: /en/posts/a-morality-we-can-revise/
 
 - date: 2026-08-25
+  image:
+    path: /assets/img/articles/agent-hero.webp
+    width: 2172
+    height: 724
   zh-TW:
+    image_alt: '海水淹沒的伺服器機房仍亮著綠色狀態燈，上方觀察者與下方潛水者處於不同位置；AI 生成概念場景。'
     title: "AI Agent 與自動化設計：當系統看不見自己正在缺氧"
     url: /posts/when-ai-cannot-see-its-own-hypoxia/
     description: "Agent 不該取代自動化，但把 Agent 放在自動化上方也還不夠。真正成熟的系統，必須能發現自己的感測盲點，並把安全外化成獨立監督、權限分離與制度。"
     categories: [AI, 系統設計]
     tags: [AI Agent, Automation, 控制系統, AI 治理]
   en:
+    image_alt: 'Green status lights remain lit in a flooded server room, with divers observing from different positions; an AI-generated conceptual scene.'
     title: "AI Agents and Automation: When a System Cannot See Its Own Hypoxia"
     url: /en/posts/when-ai-cannot-see-its-own-hypoxia/
     description: "An Agent should not replace automation—but placing an Agent above automation is still not enough. A mature system must be able to discover its own blind spots and externalize safety into independent oversight, separation of authority, and institutions."
@@ -115,15 +139,21 @@
 # 順序有意義：home-content 與 trending-tags 取 first 當「最新文章」，
 # 全書排在文章後面，那兩處才不會被它蓋掉。
 - date: 2026-08-25
+  image:
+    path: /assets/img/articles/book-hero.webp
+    width: 2158
+    height: 729
   zh-TW:
+    image_alt: '巨大分面鏡映出山、海、森林與人物的不同片段，周圍仍有鏡中看不到的海岸；AI 生成超現實場景。'
     title: "所見非全貌：理解、行動與修正的二階哲學"
     url: /posts/no-view-is-the-whole/
-    description: "理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及八十二項來源註釋。"
+    description: "理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及兩張補充歷史照片、八十二項來源註釋。"
     categories: [書籍]
     tags: [所見非全貌, 認知, 模型, 抽象洩漏, 科學哲學]
   en:
+    image_alt: 'A monumental faceted mirror reflects fragments of mountains, sea, forest and a person within a vast coast; an AI-generated surreal scene.'
     title: "No View Is the Whole: A Second-Order Philosophy of Understanding, Action, and Revision"
     url: /en/posts/no-view-is-the-whole/
-    description: "A second-order philosophy of understanding, action, and revision. Preservation, composition, and return: how understanding forms, connects, and revises itself. Sixteen chapters, seventeen images, and eighty-two source notes."
+    description: "A second-order philosophy of understanding, action, and revision. Preservation, composition, and return: how understanding forms, connects, and revises itself. Sixteen chapters, seventeen images plus two supplementary historical photographs, and eighty-two source notes."
     categories: [Book]
     tags: [No View Is the Whole, Cognition, Models, Leaky Abstractions, Philosophy of Science]

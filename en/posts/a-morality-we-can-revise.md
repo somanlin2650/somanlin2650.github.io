@@ -60,6 +60,9 @@ Habit need not originate in personally worked-out reasons. Imitation and repetit
 
 Now add information: the packaging slipped from a torn bag without its owner's noticing.
 
+![The left panel shows packaging near a passerby; the right adds a torn bag and a falling item, providing a different causal explanation.](/assets/img/articles/morality-litter-context.webp){: width="1774" height="887" }
+*The left panel does not establish deliberate littering. The torn bag in the right panel makes accidental loss an explanation that can be checked. These AI-generated reconstructed views illustrate the hypothetical case in the text.*
+
 Something on the ground still needs attention. The judgment that its owner deliberately left trouble for others has lost its basis. Pointing out the torn bag can address the situation without classifying the person as inconsiderate. Leaving rubbish behind and doing so deliberately need separating; the rule supporting cleanliness remains useful.
 
 This is a problem of preservation. Remembering the event only as an encounter with an inconsiderate person removes distinctions among intention, carelessness, and accident. The evaluation may survive while its basis disappears. Preserving the distinction between observation and inference leaves a place for correction to begin.

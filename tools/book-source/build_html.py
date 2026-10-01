@@ -32,12 +32,20 @@ BOOK_SOURCE = os.environ.get("BOOK_SOURCE", HERE)
 OUT = os.environ.get("BOOK_OUTPUT", os.path.join(SITE, READER_URL.strip("/"), "index.html"))
 IMGDIR = os.path.join(SITE, "assets", "img", "book")
 IMGURL = "/assets/img/book"
+# 文章橫幅與補充照片：與站上文章共用，已是網頁尺寸的 WebP，直接引用不再轉檔。
+ARTDIR = os.path.join(SITE, "assets", "img", "articles")
+ARTURL = "/assets/img/articles"
+HERO = ("book-hero.webp",
+        {"en": "A monumental faceted mirror reflects fragments of mountains, sea, forest and a person "
+               "within a vast coast; an AI-generated surreal scene.",
+         "zh": "巨大分面鏡映出山、海、森林與人物的不同片段，周圍仍有鏡中看不到的海岸；AI 生成超現實場景。"},
+        {"en": "AI-generated conceptual image", "zh": "AI 生成概念影像"})
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 
 LANGS = ("en", "zh")            # 第一個是預設語言
 WEB_JPG_W = 1600                # 歷史地圖的網頁顯示寬度；原尺寸另存 *.full.jpg
 
-MARKERS = ("#PART", "#H1", "#H2", "#EPI", "#FIG2", "#FIG", "#TAB", "#ENDTAB", "#BOX",
+MARKERS = ("#PART", "#H1", "#H2", "#EPI", "#FIG2", "#FIG", "#PHOTOS", "#TAB", "#ENDTAB", "#BOX",
            "#ENDBOX", "#Q", "#RG", "#REF", "#FN", "#TITLEPAGE", "#ENDTITLEPAGE",
            "#HALFTITLE", "#ENDHALFTITLE", "#TOC")
 
@@ -202,6 +210,11 @@ def parse(lang):
             if len(v) == 2:
                 v.append("")
             blocks.append(("fig", v))
+        elif s.startswith("#PHOTOS "):
+            # 補充照片：檔名|alt|圖說，可連續多組。不編圖號，不算進十七張圖。
+            v = s[8:].split("|")
+            assert len(v) % 3 == 0, s[:60]
+            blocks.append(("photos", [tuple(v[k:k + 3]) for k in range(0, len(v), 3)]))
         elif s == "#TAB" or s.startswith("#TAB "):
             cap, rows = s[5:].strip(), []
             while lines[i].strip() != "#ENDTAB":
@@ -250,6 +263,23 @@ def img_tag(lang, fn, alt, cls=""):
         (" " + cls) if cls else "", full or url, zoom, img)
 
 
+def article_image(name):
+    """回傳 (url, w, h)：站上文章共用的 WebP。"""
+    path = os.path.join(ARTDIR, name)
+    if not os.path.isfile(path):
+        raise SystemExit("[FAIL] 找不到圖片 %s" % path)
+    with Image.open(path) as im:
+        return "%s/%s" % (ARTURL, name), im.width, im.height
+
+
+def hero_html():
+    url, w, h = article_image(HERO[0])
+    imgs = "".join('<img data-lang="%s" src="%s" width="%d" height="%d" alt="%s" fetchpriority="high" decoding="async">'
+                   % (lg, url, w, h, esc(HERO[1][lg])) for lg in LANGS)
+    caps = "".join('<span data-lang="%s">%s</span>' % (lg, esc(HERO[2][lg])) for lg in LANGS)
+    return '<figure class="book-hero">' + imgs + "<figcaption>" + caps + "</figcaption></figure>"
+
+
 def render(kind, val, lang, sid=None):
     L = ' data-lang="' + lang + '"'
     if kind == "h1":
@@ -278,9 +308,19 @@ def render(kind, val, lang, sid=None):
                 '<figure><div class="fig-ground">' + img_tag(lang, f1, a1) + '</div><figcaption class="sub">' + esc(h1) + "</figcaption></figure>"
                 '<figure><div class="fig-ground">' + img_tag(lang, f2, a2) + '</div><figcaption class="sub">' + esc(h2) + "</figcaption></figure>"
                 '</div><figcaption><span class="num">' + esc(num) + "</span>" + inline(rest, lang) + "</figcaption></figure>")
+    if kind == "photos":
+        zoom = ("放大檢視" if lang == "zh" else "Open full size")
+        items = []
+        for fn, alt, cap in val:
+            url, w, h = article_image(fn)
+            items.append('<figure><a class="zoom" href="%s" aria-label="%s"><img src="%s" width="%d" height="%d" alt="%s" '
+                         'loading="lazy" decoding="async"></a><figcaption>%s</figcaption></figure>'
+                         % (url, zoom, url, w, h, esc(plain(alt)), inline(cap, lang, refs=False)))
+        # 外層掛語言（[data-lang] 規則會把 display 設成 block），並排交給內層的 grid。
+        return '<div class="photos"' + L + '><div class="photo-grid">' + "".join(items) + "</div></div>"
     if kind == "tab":
         cap, rows = val
-        th = "".join("<th scope=\"col\">" + inline(c, lang) + "</th>" for c in rows[0])
+        th ="".join("<th scope=\"col\">" + inline(c, lang) + "</th>" for c in rows[0])
         tb = "".join("<tr>" + "".join("<td>" + inline(c, lang) + "</td>" for c in r) + "</tr>" for r in rows[1:])
         capt = ("<figcaption>" + inline(cap, lang) + "</figcaption>") if cap else ""
         return ('<figure class="tbl"' + L + ">" + capt +
@@ -454,6 +494,7 @@ def build():
 
     html = (TEMPLATE
             .replace("@@NAV@@", navhtml)
+            .replace("@@HERO@@", hero_html())
             .replace("@@BODY@@", "".join(body))
             .replace("@@TITLE_EN@@", esc(titles.get("en", "")))
             .replace("@@TITLE_ZH@@", esc(titles.get("zh", "")))
@@ -653,6 +694,16 @@ blockquote { margin:2.2em 0; padding:0; text-align:center; font-family:"Noto Ser
 .fig figcaption, .tbl figcaption { font-family:var(--sans); font-size:.8rem; line-height:1.7; color:var(--mute); margin-top:.8rem; text-align:center; }
 .fig figcaption sup.fnref a { color:var(--brick); }
 .fig .num { color:var(--brick); font-weight:500; margin-right:.5em; }
+.photos { margin:2.8em calc(-1 * clamp(0rem,4vw,3.5rem)); }
+.photo-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.4rem; align-items:start; }
+.photo-grid figure { margin:0; min-width:0; }
+.photo-grid img { display:block; width:100%; height:auto; }
+.photo-grid a.zoom { display:block; cursor:zoom-in; }
+.photo-grid figcaption { font-family:var(--sans); font-size:.78rem; line-height:1.7; color:var(--mute); margin-top:.7rem; }
+.book-hero { max-width:calc(var(--measure) + 7rem); margin:2.5rem auto 0; }
+.book-hero img { width:100%; max-width:100%; height:auto; border-radius:4px; }
+.book-hero figcaption { font-family:var(--sans); font-size:.75rem; color:var(--mute); text-align:right; margin-top:.4rem; }
+.book-hero ~ .cover { padding-top:3.5rem; }
 .fig-pair .pair { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 .fig-pair .pair figure { margin:0; }
 .fig-pair .pair figcaption.sub { margin-top:.5rem; color:var(--ink-soft); font-size:.78rem; }
@@ -699,6 +750,10 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
   .cover { padding-top:4rem; }
   .chap { padding-top:3.5rem; }
   .fig { margin-left:0; margin-right:0; }
+  .photos { margin-left:0; margin-right:0; }
+  .photo-grid { grid-template-columns:1fr; }
+  .book-hero { margin-top:1.2rem; }
+  .book-hero ~ .cover { padding-top:2.2rem; }
   .fig-pair .pair { grid-template-columns:1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -708,17 +763,10 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
 @media print { .rail, #toggle, #scrim, #bar, dialog { display:none !important; } .shell { display:block; } }
 </style>
 
+<script src="/assets/js/site-language.js"></script>
 <script>
 (function () {
-  var L = "en";
-  var q = /[?&]lang=(zh|en)\b/.exec(location.search);
-  var saved = null;
-  try {
-    saved = localStorage.getItem("booklang");
-  } catch (e) {}
-  if (q) L = q[1];
-  else if (saved === "zh" || saved === "en") L = saved;
-  else if (/^zh/i.test(navigator.language || "")) L = "zh";
+  var L = window.SiteLanguage ? SiteLanguage.resolve() : "en";
   var r = document.documentElement;
   r.setAttribute("data-book-lang", L);
   r.setAttribute("lang", L === "zh" ? "zh-TW" : "en");
@@ -741,6 +789,7 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
     <nav>@@NAV@@</nav>
   </aside>
   <main>
+@@HERO@@
 @@BODY@@
   <footer class="colophon">
     <p data-lang="en">Figure 4.1, right: David Rumsey Map Collection, David Rumsey Map Center, Stanford Libraries, used under CC BY-NC-SA 3.0. Other historical images are in the public domain as marked by their sources; diagrams were drawn for this book. Click any figure to open it at full size.</p>
@@ -763,14 +812,14 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
   var TITLES = { en: "@@TITLE_EN@@", zh: "@@TITLE_ZH@@" };
 
   var sw = [].slice.call(document.querySelectorAll(".langsw button"));
-  function apply(L) {
+  function apply(L, manual) {
     root.setAttribute("data-book-lang", L);
     root.setAttribute("lang", L === "zh" ? "zh-TW" : "en");
     if (TITLES[L]) document.title = TITLES[L];
     sw.forEach(function (b) {
       b.setAttribute("aria-pressed", b.getAttribute("data-set") === L ? "true" : "false");
     });
-    try { localStorage.setItem("booklang", L); } catch (e) {}
+    if (manual && window.SiteLanguage) SiteLanguage.remember(L);
     var url = new URL(location.href);
     url.searchParams.set("lang", L);
     url.hash = url.hash.replace(/-(zh|en)$/, "-" + L);
@@ -785,7 +834,7 @@ dialog#viewer::backdrop { background:rgba(10,14,18,.78); }
           var t = Math.abs(s.getBoundingClientRect().top);
           if (t < best) { best = t; anchor = s; }
         });
-      apply(b.getAttribute("data-set"));
+      apply(b.getAttribute("data-set"), true);
       if (anchor) {
         var translated = anchor.id.replace(/-(zh|en)$/, "-" + b.getAttribute("data-set"));
         anchor = document.getElementById(translated) || anchor;

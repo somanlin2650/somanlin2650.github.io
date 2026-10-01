@@ -221,6 +221,9 @@ $$
 
 捕蠅草沒有神經元，卻使用電訊號與 Ca$$^{2+}$$ dynamics 協調快速閉合。
 
+![張開的捕蠅草，葉片內面有數根細小觸發毛，邊緣另有較長的齒狀突起。](/assets/img/articles/cognition-flytrap.webp){: width="1527" height="1670" }
+*葉片內面細小的觸發毛，才是本文所說的機械刺激入口；邊緣較長的齒狀突起是另一種構造。這張照片顯示構造，沒有呈現鈣訊號的時間變化。攝影：Noah Elhardt；[來源](https://commons.wikimedia.org/wiki/File:Venus_Flytrap_showing_trigger_hairs.jpg)，[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)，格式轉為 WebP，未裁切。*
+
 典型情況下，兩次對 trigger hair 的機械刺激若在約 30 秒內發生，第二次刺激會讓細胞質 Ca$$^{2+}$$ 累積到與閉合相關的閾值；若第二次刺激來得太晚，第一次刺激造成的 Ca$$^{2+}$$ 訊號已經衰減，就不足以觸發閉合。
 
 可概念化為：

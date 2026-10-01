@@ -6,7 +6,7 @@ lang: zh-TW
 alternate_url: /en/posts/no-view-is-the-whole/
 categories: [書籍]
 tags: [所見非全貌, 認知, 模型, 抽象洩漏, 科學哲學]
-description: "理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及八十二項來源註釋。"
+description: "理解、行動與修正的二階哲學。從登月降落、地圖與日常判斷，以保留、組合與回返，追查理解如何形成、接續與修正。全書十六章、十七張圖及兩張補充歷史照片、八十二項來源註釋。"
 toc: true
 ---
 
@@ -26,6 +26,12 @@ toc: true
 地面傳回了可以續降的判斷。警報此後又幾度出現，控制中心持續接收回報，確認必要的導引功能仍在運作。鷹號終於安全著陸。[^apollo]
 
 工程團隊後來逐步查明，交會雷達使電腦承受了額外負荷。過載之際，軟體的恢復機制仍維持著重要工作。下降途中，地面已有足夠根據支持繼續降落；至於異常為何發生，則要留待更完整的調查。[^apollo]
+
+![阿波羅 11 號鷹號登月小艇停在月面，艾德林在旁卸下實驗設備。](/assets/img/articles/book-apollo-lander.webp){: width="4095" height="4095" }
+*鷹號著陸後，艾德林卸下實驗設備。照片讓序中的「小艇」有具體尺度與構造；這不是下降時發出 1202 警報的影像。Neil Armstrong／NASA，AS11-40-5927；[來源](https://commons.wikimedia.org/wiki/File:As11-40-5927.jpg)。公有領域（美國）；格式轉為 WebP，未裁切。*
+
+![阿波羅 11 號月面活動期間，休士頓任務控制室的多排工作台、監看畫面與地面人員。](/assets/img/articles/book-apollo-control.webp){: width="4093" height="2698" }
+*阿波羅 11 號月面活動期間的地面控制室。任務中的觀察與判斷分布在太空人、機載系統與地面團隊之間；照片攝於著陸後，並非警報發生瞬間。NASA Johnson Space Center，S69-39593；[來源](https://commons.wikimedia.org/wiki/File:View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg)。公有領域（美國）；格式轉為 WebP，未裁切。*
 
 人的生活也有這樣的時刻：眼前的事等著決定，手中的理解卻還不完整。除了尋找答案，我們得先辨認，這一次究竟需要知道什麼。
 

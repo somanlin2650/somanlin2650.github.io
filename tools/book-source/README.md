@@ -13,6 +13,8 @@ node tools/check-book-routes.mjs
 
 The release checker also uses Beautiful Soup (`beautifulsoup4`). Existing original SVGs and full-resolution historical images are read from `assets/img/book/`; no duplicate image archive is needed. The builders write the reader under `books/no-view-is-the-whole/` and both full-text articles. `BOOK_SOURCE` and `BOOK_OUTPUT` can override the reader's input and output paths for previews.
 
+`#PHOTOS file|alt|caption[|file|alt|caption…]` adds unnumbered supplementary photographs from `assets/img/articles/` (side by side on wide screens in the reader). They are not counted among the seventeen numbered figures.
+
 When titles or chapter headings change, update `_data/books.yml` and `_includes/home-content.html` as well. Publication timestamps and article descriptions are in `build_post.py`.
 
 This directory is excluded from Jekyll output by the existing `tools` exclusion. Commit generated pages together with source changes. Pushes to the default branch trigger the existing GitHub Pages build and deployment workflow.

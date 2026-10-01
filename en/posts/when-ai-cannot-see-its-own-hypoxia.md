@@ -88,6 +88,9 @@ Software is full of these cases. An API reports success while the data is alread
 
 Adding “another Agent to supervise” does not automatically create safety. If two Agents use the same model, read the same data, depend on the same service, and share the same authority, they resemble two divers descending at the same time: there are now two people, but no independent capacity for rescue.
 
+![Both divers descend together on the left; on the right, an observer remains higher and watches the other diver.](/assets/img/articles/agent-independent-observer.webp){: width="1774" height="887" }
+*More people do not necessarily provide independent observation. Different positions on the right illustrate preserving another observation condition; software also requires independence in data, execution environments and authority. An AI-generated conceptual comparison, not diving instruction.*
+
 ## The value of reason is its ability to move protection outside itself
 
 Freediving offers more than an analogy for the nervous system. It also shows where that analogy ends.

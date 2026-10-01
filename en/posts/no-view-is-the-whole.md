@@ -8,7 +8,7 @@ permalink: /en/posts/no-view-is-the-whole/
 alternate_url: /posts/no-view-is-the-whole/
 categories: [Book]
 tags: [No View Is the Whole, Cognition, Models, Leaky Abstractions, Philosophy of Science]
-description: "A second-order philosophy of understanding, action, and revision. Preservation, composition, and return: how understanding forms, connects, and revises itself. Sixteen chapters, seventeen images, and eighty-two source notes."
+description: "A second-order philosophy of understanding, action, and revision. Preservation, composition, and return: how understanding forms, connects, and revises itself. Sixteen chapters, seventeen images plus two supplementary historical photographs, and eighty-two source notes."
 toc: true
 comments: true
 ---
@@ -29,6 +29,12 @@ The craft was still descending. Altitude and fuel were running down. A decision 
 The ground gave them clearance to continue. The alarms returned several times; Mission Control kept receiving reports and checking that essential guidance functions were still operating. Eagle landed safely.[^apollo]
 
 The engineers later traced the extra workload to the rendezvous radar. Under overload, the software's recovery mechanisms had kept essential tasks running. During the descent, the ground already had sufficient grounds to recommend continuing. A fuller account of what had gone wrong would have to wait.[^apollo]
+
+![Apollo 11’s Eagle on the lunar surface, with Buzz Aldrin unloading experiment equipment.](/assets/img/articles/book-apollo-lander.webp){: width="4095" height="4095" }
+*After landing, Buzz Aldrin unloads experiment equipment from Eagle. The photograph gives the craft in the preface a concrete scale and structure; it does not show the 1202 alarm during descent. Neil Armstrong/NASA, AS11-40-5927; [source](https://commons.wikimedia.org/wiki/File:As11-40-5927.jpg). Public domain in the US; converted to WebP without cropping.*
+
+![Rows of consoles, displays and ground personnel in Houston Mission Control during Apollo 11’s lunar surface activity.](/assets/img/articles/book-apollo-control.webp){: width="4093" height="2698" }
+*Mission Control during Apollo 11’s lunar surface activity. Observation and judgment were distributed across the astronauts, onboard systems and ground team. This photograph was taken after landing, not at the instant of the alarm. NASA Johnson Space Center, S69-39593; [source](https://commons.wikimedia.org/wiki/File:View_of_Mission_Control_during_lunar_surface_Apollo_11_EVA_%28S69-39593%29.jpg). Public domain in the US; converted to WebP without cropping.*
 
 Life brings us moments like this too: something needs deciding while our understanding remains incomplete. Besides looking for an answer, we must work out what we need to know this time.
 
