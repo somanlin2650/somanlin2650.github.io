@@ -38,8 +38,7 @@ ARTURL = "/assets/img/articles"
 HERO = ("book-hero.webp",
         {"en": "A monumental faceted mirror reflects fragments of mountains, sea, forest and a person "
                "within a vast coast; an AI-generated surreal scene.",
-         "zh": "巨大分面鏡映出山、海、森林與人物的不同片段，周圍仍有鏡中看不到的海岸；AI 生成超現實場景。"},
-        {"en": "AI-generated conceptual image", "zh": "AI 生成概念影像"})
+         "zh": "巨大分面鏡映出山、海、森林與人物的不同片段，周圍仍有鏡中看不到的海岸；AI 生成超現實場景。"})
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 
 LANGS = ("en", "zh")            # 第一個是預設語言
@@ -276,8 +275,7 @@ def hero_html():
     url, w, h = article_image(HERO[0])
     imgs = "".join('<img data-lang="%s" src="%s" width="%d" height="%d" alt="%s" fetchpriority="high" decoding="async">'
                    % (lg, url, w, h, esc(HERO[1][lg])) for lg in LANGS)
-    caps = "".join('<span data-lang="%s">%s</span>' % (lg, esc(HERO[2][lg])) for lg in LANGS)
-    return '<figure class="book-hero">' + imgs + "<figcaption>" + caps + "</figcaption></figure>"
+    return '<figure class="book-hero">' + imgs + "</figure>"
 
 
 def render(kind, val, lang, sid=None):
@@ -702,7 +700,6 @@ blockquote { margin:2.2em 0; padding:0; text-align:center; font-family:"Noto Ser
 .photo-grid figcaption { font-family:var(--sans); font-size:.78rem; line-height:1.7; color:var(--mute); margin-top:.7rem; }
 .book-hero { max-width:calc(var(--measure) + 7rem); margin:2.5rem auto 0; }
 .book-hero img { width:100%; max-width:100%; height:auto; border-radius:4px; }
-.book-hero figcaption { font-family:var(--sans); font-size:.75rem; color:var(--mute); text-align:right; margin-top:.4rem; }
 .book-hero ~ .cover { padding-top:3.5rem; }
 .fig-pair .pair { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 .fig-pair .pair figure { margin:0; }

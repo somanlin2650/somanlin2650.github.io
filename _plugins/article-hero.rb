@@ -20,10 +20,9 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |page|
   next unless item && item["image"]
 
   image = item["image"]
-  caption = english ? "AI-generated conceptual image" : "AI 生成概念影像"
   src = "#{page.site.baseurl}#{image['path']}"
   figure = %(<figure class="post-hero"><img src="#{src}" width="#{image['width']}" ) +
            %(height="#{image['height']}" alt="#{CGI.escapeHTML(copy['image_alt'].to_s)}" ) +
-           %(fetchpriority="high" decoding="async"><figcaption>#{caption}</figcaption></figure>)
+           %(fetchpriority="high" decoding="async"></figure>)
   page.output.sub!(%r{(<article\b[^>]*\bdata-toc=[^>]*>)}) { "#{Regexp.last_match(1)}#{figure}" }
 end

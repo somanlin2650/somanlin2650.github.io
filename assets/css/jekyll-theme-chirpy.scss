@@ -130,13 +130,6 @@ html[data-bs-theme='light'] { @include light-reading-columns; }
     object-fit: contain;
     border-radius: 0.5rem;
   }
-
-  figcaption {
-    margin-top: 0.4rem;
-    font-size: 0.78rem;
-    color: var(--text-muted-color);
-    text-align: right;
-  }
 }
 
 /* 長的行間公式（例如一長串箭頭）在手機上比畫面寬：讓公式自己橫向捲動，
