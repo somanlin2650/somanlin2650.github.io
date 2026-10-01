@@ -1,3 +1,40 @@
+- date: 2026-10-01
+  zh-TW:
+    title: 從反應到異質理性：認知連續體、湧現與文明—AI 螺旋
+    description: 從單細胞、神經系統到個體理性、文明與人工智慧，把反射、直覺與理性看成同一個連續能力空間裡的不同宏觀狀態；複雜結構一旦穩定，就被封裝成新的簡單單元，再組合出新的複雜性。
+    categories:
+    - AI
+    - 認知
+    tags:
+    - 人工智慧
+    - 認知科學
+    - 複雜系統
+    - 湧現
+    - 理性
+    - 直覺
+    - 集體智慧
+    - 神經科學
+    - 認識論
+    url: /posts/from-reaction-to-heterogeneous-rationality/
+  en:
+    title: 'From Reaction to Heterogeneous Rationality: The Cognitive Continuum, Emergence, and the Civilization–AI Spiral'
+    description: From single cells and nervous systems to individual reasoning, civilization, and AI, reflex,
+      intuition, and reason appear as macroscopic regimes of one continuous space of capacities. Once a complex
+      structure stabilizes, it is packaged into a new simple unit and recombined into new complexity.
+    categories:
+    - AI
+    - Cognition
+    tags:
+    - Artificial Intelligence
+    - Cognitive Science
+    - Complex Systems
+    - Emergence
+    - Rationality
+    - Intuition
+    - Collective Intelligence
+    - Neuroscience
+    - Epistemology
+    url: /en/posts/from-reaction-to-heterogeneous-rationality/
 - date: 2026-09-24
   zh-TW:
     title: 不必重新發現世界：自學如何借用前人的思考
