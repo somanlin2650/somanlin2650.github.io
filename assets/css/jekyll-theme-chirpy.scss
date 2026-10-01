@@ -138,3 +138,12 @@ html[data-bs-theme='light'] { @include light-reading-columns; }
     text-align: right;
   }
 }
+
+/* 長的行間公式（例如一長串箭頭）在手機上比畫面寬：讓公式自己橫向捲動，
+   不要把整頁撐出水平捲軸。 */
+.content mjx-container[display='true'] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.25rem;
+}
