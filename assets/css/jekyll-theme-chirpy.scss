@@ -140,3 +140,12 @@ html[data-bs-theme='light'] { @include light-reading-columns; }
   overflow-y: hidden;
   padding-bottom: 0.25rem;
 }
+
+/* 相關文章卡片的橫幅（_plugins/article-hero.rb 加入）：完整 3:1，不裁切。 */
+#related-posts .related-hero {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

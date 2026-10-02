@@ -1,0 +1,17 @@
+{%- comment -%}
+  An article's banner, linked to the article, looked up in _data/writing.yml by URL.
+  Params: url (either language's article URL), lang ('zh-TW' or 'en'),
+  href (optional link target, default: the article in `lang`), class (optional).
+  Keeps the full ~3:1 framing; the surrounding CSS sets width:100%; height:auto.
+  `<img …></a>` must stay adjacent: Chirpy's refactor-content then keeps this link
+  instead of wrapping the image in a lightbox popup.
+{%- endcomment -%}
+{%- for _banner_item in site.data.writing -%}
+  {%- if _banner_item['zh-TW'].url == include.url or _banner_item.en.url == include.url -%}
+    {%- if _banner_item.image -%}
+      {%- assign _banner_copy = _banner_item[include.lang] -%}
+      <a href="{{ include.href | default: _banner_copy.url | relative_url }}"><img class="{{ include.class | default: 'article-banner' }}" src="{{ _banner_item.image.path | relative_url }}" width="{{ _banner_item.image.width }}" height="{{ _banner_item.image.height }}" alt="{{ _banner_copy.image_alt | escape }}" loading="lazy" decoding="async"></a>
+    {%- endif -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}

@@ -8,10 +8,10 @@
   <p>From the blind spots of an automated system to the assumptions behind an everyday judgment, the concern is practical: how to understand a situation, act within it, and revise the method when it falls short.</p>
   <h2>Explore the questions</h2>
   <ul class="home-topics">
-    <li><a href="{{ '/en/posts/from-reaction-to-heterogeneous-rationality/' | relative_url }}">Cognition, civilization, and AI</a> — How reflex, intuition, and reason form one continuum, and what changes if AI builds primitives of its own.</li>
-    <li><a href="{{ '/en/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">AI agents and automation</a> — Why a system needs oversight beyond its own view of the world.</li>
-    <li><a href="{{ '/en/posts/you-dont-have-to-rediscover-the-world/' | relative_url }}">Self-directed learning and understanding</a> — How inherited knowledge becomes an ability to reason independently.</li>
-    <li><a href="{{ '/en/posts/a-morality-we-can-revise/' | relative_url }}">Moral judgment and reflection</a> — How shared norms can guide action while remaining open to revision.</li>
+    <li>{% include article-banner.html url='/en/posts/from-reaction-to-heterogeneous-rationality/' lang=include.lang %}<a href="{{ '/en/posts/from-reaction-to-heterogeneous-rationality/' | relative_url }}">Cognition, civilization, and AI</a> — How reflex, intuition, and reason form one continuum, and what changes if AI builds primitives of its own.</li>
+    <li>{% include article-banner.html url='/en/posts/when-ai-cannot-see-its-own-hypoxia/' lang=include.lang %}<a href="{{ '/en/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">AI agents and automation</a> — Why a system needs oversight beyond its own view of the world.</li>
+    <li>{% include article-banner.html url='/en/posts/you-dont-have-to-rediscover-the-world/' lang=include.lang %}<a href="{{ '/en/posts/you-dont-have-to-rediscover-the-world/' | relative_url }}">Self-directed learning and understanding</a> — How inherited knowledge becomes an ability to reason independently.</li>
+    <li>{% include article-banner.html url='/en/posts/a-morality-we-can-revise/' lang=include.lang %}<a href="{{ '/en/posts/a-morality-we-can-revise/' | relative_url }}">Moral judgment and reflection</a> — How shared norms can guide action while remaining open to revision.</li>
   </ul>
   <h2>Recent essays</h2>
   {% else %}
@@ -19,10 +19,10 @@
   <p>從單細胞的反應到文明與 AI 的推理、自動化系統察覺不到的盲點、學習時跨不過去的概念、日常判斷中習而不察的前提，看似分屬不同領域，卻都涉及同一個問題：一套理解在什麼條件下有用，失效時又該如何改變？</p>
   <h2>從一個問題開始</h2>
   <ul class="home-topics">
-    <li><a href="{{ '/posts/from-reaction-to-heterogeneous-rationality/' | relative_url }}">認知、文明與 AI</a>：反射、直覺與理性如何連成一個連續體？AI 若形成自己的基本單元，又會改變什麼？</li>
-    <li><a href="{{ '/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">AI Agent 與自動化設計</a>：系統無法察覺自身盲點時，監督機制應如何建立？</li>
-    <li><a href="{{ '/posts/you-dont-have-to-rediscover-the-world/' | relative_url }}">自學與知識理解</a>：借用前人的思考，如何形成獨立判斷的能力？</li>
-    <li><a href="{{ '/posts/a-morality-we-can-revise/' | relative_url }}">道德判斷與反思</a>：承接既有規範，如何同時保留修改規範的能力？</li>
+    <li>{% include article-banner.html url='/posts/from-reaction-to-heterogeneous-rationality/' lang=include.lang %}<a href="{{ '/posts/from-reaction-to-heterogeneous-rationality/' | relative_url }}">認知、文明與 AI</a>：反射、直覺與理性如何連成一個連續體？AI 若形成自己的基本單元，又會改變什麼？</li>
+    <li>{% include article-banner.html url='/posts/when-ai-cannot-see-its-own-hypoxia/' lang=include.lang %}<a href="{{ '/posts/when-ai-cannot-see-its-own-hypoxia/' | relative_url }}">AI Agent 與自動化設計</a>：系統無法察覺自身盲點時，監督機制應如何建立？</li>
+    <li>{% include article-banner.html url='/posts/you-dont-have-to-rediscover-the-world/' lang=include.lang %}<a href="{{ '/posts/you-dont-have-to-rediscover-the-world/' | relative_url }}">自學與知識理解</a>：借用前人的思考，如何形成獨立判斷的能力？</li>
+    <li>{% include article-banner.html url='/posts/a-morality-we-can-revise/' lang=include.lang %}<a href="{{ '/posts/a-morality-we-can-revise/' | relative_url }}">道德判斷與反思</a>：承接既有規範，如何同時保留修改規範的能力？</li>
   </ul>
   <h2>最新文章</h2>
   {% endif %}
@@ -30,6 +30,7 @@
   {% for item in site.data.writing limit:3 %}
     {% assign copy = item[include.lang] %}
     <article>
+      {% include article-banner.html url=copy.url lang=include.lang %}
       <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%Y-%m-%d' }}</time>
       <h3><a href="{{ copy.url | relative_url }}">{{ copy.title }}</a></h3>
       <p>{{ copy.description }}</p>
@@ -38,6 +39,7 @@
   </div>
   <p><a href="{% if english %}{{ '/en/articles/' | relative_url }}{% else %}{{ '/articles/' | relative_url }}{% endif %}">{% if english %}All writing{% else %}所有文章{% endif %} →</a></p>
   <section class="home-book" aria-labelledby="featured-book">
+    {% include article-banner.html url=book_copy.text_url lang=include.lang %}
     <p class="home-kicker">{% if english %}A free online book{% else %}免費線上書籍{% endif %}</p>
     <h2 id="featured-book">{{ book_copy.title }}</h2>
     <p><strong>{{ book_copy.subtitle }}</strong></p>
@@ -50,7 +52,12 @@
 <style>
 .knowledge-home .home-intro { font-size: 1.15rem; line-height: 1.9; }
 .knowledge-home h2 { margin-top: 2.2rem; }
-.home-topics li { margin-bottom: .8rem; }
+.home-topics { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.6rem 1.4rem; }
+.home-topics li { margin: 0; min-width: 0; }
+@media (max-width: 576px) { .home-topics { grid-template-columns: 1fr; } }
+.knowledge-home .article-banner { display: block; width: 100%; max-width: 100%; height: auto; border-radius: .5rem; margin-bottom: .75rem; }
+.home-book .article-banner { margin-bottom: 1rem; }
+.knowledge-home a.img-link, .knowledge-home a:has(> .article-banner) { display: block; }
 .home-essays article { padding: 1.2rem 0; border-bottom: 1px solid var(--main-border-color); }
 .home-essays h3 { margin: .35rem 0 .65rem; font-size: 1.2rem; line-height: 1.6; }
 .home-essays time, .home-kicker { color: var(--text-muted-color); font-size: .85rem; }

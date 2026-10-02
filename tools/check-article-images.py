@@ -61,7 +61,29 @@ for prefix, cjk in (("", True), ("/en", False)):
         assert h1 > 2, (prefix, slug, "banner after h1")
         alt = events[2][1]["alt"]
         assert alt and bool(re.search(r"[一-鿿]", alt)) == cjk, (prefix, slug, "alt language")
-        body = article[article.index("</header>"):]
+        body = article[article.index("</header>"):article.index("</article>")]
         assert article_images(body) == INLINE[slug], (prefix, slug, article_images(body))
 
-print("Article image checks passed: 2 lists and 10 article pages.")
+# Every other place that links articles in the content area shows the banner too.
+for prefix, cjk in (("", True), ("/en", False)):
+    home = (root / prefix.lstrip("/") / "index.html").read_text(encoding="utf-8")
+    topics = re.search(r'<ul class="home-topics">(.*?)</ul>', home, re.S).group(1)
+    for li in re.findall(r"<li>(.*?)</li>", topics, re.S):
+        slug = re.search(r'/posts/([^/"]+)/', li).group(1)
+        assert article_images(li) == [HEROES[slug]], (prefix, "home topic", slug)
+    essays = re.search(r'<div class="home-essays">(.*?)</div>\s*<p>', home, re.S).group(1)
+    for card in re.findall(r"<article>(.*?)</article>", essays, re.S):
+        slug = re.search(r'<h3><a href="[^"]*/posts/([^/"]+)/"', card).group(1)
+        assert article_images(card) == [HEROES[slug]], (prefix, "home essay", slug)
+    book = re.search(r'<section class="home-book".*?</section>', home, re.S).group(0)
+    assert article_images(book) == [HEROES["no-view-is-the-whole"]], (prefix, "home book")
+    books = (root / prefix.lstrip("/") / "books" / "index.html").read_text(encoding="utf-8")
+    assert article_images(books) == [HEROES["no-view-is-the-whole"]], (prefix, "books list")
+    for slug in HEROES:
+        page = (root / prefix.lstrip("/") / "posts" / slug / "index.html").read_text(encoding="utf-8")
+        related = re.search(r'<aside id="related-posts".*?</aside>', page, re.S)
+        if related:
+            for card in re.findall(r'<a href="[^"]*/posts/([^/"]+)/" class="post-preview[^>]*>(.*?)</a>', related.group(0), re.S):
+                assert article_images(card[1]) == [HEROES[card[0]]], (prefix, slug, "related", card[0])
+
+print("Article image checks passed: lists, home, books, related posts, and 10 article pages.")

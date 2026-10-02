@@ -4,11 +4,7 @@
 {% for item in site.data.writing %}
   {% assign copy = item[include.lang] %}
   <article>
-    {% if item.image %}
-    <div class="article-hero">
-      <img src="{{ item.image.path | relative_url }}" width="{{ item.image.width }}" height="{{ item.image.height }}" alt="{{ copy.image_alt | escape }}" loading="lazy" decoding="async">
-    </div>
-    {% endif %}
+    <div class="article-hero">{% include article-banner.html url=copy.url lang=include.lang %}</div>
     <h2><a href="{{ copy.url | relative_url }}">{{ copy.title }}</a></h2>
     <p>{{ copy.description }}</p>
     <p class="article-meta">{{ item.date | date: "%Y-%m-%d" }}</p>
@@ -23,6 +19,7 @@
 }
 .article-list article:first-child { padding-top: .5rem; }
 .article-list .article-hero { display: block; margin: 0 0 1rem; }
+.article-list .article-hero a { display: block; }
 .article-list .article-hero img {
   display: block;
   width: 100%;

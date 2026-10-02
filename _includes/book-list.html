@@ -7,6 +7,7 @@
   {% assign reader_lang = 'zh' %}
   {% if include.lang == 'en' %}{% assign reader_lang = 'en' %}{% endif %}
   <article>
+    <div class="book-hero">{% capture reader_href %}{{ reader_url }}?lang={{ reader_lang }}{% endcapture %}{% include article-banner.html url=copy.text_url lang=include.lang href=reader_href %}</div>
     <h2><a href="{{ reader_url | relative_url }}?lang={{ reader_lang }}">{{ copy.title | escape }}</a></h2>
     <p class="book-subtitle">{{ copy.subtitle | escape }}</p>
     <p>{{ copy.description | escape }}</p>
@@ -20,6 +21,9 @@
 
 <style>
 .book-list article { padding: 1.4rem 0 1.6rem; border-bottom: 1px solid var(--main-border-color); }
+.book-list .book-hero { margin: 0 0 1rem; }
+.book-list .book-hero a, .book-list .book-hero img { display: block; }
+.book-list .book-hero img { width: 100%; max-width: 100%; height: auto; border-radius: .5rem; }
 .book-list h2 { margin: 0 0 .5rem; font-size: 1.5rem; line-height: 1.5; }
 .book-list .book-subtitle { color: var(--text-muted-color); }
 .book-list .book-links { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-bottom: 0; }
