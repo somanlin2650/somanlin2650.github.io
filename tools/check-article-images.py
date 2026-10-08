@@ -6,7 +6,7 @@ from pathlib import Path
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
 HEROES = {
-    "understanding-without-possessing-the-world": "aei-hero.webp",
+    "understanding-without-possessing-the-world": "aei-v2-hero.webp",
     "from-reaction-to-heterogeneous-rationality": "cognition-hero.webp",
     "you-dont-have-to-rediscover-the-world": "learning-hero.webp",
     "a-morality-we-can-revise": "morality-hero.webp",
@@ -14,7 +14,7 @@ HEROES = {
     "no-view-is-the-whole": "book-hero.webp",
 }
 INLINE = {
-    "understanding-without-possessing-the-world": ['aei-task-maps.webp', 'aei-lost-distinction.webp', 'aei-rule110.webp', 'aei-inquiry-loop.webp'],
+    "understanding-without-possessing-the-world": ['aei-v2-task-fit.webp', 'aei-v2-query-partitions.webp', 'aei-v2-error-floor.webp', 'aei-v2-macro-closure.webp', 'aei-rule110.webp', 'aei-v2-inquiry-levels.webp'],
     "from-reaction-to-heterogeneous-rationality": ["cognition-flytrap.webp"],
     "a-morality-we-can-revise": ["morality-litter-context.webp"],
     "when-ai-cannot-see-its-own-hypoxia": ["agent-independent-observer.webp"],
