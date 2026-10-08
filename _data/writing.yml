@@ -5,8 +5,8 @@
     height: 727
   zh-TW:
     image_alt: 人類研究者與人工智慧工作站面對同一座實驗裝置，象徵不同認知路徑共同接受外部檢驗；AI 生成概念場景。
-    title: AI 迫使我們重問「理解」：有限認知的公理與哲學重建
-    description: 如果 AI 能以有限表徵完成可檢驗的推理，理解還需要以佔有完整真理為資格嗎？從六項核心公理與三條探究規則，推導概念的最小結構、抽象失效、認知盲點、宏觀規律、倫理資訊需求與可修正智慧，重建哲學的工作方式。
+    title: 理解不必佔有世界：從 AI 到有限認知的公理化探究
+    description: AI 使理解與人類熟悉的思考形式分離。從一份證明、一本刪去明細的帳簿出發，建立有限認知的三項公理，推導資訊缺口、自我查錯、倫理判準與未來修正的條件；追問哲學能否把探究本身也納入設計。
     categories:
     - AI
     - 哲學
@@ -22,16 +22,15 @@
   en:
     image_alt: A human researcher and an AI workstation face a shared experimental apparatus, suggesting different
       cognitive paths subject to common checks; an AI-generated conceptual scene.
-    title: 'AI Forces Us to Ask Again What Understanding Means: Axioms of Finite Cognition and the Reconstruction
-      of Philosophy'
-    description: If finite AI representations can support checkable reasoning, must understanding require possession
-      of complete truth? Six core axioms and three inquiry rules yield consequences for concepts, abstraction, blind
-      spots, macro-level laws, ethics, and revisable intelligence.
+    title: 'Understanding Without Possessing the World: AI and an Axiomatic Account of Finite Inquiry'
+    description: AI separates cognitive achievement from familiar human forms of thought. Starting with a proof
+      and a ledger stripped of detail, three axioms expose limits on information, error detection, ethical decisions,
+      and future revision—and make inquiry itself a subject of design.
     categories:
     - AI
     - Philosophy
     tags:
-    - Artificial Intelligence
+    - AI
     - Epistemology
     - Axiomatic Philosophy
     - Understanding
