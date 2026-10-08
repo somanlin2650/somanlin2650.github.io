@@ -5,8 +5,8 @@
     height: 727
   zh-TW:
     image_alt: 人類研究者與人工智慧工作站面對同一座實驗裝置，象徵不同認知路徑共同接受外部檢驗；AI 生成概念場景。
-    title: AI 找到新解法之後：理解的公理與可檢驗條件
-    description: 從 Claude 的 3SUM／APSP 新演算法與 OpenAI 的 722 篇數學手稿出發，區分發現、驗證、解釋與修正；建立有限認知的三項公理，推導資訊、計算、研究責任與未來查證的具體條件。
+    title: 理解不必佔有世界：AI 之後的認識論公理化
+    description: AI 做出人類未曾找到的解法，卻從未佔有世界的真實結構。從機器學習的近似本質出發，拆開「真理存在，所以有限認知者終將完整佔有它」這個隱藏了兩百年的跳躍；以三項基礎公理與三項操作公理，推導概念、科學、機器學習、倫理與哲學自身的共同條件。
     categories:
     - AI
     - 哲學
@@ -15,6 +15,7 @@
     - 認識論
     - 哲學公理化
     - 理解
+    - 機器學習
     - 數學
     - 可修正性
     - 所見非全貌
@@ -22,10 +23,11 @@
   en:
     image_alt: A human researcher and an AI workstation face a shared experimental apparatus, suggesting different
       cognitive paths subject to common checks; an AI-generated conceptual scene.
-    title: 'After AI Finds a New Method: Axioms and Tests for Understanding'
-    description: Recent Claude algorithms and OpenAI mathematics manuscripts make discovery, verification, explanation,
-      and revision concrete. Three axioms expose the information, computation, and evidence each claim of understanding
-      requires.
+    title: 'Understanding Without Possessing the World: Axiomatizing Inquiry After AI'
+    description: AI finds methods people had not found, without ever possessing the world's true structure. Starting
+      from approximation in machine learning, the essay takes apart a leap hidden for two centuries, from "truth exists"
+      to "a finite knower will possess it," and derives shared conditions for concepts, science, machine learning,
+      ethics, and philosophy itself from three foundational and three operational axioms.
     categories:
     - AI
     - Philosophy
@@ -34,6 +36,7 @@
     - Epistemology
     - Axiomatization
     - Understanding
+    - Machine Learning
     - Mathematics
     - Revisability
     url: /en/posts/understanding-without-possessing-the-world/

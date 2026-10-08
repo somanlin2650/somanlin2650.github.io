@@ -14,7 +14,7 @@ HEROES = {
     "no-view-is-the-whole": "book-hero.webp",
 }
 INLINE = {
-    "understanding-without-possessing-the-world": ['aei-v4-release-status.webp', 'aei-v4-evidence-tasks.webp'],
+    "understanding-without-possessing-the-world": ['aei-v5-embedded-inquirers.webp', 'aei-v2-query-partitions.webp', 'aei-rule110.webp', 'aei-v4-release-status.webp', 'aei-v4-evidence-tasks.webp'],
     "from-reaction-to-heterogeneous-rationality": ["cognition-flytrap.webp"],
     "a-morality-we-can-revise": ["morality-litter-context.webp"],
     "when-ai-cannot-see-its-own-hypoxia": ["agent-independent-observer.webp"],
