@@ -6,6 +6,7 @@ from pathlib import Path
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
 HEROES = {
+    "understanding-without-possessing-the-world": "aei-hero.webp",
     "from-reaction-to-heterogeneous-rationality": "cognition-hero.webp",
     "you-dont-have-to-rediscover-the-world": "learning-hero.webp",
     "a-morality-we-can-revise": "morality-hero.webp",
@@ -13,6 +14,7 @@ HEROES = {
     "no-view-is-the-whole": "book-hero.webp",
 }
 INLINE = {
+    "understanding-without-possessing-the-world": ['aei-task-maps.webp', 'aei-lost-distinction.webp', 'aei-rule110.webp', 'aei-inquiry-loop.webp'],
     "from-reaction-to-heterogeneous-rationality": ["cognition-flytrap.webp"],
     "a-morality-we-can-revise": ["morality-litter-context.webp"],
     "when-ai-cannot-see-its-own-hypoxia": ["agent-independent-observer.webp"],
@@ -86,4 +88,4 @@ for prefix, cjk in (("", True), ("/en", False)):
             for card in re.findall(r'<a href="[^"]*/posts/([^/"]+)/" class="post-preview[^>]*>(.*?)</a>', related.group(0), re.S):
                 assert article_images(card[1]) == [HEROES[card[0]]], (prefix, slug, "related", card[0])
 
-print("Article image checks passed: lists, home, books, related posts, and 10 article pages.")
+print(f"Article image checks passed: lists, home, books, related posts, and {2 * len(HEROES)} article pages.")

@@ -182,3 +182,16 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 </script>
+
+{%- comment -%}Social image for the finite-inquiry article; the visual hero still comes from writing.yml.{%- endcomment -%}
+{% if page.url == '/posts/understanding-without-possessing-the-world/' or page.url == '/en/posts/understanding-without-possessing-the-world/' %}
+  <meta property="og:image" content="{{ '/assets/img/articles/aei-hero.webp' | absolute_url }}">
+  <meta property="og:image:width" content="2172">
+  <meta property="og:image:height" content="724">
+  <meta name="twitter:image" content="{{ '/assets/img/articles/aei-hero.webp' | absolute_url }}">
+  {% if page.lang == 'en' %}
+    <meta property="og:image:alt" content="A researcher and a terrain model facing an expansive estuary; an AI-generated conceptual scene.">
+  {% else %}
+    <meta property="og:image:alt" content="研究者與地形模型面向窗外廣闊河口；AI 生成概念場景。">
+  {% endif %}
+{% endif %}

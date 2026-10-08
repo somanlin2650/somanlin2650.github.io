@@ -41,7 +41,7 @@ class Page(HTMLParser):
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
 origin = "https://somanlin2650.github.io"
-slugs = ["from-reaction-to-heterogeneous-rationality", "when-ai-cannot-see-its-own-hypoxia", "a-morality-we-can-revise",
+slugs = ["understanding-without-possessing-the-world", "from-reaction-to-heterogeneous-rationality", "when-ai-cannot-see-its-own-hypoxia", "a-morality-we-can-revise",
          "you-dont-have-to-rediscover-the-world", "no-view-is-the-whole"]
 paths = ["/", "/en/", "/articles/", "/en/articles/", "/books/", "/en/books/"]
 paths += [f"{prefix}/posts/{slug}/" for prefix in ("", "/en") for slug in slugs]

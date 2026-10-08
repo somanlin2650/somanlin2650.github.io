@@ -1,3 +1,43 @@
+- date: 2026-10-08
+  image:
+    path: /assets/img/articles/aei-hero.webp
+    width: 2172
+    height: 724
+  zh-TW:
+    image_alt: 觀測站中的研究者、桌上的地形模型與窗外廣闊河口，呈現有限表徵與世界的關係；AI 生成概念場景。
+    title: 理解不必佔有世界：AI 與有限認知者的認識論
+    description: AI 把認識論帶到可以設計與測試的地方：有限認知者如何選擇表徵、保留必要差異、接受外部檢驗，並在失敗時修改自己的理解？從機器學習、資訊損失與簡單規則出發，重新思考理解與真理的關係。
+    categories:
+    - AI
+    - 哲學
+    tags:
+    - 人工智慧
+    - 認識論
+    - 理解
+    - 機器學習
+    - 表徵
+    - 可修正性
+    - 所見非全貌
+    url: /posts/understanding-without-possessing-the-world/
+  en:
+    image_alt: A researcher, a tabletop terrain model, and an expansive estuary beyond the field station;
+      an AI-generated conceptual scene about representation and the world.
+    title: 'Understanding Without Possessing the World: AI and the Epistemology of Finite Knowers'
+    description: AI brings epistemology into the realm of design and testing. How can finite knowers preserve
+      necessary distinctions, submit claims to independent checks, and revise their representations when
+      they fail?
+    categories:
+    - AI
+    - Philosophy
+    tags:
+    - Artificial Intelligence
+    - Epistemology
+    - Understanding
+    - Machine Learning
+    - Representation
+    - Revisability
+    - No View Is the Whole
+    url: /en/posts/understanding-without-possessing-the-world/
 - date: 2026-10-01
   image:
     path: /assets/img/articles/cognition-hero.webp
