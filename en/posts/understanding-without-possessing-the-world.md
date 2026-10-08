@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Understanding Without Possessing the World: AI and an Axiomatic Account of Finite Inquiry"
+title: "After AI Finds a New Method: Axioms and Tests for Understanding"
 date: 2026-10-08 11:30:00 +0800
-last_modified_at: 2026-10-08 13:53:14 +0800
+last_modified_at: 2026-10-08 19:09:59 +0800
 lang: en
 permalink: /en/posts/understanding-without-possessing-the-world/
 alternate_url: /posts/understanding-without-possessing-the-world/
 categories: [AI, Philosophy]
-tags: [AI, Epistemology, Axiomatic Philosophy, Understanding, Representation, Revisability, No View Is the Whole]
-description: "AI separates cognitive achievement from familiar human forms of thought. Starting with a proof and a ledger stripped of detail, three axioms expose limits on information, error detection, ethical decisions, and future revision—and make inquiry itself a subject of design."
+tags: [Artificial Intelligence, Epistemology, Axiomatization, Understanding, Mathematics, Revisability]
+description: "Recent Claude algorithms and OpenAI mathematics manuscripts make discovery, verification, explanation, and revision concrete. Three axioms expose the information, computation, and evidence each claim of understanding requires."
 toc: true
 comments: true
 math: true
@@ -16,307 +16,251 @@ math: true
 
 <span id="s1"></span>
 
-## Cover the author's name
+## What did Claude actually change?
 {: #proof }
 
-Imagine a geometry proof on a desk. We cover the author's name and check the premises, the auxiliary lines, and each inference. Everything holds. Now we uncover the name. The author is an artificial intelligence system.
+On October 5, 2026, Josh Alman and Virginia Vassilevska Williams published an algorithms preprint giving a deterministic $$O(n^{1.9992})$$ algorithm for 3SUM on polynomial-size integers and an $$O(n^{2.9995})$$ bound for all-pairs shortest paths, or APSP, on directed graphs with polynomially bounded integer weights. The results refute the corresponding 3SUM and APSP hypotheses.[^algorithm]
 
-Which step needs checking again?
+3SUM asks whether an input contains three numbers whose sum is zero. For example, −4, 1, and 3 form a solution. With a few numbers, the task is easy; the question is how the work grows with the input. APSP asks for the shortest distance between every pair of vertices in a graph. Cities and roads provide an intuitive example, but the paper's asymptotic bounds cannot be read as measurements of navigation software.
 
-We might ask whether it copied the answer, whether it can handle a slightly altered problem, or whether our inspection missed a mistake. Each suspicion points to something we can investigate. Learning that the author is not human does not, by itself, invalidate an inference.
+The change from an exponent of 2 to 1.9992 looks small. Its significance is that the reduction is a fixed positive amount: comparing these powers, the asymptotic saving continues to grow with the input. This differs from making the same program twice as fast, and is stronger than saving only logarithmic factors. Constants, input regimes, and implementation costs can still make a new method slower at ordinary scales. **The breakthrough concerns conjectured asymptotic barriers. It does not overturn a proved lower bound or establish an immediate practical speedup.**
 
-This small thought experiment has a real counterpart. AlphaGeometry, published in 2024, combines a neural model that proposes geometric constructions with a symbolic engine that carries out deductions, producing proofs that can be checked. It demonstrates a specific ability, without settling questions about consciousness, experience, or general intelligence.[^ag] It does, however, separate two questions that are easily confused: what makes a result valid, and how closely the process that produced it resembles human thought.
+The paper's methodology credits Claude with discovering the key algorithm during a research session that received no further human input after the initial task. Human authors subsequently organized, strengthened, and extended the work, taking responsibility for the paper. Lean formalization of the principal results followed completion of the manuscript.[^method] Autonomous discovery of the central method and a wholly human-free research project are different claims.
 
-“It can do it, but it doesn't understand.” There may still be something to this objection. Reciting a proof differs from explaining why a particular auxiliary line helps. But we now owe an account of the difference. Can the system handle changed conditions? Can it locate the step that fails? Does it grasp a relation between the reasons and the conclusion? If the missing property is subjective experience, that claim should be stated in its own right. It should not silently erase an ability already demonstrated.
+Understanding can now be investigated through specific work: finding an algorithm, checking it, explaining why it works, and determining whether it applies to a modified problem. Success at one task does not automatically establish success at the others.
 
-AI makes me want to ask something we ask less readily of ourselves: when did we earn the certificate of understanding that we demand from another kind of cognitive system?
-
-We have not moved the world into our heads. Learning a formula requires ignoring much that does not matter to the present question and keeping a relation we can use again. Maps, concepts, programs, and institutions work in much the same way. Sometimes these arrangements help us get things right. Sometimes they keep errors out of sight for years. Their omissions do not make every achievement an illusion; their successes do not make the omitted details cease to exist.
-
-The change I propose is to treat “understands” as a substantive claim about ability, open to further questions. What is understood, which variations can be handled, what warrants the result, and what resources are needed should belong to the claim itself. Possessing the whole world may be unnecessary for understanding. Once we drop that requirement, though, we need something more demanding than “whatever works.”
+**A claim of understanding should identify its object, the questions it covers, the changes it can handle, its supporting evidence, and its resource requirements.** The same demand applies to a researcher, an AI system, or a research process combining both.
 
 <span id="s2"></span>
 
-## What the ledger no longer records
+## 722 manuscripts, followed by three withdrawals
 {: #ledger }
 
-Leave AI aside for a moment. Consider a tiny ledger recording the resources held by two people, in arbitrary units. One possible entry is forty and sixty. Another is zero and a hundred. The total is the same. So is the mean.
+The next day, OpenAI released mathematical work from an internal model, together with some Lean proofs and information about the research process. Lean is a proof assistant: formalization expresses precise statements and derivations in a form a program can check.[^release] The initial collection listed 722 manuscripts across 372 result families. A manuscript count is not a count of fully confirmed new theorems.[^catalogue]
 
-If the only question is the mean, either entry can be replaced by “fifty.” The summary is correct. But suppose the next question is whether anyone has less than twenty. The summary cannot answer it.
+The October 7 revision log records a concrete failure. A sign error in *Algebraicity of Weil classes on split abelian eightfolds* invalidated an argument and a construction used in two dependent manuscripts. All three were withdrawn. The current collection lists 719 manuscripts, with 300 top-line results—the manuscripts' principal claims—formalized, approximately 42%. These are the versioned figures consulted on October 8.[^history]
 
-| Detailed entry | Mean | Anyone below twenty? |
-| :-- | --: | :-- |
-| 40, 60 | 50 | No |
-| 0, 100 | 50 | Yes |
+The initial count describes the scale of production. The corrections describe how that production becomes material for further research. Both matter.
 
-The trouble begins when the detail is deleted. If the original record is destroyed and the past situation cannot be reconstructed, thinking harder about fifty will not reveal which entry produced it.
+When a proof step fails, arguments relying on it lose their existing justification. Their conclusions may still be true, and another proof may later establish them. Immediately declaring them false would go beyond the evidence, just as continuing to treat the failed proofs as valid would.
 
-There is no mysterious cognitive barrier here. Everything is on the page: one visible record is compatible with two different correct answers.
+This episode supplies concrete tests of understanding. Can a system locate the defect? Identify other arguments that depend on it? Repair the proof without quietly weakening the theorem? A list of conclusions and an aggregate score cannot answer these questions.
 
-Machine learning presents related cases. A model can perform well under a specified distribution and scoring rule without uniquely identifying the entire mechanism that generated the data. Finite tests establish less still: a few successful trials do not guarantee success throughout the intended range.[^uml] This does not establish that the human brain is a particular kind of machine-learning model. It does expose a shared problem. We often test what a retained representation can do, while paying less attention to the questions it has made impossible to answer.
-
-This is the sort of problem I want an axiomatic approach to philosophy to reach. After writing down the axioms, we should be able to say which ambitions cannot be met under those conditions—and which condition must change to make them possible.
+![Versioned OpenAI manuscript counts: 722 initially, 719 after three withdrawals, with 300 top-line results formalized.](/assets/img/articles/aei-v4-release-status.webp){: width="1200" height="1060" }
+_Figure 1. Public catalogue and October 7, 2026 revision log. Formalization status does not establish novelty, explanatory quality, or the suitability of every external assumption. Lack of formalization does not establish an error._
 
 <span id="s3"></span>
 
-## What cannot be obtained for free
+## Three axioms for a tractable philosophical question
 {: #axioms }
 
-The model below addresses part of finite inquiry. It does not attempt to derive the world from a few symbols. Let $$X$$ be the set of situations admitted in a particular study and $$Q$$ the questions to be answered. Each question $$q$$ has an answer rule $$q(x)$$. The inquirer initially receives a record $$z=r(x)$$, where $$r$$ may describe sensing, summarizing, or encoding information in memory. For transparent proofs, take these sets to be finite.
+“Real understanding must resemble human thinking” is difficult to test. “Any correct answer counts as understanding” is too permissive: memorization, a lucky guess, and a reliable explanation can receive the same score.
 
-Those are definitions. The model adopts three axioms.
+Axiomatization can begin by specifying an assessment: the permitted situations, the questions, the available materials, and the resource budget. Three conditions then remain fixed.
 
-**Axiom A1: Within an assessment, the criterion does not change with the answer being assessed.** When asked for the mean, the answer is determined by the ledger. An inquirer cannot rename some easier quantity “the mean” and claim to have solved the original problem. A criterion can be challenged. Changing it establishes a different assessment; it does not retroactively change the earlier result.
+**First, keep the criterion stable within an assessment.** Algorithmic correctness calls for checking inputs, outputs, and proofs. Explanatory ability calls for identifying important steps and why they matter. Adding a requirement only after discovering that the author is AI changes the test. Substituting a speed result for correctness changes it too. New criteria may be proposed, but should be identified as new assessments.
 
-**Axiom A2: Available reasoning depends only on accessible information.** If two situations provide exactly the same observable record, the system cannot branch on their hidden difference before receiving further evidence. It may randomize, deliberate, or seek assistance. Its random seed does not foresee the answer. If an assistant brings relevant knowledge, that counts as an addition to the information available.
+**Second, answers must depend on materials and computations actually available to the system.** Model parameters, context, tools, documents, and information from collaborators all count. An unread external file cannot be treated as already known. More deliberation cannot be assumed to recover evidence that has been discarded.
 
-**Axiom A3: Acquiring and using information share one resource account.** Retaining detail, rereading data, calling tools, searching for a proof, and checking a result count toward the task's stated limits. Each example specifies whether it concerns worst-case time or memory, or an average cost. These constraints are not interchangeable.
+**Third, account for the cost of obtaining and using those materials.** Search, deduction, formalization, proof checking, and expert review consume different resources. A comparison is distorted if one system receives a proof for free while another must discover it. Time, computation, and human labor also require an explicit conversion rule before they can be combined into one quantity.
 
-A1 separates being correct from declaring oneself correct. A2 excludes knowledge with no source. A3 prevents us from describing an inquirer as finite while supplying it with a free, omniscient assistant. None of these commitments is exotic. Axiomatization makes the argument answer to them, rather than merely acknowledge them.
+These axioms do not define consciousness or establish general intelligence. They first constrain something smaller: how to assess a claim about understanding fairly.
 
-Being part of the world does not, by itself, prove that an inquirer cannot understand it. A one-bit world might contain an inquirer able to retain everything needed for the relevant questions. An information limit requires assumptions about capacity and questions. A computational limit requires assumptions about the problem to be computed. Finitude, embeddedness, and failure are related, but one cannot be substituted for another.
+Let $$x$$ denote the actual situation, $$r(x)$$ the record available to the system, and $$q(x)$$ the correct answer to a question. The notation makes it harder to introduce information or change the task unnoticed.
 
-The axioms also do not tell us which questions to ask or which social arrangements to pursue. When norms and revision enter the argument, their additional commitments will be stated. Hiding those choices inside the word “rationality” would make a dispute less visible without resolving it.
+<span id="s4"></span><span id="s6"></span><span id="s7"></span><span id="s9"></span>
 
-<span id="s4"></span>
-<span id="s6"></span>
-<span id="s7"></span>
-<span id="s9"></span>
-
-## The distinctions understanding needs
+## First consequence: retaining an answer can erase the ability to follow it up
 {: #distinctions }
 
-Return to the ledger. Put the relevant questions together. Treat two situations as equivalent, written $$x\sim_Q x'$$, when they give the same answer to every question in $$Q$$. This does not make them the same world. It means the present task need not distinguish them.
+Several different questions can be asked about the mathematics collection.
 
-We now have an exact criterion. Every question in $$Q$$ can be answered correctly from $$r(x)$$ alone if and only if
+| Question | Materials to check |
+| :-- | :-- |
+| Is this version listed as formalized? | The relevant status record and version mapping |
+| Which assumptions does the proof use? | The precise statement, dependencies, and proof |
+| Which arguments require review after a lemma fails? | Proof dependency records |
+| Does the conclusion survive a changed condition? | The original proof, a replacement argument, or a counterexample |
+
+These are different requirements. Keeping the word “passed” may answer a status query without supporting any of the other questions. The difference concerns which situations the retained record can distinguish.
+
+**Proposition 1. A record is sufficient for a set of questions exactly when all situations producing the same record give the same answers to those questions.**
+
+For every relevant question $$q$$, the condition is:
 
 $$
-r(x)=r(x')\quad\Longrightarrow\quad x\sim_Q x'.
+r(x)=r(y)\ \Longrightarrow\ q(x)=q(y).
 $$
 
-Necessity is immediate. If a record merges situations whose answers differ, A2 prevents the system from separating them without further information. Sufficiency is simple too. If every situation sharing a record has the same answers, we can fill in an answer table for that record. This proves the table exists. Whether there is room to store it or time to consult it is a further question under A3.
+Necessity is immediate: identical available records cannot guarantee different correct answers. Conversely, if every situation associated with a record gives the same answer, that answer can be assigned to the record. This establishes informational determination, not an efficient algorithm for computing the answer.
 
-The minimum number of record states is therefore the number of classes into which $$\sim_Q$$ divides $$X$$. If there are $$m$$ classes, a fixed-length binary encoding needs at least $$\lceil\log_2 m\rceil$$ bits. This counts the record alone, excluding the decoder, program, and execution time.
+A further result follows: **adding questions can make a previously sufficient summary insufficient.** If the original questions are $$Q$$ and $$Q\subseteq Q'$$, the distinctions required for $$Q'$$ can only increase or remain unchanged. An old summary remains sufficient only if it already determines the answers to the added questions.
 
-![The same four situations are grouped differently when asked for a, for b, or for both: the tasks require two, two, and four distinguishable record states respectively.](/assets/img/articles/aei-v2-query-partitions.webp){: width="1600" height="1050" }
-_Figure 1. Questions determine the distinctions that must survive. This is an exact classification in a finite example, not an estimate of human memory capacity._
+Research records therefore cannot be evaluated only against today's examination. Retaining an algorithm's exponent may answer “What is the bound?” A later question about which step imposes an input restriction requires the derivation.
 
-One consequence concerns concepts. A concept can omit details, but it cannot omit a distinction required by the questions it claims to answer. “Mean” is a good concept. Using it to decide whether a distribution leaves someone behind exceeds its capacity. A concept sometimes fails because the question has changed while the record has not.
-
-Understanding need not fall along a single scale, either. A system retaining only $$a$$ and one retaining only $$b$$ each store one bit. The first is better when asked for $$a$$; the second is better when asked for $$b$$. Neither is unconditionally superior. A score that ranks them must assign weights to the questions. Change those weights and the ranking may change.[^blackwell]
-
-Allowing errors does not remove the information constraint. Let $$a$$ and $$b$$ be independent fair bits. Retain only $$a$$, then ask for $$b$$. No amount of computation can reduce the error rate below one half: conditional on either observed value of $$a$$, zero and one remain equally likely values of $$b$$.
-
-Having ten systems discuss the problem does not automatically change this. If all their relevant information consists of $$a$$, the discussion still cannot distinguish the values of $$b$$. Give one of them access to $$b$$, however, and the situation changes at once. Access to evidence makes the difference.
-
-This also means that giving several AI models the same prompt does not establish that they have the same information. Their prior knowledge, tools, and memories may supply different clues. A single model may derive a consequence after additional computation that it failed to derive before. A2 rules out creating absent information; it does not rule out progress through thought.
-
-Questions about why things happen encounter the same issue. Let $$U$$ be a fair bit. In model A, $$X=U$$ and $$Y=X$$. In model B, $$X=U$$ and $$Y=U$$. Ordinary observations always show $$X=Y$$ in both. But forcibly setting $$X$$ to zero makes $$Y$$ zero in model A, while in model B, $$Y$$ continues to depend on $$U$$. The causal accounts agree observationally and separate under intervention.[^pearl]
-
-Without intervention data or an additional assumption excluding one model, more observations of the same kind will not decide between them. Argument can test their internal coherence. Finding out which account applies requires a way of eliciting a different response from the world.
+Understanding has a scope. A representation can support one collection of questions while failing another. The boundary can be exhibited, rather than left to an unexplained judgment that a system “really gets it.”
 
 <span id="s18"></span>
 
-## The missing step in “we can fix it later”
+## Second consequence: repeated self-checking cannot guarantee recovery of missing evidence
 {: #diagnosis }
 
-Revisability can sound easy: use a simplified model for now, and collect more data when it goes wrong.
+Two obstacles need to be separated.
 
-Who tells us that it has gone wrong?
+The first is **available information that has not yet been processed**. A full proof may already be present, while checking a step requires more deduction or formalization. Additional computation can produce a new answer without new external observations.
 
-Suppose a system answers from its record. In one situation the answer is correct; in another it is mistaken. If both situations leave exactly the same record, an alarm reading only that record must give the same verdict in both. It can flag both or pass both. It cannot light up only for the mistake.
+The second is **a distinction absent from the available record**. Suppose two research records retain only the same “checked” label, but one refers to the wrong version. Without access to the version and execution records, repeating the label cannot reveal which case applies.
 
-The proof uses A2 alone. “Is this answer wrong?” is another question. When the record merges correctness with error, self-checking encounters the same barrier as the original task.
+**Proposition 2. A perfect error detector using only the current record exists only if that record uniquely determines whether the answer is erroneous.**
 
-This is more specific than saying a model may not know what it does not know. It identifies an impossible combination: without any distinguishing clue, an alarm cannot avoid both missed errors and false alarms. Asking the system to be humble will not secure both benefits.
+This applies Proposition 1 to the question “Is this answer wrong?” It does not prohibit risk estimates or referral of every ambiguous case for review. It rules out guaranteed case-by-case diagnosis where the distinguishing evidence is missing.
 
-The system may still recognize that its record is insufficient and request checking in every case. Recognizing a risk differs from identifying exactly which answer is mistaken.
+Whether “think again” helps depends on the obstacle. A missed inference may yield to additional computation. A missing version requires a version check. A translation into a weaker formal statement requires comparison of the statements. One instruction cannot substitute for all these tasks.
 
-We can also calculate a cost. Consider another constructed example. The answer is a hidden bit $$b$$ with a one-in-ten probability of being one. The system has no clue correlated with $$b$$ and ordinarily answers zero. At cost $$c$$, it can query the exact answer. It must decide whether to query before submitting its final answer.
+A Lean check provides evidence that a formal statement follows within a specified formal system and its dependencies. Whether the prose describes that statement accurately, and whether its assumptions fit the intended problem, remain separately examinable questions.
 
-Let $$\rho$$ be the fraction of cases queried. Since the information available before querying is independent of $$b$$, the system cannot preferentially select the one-in-ten cases. Among the unqueried cases, one in ten will still be wrong. Thus
+Explicit probability and cost assumptions also make verification requirements calculable. Suppose each case has a 10% error probability invisible in its current summary. Selection for checking is independent of actual error; unchecked cases retain their original answers; and a perfect check eliminates the error in every checked case. If the checked fraction is $$\rho$$, the expected remaining error rate is:
 
 $$
-\text{residual error}=0.1(1-\rho),\qquad
-\text{expected query cost}=c\rho.
+0.1(1-\rho).
 $$
 
-Reducing the error rate to one percent requires querying at least ninety percent of cases. Randomly querying nine out of ten achieves that bound. “Intelligent selection” without relevant clues cannot do better.
+Within this process, reducing the expected error rate to 1% requires checking at least 90% of cases. **The percentages are assumptions of this example, not measured error rates for OpenAI manuscripts or Claude.** Useful risk signals or fallible checks require a different model.
 
-![With no informative clue before querying, the minimum error falls linearly from ten percent to zero as the query rate rises from zero to one hundred percent. A ninety percent query rate is needed for one percent error.](/assets/img/articles/aei-v3-repair-frontier.webp){: width="1600" height="1000" }
-_Figure 2. A query bound without informative clues. The values follow from the example's assumptions, not measurements of current AI systems. Additional clues would require a different bound._
+The calculation exposes a practical cost: producing many candidate answers does not by itself supply the resources needed to raise all of them to a specified reliability standard.
 
-A revisable system therefore needs more than a retry button. Through what signal will a mistake become visible? Who can supply that signal? How long does checking take? If no signal arrives, does the system pause, sample cases, or carry on?
+<span id="s8"></span><span id="s10"></span>
 
-An organization that discards complaint records while retaining only processing totals may lose the ability to identify what needs improvement. This is an institutional analogy, not an application of the numerical one-in-ten assumption to society. It preserves the relevant question: evidence needed for revision can be discarded before revision begins. External observation, discussed in [“When AI Cannot See Its Own Hypoxia”](/en/posts/when-ai-cannot-see-its-own-hypoxia/), now has a specific job.
-
-<span id="s8"></span>
-<span id="s10"></span>
-
-## Even if the rule is short
+## Third consequence: better algorithms change what is feasible
 {: #laws }
 
-Keeping the information intact still does not settle what we can understand.
+The Claude result concerns an obstacle different from missing information. For a fully specified 3SUM input, the answer does not depend on an unpublished external record. The obstacle is computational cost. A new algorithm can change what is feasible without adding input information.
 
-Imagine a world of black and white cells. A cell's next color depends only on itself and its two neighbors. Three bits admit just eight combinations, so the entire update rule fits in a small table. Rule 110 is one such rule.
+**Informational sufficiency and resource sufficiency require separate assessments.** Proposition 1 addresses the former; complexity analysis addresses the latter. Calling something currently unaffordable “unknowable in principle” mistakes room for algorithmic improvement for a final limit of cognition.
 
-Cook proved that Rule 110 supports universal computation under suitably encoded initial configurations.[^cook] A procedure that always halted and decided whether the computation encoded in any such configuration would halt could therefore solve the general halting problem. No such procedure exists.
+Understanding claims therefore need resource conditions. A method may have a theoretical capability without being useful under the available budget. Better methods can make the same data support a wider practical range of questions.
 
-This undecidability result uses an unbounded family of configurations. It does not follow directly from the fixed finite model used earlier.
+**Proposition 3. If the set of available methods expands while old methods remain available and the criterion and budget stay fixed, the set of solvable questions cannot shrink.** Every previously feasible method remains an option. A cheaper new method may also bring previously unaffordable questions within budget. This does not make every new method faster.
 
-![The eight local update cases of Rule 110 and a finite sequence of black-and-white cells generated from a specified seed.](/assets/img/articles/aei-rule110.webp){: width="1600" height="1000" }
-_Figure 3. The full local rule appears above a finite illustrative evolution. The image does not prove universality, and the depicted seed is not the full encoding used in Cook's simulation of arbitrary computation._
+A recent biomolecular-modeling project illustrates another side of this distinction. Anthropic reported roughly fourfold overall speedups when very small numerical differences were permitted, and nearly twofold speedups with identical outputs.[^bio]
 
-This does not make every Rule 110 pattern difficult, and it does not establish that the physical universe is such a system. Questions about specified finite regions and finite times can be handled in finitely many steps. The counterexample is enough: a short rule need not provide a feasible solution to every general question formulated about it. Computation can obstruct us even when information is complete.
+The same report describes much larger structure-prediction runs, ranging from 31,000 to over 70,000 tokens on one eight-GPU B300 node, whose outputs were incorrect or collapsed.[^bio] Completing the computation did not establish a correct structural prediction.
 
-“Finding the final laws” thus separates into at least two achievements: knowing how a world updates, and being able to answer the questions we ask of it. The first does not automatically deliver the second. This also explains why a better concept can improve our abilities without adding information. A table prepared in advance, a suitable coordinate system, or a completed derivation packaged for reuse may make an otherwise intractable task manageable. Preparation has a cost. Whether it pays depends on how often the result will be used.
+This specifies two separate achievements: the scale of computation that can be executed, and the quality of what it produces. Progress on the first can coexist with failure on the second.
 
-This is another aspect of [“You Don't Have to Rediscover the World”](/en/posts/you-dont-have-to-rediscover-the-world/): we inherit conclusions and some of the computational labor already spent on reaching them.
+Evaluations should consequently retain separate entries for cost and answer quality. An exact-output requirement cannot be assessed with a speed figure that permits numerical differences. A correct-structure requirement cannot be assessed by token capacity alone. This is the first axiom applied to an actual research report.
 
-Abstraction has another condition to meet. Suppose a detailed state $$x$$ evolves under a deterministic rule $$F$$ and we retain only a summary $$r(x)$$. A deterministic next-step rule on summaries exists if and only if
-
-$$
-r(x)=r(x')\quad\Longrightarrow\quad r(F(x))=r(F(x')).
-$$
-
-Otherwise, one present summary can lead to two different future summaries, so it cannot determine the next step alone. For example, let the detailed rule swap two bits: $$(a,b)\mapsto(b,a)$$. If the summary retains only the first bit, a current zero may become either zero or one, depending on the omitted second bit.
-
-This gives us a test for some claims that a higher-level description can operate on its own. When the condition fails, we might add variables, retain history, or seek probabilistic predictions instead. It does not settle whether macroscopic objects are “real,” nor reduce every kind of emergence to forgetting. It settles a narrower question: can this summary perform the predictive work assigned to it?
+![Four separately assessed tasks: generate a candidate, check the statement, explain the important steps, and handle changed conditions.](/assets/img/articles/aei-v4-evidence-tasks.webp){: width="1200" height="1380" }
+_Figure 2. Each capability has its own materials and tests. Arrows indicate that later work can use earlier outputs, not that success automatically passes from one stage to the next._
 
 <span id="s11"></span>
 
-## Who decides which differences matter?
+## Fourth consequence: publication rules require information
 {: #norms }
 
-We can now return to the ledger that retains only the mean.
+Mathematical correctness is one criterion. Whether a manuscript may be labeled “verified” also depends on publication rules.
 
-If the task is merely to report the total, deleting detail may be harmless. But suppose an institution adopts this rule: initiate an additional allocation if anyone has less than twenty; otherwise, do not. Forty and sixty now demand a different action from zero and a hundred. A record containing only the mean cannot comply in both situations.
+On September 29, 2026, the Advisory Group on Mathematics and Artificial Intelligence published recommendations covering formalization status, provenance, attribution, and support for human understanding. These are scholarly norms, not ethical theorems deduced from model performance.[^agmai]
 
-Mathematics has not established that anyone below twenty ought to receive assistance. That is an additional, contestable norm adopted for the example. Mathematics shows that once we adopt it, a particular way of deleting information conflicts with compliance.
+Once a norm is specified, however, its informational requirements can be examined.
 
-We can state the condition more precisely. Let $$A_N(x)$$ be the set of actions allowed by norm $$N$$ in situation $$x$$. A guaranteed permissible action can be chosen from summary $$z$$ alone if and only if
+Suppose a publication rule permits the label “formalized” only when a valid proof corresponds to that version's statement. A system that compresses “matching proof” and “proof of another version” into the same status label cannot guarantee a correct publication decision from that label alone.
+
+Let $$A_N(x)$$ be the actions allowed by a norm in situation $$x$$. A system seeing only record $$z$$ can choose an action guaranteed to comply in every possible situation only if:
 
 $$
-\bigcap_{x:r(x)=z}A_N(x)\ne\varnothing
-\quad\text{for every possible }z.
+\bigcap_{x:r(x)=z} A_N(x)\ne\varnothing.
 $$
 
-The reason is that the same summary must lead to an action permitted in every compatible situation. If the intersection is empty, each choice fails somewhere. If it is nonempty, we can select a member. This addresses the existence of an information-based choice; affordability remains a further test.
+**Proposition 4. If situations sharing a record have no commonly permitted action, the system must obtain distinguishing information, change its available actions, or revise the norm before guaranteed compliance is possible.**
 
-The formulation also prevents an overstatement. Two situations need not always be distinguished. If “defer and investigate” is allowed in both, it can be chosen without knowing which situation obtains. That escape closes only if investigation is forbidden, too late, or beyond the available budget.
+A rule allowing “pending verification” may provide a common action without immediate access to all details. The informational impossibility can arise when the system must also make an immediate affirmative judgment.
 
-The resulting demand is considerably narrower than “collect more data.” Under this particular rule, a reliable indicator of whether anyone is below twenty may suffice. Names, addresses, and complete life histories need not be retained. If the task also requires identifying the recipient of an allocation, the information requirement changes again. Privacy constraints can themselves be included among the conditions on permissible actions. If the requirements cannot jointly be met, the conflict should be exposed rather than concealed by an algorithm.
+Normative demands thus require a further design check: a system held responsible for a distinction needs a way to observe it. Passing only an aggregate score downstream while demanding judgments about versions, grounds, and responsibility builds the failure into the process.
 
-Ethics can therefore reach upstream into data design. Adding a fairness score to a completed model's outputs may come too late: the distinctions needed to assess a harm may already have disappeared from the fields. For [a morality we can revise](/en/posts/a-morality-we-can-revise/), this creates a further difficulty. Agreement on a better norm tomorrow does not guarantee that yesterday's decisions can be reassessed. The necessary evidence may no longer exist.
+<span id="s5"></span><span id="s12"></span>
 
-A promise to revise can be far removed from the conditions that make revision possible.
-
-<span id="s5"></span>
-<span id="s12"></span>
-
-## The same answers, different futures
+## Fifth consequence: preserving evidence preserves future questions
 {: #future }
 
-Two systems currently use summaries and answer the same test questions correctly. One retains access to the original records; the other has permanently deleted them. Their present scores are identical. A new question exposes the difference.
+OpenAI's revision records retain withdrawal notices and routes to older manuscripts.[^history] A reader asking for today's manuscript count may not need them. A future researcher asking which step changed may have no adequate substitute.
 
-We can calculate that difference, but cannot assume that keeping options open is always worth the cost.
+The value of a record cannot therefore be measured only by current answer accuracy.
 
-Take independent fair bits $$a,b$$ again. Today's question asks for $$a$$. Both systems retain it and have not yet read $$b$$. There will be one future question: with probability $$\lambda$$ it asks for $$b$$, and otherwise for $$a$$. Before learning which question will arrive, a system can pay $$s$$ to acquire and store $$b$$. If it retains later access, it may instead pay $$c$$ to read $$b$$ only when asked for it. Otherwise it must guess. A wrong answer costs $$L$$; all costs have been converted to common units under specified weights.
-
-After excluding fixed processing costs common to all three approaches, their expected additional costs are:
-
-| Approach | Expected additional cost |
-| :-- | --: |
-| Neither acquire early nor query later; guess on the new task | $$\lambda L/2$$ |
-| Acquire and retain $$b$$ in advance | $$s$$ |
-| Wait for the question and query only when necessary | $$\lambda c$$ |
-
-Within these available operations, the minimum additional cost is
+A small decision model makes the issue explicit. A detail is not needed today, but will be queried later with probability $$\lambda$$. Preserving it now costs $$s$$. Otherwise, a reliable source will supply it later for cost $$c$$. Assume later retrieval answers correctly and delay causes no additional loss. Expected costs are:
 
 $$
-V=\min\{\lambda L/2,\ s,\ \lambda c\}.
+C_{\mathrm{save}}=s,\qquad C_{\mathrm{retrieve}}=\lambda c.
 $$
 
-The system is not allowed to peek at the future question. The early acquisition decision precedes both seeing $$b$$ and learning the question; a later query follows the question. With no other relevant clues, random mixtures of these policies produce weighted averages of their costs and cannot improve on the minimum.
+The first is preservation now; the second is retrieval if needed. **Proposition 5. Among these two policies and under these assumptions, preserving now is strictly cheaper if and only if** $$s<\lambda c$$. This is a conditional result, not a prescription to retain all raw data forever.
 
-If later access has been closed, the $$\lambda c$$ option disappears. An unused channel already affects the cost at which the system can respond to what comes next.
+If the future source may disappear, retrieval is no longer equivalent to preservation. The model then needs a loss for unavailable answers. Privacy restrictions can also prohibit retention or require additional safeguards and costs. Those conditions cannot be omitted and then settled by the original formula.
 
-![Expected costs of early retention, querying on demand, and guessing under a specified future-task probability and cost model. The lowest attainable cost changes when later access is removed.](/assets/img/articles/aei-v3-option-cost.webp){: width="1600" height="1100" }
-_Figure 4. Wrong-answer loss L = 1, early acquisition and retention cost s = 0.12, later query cost c = 0.2. The curves are formula outputs. Different task distributions, costs, or available operations can change the preferred policy._
+**The resulting philosophical proposal is to include revisability in the assessment of understanding.** Two systems may give the same answer today, while only one retains traceable grounds. A withdrawal or a new question may expose a large difference between them.
 
-Revisability now has a content beyond attitude. After a question changes, which operations for collecting evidence, changing representations, and checking results can actually be performed? Who is authorized to start them? A file existing somewhere does not mean this system can read it. Read permission does not ensure it can be retrieved before a deadline.
+Longer evaluations can detect what a short score hides. A useful summary should state the purposes it preserves, the follow-up questions it sacrifices, and whether omitted evidence remains recoverable.
 
-The formula also declines to guarantee that retaining everything is best. Rare new questions, expensive memory, or cheap, reliable retrieval produce different choices. In practice, even $$\lambda$$ may be unknown. We can compare assumptions or specify a worst-case loss we are prepared to bear. We cannot pass off an uncertain future as a known distribution.
+<span id="s13"></span><span id="s15"></span>
 
-The change concerns evaluation. Today's answer sheet does not describe the whole of a system's cognitive capacity. Part of that capacity resides in what it can actually do when change becomes necessary.
-
-<span id="s13"></span>
-<span id="s15"></span>
-
-## Where philosophy can work
+## Sixth consequence: revision must follow dependencies
 {: #philosophy }
 
-At this point, saying that philosophy should study understanding has acquired a different content.
+The three OpenAI withdrawals were not merely three unrelated error labels. The revision record identifies a defect affecting a construction used by other manuscripts. This suggests another formal question: after evidence changes, which conclusions retain proof support?
 
-What a ledger deletes, what a model can read, which counterexamples a test admits, and who may challenge an institution are usually treated as conditions fixed before the real work begins. Yet the arguments above show how success or failure can be determined at that earlier stage. Working harder within the given conditions may leave even the source of a problem invisible.
+Represent a conclusion as a node, connected to the premises and lemmas used to establish it. An acceptable proof requires valid inference steps and remaining assumptions that meet the assessment's acceptance conditions.
 
-I propose making those conditions part of philosophy's work: the questions we formulate, the concepts we use, the distinctions we preserve, the rules of inference, the procedures of checking, and the ways people can revise all of these. They can be analyzed separately. They must eventually fit together in a process of inquiry that can operate.
+**Proposition 6. When a necessary supporting premise loses its accepted status, every proof that depends on that premise loses that justification. A conclusion with an independent valid proof can retain its support.**
 
-There are predecessors. Carnap's work on explication asks us to construct clearer, usable concepts, rather than confining ourselves to the analysis of ordinary words.[^carnap] Peirce's discussion of the fixation of belief gives an important place to methods of inquiry and constraints beyond individual preference.[^peirce] Neither contextual understanding nor the idea that philosophy can design concepts is a discovery made here.
+This does not say that every downstream conclusion is false. A dependency graph identifies arguments requiring review. If a conclusion has another unaffected valid proof, failure of one route does not remove every ground for it. Without dependency records, a system may struggle to identify reliably which answers need revision.
 
-The attempted contribution is a connected set of checks. A concept's range depends on the distinctions it preserves. A promise of correction depends on whether failure can become visible. A norm's implementability depends on whether merged situations admit a common permissible action. Future capacity depends on executable procedures for retrieval and revision. Most of the mathematical results have established relatives. Applying them together in a philosophical proposal will be worthwhile if it reveals conflicts we would otherwise miss and helps us build better arrangements.
+This supplies a concrete research task: measure whether AI can identify affected derivations after a lemma is withdrawn, retain conclusions with independent support, and avoid continuing to cite obsolete versions.
 
-I call this direction Axiomatic Embedded Inquiry, or AEI. The name belongs to a revisable research program. It need not announce a completed unified theory of philosophy.
+The proposed assessment of understanding now includes producing results, giving grounds, handling changes, and withdrawing claims whose support has failed. These capabilities can be measured separately.
 
-One choice in this proposal cannot be supplied by a theorem: I favor evaluating understanding publicly through warranted abilities, their scope, and practicable revision. This is a claim about concepts and methods. The preceding results expose constraints that the proposal must face; they do not prove that everyone must accept this use of “understanding.”
+The mathematical propositions are deductions under explicit conditions. Including the corresponding capabilities in an account of understanding is a philosophical proposal. The former invite proof checking; the latter invite objections about what the proposal may omit, including explanation, intentionality, or subjective experience.
 
-Someone may object that an answer table could satisfy the earlier tasks without understanding anything. I agree that this identifies a gap. Information sufficiency asks whether correct answers can be recovered. We may additionally require tracking consequences under changed conditions, separating causes from correlations, reconstructing reasons, or handling unmemorized cases within reasonable cost. Those requirements need separate assessment. A high score cannot stand in for them. Experience and consciousness lie outside the finite model; neither their presence nor their absence follows from it.
-
-Axiomatization does not end every dispute. It makes certain substitutions harder: presenting one success as complete understanding, treating undetectable mistakes as readily correctable, identifying a preferred score with truth, or treating unavailable information as something effort alone can supply.
-
-This changes what a philosophical advance might look like. It may consist in proving that familiar demands cannot all be satisfied together, then identifying the information that must be retained, the cost that must be paid, or the norm that must be openly revised if we still intend to achieve the aim.
+Even without agreement on a complete account, several poor arguments can be rejected. Authorship cannot replace content checking. One correct answer does not establish transfer. A whole process's performance cannot be assigned to one component without examining contributions. Executable scale cannot stand in for correctness.
 
 <span id="s14"></span>
 
-## Give the proposal a chance to fail
+## Three experiments that can actually be designed
 {: #experiments }
 
-These ideas can be tested experimentally. The experiments should leave room for results that disappoint our expectations.
+Axiomatization should lead to executable research designs. The following are proposals based on the available materials; this article does not report having run them.
 
-The first separates missing information from inadequate computation. Give two groups the same questions and total resource allowance. One can only deliberate over data with a crucial field removed; the other can spend some of its allowance retrieving that field. Add another task family in which all information is present but more computation is required. Extra evidence should help the first kind of difficulty, and extra computation the second. Where the data-generating and deletion procedures genuinely remove all answer clues, thought alone should not break the information bound. If it appears to do so, first check for leakage or an inapplicable bound.
+**Remove different materials and measure which capabilities disappear.** Prepare versions containing only conclusions, full papers, and papers plus dependency and revision records. Hold the model and budget constant. Separately test status recognition, explanation of assumptions, error location, and changed conditions. A correct answer may already be present in model parameters: absence from the prompt does not establish absence from the system. Newly constructed controlled tasks may be needed, clearly distinguished from the published research.
 
-The second evaluates alarms. Counting admissions of uncertainty is insufficient. Measure missed errors, false alarms, and the cost of reducing both. A control group without relevant clues can be compared with the bound above. Introduce measurable clues, then ask whether selective checking actually saves resources. This distinguishes cautious language from diagnostically useful information.
+**Change the evidence.** Supply a collection of supported conclusions with explicit dependencies, then withdraw a lemma. Penalize both keeping proofs whose only support has failed and indiscriminately withdrawing conclusions with independent proofs. This measures revision rather than a habit of always asking for more checks.
 
-The third delays revealing a new task family. First bring systems to comparable performance on the original task. Then compare systems with access to original records, systems left with summaries alone, and systems retaining different summaries. Charge for storage, retrieval, coordination, inference, and verification as they adapt. Task distributions and resource differences must be declared; otherwise, apparent revisability may simply reflect more data or more time.
+**Compare research processes at equal cost.** One process concentrates on generating candidates; another reserves resources for verification, explanation, and version maintenance. Compare outputs that meet a predefined standard for further research, not manuscript count alone. Include outside tools and human work in the budget.
 
-These are proposed studies. The figures and numbers in this essay come from finite examples with explicit assumptions. They are not measurements of any deployed agent.
-
-An implementation would not need an allegedly omniscient supervisor for every failure. It could ask for a checkable diagnosis: missing evidence, excessive computational demand, conflicting criteria, or an unresolved cause. The diagnosis itself needs evaluation. Unclassified cases still need sampling or escalation. Whether the arrangement earns its cost depends on the errors it prevents and the resources it consumes.
+These experiments do not independently settle consciousness. They address specific questions: which records support which abilities, which errors require additional evidence rather than computation, and which research processes produce work that remains usable after challenge.
 
 <span id="s16"></span>
 
-## Put the name back
+## Claims of understanding should become as concrete as the results
 {: #return }
 
-Now put the author's name back on the geometry proof.
+The new 3SUM and APSP results make “AI only rearranges existing answers” inadequate as a description of current research. OpenAI's release and withdrawals show why production volume, proof status, and revisability need separate records. Biomolecular-modeling results show why greater speed and scale must still be evaluated against the original correctness requirement.
 
-The name still matters. We ask where the data came from, who is responsible, and how much trust is warranted. Knowing how a system fails affects how we allocate checking effort. But a valid proof does not lose its validity. Nor can a familiar, recognizably human author make an invalid inference sound.
+Understanding need not require complete possession of the world. It does require a stated scope: the questions covered, the evidence available, the resources used, and the response when evidence changes.
 
-We can hold our own understanding to the same demands. Being able to answer deserves recognition. Giving reasons, surviving changed conditions, and deciding when to check on the basis of evidence and risk are further abilities to acquire. Different bodies, tools, and arrangements of cooperation may realize them. They need not all resemble the processes familiar from human introspection. This is part of the space opened by [“From Reaction to Heterogeneous Rationality”](/en/posts/from-reaction-to-heterogeneous-rationality/).
+Axiomatization connects these requirements. Retained information limits follow-up questions. Algorithms determine the cost of using it. Publication rules determine which distinctions cannot be omitted. Dependency records make targeted correction possible.
 
-AI has not established that thousands of years of human inquiry were mistaken. It does remove a convenience: familiar human forms of cognition can no longer be assumed to mark the natural boundary of cognitive achievement. An axiomatic study of finite inquiry can then ask what follows. If understanding does not require a complete internal copy of the world, which abilities should qualify, and what must we pay for the standards we choose?
-
-One score sheet will not finish the answer. The ledger can still correctly report fifty today. Whether it can tell us who needs help tomorrow depends on what we keep now.
+New capabilities deserve recognition and precise questions. As AI supplies methods researchers had not found, understanding needs criteria that can follow those results into their proofs, applications, and revisions.
 
 <span id="s17"></span>
 
-## Notes and references
+## Sources and version note
 {: #references }
 
-[^ag]: Trinh, T. H. et al. (2024), “Solving olympiad geometry without human demonstrations,” *Nature* 625, 476–482. [Paper](https://www.nature.com/articles/s41586-023-06747-5). Cited for its neural-symbolic method and checkable geometry results, not as evidence of general understanding or consciousness.
-[^uml]: Shalev-Shwartz, S. & Ben-David, S. (2014), *Understanding Machine Learning: From Theory to Algorithms*. [Authors' textbook](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf). Background for distinguishing distributional performance, evidence from finite samples, and identification of a generating mechanism; no claim that all learning is lossy compression.
-[^blackwell]: Blackwell, D. (1953), “Equivalent Comparisons of Experiments,” *Annals of Mathematical Statistics* 24(2), 265–272. [DOI](https://doi.org/10.1214/aoms/1177729032). The value of information across decision problems has an established theory. The essay's one-bit example is an elementary construction, not a statement of the full theorem.
-[^pearl]: Pearl, J. (2009), “Causal inference in statistics: An overview,” *Statistics Surveys* 3, 96–146. [Author's paper](https://ftp.cs.ucla.edu/pub/stat_ser/SS-2009-57-Sup.pdf). The two-model example illustrates that observational agreement need not imply agreement under intervention.
-[^cook]: Cook, M. (2004), “Universality in Elementary Cellular Automata,” *Complex Systems* 15(1), 1–40. [Original paper page](https://www.complex-systems.com/abstracts/v15_i01_a01/). Universality involves appropriate encodings and background configurations; arbitrary finite patterns are not claimed to have the same difficulty.
-[^carnap]: Carnap, R. (1950), *Logical Foundations of Probability*, Chapter I, §§2–3, on the task and requirements of explication. [Scan](https://www.fitelson.org/confirmation/carnap_logical_foundations_of_probability.pdf). Cited as a precursor in concept construction, not as the source of the essay's entire formal model.
-[^peirce]: Peirce, C. S. (1877), “The Fixation of Belief,” *Popular Science Monthly* 12, 1–15. [Transcription](https://www.peirce.org/writings/p107.html). A precursor concerning methods of inquiry and external constraints.
+Sources were checked on **October 8, 2026**. Recent results are described from original papers, institutional reports, and revision records. This article does not independently rerun every Lean proof or treat a preprint or institutional report as completed external peer review. Its propositions and experiments are analyses under stated assumptions, without a claim of priority for the underlying mathematical observations. The conditions and limitations are stated in the article; the proposed experiments have not been performed.
+
+[^algorithm]: Josh Alman and Virginia Vassilevska Williams, [*Truly Subquadratic 3SUM and Truly Subcubic APSP via Triangles in Sparse Lopsided Graphs*](https://arxiv.org/abs/2610.06783), arXiv:2610.06783v1, October 5, 2026. The article uses the abstract's bounds in its stated integer regimes. Theorem 22 gives the stronger APSP exponent 2.99942. These are not measured practical runtimes.
+[^method]: The paper's [Acknowledgments and Methodology](https://arxiv.org/html/2610.06783v1) describes discovery, human contributions, and subsequent Lean certification, with a link to [anthropics/formal-math — 3sum-apsp](https://github.com/anthropics/formal-math/tree/main/3sum-apsp). The account here does not characterize the complete project as human-free.
+[^release]: OpenAI, [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/), October 6, 2026.
+[^catalogue]: OpenAI, [math repository](https://github.com/openai/math) and [CONTENTS.md](https://github.com/openai/math/blob/main/CONTENTS.md). The initial 722 manuscripts and 372 families must be read alongside the current 719-manuscript count and withdrawal record.
+[^history]: OpenAI, [history.md](https://github.com/openai/math/blob/main/history.md), October 7, 2026 revision entry. Source for withdrawals, revisions, retained older versions, and the 300/719 formalization figure.
+[^bio]: Anthropic, [How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling), September 17, 2026. Publisher-reported results; identical outputs and permitted numerical differences are different evaluation conditions. The very large runs used one eight-GPU B300 node, not one GPU.
+[^agmai]: Advisory Group on Mathematics and Artificial Intelligence, [Responsible Release of AI-Generated Mathematics](https://agmai.org/general-sep29/), September 29, 2026. These publication recommendations do not certify individual results.
